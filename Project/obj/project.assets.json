@@ -349,11 +349,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/loganfrank/Desktop/softwareEngineering/Project/Project/Project.csproj",
+      "projectUniqueName": "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project/Project.csproj",
       "projectName": "Project",
-      "projectPath": "/Users/loganfrank/Desktop/softwareEngineering/Project/Project/Project.csproj",
+      "projectPath": "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project/Project.csproj",
       "packagesPath": "/Users/loganfrank/.nuget/packages/",
-      "outputPath": "/Users/loganfrank/Desktop/softwareEngineering/Project/Project/obj",
+      "outputPath": "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

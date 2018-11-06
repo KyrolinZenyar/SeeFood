@@ -20,6 +20,13 @@ namespace Project
             Text = "Prev"
         };
 
+        CameraPreview camera = new CameraPreview
+        {
+            Camera = CameraOptions.Rear,
+            HorizontalOptions = LayoutOptions.FillAndExpand,
+            VerticalOptions = LayoutOptions.FillAndExpand
+        };
+
         public CameraPage()
         {
             AddOptions();
@@ -35,6 +42,7 @@ namespace Project
             SetColumnSpan(classifyButton, 2);
             options.Children.Add(previousSubmissionsButton, 3, 0);
 
+            Children.Add(camera, 0, 0);
             Children.Add(options, 0, 1);
         }
 
