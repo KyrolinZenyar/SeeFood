@@ -1,5 +1,5 @@
---cache=/Users/loganfrank/Desktop/softwareEngineering/Project/Project.iOS/obj/iPhone/Debug/device-builds/iphone10.1-12.1/mtouch-cache
---dev=/Users/loganfrank/Desktop/softwareEngineering/Project/Project.iOS/bin/iPhone/Debug/device-builds/iphone10.1-12.1/Project.iOS.app
+--cache=/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhone/Debug/device-builds/iphone10.1-12.1/mtouch-cache
+--dev=/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/bin/iPhone/Debug/device-builds/iphone10.1-12.1/Project.iOS.app
 --executable=Project.iOS
 --debug
 --linksdkonly
@@ -9,10 +9,10 @@
 --aot-options=-O=-float32
 --http-message-handler=NSUrlSessionHandler
 --abi=arm64
---symbollist=/Users/loganfrank/Desktop/softwareEngineering/Project/Project.iOS/obj/iPhone/Debug/device-builds/iphone10.1-12.1/mtouch-symbols.list
+--symbollist=/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhone/Debug/device-builds/iphone10.1-12.1/mtouch-symbols.list
 --dsym=no
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
--r=/Users/loganfrank/Desktop/softwareEngineering/Project/Project/bin/Debug/netstandard2.0/Project.dll
+-r=/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project/bin/Debug/netstandard2.0/Project.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
@@ -195,7 +195,7 @@
 -r=/Users/loganfrank/.nuget/packages/xamarin.forms/3.1.0.697729/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/loganfrank/.nuget/packages/xamarin.forms/3.1.0.697729/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/loganfrank/.nuget/packages/xamarin.forms/3.1.0.697729/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
--r=/Users/loganfrank/Desktop/softwareEngineering/Project/Project/bin/Debug/netstandard2.0/Project.dll
+-r=/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project/bin/Debug/netstandard2.0/Project.dll
 --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/loganfrank/Desktop/softwareEngineering/Project/Project.iOS/bin/iPhone/Debug/Project.iOS.exe
+--root-assembly=/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/bin/iPhone/Debug/Project.iOS.exe
 

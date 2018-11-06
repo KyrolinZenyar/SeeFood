@@ -98,6 +98,8 @@
     <None Include="Resources\classify.png" />
     <None Include="Resources\gallery.png" />
     <None Include="Resources\previous.png" />
+    <Compile Include="CameraPreviewRenderer.cs" />
+    <Compile Include="UICameraPreview.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
