@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{A87AD617-A01E-43E0-BF49-D67D1B431CE0}|Default">
+  <MonoDevelop.Ide.ItemProperties.Project.Droid PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Project.iOS/PicturePickerImplementation.cs">
+    <Files>
+      <File FileName="Project/AppPage.cs" Line="11" Column="25" />
+      <File FileName="Project/GalleryPage.cs" Line="9" Column="16" />
+      <File FileName="Project/CameraPage.cs" Line="24" Column="10" />
+      <File FileName="Project/UserGalleryPage.cs" Line="35" Column="1" />
+      <File FileName="Project/PreviousSubmissionsPage.cs" Line="16" Column="1" />
+      <File FileName="Project.iOS/PicturePickerImplementation.cs" Line="30" Column="67" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Project" expanded="True">
+            <Node name="Project" expanded="True" />
+            <Node name="Project.Droid" expanded="True" />
+            <Node name="Project.iOS" expanded="True">
+              <Node name="PicturePickerImplementation.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Project.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.a5b9bf6224977629aa5389faf0b34110b1a7f121" automaticSigning="False" />
+  <MultiItemStartupConfigurations />
+</Properties>
