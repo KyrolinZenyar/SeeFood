@@ -36,5 +36,7 @@
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>NSCameraUsageDescription</key>
 	<string>I need your camera bud</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Viewing Photos 1</string>
 </dict>
 </plist>

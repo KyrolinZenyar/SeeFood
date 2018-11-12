@@ -59,6 +59,7 @@ namespace Project
         }
 
         private void ClassifyThese(object sender, EventArgs e) {
+            //SendStuffToAWS
             ClassificationPage page = new ClassificationPage();
             //Other setup stuff
             App.SwitchTo(page);

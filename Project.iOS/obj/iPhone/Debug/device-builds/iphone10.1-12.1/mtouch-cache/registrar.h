@@ -11,14 +11,17 @@
 #import <GLKit/GLKit.h>
 #import <CoreSpotlight/CoreSpotlight.h>
 #import <QuartzCore/QuartzCore.h>
+#import <WebKit/WebKit.h>
 #import <AVFoundation/AVFoundation.h>
 #import <CoreGraphics/CoreGraphics.h>
 
 @class UIApplicationDelegate;
 @class GLKViewDelegate;
+@class WKNavigationDelegate;
 @class UIKit_UIControlEventProxy;
 @class UIActionSheetDelegate;
 @class UICollectionViewDataSource;
+@class UIImagePickerControllerDelegate;
 @class UIPickerViewModel;
 @class UIScrollViewDelegate;
 @class UISplitViewControllerDelegate;
@@ -52,15 +55,18 @@
 @class __UITapGestureRecognizer;
 @class __UIPanGestureRecognizer;
 @class __UIPinchGestureRecognizer;
+@class UIKit_UIImagePickerController__UIImagePickerControllerDelegate;
 @class UIKit_UINavigationBar_UINavigationBarAppearance;
 @class UIKit_UISearchBar__UISearchBarDelegate;
 @class UIKit_UITextField__UITextFieldDelegate;
 @class UIKit_UIScrollView__UIScrollViewDelegate;
 @class UIKit_UITextView__UITextViewDelegate;
 @class UIKit_UISplitViewController__UISplitViewControllerDelegate;
+@class UIKit_UISwitch_UISwitchAppearance;
 @class UIKit_UITabBarController__UITabBarControllerDelegate;
 @class UIKit_UIWebView__UIWebViewDelegate;
 @class __NSObject_Disposer;
+@class __XamarinObjectObserver;
 @class Xamarin_Forms_Platform_iOS_iOS7ButtonContainer;
 @class Xamarin_Forms_Platform_iOS_GlobalCloseContextGestureRecognizer;
 @class Xamarin_Forms_Platform_iOS_ModalWrapper;
@@ -75,6 +81,7 @@
 @class Xamarin_Forms_Platform_iOS_LabelRenderer;
 @class Xamarin_Forms_Platform_iOS_HeaderWrapperView;
 @class Xamarin_Forms_Platform_iOS_FormsRefreshControl;
+@class Xamarin_Forms_Platform_iOS_ReadOnlyField;
 @class Xamarin_Forms_Platform_iOS_ProgressBarRenderer;
 @class Xamarin_Forms_Platform_iOS_ScrollViewRenderer;
 @class Xamarin_Forms_Platform_iOS_SearchBarRenderer;
@@ -108,6 +115,8 @@
 @class Xamarin_Forms_Platform_iOS_FormsUITableViewController;
 @class Xamarin_Forms_Platform_iOS_NavigationMenuRenderer_NavigationCell;
 @class Xamarin_Forms_Platform_iOS_NavigationMenuRenderer;
+@class Xamarin_Forms_Platform_iOS_NavigationRenderer_FormsNavigationBar;
+@class Xamarin_Forms_Platform_iOS_NavigationRenderer_Container;
 @class Xamarin_Forms_Platform_iOS_NavigationRenderer;
 @class Xamarin_Forms_Platform_iOS_OpenGLViewRenderer_Delegate;
 @class Xamarin_Forms_Platform_iOS_OpenGLViewRenderer;
@@ -123,6 +132,8 @@
 @class Xamarin_Forms_Platform_iOS_TimePickerRenderer;
 @class Xamarin_Forms_Platform_iOS_WebViewRenderer_CustomWebViewDelegate;
 @class Xamarin_Forms_Platform_iOS_WebViewRenderer;
+@class Xamarin_Forms_Platform_iOS_WkWebViewRenderer_CustomWebViewDelegate;
+@class Xamarin_Forms_Platform_iOS_WkWebViewRenderer;
 @class Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_PrimaryToolbarItem;
 @class Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_SecondaryToolbarItem_SecondaryToolbarItemContent;
 @class Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_SecondaryToolbarItem;
@@ -140,12 +151,22 @@
 	-(id) init;
 @end
 
+@interface WKNavigationDelegate : NSObject<WKNavigationDelegate> {
+}
+	-(id) init;
+@end
+
 @interface UIActionSheetDelegate : NSObject<UIActionSheetDelegate> {
 }
 	-(id) init;
 @end
 
 @interface UICollectionViewDataSource : NSObject<UICollectionViewDataSource> {
+}
+	-(id) init;
+@end
+
+@interface UIImagePickerControllerDelegate : NSObject<UINavigationControllerDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UINavigationControllerDelegate> {
 }
 	-(id) init;
 @end
@@ -210,6 +231,9 @@
 	-(void) xamarinSetGCHandle: (int) gchandle;
 	-(UIColor *) backgroundColor;
 	-(void) setBackgroundColor:(UIColor *)p0;
+	-(NSArray *) keyCommands;
+	-(void) tabForward:(UIKeyCommand *)p0;
+	-(void) tabBackward:(UIKeyCommand *)p0;
 	-(CGSize) sizeThatFits:(CGSize)p0;
 	-(void) layoutSubviews;
 	-(BOOL) conformsToProtocol:(void *)p0;
@@ -294,6 +318,11 @@
 	-(UIColor *) barTintColor;
 	-(NSDictionary *) largeTitleTextAttributes;
 	-(NSDictionary *) titleTextAttributes;
+@end
+
+@interface UIKit_UISwitch_UISwitchAppearance : UIKit_UIControl_UIControlAppearance {
+}
+	-(UIColor *) onTintColor;
 @end
 
 @interface Xamarin_Forms_Platform_iOS_ViewRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
@@ -571,6 +600,17 @@
 @end
 
 @interface Xamarin_Forms_Platform_iOS_WebViewRenderer : UIWebView {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) layoutSubviews;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_WkWebViewRenderer : WKWebView {
 }
 	-(void) release;
 	-(id) retain;

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Xamarin.Forms;
 
 namespace Project
@@ -10,6 +11,8 @@ namespace Project
         {
             Text = "Go back"
         };
+
+        //List<ImageWithConfidence> images = new List<ImageWithConfidence>();
 
         public PreviousSubmissionsPage()
         {

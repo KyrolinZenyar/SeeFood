@@ -8,6 +8,11 @@ namespace Project
         protected Grid options = new Grid();
         public AppPage()
         {
+            SetUpPage();
+        }
+
+        private void SetUpPage() {
+            Padding = new Thickness(0, 20, 0, 0);
             RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
             RowDefinitions.Add(new RowDefinition { Height = new GridLength(50) });
 
