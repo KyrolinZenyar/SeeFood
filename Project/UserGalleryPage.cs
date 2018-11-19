@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
+using System.Net.Http;
 using Xamarin.Forms;
 
 namespace Project
@@ -63,11 +65,25 @@ namespace Project
             Stream stream = await DependencyService.Get<IPicturePicker>().GetImageStreamAsync();
             if (stream != null)
             {
+                Dictionary<Image, byte[]> imagesToUpload = new Dictionary<Image, byte[]>();
+                MemoryStream memStream = new MemoryStream();
+                stream.CopyTo(memStream);
+                byte[] imageData = memStream.ToArray();
+                //IF THIS DOESN'T WORK, TRY SWAPPING TO THE IMAGESTREAM VERSION
+                //Stream imageStream = new MemoryStream(imageData);
                 Image image = new Image
                 {
-                    Source = ImageSource.FromStream(() => stream),
-                    BackgroundColor = Color.White,
+                    //Source = Xamarin.Forms.ImageSource.FromStream(() => stream)
+                    Source = Xamarin.Forms.ImageSource.FromStream(() => memStream),
+                    BackgroundColor = Color.White
+                    //Source = Xamarin.Forms.ImageSource.FromStream(() => imageStream)
                 };
+                imagesToUpload.Add(image, imageData);
+                //Image image = new Image
+                //{
+                //    Source = ImageSource.FromStream(() => stream),
+                //    BackgroundColor = Color.White,
+                //};
 
                 imageGrid.Children.Add(image, counter % 4, counter / 4);
                 counter++;
@@ -75,11 +91,59 @@ namespace Project
                     imageGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(160) });
                 }
                 images.Add(image);
+
+                //classifyButton.Text = "Classify " + imageCount + " Photos";
+                //Classify image as each photo is taken
+                ClassifyImage(imagesToUpload);
             }
             else
             {
                 pickPictureButton.IsEnabled = true;
             }
+        }
+
+        public static Dictionary<Image, string> serverResponses = new Dictionary<Image, string>();
+
+        //Send Images To AWS
+        public static async void ClassifyImage(Dictionary<Image, byte[]> imagesToUpload)
+        {
+
+            //Defines web address to upload photos to
+            var AWSServer = "http://seefood-dev2.us-east-2.elasticbeanstalk.com/upload";
+            try
+            {
+                //Iterate through all images passed in (should only be one at a time)
+                foreach (KeyValuePair<Image, byte[]> uploadData in imagesToUpload)
+                {
+                    //Get byte array of image
+                    var byteArrayToUpload = uploadData.Value;
+
+                    //Set up HTTP client and data to upload (byte array) THIS MAY NOT WORK
+                    HttpClient serverClient = new HttpClient();
+                    MultipartFormDataContent uploadDataContent = new MultipartFormDataContent();
+                    ByteArrayContent byteArrayContent = new ByteArrayContent(byteArrayToUpload);
+                    string fileName = "SeeFoodUpload" + DateTime.Now.ToString("yyyy-mm-dd-HH-mm-ss") + ".png";
+                    uploadDataContent.Add(byteArrayContent, "file", fileName);
+
+                    //Get server response
+                    var response = await serverClient.PostAsync(AWSServer, uploadDataContent);
+
+                    string responseString = response.Content.ReadAsStringAsync().Result;
+
+                    //Put string of server response into dictionary associated with image.
+                    serverResponses.Add(uploadData.Key, responseString);
+
+                    Debug.WriteLine(responseString);
+                }
+                imagesToUpload.Clear();
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("Exception occurred: " + ex.ToString());
+
+                return;
+            }
+
         }
     }
 }

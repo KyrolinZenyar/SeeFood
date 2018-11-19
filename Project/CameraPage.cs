@@ -115,7 +115,8 @@ namespace Project
                     HttpClient serverClient = new HttpClient();
                     MultipartFormDataContent uploadDataContent = new MultipartFormDataContent();
                     ByteArrayContent byteArrayContent = new ByteArrayContent(byteArrayToUpload);
-                    uploadDataContent.Add(byteArrayContent);
+                    string fileName = "SeeFoodUpload" + DateTime.Now.ToString("yyyy-mm-dd-HH-mm-ss") + ".png";
+                    uploadDataContent.Add(byteArrayContent, "file", fileName);
 
                     //Get server response
                     var response = await serverClient.PostAsync(AWSServer, uploadDataContent);
@@ -127,6 +128,7 @@ namespace Project
 
                     Debug.WriteLine(responseString);
                 }
+                imagesToUpload.Clear();
             }
             catch (Exception ex)
             {
