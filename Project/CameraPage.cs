@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using Xamarin.Forms;
 
 namespace Project
@@ -10,10 +11,12 @@ namespace Project
             Text = "Gallery"
         };
 
-        Button classifyButton = new Button
+        static Button classifyButton = new Button
         {
-            Text = "Classify Images"
+            Text = "Classify 0 Images"
         };
+        static int imageCount = 0;
+
 
         Button previousSubmissionsButton = new Button
         {
@@ -27,9 +30,16 @@ namespace Project
             VerticalOptions = LayoutOptions.FillAndExpand
         };
 
+        TapGestureRecognizer takePhoto = new TapGestureRecognizer{
+            NumberOfTapsRequired = 1
+        };
+
+
+
         public CameraPage()
         {
             AddOptions();
+
 
             userGalleryButton.Pressed += GoToGallery;
             previousSubmissionsButton.Pressed += GoToPrevious;
@@ -44,6 +54,18 @@ namespace Project
 
             Children.Add(camera, 0, 0);
             Children.Add(options, 0, 1);
+
+            camera.GestureRecognizers.Add(takePhoto);
+        }
+
+        public static void TakePhoto(Stream stream)
+        {
+            Image imageToSend = new Image
+            {
+                Source = Xamarin.Forms.ImageSource.FromStream(() => stream)
+            };
+            imageCount++;
+            classifyButton.Text = "Classify " + imageCount + " Photos";
         }
 
         private void GoToGallery(object sender, EventArgs e) {
@@ -60,6 +82,7 @@ namespace Project
 
         private void ClassifyThese(object sender, EventArgs e) {
             //SendStuffToAWS
+            imageCount = 0;
             ClassificationPage page = new ClassificationPage();
             //Other setup stuff
             App.SwitchTo(page);

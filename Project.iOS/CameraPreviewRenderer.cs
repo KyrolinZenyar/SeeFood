@@ -1,4 +1,5 @@
 ﻿using System;
+using SkiaSharp;
 using Project;
 using Project.iOS;
 using Xamarin.Forms;
@@ -9,7 +10,7 @@ namespace Project.iOS
 {
 	public class CameraPreviewRenderer : ViewRenderer<CameraPreview, UICameraPreview>
 	{
-		UICameraPreview uiCameraPreview;
+		public UICameraPreview uiCameraPreview;
 
 		protected override void OnElementChanged (ElementChangedEventArgs<CameraPreview> e)
 		{
@@ -20,24 +21,19 @@ namespace Project.iOS
 				SetNativeControl (uiCameraPreview);
 			}
 			if (e.OldElement != null) {
-				// Unsubscribe
-				uiCameraPreview.Tapped -= OnCameraPreviewTapped;
+                // Unsubscribe
+                uiCameraPreview.Tapped -= OnCameraPreviewTapped;
 			}
 			if (e.NewElement != null) {
-				// Subscribe
-				uiCameraPreview.Tapped += OnCameraPreviewTapped;
-			}
+                // Subscribe
+                uiCameraPreview.Tapped += OnCameraPreviewTapped;
+            }
 		}
 
 		void OnCameraPreviewTapped (object sender, EventArgs e)
 		{
-			if (uiCameraPreview.IsPreviewing) {
-				uiCameraPreview.CaptureSession.StopRunning ();
-				uiCameraPreview.IsPreviewing = false;
-			} else {
-				uiCameraPreview.CaptureSession.StartRunning ();
-				uiCameraPreview.IsPreviewing = true;
-			}
+            var stuff = uiCameraPreview.Capture();
+            CameraPage.TakePhoto(stuff.AsPNG().AsStream());
 		}
 
 		protected override void Dispose (bool disposing)

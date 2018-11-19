@@ -45,27 +45,6 @@ namespace Project.iOS
             return taskCompletionSource.Task;
         }
 
-        /*
-         * Attempt at getting all photos and putting into application
-        public List<UIImage> GetPix() {
-            List<UIImage> results = new List<UIImage>();
-            PHPhotoLibrary.RequestAuthorization((obj) =>
-            {
-                switch(obj){
-                    case PHAuthorizationStatus.Authorized:
-                        var options = new PHFetchOptions();
-                        var allPhotos = PHAsset.FetchAssets(PHAssetMediaType.Image ,options);
-                        break;
-                    case PHAuthorizationStatus.Denied:
-                        break;
-                    case PHAuthorizationStatus.NotDetermined:
-                        break;
-                }
-            });
-            return results;
-        }
-        */
-
         void OnImagePickerFinishedPickingMedia(object sender, UIImagePickerMediaPickedEventArgs args)
         {
             UIImage image = args.EditedImage ?? args.OriginalImage;
