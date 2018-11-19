@@ -42,16 +42,7 @@ namespace Project.Droid
 
         void OnCameraPreviewClicked(object sender, EventArgs e)
         {
-            if (cameraPreview.IsPreviewing)
-            {
-                cameraPreview.Preview.StopPreview();
-                cameraPreview.IsPreviewing = false;
-            }
-            else
-            {
-                cameraPreview.Preview.StartPreview();
-                cameraPreview.IsPreviewing = true;
-            }
+
         }
 
         protected override void Dispose(bool disposing)

@@ -514,12 +514,12 @@ bl _p_15
 .word 0x53001c00
 .word 0xaa0003f7
 .word 0xaa1703e0
-.word 0x34000860
+.word 0x34000620
 .word 0xf9401fb1
 .word 0xf9427a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 24 0
+.loc 3 25 0
 .word 0xf9401fb1
 .word 0xf9428a31
 .word 0xb4000051
@@ -527,10 +527,7 @@ bl _p_15
 .word 0xaa1903e0
 .word 0xf9406b20
 .word 0xf9002ba0
-.word 0xaa1903e0
-.word 0xeb1f033f
-.word 0x10000011
-.word 0x54001480
+.word 0xd2800000
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
@@ -540,22 +537,6 @@ ldr x0, [x16, #264]
 bl _p_3
 .word 0xaa0003e1
 .word 0xf9402ba2
-.word 0xeb1f033f
-.word 0x10000011
-.word 0x540012c0
-.word 0xf9001039
-.word 0x91008020
-.word 0xd349fc00
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0000
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x3, [x16, #16]
-.word 0x8b030000
-.word 0xd280003e
-.word 0x3900001e
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
@@ -580,21 +561,21 @@ ldr x0, [x16, #288]
 .word 0x3940005e
 bl _p_16
 .word 0xf9401fb1
-.word 0xf9436231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 25 0
-.word 0xf9401fb1
-.word 0xf9437231
+.word 0xf9431a31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 3 26 0
+.word 0xf9401fb1
+.word 0xf9432a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 27 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf9439231
+.word 0xf9434a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -603,7 +584,7 @@ bl _p_16
 bl _p_10
 .word 0xf9002ba0
 .word 0xf9401fb1
-.word 0xf943b631
+.word 0xf9436e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -613,23 +594,20 @@ bl _p_10
 .word 0x53001c00
 .word 0xaa0003f6
 .word 0xaa1603e0
-.word 0x34000860
+.word 0x34000620
 .word 0xf9401fb1
-.word 0xf943e631
+.word 0xf9439e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 28 0
+.loc 3 30 0
 .word 0xf9401fb1
-.word 0xf943f631
+.word 0xf943ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf9406b20
 .word 0xf9002ba0
-.word 0xaa1903e0
-.word 0xeb1f033f
-.word 0x10000011
-.word 0x54000920
+.word 0xd2800000
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
@@ -639,22 +617,6 @@ ldr x0, [x16, #264]
 bl _p_3
 .word 0xaa0003e1
 .word 0xf9402ba2
-.word 0xeb1f033f
-.word 0x10000011
-.word 0x54000760
-.word 0xf9001039
-.word 0x91008020
-.word 0xd349fc00
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0000
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x3, [x16, #16]
-.word 0x8b030000
-.word 0xd280003e
-.word 0x3900001e
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
@@ -679,25 +641,25 @@ ldr x0, [x16, #288]
 .word 0x3940005e
 bl _p_17
 .word 0xf9401fb1
-.word 0xf944ce31
+.word 0xf9443e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 29 0
+.loc 3 31 0
 .word 0xf9401fb1
-.word 0xf944de31
+.word 0xf9444e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 30 0
+.loc 3 32 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf944fe31
+.word 0xf9446e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf9450e31
+.word 0xf9447e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9415fb6
@@ -706,19 +668,13 @@ bl _p_17
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802140
-.word 0xaa1103e1
-bl _p_18
-.word 0xd2801420
-.word 0xaa1103e1
-bl _p_18
 
 Lme_4:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_CameraPreviewRenderer_OnCameraPreviewTapped_object_System_EventArgs
 Project_iOS_CameraPreviewRenderer_OnCameraPreviewTapped_object_System_EventArgs:
-.loc 3 33 0 prologue_end
+.loc 3 35 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -745,7 +701,7 @@ ldr x16, [x16, #296]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 34 0
+.loc 3 36 0
 .word 0xf9401bb1
 .word 0xf9407231
 .word 0xb4000051
@@ -754,7 +710,7 @@ ldr x16, [x16, #296]
 .word 0xf9406b41
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_19
+bl _p_18
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf9401bb1
@@ -770,7 +726,7 @@ bl _p_19
 .word 0xf940c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 35 0
+.loc 3 37 0
 .word 0xf9401bb1
 .word 0xf940d231
 .word 0xb4000051
@@ -779,7 +735,7 @@ bl _p_19
 .word 0xf9406b41
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_20
+bl _p_19
 .word 0xf9002ba0
 .word 0xf9401bb1
 .word 0xf940fa31
@@ -794,7 +750,7 @@ bl _p_20
 .word 0xf9411e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 36 0
+.loc 3 38 0
 .word 0xf9401bb1
 .word 0xf9412e31
 .word 0xb4000051
@@ -805,12 +761,12 @@ bl _p_20
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0x3940005e
-bl _p_21
+bl _p_20
 .word 0xf9401bb1
 .word 0xf9415a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 37 0
+.loc 3 39 0
 .word 0xf9401bb1
 .word 0xf9416a31
 .word 0xb4000051
@@ -820,7 +776,7 @@ bl _p_21
 .word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 38 0
+.loc 3 40 0
 .word 0xf9401bb1
 .word 0xf9418e31
 .word 0xb4000051
@@ -829,7 +785,7 @@ bl _p_21
 .word 0xf9406b41
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_20
+bl _p_19
 .word 0xf9002ba0
 .word 0xf9401bb1
 .word 0xf941b631
@@ -844,7 +800,7 @@ bl _p_20
 .word 0xf941da31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 39 0
+.loc 3 41 0
 .word 0xf9401bb1
 .word 0xf941ea31
 .word 0xb4000051
@@ -855,17 +811,17 @@ bl _p_20
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_21
+bl _p_20
 .word 0xf9401bb1
 .word 0xf9421631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 40 0
+.loc 3 42 0
 .word 0xf9401bb1
 .word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 41 0
+.loc 3 43 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -888,7 +844,7 @@ Lme_5:
 	.align 4
 	.no_dead_strip Project_iOS_CameraPreviewRenderer_Dispose_bool
 Project_iOS_CameraPreviewRenderer_Dispose_bool:
-.loc 3 44 0 prologue_end
+.loc 3 46 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -915,7 +871,7 @@ ldr x16, [x16, #304]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 45 0
+.loc 3 47 0
 .word 0xf94017b1
 .word 0xf9407231
 .word 0xb4000051
@@ -929,7 +885,7 @@ ldr x16, [x16, #304]
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 46 0
+.loc 3 48 0
 .word 0xf94017b1
 .word 0xf940a631
 .word 0xb4000051
@@ -945,7 +901,7 @@ bl _p_9
 .word 0xf9402ba1
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_20
+bl _p_19
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf940ea31
@@ -954,12 +910,12 @@ bl _p_20
 .word 0xf94027a1
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_22
+bl _p_21
 .word 0xf94017b1
 .word 0xf9410a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 47 0
+.loc 3 49 0
 .word 0xf94017b1
 .word 0xf9411a31
 .word 0xb4000051
@@ -975,17 +931,17 @@ bl _p_9
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_22
+bl _p_21
 .word 0xf94017b1
 .word 0xf9415a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 48 0
+.loc 3 50 0
 .word 0xf94017b1
 .word 0xf9416a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 49 0
+.loc 3 51 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -998,12 +954,12 @@ bl _p_22
 .word 0xaa1a03e0
 .word 0xaa1903e0
 .word 0xaa1a03e1
-bl _p_23
+bl _p_22
 .word 0xf94017b1
 .word 0xf941ae31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 50 0
+.loc 3 52 0
 .word 0xf94017b1
 .word 0xf941be31
 .word 0xb4000051
@@ -1038,7 +994,7 @@ ldr x16, [x16, #312]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_24
+bl _p_23
 .word 0xf9400fb1
 .word 0xf9404a31
 .word 0xb4000051
@@ -1086,7 +1042,7 @@ ldr x16, [x16, #320]
 .word 0xaa1a03e0
 .word 0xaa1803e0
 .word 0xaa1a03e1
-bl _p_25
+bl _p_24
 .word 0xaa0003f5
 .word 0xf94023b1
 .word 0xf9408a31
@@ -1158,10 +1114,10 @@ ldr x1, [x16, #16]
 .word 0xd65f03c0
 .word 0xd2802140
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 .word 0xd2801f60
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_8:
 .text
@@ -1270,10 +1226,10 @@ ldr x1, [x16, #16]
 .word 0xd65f03c0
 .word 0xd2802140
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 .word 0xd2801f60
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_9:
 .text
@@ -1503,7 +1459,7 @@ bl _p_27
 .word 0xd2800000
 .word 0xaa1903e0
 .word 0xd2800001
-bl _p_21
+bl _p_20
 .word 0xf94013b1
 .word 0xf940d631
 .word 0xb4000051
@@ -1903,7 +1859,7 @@ bl _p_34
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_20
+bl _p_19
 .word 0xf90077a0
 .word 0xf9402bb1
 .word 0xf9412e31
@@ -2159,7 +2115,7 @@ bl _p_41
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_20
+bl _p_19
 .word 0xf90063a0
 .word 0xf9402bb1
 .word 0xf944ee31
@@ -2208,7 +2164,7 @@ bl _p_20
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_20
+bl _p_19
 .word 0xf9005ba0
 .word 0xf9402bb1
 .word 0xf945aa31
@@ -2232,7 +2188,7 @@ bl _p_20
 .word 0xd2800020
 .word 0xaa1a03e0
 .word 0xd2800021
-bl _p_21
+bl _p_20
 .word 0xf9402bb1
 .word 0xf9460231
 .word 0xb4000051
@@ -2259,10 +2215,10 @@ bl _p_21
 .word 0xd65f03c0
 .word 0xd2802140
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 .word 0xd2801420
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_12:
 .text
@@ -2629,17 +2585,17 @@ bl _p_48
 .word 0xd65f03c0
 .word 0xd2802140
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 .word 0xd2801420
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_13:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_PicturePickerImplementation_OnImagePickerFinishedPickingMedia_object_UIKit_UIImagePickerMediaPickedEventArgs
 Project_iOS_PicturePickerImplementation_OnImagePickerFinishedPickingMedia_object_UIKit_UIImagePickerMediaPickedEventArgs:
-.loc 5 70 0 prologue_end
+.loc 5 49 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -2672,7 +2628,7 @@ ldr x16, [x16, #592]
 .word 0xf9407a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 71 0
+.loc 5 50 0
 .word 0xf9402fb1
 .word 0xf9408a31
 .word 0xb4000051
@@ -2706,7 +2662,7 @@ bl _p_50
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303f8
-.loc 5 73 0
+.loc 5 52 0
 .word 0xf9402fb1
 .word 0xf9410e31
 .word 0xb4000051
@@ -2719,12 +2675,12 @@ bl _p_50
 .word 0xaa0003f7
 .word 0xaa1703e0
 .word 0x340009a0
-.loc 5 74 0
+.loc 5 53 0
 .word 0xf9402fb1
 .word 0xf9413e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 76 0
+.loc 5 55 0
 .word 0xf9402fb1
 .word 0xf9414e31
 .word 0xb4000051
@@ -2750,7 +2706,7 @@ bl _p_52
 .word 0xf94043a0
 .word 0xf9003fa0
 .word 0xaa0003f6
-.loc 5 77 0
+.loc 5 56 0
 .word 0xf9402fb1
 .word 0xf941b231
 .word 0xb4000051
@@ -2768,7 +2724,7 @@ bl _p_52
 .word 0xd63f0220
 .word 0xf9403ba0
 .word 0xaa0003f5
-.loc 5 79 0
+.loc 5 58 0
 .word 0xf9402fb1
 .word 0xf941f631
 .word 0xb4000051
@@ -2780,7 +2736,7 @@ bl _p_53
 .word 0xf9421231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 82 0
+.loc 5 61 0
 .word 0xf9402fb1
 .word 0xf9422231
 .word 0xb4000051
@@ -2795,18 +2751,18 @@ bl _p_54
 .word 0xf9424a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 83 0
+.loc 5 62 0
 .word 0xf9402fb1
 .word 0xf9425a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000023
-.loc 5 85 0
+.loc 5 64 0
 .word 0xf9402fb1
 .word 0xf9426e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 86 0
+.loc 5 65 0
 .word 0xf9402fb1
 .word 0xf9427e31
 .word 0xb4000051
@@ -2818,7 +2774,7 @@ bl _p_53
 .word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 87 0
+.loc 5 66 0
 .word 0xf9402fb1
 .word 0xf942aa31
 .word 0xb4000051
@@ -2834,12 +2790,12 @@ bl _p_54
 .word 0xf942d631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 88 0
+.loc 5 67 0
 .word 0xf9402fb1
 .word 0xf942e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 89 0
+.loc 5 68 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -2860,7 +2816,7 @@ bl _p_54
 .word 0xf9433631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 90 0
+.loc 5 69 0
 .word 0xf9402fb1
 .word 0xf9434631
 .word 0xb4000051
@@ -2882,7 +2838,7 @@ Lme_14:
 	.align 4
 	.no_dead_strip Project_iOS_PicturePickerImplementation_OnImagePickerCancelled_object_System_EventArgs
 Project_iOS_PicturePickerImplementation_OnImagePickerCancelled_object_System_EventArgs:
-.loc 5 93 0 prologue_end
+.loc 5 72 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -2908,7 +2864,7 @@ ldr x16, [x16, #600]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 94 0
+.loc 5 73 0
 .word 0xf94017b1
 .word 0xf9406e31
 .word 0xb4000051
@@ -2920,7 +2876,7 @@ bl _p_53
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 95 0
+.loc 5 74 0
 .word 0xf94017b1
 .word 0xf9409a31
 .word 0xb4000051
@@ -2936,7 +2892,7 @@ bl _p_54
 .word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 96 0
+.loc 5 75 0
 .word 0xf94017b1
 .word 0xf940d631
 .word 0xb4000051
@@ -2953,7 +2909,7 @@ bl _p_54
 .word 0xf9410631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 97 0
+.loc 5 76 0
 .word 0xf94017b1
 .word 0xf9411631
 .word 0xb4000051
@@ -2972,7 +2928,7 @@ Lme_15:
 	.align 4
 	.no_dead_strip Project_iOS_PicturePickerImplementation_UnregisterEventHandlers
 Project_iOS_PicturePickerImplementation_UnregisterEventHandlers:
-.loc 5 100 0 prologue_end
+.loc 5 79 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -2996,7 +2952,7 @@ ldr x16, [x16, #608]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 101 0
+.loc 5 80 0
 .word 0xf9400fb1
 .word 0xf9406631
 .word 0xb4000051
@@ -3060,7 +3016,7 @@ bl _p_55
 .word 0xf9413e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 102 0
+.loc 5 81 0
 .word 0xf9400fb1
 .word 0xf9414e31
 .word 0xb4000051
@@ -3124,7 +3080,7 @@ bl _p_56
 .word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 103 0
+.loc 5 82 0
 .word 0xf9400fb1
 .word 0xf9423631
 .word 0xb4000051
@@ -3139,10 +3095,10 @@ bl _p_56
 .word 0xd65f03c0
 .word 0xd2802140
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 .word 0xd2801420
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_16:
 .text
@@ -4029,7 +3985,7 @@ bl _p_64
 .word 0xd65f03c0
 .word 0xd2801f60
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_24:
 .text
@@ -4170,7 +4126,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_25:
 .text
@@ -4311,7 +4267,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_26:
 .text
@@ -5069,7 +5025,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_37:
 .text
@@ -5203,7 +5159,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_38:
 .text
@@ -5353,7 +5309,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_39:
 .text
@@ -5494,7 +5450,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_3a:
 .text
@@ -5638,7 +5594,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_3f:
 .text
@@ -5779,7 +5735,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_40:
 .text
@@ -5920,7 +5876,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_41:
 .text
@@ -6054,7 +6010,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_42:
 .text
@@ -6188,7 +6144,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_43:
 .text
@@ -6329,7 +6285,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_44:
 .text
@@ -6463,7 +6419,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_45:
 .text
@@ -6610,7 +6566,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_46:
 .text
@@ -6751,7 +6707,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_47:
 .text
@@ -6885,7 +6841,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_48:
 .text
@@ -7019,7 +6975,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_49:
 .text
@@ -7160,7 +7116,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_4a:
 .text
@@ -7301,7 +7257,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_4b:
 .text
@@ -7442,7 +7398,7 @@ bl _p_58
 .word 0xd65f03c0
 .word 0xd2801ea0
 .word 0xaa1103e1
-bl _p_18
+bl _p_25
 
 Lme_4c:
 .text
@@ -7795,70 +7751,70 @@ add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
 .word 1749
-	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
-plt__jit_icall_mono_arch_throw_corlib_exception:
+	.no_dead_strip plt_Project_iOS_UICameraPreview_get_IsPreviewing
+plt_Project_iOS_UICameraPreview_get_IsPreviewing:
 _p_18:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
 .word 1754
-	.no_dead_strip plt_Project_iOS_UICameraPreview_get_IsPreviewing
-plt_Project_iOS_UICameraPreview_get_IsPreviewing:
+	.no_dead_strip plt_Project_iOS_UICameraPreview_get_CaptureSession
+plt_Project_iOS_UICameraPreview_get_CaptureSession:
 _p_19:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 1789
-	.no_dead_strip plt_Project_iOS_UICameraPreview_get_CaptureSession
-plt_Project_iOS_UICameraPreview_get_CaptureSession:
+.word 1759
+	.no_dead_strip plt_Project_iOS_UICameraPreview_set_IsPreviewing_bool
+plt_Project_iOS_UICameraPreview_set_IsPreviewing_bool:
 _p_20:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 1794
-	.no_dead_strip plt_Project_iOS_UICameraPreview_set_IsPreviewing_bool
-plt_Project_iOS_UICameraPreview_set_IsPreviewing_bool:
+.word 1764
+	.no_dead_strip plt_Foundation_NSObject_Dispose
+plt_Foundation_NSObject_Dispose:
 _p_21:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 1799
-	.no_dead_strip plt_Foundation_NSObject_Dispose
-plt_Foundation_NSObject_Dispose:
+.word 1769
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview_Dispose_bool
+plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview_Dispose_bool:
 _p_22:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
-.word 1804
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview_Dispose_bool
-plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview_Dispose_bool:
+.word 1774
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview__ctor
+plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview__ctor:
 _p_23:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
-.word 1809
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview__ctor
-plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview__ctor:
+.word 1785
+	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
+plt_System_Delegate_Combine_System_Delegate_System_Delegate:
 _p_24:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
-.word 1820
-	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
-plt_System_Delegate_Combine_System_Delegate_System_Delegate:
+.word 1796
+	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
+plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_25:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
-.word 1831
+.word 1799
 	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
 plt_System_Delegate_Remove_System_Delegate_System_Delegate:
 _p_26:
@@ -8277,7 +8233,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "5D820A4E-424B-426D-8675-7C7626BFE344"
+	.asciz "F1F46251-EFCA-42DE-A7BD-58BD5BCC2403"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -8356,13 +8312,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 124,1584,74,78,70,387000831,0,13440
-	.long 128,8,8,8,0,25,15912,2464
+	.long 124,1584,74,78,70,387000831,0,13392
+	.long 128,8,8,8,0,25,15864,2464
 	.long 1952,1528,0,1760,1920,1576,0,1112
 	.long 128,2456,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 139,141,90,59,45,155,208,116,7,88,118,82,93,134,103,106
+	.byte 141,123,86,122,46,3,54,149,52,255,142,142,29,29,37,131
 	.globl _mono_aot_module_Project_iOS_info
 	.align 3
 _mono_aot_module_Project_iOS_info:
@@ -15196,7 +15152,7 @@ Lfde4_end:
 	.asciz "Project.iOS.CameraPreviewRenderer:OnCameraPreviewTapped"
 	.asciz "Project_iOS_CameraPreviewRenderer_OnCameraPreviewTapped_object_System_EventArgs"
 
-	.byte 3,33
+	.byte 3,35
 	.quad Project_iOS_CameraPreviewRenderer_OnCameraPreviewTapped_object_System_EventArgs
 	.quad Lme_5
 
@@ -15245,7 +15201,7 @@ Lfde5_end:
 	.asciz "Project.iOS.CameraPreviewRenderer:Dispose"
 	.asciz "Project_iOS_CameraPreviewRenderer_Dispose_bool"
 
-	.byte 3,44
+	.byte 3,46
 	.quad Project_iOS_CameraPreviewRenderer_Dispose_bool
 	.quad Lme_6
 
@@ -16559,7 +16515,7 @@ LDIFF_SYM1360=LTDIE_206 - Ldebug_info_start
 	.asciz "Project.iOS.PicturePickerImplementation:OnImagePickerFinishedPickingMedia"
 	.asciz "Project_iOS_PicturePickerImplementation_OnImagePickerFinishedPickingMedia_object_UIKit_UIImagePickerMediaPickedEventArgs"
 
-	.byte 5,70
+	.byte 5,49
 	.quad Project_iOS_PicturePickerImplementation_OnImagePickerFinishedPickingMedia_object_UIKit_UIImagePickerMediaPickedEventArgs
 	.quad Lme_14
 
@@ -16624,7 +16580,7 @@ Lfde20_end:
 	.asciz "Project.iOS.PicturePickerImplementation:OnImagePickerCancelled"
 	.asciz "Project_iOS_PicturePickerImplementation_OnImagePickerCancelled_object_System_EventArgs"
 
-	.byte 5,93
+	.byte 5,72
 	.quad Project_iOS_PicturePickerImplementation_OnImagePickerCancelled_object_System_EventArgs
 	.quad Lme_15
 
@@ -16668,7 +16624,7 @@ Lfde21_end:
 	.asciz "Project.iOS.PicturePickerImplementation:UnregisterEventHandlers"
 	.asciz "Project_iOS_PicturePickerImplementation_UnregisterEventHandlers"
 
-	.byte 5,100
+	.byte 5,79
 	.quad Project_iOS_PicturePickerImplementation_UnregisterEventHandlers
 	.quad Lme_16
 
