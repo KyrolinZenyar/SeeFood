@@ -1,21 +1,22 @@
 ﻿<Properties StartupConfiguration="{A87AD617-A01E-43E0-BF49-D67D1B431CE0}|Default">
   <MonoDevelop.Ide.ItemProperties.Project.Droid PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Project.Android/CameraPreviewRenderer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Project.iOS/CameraPreviewRenderer.cs">
     <Files>
       <File FileName="Project/AppPage.cs" Line="18" Column="1" />
-      <File FileName="Project/GalleryPage.cs" Line="22" Column="88" />
-      <File FileName="Project/CameraPage.cs" Line="66" Column="15" />
-      <File FileName="Project/UserGalleryPage.cs" Line="75" Column="96" />
+      <File FileName="Project/GalleryPage.cs" Line="19" Column="13" />
+      <File FileName="Project/CameraPage.cs" Line="70" Column="15" />
+      <File FileName="Project/UserGalleryPage.cs" Line="91" Column="95" />
       <File FileName="Project/PreviousSubmissionsPage.cs" Line="16" Column="1" />
-      <File FileName="Project.Android/CameraPreviewRenderer.cs" Line="45" Column="13" />
-      <File FileName="Project.iOS/CameraPreviewRenderer.cs" Line="36" Column="51" />
+      <File FileName="Project.iOS/CameraPreviewRenderer.cs" Line="59" Column="15" />
+      <File FileName="Project.iOS/UICameraPreview.cs" Line="71" Column="31" />
+      <File FileName="Project.iOS/Main.cs" Line="17" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Project.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5BAC299D-9B17-4C2E-8D08-3F33368FF3F1" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.Project.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.a5b9bf6224977629aa5389faf0b34110b1a7f121" automaticSigning="False" />
   <MultiItemStartupConfigurations />
 </Properties>

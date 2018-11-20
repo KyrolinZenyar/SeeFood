@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.12.0 (tarball Tue Oct 30 22:19:33 EDT 2018)"
+	.asciz "Mono AOT Compiler 5.14.0 (explicit/969357ac02b Wed Oct 31 18:22:58 EDT 2018)"
 	.asciz "System.Numerics.dll"
 	.asciz ""
 
@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip SR_Format_string_object
 SR_Format_string_object:
-.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/mcs/build/common/SR.cs"
+.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/build/common/SR.cs"
 .loc 1 36 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -151,7 +151,7 @@ Lme_0:
 	.align 4
 	.no_dead_strip System_Buffers_ArrayPool_1_T_REF_get_Shared
 System_Buffers_ArrayPool_1_T_REF_get_Shared:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/ArrayPool.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/ArrayPool.cs"
 .loc 2 45 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -294,7 +294,7 @@ Lme_7:
 	.align 4
 	.no_dead_strip System_Buffers_ArrayPoolEventSource_BufferRented_int_int_int_int
 System_Buffers_ArrayPoolEventSource_BufferRented_int_int_int_int:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/ArrayPoolEventSource.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/ArrayPoolEventSource.cs"
 .loc 3 36 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -553,7 +553,7 @@ Lme_c:
 	.align 4
 	.no_dead_strip System_Buffers_DefaultArrayPool_1_T_REF__ctor
 System_Buffers_DefaultArrayPool_1_T_REF__ctor:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/DefaultArrayPool.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/DefaultArrayPool.cs"
 .loc 4 18 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -592,15 +592,17 @@ bl _p_1
 .word 0xf94023a0
 bl _p_21
 .loc 4 24 0
-.word 0x6b1f033f
-.word 0x54000dcd
+.word 0xd2800000
+.word 0x6b00033f
+.word 0x54000ded
 .loc 4 28 0
-.word 0x6b1f035f
+.word 0xd2800000
+.word 0x6b00035f
 .word 0x54000c4d
 .loc 4 36 0
-.word 0xd280001e
-.word 0xf2a8001e
-.word 0x6b1e033f
+.word 0xd2800000
+.word 0xf2a80000
+.word 0x6b00033f
 .word 0x5400008d
 .loc 4 38 0
 .word 0xd2800019
@@ -608,8 +610,8 @@ bl _p_21
 .loc 4 39 0
 .word 0x14000005
 .loc 4 40 0
-.word 0xd280021e
-.word 0x6b1e033f
+.word 0xd2800200
+.word 0x6b00033f
 .word 0x5400004a
 .loc 4 42 0
 .word 0xd2800219
@@ -622,28 +624,28 @@ bl _p_22
 .word 0x51000720
 .word 0x53047c19
 .word 0xd2800017
-.word 0xd29ffffe
-.word 0x6b1e033f
+.word 0xd29fffe0
+.word 0x6b00033f
 .word 0x54000069
 .word 0x53107f39
 .word 0xd2800217
-.word 0xd2801ffe
-.word 0x6b1e033f
+.word 0xd2801fe0
+.word 0x6b00033f
 .word 0x54000069
 .word 0x53087f39
 .word 0x110022f7
-.word 0xd28001fe
-.word 0x6b1e033f
+.word 0xd28001e0
+.word 0x6b00033f
 .word 0x54000069
 .word 0x53047f39
 .word 0x110012f7
-.word 0xd280007e
-.word 0x6b1e033f
+.word 0xd2800060
+.word 0x6b00033f
 .word 0x54000069
 .word 0x53027f39
 .word 0x11000af7
-.word 0xd280003e
-.word 0x6b1e033f
+.word 0xd2800020
+.word 0x6b00033f
 .word 0x54000069
 .word 0x53017f39
 .word 0x110006f7
@@ -716,7 +718,7 @@ ldr x0, [x16, #0]
 .word 0xd28003e1
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801460
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -728,7 +730,7 @@ ldr x0, [x16, #0]
 .word 0xd2800021
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801460
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -765,7 +767,8 @@ System_Buffers_DefaultArrayPool_1_T_REF_Rent_int:
 .word 0xf9001bba
 .word 0xf9001fa0
 .word 0xaa0103fa
-.word 0x6b1f035f
+.word 0xd2800000
+.word 0x6b00035f
 .word 0x5400104b
 .loc 4 68 0
 .word 0x3500031a
@@ -803,28 +806,28 @@ ldr x0, [x16, #224]
 .word 0x51000740
 .word 0x53047c18
 .word 0xd2800017
-.word 0xd29ffffe
-.word 0x6b1e031f
+.word 0xd29fffe0
+.word 0x6b00031f
 .word 0x54000069
 .word 0x53107f18
 .word 0xd2800217
-.word 0xd2801ffe
-.word 0x6b1e031f
+.word 0xd2801fe0
+.word 0x6b00031f
 .word 0x54000069
 .word 0x53087f18
 .word 0x110022f7
-.word 0xd28001fe
-.word 0x6b1e031f
+.word 0xd28001e0
+.word 0x6b00031f
 .word 0x54000069
 .word 0x53047f18
 .word 0x110012f7
-.word 0xd280007e
-.word 0x6b1e031f
+.word 0xd2800060
+.word 0x6b00031f
 .word 0x54000069
 .word 0x53027f18
 .word 0x11000af7
-.word 0xd280003e
-.word 0x6b1e031f
+.word 0xd2800020
+.word 0x6b00031f
 .word 0x54000069
 .word 0x53017f18
 .word 0x110006f7
@@ -921,11 +924,11 @@ ldr x0, [x16, #0]
 .word 0xd28008a1
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801460
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -952,28 +955,28 @@ System_Buffers_DefaultArrayPool_1_T_REF_Return_T_REF___bool:
 .word 0x51000400
 .word 0x53047c18
 .word 0xd2800017
-.word 0xd29ffffe
-.word 0x6b1e031f
+.word 0xd29fffe0
+.word 0x6b00031f
 .word 0x54000069
 .word 0x53107f18
 .word 0xd2800217
-.word 0xd2801ffe
-.word 0x6b1e031f
+.word 0xd2801fe0
+.word 0x6b00031f
 .word 0x54000069
 .word 0x53087f18
 .word 0x110022f7
-.word 0xd28001fe
-.word 0x6b1e031f
+.word 0xd28001e0
+.word 0x6b00031f
 .word 0x54000069
 .word 0x53047f18
 .word 0x110012f7
-.word 0xd280007e
-.word 0x6b1e031f
+.word 0xd2800060
+.word 0x6b00031f
 .word 0x54000069
 .word 0x53027f18
 .word 0x11000af7
-.word 0xd280003e
-.word 0x6b1e031f
+.word 0xd2800020
+.word 0x6b00031f
 .word 0x54000069
 .word 0x53017f18
 .word 0x110006f7
@@ -1035,11 +1038,11 @@ ldr x0, [x16, #0]
 .word 0xd2800c21
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801440
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -1048,7 +1051,7 @@ Lme_11:
 	.align 4
 	.no_dead_strip System_Buffers_DefaultArrayPool_1_Bucket_T_REF__ctor_int_int_int
 System_Buffers_DefaultArrayPool_1_Bucket_T_REF__ctor_int_int_int:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/DefaultArrayPoolBucket.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/DefaultArrayPoolBucket.cs"
 .loc 5 27 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -1148,7 +1151,7 @@ System_Buffers_DefaultArrayPool_1_Bucket_T_REF_Rent:
 .word 0xf94017a0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54000b60
+.word 0x54000b80
 .word 0x91008000
 .word 0x9100c3a1
 bl _p_38
@@ -1157,7 +1160,7 @@ bl _p_38
 .word 0xb9802400
 .word 0xb9801b41
 .word 0x6b01001f
-.word 0x5400052a
+.word 0x5400054a
 .loc 5 53 0
 .word 0xf94017a0
 .word 0xb9802400
@@ -1165,7 +1168,7 @@ bl _p_38
 .word 0xb9801b41
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540009e9
+.word 0x54000a09
 .word 0xd37df000
 .word 0x8b000340
 .word 0x91008000
@@ -1182,7 +1185,7 @@ bl _p_38
 .word 0xb9801b42
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540007e9
+.word 0x54000809
 .word 0xd37df021
 .word 0x8b010341
 .word 0x91008021
@@ -1199,7 +1202,8 @@ ldr x2, [x16, #16]
 .word 0xd280003e
 .word 0x3900003e
 .loc 5 55 0
-.word 0xeb1f033f
+.word 0xd2800000
+.word 0xeb00033f
 .word 0x9a9f17e0
 .word 0x53001c18
 .loc 5 57 0
@@ -1253,10 +1257,10 @@ ldr x0, [x16, #224]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -1350,11 +1354,11 @@ ldr x0, [x16, #0]
 bl _p_27
 .word 0xaa0003e2
 .word 0xf9402ba1
-.word 0xd2801420
+.word 0xd2801540
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_28
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -1363,7 +1367,7 @@ Lme_15:
 	.align 4
 	.no_dead_strip System_Buffers_Utilities_SelectBucketIndex_int
 System_Buffers_Utilities_SelectBucketIndex_int:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/Utilities.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/Utilities.cs"
 .loc 6 21 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -1374,32 +1378,32 @@ System_Buffers_Utilities_SelectBucketIndex_int:
 .loc 6 23 0
 .word 0xd2800019
 .loc 6 24 0
-.word 0xd29ffffe
-.word 0x6b1e035f
+.word 0xd29fffe0
+.word 0x6b00035f
 .word 0x54000069
 .word 0x53107f5a
 .word 0xd2800219
 .loc 6 25 0
-.word 0xd2801ffe
-.word 0x6b1e035f
+.word 0xd2801fe0
+.word 0x6b00035f
 .word 0x54000069
 .word 0x53087f5a
 .word 0x11002339
 .loc 6 26 0
-.word 0xd28001fe
-.word 0x6b1e035f
+.word 0xd28001e0
+.word 0x6b00035f
 .word 0x54000069
 .word 0x53047f5a
 .word 0x11001339
 .loc 6 27 0
-.word 0xd280007e
-.word 0x6b1e035f
+.word 0xd2800060
+.word 0x6b00035f
 .word 0x54000069
 .word 0x53027f5a
 .word 0x11000b39
 .loc 6 28 0
-.word 0xd280003e
-.word 0x6b1e035f
+.word 0xd2800020
+.word 0x6b00035f
 .word 0x54000069
 .word 0x53017f5a
 .word 0x11000739
@@ -1445,7 +1449,7 @@ LDIFF_SYM3=ut_end - ut_24
 	.align 4
 	.no_dead_strip System_Text_ValueStringBuilder__ctor_System_Span_1_char
 System_Text_ValueStringBuilder__ctor_System_Span_1_char:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/Common/src/System/Text/ValueStringBuilder.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/Common/src/System/Text/ValueStringBuilder.cs"
 .loc 7 19 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -1945,7 +1949,7 @@ bl _p_51
 .word 0xd65f03c0
 bl _p_52
 .word 0x17ffffd1
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -1969,8 +1973,8 @@ System_Text_ValueStringBuilder_Append_string:
 .word 0xb9802338
 .loc 7 96 0
 .word 0xb9801340
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x540007c1
 .word 0x91002320
 
@@ -2055,10 +2059,10 @@ bl _p_53
 .word 0xd65f03c0
 bl _p_52
 .word 0x17ffffc9
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -2259,7 +2263,7 @@ ldr x0, [x16, #232]
 .word 0xd65f03c0
 bl _p_52
 .word 0x17ffffcd
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -2388,7 +2392,7 @@ ldr x0, [x16, #232]
 .word 0xd65f03c0
 bl _p_52
 .word 0x17ffffca
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -2559,7 +2563,7 @@ bl _p_51
 .word 0xd65f03c0
 bl _p_52
 .word 0x17ffffd2
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -2817,16 +2821,16 @@ b System_Numerics_BigInteger__ctor_int
 	.align 4
 	.no_dead_strip System_Numerics_BigInteger__ctor_int
 System_Numerics_BigInteger__ctor_int:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigInteger.cs"
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigInteger.cs"
 .loc 8 38 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
+.word 0x929fffe1
+.word 0xf2b00001
 .word 0xb9801ba0
-.word 0x929ffffe
-.word 0xf2b0001e
-.word 0x6b1e001f
+.word 0x6b01001f
 .word 0x54000341
 .loc 8 39 0
 
@@ -2882,10 +2886,10 @@ System_Numerics_BigInteger__ctor_uint:
 .word 0xf9000bb9
 .word 0xaa0003f9
 .word 0xf9000fa1
+.word 0xd29fffe1
+.word 0xf2afffe1
 .word 0xb9401ba0
-.word 0xd29ffffe
-.word 0xf2affffe
-.word 0x6b1e001f
+.word 0x6b01001f
 .word 0x540000a8
 .loc 8 53 0
 .word 0xb9401ba0
@@ -2893,7 +2897,7 @@ System_Numerics_BigInteger__ctor_uint:
 .loc 8 54 0
 .word 0xf900073f
 .loc 8 55 0
-.word 0x1400001b
+.word 0x1400001c
 .loc 8 58 0
 .word 0xd280003e
 .word 0xb900033e
@@ -2919,8 +2923,9 @@ ldr x2, [x16, #16]
 .word 0x3900003e
 .loc 8 60 0
 .word 0xf9400720
+.word 0xd2800002
 .word 0xb9801801
-.word 0xeb1f003f
+.word 0xeb02003f
 .word 0x10000011
 .word 0x540000e9
 .word 0xb9401ba1
@@ -2930,7 +2935,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -2956,9 +2961,9 @@ System_Numerics_BigInteger__ctor_long:
 .word 0xf2ffffe0
 .word 0xeb1a001f
 .word 0x5400012a
-.word 0xd29ffffe
-.word 0xf2affffe
-.word 0xeb1e035f
+.word 0xd29fffe0
+.word 0xf2afffe0
+.word 0xeb00035f
 .word 0x540000ac
 .loc 8 69 0
 .word 0x93407f40
@@ -2966,13 +2971,13 @@ System_Numerics_BigInteger__ctor_long:
 .loc 8 70 0
 .word 0xf900073f
 .loc 8 71 0
-.word 0x14000066
+.word 0x14000069
 .loc 8 72 0
-.word 0xd280001e
-.word 0xf2b0001e
-.word 0xf2dffffe
-.word 0xf2fffffe
-.word 0xeb1e035f
+.word 0xd2800000
+.word 0xf2b00000
+.word 0xf2dfffe0
+.word 0xf2ffffe0
+.word 0xeb00035f
 .word 0x54000301
 .loc 8 74 0
 
@@ -3000,9 +3005,10 @@ ldr x2, [x16, #16]
 .word 0xd280003e
 .word 0x3900003e
 .loc 8 75 0
-.word 0x14000049
+.word 0x1400004c
 .loc 8 79 0
-.word 0xeb1f035f
+.word 0xd2800000
+.word 0xeb00035f
 .word 0x540000ca
 .loc 8 81 0
 .word 0xcb1a03f8
@@ -3021,7 +3027,7 @@ ldr x2, [x16, #16]
 .word 0xd29fffe0
 .word 0xf2bfffe0
 .word 0xeb00031f
-.word 0x54000348
+.word 0x54000368
 .loc 8 92 0
 
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
@@ -3044,14 +3050,15 @@ ldr x2, [x16, #16]
 .word 0x3900003e
 .loc 8 93 0
 .word 0xf9400720
+.word 0xd2800003
 .word 0xaa1803e1
 .word 0xb9801802
-.word 0xeb1f005f
+.word 0xeb03005f
 .word 0x10000011
-.word 0x54000529
+.word 0x54000549
 .word 0xb9002001
 .loc 8 94 0
-.word 0x14000022
+.word 0x14000023
 .loc 8 97 0
 
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
@@ -3074,19 +3081,20 @@ ldr x2, [x16, #16]
 .word 0x3900003e
 .loc 8 98 0
 .word 0xf9400720
+.word 0xd2800003
 .word 0xaa1803e1
 .word 0xb9801802
-.word 0xeb1f005f
+.word 0xeb03005f
 .word 0x10000011
 .word 0x54000209
 .word 0xb9002001
 .loc 8 99 0
 .word 0xf9400720
+.word 0xd2800023
 .word 0xd360ff01
 .word 0xaa0103e1
 .word 0xb9801802
-.word 0xd280003e
-.word 0xeb1e005f
+.word 0xeb03005f
 .word 0x10000011
 .word 0x540000e9
 .word 0xb9002401
@@ -3096,7 +3104,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -3115,9 +3123,9 @@ System_Numerics_BigInteger__ctor_ulong:
 .word 0xa9016bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xd29ffffe
-.word 0xf2affffe
-.word 0xeb1e035f
+.word 0xd29fffe0
+.word 0xf2afffe0
+.word 0xeb00035f
 .word 0x540000a8
 .loc 8 111 0
 .word 0x93407f40
@@ -3125,12 +3133,12 @@ System_Numerics_BigInteger__ctor_ulong:
 .loc 8 112 0
 .word 0xf900073f
 .loc 8 113 0
-.word 0x14000043
+.word 0x14000045
 .loc 8 114 0
 .word 0xd29fffe0
 .word 0xf2bfffe0
 .word 0xeb00035f
-.word 0x54000388
+.word 0x540003a8
 .loc 8 116 0
 .word 0xd280003e
 .word 0xb900033e
@@ -3156,14 +3164,15 @@ ldr x2, [x16, #16]
 .word 0x3900003e
 .loc 8 118 0
 .word 0xf9400720
+.word 0xd2800003
 .word 0xaa1a03e1
 .word 0xb9801802
-.word 0xeb1f005f
+.word 0xeb03005f
 .word 0x10000011
-.word 0x54000549
+.word 0x54000569
 .word 0xb9002001
 .loc 8 119 0
-.word 0x14000024
+.word 0x14000025
 .loc 8 122 0
 .word 0xd280003e
 .word 0xb900033e
@@ -3189,19 +3198,20 @@ ldr x2, [x16, #16]
 .word 0x3900003e
 .loc 8 124 0
 .word 0xf9400720
+.word 0xd2800003
 .word 0xaa1a03e1
 .word 0xb9801802
-.word 0xeb1f005f
+.word 0xeb03005f
 .word 0x10000011
 .word 0x540001e9
 .word 0xb9002001
 .loc 8 125 0
 .word 0xf9400720
+.word 0xd2800023
 .word 0xd360ff41
 .word 0xaa0103e1
 .word 0xb9801802
-.word 0xd280003e
-.word 0xeb1e005f
+.word 0xeb03005f
 .word 0x10000011
 .word 0x540000c9
 .word 0xb9002401
@@ -3210,7 +3220,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -3275,7 +3285,7 @@ ldr x0, [x16, #0]
 .word 0xd2802081
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801440
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -3308,8 +3318,9 @@ ldr x1, [x16, #312]
 .word 0xb9801000
 .word 0xb9009ba0
 .loc 8 264 0
-.word 0x6b1f001f
-.word 0x54001bad
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x54001bed
 .loc 8 266 0
 .word 0x394183a0
 .word 0x350005c0
@@ -3324,7 +3335,7 @@ ldr x2, [x16, #312]
 .word 0xaa0003f8
 .word 0xb9801021
 .word 0x6b01001f
-.word 0x54007982
+.word 0x54007b02
 .word 0xf9400340
 .word 0xb50001c0
 .word 0xf9400757
@@ -3345,7 +3356,7 @@ ldr x1, [x16, #328]
 .word 0xf9400340
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54007a00
+.word 0x54007b80
 .word 0x91004000
 .word 0xf9400741
 
@@ -3372,7 +3383,7 @@ ldr x1, [x16, #312]
 .word 0xd2800018
 .word 0xb9801000
 .word 0x6b00031f
-.word 0x54007462
+.word 0x540075e2
 .word 0xf9400340
 .word 0xb50001c0
 .word 0xf9400757
@@ -3393,7 +3404,7 @@ ldr x1, [x16, #328]
 .word 0xf9400340
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x540074a0
+.word 0x54007620
 .word 0x91004000
 .word 0xf9400741
 
@@ -3413,14 +3424,15 @@ ldr x1, [x16, #328]
 .loc 8 267 0
 .word 0xd280101e
 .word 0xa1e02a0
-.word 0x34000080
-.word 0x6b1f033f
+.word 0x340000a0
+.word 0xd2800000
+.word 0x6b00033f
 .word 0x9a9f17f4
 .word 0x14000002
 .word 0xd2800014
 .word 0x390283b4
 .loc 8 269 0
-.word 0x35000fb5
+.word 0x35000fd5
 .loc 8 272 0
 .word 0x394183a0
 .word 0x34000800
@@ -3442,7 +3454,7 @@ ldr x1, [x16, #312]
 .word 0xaa1a03f8
 .word 0xb9801000
 .word 0x6b00035f
-.word 0x54006d42
+.word 0x54006ea2
 .word 0xf9400320
 .word 0xb50001c0
 .word 0xf9400737
@@ -3463,7 +3475,7 @@ ldr x1, [x16, #328]
 .word 0xf9400320
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54006d40
+.word 0x54006ea0
 .word 0x91004000
 .word 0xf9400721
 
@@ -3499,7 +3511,7 @@ ldr x1, [x16, #312]
 .word 0xb9801000
 .word 0xb9009ba0
 .loc 8 283 0
-.word 0x1400003c
+.word 0x1400003d
 .loc 8 286 0
 .word 0xb9809ba0
 .word 0x51000800
@@ -3510,8 +3522,9 @@ ldr x1, [x16, #312]
 .word 0x51000400
 .word 0xb9009ba0
 .loc 8 288 0
+.word 0xd2800001
 .word 0xb9809ba0
-.word 0x6b1f001f
+.word 0x6b01001f
 .word 0x5400058b
 .word 0xf9402fa0
 
@@ -3522,7 +3535,7 @@ ldr x1, [x16, #312]
 .word 0xb9809bb9
 .word 0xb9801000
 .word 0x6b00033f
-.word 0x54006522
+.word 0x54006662
 .word 0xf9400340
 .word 0xb50001c0
 .word 0xf9400758
@@ -3543,7 +3556,7 @@ ldr x1, [x16, #328]
 .word 0xf9400340
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x540064e0
+.word 0x54006620
 .word 0x91004000
 .word 0xf9400741
 
@@ -3560,7 +3573,7 @@ ldr x1, [x16, #328]
 .word 0x9b017f21
 .word 0x8b01001a
 .word 0x39400340
-.word 0x34fffa00
+.word 0x34fff9e0
 .loc 8 293 0
 .word 0xb9809ba0
 .word 0x11000400
@@ -3579,12 +3592,12 @@ ldr x1, [x16, #328]
 .loc 8 306 0
 .word 0xf900041f
 .loc 8 308 0
-.word 0x140002ee
+.word 0x140002f8
 .loc 8 311 0
+.word 0xd2800081
 .word 0xb9809ba0
-.word 0xd280009e
-.word 0x6b1e001f
-.word 0x5400174c
+.word 0x6b01001f
+.word 0x540017ac
 .loc 8 313 0
 .word 0xf9402bba
 .word 0x394283a0
@@ -3614,7 +3627,7 @@ ldr x1, [x16, #312]
 .word 0xaa1a03f6
 .word 0xb9801000
 .word 0x6b00035f
-.word 0x54005c02
+.word 0x54005d42
 .word 0xf94002e0
 .word 0xb50001c0
 .word 0xf94006f5
@@ -3635,7 +3648,7 @@ ldr x1, [x16, #328]
 .word 0xf94002e0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54005b80
+.word 0x54005cc0
 .word 0x91004000
 .word 0xf94006e1
 
@@ -3659,7 +3672,7 @@ ldr x1, [x16, #328]
 .word 0xb9809ba0
 .word 0x6b00035f
 .word 0x54fff9ab
-.word 0x14000037
+.word 0x14000038
 .loc 8 324 0
 .word 0xb9809ba0
 .word 0x5100041a
@@ -3678,7 +3691,7 @@ ldr x1, [x16, #312]
 .word 0xaa1a03f6
 .word 0xb9801000
 .word 0x6b00035f
-.word 0x54005542
+.word 0x54005682
 .word 0xf94002e0
 .word 0xb50001c0
 .word 0xf94006f5
@@ -3699,7 +3712,7 @@ ldr x1, [x16, #328]
 .word 0xf94002e0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54005480
+.word 0x540055c0
 .word 0x91004000
 .word 0xf94006e1
 
@@ -3720,17 +3733,19 @@ ldr x1, [x16, #328]
 .word 0xb9000320
 .loc 8 324 0
 .word 0x5100075a
-.word 0x6b1f035f
-.word 0x54fff9ca
+.word 0xd2800000
+.word 0x6b00035f
+.word 0x54fff9aa
 .loc 8 330 0
 .word 0xf9402ba0
 .word 0xf900041f
 .loc 8 331 0
 .word 0xb9800000
-.word 0x6b1f001f
-.word 0x540003ea
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x5400040a
 .word 0x394283a0
-.word 0x350003a0
+.word 0x350003c0
 .loc 8 337 0
 
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
@@ -3740,12 +3755,13 @@ ldr x0, [x16, #304]
 bl _p_24
 .word 0xaa0003e2
 .word 0xaa0203e1
+.word 0xd2800005
 .word 0xf9402ba0
 .word 0xb9800003
 .word 0xb9801844
-.word 0xeb1f009f
+.word 0xeb05009f
 .word 0x10000011
-.word 0x54004f49
+.word 0x54005029
 .word 0xb9002043
 .word 0xf9000401
 .word 0x91002002
@@ -3766,10 +3782,10 @@ ldr x3, [x16, #16]
 .loc 8 340 0
 .word 0xf9402ba0
 .word 0xb9800000
-.word 0x929ffffe
-.word 0xf2b0001e
-.word 0x6b1e001f
-.word 0x54004941
+.word 0x929fffe1
+.word 0xf2b00001
+.word 0x6b01001f
+.word 0x54004a21
 .loc 8 342 0
 
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
@@ -3798,7 +3814,7 @@ ldr x2, [x16, #16]
 .word 0xd280003e
 .word 0x3900003e
 .loc 8 344 0
-.word 0x14000231
+.word 0x14000238
 .loc 8 347 0
 .word 0xb9809ba1
 .word 0x131f7c20
@@ -3851,7 +3867,7 @@ ldr x1, [x16, #312]
 .word 0xb980b3b4
 .word 0xb9801000
 .word 0x6b00029f
-.word 0x54004342
+.word 0x54004422
 .word 0xf94002a0
 .word 0xb50001c0
 .word 0xf94006a0
@@ -3872,7 +3888,7 @@ ldr x1, [x16, #328]
 .word 0xf94002a0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54004240
+.word 0x54004320
 .word 0x91004000
 .word 0xf94006a1
 
@@ -3896,7 +3912,7 @@ ldr x1, [x16, #328]
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54003f49
+.word 0x54004029
 .word 0xd37ef421
 .word 0x8b010001
 .word 0x91008021
@@ -3907,7 +3923,7 @@ ldr x1, [x16, #328]
 .word 0xb9801803
 .word 0xeb02007f
 .word 0x10000011
-.word 0x54003de9
+.word 0x54003ec9
 .word 0xd37ef442
 .word 0x8b020000
 .word 0x91008000
@@ -3918,8 +3934,8 @@ ldr x1, [x16, #328]
 .word 0xb900b3a0
 .loc 8 360 0
 .word 0x110006f7
-.word 0xd280009e
-.word 0x6b1e02ff
+.word 0xd2800080
+.word 0x6b0002ff
 .word 0x54fff74b
 .loc 8 367 0
 .word 0xb980b3a0
@@ -3960,7 +3976,7 @@ ldr x1, [x16, #312]
 .word 0xb9801001
 .word 0xb980c3a0
 .word 0x6b01001f
-.word 0x540037a2
+.word 0x54003882
 .word 0xf9400280
 .word 0xb50001e0
 .word 0xf9400697
@@ -3982,7 +3998,7 @@ ldr x1, [x16, #328]
 .word 0xf9400280
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54003640
+.word 0x54003720
 .word 0x91004000
 .word 0xf9400681
 
@@ -4007,7 +4023,7 @@ ldr x1, [x16, #328]
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54003329
+.word 0x54003409
 .word 0xd37ef421
 .word 0x8b010001
 .word 0x91008021
@@ -4018,7 +4034,7 @@ ldr x1, [x16, #328]
 .word 0xb9801803
 .word 0xeb02007f
 .word 0x10000011
-.word 0x540031c9
+.word 0x540032a9
 .word 0xd37ef442
 .word 0x8b020000
 .word 0x91008000
@@ -4029,8 +4045,8 @@ ldr x1, [x16, #328]
 .word 0xb900b3a0
 .loc 8 375 0
 .word 0x110006b5
-.word 0xd280009e
-.word 0x6b1e02bf
+.word 0xd2800080
+.word 0x6b0002bf
 .word 0x54fff6cb
 .loc 8 382 0
 .word 0xb980b3a0
@@ -4061,7 +4077,7 @@ ldr x1, [x16, #328]
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54002d49
+.word 0x54002e29
 .word 0xd37ef421
 .word 0x8b010000
 .word 0x91008000
@@ -4084,7 +4100,7 @@ ldr x1, [x16, #312]
 .word 0xb980b3b7
 .word 0xb9801000
 .word 0x6b0002ff
-.word 0x54002a62
+.word 0x54002b42
 .word 0xf9400340
 .word 0xb50001c0
 .word 0xf9400755
@@ -4105,7 +4121,7 @@ ldr x1, [x16, #328]
 .word 0xf9400340
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x540028e0
+.word 0x540029c0
 .word 0x91004000
 .word 0xf9400741
 
@@ -4129,7 +4145,7 @@ ldr x1, [x16, #328]
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540025e9
+.word 0x540026c9
 .word 0xd37ef421
 .word 0x8b010001
 .word 0x91008021
@@ -4140,7 +4156,7 @@ ldr x1, [x16, #328]
 .word 0xb9801803
 .word 0xeb02007f
 .word 0x10000011
-.word 0x54002489
+.word 0x54002569
 .word 0xd37ef442
 .word 0x8b020000
 .word 0x91008000
@@ -4166,7 +4182,7 @@ ldr x1, [x16, #312]
 .word 0xb980b3b7
 .word 0xb9801000
 .word 0x6b0002ff
-.word 0x54002182
+.word 0x54002262
 .word 0xf9400340
 .word 0xb50001c0
 .word 0xf9400755
@@ -4187,7 +4203,7 @@ ldr x1, [x16, #328]
 .word 0xf9400340
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54001fc0
+.word 0x540020a0
 .word 0x91004000
 .word 0xf9400741
 
@@ -4211,7 +4227,7 @@ ldr x1, [x16, #328]
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54001cc9
+.word 0x54001da9
 .word 0xd37ef421
 .word 0x8b010001
 .word 0x91008021
@@ -4222,7 +4238,7 @@ ldr x1, [x16, #328]
 .word 0xb9801803
 .word 0xeb02007f
 .word 0x10000011
-.word 0x54001b69
+.word 0x54001c49
 .word 0xd37ef442
 .word 0x8b020000
 .word 0x91008000
@@ -4238,7 +4254,7 @@ ldr x1, [x16, #328]
 .word 0x54fff72a
 .loc 8 412 0
 .word 0x394283a0
-.word 0x34001440
+.word 0x34001520
 .loc 8 414 0
 .word 0xf94057a0
 bl _p_60
@@ -4249,40 +4265,42 @@ bl _p_60
 .word 0x14000002
 .loc 8 418 0
 .word 0x5100075a
-.word 0x6b1f035f
+.word 0xd2800000
+.word 0x6b00035f
 .word 0x5400018b
 .word 0x93407f41
 .word 0xf94057a0
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540017c9
+.word 0x54001889
 .word 0xd37ef421
 .word 0x8b010000
 .word 0x91008000
 .word 0xb9400000
-.word 0x34fffe60
+.word 0x34fffe40
 .loc 8 419 0
 .word 0x1100075a
 .loc 8 421 0
 .word 0xaa1a03e0
-.word 0xd280003e
-.word 0x6b1e001f
-.word 0x54000aa1
+.word 0xd2800021
+.word 0x6b01001f
+.word 0x54000b61
 .loc 8 423 0
+.word 0xd2800002
 .word 0xf94057a0
 .word 0xb9801801
-.word 0xeb1f003f
+.word 0xeb02003f
 .word 0x10000011
-.word 0x540015e9
+.word 0x54001689
 .word 0xb9402019
 .word 0xaa1903e0
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x540000c0
-.word 0x929ffffe
-.word 0xf2b0001e
-.word 0x6b1e033f
+.word 0x929fffe0
+.word 0xf2b00000
+.word 0x6b00033f
 .word 0x54000360
 .word 0x14000033
 .loc 8 426 0
@@ -4313,7 +4331,7 @@ ldr x2, [x16, #16]
 .word 0xd280003e
 .word 0x3900003e
 .loc 8 427 0
-.word 0x14000071
+.word 0x14000076
 .loc 8 430 0
 
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
@@ -4342,24 +4360,29 @@ ldr x2, [x16, #16]
 .word 0xd280003e
 .word 0x3900003e
 .loc 8 431 0
-.word 0x14000058
+.word 0x1400005d
 .loc 8 434 0
+.word 0xd2800002
 .word 0xf94057a0
 .word 0xb9801801
-.word 0xeb1f003f
+.word 0xeb02003f
 .word 0x10000011
-.word 0x54000dc9
+.word 0x54000e49
 .word 0xb9402000
-.word 0x6b1f001f
-.word 0x5400018d
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x540001ed
 .loc 8 436 0
-.word 0xf94057a0
-.word 0xb9801801
-.word 0xeb1f003f
+.word 0x92800000
+.word 0xf2bfffe0
+.word 0xd2800003
+.word 0xf94057a1
+.word 0xb9801822
+.word 0xeb03005f
 .word 0x10000011
 .word 0x54000cc9
-.word 0xb9402000
-.word 0x4b0003e1
+.word 0xb9402021
+.word 0x1b017c01
 .word 0xf9402ba0
 .word 0xb9000001
 .loc 8 437 0
@@ -4457,29 +4480,29 @@ ldr x2, [x16, #16]
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 bl _p_52
-.word 0x17fffc34
+.word 0x17fffc28
 bl _p_52
-.word 0x17fffc5d
+.word 0x17fffc51
 bl _p_52
-.word 0x17fffc96
+.word 0x17fffc8b
 bl _p_52
-.word 0x17fffcd7
+.word 0x17fffccd
 bl _p_52
-.word 0x17fffd20
+.word 0x17fffd16
 bl _p_52
-.word 0x17fffd56
+.word 0x17fffd4c
 bl _p_52
-.word 0x17fffde6
+.word 0x17fffddf
 bl _p_52
-.word 0x17fffe43
+.word 0x17fffe3c
 bl _p_52
-.word 0x17fffead
+.word 0x17fffea6
 bl _p_52
-.word 0x17fffef4
-.word 0xd2801ea0
+.word 0x17fffeed
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -4539,24 +4562,25 @@ System_Numerics_BigInteger__ctor_uint___bool:
 .word 0xaa0003f8
 .word 0xaa0103f9
 .word 0xaa0203fa
-.word 0xb40010b9
+.word 0xb4001139
 .loc 8 489 0
 .word 0xb9801b37
 .word 0x14000002
 .word 0x510006f7
-.word 0x6b1f02ff
+.word 0xd2800000
+.word 0x6b0002ff
 .word 0x5400018d
 .word 0x510006e0
 .word 0x93407c00
 .word 0xb9801b21
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54001089
+.word 0x540010e9
 .word 0xd37ef400
 .word 0x8b000320
 .word 0x91008000
 .word 0xb9400000
-.word 0x34fffe60
+.word 0x34fffe40
 .loc 8 491 0
 .word 0x35000317
 .loc 8 492 0
@@ -4584,31 +4608,34 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.word 0x14000057
+.word 0x1400005a
 .loc 8 494 0
-.word 0xd280003e
-.word 0x6b1e02ff
-.word 0x540006c1
+.word 0xd2800020
+.word 0x6b0002ff
+.word 0x54000721
+.word 0xd2800001
 .word 0xb9801b20
-.word 0xeb1f001f
+.word 0xeb01001f
 .word 0x10000011
-.word 0x54000c09
+.word 0x54000c49
 .word 0xb9402320
-.word 0x929ffffe
-.word 0xf2b0001e
-.word 0x6b1e001f
-.word 0x540005a2
+.word 0x929fffe1
+.word 0xf2b00001
+.word 0x6b01001f
+.word 0x540005e2
 .loc 8 496 0
 .word 0xaa1803f6
-.word 0x350000fa
+.word 0x3500011a
+.word 0xd2800001
 .word 0xb9801b20
-.word 0xeb1f001f
+.word 0xeb01001f
 .word 0x10000011
-.word 0x54000aa9
+.word 0x54000ac9
 .word 0xb940233a
-.word 0x14000007
+.word 0x14000008
+.word 0xd2800001
 .word 0xb9801b20
-.word 0xeb1f001f
+.word 0xeb01001f
 .word 0x10000011
 .word 0x540009e9
 .word 0xb9402320
@@ -4618,9 +4645,9 @@ ldr x2, [x16, #16]
 .word 0xf900071f
 .loc 8 499 0
 .word 0xb9800300
-.word 0x929ffffe
-.word 0xf2b0001e
-.word 0x6b1e001f
+.word 0x929fffe1
+.word 0xf2b00001
+.word 0x6b01001f
 .word 0x540006c1
 .loc 8 500 0
 
@@ -4699,11 +4726,11 @@ ldr x0, [x16, #0]
 .word 0xd2802081
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801440
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -4748,7 +4775,8 @@ System_Numerics_BigInteger_get_IsZero:
 .word 0xf9000ba0
 .word 0xf9400ba0
 .word 0xb9800000
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9f17e0
 .word 0x910003bf
 .word 0xa8c27bfd
@@ -4836,7 +4864,7 @@ System_Numerics_BigInteger_GetHashCode:
 .word 0xb5000060
 .loc 8 971 0
 .word 0xb9800340
-.word 0x14000019
+.word 0x1400001a
 .loc 8 972 0
 .word 0xb9800359
 .loc 8 973 0
@@ -4849,7 +4877,7 @@ System_Numerics_BigInteger_GetHashCode:
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000289
+.word 0x540002a9
 .word 0xd37ef421
 .word 0x8b010000
 .word 0x91008000
@@ -4862,8 +4890,9 @@ System_Numerics_BigInteger_GetHashCode:
 .word 0x51000701
 .word 0xaa0103e0
 .word 0xaa0103f8
-.word 0x6b1f001f
-.word 0x54fffdca
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x54fffdaa
 .loc 8 975 0
 .word 0xaa1903e0
 .word 0xa94167b8
@@ -4871,7 +4900,7 @@ System_Numerics_BigInteger_GetHashCode:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -4939,7 +4968,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801f60
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_32
 
@@ -4966,57 +4995,61 @@ System_Numerics_BigInteger_Equals_long:
 .word 0x93407c00
 .word 0xeb1a001f
 .word 0x9a9f17e0
-.word 0x14000036
+.word 0x1400003a
 .loc 8 995 0
 .word 0xb9800320
 .word 0x93407c00
 .word 0xca1a0000
-.word 0xeb1f001f
+.word 0xd2800001
+.word 0xeb01001f
 .word 0x5400010b
 .word 0xf9400720
 .word 0xb9801801
 .word 0xaa0103e0
 .word 0xb9002ba1
-.word 0xd280005e
-.word 0x6b1e001f
+.word 0xd2800041
+.word 0x6b01001f
 .word 0x5400006d
 .loc 8 996 0
 .word 0xd2800000
-.word 0x14000028
+.word 0x1400002b
 .loc 8 998 0
-.word 0xeb1f035f
+.word 0xd2800000
+.word 0xeb00035f
 .word 0x5400006b
 .word 0xaa1a03f7
 .word 0x14000002
 .word 0xcb1a03f7
 .word 0xaa1703fa
 .loc 8 999 0
+.word 0xd2800021
 .word 0xb9802ba0
-.word 0xd280003e
-.word 0x6b1e001f
-.word 0x54000161
+.word 0x6b01001f
+.word 0x54000181
 .loc 8 1000 0
 .word 0xf9400720
+.word 0xd2800002
 .word 0xb9801801
-.word 0xeb1f003f
+.word 0xeb02003f
 .word 0x10000011
-.word 0x540003c9
+.word 0x540003e9
 .word 0xb9402000
 .word 0x2a0003e0
 .word 0xeb1a001f
 .word 0x9a9f17e0
-.word 0x14000014
+.word 0x14000015
 .loc 8 1002 0
 .word 0xf9400720
+.word 0xd2800022
 .word 0xb9801801
-.word 0xd280003e
-.word 0xeb1e003f
+.word 0xeb02003f
 .word 0x10000011
-.word 0x54000269
+.word 0x54000289
 .word 0xb9402400
 .word 0xf9400721
+.word 0xd2800003
 .word 0xb9801822
-.word 0xeb1f005f
+.word 0xeb03005f
 .word 0x10000011
 .word 0x540001a9
 .word 0xb9402021
@@ -5031,7 +5064,7 @@ System_Numerics_BigInteger_Equals_long:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -5057,7 +5090,7 @@ System_Numerics_BigInteger_Equals_System_Numerics_BigInteger:
 .word 0x54000060
 .loc 8 1029 0
 .word 0xd2800000
-.word 0x1400001d
+.word 0x1400001e
 .loc 8 1030 0
 .word 0xf9400740
 .word 0xf94017a1
@@ -5065,7 +5098,7 @@ System_Numerics_BigInteger_Equals_System_Numerics_BigInteger:
 .word 0x54000061
 .loc 8 1032 0
 .word 0xd2800020
-.word 0x14000017
+.word 0x14000018
 .loc 8 1034 0
 .word 0xf9400740
 .word 0xb4000060
@@ -5073,7 +5106,7 @@ System_Numerics_BigInteger_Equals_System_Numerics_BigInteger:
 .word 0xb5000060
 .loc 8 1035 0
 .word 0xd2800000
-.word 0x14000011
+.word 0x14000012
 .loc 8 1036 0
 .word 0xf9400740
 .word 0xb9801819
@@ -5085,7 +5118,7 @@ System_Numerics_BigInteger_Equals_System_Numerics_BigInteger:
 .word 0x54000060
 .loc 8 1038 0
 .word 0xd2800000
-.word 0x14000008
+.word 0x14000009
 .loc 8 1039 0
 .word 0xf9400740
 .word 0xf94017a1
@@ -5093,7 +5126,8 @@ System_Numerics_BigInteger_Equals_System_Numerics_BigInteger:
 bl _p_66
 .word 0x93407c00
 .loc 8 1040 0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9f17e0
 .word 0xa9416bb9
 .word 0x910003bf
@@ -5139,52 +5173,56 @@ System_Numerics_BigInteger_CompareTo_long:
 .word 0x14000002
 .word 0xd280001a
 .word 0xaa1a03e0
-.word 0x14000042
+.word 0x14000046
 .loc 8 1050 0
 .word 0xb9800320
 .word 0x93407c00
 .word 0xca1a0000
-.word 0xeb1f001f
+.word 0xd2800001
+.word 0xeb01001f
 .word 0x5400010b
 .word 0xf9400720
 .word 0xb9801801
 .word 0xaa0103e0
 .word 0xaa0103f8
-.word 0xd280005e
-.word 0x6b1e001f
+.word 0xd2800041
+.word 0x6b01001f
 .word 0x5400006d
 .loc 8 1051 0
 .word 0xb9800320
-.word 0x14000034
+.word 0x14000037
 .loc 8 1052 0
-.word 0xeb1f035f
+.word 0xd2800000
+.word 0xeb00035f
 .word 0x5400006b
 .word 0xaa1a03f7
 .word 0x14000002
 .word 0xcb1a03f7
 .word 0xaa1703fa
 .loc 8 1053 0
-.word 0xd280005e
-.word 0x6b1e031f
-.word 0x54000120
+.word 0xd2800040
+.word 0x6b00031f
+.word 0x54000140
 .word 0xf9400720
+.word 0xd2800002
 .word 0xb9801801
-.word 0xeb1f003f
+.word 0xeb02003f
 .word 0x10000011
-.word 0x54000569
+.word 0x54000589
 .word 0xb9402000
 .word 0x2a0003f7
-.word 0x14000012
+.word 0x14000013
 .word 0xf9400720
+.word 0xd2800022
 .word 0xb9801801
-.word 0xd280003e
-.word 0xeb1e003f
+.word 0xeb02003f
 .word 0x10000011
-.word 0x54000449
+.word 0x54000469
 .word 0xb9402400
 .word 0xf9400721
+.word 0xd2800003
 .word 0xb9801822
-.word 0xeb1f005f
+.word 0xeb03005f
 .word 0x10000011
 .word 0x54000389
 .word 0xb9402021
@@ -5215,7 +5253,7 @@ System_Numerics_BigInteger_CompareTo_long:
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -5238,11 +5276,13 @@ System_Numerics_BigInteger_CompareTo_System_Numerics_BigInteger:
 .word 0xb9800340
 .word 0xb98023a1
 .word 0x4a010000
-.word 0x6b1f001f
-.word 0x5400012a
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x5400014a
 .loc 8 1081 0
 .word 0xb9800340
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x5400006b
 .word 0xd2800020
 .word 0x14000054
@@ -5345,7 +5385,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -5431,11 +5471,11 @@ ldr x0, [x16, #0]
 bl _p_27
 .word 0xaa0003e2
 .word 0xf94023a1
-.word 0xd2801420
+.word 0xd2801540
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_28
-.word 0xd2801f60
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_32
 
@@ -5518,7 +5558,8 @@ System_Numerics_BigInteger_TryWriteOrCountBytes_System_Span_1_byte_int__bool_boo
 .word 0x3940a3a3
 .word 0x3940c3a4
 bl _p_68
-.word 0xeb1f001f
+.word 0xd2800001
+.word 0xeb01001f
 .word 0x9a9f97e0
 .word 0x910003bf
 .word 0xa8c57bfd
@@ -5553,9 +5594,9 @@ System_Numerics_BigInteger_TryGetBytes_System_Numerics_BigInteger_GetBytesMode_S
 .loc 8 1231 0
 .word 0xb98053a0
 .word 0x340000c0
+.word 0xd2800021
 .word 0xb98053a0
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0x6b01001f
 .word 0x54000100
 .word 0x1400000c
 .loc 8 1234 0
@@ -5565,14 +5606,14 @@ add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x0, [x16, #368]
 .word 0xd2800021
 bl _p_24
-.word 0x140002cb
+.word 0x140002ce
 .loc 8 1236 0
 .word 0xf94037a0
 .word 0xd280003e
 .word 0xb900001e
 .loc 8 1237 0
 .word 0xd2800000
-.word 0x140002c6
+.word 0x140002c9
 .loc 8 1239 0
 .word 0xf94037a0
 .word 0xd280003e
@@ -5595,7 +5636,7 @@ ldr x1, [x16, #376]
 .word 0xd2800019
 .word 0xb9801000
 .word 0x6b00033f
-.word 0x540058a2
+.word 0x54005902
 .word 0xf9400340
 .word 0xb50001c0
 .word 0xf9400758
@@ -5616,7 +5657,7 @@ ldr x1, [x16, #328]
 .word 0xf9400340
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x540058c0
+.word 0x54005920
 .word 0x91004000
 .word 0xf9400741
 
@@ -5639,25 +5680,27 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x0, [x16, #384]
 .word 0xf9400000
-.word 0x1400028e
+.word 0x14000291
 .loc 8 1245 0
 .word 0xd2800000
-.word 0x1400028c
+.word 0x1400028f
 .loc 8 1249 0
-.word 0x34000098
+.word 0x340000b8
+.word 0xd2800001
 .word 0xb98073a0
-.word 0x6b1f001f
-.word 0x540051eb
+.word 0x6b01001f
+.word 0x5400522b
 .loc 8 1255 0
 .word 0xd2800014
 .loc 8 1257 0
 .word 0xf94006d3
 .loc 8 1258 0
 .word 0xaa1303e0
-.word 0xb5000160
+.word 0xb5000180
 .loc 8 1260 0
+.word 0xd2800001
 .word 0xb98073a0
-.word 0x6b1f001f
+.word 0x6b01001f
 .word 0x5400006b
 .word 0xd280001a
 .word 0x14000002
@@ -5669,10 +5712,10 @@ ldr x0, [x16, #384]
 .loc 8 1262 0
 .word 0x14000037
 .loc 8 1263 0
+.word 0x92800001
+.word 0xf2bfffe1
 .word 0xb98073a0
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0x6b1e001f
+.word 0x6b01001f
 .word 0x54000481
 .loc 8 1265 0
 .word 0xd2801fe0
@@ -5685,7 +5728,7 @@ ldr x0, [x16, #384]
 .word 0xb9801a61
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54005289
+.word 0x540052a9
 .word 0xd37ef400
 .word 0x8b000260
 .word 0x91008000
@@ -5698,7 +5741,7 @@ ldr x0, [x16, #384]
 .word 0xb9801a61
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54005109
+.word 0x54005129
 .word 0xd37ef400
 .word 0x8b000260
 .word 0x91008000
@@ -5726,7 +5769,7 @@ ldr x0, [x16, #384]
 .word 0xb9801a61
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54004e29
+.word 0x54004e49
 .word 0xd37ef400
 .word 0x8b000260
 .word 0x91008000
@@ -5786,8 +5829,9 @@ ldr x0, [x16, #384]
 .word 0xd280101e
 .word 0xa1e0021
 .word 0x6b01001f
-.word 0x54000080
-.word 0x6b1f031f
+.word 0x540000a0
+.word 0xd2800000
+.word 0x6b00031f
 .word 0x9a9f17fa
 .word 0x14000002
 .word 0xd280001a
@@ -5821,9 +5865,9 @@ bl _p_69
 .loc 8 1327 0
 .word 0xb98053a0
 .word 0x340000c0
+.word 0xd2800021
 .word 0xb98053a0
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0x6b01001f
 .word 0x54000200
 .word 0x14000014
 .loc 8 1330 0
@@ -5906,10 +5950,10 @@ ldr x0, [x16, #384]
 .word 0x91008000
 .word 0xb9400015
 .loc 8 1354 0
+.word 0x92800001
+.word 0xf2bfffe1
 .word 0xb98073a0
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0x6b1e001f
+.word 0x6b01001f
 .word 0x540000a1
 .loc 8 1356 0
 .word 0x2a3503f5
@@ -6244,9 +6288,9 @@ ldr x1, [x16, #328]
 .word 0x53087c00
 .word 0x39000340
 .loc 8 1380 0
+.word 0xd2800021
 .word 0xb9808ba0
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0x6b01001f
 .word 0x54000c20
 .loc 8 1382 0
 .word 0xb980aba0
@@ -6302,9 +6346,9 @@ ldr x1, [x16, #328]
 .word 0x53107c00
 .word 0x39000340
 .loc 8 1384 0
+.word 0xd2800041
 .word 0xb9808ba0
-.word 0xd280005e
-.word 0x6b1e001f
+.word 0x6b01001f
 .word 0x540005e0
 .loc 8 1386 0
 .word 0xb980aba0
@@ -6431,12 +6475,12 @@ ldr x0, [x16, #0]
 .word 0xd2802c01
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
 bl _p_52
-.word 0x17fffd3b
+.word 0x17fffd38
 bl _p_52
 .word 0x17fffe48
 bl _p_52
@@ -6455,13 +6499,13 @@ bl _p_52
 .word 0x17ffff8b
 bl _p_52
 .word 0x17ffffb9
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2802220
+.word 0xd2802320
 .word 0xaa1103e1
 bl _p_32
 
@@ -6543,11 +6587,13 @@ System_Numerics_BigInteger_Add_uint___int_uint___int:
 .word 0xaa0103f8
 .word 0xaa0203f9
 .word 0xf90027a3
-.word 0xeb1f02ff
+.word 0xd2800000
+.word 0xeb0002ff
 .word 0x9a9f17e0
 .word 0x53001c16
 .loc 8 1481 0
-.word 0xeb1f033f
+.word 0xd2800000
+.word 0xeb00033f
 .word 0x9a9f17e0
 .word 0x53001c15
 .loc 8 1483 0
@@ -6564,9 +6610,9 @@ bl _p_73
 .word 0xf9404bbe
 .word 0xf90003c0
 .word 0xf90007c1
-.word 0x1400004b
+.word 0x1400004f
 .loc 8 1488 0
-.word 0x34000276
+.word 0x34000296
 .loc 8 1490 0
 .word 0x131f7f01
 .word 0x4a010300
@@ -6575,7 +6621,8 @@ bl _p_73
 bl _p_74
 .word 0xaa0003e1
 .loc 8 1491 0
-.word 0x6b1f031f
+.word 0xd2800000
+.word 0x6b00031f
 .word 0x9a9fa7e2
 .word 0xd2800000
 .word 0xf90043a0
@@ -6586,9 +6633,9 @@ bl _p_75
 .word 0xf9001fa0
 .word 0xf94047a0
 .word 0xf90023a0
-.word 0x14000038
+.word 0x1400003b
 .loc 8 1494 0
-.word 0x34000295
+.word 0x340002b5
 .loc 8 1496 0
 .word 0xb9804ba0
 .word 0x131f7c01
@@ -6598,7 +6645,8 @@ bl _p_75
 bl _p_74
 .word 0xaa0003e1
 .loc 8 1497 0
-.word 0x6b1f031f
+.word 0xd2800000
+.word 0x6b00031f
 .word 0x9a9fa7e2
 .word 0xd2800000
 .word 0xf9003ba0
@@ -6609,19 +6657,20 @@ bl _p_75
 .word 0xf9001fa0
 .word 0xf9403fa0
 .word 0xf90023a0
-.word 0x14000024
+.word 0x14000026
 .loc 8 1500 0
 .word 0xb9801ae0
 .word 0xb9801b21
 .word 0x6b01001f
-.word 0x5400022a
+.word 0x5400024a
 .loc 8 1502 0
 .word 0xaa1903e0
 .word 0xaa1703e1
 bl _p_76
 .word 0xaa0003e1
 .loc 8 1503 0
-.word 0x6b1f031f
+.word 0xd2800000
+.word 0x6b00031f
 .word 0x9a9fa7e2
 .word 0xd2800000
 .word 0xf90033a0
@@ -6632,14 +6681,15 @@ bl _p_75
 .word 0xf9001fa0
 .word 0xf94037a0
 .word 0xf90023a0
-.word 0x14000010
+.word 0x14000011
 .loc 8 1507 0
 .word 0xaa1703e0
 .word 0xaa1903e1
 bl _p_76
 .word 0xaa0003e1
 .loc 8 1508 0
-.word 0x6b1f031f
+.word 0xd2800000
+.word 0x6b00031f
 .word 0x9a9fa7e2
 .word 0xd2800000
 .word 0xf9002ba0
@@ -6676,19 +6726,23 @@ System_Numerics_BigInteger_op_Subtraction_System_Numerics_BigInteger_System_Nume
 .word 0xf9001ba2
 .word 0xf9001fa3
 .word 0xb98023a0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9fa7e0
 .word 0xb98033a1
-.word 0x6b1f003f
+.word 0xd2800002
+.word 0x6b02003f
 .word 0x9a9fa7e1
 .word 0x6b01001f
-.word 0x540001a0
+.word 0x540001e0
 .loc 8 1518 0
 .word 0xf94017a0
 .word 0xb98023a1
 .word 0xf9401fa2
-.word 0xb98033a3
-.word 0x4b0303e3
+.word 0x92800003
+.word 0xf2bfffe3
+.word 0xb98033a4
+.word 0x1b047c63
 .word 0x910043a4
 .word 0xf90023a4
 bl _p_77
@@ -6732,11 +6786,13 @@ System_Numerics_BigInteger_Subtract_uint___int_uint___int:
 .word 0xaa0103f8
 .word 0xaa0203f9
 .word 0xf90027a3
-.word 0xeb1f02ff
+.word 0xd2800000
+.word 0xeb0002ff
 .word 0x9a9f17e0
 .word 0x53001c16
 .loc 8 1525 0
-.word 0xeb1f033f
+.word 0xd2800000
+.word 0xeb00033f
 .word 0x9a9f17e0
 .word 0x53001c15
 .loc 8 1527 0
@@ -6753,9 +6809,9 @@ bl _p_73
 .word 0xf9404bbe
 .word 0xf90003c0
 .word 0xf90007c1
-.word 0x14000051
+.word 0x14000058
 .loc 8 1532 0
-.word 0x340002b6
+.word 0x340002f6
 .loc 8 1534 0
 .word 0x131f7f01
 .word 0x4a010300
@@ -6764,9 +6820,11 @@ bl _p_73
 bl _p_79
 .word 0xaa0003e1
 .loc 8 1535 0
-.word 0x6b1f031f
+.word 0xd2800000
+.word 0x6b00031f
 .word 0x9a9fa7e0
-.word 0x6b1f001f
+.word 0xd2800002
+.word 0x6b02001f
 .word 0x9a9f17e2
 .word 0xd2800000
 .word 0xf90043a0
@@ -6777,9 +6835,9 @@ bl _p_75
 .word 0xf9001fa0
 .word 0xf94047a0
 .word 0xf90023a0
-.word 0x1400003c
+.word 0x14000041
 .loc 8 1538 0
-.word 0x34000295
+.word 0x340002b5
 .loc 8 1540 0
 .word 0xb9804ba0
 .word 0x131f7c01
@@ -6789,7 +6847,8 @@ bl _p_75
 bl _p_79
 .word 0xaa0003e1
 .loc 8 1541 0
-.word 0x6b1f031f
+.word 0xd2800000
+.word 0x6b00031f
 .word 0x9a9fa7e2
 .word 0xd2800000
 .word 0xf9003ba0
@@ -6800,23 +6859,26 @@ bl _p_75
 .word 0xf9001fa0
 .word 0xf9403fa0
 .word 0xf90023a0
-.word 0x14000028
+.word 0x1400002c
 .loc 8 1544 0
 .word 0xaa1703e0
 .word 0xaa1903e1
 bl _p_80
 .word 0x93407c00
-.word 0x6b1f001f
-.word 0x5400026a
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x540002aa
 .loc 8 1546 0
 .word 0xaa1903e0
 .word 0xaa1703e1
 bl _p_81
 .word 0xaa0003e1
 .loc 8 1547 0
-.word 0x6b1f031f
+.word 0xd2800000
+.word 0x6b00031f
 .word 0x9a9fa7e0
-.word 0x6b1f001f
+.word 0xd2800002
+.word 0x6b02001f
 .word 0x9a9f17e2
 .word 0xd2800000
 .word 0xf90033a0
@@ -6827,14 +6889,15 @@ bl _p_75
 .word 0xf9001fa0
 .word 0xf94037a0
 .word 0xf90023a0
-.word 0x14000010
+.word 0x14000011
 .loc 8 1551 0
 .word 0xaa1703e0
 .word 0xaa1903e1
 bl _p_81
 .word 0xaa0003e1
 .loc 8 1552 0
-.word 0x6b1f031f
+.word 0xd2800000
+.word 0x6b00031f
 .word 0x9a9fa7e2
 .word 0xd2800000
 .word 0xf9002ba0
@@ -7113,7 +7176,7 @@ bl _p_86
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802220
+.word 0xd2802320
 .word 0xaa1103e1
 bl _p_32
 
@@ -7148,7 +7211,7 @@ bl _p_86
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802220
+.word 0xd2802320
 .word 0xaa1103e1
 bl _p_32
 
@@ -7183,7 +7246,7 @@ bl _p_86
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802220
+.word 0xd2802320
 .word 0xaa1103e1
 bl _p_32
 
@@ -7214,7 +7277,7 @@ bl _p_86
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802220
+.word 0xd2802320
 .word 0xaa1103e1
 bl _p_32
 
@@ -7236,43 +7299,47 @@ System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_3:
 .word 0xb5000060
 .loc 8 1642 0
 .word 0xb98013a0
-.word 0x14000024
+.word 0x14000028
 .loc 8 1644 0
 .word 0xf9400fa0
 .word 0xb9801800
-.word 0xd280003e
-.word 0x6b1e001f
-.word 0x5400044c
+.word 0xd2800021
+.word 0x6b01001f
+.word 0x540004cc
 .loc 8 1649 0
 .word 0xb98013a0
-.word 0x6b1f001f
-.word 0x5400016d
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x5400018d
 .loc 8 1651 0
 .word 0xf9400fa0
+.word 0xd2800002
 .word 0xb9801801
-.word 0xeb1f003f
+.word 0xeb02003f
 .word 0x10000011
-.word 0x540005c9
+.word 0x54000609
 .word 0xb9402000
 .word 0x6b1f001f
 .word 0x10000011
-.word 0x540005ab
-.word 0x14000012
+.word 0x540005eb
+.word 0x14000014
 .loc 8 1653 0
 .word 0xf9400fa0
+.word 0xd2800002
 .word 0xb9801801
-.word 0xeb1f003f
+.word 0xeb02003f
 .word 0x10000011
-.word 0x54000489
+.word 0x540004a9
 .word 0xb9402000
-.word 0x929ffffe
-.word 0xf2b0001e
-.word 0x6b1e001f
-.word 0x540002a8
+.word 0x929fffe1
+.word 0xf2b00001
+.word 0x6b01001f
+.word 0x540002c8
 .loc 8 1658 0
 .word 0xf9400fa0
+.word 0xd2800002
 .word 0xb9801801
-.word 0xeb1f003f
+.word 0xeb02003f
 .word 0x10000011
 .word 0x54000349
 .word 0xb9402000
@@ -7288,7 +7355,7 @@ ldr x0, [x16, #0]
 .word 0xd2803a01
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -7300,14 +7367,14 @@ ldr x0, [x16, #0]
 .word 0xd2803a01
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2802220
+.word 0xd2802320
 .word 0xaa1103e1
 bl _p_32
 
@@ -7331,21 +7398,23 @@ System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_4:
 .word 0xb98013a0
 .word 0x6b1f001f
 .word 0x10000011
-.word 0x5400040b
-.word 0x1400000f
+.word 0x5400044b
+.word 0x14000011
 .loc 8 1669 0
 .word 0xf9400fa0
 .word 0xb9801800
-.word 0xd280003e
-.word 0x6b1e001f
-.word 0x540001ac
+.word 0xd2800021
+.word 0x6b01001f
+.word 0x540001ec
 .word 0xb98013a0
-.word 0x6b1f001f
-.word 0x5400014b
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x5400016b
 .loc 8 1675 0
 .word 0xf9400fa0
+.word 0xd2800002
 .word 0xb9801801
-.word 0xeb1f003f
+.word 0xeb02003f
 .word 0x10000011
 .word 0x540001e9
 .word 0xb9402000
@@ -7360,14 +7429,14 @@ ldr x0, [x16, #0]
 .word 0xd2804781
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2802220
+.word 0xd2802320
 .word 0xaa1103e1
 bl _p_32
 
@@ -7391,65 +7460,73 @@ System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_5:
 .loc 8 1684 0
 .word 0xb98023a0
 .word 0x93407c00
-.word 0x14000040
+.word 0x14000048
 .loc 8 1687 0
 .word 0xf94017a0
 .word 0xb9801800
 .loc 8 1688 0
-.word 0xaa0003fa
-.word 0xd280005e
-.word 0x6b1e001f
-.word 0x540007cc
+.word 0xaa0003e2
+.word 0xd2800041
+.word 0xaa0203fa
+.word 0x6b01001f
+.word 0x540008ac
 .loc 8 1694 0
-.word 0xd280003e
-.word 0x6b1e035f
-.word 0x5400026d
+.word 0xd2800020
+.word 0x6b00035f
+.word 0x5400028d
 .loc 8 1696 0
 .word 0xf94017a0
+.word 0xd2800022
 .word 0xb9801801
-.word 0xd280003e
-.word 0xeb1e003f
+.word 0xeb02003f
 .word 0x10000011
-.word 0x540007e9
+.word 0x540008c9
 .word 0xb9402400
 .word 0xf94017a1
+.word 0xd2800003
 .word 0xb9801822
-.word 0xeb1f005f
+.word 0xeb03005f
 .word 0x10000011
-.word 0x54000729
+.word 0x540007e9
 .word 0xb9402021
 .word 0x2a0003e0
 .word 0xd3607c00
 .word 0x2a0103e1
 .word 0xaa01001a
 .loc 8 1697 0
-.word 0x14000008
+.word 0x14000009
 .loc 8 1700 0
 .word 0xf94017a0
+.word 0xd2800002
 .word 0xb9801801
-.word 0xeb1f003f
+.word 0xeb02003f
 .word 0x10000011
-.word 0x540005c9
+.word 0x54000669
 .word 0xb9402000
 .word 0x2a0003fa
 .loc 8 1703 0
 .word 0xb98023a0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x5400006c
 .word 0xcb1a03f9
 .word 0x14000002
 .word 0xaa1a03f9
 .word 0xaa1903fa
 .loc 8 1704 0
-.word 0xeb1f033f
-.word 0x5400008d
+.word 0xd2800000
+.word 0xeb00033f
+.word 0x540000ad
 .word 0xb98023a0
-.word 0x6b1f001f
-.word 0x540000cc
-.word 0xeb1f035f
-.word 0x540000ca
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x5400010c
+.word 0xd2800000
+.word 0xeb00035f
+.word 0x540000ea
 .word 0xb98023a0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x5400006a
 .loc 8 1707 0
 .word 0xaa1a03e0
@@ -7462,7 +7539,7 @@ ldr x0, [x16, #0]
 .word 0xd2805501
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -7478,11 +7555,11 @@ ldr x0, [x16, #0]
 .word 0xd2805501
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -7506,49 +7583,52 @@ System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_6:
 .word 0xb98013a0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x5400074b
+.word 0x540007ab
 .word 0x2a0003e0
-.word 0x14000028
+.word 0x1400002b
 .loc 8 1721 0
 .word 0xf9400fa0
 .word 0xb9801800
 .loc 8 1722 0
-.word 0xaa0003e1
-.word 0xb90023a1
-.word 0xd280005e
-.word 0x6b1e001f
-.word 0x5400048c
+.word 0xaa0003e2
+.word 0xd2800041
+.word 0xb90023a2
+.word 0x6b01001f
+.word 0x540004ec
 .word 0xb98013a0
-.word 0x6b1f001f
-.word 0x5400042b
-.word 0xb98023a0
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x5400046b
 .loc 8 1727 0
-.word 0xd280003e
-.word 0x6b1e001f
-.word 0x5400026d
+.word 0xd2800021
+.word 0xb98023a0
+.word 0x6b01001f
+.word 0x5400028d
 .loc 8 1729 0
 .word 0xf9400fa0
+.word 0xd2800022
 .word 0xb9801801
-.word 0xd280003e
-.word 0xeb1e003f
+.word 0xeb02003f
 .word 0x10000011
-.word 0x54000429
+.word 0x54000469
 .word 0xb9402400
 .word 0xf9400fa1
+.word 0xd2800003
 .word 0xb9801822
-.word 0xeb1f005f
+.word 0xeb03005f
 .word 0x10000011
-.word 0x54000369
+.word 0x54000389
 .word 0xb9402021
 .word 0x2a0003e0
 .word 0xd3607c00
 .word 0x2a0103e1
 .word 0xaa010000
-.word 0x14000008
+.word 0x14000009
 .loc 8 1731 0
 .word 0xf9400fa0
+.word 0xd2800002
 .word 0xb9801801
-.word 0xeb1f003f
+.word 0xeb02003f
 .word 0x10000011
 .word 0x54000209
 .word 0xb9402000
@@ -7564,14 +7644,14 @@ ldr x0, [x16, #0]
 .word 0xd2806281
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2802220
+.word 0xd2802320
 .word 0xaa1103e1
 bl _p_32
 
@@ -7624,43 +7704,46 @@ System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_8:
 .word 0xb5000060
 .loc 8 1747 0
 .word 0x1e620340
-.word 0x14000057
+.word 0x14000059
 .loc 8 1749 0
 .word 0xb9801b38
 .loc 8 1756 0
 .word 0xaa1803e0
-.word 0xd280041e
-.word 0x6b1e001f
+.word 0xd2800401
+.word 0x6b01001f
 .word 0x5400018d
 .loc 8 1758 0
-.word 0xd280003e
-.word 0x6b1e035f
+.word 0xd2800020
+.word 0x6b00035f
 .word 0x540000a1
 .loc 8 1759 0
 .word 0xd280001e
 .word 0xf2effe1e
 .word 0x9e6703c0
-.word 0x1400004b
+.word 0x1400004d
 .loc 8 1761 0
 .word 0xd280001e
 .word 0xf2fffe1e
 .word 0x9e6703c0
-.word 0x14000047
+.word 0x14000049
 .loc 8 1764 0
 .word 0x51000700
 .word 0x93407c00
 .word 0xb9801b21
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540008e9
+.word 0x54000929
 .word 0xd37ef400
 .word 0x8b000320
 .word 0x91008000
 .word 0xb9400000
-.word 0x2a0003f7
+.word 0x2a0003e1
 .loc 8 1765 0
-.word 0xd280003e
-.word 0x6b1e031f
+.word 0xd2800020
+.loc 8 1764 0
+.word 0xaa0103f7
+.loc 8 1765 0
+.word 0x6b00031f
 .word 0x5400006c
 .word 0xd2800016
 .word 0x1400000b
@@ -7669,7 +7752,7 @@ System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_8:
 .word 0xb9801b21
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540006e9
+.word 0x54000709
 .word 0xd37ef400
 .word 0x8b000320
 .word 0x91008000
@@ -7677,8 +7760,8 @@ System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_8:
 .word 0x2a1603e0
 .word 0xf90027a0
 .loc 8 1766 0
-.word 0xd280005e
-.word 0x6b1e031f
+.word 0xd2800040
+.word 0x6b00031f
 .word 0x5400006c
 .word 0xd2800016
 .word 0x1400000b
@@ -7687,7 +7770,7 @@ System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_8:
 .word 0xb9801b21
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540004c9
+.word 0x540004e9
 .word 0xd37ef400
 .word 0x8b000320
 .word 0x91008000
@@ -7703,7 +7786,8 @@ bl _p_88
 .word 0x531b6800
 .word 0x4b160018
 .loc 8 1771 0
-.word 0x110082c0
+.word 0xd2800400
+.word 0xb160000
 .word 0xd28007fe
 .word 0xa1e0000
 .word 0x9ac022e0
@@ -7729,7 +7813,7 @@ bl _p_89
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -7759,53 +7843,57 @@ bl _p_90
 .word 0xf94033be
 .word 0xf90003c0
 .word 0xf90007c1
-.word 0x1400003b
+.word 0x1400003f
 .loc 8 1782 0
 .word 0xf94027a0
 .word 0xb9801800
 .loc 8 1783 0
-.word 0xaa0003fa
-.word 0xd280007e
-.word 0x6b1e001f
-.word 0x5400078c
+.word 0xaa0003e2
+.word 0xd2800061
+.word 0xaa0203fa
+.word 0x6b01001f
+.word 0x540007ec
 .loc 8 1785 0
 .word 0xd2800019
 .word 0xd2800018
 .word 0xd2800017
 .loc 8 1789 0
-.word 0xd280005e
-.word 0x6b1e035f
+.word 0xd2800040
+.word 0x6b00035f
 .word 0x5400010d
 .word 0xf94027a0
+.word 0xd2800042
 .word 0xb9801801
-.word 0xd280005e
-.word 0xeb1e003f
+.word 0xeb02003f
 .word 0x10000011
-.word 0x54000749
+.word 0x540007a9
 .word 0xb9402817
 .loc 8 1790 0
-.word 0xd280003e
-.word 0x6b1e035f
+.word 0xd2800020
+.word 0x6b00035f
 .word 0x5400010d
 .word 0xf94027a0
+.word 0xd2800022
 .word 0xb9801801
-.word 0xd280003e
-.word 0xeb1e003f
+.word 0xeb02003f
 .word 0x10000011
-.word 0x54000609
+.word 0x54000669
 .word 0xb9402418
 .loc 8 1791 0
-.word 0x6b1f035f
-.word 0x540000ed
+.word 0xd2800000
+.word 0x6b00035f
+.word 0x5400010d
 .word 0xf94027a0
+.word 0xd2800002
 .word 0xb9801801
-.word 0xeb1f003f
+.word 0xeb02003f
 .word 0x10000011
-.word 0x54000509
+.word 0x54000529
 .word 0xb9402019
 .loc 8 1794 0
 .word 0xb98043a0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9fa7e4
 .word 0xb90053bf
 .word 0xb90057bf
@@ -7840,11 +7928,11 @@ ldr x0, [x16, #0]
 .word 0xd2807001
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -7910,19 +7998,23 @@ System_Numerics_BigInteger_op_Addition_System_Numerics_BigInteger_System_Numeric
 .word 0xf9001ba2
 .word 0xf9001fa3
 .word 0xb98023a0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9fa7e0
 .word 0xb98033a1
-.word 0x6b1f003f
+.word 0xd2800002
+.word 0x6b02003f
 .word 0x9a9fa7e1
 .word 0x6b01001f
-.word 0x540001a0
+.word 0x540001e0
 .loc 8 2002 0
 .word 0xf94017a0
 .word 0xb98023a1
 .word 0xf9401fa2
-.word 0xb98033a3
-.word 0x4b0303e3
+.word 0x92800003
+.word 0xf2bfffe3
+.word 0xb98033a4
+.word 0x1b047c63
 .word 0x910043a4
 .word 0xf90023a4
 bl _p_78
@@ -7965,12 +8057,14 @@ System_Numerics_BigInteger_op_Multiply_System_Numerics_BigInteger_System_Numeric
 .word 0xf90023a2
 .word 0xf90027a3
 .word 0xf9401fa0
-.word 0xeb1f001f
+.word 0xd2800001
+.word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x53001c1a
 .loc 8 2012 0
 .word 0xf94027a0
-.word 0xeb1f001f
+.word 0xd2800001
+.word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x53001c19
 .loc 8 2014 0
@@ -7988,9 +8082,9 @@ bl _p_73
 .word 0xf94053be
 .word 0xf90003c0
 .word 0xf90007c1
-.word 0x1400007a
+.word 0x14000084
 .loc 8 2019 0
-.word 0x3400033a
+.word 0x3400037a
 .loc 8 2021 0
 .word 0xf94027a0
 .word 0xb98033a1
@@ -8001,10 +8095,12 @@ bl _p_92
 .word 0xaa0003e1
 .loc 8 2022 0
 .word 0xb98033a0
-.word 0x6b1f001f
+.word 0xd2800002
+.word 0x6b02001f
 .word 0x9a9fa7e0
 .word 0xb98043a2
-.word 0x6b1f005f
+.word 0xd2800003
+.word 0x6b03005f
 .word 0x9a9fa7e2
 .word 0x4a020002
 .word 0xd2800000
@@ -8016,9 +8112,9 @@ bl _p_75
 .word 0xf90013a0
 .word 0xf9404fa0
 .word 0xf90017a0
-.word 0x14000061
+.word 0x14000069
 .loc 8 2025 0
-.word 0x34000339
+.word 0x34000379
 .loc 8 2027 0
 .word 0xf9401fa0
 .word 0xb98043a1
@@ -8029,10 +8125,12 @@ bl _p_92
 .word 0xaa0003e1
 .loc 8 2028 0
 .word 0xb98033a0
-.word 0x6b1f001f
+.word 0xd2800002
+.word 0x6b02001f
 .word 0x9a9fa7e0
 .word 0xb98043a2
-.word 0x6b1f005f
+.word 0xd2800003
+.word 0x6b03005f
 .word 0x9a9fa7e2
 .word 0x4a020002
 .word 0xd2800000
@@ -8044,22 +8142,24 @@ bl _p_75
 .word 0xf90013a0
 .word 0xf94047a0
 .word 0xf90017a0
-.word 0x14000048
+.word 0x1400004e
 .loc 8 2031 0
 .word 0xf9401fa0
 .word 0xf94027a1
 .word 0xeb01001f
-.word 0x540002a1
+.word 0x540002e1
 .loc 8 2033 0
 .word 0xf9401fa0
 bl _p_93
 .word 0xaa0003e1
 .loc 8 2034 0
 .word 0xb98033a0
-.word 0x6b1f001f
+.word 0xd2800002
+.word 0x6b02001f
 .word 0x9a9fa7e0
 .word 0xb98043a2
-.word 0x6b1f005f
+.word 0xd2800003
+.word 0x6b03005f
 .word 0x9a9fa7e2
 .word 0x4a020002
 .word 0xd2800000
@@ -8071,14 +8171,14 @@ bl _p_75
 .word 0xf90013a0
 .word 0xf9403fa0
 .word 0xf90017a0
-.word 0x14000030
+.word 0x14000034
 .loc 8 2037 0
 .word 0xf9401fa0
 .word 0xb9801800
 .word 0xf94027a1
 .word 0xb9801821
 .word 0x6b01001f
-.word 0x540002ca
+.word 0x5400030a
 .loc 8 2039 0
 .word 0xf94027a0
 .word 0xf9401fa1
@@ -8086,10 +8186,12 @@ bl _p_94
 .word 0xaa0003e1
 .loc 8 2040 0
 .word 0xb98033a0
-.word 0x6b1f001f
+.word 0xd2800002
+.word 0x6b02001f
 .word 0x9a9fa7e0
 .word 0xb98043a2
-.word 0x6b1f005f
+.word 0xd2800003
+.word 0x6b03005f
 .word 0x9a9fa7e2
 .word 0x4a020002
 .word 0xd2800000
@@ -8101,7 +8203,7 @@ bl _p_75
 .word 0xf90013a0
 .word 0xf94037a0
 .word 0xf90017a0
-.word 0x14000015
+.word 0x14000017
 .loc 8 2044 0
 .word 0xf9401fa0
 .word 0xf94027a1
@@ -8109,10 +8211,12 @@ bl _p_94
 .word 0xaa0003e1
 .loc 8 2045 0
 .word 0xb98033a0
-.word 0x6b1f001f
+.word 0xd2800002
+.word 0x6b02001f
 .word 0x9a9fa7e0
 .word 0xb98043a2
-.word 0x6b1f005f
+.word 0xd2800003
+.word 0x6b03005f
 .word 0x9a9fa7e2
 .word 0x4a020002
 .word 0xd2800000
@@ -8152,9 +8256,11 @@ System_Numerics_BigInteger_op_LessThanOrEqual_System_Numerics_BigInteger_System_
 .word 0xf94017a2
 bl _p_67
 .word 0x93407c00
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9fd7e0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9f17e0
 .word 0x910003bf
 .word 0xa8c37bfd
@@ -8181,7 +8287,8 @@ System_Numerics_BigInteger_op_Inequality_System_Numerics_BigInteger_System_Numer
 .word 0xf94017a2
 bl _p_65
 .word 0x53001c00
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9f17e0
 .word 0x910003bf
 .word 0xa8c37bfd
@@ -8206,7 +8313,8 @@ System_Numerics_BigInteger_op_LessThan_System_Numerics_BigInteger_long:
 .word 0xf94013a1
 bl _p_95
 .word 0x93407c00
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9fa7e0
 .word 0x910003bf
 .word 0xa8c37bfd
@@ -8231,9 +8339,11 @@ System_Numerics_BigInteger_op_LessThanOrEqual_System_Numerics_BigInteger_long:
 .word 0xf94013a1
 bl _p_95
 .word 0x93407c00
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9fd7e0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9f17e0
 .word 0x910003bf
 .word 0xa8c37bfd
@@ -8281,7 +8391,8 @@ System_Numerics_BigInteger_op_Inequality_System_Numerics_BigInteger_long:
 .word 0xf94013a1
 bl _p_96
 .word 0x53001c00
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9f17e0
 .word 0x910003bf
 .word 0xa8c37bfd
@@ -8306,7 +8417,8 @@ System_Numerics_BigInteger_op_LessThan_long_System_Numerics_BigInteger:
 .word 0xf9400ba1
 bl _p_95
 .word 0x93407c00
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9fd7e0
 .word 0x910003bf
 .word 0xa8c37bfd
@@ -8331,9 +8443,11 @@ System_Numerics_BigInteger_op_LessThanOrEqual_long_System_Numerics_BigInteger:
 .word 0xf9400ba1
 bl _p_95
 .word 0x93407c00
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9fa7e0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9f17e0
 .word 0x910003bf
 .word 0xa8c37bfd
@@ -8363,7 +8477,7 @@ System_Numerics_BigInteger_GetDiffLength_uint___uint___int:
 .word 0xb9801b01
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540003a9
+.word 0x540003c9
 .word 0xd37ef400
 .word 0x8b000300
 .word 0x91008000
@@ -8372,7 +8486,7 @@ System_Numerics_BigInteger_GetDiffLength_uint___uint___int:
 .word 0xb9801b22
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000289
+.word 0x540002a9
 .word 0xd37ef421
 .word 0x8b010321
 .word 0x91008021
@@ -8381,13 +8495,14 @@ System_Numerics_BigInteger_GetDiffLength_uint___uint___int:
 .word 0x54000060
 .loc 8 2320 0
 .word 0x110006e0
-.word 0x14000007
+.word 0x14000008
 .loc 8 2317 0
 .word 0x510006e1
 .word 0xaa0103e0
 .word 0xaa0103f7
-.word 0x6b1f001f
-.word 0x54fffcca
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x54fffcaa
 .loc 8 2322 0
 .word 0xd2800000
 .word 0xa94163b7
@@ -8395,7 +8510,7 @@ System_Numerics_BigInteger_GetDiffLength_uint___uint___int:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -8419,8 +8534,9 @@ ldr x0, [x16, #304]
 bl _p_24
 .word 0xaa0003e1
 .word 0xaa0103e0
+.word 0xd2800003
 .word 0xb9801822
-.word 0xeb1f005f
+.word 0xeb03005f
 .word 0x10000011
 .word 0x540012c9
 .word 0x929ffffe
@@ -8589,7 +8705,7 @@ ldr x0, [x16, #384]
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -8598,7 +8714,7 @@ Lme_60:
 	.align 4
 	.no_dead_strip System_Numerics_BigIntegerCalculator_Add_uint___uint
 System_Numerics_BigIntegerCalculator_Add_uint___uint:
-.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.AddSub.cs"
+.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.AddSub.cs"
 .loc 9 21 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -8616,18 +8732,20 @@ ldr x0, [x16, #304]
 bl _p_24
 .word 0xaa0003f8
 .loc 9 23 0
+.word 0xd2800001
 .word 0xb9801b20
-.word 0xeb1f001f
+.word 0xeb01001f
 .word 0x10000011
-.word 0x54000749
+.word 0x54000769
 .word 0xb9402320
 .word 0x2a0003e0
 .word 0x2a1a03e1
 .word 0x8b01001a
 .loc 9 24 0
+.word 0xd2800002
 .word 0xaa1a03e0
 .word 0xb9801b01
-.word 0xeb1f003f
+.word 0xeb02003f
 .word 0x10000011
 .word 0x54000629
 .word 0xb9002300
@@ -8686,7 +8804,7 @@ bl _p_24
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -8774,7 +8892,7 @@ bl _p_97
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -8965,18 +9083,20 @@ ldr x0, [x16, #304]
 bl _p_24
 .word 0xaa0003f8
 .loc 9 133 0
+.word 0xd2800001
 .word 0xb9801b20
-.word 0xeb1f001f
+.word 0xeb01001f
 .word 0x10000011
-.word 0x540005e9
+.word 0x54000609
 .word 0xb9402320
 .word 0x2a0003e0
 .word 0x2a1a03e1
 .word 0xcb01001a
 .loc 9 134 0
+.word 0xd2800002
 .word 0xaa1a03e0
 .word 0xb9801b01
-.word 0xeb1f003f
+.word 0xeb02003f
 .word 0x10000011
 .word 0x540004c9
 .word 0xb9002300
@@ -9023,7 +9143,7 @@ bl _p_24
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -9114,7 +9234,7 @@ bl _p_98
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -9218,7 +9338,7 @@ System_Numerics_BigIntegerCalculator_Compare_uint___uint__:
 .loc 9 240 0
 .word 0x92800000
 .word 0xf2bfffe0
-.word 0x1400003b
+.word 0x1400003c
 .loc 9 241 0
 .word 0xb9801b20
 .word 0xb9801b41
@@ -9226,7 +9346,7 @@ System_Numerics_BigIntegerCalculator_Compare_uint___uint__:
 .word 0x5400006d
 .loc 9 242 0
 .word 0xd2800020
-.word 0x14000035
+.word 0x14000036
 .loc 9 244 0
 .word 0xb9801b20
 .word 0x51000418
@@ -9236,7 +9356,7 @@ System_Numerics_BigIntegerCalculator_Compare_uint___uint__:
 .word 0xb9801b21
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54000649
+.word 0x54000669
 .word 0xd37ef400
 .word 0x8b000320
 .word 0x91008000
@@ -9245,7 +9365,7 @@ System_Numerics_BigIntegerCalculator_Compare_uint___uint__:
 .word 0xb9801b42
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000529
+.word 0x54000549
 .word 0xd37ef421
 .word 0x8b010341
 .word 0x91008021
@@ -9255,13 +9375,13 @@ System_Numerics_BigIntegerCalculator_Compare_uint___uint__:
 .loc 9 247 0
 .word 0x92800000
 .word 0xf2bfffe0
-.word 0x1400001b
+.word 0x1400001c
 .loc 9 248 0
 .word 0x93407f00
 .word 0xb9801b21
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54000369
+.word 0x54000389
 .word 0xd37ef400
 .word 0x8b000320
 .word 0x91008000
@@ -9270,7 +9390,7 @@ System_Numerics_BigIntegerCalculator_Compare_uint___uint__:
 .word 0xb9801b42
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000249
+.word 0x54000269
 .word 0xd37ef421
 .word 0x8b010341
 .word 0x91008021
@@ -9279,11 +9399,12 @@ System_Numerics_BigIntegerCalculator_Compare_uint___uint__:
 .word 0x54000069
 .loc 9 249 0
 .word 0xd2800020
-.word 0x14000005
+.word 0x14000006
 .loc 9 244 0
 .word 0x51000718
-.word 0x6b1f031f
-.word 0x54fffa2a
+.word 0xd2800000
+.word 0x6b00031f
+.word 0x54fffa0a
 .loc 9 252 0
 .word 0xd2800000
 .word 0xa94167b8
@@ -9291,7 +9412,7 @@ System_Numerics_BigIntegerCalculator_Compare_uint___uint__:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -9300,7 +9421,7 @@ Lme_68:
 	.align 4
 	.no_dead_strip System_Numerics_BigIntegerCalculator_Square_uint__
 System_Numerics_BigIntegerCalculator_Square_uint__:
-.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.SquMul.cs"
+.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.SquMul.cs"
 .loc 10 19 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -9362,7 +9483,7 @@ bl _p_99
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -9721,7 +9842,7 @@ bl _p_101
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -9802,7 +9923,7 @@ bl _p_24
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -9893,7 +10014,7 @@ bl _p_102
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -10321,7 +10442,7 @@ bl _p_101
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -10487,7 +10608,7 @@ Lme_6f:
 	.align 4
 	.no_dead_strip System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException_
 System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException_:
-.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigNumber.cs"
+.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigNumber.cs"
 .loc 11 308 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -10746,7 +10867,7 @@ ldr x0, [x16, #0]
 .word 0xd2802081
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801440
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -10820,7 +10941,7 @@ ldr x0, [x16, #0]
 .word 0xd280b461
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801a80
+.word 0xd2801b80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -10853,7 +10974,7 @@ System_Numerics_BigNumber_HexNumberToBigInteger_System_Numerics_BigNumber_BigNum
 .word 0x35000060
 .loc 11 394 0
 .word 0xd2800000
-.word 0x1400008f
+.word 0x14000090
 .loc 11 396 0
 .word 0xf9400321
 .word 0xaa0103e0
@@ -10889,7 +11010,7 @@ bl _p_24
 .word 0xd2800014
 .loc 11 408 0
 .word 0x51000713
-.word 0x14000052
+.word 0x14000053
 .loc 11 410 0
 .word 0xf9400322
 .word 0xaa0203e0
@@ -10900,11 +11021,11 @@ bl _p_112
 .word 0x53003c18
 .loc 11 413 0
 .word 0xaa1803e0
-.word 0xd280061e
-.word 0x6b1e001f
+.word 0xd2800601
+.word 0x6b01001f
 .word 0x540000eb
-.word 0xd280073e
-.word 0x6b1e031f
+.word 0xd2800720
+.word 0x6b00031f
 .word 0x5400008c
 .loc 11 415 0
 .word 0x5100c300
@@ -10912,11 +11033,11 @@ bl _p_112
 .loc 11 416 0
 .word 0x14000010
 .loc 11 417 0
-.word 0xd280083e
-.word 0x6b1e031f
+.word 0xd2800820
+.word 0x6b00031f
 .word 0x5400012b
-.word 0xd28008de
-.word 0x6b1e031f
+.word 0xd28008c0
+.word 0x6b00031f
 .word 0x540000cc
 .loc 11 419 0
 .word 0x928006de
@@ -10934,8 +11055,8 @@ bl _p_112
 .word 0x35000113
 .word 0xd280011e
 .word 0xa1e0300
-.word 0xd280011e
-.word 0x6b1e001f
+.word 0xd2800101
+.word 0x6b01001f
 .word 0x54000061
 .loc 11 427 0
 .word 0xd2800020
@@ -10947,7 +11068,7 @@ bl _p_112
 .word 0xb9801ae1
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54000969
+.word 0x54000989
 .word 0x8b0002e0
 .word 0x91008000
 .word 0x39400000
@@ -10957,7 +11078,7 @@ bl _p_112
 .word 0xb9801ae2
 .word 0xeb00005f
 .word 0x10000011
-.word 0x54000829
+.word 0x54000849
 .word 0x8b0002e0
 .word 0x91008000
 .word 0x39000001
@@ -10978,20 +11099,21 @@ bl _p_112
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540005e9
+.word 0x54000609
 .word 0x8b010000
 .word 0x91008000
 .word 0x39000018
 .loc 11 438 0
-.word 0x6b1f02df
+.word 0xd2800000
+.word 0x6b0002df
 .word 0x9a9f17e0
 .word 0x53001c16
 .loc 11 408 0
 .word 0x51000673
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0x6b1e027f
-.word 0x54fff58c
+.word 0x92800000
+.word 0xf2bfffe0
+.word 0x6b00027f
+.word 0x54fff56c
 .loc 11 441 0
 .word 0xd2800000
 .word 0xf90037a0
@@ -11030,7 +11152,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -11170,8 +11292,9 @@ ldr x2, [x16, #16]
 .word 0x51000701
 .word 0xaa0103e0
 .word 0xaa0103f8
-.word 0x6b1f001f
-.word 0x54fff5aa
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x54fff58a
 .word 0x1400000d
 .loc 11 462 0
 .word 0xf9400322
@@ -11181,8 +11304,8 @@ ldr x2, [x16, #16]
 .word 0x3940005e
 bl _p_112
 .word 0x53003c00
-.word 0xd280061e
-.word 0x6b1e001f
+.word 0xd2800601
+.word 0x6b01001f
 .word 0x54000060
 .word 0xd2800000
 .word 0x14000036
@@ -11332,17 +11455,17 @@ ldr x1, [x16, #272]
 .word 0x53003c18
 .loc 11 482 0
 .word 0xaa1803e0
-.word 0xd280083e
-.word 0x6b1e001f
+.word 0xd2800821
+.word 0x6b01001f
 .word 0x5400008b
-.word 0xd2800b5e
-.word 0x6b1e031f
+.word 0xd2800b40
+.word 0x6b00031f
 .word 0x540000ed
-.word 0xd2800c3e
-.word 0x6b1e031f
+.word 0xd2800c20
+.word 0x6b00031f
 .word 0x54002c2b
-.word 0xd2800f5e
-.word 0x6b1e031f
+.word 0xd2800f40
+.word 0x6b00031f
 .word 0x54002bcc
 .loc 11 484 0
 .word 0x11000739
@@ -11405,8 +11528,8 @@ ldr x1, [x16, #272]
 .word 0x9b017ea1
 .word 0x8b010016
 .word 0x794002c0
-.word 0xd280061e
-.word 0x6b1e001f
+.word 0xd2800601
+.word 0x6b01001f
 .word 0x54001e2b
 .word 0xf94023a0
 
@@ -11455,8 +11578,8 @@ ldr x1, [x16, #272]
 .word 0x9b017ea1
 .word 0x8b010016
 .word 0x794002c0
-.word 0xd280073e
-.word 0x6b1e001f
+.word 0xd2800721
+.word 0x6b01001f
 .word 0x5400188c
 .loc 11 489 0
 .word 0xf94023a1
@@ -11566,8 +11689,8 @@ ldr x1, [x16, #272]
 .word 0xb0002d7
 .loc 11 493 0
 .word 0xaa1703e0
-.word 0xd280015e
-.word 0x6b1e001f
+.word 0xd2800141
+.word 0x6b01001f
 .word 0x54000c4a
 .loc 11 490 0
 .word 0xf94023a0
@@ -11625,8 +11748,8 @@ ldr x1, [x16, #272]
 .word 0x9b017ea1
 .word 0x8b010016
 .word 0x794002c0
-.word 0xd280061e
-.word 0x6b1e001f
+.word 0xd2800601
+.word 0x6b01001f
 .word 0x540005cb
 .word 0xf94023a0
 
@@ -11675,8 +11798,8 @@ ldr x1, [x16, #272]
 .word 0x9b017ea1
 .word 0x8b010016
 .word 0x794002c0
-.word 0xd280073e
-.word 0x6b1e001f
+.word 0xd2800721
+.word 0x6b01001f
 .word 0x54ffed8d
 .loc 11 497 0
 .word 0xf94023a0
@@ -11765,7 +11888,7 @@ bl _p_52
 .word 0x17ffff92
 bl _p_52
 .word 0x17ffffc4
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -12007,10 +12130,10 @@ ldr x0, [x16, #376]
 .word 0x5100041a
 .loc 11 525 0
 .word 0xaa1a03e0
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0x6b1e001f
-.word 0x540011cd
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x6b01001f
+.word 0x540011ed
 .loc 11 530 0
 .word 0xd2800000
 .word 0x53001c19
@@ -12024,7 +12147,7 @@ ldr x1, [x16, #376]
 .word 0xaa1a03f6
 .word 0xb981bba0
 .word 0x6b00035f
-.word 0x54003662
+.word 0x540036a2
 .word 0xf9400300
 .word 0xb50001c0
 .word 0xf9400715
@@ -12045,7 +12168,7 @@ ldr x1, [x16, #328]
 .word 0xf9400300
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x540035a0
+.word 0x540035e0
 .word 0x91004000
 .word 0xf9400701
 
@@ -12065,8 +12188,8 @@ ldr x1, [x16, #328]
 .word 0x53001c18
 .loc 11 533 0
 .word 0xaa1803e0
-.word 0xd2801efe
-.word 0x6b1e001f
+.word 0xd2801ee1
+.word 0x6b01001f
 .word 0x540000ad
 .loc 11 535 0
 .word 0x5103c300
@@ -12075,20 +12198,21 @@ ldr x1, [x16, #328]
 .word 0xd2800020
 .word 0x53001c19
 .loc 11 539 0
-.word 0xd280011e
-.word 0x6b1e031f
+.word 0xd2800100
+.word 0x6b00031f
 .word 0x9a9fa7e0
 .word 0x2a190000
-.word 0x34000a80
+.word 0x34000aa0
 .loc 11 543 0
-.word 0x9105a3b4
-.word 0xd280015e
-.word 0x6b1e031f
+.word 0x9105a3a1
+.word 0xd2800140
+.word 0xaa0103f4
+.word 0x6b00031f
 .word 0x5400020b
+.word 0xd2800b01
 .word 0xf900efb4
 .word 0x7940d3a0
-.word 0xd2800b1e
-.word 0x6b1e001f
+.word 0x6b01001f
 .word 0x540000c0
 .word 0xd28001fe
 .word 0xa1e0300
@@ -12125,7 +12249,7 @@ ldr x1, [x16, #232]
 .word 0xaa1603f4
 .word 0xb9801000
 .word 0x6b0002df
-.word 0x54002b62
+.word 0x54002b82
 .word 0xf94002a0
 .word 0xb50001c0
 .word 0xf94006b3
@@ -12146,7 +12270,7 @@ ldr x1, [x16, #272]
 .word 0xf94002a0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54002a60
+.word 0x54002a80
 .word 0x91004000
 .word 0xf94006a1
 
@@ -12172,9 +12296,9 @@ bl _p_51
 .loc 11 546 0
 .word 0x5100075a
 .loc 11 550 0
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0x6b1e035f
+.word 0x92800000
+.word 0xf2bfffe0
+.word 0x6b00035f
 .word 0x540019ad
 .loc 11 552 0
 .word 0x9105a3a1
@@ -12210,9 +12334,9 @@ bl _p_42
 .loc 11 553 0
 .word 0xd2800019
 .loc 11 554 0
+.word 0xd2800f01
 .word 0x7940d3a0
-.word 0xd2800f1e
-.word 0x6b1e001f
+.word 0x6b01001f
 .word 0x540000a0
 
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
@@ -12238,7 +12362,7 @@ ldr x2, [x16, #376]
 .word 0xb981bba1
 .word 0xb981e3a0
 .word 0x6b01001f
-.word 0x54001f62
+.word 0x54001f82
 .word 0xf9400280
 .word 0xb50001e0
 .word 0xf9400698
@@ -12260,7 +12384,7 @@ ldr x1, [x16, #328]
 .word 0xf9400280
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54001e00
+.word 0x54001e20
 .word 0x91004000
 .word 0xf9400681
 
@@ -12292,7 +12416,7 @@ ldr x2, [x16, #232]
 .word 0xb98163a1
 .word 0xb981eba0
 .word 0x6b01001f
-.word 0x540019a2
+.word 0x540019c2
 .word 0xf9400280
 .word 0xb50001e0
 .word 0xf9400698
@@ -12314,7 +12438,7 @@ ldr x1, [x16, #272]
 .word 0xf9400280
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54001800
+.word 0x54001820
 .word 0x91004000
 .word 0xf9400681
 
@@ -12336,7 +12460,7 @@ ldr x1, [x16, #272]
 .word 0xb9801261
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54001529
+.word 0x54001549
 .word 0xd37ff800
 .word 0x8b130000
 .word 0x79402800
@@ -12353,7 +12477,7 @@ ldr x2, [x16, #232]
 .word 0xaa0003f4
 .word 0xb98163a1
 .word 0x6b01001f
-.word 0x54001302
+.word 0x54001322
 .word 0xf94002a0
 .word 0xb50001c0
 .word 0xf94006a0
@@ -12374,7 +12498,7 @@ ldr x1, [x16, #272]
 .word 0xf94002a0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54001140
+.word 0x54001160
 .word 0x91004000
 .word 0xf94006a1
 
@@ -12396,32 +12520,33 @@ ldr x1, [x16, #272]
 .word 0xb9801261
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54000e69
+.word 0x54000e89
 .word 0xd37ff800
 .word 0x8b130000
 .word 0x79402800
 .word 0x790002a0
 .loc 11 555 0
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0x6b1e035f
+.word 0x92800000
+.word 0xf2bfffe0
+.word 0x6b00035f
 .word 0x54ffebec
 .loc 11 563 0
 .word 0xb9818ba1
 .word 0xb98073a0
 .word 0x6b01001f
-.word 0x5400032d
+.word 0x5400034d
 .loc 11 566 0
-.word 0x9105a3a1
+.word 0x9105a3a2
 .word 0xb9805ba0
-.word 0xaa0103f4
+.word 0xd2800001
+.word 0xaa0203f4
 .word 0xd2800013
-.word 0x6b1f001f
+.word 0x6b01001f
 .word 0x5400014a
+.word 0xd2800f01
 .word 0xf900efb4
 .word 0x7940d3a0
-.word 0xd2800f1e
-.word 0x6b1e001f
+.word 0x6b01001f
 .word 0x54000060
 .word 0xd28008da
 .word 0x14000005
@@ -12518,19 +12643,19 @@ bl _p_126
 .word 0x9100023f
 .word 0xd65f03c0
 bl _p_52
-.word 0x17fffe4d
+.word 0x17fffe4b
 bl _p_52
-.word 0x17fffea5
+.word 0x17fffea4
 bl _p_52
-.word 0x17ffff05
+.word 0x17ffff04
 bl _p_52
-.word 0x17ffff33
+.word 0x17ffff32
 bl _p_52
-.word 0x17ffff68
-.word 0xd2801ea0
+.word 0x17ffff67
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -12652,11 +12777,11 @@ bl _p_129
 .word 0x53003c15
 .loc 11 610 0
 .word 0xaa1503e0
-.word 0xd2800f1e
-.word 0x6b1e001f
+.word 0xd2800f01
+.word 0x6b01001f
 .word 0x54000080
-.word 0xd2800b1e
-.word 0x6b1e02bf
+.word 0xd2800b00
+.word 0x6b0002bf
 .word 0x54000301
 .loc 11 612 0
 .word 0xf9402fa0
@@ -12681,26 +12806,27 @@ bl _p_129
 .word 0xf9400389
 .word 0xf90003e9
 bl _p_130
-.word 0x14000288
+.word 0x14000292
 .loc 11 616 0
 .word 0xf94033a0
-.word 0xb50007e0
+.word 0xb5000800
 .loc 11 618 0
-.word 0xd2800cfe
-.word 0x6b1e02bf
+.word 0xd2800ce0
+.word 0x6b0002bf
 .word 0x54000140
-.word 0xd28008fe
-.word 0x6b1e02bf
+.word 0xd28008e0
+.word 0x6b0002bf
 .word 0x540000e0
-.word 0xd2800e5e
-.word 0x6b1e02bf
+.word 0xd2800e40
+.word 0x6b0002bf
 .word 0x54000080
-.word 0xd2800a5e
-.word 0x6b1e02bf
-.word 0x540003a1
+.word 0xd2800a40
+.word 0x6b0002bf
+.word 0x540003c1
 .loc 11 620 0
 .word 0xb981b3a0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x540000ac
 
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
@@ -12736,7 +12862,7 @@ bl _p_127
 .loc 11 626 0
 .word 0xb9805ba0
 .word 0xb901bba0
-.word 0xd2802100
+.word 0xd2802200
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_28
@@ -12744,7 +12870,7 @@ bl _p_28
 .word 0x3900001f
 .loc 11 627 0
 .word 0xd2800000
-.word 0x14000253
+.word 0x1400025c
 .loc 11 631 0
 .word 0xf94043a0
 .word 0xb900001f
@@ -12758,7 +12884,7 @@ bl _p_28
 .word 0xaa1703e1
 .word 0xf9403ba2
 bl _p_132
-.word 0x14000248
+.word 0x14000251
 .loc 11 641 0
 .word 0xf94033a0
 .word 0xb9801817
@@ -12777,7 +12903,7 @@ bl _p_69
 .word 0xd2800041
 .word 0x2b010000
 .word 0x10000011
-.word 0x54004926
+.word 0x54004a46
 .word 0xaa0003f4
 .loc 11 646 0
 .word 0x14000014
@@ -12794,7 +12920,7 @@ bl _p_27
 .word 0xf90147a0
 .word 0xf940e3a0
 .word 0xf9014ba0
-.word 0xd2801a80
+.word 0xd2801b80
 bl _p_133
 .word 0xf94147a1
 .word 0xf9414ba2
@@ -12822,7 +12948,7 @@ bl _p_24
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540043c9
+.word 0x540044e9
 .word 0xd37ef421
 .word 0x8b010000
 .word 0x91008000
@@ -12835,7 +12961,7 @@ bl _p_24
 .word 0xb9801a81
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54004269
+.word 0x54004389
 .word 0xd37ef400
 .word 0x8b000280
 .word 0x91008000
@@ -12849,10 +12975,10 @@ bl _p_24
 .word 0xf2a77340
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54004120
+.word 0x54004240
 .word 0xf100001f
 .word 0x10000011
-.word 0x540040c0
+.word 0x540041e0
 .word 0x9ac00b5e
 .word 0x9b00ebc0
 .word 0xaa0003e1
@@ -12860,7 +12986,7 @@ bl _p_24
 .word 0xb9801a82
 .word 0xeb00005f
 .word 0x10000011
-.word 0x54003f69
+.word 0x54004089
 .word 0xd37ef400
 .word 0x8b000280
 .word 0x91008000
@@ -12870,10 +12996,10 @@ bl _p_24
 .word 0xf2a77340
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54003ea0
+.word 0x54003fc0
 .word 0xf100001f
 .word 0x10000011
-.word 0x54003e40
+.word 0x54003f60
 .word 0x9ac00b40
 .word 0xaa0003fa
 .loc 11 654 0
@@ -12889,14 +13015,14 @@ bl _p_24
 .word 0xf2a77341
 .word 0xf100003f
 .word 0x10000011
-.word 0x54003ca0
+.word 0x54003dc0
 .word 0x1ac10b5e
 .word 0x1b01ebc1
 .word 0x93407c00
 .word 0xb9801a82
 .word 0xeb00005f
 .word 0x10000011
-.word 0x54003b69
+.word 0x54003c89
 .word 0xd37ef400
 .word 0x8b000280
 .word 0x91008000
@@ -12919,7 +13045,7 @@ bl _p_24
 .word 0xb9801a81
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540038e9
+.word 0x54003a09
 .word 0xd37ef400
 .word 0x8b000280
 .word 0x91008000
@@ -12929,8 +13055,9 @@ bl _p_24
 .word 0x51000401
 .word 0xaa0103e0
 .word 0xb901e3a1
-.word 0x6b1f001f
-.word 0x54fff32a
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x54fff30a
 .loc 11 674 0
 .word 0xaa1303e0
 .word 0xd2800121
@@ -12952,7 +13079,7 @@ bl _p_27
 .word 0xf90147a0
 .word 0xf940e7a0
 .word 0xf9014ba0
-.word 0xd2801a80
+.word 0xd2801b80
 bl _p_133
 .word 0xf94147a1
 .word 0xf9414ba2
@@ -12961,33 +13088,34 @@ bl _p_134
 .word 0xf94143a0
 bl _p_28
 .loc 11 678 0
-.word 0xd2800cfe
-.word 0x6b1e02bf
+.word 0xd2800ce0
+.word 0x6b0002bf
 .word 0x54000220
-.word 0xd28008fe
-.word 0x6b1e02bf
+.word 0xd28008e0
+.word 0x6b0002bf
 .word 0x540001c0
-.word 0xd2800c9e
-.word 0x6b1e02bf
+.word 0xd2800c80
+.word 0x6b0002bf
 .word 0x54000160
-.word 0xd280089e
-.word 0x6b1e02bf
+.word 0xd2800880
+.word 0x6b0002bf
 .word 0x54000100
-.word 0xd2800e5e
-.word 0x6b1e02bf
+.word 0xd2800e40
+.word 0x6b0002bf
 .word 0x540000a0
-.word 0xd2800a5e
-.word 0x6b1e02bf
+.word 0xd2800a40
+.word 0x6b0002bf
 .word 0x9a9f17f7
 .word 0x14000002
 .word 0xd2800037
 .word 0x53001ef5
 .loc 11 679 0
 .word 0xaa1503e0
-.word 0x340004e0
+.word 0x34000520
 .loc 11 681 0
 .word 0xb981b3a0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x540000ad
 .word 0xb981b3a0
 .word 0x6b1a001f
@@ -12996,7 +13124,8 @@ bl _p_28
 .word 0xb981b3ba
 .loc 11 683 0
 .word 0xb9805ba0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x540003aa
 .loc 11 688 0
 .word 0xf9403ba0
@@ -13005,7 +13134,7 @@ bl _p_28
 .word 0xb9801000
 .word 0x2b000340
 .word 0x10000011
-.word 0x54003046
+.word 0x54003106
 .word 0xaa0003fa
 .loc 11 689 0
 .word 0x14000014
@@ -13022,7 +13151,7 @@ bl _p_27
 .word 0xf90147a0
 .word 0xf940eba0
 .word 0xf9014ba0
-.word 0xd2801a80
+.word 0xd2801b80
 bl _p_133
 .word 0xf94147a1
 .word 0xf9414ba2
@@ -13034,7 +13163,7 @@ bl _p_28
 .word 0xd2800020
 .word 0x2b000340
 .word 0x10000011
-.word 0x54002d26
+.word 0x54002de6
 .word 0xaa0003f7
 .loc 11 701 0
 .word 0x14000014
@@ -13051,7 +13180,7 @@ bl _p_27
 .word 0xf90147a0
 .word 0xf940efa0
 .word 0xf9014ba0
-.word 0xd2801a80
+.word 0xd2801b80
 bl _p_133
 .word 0xf94147a1
 .word 0xf9414ba2
@@ -13071,13 +13200,13 @@ bl _p_24
 .word 0xb901e3ba
 .loc 11 708 0
 .word 0xd2800019
-.word 0x1400002e
+.word 0x14000030
 .loc 11 710 0
 .word 0x93407f20
 .word 0xb9801a81
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54002809
+.word 0x540028c9
 .word 0xd37ef400
 .word 0x8b000280
 .word 0x91008000
@@ -13085,25 +13214,26 @@ bl _p_24
 .word 0xb901eba0
 .loc 11 712 0
 .word 0xd2800138
-.word 0x1400001c
+.word 0x1400001d
 .loc 11 714 0
 .word 0xb981e3a0
 .word 0x51000400
 .word 0xaa0003e1
 .word 0xb901e3a0
+.word 0xd2800602
 .word 0xb941eba0
-.word 0xd2800142
-.word 0xf100005f
+.word 0xd2800143
+.word 0xf100007f
 .word 0x10000011
-.word 0x54002660
-.word 0x1ac2081e
-.word 0x1b0283c2
-.word 0x1100c042
+.word 0x54002700
+.word 0x1ac3081e
+.word 0x1b0383c3
+.word 0xb030042
 .word 0x93407c21
 .word 0xb9801ae3
 .word 0xeb01007f
 .word 0x10000011
-.word 0x54002509
+.word 0x540025a9
 .word 0xd37ff821
 .word 0x8b0102e1
 .word 0x91008021
@@ -13119,42 +13249,44 @@ bl _p_24
 .word 0x51000701
 .word 0xaa0103e0
 .word 0xaa0103f8
-.word 0x6b1f001f
-.word 0x54fffc2a
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x54fffbea
 .loc 11 708 0
 .word 0x11000739
 .word 0x51000660
 .word 0x6b00033f
-.word 0x54fffa2b
+.word 0x54fff9eb
 .loc 11 718 0
 .word 0x51000660
 .word 0x93407c00
 .word 0xb9801a81
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540021e9
+.word 0x54002269
 .word 0xd37ef400
 .word 0x8b000280
 .word 0x91008000
 .word 0xb9400019
-.word 0x1400001a
+.word 0x1400001b
 .loc 11 720 0
 .word 0xb981e3a0
 .word 0x51000401
 .word 0xaa0103e0
 .word 0xb901e3a1
-.word 0xd2800141
-.word 0xf100003f
+.word 0xd2800601
+.word 0xd2800142
+.word 0xf100005f
 .word 0x10000011
-.word 0x540020a0
-.word 0x1ac10b3e
-.word 0x1b01e7c1
-.word 0x1100c021
+.word 0x54002100
+.word 0x1ac20b3e
+.word 0x1b02e7c2
+.word 0xb020021
 .word 0x93407c00
 .word 0xb9801ae2
 .word 0xeb00005f
 .word 0x10000011
-.word 0x54001f49
+.word 0x54001fa9
 .word 0xd37ff800
 .word 0x8b0002e0
 .word 0x91008000
@@ -13166,12 +13298,13 @@ bl _p_24
 .word 0x9b017c00
 .word 0xd363fc19
 .loc 11 718 0
-.word 0x35fffcf9
+.word 0x35fffcd9
 .loc 11 724 0
-.word 0x35000cf5
+.word 0x35000d15
 .loc 11 727 0
 .word 0xb9805ba0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9fa7e0
 .word 0x53001c19
 .loc 11 729 0
@@ -13273,7 +13406,7 @@ bl _p_125
 .word 0x39000001
 .loc 11 739 0
 .word 0xd2800000
-.word 0x14000084
+.word 0x14000086
 .loc 11 743 0
 .word 0xf94043a0
 .word 0xb900001f
@@ -13283,7 +13416,7 @@ bl _p_125
 .loc 11 745 0
 .word 0x9105c3a0
 bl _p_126
-.word 0x1400007d
+.word 0x1400007f
 .loc 11 755 0
 .word 0xb981e3a0
 .word 0x4b000359
@@ -13297,7 +13430,7 @@ bl _p_126
 .word 0xb9801ae1
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54000fa9
+.word 0x54000fe9
 .word 0xd37ff800
 .word 0x8b0002e0
 .word 0x91008000
@@ -13309,14 +13442,16 @@ bl _p_126
 .word 0xb901b3a0
 .loc 11 756 0
 .word 0xb981b3a0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x5400008d
 .word 0xb981b3a0
 .word 0x6b19001f
-.word 0x54fffd4c
+.word 0x54fffd2c
 .loc 11 762 0
 .word 0xb9805ba0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x540004ca
 .loc 11 764 0
 .word 0xf9403ba0
@@ -13355,9 +13490,9 @@ bl _p_126
 .word 0x79000001
 .loc 11 765 0
 .word 0x51000739
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0x6b1e033f
+.word 0x92800000
+.word 0xf2bfffe0
+.word 0x6b00033f
 .word 0x54fffc8c
 .loc 11 769 0
 .word 0xb981e3a0
@@ -13443,13 +13578,13 @@ bl _p_55
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2801860
+.word 0xd2801960
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2802220
+.word 0xd2802320
 .word 0xaa1103e1
 bl _p_32
 
@@ -13535,7 +13670,7 @@ Lme_7a:
 	.align 4
 	.no_dead_strip System_Numerics_NumericsHelpers_GetDoubleFromParts_int_int_ulong
 System_Numerics_NumericsHelpers_GetDoubleFromParts_int_int_ulong:
-.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/NumericsHelpers.cs"
+.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/NumericsHelpers.cs"
 .loc 12 56 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -13552,7 +13687,7 @@ System_Numerics_NumericsHelpers_GetDoubleFromParts_int_int_ulong:
 .loc 12 59 0
 .word 0xd2800000
 .word 0xf9001ba0
-.word 0x14000035
+.word 0x14000037
 .loc 12 63 0
 .word 0xaa1a03e0
 bl _p_139
@@ -13560,7 +13695,8 @@ bl _p_139
 .word 0x51002c17
 .loc 12 64 0
 .word 0xaa1703e0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x540000ca
 .loc 12 65 0
 .word 0x4b1703e0
@@ -13579,25 +13715,26 @@ bl _p_139
 .word 0x1110cc19
 .loc 12 75 0
 .word 0xaa1903e0
-.word 0xd280fffe
-.word 0x6b1e001f
+.word 0xd280ffe1
+.word 0x6b01001f
 .word 0x540000ab
 .loc 12 78 0
 .word 0xd2800000
 .word 0xf2effe00
 .word 0xf9001ba0
 .loc 12 79 0
-.word 0x1400001b
+.word 0x1400001c
 .loc 12 80 0
-.word 0x6b1f033f
+.word 0xd2800000
+.word 0x6b00033f
 .word 0x5400020c
 .loc 12 83 0
 .word 0x51000739
 .loc 12 84 0
 .word 0xaa1903e0
-.word 0x9280067e
-.word 0xf2bffffe
-.word 0x6b1e001f
+.word 0x92800661
+.word 0xf2bfffe1
+.word 0x6b01001f
 .word 0x5400008a
 .loc 12 87 0
 .word 0xd2800000
@@ -13623,8 +13760,9 @@ bl _p_139
 .word 0xaa010000
 .word 0xf9001ba0
 .loc 12 102 0
+.word 0xd2800001
 .word 0xb9802ba0
-.word 0x6b1f001f
+.word 0x6b01001f
 .word 0x540000ca
 .loc 12 103 0
 .word 0xf9401ba0
@@ -13650,19 +13788,21 @@ System_Numerics_NumericsHelpers_DangerousMakeTwosComplement_uint__:
 .word 0x910003fd
 .word 0xa9016bb9
 .word 0xaa0003fa
-.word 0xb400099a
+.word 0xb40009da
 .word 0xb9801b40
-.word 0x34000940
+.word 0x34000980
 .loc 12 114 0
+.word 0xd2800002
+.word 0xd2800001
 .word 0xb9801b40
-.word 0xeb1f001f
+.word 0xeb01001f
 .word 0x10000011
 .word 0x54000949
 .word 0xb9402340
 .word 0x2a2003e0
 .word 0x11000400
 .word 0xb9801b41
-.word 0xeb1f003f
+.word 0xeb02003f
 .word 0x10000011
 .word 0x54000869
 .word 0xb9002340
@@ -13737,7 +13877,7 @@ System_Numerics_NumericsHelpers_DangerousMakeTwosComplement_uint__:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -13891,7 +14031,7 @@ Lme_81:
 	.no_dead_strip System_Numerics_NumericsHelpers_CbitHighZero_ulong
 System_Numerics_NumericsHelpers_CbitHighZero_ulong:
 .loc 12 187 0 prologue_end
-.word 0xa9be7bfd
+.word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xd2800001
@@ -13899,13 +14039,17 @@ System_Numerics_NumericsHelpers_CbitHighZero_ulong:
 .word 0xf2ffffe1
 .word 0xf9400ba0
 .word 0x8a010000
-.word 0xb50000e0
+.word 0xb5000160
 .loc 12 188 0
+.word 0xd2800400
+.word 0xf90013a0
 .word 0xf9400ba0
 .word 0xaa0003e0
 bl _p_88
 .word 0x93407c00
-.word 0x11008000
+.word 0xaa0003e1
+.word 0xf94013a0
+.word 0xb010000
 .word 0x14000006
 .loc 12 189 0
 .word 0xf9400ba0
@@ -13914,7 +14058,7 @@ bl _p_88
 bl _p_88
 .word 0x93407c00
 .word 0x910003bf
-.word 0xa8c27bfd
+.word 0xa8c37bfd
 .word 0xd65f03c0
 
 Lme_82:
@@ -13922,7 +14066,7 @@ Lme_82:
 	.align 4
 	.no_dead_strip System_Globalization_FormatProvider_FormatBigInteger_System_Text_ValueStringBuilder__int_int_bool_System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo_char___int
 System_Globalization_FormatProvider_FormatBigInteger_System_Text_ValueStringBuilder__int_int_bool_System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo_char___int:
-.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Globalization/FormatProvider.BigInteger.cs"
+.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Globalization/FormatProvider.BigInteger.cs"
 .loc 13 16 0 prologue_end
 .word 0xa9b57bfd
 .word 0x910003fd
@@ -14022,7 +14166,7 @@ bl _p_142
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -14105,24 +14249,25 @@ Lme_84:
 	.align 4
 	.no_dead_strip System_Globalization_FormatProvider_Number_IsWhite_char
 System_Globalization_FormatProvider_Number_IsWhite_char:
-.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/Common/src/System/Globalization/FormatProvider.Number.cs"
+.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/Common/src/System/Globalization/FormatProvider.Number.cs"
 .loc 14 297 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
+.word 0xd2800401
 .word 0x794023a0
-.word 0xd280041e
-.word 0x6b1e001f
-.word 0x540001c0
+.word 0x6b01001f
+.word 0x540001e0
+.word 0xd2800121
 .word 0x794023a0
-.word 0xd280013e
-.word 0x6b1e001f
-.word 0x5400010b
+.word 0x6b01001f
+.word 0x5400012b
+.word 0xd28001a1
 .word 0x794023a0
-.word 0xd28001be
-.word 0x6b1e001f
+.word 0x6b01001f
 .word 0x9a9fd7e0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9f17e0
 .word 0x14000004
 .word 0xd2800000
@@ -14189,12 +14334,12 @@ System_Globalization_FormatProvider_Number_MatchChars_char__char_:
 .word 0x6b01001f
 .word 0x54fffec0
 .word 0x79400340
-.word 0xd280141e
-.word 0x6b1e001f
+.word 0xd2801401
+.word 0x6b01001f
 .word 0x540000a1
 .word 0x79400320
-.word 0xd280041e
-.word 0x6b1e001f
+.word 0xd2800401
+.word 0x6b01001f
 .word 0x54fffdc0
 .loc 14 326 0
 .word 0xd2800000
@@ -14262,8 +14407,9 @@ System_Globalization_FormatProvider_Number_ParseNumber_char___System_Globalizati
 .loc 14 360 0
 .word 0xb9007bbf
 .loc 14 361 0
+.word 0xd2800001
 .word 0xf9402fa0
-.word 0xeb1f001f
+.word 0xeb01001f
 .word 0x9a9f97e0
 .word 0x53001c19
 .loc 14 362 0
@@ -14307,8 +14453,8 @@ bl _p_145
 .word 0xf94033a0
 .word 0x3940001e
 .word 0xb980bc00
-.word 0xd280005e
-.word 0x6b1e001f
+.word 0xd2800041
+.word 0x6b01001f
 .word 0x54000a60
 .loc 14 376 0
 .word 0xd280009e
@@ -14360,8 +14506,8 @@ bl _p_146
 .loc 14 380 0
 .word 0x14000026
 .loc 14 381 0
-.word 0xd280051e
-.word 0x6b1e031f
+.word 0xd2800500
+.word 0x6b00031f
 .word 0x54000201
 .word 0xd280021e
 .word 0xa1e02c0
@@ -14418,49 +14564,49 @@ bl _p_146
 .loc 14 404 0
 .word 0xb900abbf
 .loc 14 407 0
-.word 0xd280061e
-.word 0x6b1e031f
+.word 0xd2800600
+.word 0x6b00031f
 .word 0x5400008b
-.word 0xd280073e
-.word 0x6b1e031f
+.word 0xd2800720
+.word 0x6b00031f
 .word 0x5400020d
 .word 0xd280401e
 .word 0xa1e02c0
-.word 0x34000a60
-.word 0xd2800c3e
-.word 0x6b1e031f
+.word 0x34000a80
+.word 0xd2800c20
+.word 0x6b00031f
 .word 0x5400008b
-.word 0xd2800cde
-.word 0x6b1e031f
+.word 0xd2800cc0
+.word 0x6b00031f
 .word 0x540000ed
-.word 0xd280083e
-.word 0x6b1e031f
-.word 0x5400094b
-.word 0xd28008de
-.word 0x6b1e031f
-.word 0x540008ec
+.word 0xd2800820
+.word 0x6b00031f
+.word 0x5400096b
+.word 0xd28008c0
+.word 0x6b00031f
+.word 0x5400090c
 .loc 14 409 0
 .word 0xb9807ba0
 .word 0xd280009e
 .word 0x2a1e0000
 .word 0xb9007ba0
 .loc 14 411 0
-.word 0xd280061e
-.word 0x6b1e031f
+.word 0xd2800600
+.word 0x6b00031f
 .word 0x54000121
 .word 0xb9807ba0
 .word 0xd280011e
 .word 0xa1e0000
 .word 0x350000a0
-.word 0x34000639
+.word 0x34000659
 .word 0xd280401e
 .word 0xa1e02c0
-.word 0x340005c0
+.word 0x340005e0
 .loc 14 413 0
 .word 0xb980a3a0
 .word 0xb9808ba1
 .word 0x6b01001f
-.word 0x5400038a
+.word 0x540003aa
 .loc 14 415 0
 .word 0x340000f9
 .loc 14 417 0
@@ -14483,10 +14629,11 @@ bl _p_147
 .word 0x8b010000
 .word 0x79000018
 .loc 14 424 0
-.word 0xd280061e
-.word 0x6b1e031f
+.word 0xd2800600
+.word 0x6b00031f
 .word 0x9a9f17e0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9f17e0
 .word 0x3941a3a1
 .word 0x2a010000
@@ -14622,7 +14769,7 @@ bl _p_146
 .word 0x79400000
 .word 0x53003c18
 .loc 14 405 0
-.word 0x17ffff4c
+.word 0x17ffff4b
 .loc 14 456 0
 .word 0xd2800000
 .word 0x53001c1a
@@ -14653,11 +14800,11 @@ bl _p_147
 .word 0xa1e0000
 .word 0x34001ac0
 .loc 14 464 0
-.word 0xd28008be
-.word 0x6b1e031f
+.word 0xd28008a0
+.word 0x6b00031f
 .word 0x54000080
-.word 0xd2800cbe
-.word 0x6b1e031f
+.word 0xd2800ca0
+.word 0x6b00031f
 .word 0x54000c41
 .word 0xd280101e
 .word 0xa1e02c0
@@ -14714,11 +14861,11 @@ bl _p_146
 .word 0xd2800020
 .word 0x53001c1a
 .loc 14 477 0
-.word 0xd280061e
-.word 0x6b1e031f
+.word 0xd2800600
+.word 0x6b00031f
 .word 0x540005cb
-.word 0xd280073e
-.word 0x6b1e031f
+.word 0xd2800720
+.word 0x6b00031f
 .word 0x5400056c
 .loc 14 479 0
 .word 0xd2800019
@@ -14735,8 +14882,8 @@ bl _p_146
 .word 0x79400000
 .word 0x53003c18
 .loc 14 484 0
-.word 0xd2807d1e
-.word 0x6b1e033f
+.word 0xd2807d00
+.word 0x6b00033f
 .word 0x540001ed
 .loc 14 486 0
 .word 0xd284e1f9
@@ -14749,18 +14896,18 @@ bl _p_146
 .word 0x79400000
 .word 0x53003c18
 .loc 14 487 0
-.word 0xd280061e
-.word 0x6b1e031f
+.word 0xd2800600
+.word 0x6b00031f
 .word 0x5400008b
-.word 0xd280073e
-.word 0x6b1e031f
+.word 0xd2800720
+.word 0x6b00031f
 .word 0x54fffead
 .loc 14 492 0
-.word 0xd280061e
-.word 0x6b1e031f
+.word 0xd2800600
+.word 0x6b00031f
 .word 0x5400008b
-.word 0xd280073e
-.word 0x6b1e031f
+.word 0xd2800720
+.word 0x6b00031f
 .word 0x54fffc0d
 .loc 14 493 0
 .word 0x3400005a
@@ -14837,8 +14984,8 @@ bl _p_146
 .loc 14 513 0
 .word 0x1400001d
 .loc 14 514 0
-.word 0xd280053e
-.word 0x6b1e031f
+.word 0xd2800520
+.word 0x6b00031f
 .word 0x54000161
 .word 0xb9807ba0
 .word 0xd280005e
@@ -15009,7 +15156,7 @@ ldr x1, [x16, #288]
 .word 0xd65f03c0
 bl _p_52
 .word 0x17ffffcd
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -15070,11 +15217,11 @@ bl _p_149
 .word 0xeb1f003f
 .word 0x10000011
 .word 0x54000e00
-.word 0xd29ffffe
-.word 0xf2bffffe
-.word 0xf2dffffe
-.word 0xf2fffffe
-.word 0xeb1e003f
+.word 0xd29fffe2
+.word 0xf2bfffe2
+.word 0xf2dfffe2
+.word 0xf2ffffe2
+.word 0xeb02003f
 .word 0x9a9f17e2
 .word 0xd2800003
 .word 0xf2f00003
@@ -15126,11 +15273,11 @@ ldr x2, [x16, #288]
 .word 0xeb1f003f
 .word 0x10000011
 .word 0x54000720
-.word 0xd29ffffe
-.word 0xf2bffffe
-.word 0xf2dffffe
-.word 0xf2fffffe
-.word 0xeb1e003f
+.word 0xd29fffe2
+.word 0xf2bfffe2
+.word 0xf2dfffe2
+.word 0xf2ffffe2
+.word 0xeb02003f
 .word 0x9a9f17e2
 .word 0xd2800003
 .word 0xf2f00003
@@ -15181,10 +15328,10 @@ bl _p_150
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2802220
+.word 0xd2802320
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2801860
+.word 0xd2801960
 .word 0xaa1103e1
 bl _p_32
 
@@ -15216,7 +15363,7 @@ System_Globalization_FormatProvider_Number_Int32ToDecChars_char__int__uint_int:
 .word 0xd2800141
 .word 0xf100003f
 .word 0x10000011
-.word 0x540002c0
+.word 0x540002e0
 .word 0x1ac10b3e
 .word 0x1b01e7c1
 .word 0x1100c021
@@ -15231,9 +15378,10 @@ System_Globalization_FormatProvider_Number_Int32ToDecChars_char__int__uint_int:
 .word 0x51000741
 .word 0xaa0103e0
 .word 0xaa0103fa
-.word 0x6b1f001f
-.word 0x54fffcea
-.word 0x35fffcd9
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x54fffcca
+.word 0x35fffcb9
 .loc 14 634 0
 .word 0xa9415fb6
 .word 0xa94267b8
@@ -15241,7 +15389,7 @@ System_Globalization_FormatProvider_Number_Int32ToDecChars_char__int__uint_int:
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801860
+.word 0xd2801960
 .word 0xaa1103e1
 bl _p_32
 
@@ -15268,7 +15416,8 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x1, [x16, #288]
 .word 0xb9801000
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x540030cd
 .loc 14 643 0
 .word 0xf94027a0
@@ -15322,12 +15471,12 @@ ldr x1, [x16, #272]
 .loc 14 644 0
 .word 0xaa1903e0
 .word 0x51010400
-.word 0xd280033e
-.word 0x6b1e001f
+.word 0xd2800321
+.word 0x6b01001f
 .word 0x540000a9
 .word 0x51018720
-.word 0xd280033e
-.word 0x6b1e001f
+.word 0xd2800321
+.word 0x6b01001f
 .word 0x54002a48
 .loc 14 648 0
 .word 0xf94027a0
@@ -15336,8 +15485,8 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x1, [x16, #288]
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x540000c1
 .loc 14 650 0
 .word 0x9280001e
@@ -15353,8 +15502,8 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x1, [x16, #288]
 .word 0xb9801000
-.word 0xd280005e
-.word 0x6b1e001f
+.word 0xd2800041
+.word 0x6b01001f
 .word 0x54000661
 .loc 14 657 0
 .word 0xf94027a0
@@ -15407,8 +15556,8 @@ ldr x1, [x16, #272]
 .word 0x5100c018
 .loc 14 658 0
 .word 0xaa1803e0
-.word 0xd280015e
-.word 0x6b1e001f
+.word 0xd2800141
+.word 0x6b01001f
 .word 0x54000dc2
 .loc 14 660 0
 .word 0xb9000358
@@ -15422,8 +15571,8 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x1, [x16, #288]
 .word 0xb9801000
-.word 0xd280007e
-.word 0x6b1e001f
+.word 0xd2800061
+.word 0x6b01001f
 .word 0x54000c61
 .loc 14 667 0
 .word 0xf94027a0
@@ -15523,11 +15672,11 @@ ldr x1, [x16, #272]
 .word 0x794002e0
 .word 0x5100c017
 .loc 14 668 0
-.word 0xd280015e
-.word 0x6b1e031f
+.word 0xd2800140
+.word 0x6b00031f
 .word 0x54000142
-.word 0xd280015e
-.word 0x6b1e02ff
+.word 0xd2800140
+.word 0x6b0002ff
 .word 0x540000e2
 .loc 14 670 0
 .word 0xd280015e
@@ -15653,11 +15802,11 @@ ldr x1, [x16, #272]
 .word 0x8b010016
 .word 0x794002c0
 .word 0x5100c000
-.word 0xd280015e
-.word 0x6b1e001f
+.word 0xd2800141
+.word 0x6b01001f
 .word 0x54000082
-.word 0xd280015e
-.word 0x6b1e031f
+.word 0xd2800140
+.word 0x6b00031f
 .word 0x54fff32b
 .loc 14 687 0
 .word 0xf94027a0
@@ -15758,7 +15907,7 @@ bl _p_52
 .word 0x17ffff84
 bl _p_52
 .word 0x17ffffba
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -15780,8 +15929,8 @@ System_Globalization_FormatProvider_Number_NumberToString_System_Text_ValueStrin
 .word 0xaa0303f8
 .word 0xaa0403f9
 .word 0xaa0503fa
-.word 0xd2800a1e
-.word 0x6b1e02ff
+.word 0xd2800a00
+.word 0x6b0002ff
 .word 0x54000288
 .word 0x51010ef4
 .word 0xd28000be
@@ -15796,13 +15945,13 @@ ldr x0, [x16, #584]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
-.word 0xd28009de
-.word 0x6b1e02ff
-.word 0x54001360
-.word 0xd2800a1e
-.word 0x6b1e02ff
-.word 0x54003741
-.word 0x1400019b
+.word 0xd28009c0
+.word 0x6b0002ff
+.word 0x540013c0
+.word 0xd2800a00
+.word 0x6b0002ff
+.word 0x54003821
+.word 0x140001a1
 .word 0x51018ef4
 .word 0xd28000be
 .word 0x6b1e029f
@@ -15816,15 +15965,16 @@ ldr x0, [x16, #592]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
-.word 0xd2800dde
-.word 0x6b1e02ff
-.word 0x54001100
-.word 0xd2800e1e
-.word 0x6b1e02ff
-.word 0x540034e1
-.word 0x14000188
+.word 0xd2800dc0
+.word 0x6b0002ff
+.word 0x54001160
+.word 0xd2800e00
+.word 0x6b0002ff
+.word 0x540035c1
+.word 0x1400018e
 .loc 14 711 0
-.word 0x6b1f031f
+.word 0xd2800000
+.word 0x6b00031f
 .word 0x5400008a
 .word 0x3940033e
 .word 0xb980b33a
@@ -15832,7 +15982,8 @@ ldr x0, [x16, #592]
 .word 0xaa1803fa
 .word 0xaa1a03f4
 .loc 14 712 0
-.word 0x6b1f031f
+.word 0xd2800000
+.word 0x6b00031f
 .word 0x5400006a
 .loc 14 714 0
 .word 0x3940033e
@@ -15850,9 +16001,10 @@ bl _p_151
 .word 0xaa1903e4
 bl _p_152
 .loc 14 721 0
-.word 0x14000189
+.word 0x1400018e
 .loc 14 727 0
-.word 0x6b1f031f
+.word 0xd2800000
+.word 0x6b00031f
 .word 0x540000ea
 .loc 14 729 0
 .word 0x3940033e
@@ -15879,8 +16031,8 @@ bl _p_151
 .word 0xaa0003f7
 .word 0xb98022b3
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x54000901
 .word 0x91002340
 
@@ -15901,7 +16053,7 @@ ldr x1, [x16, #232]
 .word 0xb9801001
 .word 0xb98053a0
 .word 0x6b01001f
-.word 0x54002e02
+.word 0x54002e82
 .word 0xf9402fa0
 .word 0xf9400000
 .word 0xb5000220
@@ -15927,7 +16079,7 @@ ldr x1, [x16, #272]
 .word 0xf9400020
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54002c20
+.word 0x54002ca0
 .word 0x91004000
 .word 0xf9400421
 
@@ -15950,7 +16102,7 @@ ldr x1, [x16, #272]
 .word 0xb98012e1
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54002929
+.word 0x540029a9
 .word 0xd37ff800
 .word 0x8b170000
 .word 0x79402801
@@ -15974,9 +16126,10 @@ bl _p_53
 .word 0xd2800007
 bl _p_153
 .loc 14 745 0
-.word 0x1400011c
+.word 0x14000120
 .loc 14 751 0
-.word 0x6b1f031f
+.word 0xd2800000
+.word 0x6b00031f
 .word 0x540000ea
 .loc 14 753 0
 .word 0x3940033e
@@ -16001,9 +16154,10 @@ bl _p_151
 .word 0xaa1903e4
 bl _p_154
 .loc 14 764 0
-.word 0x14000108
+.word 0x1400010b
 .loc 14 770 0
-.word 0x6b1f031f
+.word 0xd2800000
+.word 0x6b00031f
 .word 0x5400008a
 .loc 14 772 0
 .word 0xd28000d4
@@ -16029,8 +16183,8 @@ bl _p_151
 .word 0xb98022a1
 .word 0xb90053a1
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x54000961
 .word 0x91002340
 
@@ -16053,7 +16207,7 @@ ldr x1, [x16, #232]
 .word 0xb9801001
 .word 0xb98063a0
 .word 0x6b01001f
-.word 0x54001e22
+.word 0x54001e62
 .word 0xf9402fa0
 .word 0xf9400000
 .word 0xb5000220
@@ -16079,7 +16233,7 @@ ldr x1, [x16, #272]
 .word 0xf9400020
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54001c00
+.word 0x54001c40
 .word 0x91004000
 .word 0xf9400421
 
@@ -16102,7 +16256,7 @@ ldr x1, [x16, #272]
 .word 0xb9801261
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54001909
+.word 0x54001949
 .word 0xd37ff800
 .word 0x8b130000
 .word 0x79402801
@@ -16124,19 +16278,19 @@ bl _p_53
 .word 0xaa1703e5
 bl _p_155
 .loc 14 789 0
-.word 0x1400009d
+.word 0x1400009f
 .loc 14 795 0
 .word 0xd2800020
 .word 0x53001c13
 .loc 14 796 0
-.word 0xd280003e
-.word 0x6b1e031f
+.word 0xd2800020
+.word 0x6b00031f
 .word 0x5400020a
 .loc 14 798 0
 .word 0x3400015a
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0x6b1e031f
+.word 0x92800000
+.word 0xf2bfffe0
+.word 0x6b00031f
 .word 0x540000c1
 .loc 14 802 0
 .word 0xd28003b4
@@ -16182,8 +16336,8 @@ bl _p_151
 .word 0xb90053a0
 .word 0xf94043a0
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x54000981
 .word 0x91002340
 
@@ -16206,7 +16360,7 @@ ldr x1, [x16, #232]
 .word 0xb9801001
 .word 0xb98063a0
 .word 0x6b01001f
-.word 0x54000e42
+.word 0x54000e82
 .word 0xf9402fa0
 .word 0xf9400000
 .word 0xb5000220
@@ -16232,7 +16386,7 @@ ldr x1, [x16, #272]
 .word 0xf9400020
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54000be0
+.word 0x54000c20
 .word 0x91004000
 .word 0xf9400421
 
@@ -16256,7 +16410,7 @@ ldr x1, [x16, #272]
 .word 0xb9801022
 .word 0xeb00005f
 .word 0x10000011
-.word 0x540008c9
+.word 0x54000909
 .word 0xd37ff800
 .word 0x8b010000
 .word 0x79402801
@@ -16272,7 +16426,8 @@ bl _p_53
 .loc 14 832 0
 .word 0x51000ae0
 .word 0x53003c05
-.word 0x6b1f027f
+.word 0xd2800000
+.word 0x6b00027f
 .word 0x9a9f17e6
 .word 0xaa1503e0
 .word 0xaa1603e1
@@ -16281,9 +16436,10 @@ bl _p_53
 .word 0xaa1903e4
 bl _p_156
 .loc 14 834 0
-.word 0x14000018
+.word 0x14000019
 .loc 14 840 0
-.word 0x6b1f031f
+.word 0xd2800000
+.word 0x6b00031f
 .word 0x540000ea
 .loc 14 842 0
 .word 0x3940033e
@@ -16327,20 +16483,20 @@ ldr x0, [x16, #0]
 .word 0xd280d741
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801a80
+.word 0xd2801b80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
 bl _p_52
-.word 0x17fffe90
+.word 0x17fffe8c
 bl _p_52
-.word 0x17ffff0f
+.word 0x17ffff0d
 bl _p_52
-.word 0x17ffff8e
-.word 0xd2801ea0
+.word 0x17ffff8c
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -16411,14 +16567,14 @@ ldr x0, [x16, #608]
 .word 0x53003c13
 .loc 14 870 0
 .word 0xaa1303e0
-.word 0xd280047e
-.word 0x6b1e001f
+.word 0xd2800461
+.word 0x6b01001f
 .word 0x54000100
-.word 0xd280049e
-.word 0x6b1e027f
+.word 0xd2800480
+.word 0x6b00027f
 .word 0x54000dc0
-.word 0xd28005be
-.word 0x6b1e027f
+.word 0xd28005a0
+.word 0x6b00027f
 .word 0x54000220
 .word 0x140000c4
 .loc 14 873 0
@@ -16447,8 +16603,8 @@ bl _p_153
 .word 0xb9005ba0
 .word 0xf9402ba0
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x54000981
 .word 0x91002260
 
@@ -16545,8 +16701,8 @@ bl _p_53
 .word 0xb9005ba0
 .word 0xf9402ba0
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x54000981
 .word 0x91002260
 
@@ -16733,10 +16889,10 @@ bl _p_52
 .word 0x17ffff6e
 bl _p_52
 .word 0x17ffffbf
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -16803,10 +16959,11 @@ System_Globalization_FormatProvider_Number_FormatFixed_System_Text_ValueStringBu
 .word 0x35ffff40
 .word 0xb9807bb6
 .loc 14 904 0
-.word 0x6b1f029f
-.word 0x54001b0d
+.word 0xd2800000
+.word 0x6b00029f
+.word 0x54001bcd
 .loc 14 906 0
-.word 0xb40017f8
+.word 0xb40018b8
 .loc 14 908 0
 .word 0xd2800017
 .loc 14 909 0
@@ -16815,7 +16972,7 @@ System_Globalization_FormatProvider_Number_FormatFixed_System_Text_ValueStringBu
 .word 0xb9801b01
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540039e9
+.word 0x54003b29
 .word 0xd37ef400
 .word 0x8b000300
 .word 0x91008000
@@ -16831,21 +16988,21 @@ System_Globalization_FormatProvider_Number_FormatFixed_System_Text_ValueStringBu
 .loc 14 913 0
 .word 0xb900a3bf
 .loc 14 916 0
-.word 0x34000675
-.word 0x14000025
+.word 0x340006d5
+.word 0x14000027
 .loc 14 920 0
 .word 0x93407ee0
 .word 0xb9801b01
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540037c9
+.word 0x54003909
 .word 0xd37ef400
 .word 0x8b000300
 .word 0x91008000
 .word 0xb9800000
 .word 0xb900a3a0
 .loc 14 921 0
-.word 0x340003a0
+.word 0x340003e0
 .loc 14 926 0
 .word 0xb98093a0
 .word 0xb9809ba1
@@ -16862,7 +17019,7 @@ System_Globalization_FormatProvider_Number_FormatFixed_System_Text_ValueStringBu
 .word 0xb9801b01
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54003569
+.word 0x540036a9
 .word 0xd37ef400
 .word 0x8b000300
 .word 0x91008000
@@ -16871,27 +17028,30 @@ System_Globalization_FormatProvider_Number_FormatFixed_System_Text_ValueStringBu
 .word 0xb010000
 .word 0xb9008ba0
 .loc 14 933 0
-.word 0x6b1f001f
-.word 0x540032ab
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x540033cb
+.word 0xd2800001
 .word 0xb98093a0
-.word 0x6b1f001f
-.word 0x5400324b
+.word 0x6b01001f
+.word 0x5400334b
 .loc 14 918 0
 .word 0xb9808ba0
 .word 0x6b00029f
-.word 0x54fffb4c
+.word 0x54fffb0c
 .loc 14 939 0
 .word 0xb9808ba0
 .word 0x35000060
 .loc 14 941 0
 .word 0xb900a3bf
 .loc 14 942 0
-.word 0x14000007
+.word 0x14000008
 .loc 14 945 0
+.word 0xd2800001
 .word 0xb9801b00
-.word 0xeb1f001f
+.word 0xeb01001f
 .word 0x10000011
-.word 0x54003289
+.word 0x54003369
 .word 0xb9802300
 .word 0xb900a3a0
 .loc 14 949 0
@@ -16942,7 +17102,7 @@ bl _p_14
 .word 0xf90063a0
 .loc 14 955 0
 .word 0x51000693
-.word 0x14000042
+.word 0x14000044
 .loc 14 957 0
 .word 0xf94063a0
 .word 0xf94063a1
@@ -16965,9 +17125,10 @@ bl _p_14
 .word 0xb9807ba0
 .word 0x790002c0
 .loc 14 959 0
+.word 0xd2800001
 .word 0xb980a3a0
-.word 0x6b1f001f
-.word 0x5400054d
+.word 0x6b01001f
+.word 0x5400056d
 .loc 14 961 0
 .word 0xb980b3a0
 .word 0x11000400
@@ -16975,8 +17136,8 @@ bl _p_14
 .loc 14 962 0
 .word 0xb980a3a1
 .word 0x6b01001f
-.word 0x54000481
-.word 0x34000473
+.word 0x540004a1
+.word 0x34000493
 .loc 14 964 0
 .word 0xb9809ba0
 .word 0x51000416
@@ -16990,15 +17151,16 @@ bl _p_14
 .word 0xb9801342
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540027a9
+.word 0x54002869
 .word 0xd37ff821
 .word 0x8b1a0021
 .word 0x79402821
 .word 0x79000001
 .loc 14 964 0
 .word 0x510006d6
-.word 0x6b1f02df
-.word 0x54fffe2a
+.word 0xd2800000
+.word 0x6b0002df
+.word 0x54fffe0a
 .loc 14 969 0
 .word 0x510006a0
 .word 0x6b0002ff
@@ -17010,7 +17172,7 @@ bl _p_14
 .word 0xb9801b01
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540025a9
+.word 0x54002649
 .word 0xd37ef400
 .word 0x8b000300
 .word 0x91008000
@@ -17020,8 +17182,9 @@ bl _p_14
 .word 0xb900b3bf
 .loc 14 955 0
 .word 0x51000673
-.word 0x6b1f027f
-.word 0x54fff7ca
+.word 0xd2800000
+.word 0x6b00027f
+.word 0x54fff76a
 .loc 14 979 0
 .word 0xf9402ba0
 .word 0xf94057a1
@@ -17090,7 +17253,7 @@ ldr x1, [x16, #232]
 .word 0xb9801001
 .word 0xb9808ba0
 .word 0x6b01001f
-.word 0x54001c42
+.word 0x54001cc2
 .word 0xf94002e0
 .word 0xb50001e0
 .word 0xf94006e0
@@ -17112,7 +17275,7 @@ ldr x1, [x16, #272]
 .word 0xf94002e0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54001a80
+.word 0x54001b00
 .word 0x91004000
 .word 0xf94006e1
 
@@ -17137,16 +17300,17 @@ ldr x1, [x16, #272]
 .word 0xaa1803e1
 bl _p_51
 .loc 14 998 0
+.word 0xd2800001
 .word 0xb98063a0
-.word 0x6b1f001f
-.word 0x5400156d
+.word 0x6b01001f
+.word 0x540015cd
 .loc 14 1000 0
 .word 0xf9402bba
 .word 0xaa1903f8
 .word 0xb9802359
 .word 0xb9801300
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x540007c1
 .word 0x91002340
 
@@ -17165,7 +17329,7 @@ ldr x1, [x16, #232]
 .word 0xaa1903f6
 .word 0xb9801000
 .word 0x6b00033f
-.word 0x54001422
+.word 0x54001482
 .word 0xf94002e0
 .word 0xb50001c0
 .word 0xf94006e0
@@ -17186,7 +17350,7 @@ ldr x1, [x16, #272]
 .word 0xf94002e0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54001240
+.word 0x540012a0
 .word 0x91004000
 .word 0xf94006e1
 
@@ -17207,7 +17371,7 @@ ldr x1, [x16, #272]
 .word 0xb9801301
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54001049
+.word 0x540010a9
 .word 0xd37ff800
 .word 0x8b180000
 .word 0x79402800
@@ -17219,10 +17383,12 @@ ldr x1, [x16, #272]
 .word 0xaa1803e1
 bl _p_53
 .loc 14 1001 0
-.word 0x6b1f029f
-.word 0x54000bea
+.word 0xd2800000
+.word 0x6b00029f
+.word 0x54000c0a
+.word 0xd2800001
 .word 0xb98063a0
-.word 0x6b1f001f
+.word 0x6b01001f
 .word 0x54000b8d
 .loc 14 1003 0
 .word 0x4b1403fa
@@ -17279,7 +17445,7 @@ ldr x1, [x16, #232]
 .word 0xaa1803f6
 .word 0xb9801000
 .word 0x6b00031f
-.word 0x540007a2
+.word 0x540007c2
 .word 0xf94002e0
 .word 0xb50001c0
 .word 0xf94006f4
@@ -17300,7 +17466,7 @@ ldr x1, [x16, #272]
 .word 0xf94002e0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54000580
+.word 0x540005a0
 .word 0x91004000
 .word 0xf94006e1
 
@@ -17328,9 +17494,10 @@ bl _p_51
 .word 0x51000400
 .word 0xb90063a0
 .loc 14 1009 0
+.word 0xd2800001
 .word 0xb98063a0
-.word 0x6b1f001f
-.word 0x54fff66c
+.word 0x6b01001f
+.word 0x54fff64c
 .loc 14 1015 0
 .word 0xa94153b3
 .word 0xa9425bb5
@@ -17340,20 +17507,20 @@ bl _p_51
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 .loc 14 935 0
-.word 0xd2801460
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_28
 bl _p_52
-.word 0x17ffff1e
+.word 0x17ffff1a
 bl _p_52
-.word 0x17ffff5f
+.word 0x17ffff5c
 bl _p_52
-.word 0x17ffffc3
-.word 0xd2802140
+.word 0x17ffffc2
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -17413,11 +17580,11 @@ ldr x0, [x16, #624]
 .word 0x53003c13
 .loc 14 1025 0
 .word 0xaa1303e0
-.word 0xd280047e
-.word 0x6b1e001f
+.word 0xd2800461
+.word 0x6b01001f
 .word 0x540000a0
-.word 0xd28005be
-.word 0x6b1e027f
+.word 0xd28005a0
+.word 0x6b00027f
 .word 0x54000220
 .word 0x1400006a
 .loc 14 1028 0
@@ -17446,8 +17613,8 @@ bl _p_153
 .word 0xb9005ba0
 .word 0xf9402ba0
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x54000981
 .word 0x91002260
 
@@ -17632,10 +17799,10 @@ bl _p_52
 .word 0x17ffff70
 bl _p_52
 .word 0x17ffffc1
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -17691,7 +17858,7 @@ ldr x1, [x16, #232]
 .word 0xaa1403f8
 .word 0xb9801000
 .word 0x6b00029f
-.word 0x54001ba2
+.word 0x54001bc2
 .word 0xf9400320
 .word 0xb50001c0
 .word 0xf9400733
@@ -17712,7 +17879,7 @@ ldr x1, [x16, #272]
 .word 0xf9400320
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54001a00
+.word 0x54001a20
 .word 0x91004000
 .word 0xf9400721
 
@@ -17737,9 +17904,9 @@ ldr x1, [x16, #272]
 .word 0xaa1a03e1
 bl _p_51
 .loc 14 1046 0
+.word 0xd2800021
 .word 0xb9805ba0
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0x6b01001f
 .word 0x54001260
 .loc 14 1048 0
 .word 0xf94033a0
@@ -17749,8 +17916,8 @@ bl _p_51
 .word 0xaa0003f9
 .word 0xb98022d8
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x540007c1
 .word 0x91002340
 
@@ -17769,7 +17936,7 @@ ldr x1, [x16, #232]
 .word 0xaa1803f3
 .word 0xb9801000
 .word 0x6b00031f
-.word 0x54001322
+.word 0x54001342
 .word 0xf9400280
 .word 0xb50001c0
 .word 0xf9400680
@@ -17790,7 +17957,7 @@ ldr x1, [x16, #272]
 .word 0xf9400280
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54001140
+.word 0x54001160
 .word 0x91004000
 .word 0xf9400681
 
@@ -17811,7 +17978,7 @@ ldr x1, [x16, #272]
 .word 0xb9801321
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54000f49
+.word 0x54000f69
 .word 0xd37ff800
 .word 0x8b190000
 .word 0x79402800
@@ -17854,7 +18021,7 @@ ldr x1, [x16, #232]
 .word 0xf9403fa0
 .word 0xb9801000
 .word 0x6b00027f
-.word 0x540009a2
+.word 0x540009c2
 .word 0xf9403fa0
 .word 0xf9400000
 .word 0xb50001e0
@@ -17878,7 +18045,7 @@ ldr x1, [x16, #272]
 .word 0xf9400020
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54000720
+.word 0x54000740
 .word 0x91004000
 .word 0xf9400421
 
@@ -17906,8 +18073,9 @@ bl _p_51
 .word 0x51000401
 .word 0xaa0103e0
 .word 0xb9005ba1
-.word 0x6b1f001f
-.word 0x54fff68c
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x54fff66c
 .loc 14 1056 0
 .word 0xf94027a0
 .word 0xf9400800
@@ -17936,15 +18104,15 @@ bl _p_162
 .word 0xa8c97bfd
 .word 0xd65f03c0
 bl _p_52
-.word 0x17ffff23
+.word 0x17ffff22
 bl _p_52
-.word 0x17ffff67
+.word 0x17ffff66
 bl _p_52
-.word 0x17ffffb3
-.word 0xd2802140
+.word 0x17ffffb2
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -17989,7 +18157,7 @@ ldr x1, [x16, #232]
 .word 0xb9801001
 .word 0xb98073a0
 .word 0x6b01001f
-.word 0x54002602
+.word 0x54002642
 .word 0xf94002a0
 .word 0xb50001e0
 .word 0xf94006b9
@@ -18011,7 +18179,7 @@ ldr x1, [x16, #272]
 .word 0xf94002a0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54002480
+.word 0x540024c0
 .word 0x91004000
 .word 0xf94006a1
 
@@ -18036,7 +18204,8 @@ ldr x1, [x16, #272]
 .word 0xaa1303e1
 bl _p_51
 .loc 14 1064 0
-.word 0x6b1f02ff
+.word 0xd2800000
+.word 0x6b0002ff
 .word 0x5400098a
 .loc 14 1066 0
 .word 0x394002de
@@ -18045,8 +18214,8 @@ bl _p_51
 .word 0xaa0003f8
 .word 0xb9802356
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x540007c1
 .word 0x91002340
 
@@ -18065,7 +18234,7 @@ ldr x1, [x16, #232]
 .word 0xaa1603f4
 .word 0xb9801000
 .word 0x6b0002df
-.word 0x54001dc2
+.word 0x54001de2
 .word 0xf94002a0
 .word 0xb50001c0
 .word 0xf94006b3
@@ -18086,7 +18255,7 @@ ldr x1, [x16, #272]
 .word 0xf94002a0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54001c20
+.word 0x54001c40
 .word 0x91004000
 .word 0xf94006a1
 
@@ -18107,7 +18276,7 @@ ldr x1, [x16, #272]
 .word 0xb9801301
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54001a29
+.word 0x54001a49
 .word 0xd37ff800
 .word 0x8b180000
 .word 0x79402800
@@ -18131,8 +18300,8 @@ bl _p_53
 .word 0xaa0003f8
 .word 0xb9802356
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x540007c1
 .word 0x91002340
 
@@ -18151,7 +18320,7 @@ ldr x1, [x16, #232]
 .word 0xaa1603f4
 .word 0xb9801000
 .word 0x6b0002df
-.word 0x54001482
+.word 0x540014a2
 .word 0xf94002a0
 .word 0xb50001c0
 .word 0xf94006b3
@@ -18172,7 +18341,7 @@ ldr x1, [x16, #272]
 .word 0xf94002a0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x540012a0
+.word 0x540012c0
 .word 0x91004000
 .word 0xf94006a1
 
@@ -18193,7 +18362,7 @@ ldr x1, [x16, #272]
 .word 0xb9801301
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540010a9
+.word 0x540010c9
 .word 0xd37ff800
 .word 0x8b180000
 .word 0x79402800
@@ -18270,7 +18439,7 @@ ldr x1, [x16, #232]
 .word 0xaa1603f3
 .word 0xb9801000
 .word 0x6b0002df
-.word 0x54000742
+.word 0x54000762
 .word 0xf9400280
 .word 0xb50001c0
 .word 0xf9400680
@@ -18291,7 +18460,7 @@ ldr x1, [x16, #272]
 .word 0xf9400280
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54000520
+.word 0x54000540
 .word 0x91004000
 .word 0xf9400681
 
@@ -18318,8 +18487,9 @@ bl _p_51
 .word 0x51000721
 .word 0xaa0103e0
 .word 0xaa0103f9
-.word 0x6b1f001f
-.word 0x54fff70a
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x54fff6ea
 .loc 14 1085 0
 .word 0xa94153b3
 .word 0xa9425bb5
@@ -18329,17 +18499,17 @@ bl _p_51
 .word 0xa8c87bfd
 .word 0xd65f03c0
 bl _p_52
-.word 0x17fffed0
+.word 0x17fffece
 bl _p_52
-.word 0x17ffff12
+.word 0x17ffff11
 bl _p_52
-.word 0x17ffff5c
+.word 0x17ffff5b
 bl _p_52
-.word 0x17ffffc6
-.word 0xd2802140
+.word 0x17ffffc5
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -18372,9 +18542,9 @@ System_Globalization_FormatProvider_Number_FormatGeneral_System_Text_ValueString
 .loc 14 1095 0
 .word 0x6b17029f
 .word 0x540000ac
-.word 0x9280005e
-.word 0xf2bffffe
-.word 0x6b1e029f
+.word 0x92800040
+.word 0xf2bfffe0
+.word 0x6b00029f
 .word 0x5400008a
 .loc 14 1097 0
 .word 0xd2800034
@@ -18385,8 +18555,9 @@ System_Globalization_FormatProvider_Number_FormatGeneral_System_Text_ValueString
 .word 0xf9402fa0
 .word 0xf940081a
 .loc 14 1104 0
-.word 0x6b1f029f
-.word 0x540009ad
+.word 0xd2800000
+.word 0x6b00029f
+.word 0x540009cd
 .loc 14 1108 0
 .word 0x79400340
 .word 0xf9402bb9
@@ -18418,7 +18589,7 @@ ldr x1, [x16, #232]
 .word 0xb9801001
 .word 0xb9808ba0
 .word 0x6b01001f
-.word 0x54002a82
+.word 0x54002ae2
 .word 0xf94002c0
 .word 0xb50001e0
 .word 0xf94006d5
@@ -18440,7 +18611,7 @@ ldr x1, [x16, #272]
 .word 0xf94002c0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54002940
+.word 0x540029a0
 .word 0x91004000
 .word 0xf94006c1
 
@@ -18468,8 +18639,9 @@ bl _p_51
 .word 0x51000681
 .word 0xaa0103e0
 .word 0xaa0103f4
-.word 0x6b1f001f
-.word 0x54fff6cc
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x54fff6ac
 .word 0x1400003e
 .loc 14 1113 0
 .word 0xf9402bb7
@@ -18494,7 +18666,7 @@ ldr x1, [x16, #232]
 .word 0xaa1903f6
 .word 0xb9801000
 .word 0x6b00033f
-.word 0x54002242
+.word 0x54002282
 .word 0xf9400300
 .word 0xb50001c0
 .word 0xf9400700
@@ -18515,7 +18687,7 @@ ldr x1, [x16, #272]
 .word 0xf9400300
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x540020e0
+.word 0x54002120
 .word 0x91004000
 .word 0xf9400701
 
@@ -18541,9 +18713,10 @@ ldr x1, [x16, #272]
 bl _p_51
 .loc 14 1116 0
 .word 0x79400340
-.word 0x35000060
-.word 0x6b1f029f
-.word 0x54001a6a
+.word 0x35000080
+.word 0xd2800000
+.word 0x6b00029f
+.word 0x54001a8a
 .loc 14 1118 0
 .word 0xf94037a0
 .word 0x3940001e
@@ -18553,8 +18726,8 @@ bl _p_51
 .word 0xb9802321
 .word 0xb90083a1
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x54000801
 .word 0x91002320
 
@@ -18574,7 +18747,7 @@ ldr x1, [x16, #232]
 .word 0xb98083b6
 .word 0xb9801000
 .word 0x6b0002df
-.word 0x54001982
+.word 0x540019a2
 .word 0xf9400300
 .word 0xb50001c0
 .word 0xf9400700
@@ -18595,7 +18768,7 @@ ldr x1, [x16, #272]
 .word 0xf9400300
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x540017e0
+.word 0x54001800
 .word 0x91004000
 .word 0xf9400701
 
@@ -18616,7 +18789,7 @@ ldr x1, [x16, #272]
 .word 0xb98012e1
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540015e9
+.word 0x54001609
 .word 0xd37ff800
 .word 0x8b170000
 .word 0x79402800
@@ -18653,7 +18826,7 @@ ldr x1, [x16, #232]
 .word 0xb9801001
 .word 0xb98093a0
 .word 0x6b01001f
-.word 0x540010c2
+.word 0x540010e2
 .word 0xf9400300
 .word 0xb50001e0
 .word 0xf9400716
@@ -18675,7 +18848,7 @@ ldr x1, [x16, #272]
 .word 0xf9400300
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54000ec0
+.word 0x54000ee0
 .word 0x91004000
 .word 0xf9400701
 
@@ -18703,8 +18876,9 @@ bl _p_51
 .loc 14 1123 0
 .word 0x11000694
 .loc 14 1120 0
-.word 0x6b1f029f
-.word 0x54fff7cb
+.word 0xd2800000
+.word 0x6b00029f
+.word 0x54fff7ab
 .word 0x1400003f
 .loc 14 1128 0
 .word 0xaa1a03e0
@@ -18799,19 +18973,19 @@ bl _p_162
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 bl _p_52
-.word 0x17fffeac
+.word 0x17fffea9
 bl _p_52
-.word 0x17fffeee
+.word 0x17fffeec
 bl _p_52
-.word 0x17ffff34
+.word 0x17ffff33
 bl _p_52
-.word 0x17ffff7a
+.word 0x17ffff79
 bl _p_52
 .word 0x17ffffbd
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -18882,14 +19056,14 @@ ldr x0, [x16, #640]
 .word 0x53003c13
 .loc 14 1146 0
 .word 0xaa1303e0
-.word 0xd280047e
-.word 0x6b1e001f
+.word 0xd2800461
+.word 0x6b01001f
 .word 0x54000100
-.word 0xd28004be
-.word 0x6b1e027f
+.word 0xd28004a0
+.word 0x6b00027f
 .word 0x54000dc0
-.word 0xd28005be
-.word 0x6b1e027f
+.word 0xd28005a0
+.word 0x6b00027f
 .word 0x54000220
 .word 0x140000c4
 .loc 14 1149 0
@@ -18918,8 +19092,8 @@ bl _p_153
 .word 0xb9005ba0
 .word 0xf9402ba0
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x54000981
 .word 0x91002260
 
@@ -19016,8 +19190,8 @@ bl _p_53
 .word 0xb9005ba0
 .word 0xf9402ba0
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x54000981
 .word 0x91002260
 
@@ -19204,10 +19378,10 @@ bl _p_52
 .word 0x17ffff6e
 bl _p_52
 .word 0x17ffffbf
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -19240,20 +19414,21 @@ System_Globalization_FormatProvider_Number_RoundNumber_System_Globalization_Form
 .word 0x35ffff00
 .loc 14 1174 0
 .word 0x6b1a02ff
-.word 0x54000541
+.word 0x54000581
 .word 0x93407ee0
 .word 0xd2800041
 .word 0x9b017c00
 .word 0x8b000300
 .word 0x79400000
-.word 0xd28006be
-.word 0x6b1e001f
-.word 0x5400044b
+.word 0xd28006a1
+.word 0x6b01001f
+.word 0x5400048b
 .word 0x14000002
 .loc 14 1178 0
 .word 0x510006f7
 .loc 14 1176 0
-.word 0x6b1f02ff
+.word 0xd2800000
+.word 0x6b0002ff
 .word 0x5400014d
 .word 0x510006e0
 .word 0x93407c00
@@ -19261,11 +19436,12 @@ System_Globalization_FormatProvider_Number_RoundNumber_System_Globalization_Form
 .word 0x9b017c00
 .word 0x8b000300
 .word 0x79400000
-.word 0xd280073e
-.word 0x6b1e001f
-.word 0x54fffea0
+.word 0xd2800721
+.word 0x6b01001f
+.word 0x54fffe80
 .loc 14 1181 0
-.word 0x6b1f02ff
+.word 0xd2800000
+.word 0x6b0002ff
 .word 0x5400014d
 .loc 14 1183 0
 .word 0x510006e0
@@ -19277,7 +19453,7 @@ System_Globalization_FormatProvider_Number_RoundNumber_System_Globalization_Form
 .word 0x11000421
 .word 0x79000001
 .loc 14 1184 0
-.word 0x14000015
+.word 0x14000016
 .loc 14 1187 0
 .word 0x91001320
 .word 0xb9800721
@@ -19289,11 +19465,12 @@ System_Globalization_FormatProvider_Number_RoundNumber_System_Globalization_Form
 .loc 14 1189 0
 .word 0xd2800037
 .loc 14 1191 0
-.word 0x1400000d
+.word 0x1400000e
 .loc 14 1196 0
 .word 0x510006f7
 .loc 14 1194 0
-.word 0x6b1f02ff
+.word 0xd2800000
+.word 0x6b0002ff
 .word 0x5400014d
 .word 0x510006e0
 .word 0x93407c00
@@ -19301,9 +19478,9 @@ System_Globalization_FormatProvider_Number_RoundNumber_System_Globalization_Form
 .word 0x9b017c00
 .word 0x8b000300
 .word 0x79400000
-.word 0xd280061e
-.word 0x6b1e001f
-.word 0x54fffea0
+.word 0xd2800601
+.word 0x6b01001f
+.word 0x54fffe80
 .loc 14 1200 0
 .word 0x35000077
 .loc 14 1202 0
@@ -19388,22 +19565,22 @@ ldr x1, [x16, #288]
 .word 0x53003c37
 .word 0x53003c16
 .word 0xaa1603e0
-.word 0xd280045e
-.word 0x6b1e001f
+.word 0xd2800441
+.word 0x6b01001f
 .word 0x540000c8
 .word 0x34000a16
-.word 0xd280045e
-.word 0x6b1e02df
+.word 0xd2800440
+.word 0x6b0002df
 .word 0x54000180
 .word 0x17ffffe5
-.word 0xd28004fe
-.word 0x6b1e02df
+.word 0xd28004e0
+.word 0x6b0002df
 .word 0x54000100
-.word 0xd280077e
-.word 0x6b1e02df
+.word 0xd2800760
+.word 0x6b0002df
 .word 0x54000560
-.word 0xd2800b9e
-.word 0x6b1e02df
+.word 0xd2800b80
+.word 0x6b0002df
 .word 0x54000320
 .word 0x17ffffdb
 .loc 14 1230 0
@@ -19475,8 +19652,8 @@ ldr x1, [x16, #288]
 .word 0x9b017c00
 .word 0x8b000300
 .word 0x79400000
-.word 0xd280077e
-.word 0x6b1e001f
+.word 0xd2800761
+.word 0x6b01001f
 .word 0x54000060
 .loc 14 1247 0
 .word 0xaa1903e0
@@ -19625,11 +19802,11 @@ bl _p_148
 .word 0xaa0003fa
 .loc 14 1291 0
 .word 0xf9010fba
-.word 0x140000dc
+.word 0x140000e0
 .loc 14 1295 0
+.word 0xd28008a1
 .word 0x794473a0
-.word 0xd28008be
-.word 0x6b1e001f
+.word 0x6b01001f
 .word 0x54000408
 .word 0x794473a0
 .word 0x5100881a
@@ -19659,33 +19836,33 @@ ldr x0, [x16, #656]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
+.word 0xd28008a1
 .word 0x794473a0
-.word 0xd28008be
-.word 0x6b1e001f
-.word 0x54000d20
-.word 0x140000b9
+.word 0x6b01001f
+.word 0x54000da0
+.word 0x140000bd
+.word 0xd2800b81
 .word 0x794473a0
-.word 0xd2800b9e
-.word 0x6b1e001f
-.word 0x54000a00
+.word 0x6b01001f
+.word 0x54000a80
+.word 0xd2800ca1
 .word 0x794473a0
-.word 0xd2800cbe
-.word 0x6b1e001f
-.word 0x54000c00
+.word 0x6b01001f
+.word 0x54000c80
+.word 0xd2840601
 .word 0x794473a0
-.word 0xd284061e
-.word 0x6b1e001f
-.word 0x540004c0
-.word 0x140000ac
+.word 0x6b01001f
+.word 0x54000540
+.word 0x140000b0
 .loc 14 1298 0
 .word 0x11000673
 .loc 14 1299 0
-.word 0x140000aa
+.word 0x140000ae
 .loc 14 1301 0
+.word 0xd29fffe1
+.word 0xf2afffe1
 .word 0xb981eba0
-.word 0xd29ffffe
-.word 0xf2affffe
-.word 0x6b1e001f
+.word 0x6b01001f
 .word 0x54000041
 .loc 14 1303 0
 .word 0xb901ebb3
@@ -19694,23 +19871,27 @@ ldr x0, [x16, #656]
 .loc 14 1306 0
 .word 0xb901f3b3
 .loc 14 1307 0
-.word 0x140000a1
+.word 0x140000a5
 .loc 14 1309 0
+.word 0xd2800001
 .word 0xb981e3a0
-.word 0x6b1f001f
-.word 0x540013ca
+.word 0x6b01001f
+.word 0x5400142a
 .loc 14 1311 0
 .word 0xb901e3b3
 .loc 14 1313 0
-.word 0x1400009c
+.word 0x1400009f
 .loc 14 1315 0
-.word 0x6b1f027f
-.word 0x5400134d
+.word 0xd2800000
+.word 0x6b00027f
+.word 0x5400138d
+.word 0xd2800001
 .word 0xb981e3a0
-.word 0x6b1f001f
-.word 0x540012ea
+.word 0x6b01001f
+.word 0x5400130a
 .loc 14 1317 0
-.word 0x6b1f02bf
+.word 0xd2800000
+.word 0x6b0002bf
 .word 0x540000eb
 .loc 14 1319 0
 .word 0x6b1302bf
@@ -19813,8 +19994,8 @@ ldr x1, [x16, #288]
 .word 0xf9410fa0
 .word 0x8b010000
 .word 0x79400000
-.word 0xd280061e
-.word 0x6b1e001f
+.word 0xd2800601
+.word 0x6b01001f
 .word 0x54000520
 .word 0xb98213a0
 .word 0x11000400
@@ -19833,8 +20014,8 @@ ldr x2, [x16, #288]
 .word 0xf9410fa0
 .word 0x8b010000
 .word 0x79400000
-.word 0xd280057e
-.word 0x6b1e001f
+.word 0xd2800561
+.word 0x6b01001f
 .word 0x54000160
 .word 0xb98213a0
 .word 0x93407c00
@@ -19843,8 +20024,8 @@ ldr x2, [x16, #288]
 .word 0xf9410fa0
 .word 0x8b010000
 .word 0x79400000
-.word 0xd28005be
-.word 0x6b1e001f
+.word 0xd28005a1
+.word 0x6b01001f
 .word 0x54000461
 .word 0xb98213a0
 .word 0x11000400
@@ -19854,8 +20035,8 @@ ldr x2, [x16, #288]
 .word 0xf9410fa0
 .word 0x8b010000
 .word 0x79400000
-.word 0xd280061e
-.word 0x6b1e001f
+.word 0xd2800601
+.word 0x6b01001f
 .word 0x54000301
 .loc 14 1352 0
 .word 0xb98213a0
@@ -19877,8 +20058,8 @@ ldr x2, [x16, #288]
 .word 0xf9410fa0
 .word 0x8b010000
 .word 0x79400000
-.word 0xd280061e
-.word 0x6b1e001f
+.word 0xd2800601
+.word 0x6b01001f
 .word 0x54fffd80
 .loc 14 1353 0
 .word 0xd2800020
@@ -19906,20 +20087,22 @@ ldr x1, [x16, #288]
 .word 0xaa0103e0
 .word 0x790473a1
 .word 0x340000a0
+.word 0xd2800761
 .word 0x794473a0
-.word 0xd280077e
-.word 0x6b1e001f
-.word 0x54ffe1a1
+.word 0x6b01001f
+.word 0x54ffe121
 .word 0xd2800000
 .word 0x2a0003fa
 .loc 14 1360 0
+.word 0xd2800001
 .word 0xb981e3a0
-.word 0x6b1f001f
+.word 0x6b01001f
 .word 0x5400004a
 .loc 14 1362 0
 .word 0xb901e3b3
 .loc 14 1365 0
-.word 0x6b1f02bf
+.word 0xd2800000
+.word 0x6b0002bf
 .word 0x5400018b
 .loc 14 1367 0
 .word 0xb981e3a0
@@ -19993,7 +20176,7 @@ bl _p_165
 .loc 14 1387 0
 .word 0xb98213b4
 .loc 14 1388 0
-.word 0x17fffea4
+.word 0x17fffe9e
 .loc 14 1394 0
 .word 0xf9402fa0
 .word 0x3900201f
@@ -20098,14 +20281,15 @@ bl _p_166
 .word 0xb9022bbe
 .loc 14 1422 0
 .word 0x394803a0
-.word 0x34001420
+.word 0x34001460
 .loc 14 1425 0
 .word 0xf94037a0
 .word 0x3940001e
 .word 0xf9402000
 .word 0xb9801000
-.word 0x6b1f001f
-.word 0x5400136d
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x5400138d
 .loc 14 1433 0
 .word 0xf94037a0
 .word 0xf94037a1
@@ -20126,7 +20310,7 @@ bl _p_161
 .word 0xb9801b01
 .word 0xeb00003f
 .word 0x10000011
-.word 0x5400ea29
+.word 0x5400eb29
 .word 0xd37ef400
 .word 0x8b000300
 .word 0x91008000
@@ -20136,8 +20320,9 @@ bl _p_161
 .word 0xb9824ba0
 .word 0xb902cba0
 .loc 14 1445 0
+.word 0xd2800000
 .word 0xaa1903fa
-.word 0x6b1f02ff
+.word 0x6b0002ff
 .word 0x5400006b
 .word 0xd2800015
 .word 0x14000002
@@ -20224,7 +20409,7 @@ ldr x1, [x16, #664]
 .word 0xb981d3a1
 .word 0xb982dba0
 .word 0x6b01001f
-.word 0x5400db22
+.word 0x5400dc02
 .word 0xf9400340
 .word 0xb50001e0
 .word 0xf9400740
@@ -20246,7 +20431,7 @@ ldr x1, [x16, #688]
 .word 0xf9400340
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x5400dd20
+.word 0x5400de00
 .word 0x91004000
 .word 0xf9400741
 
@@ -20277,7 +20462,7 @@ ldr x1, [x16, #688]
 .word 0xb9801b01
 .word 0xeb00003f
 .word 0x10000011
-.word 0x5400da49
+.word 0x5400db29
 .word 0xd37ef400
 .word 0x8b000300
 .word 0x91008000
@@ -20305,8 +20490,8 @@ ldr x1, [x16, #688]
 .word 0xaa0003f8
 .word 0xb9802356
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x540007c1
 .word 0x91002340
 
@@ -20325,7 +20510,7 @@ ldr x1, [x16, #232]
 .word 0xaa1603f4
 .word 0xb9801000
 .word 0x6b0002df
-.word 0x5400d062
+.word 0x5400d142
 .word 0xf94002a0
 .word 0xb50001c0
 .word 0xf94006a0
@@ -20346,7 +20531,7 @@ ldr x1, [x16, #272]
 .word 0xf94002a0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x5400d240
+.word 0x5400d320
 .word 0x91004000
 .word 0xf94006a1
 
@@ -20367,7 +20552,7 @@ ldr x1, [x16, #272]
 .word 0xb9801301
 .word 0xeb00003f
 .word 0x10000011
-.word 0x5400d049
+.word 0x5400d129
 .word 0xd37ff800
 .word 0x8b180000
 .word 0x79402800
@@ -20405,24 +20590,25 @@ bl _p_148
 .word 0xf9011bba
 .loc 14 1483 0
 .word 0xf940efb8
-.word 0x14000613
+.word 0x1400061a
 .loc 14 1487 0
-.word 0x6b1f02ff
-.word 0x54001d8d
+.word 0xd2800000
+.word 0x6b0002ff
+.word 0x54001dcd
 .loc 14 1489 0
+.word 0xd2800461
 .word 0x794473a0
-.word 0xd280047e
-.word 0x6b1e001f
-.word 0x54001cc0
+.word 0x6b01001f
+.word 0x54001ce0
+.word 0xd28005c1
 .word 0x794473a0
-.word 0xd28005de
-.word 0x6b1e001f
-.word 0x54001c40
+.word 0x6b01001f
+.word 0x54001c60
+.word 0xd2800601
 .word 0x794473a0
-.word 0xd280061e
-.word 0x6b1e001f
-.word 0x54001bc0
-.word 0x140000df
+.word 0x6b01001f
+.word 0x54001be0
+.word 0x140000e1
 .loc 14 1498 0
 .word 0x79400300
 .word 0xf9402bba
@@ -20455,7 +20641,7 @@ ldr x1, [x16, #232]
 .word 0xb9801001
 .word 0xb9824ba0
 .word 0x6b01001f
-.word 0x5400c202
+.word 0x5400c2c2
 .word 0xf94123a0
 .word 0xf9400000
 .word 0xb5000220
@@ -20481,7 +20667,7 @@ ldr x1, [x16, #272]
 .word 0xf9400020
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x5400c300
+.word 0x5400c3c0
 .word 0x91004000
 .word 0xf9400421
 
@@ -20509,12 +20695,13 @@ ldr x1, [x16, #272]
 bl _p_51
 .loc 14 1499 0
 .word 0x394803a0
-.word 0x34001180
-.word 0xd280003e
-.word 0x6b1e033f
-.word 0x5400112d
+.word 0x340011a0
+.word 0xd2800020
+.word 0x6b00033f
+.word 0x5400114d
+.word 0xd2800001
 .word 0xb9822ba0
-.word 0x6b1f001f
+.word 0x6b01001f
 .word 0x540010cb
 .loc 14 1501 0
 .word 0xaa1903fa
@@ -20527,7 +20714,7 @@ ldr x1, [x16, #664]
 .word 0xb9822bb5
 .word 0xb981d3a0
 .word 0x6b0002bf
-.word 0x5400ba22
+.word 0x5400bac2
 .word 0xf94002c0
 .word 0xb50001c0
 .word 0xf94006c0
@@ -20548,7 +20735,7 @@ ldr x1, [x16, #688]
 .word 0xf94002c0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x5400bb80
+.word 0x5400bc20
 .word 0x91004000
 .word 0xf94006c1
 
@@ -20576,8 +20763,8 @@ ldr x1, [x16, #688]
 .word 0xaa0003f6
 .word 0xb9802355
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x54000901
 .word 0x91002340
 
@@ -20598,7 +20785,7 @@ ldr x1, [x16, #232]
 .word 0xb9801001
 .word 0xb9824ba0
 .word 0x6b01001f
-.word 0x5400b262
+.word 0x5400b302
 .word 0xf94123a0
 .word 0xf9400000
 .word 0xb5000220
@@ -20624,7 +20811,7 @@ ldr x1, [x16, #272]
 .word 0xf9400020
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x5400b2e0
+.word 0x5400b380
 .word 0x91004000
 .word 0xf9400421
 
@@ -20647,7 +20834,7 @@ ldr x1, [x16, #272]
 .word 0xb98012c1
 .word 0xeb00003f
 .word 0x10000011
-.word 0x5400b0a9
+.word 0x5400b149
 .word 0xd37ff800
 .word 0x8b160000
 .word 0x79402801
@@ -20668,12 +20855,13 @@ bl _p_53
 .loc 14 1508 0
 .word 0x510006f7
 .loc 14 1494 0
-.word 0x6b1f02ff
-.word 0x54ffe46c
+.word 0xd2800000
+.word 0x6b0002ff
+.word 0x54ffe42c
 .loc 14 1514 0
+.word 0xd28008a1
 .word 0x794473a0
-.word 0xd28008be
-.word 0x6b1e001f
+.word 0x6b01001f
 .word 0x54000408
 .word 0x794473a0
 .word 0x5100881a
@@ -20703,26 +20891,27 @@ ldr x0, [x16, #712]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
+.word 0xd28008a1
 .word 0x794473a0
-.word 0xd28008be
-.word 0x6b1e001f
-.word 0x54005c00
-.word 0x140004be
+.word 0x6b01001f
+.word 0x54005c80
+.word 0x140004c2
+.word 0xd2800b81
 .word 0x794473a0
-.word 0xd2800b9e
-.word 0x6b1e001f
-.word 0x54004f60
+.word 0x6b01001f
+.word 0x54004fe0
+.word 0xd2800ca1
 .word 0x794473a0
-.word 0xd2800cbe
-.word 0x6b1e001f
-.word 0x54005ae0
+.word 0x6b01001f
+.word 0x54005b60
+.word 0xd2840601
 .word 0x794473a0
-.word 0xd284061e
-.word 0x6b1e001f
-.word 0x54002980
-.word 0x140004b1
+.word 0x6b01001f
+.word 0x54002a00
+.word 0x140004b5
 .loc 14 1519 0
-.word 0x6b1f02ff
+.word 0xd2800000
+.word 0x6b0002ff
 .word 0x5400014a
 .loc 14 1521 0
 .word 0x110006f7
@@ -20752,7 +20941,7 @@ ldr x0, [x16, #712]
 .word 0x790473ba
 .loc 14 1528 0
 .word 0x794473a0
-.word 0x34001a60
+.word 0x34001a80
 .loc 14 1530 0
 .word 0xf9402bba
 .word 0x794473b6
@@ -20777,7 +20966,7 @@ ldr x1, [x16, #232]
 .word 0xb9801001
 .word 0xb9824ba0
 .word 0x6b01001f
-.word 0x54009ec2
+.word 0x54009f22
 .word 0xf94123a0
 .word 0xf9400000
 .word 0xb5000220
@@ -20803,7 +20992,7 @@ ldr x1, [x16, #272]
 .word 0xf9400020
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54009f00
+.word 0x54009f60
 .word 0x91004000
 .word 0xf9400421
 
@@ -20831,12 +21020,13 @@ ldr x1, [x16, #272]
 bl _p_51
 .loc 14 1531 0
 .word 0x394803a0
-.word 0x34001180
-.word 0xd280003e
-.word 0x6b1e033f
-.word 0x5400112d
+.word 0x340011a0
+.word 0xd2800020
+.word 0x6b00033f
+.word 0x5400114d
+.word 0xd2800001
 .word 0xb9822ba0
-.word 0x6b1f001f
+.word 0x6b01001f
 .word 0x540010cb
 .loc 14 1533 0
 .word 0xaa1903fa
@@ -20849,7 +21039,7 @@ ldr x1, [x16, #664]
 .word 0xb9822bb5
 .word 0xb981d3a0
 .word 0x6b0002bf
-.word 0x540096e2
+.word 0x54009722
 .word 0xf94002c0
 .word 0xb50001c0
 .word 0xf94006c0
@@ -20870,7 +21060,7 @@ ldr x1, [x16, #688]
 .word 0xf94002c0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54009780
+.word 0x540097c0
 .word 0x91004000
 .word 0xf94006c1
 
@@ -20898,8 +21088,8 @@ ldr x1, [x16, #688]
 .word 0xaa0003f6
 .word 0xb9802355
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x54000901
 .word 0x91002340
 
@@ -20920,7 +21110,7 @@ ldr x1, [x16, #232]
 .word 0xb9801001
 .word 0xb9824ba0
 .word 0x6b01001f
-.word 0x54008f22
+.word 0x54008f62
 .word 0xf94123a0
 .word 0xf9400000
 .word 0xb5000220
@@ -20946,7 +21136,7 @@ ldr x1, [x16, #272]
 .word 0xf9400020
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54008ee0
+.word 0x54008f20
 .word 0x91004000
 .word 0xf9400421
 
@@ -20969,7 +21159,7 @@ ldr x1, [x16, #272]
 .word 0xb98012c1
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54008ca9
+.word 0x54008ce9
 .word 0xd37ff800
 .word 0x8b160000
 .word 0x79402801
@@ -20988,15 +21178,17 @@ bl _p_53
 .loc 14 1541 0
 .word 0x51000739
 .loc 14 1542 0
-.word 0x14000408
+.word 0x1400040a
 .loc 14 1546 0
-.word 0x6b1f033f
+.word 0xd2800000
+.word 0x6b00033f
 .word 0x9a9f97e0
 .word 0x2a140000
-.word 0x35008080
+.word 0x350080a0
 .loc 14 1552 0
+.word 0xd2800001
 .word 0xb981f3a0
-.word 0x6b1f001f
+.word 0x6b01001f
 .word 0x540000cb
 .word 0xb981e3a0
 .word 0x6b13001f
@@ -21011,8 +21203,8 @@ bl _p_53
 .word 0xaa0003f6
 .word 0xb9802355
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x54000821
 .word 0x91002340
 
@@ -21100,8 +21292,8 @@ bl _p_53
 .word 0xaa0003f6
 .word 0xb9802355
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x54000901
 .word 0x91002340
 
@@ -21193,8 +21385,8 @@ bl _p_53
 .word 0xaa0003f6
 .word 0xb9802355
 .word 0xb9801000
-.word 0xd280003e
-.word 0x6b1e001f
+.word 0xd2800021
+.word 0x6b01001f
 .word 0x54000901
 .word 0x91002340
 
@@ -21547,8 +21739,8 @@ ldr x1, [x16, #288]
 .word 0xf9411ba0
 .word 0x8b010000
 .word 0x79400000
-.word 0xd280061e
-.word 0x6b1e001f
+.word 0xd2800601
+.word 0x6b01001f
 .word 0x54000061
 .loc 14 1595 0
 .word 0x110006b5
@@ -21572,8 +21764,8 @@ ldr x2, [x16, #288]
 .word 0xf9411ba0
 .word 0x8b010000
 .word 0x79400000
-.word 0xd280057e
-.word 0x6b1e001f
+.word 0xd2800561
+.word 0x6b01001f
 .word 0x540001e1
 .word 0xb98213a0
 .word 0x11000400
@@ -21583,8 +21775,8 @@ ldr x2, [x16, #288]
 .word 0xf9411ba0
 .word 0x8b010000
 .word 0x79400000
-.word 0xd280061e
-.word 0x6b1e001f
+.word 0xd2800601
+.word 0x6b01001f
 .word 0x54000081
 .loc 14 1600 0
 .word 0xd2800020
@@ -21609,8 +21801,8 @@ ldr x2, [x16, #288]
 .word 0xf9411ba0
 .word 0x8b010000
 .word 0x79400000
-.word 0xd28005be
-.word 0x6b1e001f
+.word 0xd28005a1
+.word 0x6b01001f
 .word 0x54000181
 .word 0xb98213a0
 .word 0x11000400
@@ -21620,8 +21812,8 @@ ldr x2, [x16, #288]
 .word 0xf9411ba0
 .word 0x8b010000
 .word 0x79400000
-.word 0xd280061e
-.word 0x6b1e001f
+.word 0xd2800601
+.word 0x6b01001f
 .word 0x54000900
 .loc 14 1609 0
 .word 0xf9402bba
@@ -21723,12 +21915,12 @@ ldr x2, [x16, #288]
 .word 0xf9411ba0
 .word 0x8b010000
 .word 0x79400000
-.word 0xd280061e
-.word 0x6b1e001f
+.word 0xd2800601
+.word 0x6b01001f
 .word 0x54fffd60
 .loc 14 1617 0
-.word 0xd280015e
-.word 0x6b1e02bf
+.word 0xd2800140
+.word 0x6b0002bf
 .word 0x5400004d
 .loc 14 1619 0
 .word 0xd2800155
@@ -21850,8 +22042,8 @@ ldr x1, [x16, #288]
 .word 0xf9411ba0
 .word 0x8b010000
 .word 0x79400000
-.word 0xd280057e
-.word 0x6b1e001f
+.word 0xd2800561
+.word 0x6b01001f
 .word 0x54000160
 .word 0xb98213a0
 .word 0x93407c00
@@ -21860,8 +22052,8 @@ ldr x1, [x16, #288]
 .word 0xf9411ba0
 .word 0x8b010000
 .word 0x79400000
-.word 0xd28005be
-.word 0x6b1e001f
+.word 0xd28005a1
+.word 0x6b01001f
 .word 0x54001401
 .loc 14 1633 0
 .word 0xb98213a0
@@ -22053,8 +22245,8 @@ ldr x1, [x16, #288]
 .word 0xf9411ba0
 .word 0x8b010000
 .word 0x79400000
-.word 0xd280061e
-.word 0x6b1e001f
+.word 0xd2800601
+.word 0x6b01001f
 .word 0x54fff400
 .word 0x14000046
 .loc 14 1644 0
@@ -22156,10 +22348,10 @@ ldr x1, [x16, #288]
 .word 0xaa0103e0
 .word 0x790473a1
 .word 0x340000a0
+.word 0xd2800761
 .word 0x794473a0
-.word 0xd280077e
-.word 0x6b1e001f
-.word 0x54ff3ac1
+.word 0x6b01001f
+.word 0x54ff39e1
 .word 0xd2800000
 .word 0x2a0003fa
 .loc 14 1649 0
@@ -22175,21 +22367,21 @@ ldr x1, [x16, #288]
 .word 0x9100023f
 .word 0xd65f03c0
 bl _p_52
-.word 0x17fff927
+.word 0x17fff920
 bl _p_52
-.word 0x17fff97d
+.word 0x17fff976
 bl _p_52
-.word 0x17fff9f0
+.word 0x17fff9ea
 bl _p_52
-.word 0x17fffa2f
+.word 0x17fffa2a
 bl _p_52
-.word 0x17fffa6d
+.word 0x17fffa68
 bl _p_52
-.word 0x17fffb0a
+.word 0x17fffb07
 bl _p_52
-.word 0x17fffb49
+.word 0x17fffb47
 bl _p_52
-.word 0x17fffb87
+.word 0x17fffb85
 bl _p_52
 .word 0x17fffbe9
 bl _p_52
@@ -22210,10 +22402,10 @@ bl _p_52
 .word 0x17ffff32
 bl _p_52
 .word 0x17ffff88
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -22804,7 +22996,7 @@ b System_Globalization_FormatProvider_Number_NumberBuffer_get_digits
 	.align 4
 	.no_dead_strip System_Globalization_FormatProvider_Number_NumberBuffer_get_digits
 System_Globalization_FormatProvider_Number_NumberBuffer_get_digits:
-.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Globalization/FormatProvider.NumberBuffer.cs"
+.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Globalization/FormatProvider.NumberBuffer.cs"
 .loc 15 25 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -23085,15 +23277,17 @@ bl _p_191
 .word 0xf9402ba0
 .word 0xd63f0020
 .loc 4 24 0
-.word 0x6b1f033f
-.word 0x54000c2d
+.word 0xd2800000
+.word 0x6b00033f
+.word 0x54000c4d
 .loc 4 28 0
-.word 0x6b1f035f
+.word 0xd2800000
+.word 0x6b00035f
 .word 0x54000aad
 .loc 4 36 0
-.word 0xd280001e
-.word 0xf2a8001e
-.word 0x6b1e033f
+.word 0xd2800000
+.word 0xf2a80000
+.word 0x6b00033f
 .word 0x5400008d
 .loc 4 38 0
 .word 0xd2800019
@@ -23101,8 +23295,8 @@ bl _p_191
 .loc 4 39 0
 .word 0x14000005
 .loc 4 40 0
-.word 0xd280021e
-.word 0x6b1e033f
+.word 0xd2800200
+.word 0x6b00033f
 .word 0x5400004a
 .loc 4 42 0
 .word 0xd2800219
@@ -23196,7 +23390,7 @@ ldr x0, [x16, #0]
 .word 0xd28003e1
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801460
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -23208,7 +23402,7 @@ ldr x0, [x16, #0]
 .word 0xd2800021
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801460
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -23258,7 +23452,8 @@ bl _p_199
 .word 0xaa0003f9
 .word 0xb9800320
 .word 0xf90023bf
-.word 0x6b1f035f
+.word 0xd2800000
+.word 0x6b00035f
 .word 0x5400204b
 .loc 4 68 0
 .word 0x350004fa
@@ -23546,11 +23741,11 @@ ldr x0, [x16, #0]
 .word 0xd28008a1
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801460
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -23673,11 +23868,11 @@ ldr x0, [x16, #0]
 .word 0xd2800c21
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801440
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -23822,7 +24017,7 @@ bl _p_216
 .word 0xf94017a0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54001380
+.word 0x540013a0
 .word 0xf9401ba1
 .word 0xf9400821
 .word 0xd1000421
@@ -23838,7 +24033,7 @@ bl _p_38
 .word 0xb9800000
 .word 0xb9801b41
 .word 0x6b01001f
-.word 0x540006aa
+.word 0x540006ca
 .loc 5 53 0
 .word 0xf94017a0
 .word 0xf9401ba1
@@ -23850,7 +24045,7 @@ bl _p_38
 .word 0xb9801b41
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540010a9
+.word 0x540010c9
 .word 0xd37df000
 .word 0x8b000340
 .word 0x91008000
@@ -23875,7 +24070,7 @@ bl _p_38
 .word 0xb9801b42
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000da9
+.word 0x54000dc9
 .word 0xd37df021
 .word 0x8b010341
 .word 0x91008021
@@ -23892,7 +24087,8 @@ ldr x2, [x16, #16]
 .word 0xd280003e
 .word 0x3900003e
 .loc 5 55 0
-.word 0xeb1f033f
+.word 0xd2800000
+.word 0xeb00033f
 .word 0x9a9f17e0
 .word 0x53001c18
 .loc 5 57 0
@@ -23993,10 +24189,10 @@ bl _p_208
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
-.word 0xd2801ea0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_32
 
@@ -24123,11 +24319,11 @@ ldr x0, [x16, #0]
 bl _p_27
 .word 0xaa0003e2
 .word 0xf94033a1
-.word 0xd2801420
+.word 0xd2801540
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_28
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -24140,7 +24336,7 @@ b System_Span_1_T_CHAR__ctor_T_CHAR__
 	.align 4
 	.no_dead_strip System_Span_1_T_CHAR__ctor_T_CHAR__
 System_Span_1_T_CHAR__ctor_T_CHAR__:
-.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/System.Memory/src/System/Span.cs"
+.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Memory/src/System/Span.cs"
 .loc 16 37 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -24148,9 +24344,9 @@ System_Span_1_T_CHAR__ctor_T_CHAR__:
 .word 0xf90013af
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xb400059a
+.word 0xb40005ba
 .loc 16 39 0
-.word 0x1400000d
+.word 0x1400000e
 .word 0xf9400340
 .word 0xf9400c00
 .word 0xf9001ba0
@@ -24160,7 +24356,8 @@ bl _p_220
 .word 0xf9401ba0
 .word 0xeb01001f
 .word 0x9a9f17e0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9f17e0
 .word 0x350003a0
 .loc 16 42 0
@@ -24202,7 +24399,7 @@ bl _p_224
 .loc 16 38 0
 .word 0xd2800060
 bl _p_225
-.word 0x17ffffd3
+.word 0x17ffffd2
 
 Lme_ac:
 .text
@@ -24230,10 +24427,11 @@ bl _p_1
 .word 0xf94017a0
 bl _p_228
 .word 0x39400000
-.word 0x350001a0
+.word 0x350001c0
 .loc 16 94 0
+.word 0xd2800001
 .word 0xb98023a0
-.word 0x6b1f001f
+.word 0x6b01001f
 .word 0x540001cb
 .loc 16 97 0
 .word 0xb98023a1
@@ -24252,7 +24450,7 @@ bl _p_228
 .word 0xf94017a0
 bl _p_229
 bl _p_230
-.word 0x17fffff1
+.word 0x17fffff0
 .loc 16 95 0
 .word 0xd2800300
 bl _p_231
@@ -24395,7 +24593,7 @@ bl _p_233
 .loc 16 160 0
 bl _p_52
 .word 0x17ffffcf
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -24411,222 +24609,284 @@ System_Span_1_T_CHAR_Fill_T_CHAR:
 .loc 16 220 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
-.word 0xa90163b7
-.word 0xa9026bb9
+.word 0xa90167b8
+.word 0xf90013ba
 .word 0xf9001baf
-.word 0xaa0003f9
-.word 0xaa0103fa
-.word 0xb9801338
+.word 0xaa0003fa
+.word 0xf90017a1
+.word 0xb9801359
 .loc 16 222 0
-.word 0xaa1803e0
-.word 0x340016a0
+.word 0xaa1903e0
+.word 0x34001da0
 .loc 16 225 0
 .word 0xf9401ba0
 bl _p_235
-.loc 16 240 0
+.word 0xd2800040
+.word 0xd2800021
+.word 0x6b01001f
+.word 0x54000501
+.loc 16 227 0
+.word 0x9100a3a0
+.word 0xf90023a0
 .word 0xf9401ba0
 bl _p_236
-.word 0xaa1903f7
-.word 0xf9400320
-.word 0xb5000140
-.word 0xf94006f9
-.word 0xaa1903e0
-.word 0xf90023a0
-.word 0xf9401ba0
-bl _p_237
 .word 0xaa0003e1
 .word 0xf94023a0
-.word 0xaa0003f9
-.word 0x1400000f
-.word 0xf94002e0
+.word 0x39400000
+.word 0x53001c18
+.loc 16 228 0
+.word 0xf9400340
+.word 0xb50000e0
+.loc 16 230 0
+.word 0xf9400740
+.word 0xf9001fa0
+.word 0xaa1803e1
+.word 0xaa1903e2
+bl _p_237
+.loc 16 231 0
+.word 0x140000d7
+.loc 16 234 0
+.word 0xf9400340
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x540014c0
+.word 0x54001b00
+.word 0x91004000
+.word 0xf90027a0
+.word 0xf9400740
+.word 0xf9002ba0
+.word 0xf9401ba0
+bl _p_238
+.word 0xaa0003e2
+.word 0xf94027a0
+.word 0xf9402ba1
+.word 0x8b010000
+.word 0xf90023a0
+.word 0xf9401ba0
+bl _p_236
+.word 0xaa0003e1
+.word 0xf94023a0
+.word 0xaa1803e1
+.word 0xaa1903e2
+bl _p_237
+.loc 16 237 0
+.word 0x140000c0
+.loc 16 240 0
+.word 0xf9401ba0
+bl _p_239
+.word 0xaa1a03f8
+.word 0xf9400340
+.word 0xb5000140
+.word 0xf940071a
+.word 0xaa1a03e0
+.word 0xf90023a0
+.word 0xf9401ba0
+bl _p_240
+.word 0xaa0003e1
+.word 0xf94023a0
+.word 0xaa0003fa
+.word 0x1400000f
+.word 0xf9400300
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54001660
 .word 0x91004000
 .word 0xf90023a0
-.word 0xf94006e0
+.word 0xf9400700
 .word 0xf90027a0
 .word 0xf9401ba0
 bl _p_238
 .word 0xaa0003e2
 .word 0xf94023a0
 .word 0xf94027a1
-.word 0x8b010019
-.word 0xaa1903f7
+.word 0x8b01001a
+.word 0xaa1a03f8
 .loc 16 245 0
-.word 0xd2800019
-.word 0x14000056
+.word 0xd280001a
+.word 0x1400005e
 .loc 16 248 0
 .word 0xf9401ba0
-bl _p_239
+bl _p_241
 .word 0xd2800040
 .word 0x93407c00
-.word 0x9b007f20
-.word 0x8b0002e0
-.word 0x7900001a
+.word 0x9b007f40
+.word 0x8b000300
+.word 0x794053a1
+.word 0x79000001
 .loc 16 249 0
-.word 0x11000720
+.word 0x11000740
 .word 0xf9003ba0
 .word 0xf9401ba0
-bl _p_239
+bl _p_241
 .word 0xaa0003e1
 .word 0xf9403ba0
 .word 0xd2800041
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0x7900001a
+.word 0x8b000300
+.word 0x794053a1
+.word 0x79000001
 .loc 16 250 0
-.word 0x11000b20
+.word 0x11000b40
 .word 0xf90037a0
 .word 0xf9401ba0
-bl _p_239
+bl _p_241
 .word 0xaa0003e1
 .word 0xf94037a0
 .word 0xd2800041
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0x7900001a
+.word 0x8b000300
+.word 0x794053a1
+.word 0x79000001
 .loc 16 251 0
-.word 0x11000f20
+.word 0x11000f40
 .word 0xf90033a0
 .word 0xf9401ba0
-bl _p_239
+bl _p_241
 .word 0xaa0003e1
 .word 0xf94033a0
 .word 0xd2800041
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0x7900001a
+.word 0x8b000300
+.word 0x794053a1
+.word 0x79000001
 .loc 16 252 0
-.word 0x11001320
+.word 0x11001340
 .word 0xf9002fa0
 .word 0xf9401ba0
-bl _p_239
+bl _p_241
 .word 0xaa0003e1
 .word 0xf9402fa0
 .word 0xd2800041
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0x7900001a
+.word 0x8b000300
+.word 0x794053a1
+.word 0x79000001
 .loc 16 253 0
-.word 0x11001720
+.word 0x11001740
 .word 0xf9002ba0
 .word 0xf9401ba0
-bl _p_239
+bl _p_241
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xd2800041
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0x7900001a
+.word 0x8b000300
+.word 0x794053a1
+.word 0x79000001
 .loc 16 254 0
-.word 0x11001b20
+.word 0x11001b40
 .word 0xf90027a0
 .word 0xf9401ba0
-bl _p_239
+bl _p_241
 .word 0xaa0003e1
 .word 0xf94027a0
 .word 0xd2800041
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0x7900001a
+.word 0x8b000300
+.word 0x794053a1
+.word 0x79000001
 .loc 16 255 0
-.word 0x11001f20
+.word 0x11001f40
 .word 0xf90023a0
 .word 0xf9401ba0
-bl _p_239
+bl _p_241
 .word 0xaa0003e1
 .word 0xf94023a0
 .word 0xd2800041
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0x7900001a
+.word 0x8b000300
+.word 0x794053a1
+.word 0x79000001
 .loc 16 246 0
-.word 0x11002339
+.word 0x1100235a
 .word 0x928000fe
 .word 0xf2bffffe
-.word 0xa1e0300
-.word 0x6b00033f
-.word 0x54fff4eb
+.word 0xa1e0320
+.word 0x6b00035f
+.word 0x54fff3eb
 .loc 16 257 0
 .word 0x9280007e
 .word 0xf2bffffe
-.word 0xa1e0300
-.word 0x6b00033f
-.word 0x5400066a
+.word 0xa1e0320
+.word 0x6b00035f
+.word 0x5400070a
 .loc 16 259 0
 .word 0xf9401ba0
-bl _p_239
+bl _p_241
 .word 0xd2800040
 .word 0x93407c00
-.word 0x9b007f20
-.word 0x8b0002e0
-.word 0x7900001a
+.word 0x9b007f40
+.word 0x8b000300
+.word 0x794053a1
+.word 0x79000001
 .loc 16 260 0
-.word 0x11000720
+.word 0x11000740
 .word 0xf9002ba0
 .word 0xf9401ba0
-bl _p_239
+bl _p_241
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xd2800041
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0x7900001a
+.word 0x8b000300
+.word 0x794053a1
+.word 0x79000001
 .loc 16 261 0
-.word 0x11000b20
+.word 0x11000b40
 .word 0xf90027a0
 .word 0xf9401ba0
-bl _p_239
+bl _p_241
 .word 0xaa0003e1
 .word 0xf94027a0
 .word 0xd2800041
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0x7900001a
+.word 0x8b000300
+.word 0x794053a1
+.word 0x79000001
 .loc 16 262 0
-.word 0x11000f20
+.word 0x11000f40
 .word 0xf90023a0
 .word 0xf9401ba0
-bl _p_239
+bl _p_241
 .word 0xaa0003e1
 .word 0xf94023a0
 .word 0xd2800041
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0x7900001a
+.word 0x8b000300
+.word 0x794053a1
+.word 0x79000001
 .loc 16 263 0
-.word 0x11001339
-.word 0x14000009
+.word 0x1100135a
+.word 0x1400000a
 .loc 16 267 0
 .word 0xf9401ba0
-bl _p_239
+bl _p_241
 .word 0xd2800040
 .word 0x93407c00
-.word 0x9b007f20
-.word 0x8b0002e0
-.word 0x7900001a
+.word 0x9b007f40
+.word 0x8b000300
+.word 0x794053a1
+.word 0x79000001
 .loc 16 265 0
-.word 0x11000739
-.word 0x6b18033f
-.word 0x54fffeeb
+.word 0x1100075a
+.word 0x6b19035f
+.word 0x54fffecb
 .loc 16 270 0
-.word 0xa94163b7
-.word 0xa9426bb9
+.word 0xa94167b8
+.word 0xf94013ba
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -24646,12 +24906,12 @@ System_Span_1_T_CHAR_CopyTo_System_Span_1_T_CHAR:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf9401fa0
-bl _p_240
+bl _p_242
 .word 0xf90023a0
 .word 0xf9400ba0
 .word 0x3940001e
 .word 0xf9401fa0
-bl _p_241
+bl _p_243
 .word 0xaa0003e2
 .word 0xf94023af
 .word 0xf9400ba0
@@ -24671,7 +24931,7 @@ bl _p_241
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 16 285 0
-bl _p_242
+bl _p_244
 .loc 16 286 0
 .word 0x17fffffc
 
@@ -24710,7 +24970,7 @@ System_Span_1_T_CHAR_TryCopyTo_System_Span_1_T_CHAR:
 .word 0x1400004b
 .loc 16 308 0
 .word 0xf94023a0
-bl _p_243
+bl _p_245
 .word 0xaa1a03f7
 .word 0xf9400340
 .word 0xb5000140
@@ -24718,7 +24978,7 @@ bl _p_243
 .word 0xaa1a03e0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_244
+bl _p_246
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xaa0003fa
@@ -24732,7 +24992,7 @@ bl _p_244
 .word 0xf94006e0
 .word 0xf9002fa0
 .word 0xf94023a0
-bl _p_245
+bl _p_247
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
@@ -24742,7 +25002,7 @@ bl _p_245
 .word 0xf9401fa0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_243
+bl _p_245
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xaa0003fa
@@ -24752,7 +25012,7 @@ bl _p_243
 .word 0xaa1603e0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_244
+bl _p_246
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xaa0003fa
@@ -24766,17 +25026,17 @@ bl _p_244
 .word 0xf9400740
 .word 0xf9002fa0
 .word 0xf94023a0
-bl _p_245
+bl _p_247
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
 .word 0x8b01001a
 .word 0xf94023a0
 .loc 16 310 0
-bl _p_246
+bl _p_248
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_247
+bl _p_249
 .word 0xaa0003e4
 .word 0xf9402baf
 .word 0xaa1a03e0
@@ -24792,7 +25052,7 @@ bl _p_247
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -24811,10 +25071,10 @@ System_Span_1_T_CHAR_Equals_object:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28435e0
-bl _p_248
+.word 0xd28531a0
+bl _p_250
 .word 0xaa0003e1
-.word 0xd2802120
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -24836,10 +25096,10 @@ System_Span_1_T_CHAR_GetHashCode:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd2844900
-bl _p_248
+.word 0xd28544c0
+bl _p_250
 .word 0xaa0003e1
-.word 0xd2802120
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -24906,10 +25166,10 @@ ldr x3, [x16, #16]
 .word 0x910143a0
 .word 0xf9004ba0
 .word 0xf94037a0
-bl _p_249
+bl _p_251
 .word 0xf9004fa0
 .word 0xf94037a0
-bl _p_250
+bl _p_252
 .word 0xaa0003e2
 .word 0xf9404ba0
 .word 0xf9404faf
@@ -24976,10 +25236,10 @@ System_Span_1_T_CHAR_op_Implicit_System_Span_1_T_CHAR:
 .word 0x9100e3a0
 .word 0xf90033a0
 .word 0xf9402ba0
-bl _p_251
+bl _p_253
 .word 0xf90043a0
 .word 0xf9402ba0
-bl _p_252
+bl _p_254
 .word 0xaa0003e4
 .word 0xf94033a0
 .word 0xf94037a1
@@ -25027,72 +25287,82 @@ b System_Span_1_T_CHAR_Slice_int
 	.no_dead_strip System_Span_1_T_CHAR_Slice_int
 System_Span_1_T_CHAR_Slice_int:
 .loc 16 385 0 prologue_end
-.word 0xa9b57bfd
+.word 0xa9b67bfd
 .word 0x910003fd
-.word 0xa90167b8
-.word 0xf90013a8
-.word 0xf90033af
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001ba8
+.word 0xf9003baf
 .word 0xaa0003f9
-.word 0xf90017a1
+.word 0xf9001fa1
 .word 0xb9801321
-.word 0xb9802ba0
+.word 0xb9803ba0
 .word 0x6b01001f
-.word 0x54000948
+.word 0x54000a88
 .loc 16 388 0
 .word 0xf9400720
-.word 0xf90053a0
-.word 0xf94033a0
-bl _p_253
-.word 0xaa0003e1
-.word 0xf94053a0
-.word 0xf9004ba0
-.word 0xb9802ba0
-.word 0x93407c00
-.word 0xf9004fa0
-.word 0xf94033a0
-bl _p_254
-.word 0xaa0003e2
-.word 0xf9404ba0
-.word 0xf9404fa1
-.word 0xd2800042
-.word 0x93407c42
-.word 0x9b027c21
-.word 0x8b010000
 .word 0xf90043a0
+.word 0xf9403ba0
+bl _p_255
+.word 0xaa0003e1
+.word 0xf94043a0
 .word 0xaa0003f8
+.word 0xb9803bb7
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x54000101
+.word 0xf9403ba0
+bl _p_256
+.word 0xd2800040
+.word 0x1b007ef6
+.word 0x2a1603e0
+.word 0x8b000318
+.word 0x1400000b
+.word 0x93407ee0
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_256
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xd2800041
+.word 0x93407c21
+.word 0x9b017c17
+.word 0x8b170318
+.word 0xaa1803f7
 .loc 16 389 0
 .word 0xb9801320
-.word 0xb9802ba1
-.word 0x4b010018
+.word 0xb9803ba1
+.word 0x4b010017
 .loc 16 390 0
 .word 0xf9400320
-.word 0xf9003fa0
-.word 0xd2800000
-.word 0xf90027a0
-.word 0xf9002ba0
-.word 0xf9002fa0
-.word 0x910123a0
-.word 0xf9003ba0
-.word 0xf94033a0
-bl _p_255
 .word 0xf90047a0
-.word 0xf94033a0
-bl _p_256
-.word 0xaa0003e4
+.word 0xd2800000
+.word 0xf9002fa0
+.word 0xf90033a0
+.word 0xf90037a0
+.word 0x910163a0
+.word 0xf90043a0
 .word 0xf9403ba0
-.word 0xf9403fa1
-.word 0xf94043a2
-.word 0xf94047af
-.word 0xaa1803e3
+bl _p_257
+.word 0xf9004ba0
+.word 0xf9403ba0
+bl _p_258
+.word 0xaa0003e4
+.word 0xf94043a0
+.word 0xf94047a1
+.word 0xf9404baf
+.word 0xaa1803e2
+.word 0xaa1703e3
 .word 0xd63f0080
-.word 0xf94027a0
-.word 0xf9001ba0
-.word 0xf9402ba0
-.word 0xf9001fa0
 .word 0xf9402fa0
 .word 0xf90023a0
-.word 0xf94013a0
-.word 0xf9401ba1
+.word 0xf94033a0
+.word 0xf90027a0
+.word 0xf94037a0
+.word 0xf9002ba0
+.word 0xf9401ba0
+.word 0xf94023a1
 .word 0xf9000001
 .word 0xd349fc02
 .word 0xd29ffffe
@@ -25106,19 +25376,20 @@ ldr x3, [x16, #16]
 .word 0xd280003e
 .word 0x3900005e
 .word 0x91002000
-.word 0xf9401fa1
+.word 0xf94027a1
 .word 0xf9000001
 .word 0x91002000
-.word 0xf94023a1
+.word 0xf9402ba1
 .word 0xf9000001
-.word 0xa94167b8
+.word 0xa9415fb6
+.word 0xa94267b8
 .word 0x910003bf
-.word 0xa8cb7bfd
+.word 0xa8ca7bfd
 .word 0xd65f03c0
 .loc 16 386 0
 .word 0xd2800300
 bl _p_231
-.word 0x17ffffb5
+.word 0x17ffffab
 
 Lme_b8:
 .text
@@ -25130,72 +25401,83 @@ b System_Span_1_T_CHAR_Slice_int_int
 	.no_dead_strip System_Span_1_T_CHAR_Slice_int_int
 System_Span_1_T_CHAR_Slice_int_int:
 .loc 16 404 0 prologue_end
-.word 0xa9b57bfd
+.word 0xa9b67bfd
 .word 0x910003fd
-.word 0xa90167b8
-.word 0xf90013a8
-.word 0xf90033af
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001ba8
+.word 0xf9003baf
 .word 0xaa0003f8
 .word 0xaa0103f9
-.word 0xf90017a2
+.word 0xf9001fa2
 .word 0xb9801300
 .word 0x6b00033f
-.word 0x54000968
+.word 0x54000ac8
 .word 0xb9801300
 .word 0x4b190001
-.word 0xb9802ba0
+.word 0xb9803ba0
 .word 0x6b01001f
-.word 0x540008c8
+.word 0x54000a28
 .loc 16 407 0
 .word 0xf9400700
-.word 0xf90053a0
-.word 0xf94033a0
-bl _p_257
-.word 0xaa0003e1
-.word 0xf94053a0
-.word 0xf9004ba0
-.word 0x93407f20
-.word 0xf9004fa0
-.word 0xf94033a0
-bl _p_258
-.word 0xaa0003e2
-.word 0xf9404ba0
-.word 0xf9404fa1
-.word 0xd2800042
-.word 0x93407c42
-.word 0x9b027c21
-.word 0x8b010000
 .word 0xf90043a0
-.word 0xaa0003f9
+.word 0xf9403ba0
+bl _p_259
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xaa0003f7
+.word 0xaa1903f6
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x54000101
+.word 0xf9403ba0
+bl _p_260
+.word 0xd2800040
+.word 0x1b007ed9
+.word 0x2a1903e0
+.word 0x8b0002f9
+.word 0x1400000b
+.word 0x93407ec0
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_260
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xd2800041
+.word 0x93407c21
+.word 0x9b017c19
+.word 0x8b1902f9
+.word 0xaa1903f7
 .loc 16 408 0
 .word 0xf9400300
-.word 0xf9003fa0
-.word 0xd2800000
-.word 0xf90027a0
-.word 0xf9002ba0
-.word 0xf9002fa0
-.word 0x910123a0
-.word 0xf9003ba0
-.word 0xf94033a0
-bl _p_259
 .word 0xf90047a0
-.word 0xf94033a0
-bl _p_260
-.word 0xaa0003e4
+.word 0xd2800000
+.word 0xf9002fa0
+.word 0xf90033a0
+.word 0xf90037a0
+.word 0x910163a0
+.word 0xf90043a0
 .word 0xf9403ba0
-.word 0xf9403fa1
-.word 0xf94043a2
-.word 0xf94047af
-.word 0xb9802ba3
+bl _p_261
+.word 0xf9004ba0
+.word 0xf9403ba0
+bl _p_262
+.word 0xaa0003e4
+.word 0xf94043a0
+.word 0xf94047a1
+.word 0xf9404baf
+.word 0xaa1903e2
+.word 0xb9803ba3
 .word 0xd63f0080
-.word 0xf94027a0
-.word 0xf9001ba0
-.word 0xf9402ba0
-.word 0xf9001fa0
 .word 0xf9402fa0
 .word 0xf90023a0
-.word 0xf94013a0
-.word 0xf9401ba1
+.word 0xf94033a0
+.word 0xf90027a0
+.word 0xf94037a0
+.word 0xf9002ba0
+.word 0xf9401ba0
+.word 0xf94023a1
 .word 0xf9000001
 .word 0xd349fc02
 .word 0xd29ffffe
@@ -25209,19 +25491,20 @@ ldr x3, [x16, #16]
 .word 0xd280003e
 .word 0x3900005e
 .word 0x91002000
-.word 0xf9401fa1
+.word 0xf94027a1
 .word 0xf9000001
 .word 0x91002000
-.word 0xf94023a1
+.word 0xf9402ba1
 .word 0xf9000001
-.word 0xa94167b8
+.word 0xa9415fb6
+.word 0xa94267b8
 .word 0x910003bf
-.word 0xa8cb7bfd
+.word 0xa8ca7bfd
 .word 0xd65f03c0
 .loc 16 405 0
 .word 0xd2800300
 bl _p_231
-.word 0x17ffffb9
+.word 0x17ffffae
 
 Lme_b9:
 .text
@@ -25245,7 +25528,7 @@ System_Span_1_T_CHAR_DangerousGetPinnableReference:
 .word 0xf90013a0
 .word 0xf9001ba0
 .word 0xf9400fa0
-bl _p_261
+bl _p_263
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0x1400000f
@@ -25259,7 +25542,7 @@ bl _p_261
 .word 0xf9400740
 .word 0xf9001fa0
 .word 0xf9400fa0
-bl _p_262
+bl _p_264
 .word 0xaa0003e2
 .word 0xf9401ba0
 .word 0xf9401fa1
@@ -25268,7 +25551,7 @@ bl _p_262
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
@@ -25321,7 +25604,7 @@ b System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR__
 	.align 4
 	.no_dead_strip System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR__
 System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR__:
-.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/System.Memory/src/System/ReadOnlySpan.cs"
+.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Memory/src/System/ReadOnlySpan.cs"
 .loc 17 37 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -25335,7 +25618,7 @@ System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR__:
 .word 0xb9001320
 .loc 17 41 0
 .word 0xf94013a0
-bl _p_263
+bl _p_265
 .word 0xf900033a
 .word 0xd349ff20
 .word 0xd29ffffe
@@ -25350,12 +25633,12 @@ ldr x1, [x16, #16]
 .word 0x3900001e
 .loc 17 42 0
 .word 0xf94013a0
-bl _p_264
+bl _p_266
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf94013a0
-bl _p_265
+bl _p_267
 .word 0xf9400800
 .word 0xf9000720
 .loc 17 43 0
@@ -25378,32 +25661,29 @@ b System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR___int_int
 	.no_dead_strip System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR___int_int
 System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR___int_int:
 .loc 17 61 0 prologue_end
-.word 0xa9ba7bfd
+.word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xa90163b7
+.word 0xa9026bb9
 .word 0xf9001baf
 .word 0xaa0003f7
 .word 0xaa0103f8
-.word 0xf90013a2
-.word 0xf90017a3
-.word 0xb4000738
+.word 0xaa0203f9
+.word 0xaa0303fa
+.word 0xb4000838
 .loc 17 63 0
-.word 0xb9801b01
-.word 0xb98023a0
-.word 0x6b01001f
-.word 0x54000708
 .word 0xb9801b00
-.word 0xb98023a1
-.word 0x4b010001
-.word 0xb9802ba0
-.word 0x6b01001f
-.word 0x54000648
+.word 0x6b00033f
+.word 0x54000828
+.word 0xb9801b00
+.word 0x4b190000
+.word 0x6b00035f
+.word 0x540007a8
 .loc 17 66 0
-.word 0xb9802ba0
-.word 0xb90012e0
+.word 0xb90012fa
 .loc 17 67 0
 .word 0xf9401ba0
-bl _p_266
+bl _p_268
 .word 0xf90002f8
 .word 0xd349fee0
 .word 0xd29ffffe
@@ -25417,46 +25697,58 @@ ldr x1, [x16, #16]
 .word 0xd280003e
 .word 0x3900001e
 .loc 17 68 0
+.word 0xaa1703fa
 .word 0xf9401ba0
-bl _p_267
+bl _p_269
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf9401ba0
-bl _p_268
-.word 0xf9400800
-.word 0xf9002ba0
-.word 0xf9401ba0
-bl _p_269
-.word 0xaa0003e1
-.word 0xf9402ba0
-.word 0xf90023a0
-.word 0xb98023a0
-.word 0x93407c00
-.word 0xf90027a0
-.word 0xf9401ba0
 bl _p_270
-.word 0xaa0003e2
+.word 0xf9400800
+.word 0xf90023a0
+.word 0xf9401ba0
+bl _p_271
+.word 0xaa0003e1
 .word 0xf94023a0
-.word 0xf94027a1
-.word 0xd2800042
-.word 0x93407c42
-.word 0x9b027c21
-.word 0x8b010000
-.word 0xf90006e0
+.word 0xaa0003f8
+.word 0xaa1903f7
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x54000101
+.word 0xf9401ba0
+bl _p_272
+.word 0xd2800040
+.word 0x1b007ef9
+.word 0x2a1903e0
+.word 0x8b000319
+.word 0x1400000b
+.word 0x93407ee0
+.word 0xf90023a0
+.word 0xf9401ba0
+bl _p_272
+.word 0xaa0003e1
+.word 0xf94023a0
+.word 0xd2800041
+.word 0x93407c21
+.word 0x9b017c19
+.word 0x8b190319
+.word 0xf9000759
 .loc 17 69 0
 .word 0xa94163b7
+.word 0xa9426bb9
 .word 0x910003bf
-.word 0xa8c67bfd
+.word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 17 62 0
 .word 0xd2800060
 bl _p_225
-.word 0x17ffffc6
+.word 0x17ffffbe
 .loc 17 64 0
 .word 0xd2800300
 bl _p_231
-.word 0x17ffffcd
+.word 0x17ffffc2
 
 Lme_be:
 .text
@@ -25475,19 +25767,20 @@ System_ReadOnlySpan_1_T_CHAR__ctor_void__int:
 .word 0xf9000fa1
 .word 0xf90013a2
 .word 0xf94017a0
-bl _p_271
+bl _p_273
 .word 0xf94017a0
-bl _p_272
+bl _p_274
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf94017a0
-bl _p_273
+bl _p_275
 .word 0x39400000
-.word 0x350001a0
+.word 0x350001c0
 .loc 17 90 0
+.word 0xd2800001
 .word 0xb98023a0
-.word 0x6b1f001f
+.word 0x6b01001f
 .word 0x540001cb
 .loc 17 93 0
 .word 0xb98023a1
@@ -25504,9 +25797,9 @@ bl _p_273
 .word 0xd65f03c0
 .loc 17 89 0
 .word 0xf94017a0
-bl _p_274
+bl _p_276
 bl _p_230
-.word 0x17fffff1
+.word 0x17fffff0
 .loc 17 91 0
 .word 0xd2800300
 bl _p_231
@@ -25579,6 +25872,29 @@ Lme_c1:
 .text
 ut_194:
 add x0, x0, 16
+b System_ReadOnlySpan_1_T_CHAR_get_IsEmpty
+.text
+	.align 4
+	.no_dead_strip System_ReadOnlySpan_1_T_CHAR_get_IsEmpty
+System_ReadOnlySpan_1_T_CHAR_get_IsEmpty:
+.loc 17 140 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000faf
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xb9801000
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x9a9f17e0
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_c2:
+.text
+ut_195:
+add x0, x0, 16
 b System_ReadOnlySpan_1_T_CHAR_get_Item_int
 .text
 	.align 4
@@ -25603,12 +25919,12 @@ System_ReadOnlySpan_1_T_CHAR_get_Item_int:
 .word 0xf90017a0
 .word 0xf9001fa0
 .word 0xf94013a0
-bl _p_275
+bl _p_277
 .word 0xaa0003e1
 .word 0xf9401fa0
 .word 0xf9001ba0
 .word 0xf94013a0
-bl _p_276
+bl _p_278
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xd2800041
@@ -25627,14 +25943,14 @@ bl _p_276
 .word 0xf9400720
 .word 0xf90023a0
 .word 0xf94013a0
-bl _p_277
+bl _p_279
 .word 0xaa0003e2
 .word 0xf9401fa0
 .word 0xf94023a1
 .word 0x8b010000
 .word 0xf9001ba0
 .word 0xf94013a0
-bl _p_276
+bl _p_278
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xd2800041
@@ -25649,13 +25965,58 @@ bl _p_276
 .loc 17 156 0
 bl _p_52
 .word 0x17ffffcf
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
-Lme_c2:
+Lme_c3:
 .text
-ut_195:
+ut_196:
+add x0, x0, 16
+b System_ReadOnlySpan_1_T_CHAR_CopyTo_System_Span_1_T_CHAR
+.text
+	.align 4
+	.no_dead_strip System_ReadOnlySpan_1_T_CHAR_CopyTo_System_Span_1_T_CHAR
+System_ReadOnlySpan_1_T_CHAR_CopyTo_System_Span_1_T_CHAR:
+.loc 17 177 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9001faf
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9401fa0
+bl _p_280
+.word 0xf90023a0
+.word 0xf9400ba0
+.word 0x3940001e
+.word 0xf9401fa0
+bl _p_281
+.word 0xaa0003e2
+.word 0xf94023af
+.word 0xf9400ba0
+.word 0xf9400fa3
+.word 0x910083a1
+.word 0xf9400064
+.word 0xf90013a4
+.word 0xf9400464
+.word 0xf90017a4
+.word 0xf9400863
+.word 0xf9001ba3
+.word 0xd63f0040
+.word 0x53001c00
+.word 0x34000080
+.loc 17 179 0
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.loc 17 178 0
+bl _p_244
+.loc 17 179 0
+.word 0x17fffffc
+
+Lme_c4:
+.text
+ut_197:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_CHAR_TryCopyTo_System_Span_1_T_CHAR
 .text
@@ -25676,7 +26037,7 @@ System_ReadOnlySpan_1_T_CHAR_TryCopyTo_System_Span_1_T_CHAR:
 .word 0xf9401fa0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_278
+bl _p_282
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xb9801018
@@ -25693,7 +26054,7 @@ bl _p_278
 .word 0x1400004b
 .loc 17 201 0
 .word 0xf94023a0
-bl _p_279
+bl _p_283
 .word 0xaa1a03f7
 .word 0xf9400340
 .word 0xb5000140
@@ -25701,7 +26062,7 @@ bl _p_279
 .word 0xaa1a03e0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_280
+bl _p_284
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xaa0003fa
@@ -25715,7 +26076,7 @@ bl _p_280
 .word 0xf94006e0
 .word 0xf9002fa0
 .word 0xf94023a0
-bl _p_281
+bl _p_285
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
@@ -25725,7 +26086,7 @@ bl _p_281
 .word 0xf9401fa0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_278
+bl _p_282
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xaa0003fa
@@ -25735,7 +26096,7 @@ bl _p_278
 .word 0xaa1603e0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_280
+bl _p_284
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xaa0003fa
@@ -25749,17 +26110,17 @@ bl _p_280
 .word 0xf9400740
 .word 0xf9002fa0
 .word 0xf94023a0
-bl _p_281
+bl _p_285
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
 .word 0x8b01001a
 .word 0xf94023a0
 .loc 17 203 0
-bl _p_282
+bl _p_286
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_283
+bl _p_287
 .word 0xaa0003e4
 .word 0xf9402baf
 .word 0xaa1a03e0
@@ -25775,13 +26136,13 @@ bl _p_283
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
-Lme_c3:
+Lme_c5:
 .text
-ut_196:
+ut_198:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_CHAR_Equals_object
 .text
@@ -25794,10 +26155,10 @@ System_ReadOnlySpan_1_T_CHAR_Equals_object:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28435e0
-bl _p_248
+.word 0xd28531a0
+bl _p_250
 .word 0xaa0003e1
-.word 0xd2802120
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -25805,9 +26166,9 @@ bl _p_28
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_c4:
+Lme_c6:
 .text
-ut_197:
+ut_199:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_CHAR_GetHashCode
 .text
@@ -25819,10 +26180,10 @@ System_ReadOnlySpan_1_T_CHAR_GetHashCode:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd2844900
-bl _p_248
+.word 0xd28544c0
+bl _p_250
 .word 0xaa0003e1
-.word 0xd2802120
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -25830,82 +26191,39 @@ bl _p_28
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_c5:
+Lme_c7:
 .text
-ut_198:
+ut_200:
 add x0, x0, 16
-b System_ReadOnlySpan_1_T_CHAR_Slice_int
+b System_ReadOnlySpan_1_T_CHAR_op_Implicit_T_CHAR__
 .text
 	.align 4
-	.no_dead_strip System_ReadOnlySpan_1_T_CHAR_Slice_int
-System_ReadOnlySpan_1_T_CHAR_Slice_int:
-.loc 17 273 0 prologue_end
-.word 0xa9b57bfd
+	.no_dead_strip System_ReadOnlySpan_1_T_CHAR_op_Implicit_T_CHAR__
+System_ReadOnlySpan_1_T_CHAR_op_Implicit_T_CHAR__:
+.loc 17 255 0 prologue_end
+.word 0xa9b67bfd
 .word 0x910003fd
-.word 0xa90167b8
-.word 0xf90013a8
-.word 0xf90033af
-.word 0xaa0003f9
-.word 0xf90017a1
-.word 0xb9801321
-.word 0xb9802ba0
-.word 0x6b01001f
-.word 0x54000948
-.loc 17 276 0
-.word 0xf9400720
-.word 0xf90053a0
-.word 0xf94033a0
-bl _p_284
-.word 0xaa0003e1
-.word 0xf94053a0
-.word 0xf9004ba0
-.word 0xb9802ba0
-.word 0x93407c00
-.word 0xf9004fa0
-.word 0xf94033a0
-bl _p_285
-.word 0xaa0003e2
-.word 0xf9404ba0
-.word 0xf9404fa1
-.word 0xd2800042
-.word 0x93407c42
-.word 0x9b027c21
-.word 0x8b010000
-.word 0xf90043a0
-.word 0xaa0003f8
-.loc 17 277 0
-.word 0xb9801320
-.word 0xb9802ba1
-.word 0x4b010018
-.loc 17 278 0
-.word 0xf9400320
-.word 0xf9003fa0
+.word 0xf9000ba8
+.word 0xf90037af
+.word 0xf9000fa0
 .word 0xd2800000
-.word 0xf90027a0
-.word 0xf9002ba0
-.word 0xf9002fa0
-.word 0x910123a0
 .word 0xf9003ba0
-.word 0xf94033a0
-bl _p_286
-.word 0xf90047a0
-.word 0xf94033a0
-bl _p_287
-.word 0xaa0003e4
+.word 0xf9003fa0
+.word 0xf90043a0
+.word 0xf9400fa0
+.word 0xb50003e0
+.word 0xd2800000
+.word 0xf9003ba0
+.word 0xf9003fa0
+.word 0xf90043a0
 .word 0xf9403ba0
-.word 0xf9403fa1
-.word 0xf94043a2
-.word 0xf94047af
-.word 0xaa1803e3
-.word 0xd63f0080
-.word 0xf94027a0
-.word 0xf9001ba0
-.word 0xf9402ba0
 .word 0xf9001fa0
-.word 0xf9402fa0
+.word 0xf9403fa0
 .word 0xf90023a0
-.word 0xf94013a0
-.word 0xf9401ba1
+.word 0xf94043a0
+.word 0xf90027a0
+.word 0xf9400ba0
+.word 0xf9401fa1
 .word 0xf9000001
 .word 0xd349fc02
 .word 0xd29ffffe
@@ -25919,23 +26237,290 @@ ldr x3, [x16, #16]
 .word 0xd280003e
 .word 0x3900005e
 .word 0x91002000
-.word 0xf9401fa1
-.word 0xf9000001
-.word 0x91002000
 .word 0xf94023a1
 .word 0xf9000001
-.word 0xa94167b8
+.word 0x91002000
+.word 0xf94027a1
+.word 0xf9000001
+.word 0x1400002a
+.word 0xd2800000
+.word 0xf9002ba0
+.word 0xf9002fa0
+.word 0xf90033a0
+.word 0x910143a0
+.word 0xf9004ba0
+.word 0xf94037a0
+bl _p_288
+.word 0xf9004fa0
+.word 0xf94037a0
+bl _p_289
+.word 0xaa0003e2
+.word 0xf9404ba0
+.word 0xf9404faf
+.word 0xf9400fa1
+.word 0xd63f0040
+.word 0xf9402ba0
+.word 0xf90013a0
+.word 0xf9402fa0
+.word 0xf90017a0
+.word 0xf94033a0
+.word 0xf9001ba0
+.word 0xf9400ba0
+.word 0xf94013a1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf94017a1
+.word 0xf9000001
+.word 0x91002000
+.word 0xf9401ba1
+.word 0xf9000001
 .word 0x910003bf
-.word 0xa8cb7bfd
+.word 0xa8ca7bfd
+.word 0xd65f03c0
+
+Lme_c8:
+.text
+ut_201:
+add x0, x0, 16
+b System_ReadOnlySpan_1_T_CHAR_Slice_int
+.text
+	.align 4
+	.no_dead_strip System_ReadOnlySpan_1_T_CHAR_Slice_int
+System_ReadOnlySpan_1_T_CHAR_Slice_int:
+.loc 17 273 0 prologue_end
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001ba8
+.word 0xf9003baf
+.word 0xaa0003f9
+.word 0xf9001fa1
+.word 0xb9801321
+.word 0xb9803ba0
+.word 0x6b01001f
+.word 0x54000a88
+.loc 17 276 0
+.word 0xf9400720
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_290
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xaa0003f8
+.word 0xb9803bb7
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x54000101
+.word 0xf9403ba0
+bl _p_291
+.word 0xd2800040
+.word 0x1b007ef6
+.word 0x2a1603e0
+.word 0x8b000318
+.word 0x1400000b
+.word 0x93407ee0
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_291
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xd2800041
+.word 0x93407c21
+.word 0x9b017c17
+.word 0x8b170318
+.word 0xaa1803f7
+.loc 17 277 0
+.word 0xb9801320
+.word 0xb9803ba1
+.word 0x4b010017
+.loc 17 278 0
+.word 0xf9400320
+.word 0xf90047a0
+.word 0xd2800000
+.word 0xf9002fa0
+.word 0xf90033a0
+.word 0xf90037a0
+.word 0x910163a0
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_292
+.word 0xf9004ba0
+.word 0xf9403ba0
+bl _p_293
+.word 0xaa0003e4
+.word 0xf94043a0
+.word 0xf94047a1
+.word 0xf9404baf
+.word 0xaa1803e2
+.word 0xaa1703e3
+.word 0xd63f0080
+.word 0xf9402fa0
+.word 0xf90023a0
+.word 0xf94033a0
+.word 0xf90027a0
+.word 0xf94037a0
+.word 0xf9002ba0
+.word 0xf9401ba0
+.word 0xf94023a1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf94027a1
+.word 0xf9000001
+.word 0x91002000
+.word 0xf9402ba1
+.word 0xf9000001
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0x910003bf
+.word 0xa8ca7bfd
 .word 0xd65f03c0
 .loc 17 274 0
 .word 0xd2800300
 bl _p_231
-.word 0x17ffffb5
+.word 0x17ffffab
 
-Lme_c6:
+Lme_c9:
 .text
-ut_199:
+ut_202:
+add x0, x0, 16
+b System_ReadOnlySpan_1_T_CHAR_Slice_int_int
+.text
+	.align 4
+	.no_dead_strip System_ReadOnlySpan_1_T_CHAR_Slice_int_int
+System_ReadOnlySpan_1_T_CHAR_Slice_int_int:
+.loc 17 292 0 prologue_end
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001ba8
+.word 0xf9003baf
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xf9001fa2
+.word 0xb9801300
+.word 0x6b00033f
+.word 0x54000ac8
+.word 0xb9801300
+.word 0x4b190001
+.word 0xb9803ba0
+.word 0x6b01001f
+.word 0x54000a28
+.loc 17 295 0
+.word 0xf9400700
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_294
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xaa0003f7
+.word 0xaa1903f6
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x54000101
+.word 0xf9403ba0
+bl _p_295
+.word 0xd2800040
+.word 0x1b007ed9
+.word 0x2a1903e0
+.word 0x8b0002f9
+.word 0x1400000b
+.word 0x93407ec0
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_295
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xd2800041
+.word 0x93407c21
+.word 0x9b017c19
+.word 0x8b1902f9
+.word 0xaa1903f7
+.loc 17 296 0
+.word 0xf9400300
+.word 0xf90047a0
+.word 0xd2800000
+.word 0xf9002fa0
+.word 0xf90033a0
+.word 0xf90037a0
+.word 0x910163a0
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_296
+.word 0xf9004ba0
+.word 0xf9403ba0
+bl _p_297
+.word 0xaa0003e4
+.word 0xf94043a0
+.word 0xf94047a1
+.word 0xf9404baf
+.word 0xaa1903e2
+.word 0xb9803ba3
+.word 0xd63f0080
+.word 0xf9402fa0
+.word 0xf90023a0
+.word 0xf94033a0
+.word 0xf90027a0
+.word 0xf94037a0
+.word 0xf9002ba0
+.word 0xf9401ba0
+.word 0xf94023a1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf94027a1
+.word 0xf9000001
+.word 0x91002000
+.word 0xf9402ba1
+.word 0xf9000001
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0x910003bf
+.word 0xa8ca7bfd
+.word 0xd65f03c0
+.loc 17 293 0
+.word 0xd2800300
+bl _p_231
+.word 0x17ffffae
+
+Lme_ca:
+.text
+ut_203:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_CHAR_DangerousGetPinnableReference
 .text
@@ -25955,7 +26540,7 @@ System_ReadOnlySpan_1_T_CHAR_DangerousGetPinnableReference:
 .word 0xf90013a0
 .word 0xf9001ba0
 .word 0xf9400fa0
-bl _p_288
+bl _p_298
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0x1400000f
@@ -25969,7 +26554,7 @@ bl _p_288
 .word 0xf9400740
 .word 0xf9001fa0
 .word 0xf9400fa0
-bl _p_289
+bl _p_299
 .word 0xaa0003e2
 .word 0xf9401ba0
 .word 0xf9401fa1
@@ -25978,13 +26563,13 @@ bl _p_289
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
-Lme_c7:
+Lme_cb:
 .text
-ut_200:
+ut_204:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_CHAR_get_Pinnable
 .text
@@ -26002,9 +26587,9 @@ System_ReadOnlySpan_1_T_CHAR_get_Pinnable:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_c8:
+Lme_cc:
 .text
-ut_201:
+ut_205:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_CHAR_get_ByteOffset
 .text
@@ -26022,7 +26607,7 @@ System_ReadOnlySpan_1_T_CHAR_get_ByteOffset:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_c9:
+Lme_cd:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_ArrayPool_1_T_CHAR_get_Shared
@@ -26033,15 +26618,15 @@ System_Buffers_ArrayPool_1_T_CHAR_get_Shared:
 .word 0xf9000bba
 .word 0xf9000faf
 .word 0xf9400fa0
-bl _p_290
+bl _p_300
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf9400fa0
-bl _p_291
+bl _p_301
 .word 0xf90013a0
 .word 0xf9400fa0
-bl _p_292
+bl _p_302
 .word 0xaa0003e1
 .word 0xf94013a0
 .word 0x9100001e
@@ -26049,10 +26634,10 @@ bl _p_292
 .word 0xaa0003fa
 .word 0xb5000120
 .word 0xf9400fa0
-bl _p_290
+bl _p_300
 .word 0xf90013a0
 .word 0xf9400fa0
-bl _p_293
+bl _p_303
 .word 0xf94013af
 .word 0xd63f0000
 .word 0xaa0003fa
@@ -26062,7 +26647,7 @@ bl _p_293
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_ca:
+Lme_ce:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_ArrayPool_1_T_CHAR_EnsureSharedCreated
@@ -26072,25 +26657,25 @@ System_Buffers_ArrayPool_1_T_CHAR_EnsureSharedCreated:
 .word 0x910003fd
 .word 0xf9000baf
 .word 0xf9400ba0
-bl _p_294
+bl _p_304
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf9400ba0
-bl _p_295
+bl _p_305
 .word 0xf90017a0
 .word 0xf9400ba0
-bl _p_294
+bl _p_304
 .word 0xf9001fa0
 .word 0xf9400ba0
-bl _p_296
+bl _p_306
 .word 0xf9401faf
 .word 0xd63f0000
 .word 0xf90013a0
 .word 0xd2800000
 .word 0xf9001ba0
 .word 0xf9400ba0
-bl _p_297
+bl _p_307
 .word 0xaa0003e3
 .word 0xf94013a0
 .word 0xf94017a1
@@ -26115,18 +26700,18 @@ ldr x2, [x16, #16]
 .word 0x3900003e
 .loc 2 53 0
 .word 0xf9400ba0
-bl _p_294
+bl _p_304
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf9400ba0
-bl _p_295
+bl _p_305
 .word 0xf9400000
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_cb:
+Lme_cf:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_ArrayPool_1_T_CHAR_Create
@@ -26136,12 +26721,12 @@ System_Buffers_ArrayPool_1_T_CHAR_Create:
 .word 0x910003fd
 .word 0xf9000baf
 .word 0xf9400ba0
-bl _p_298
+bl _p_308
 .word 0xd2800301
 bl _p_12
 .word 0xf90017a0
 .word 0xf9400ba0
-bl _p_299
+bl _p_309
 .word 0xaa0003e1
 .word 0xf94017a0
 .word 0xf90013a0
@@ -26151,7 +26736,7 @@ bl _p_299
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_cc:
+Lme_d0:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_ArrayPool_1_T_CHAR__ctor
@@ -26163,7 +26748,7 @@ System_Buffers_ArrayPool_1_T_CHAR__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_cf:
+Lme_d3:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_ArrayPool_1_T_CHAR__cctor
@@ -26175,9 +26760,9 @@ System_Buffers_ArrayPool_1_T_CHAR__cctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_d0:
+Lme_d4:
 .text
-ut_211:
+ut_215:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE__
 .text
@@ -26197,7 +26782,7 @@ System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE__:
 .word 0xb9001320
 .loc 17 41 0
 .word 0xf94013a0
-bl _p_300
+bl _p_310
 .word 0xf900033a
 .word 0xd349ff20
 .word 0xd29ffffe
@@ -26212,12 +26797,12 @@ ldr x1, [x16, #16]
 .word 0x3900001e
 .loc 17 42 0
 .word 0xf94013a0
-bl _p_301
+bl _p_311
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf94013a0
-bl _p_302
+bl _p_312
 .word 0xf9400800
 .word 0xf9000720
 .loc 17 43 0
@@ -26230,9 +26815,9 @@ bl _p_302
 bl _p_225
 .word 0x17ffffe2
 
-Lme_d3:
+Lme_d7:
 .text
-ut_212:
+ut_216:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE___int_int
 .text
@@ -26240,32 +26825,29 @@ b System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE___int_int
 	.no_dead_strip System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE___int_int
 System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE___int_int:
 .loc 17 61 0 prologue_end
-.word 0xa9ba7bfd
+.word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xa90163b7
+.word 0xa9026bb9
 .word 0xf9001baf
 .word 0xaa0003f7
 .word 0xaa0103f8
-.word 0xf90013a2
-.word 0xf90017a3
-.word 0xb4000738
+.word 0xaa0203f9
+.word 0xaa0303fa
+.word 0xb4000838
 .loc 17 63 0
-.word 0xb9801b01
-.word 0xb98023a0
-.word 0x6b01001f
-.word 0x54000708
 .word 0xb9801b00
-.word 0xb98023a1
-.word 0x4b010001
-.word 0xb9802ba0
-.word 0x6b01001f
-.word 0x54000648
+.word 0x6b00033f
+.word 0x54000828
+.word 0xb9801b00
+.word 0x4b190000
+.word 0x6b00035f
+.word 0x540007a8
 .loc 17 66 0
-.word 0xb9802ba0
-.word 0xb90012e0
+.word 0xb90012fa
 .loc 17 67 0
 .word 0xf9401ba0
-bl _p_303
+bl _p_313
 .word 0xf90002f8
 .word 0xd349fee0
 .word 0xd29ffffe
@@ -26279,50 +26861,62 @@ ldr x1, [x16, #16]
 .word 0xd280003e
 .word 0x3900001e
 .loc 17 68 0
+.word 0xaa1703fa
 .word 0xf9401ba0
-bl _p_304
+bl _p_314
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf9401ba0
-bl _p_305
+bl _p_315
 .word 0xf9400800
-.word 0xf9002ba0
-.word 0xf9401ba0
-bl _p_306
-.word 0xaa0003e1
-.word 0xf9402ba0
 .word 0xf90023a0
-.word 0xb98023a0
-.word 0x93407c00
-.word 0xf90027a0
 .word 0xf9401ba0
-bl _p_307
-.word 0xaa0003e2
+bl _p_316
+.word 0xaa0003e1
 .word 0xf94023a0
-.word 0xf94027a1
-.word 0xd2800022
-.word 0x93407c42
-.word 0x9b027c21
-.word 0x8b010000
-.word 0xf90006e0
+.word 0xaa0003f8
+.word 0xaa1903f7
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x54000101
+.word 0xf9401ba0
+bl _p_317
+.word 0xd2800020
+.word 0x1b007ef9
+.word 0x2a1903e0
+.word 0x8b000319
+.word 0x1400000b
+.word 0x93407ee0
+.word 0xf90023a0
+.word 0xf9401ba0
+bl _p_317
+.word 0xaa0003e1
+.word 0xf94023a0
+.word 0xd2800021
+.word 0x93407c21
+.word 0x9b017c19
+.word 0x8b190319
+.word 0xf9000759
 .loc 17 69 0
 .word 0xa94163b7
+.word 0xa9426bb9
 .word 0x910003bf
-.word 0xa8c67bfd
+.word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 17 62 0
 .word 0xd2800060
 bl _p_225
-.word 0x17ffffc6
+.word 0x17ffffbe
 .loc 17 64 0
 .word 0xd2800300
 bl _p_231
-.word 0x17ffffcd
+.word 0x17ffffc2
 
-Lme_d4:
+Lme_d8:
 .text
-ut_213:
+ut_217:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_BYTE__ctor_void__int
 .text
@@ -26337,19 +26931,20 @@ System_ReadOnlySpan_1_T_BYTE__ctor_void__int:
 .word 0xf9000fa1
 .word 0xf90013a2
 .word 0xf94017a0
-bl _p_308
+bl _p_318
 .word 0xf94017a0
-bl _p_309
+bl _p_319
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf94017a0
-bl _p_310
+bl _p_320
 .word 0x39400000
-.word 0x350001a0
+.word 0x350001c0
 .loc 17 90 0
+.word 0xd2800001
 .word 0xb98023a0
-.word 0x6b1f001f
+.word 0x6b01001f
 .word 0x540001cb
 .loc 17 93 0
 .word 0xb98023a1
@@ -26366,17 +26961,17 @@ bl _p_310
 .word 0xd65f03c0
 .loc 17 89 0
 .word 0xf94017a0
-bl _p_311
+bl _p_321
 bl _p_230
-.word 0x17fffff1
+.word 0x17fffff0
 .loc 17 91 0
 .word 0xd2800300
 bl _p_231
 .word 0x17fffff1
 
-Lme_d5:
+Lme_d9:
 .text
-ut_214:
+ut_218:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_BYTE__ctor_System_Pinnable_1_T_BYTE_intptr_int
 .text
@@ -26417,9 +27012,9 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_d6:
+Lme_da:
 .text
-ut_215:
+ut_219:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_BYTE_get_Length
 .text
@@ -26437,9 +27032,32 @@ System_ReadOnlySpan_1_T_BYTE_get_Length:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_d7:
+Lme_db:
 .text
-ut_216:
+ut_220:
+add x0, x0, 16
+b System_ReadOnlySpan_1_T_BYTE_get_IsEmpty
+.text
+	.align 4
+	.no_dead_strip System_ReadOnlySpan_1_T_BYTE_get_IsEmpty
+System_ReadOnlySpan_1_T_BYTE_get_IsEmpty:
+.loc 17 140 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000faf
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xb9801000
+.word 0xd2800001
+.word 0x6b01001f
+.word 0x9a9f17e0
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_dc:
+.text
+ut_221:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_BYTE_get_Item_int
 .text
@@ -26465,12 +27083,12 @@ System_ReadOnlySpan_1_T_BYTE_get_Item_int:
 .word 0xf90017a0
 .word 0xf9001fa0
 .word 0xf94013a0
-bl _p_312
+bl _p_322
 .word 0xaa0003e1
 .word 0xf9401fa0
 .word 0xf9001ba0
 .word 0xf94013a0
-bl _p_313
+bl _p_323
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xd2800021
@@ -26489,14 +27107,14 @@ bl _p_313
 .word 0xf9400720
 .word 0xf90023a0
 .word 0xf94013a0
-bl _p_314
+bl _p_324
 .word 0xaa0003e2
 .word 0xf9401fa0
 .word 0xf94023a1
 .word 0x8b010000
 .word 0xf9001ba0
 .word 0xf94013a0
-bl _p_313
+bl _p_323
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xd2800021
@@ -26511,13 +27129,58 @@ bl _p_313
 .loc 17 156 0
 bl _p_52
 .word 0x17ffffcf
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
-Lme_d8:
+Lme_dd:
 .text
-ut_217:
+ut_222:
+add x0, x0, 16
+b System_ReadOnlySpan_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
+.text
+	.align 4
+	.no_dead_strip System_ReadOnlySpan_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
+System_ReadOnlySpan_1_T_BYTE_CopyTo_System_Span_1_T_BYTE:
+.loc 17 177 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9001faf
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9401fa0
+bl _p_325
+.word 0xf90023a0
+.word 0xf9400ba0
+.word 0x3940001e
+.word 0xf9401fa0
+bl _p_326
+.word 0xaa0003e2
+.word 0xf94023af
+.word 0xf9400ba0
+.word 0xf9400fa3
+.word 0x910083a1
+.word 0xf9400064
+.word 0xf90013a4
+.word 0xf9400464
+.word 0xf90017a4
+.word 0xf9400863
+.word 0xf9001ba3
+.word 0xd63f0040
+.word 0x53001c00
+.word 0x34000080
+.loc 17 179 0
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.loc 17 178 0
+bl _p_244
+.loc 17 179 0
+.word 0x17fffffc
+
+Lme_de:
+.text
+ut_223:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
 .text
@@ -26538,7 +27201,7 @@ System_ReadOnlySpan_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE:
 .word 0xf9401fa0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_315
+bl _p_327
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xb9801018
@@ -26555,7 +27218,7 @@ bl _p_315
 .word 0x1400004b
 .loc 17 201 0
 .word 0xf94023a0
-bl _p_316
+bl _p_328
 .word 0xaa1a03f7
 .word 0xf9400340
 .word 0xb5000140
@@ -26563,7 +27226,7 @@ bl _p_316
 .word 0xaa1a03e0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_317
+bl _p_329
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xaa0003fa
@@ -26577,7 +27240,7 @@ bl _p_317
 .word 0xf94006e0
 .word 0xf9002fa0
 .word 0xf94023a0
-bl _p_318
+bl _p_330
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
@@ -26587,7 +27250,7 @@ bl _p_318
 .word 0xf9401fa0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_315
+bl _p_327
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xaa0003fa
@@ -26597,7 +27260,7 @@ bl _p_315
 .word 0xaa1603e0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_317
+bl _p_329
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xaa0003fa
@@ -26611,17 +27274,17 @@ bl _p_317
 .word 0xf9400740
 .word 0xf9002fa0
 .word 0xf94023a0
-bl _p_318
+bl _p_330
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
 .word 0x8b01001a
 .word 0xf94023a0
 .loc 17 203 0
-bl _p_319
+bl _p_331
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_320
+bl _p_332
 .word 0xaa0003e4
 .word 0xf9402baf
 .word 0xaa1a03e0
@@ -26637,13 +27300,13 @@ bl _p_320
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
-Lme_d9:
+Lme_df:
 .text
-ut_218:
+ut_224:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_BYTE_Equals_object
 .text
@@ -26656,10 +27319,10 @@ System_ReadOnlySpan_1_T_BYTE_Equals_object:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28435e0
-bl _p_248
+.word 0xd28531a0
+bl _p_250
 .word 0xaa0003e1
-.word 0xd2802120
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -26667,9 +27330,9 @@ bl _p_28
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_da:
+Lme_e0:
 .text
-ut_219:
+ut_225:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_BYTE_GetHashCode
 .text
@@ -26681,10 +27344,10 @@ System_ReadOnlySpan_1_T_BYTE_GetHashCode:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd2844900
-bl _p_248
+.word 0xd28544c0
+bl _p_250
 .word 0xaa0003e1
-.word 0xd2802120
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -26692,82 +27355,39 @@ bl _p_28
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_db:
+Lme_e1:
 .text
-ut_220:
+ut_226:
 add x0, x0, 16
-b System_ReadOnlySpan_1_T_BYTE_Slice_int
+b System_ReadOnlySpan_1_T_BYTE_op_Implicit_T_BYTE__
 .text
 	.align 4
-	.no_dead_strip System_ReadOnlySpan_1_T_BYTE_Slice_int
-System_ReadOnlySpan_1_T_BYTE_Slice_int:
-.loc 17 273 0 prologue_end
-.word 0xa9b57bfd
+	.no_dead_strip System_ReadOnlySpan_1_T_BYTE_op_Implicit_T_BYTE__
+System_ReadOnlySpan_1_T_BYTE_op_Implicit_T_BYTE__:
+.loc 17 255 0 prologue_end
+.word 0xa9b67bfd
 .word 0x910003fd
-.word 0xa90167b8
-.word 0xf90013a8
-.word 0xf90033af
-.word 0xaa0003f9
-.word 0xf90017a1
-.word 0xb9801321
-.word 0xb9802ba0
-.word 0x6b01001f
-.word 0x54000948
-.loc 17 276 0
-.word 0xf9400720
-.word 0xf90053a0
-.word 0xf94033a0
-bl _p_321
-.word 0xaa0003e1
-.word 0xf94053a0
-.word 0xf9004ba0
-.word 0xb9802ba0
-.word 0x93407c00
-.word 0xf9004fa0
-.word 0xf94033a0
-bl _p_322
-.word 0xaa0003e2
-.word 0xf9404ba0
-.word 0xf9404fa1
-.word 0xd2800022
-.word 0x93407c42
-.word 0x9b027c21
-.word 0x8b010000
-.word 0xf90043a0
-.word 0xaa0003f8
-.loc 17 277 0
-.word 0xb9801320
-.word 0xb9802ba1
-.word 0x4b010018
-.loc 17 278 0
-.word 0xf9400320
-.word 0xf9003fa0
+.word 0xf9000ba8
+.word 0xf90037af
+.word 0xf9000fa0
 .word 0xd2800000
-.word 0xf90027a0
-.word 0xf9002ba0
-.word 0xf9002fa0
-.word 0x910123a0
 .word 0xf9003ba0
-.word 0xf94033a0
-bl _p_323
-.word 0xf90047a0
-.word 0xf94033a0
-bl _p_324
-.word 0xaa0003e4
+.word 0xf9003fa0
+.word 0xf90043a0
+.word 0xf9400fa0
+.word 0xb50003e0
+.word 0xd2800000
+.word 0xf9003ba0
+.word 0xf9003fa0
+.word 0xf90043a0
 .word 0xf9403ba0
-.word 0xf9403fa1
-.word 0xf94043a2
-.word 0xf94047af
-.word 0xaa1803e3
-.word 0xd63f0080
-.word 0xf94027a0
-.word 0xf9001ba0
-.word 0xf9402ba0
 .word 0xf9001fa0
-.word 0xf9402fa0
+.word 0xf9403fa0
 .word 0xf90023a0
-.word 0xf94013a0
-.word 0xf9401ba1
+.word 0xf94043a0
+.word 0xf90027a0
+.word 0xf9400ba0
+.word 0xf9401fa1
 .word 0xf9000001
 .word 0xd349fc02
 .word 0xd29ffffe
@@ -26781,23 +27401,290 @@ ldr x3, [x16, #16]
 .word 0xd280003e
 .word 0x3900005e
 .word 0x91002000
-.word 0xf9401fa1
-.word 0xf9000001
-.word 0x91002000
 .word 0xf94023a1
 .word 0xf9000001
-.word 0xa94167b8
+.word 0x91002000
+.word 0xf94027a1
+.word 0xf9000001
+.word 0x1400002a
+.word 0xd2800000
+.word 0xf9002ba0
+.word 0xf9002fa0
+.word 0xf90033a0
+.word 0x910143a0
+.word 0xf9004ba0
+.word 0xf94037a0
+bl _p_333
+.word 0xf9004fa0
+.word 0xf94037a0
+bl _p_334
+.word 0xaa0003e2
+.word 0xf9404ba0
+.word 0xf9404faf
+.word 0xf9400fa1
+.word 0xd63f0040
+.word 0xf9402ba0
+.word 0xf90013a0
+.word 0xf9402fa0
+.word 0xf90017a0
+.word 0xf94033a0
+.word 0xf9001ba0
+.word 0xf9400ba0
+.word 0xf94013a1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf94017a1
+.word 0xf9000001
+.word 0x91002000
+.word 0xf9401ba1
+.word 0xf9000001
 .word 0x910003bf
-.word 0xa8cb7bfd
+.word 0xa8ca7bfd
+.word 0xd65f03c0
+
+Lme_e2:
+.text
+ut_227:
+add x0, x0, 16
+b System_ReadOnlySpan_1_T_BYTE_Slice_int
+.text
+	.align 4
+	.no_dead_strip System_ReadOnlySpan_1_T_BYTE_Slice_int
+System_ReadOnlySpan_1_T_BYTE_Slice_int:
+.loc 17 273 0 prologue_end
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001ba8
+.word 0xf9003baf
+.word 0xaa0003f9
+.word 0xf9001fa1
+.word 0xb9801321
+.word 0xb9803ba0
+.word 0x6b01001f
+.word 0x54000a88
+.loc 17 276 0
+.word 0xf9400720
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_335
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xaa0003f8
+.word 0xb9803bb7
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x54000101
+.word 0xf9403ba0
+bl _p_336
+.word 0xd2800020
+.word 0x1b007ef6
+.word 0x2a1603e0
+.word 0x8b000318
+.word 0x1400000b
+.word 0x93407ee0
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_336
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xd2800021
+.word 0x93407c21
+.word 0x9b017c17
+.word 0x8b170318
+.word 0xaa1803f7
+.loc 17 277 0
+.word 0xb9801320
+.word 0xb9803ba1
+.word 0x4b010017
+.loc 17 278 0
+.word 0xf9400320
+.word 0xf90047a0
+.word 0xd2800000
+.word 0xf9002fa0
+.word 0xf90033a0
+.word 0xf90037a0
+.word 0x910163a0
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_337
+.word 0xf9004ba0
+.word 0xf9403ba0
+bl _p_338
+.word 0xaa0003e4
+.word 0xf94043a0
+.word 0xf94047a1
+.word 0xf9404baf
+.word 0xaa1803e2
+.word 0xaa1703e3
+.word 0xd63f0080
+.word 0xf9402fa0
+.word 0xf90023a0
+.word 0xf94033a0
+.word 0xf90027a0
+.word 0xf94037a0
+.word 0xf9002ba0
+.word 0xf9401ba0
+.word 0xf94023a1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf94027a1
+.word 0xf9000001
+.word 0x91002000
+.word 0xf9402ba1
+.word 0xf9000001
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0x910003bf
+.word 0xa8ca7bfd
 .word 0xd65f03c0
 .loc 17 274 0
 .word 0xd2800300
 bl _p_231
-.word 0x17ffffb5
+.word 0x17ffffab
 
-Lme_dc:
+Lme_e3:
 .text
-ut_221:
+ut_228:
+add x0, x0, 16
+b System_ReadOnlySpan_1_T_BYTE_Slice_int_int
+.text
+	.align 4
+	.no_dead_strip System_ReadOnlySpan_1_T_BYTE_Slice_int_int
+System_ReadOnlySpan_1_T_BYTE_Slice_int_int:
+.loc 17 292 0 prologue_end
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001ba8
+.word 0xf9003baf
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xf9001fa2
+.word 0xb9801300
+.word 0x6b00033f
+.word 0x54000ac8
+.word 0xb9801300
+.word 0x4b190001
+.word 0xb9803ba0
+.word 0x6b01001f
+.word 0x54000a28
+.loc 17 295 0
+.word 0xf9400700
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_339
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xaa0003f7
+.word 0xaa1903f6
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x54000101
+.word 0xf9403ba0
+bl _p_340
+.word 0xd2800020
+.word 0x1b007ed9
+.word 0x2a1903e0
+.word 0x8b0002f9
+.word 0x1400000b
+.word 0x93407ec0
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_340
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xd2800021
+.word 0x93407c21
+.word 0x9b017c19
+.word 0x8b1902f9
+.word 0xaa1903f7
+.loc 17 296 0
+.word 0xf9400300
+.word 0xf90047a0
+.word 0xd2800000
+.word 0xf9002fa0
+.word 0xf90033a0
+.word 0xf90037a0
+.word 0x910163a0
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_341
+.word 0xf9004ba0
+.word 0xf9403ba0
+bl _p_342
+.word 0xaa0003e4
+.word 0xf94043a0
+.word 0xf94047a1
+.word 0xf9404baf
+.word 0xaa1903e2
+.word 0xb9803ba3
+.word 0xd63f0080
+.word 0xf9402fa0
+.word 0xf90023a0
+.word 0xf94033a0
+.word 0xf90027a0
+.word 0xf94037a0
+.word 0xf9002ba0
+.word 0xf9401ba0
+.word 0xf94023a1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_System_Numerics_got@PAGE+0
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf94027a1
+.word 0xf9000001
+.word 0x91002000
+.word 0xf9402ba1
+.word 0xf9000001
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0x910003bf
+.word 0xa8ca7bfd
+.word 0xd65f03c0
+.loc 17 293 0
+.word 0xd2800300
+bl _p_231
+.word 0x17ffffae
+
+Lme_e4:
+.text
+ut_229:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_BYTE_DangerousGetPinnableReference
 .text
@@ -26817,7 +27704,7 @@ System_ReadOnlySpan_1_T_BYTE_DangerousGetPinnableReference:
 .word 0xf90013a0
 .word 0xf9001ba0
 .word 0xf9400fa0
-bl _p_325
+bl _p_343
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0x1400000f
@@ -26831,7 +27718,7 @@ bl _p_325
 .word 0xf9400740
 .word 0xf9001fa0
 .word 0xf9400fa0
-bl _p_326
+bl _p_344
 .word 0xaa0003e2
 .word 0xf9401ba0
 .word 0xf9401fa1
@@ -26840,13 +27727,13 @@ bl _p_326
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
-Lme_dd:
+Lme_e5:
 .text
-ut_222:
+ut_230:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_BYTE_get_Pinnable
 .text
@@ -26864,9 +27751,9 @@ System_ReadOnlySpan_1_T_BYTE_get_Pinnable:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_de:
+Lme_e6:
 .text
-ut_223:
+ut_231:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_BYTE_get_ByteOffset
 .text
@@ -26884,9 +27771,9 @@ System_ReadOnlySpan_1_T_BYTE_get_ByteOffset:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_df:
+Lme_e7:
 .text
-ut_224:
+ut_232:
 add x0, x0, 16
 b System_Span_1_T_BYTE__ctor_T_BYTE__
 .text
@@ -26900,19 +27787,20 @@ System_Span_1_T_BYTE__ctor_T_BYTE__:
 .word 0xf90013af
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xb400059a
+.word 0xb40005ba
 .loc 16 39 0
-.word 0x1400000d
+.word 0x1400000e
 .word 0xf9400340
 .word 0xf9400c00
 .word 0xf9001ba0
 .word 0xf94013a0
-bl _p_327
+bl _p_345
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xeb01001f
 .word 0x9a9f17e0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9f17e0
 .word 0x350003a0
 .loc 16 42 0
@@ -26920,7 +27808,7 @@ bl _p_327
 .word 0xb9001320
 .loc 16 43 0
 .word 0xf94013a0
-bl _p_328
+bl _p_346
 .word 0xf900033a
 .word 0xd349ff20
 .word 0xd29ffffe
@@ -26935,12 +27823,12 @@ ldr x1, [x16, #16]
 .word 0x3900001e
 .loc 16 44 0
 .word 0xf94013a0
-bl _p_329
+bl _p_347
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf94013a0
-bl _p_330
+bl _p_348
 .word 0xf9400800
 .word 0xf9000720
 .loc 16 45 0
@@ -26954,11 +27842,11 @@ bl _p_224
 .loc 16 38 0
 .word 0xd2800060
 bl _p_225
-.word 0x17ffffd3
+.word 0x17ffffd2
 
-Lme_e0:
+Lme_e8:
 .text
-ut_225:
+ut_233:
 add x0, x0, 16
 b System_Span_1_T_BYTE__ctor_void__int
 .text
@@ -26973,19 +27861,20 @@ System_Span_1_T_BYTE__ctor_void__int:
 .word 0xf9000fa1
 .word 0xf90013a2
 .word 0xf94017a0
-bl _p_331
+bl _p_349
 .word 0xf94017a0
-bl _p_332
+bl _p_350
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf94017a0
-bl _p_333
+bl _p_351
 .word 0x39400000
-.word 0x350001a0
+.word 0x350001c0
 .loc 16 94 0
+.word 0xd2800001
 .word 0xb98023a0
-.word 0x6b1f001f
+.word 0x6b01001f
 .word 0x540001cb
 .loc 16 97 0
 .word 0xb98023a1
@@ -27002,17 +27891,17 @@ bl _p_333
 .word 0xd65f03c0
 .loc 16 93 0
 .word 0xf94017a0
-bl _p_334
+bl _p_352
 bl _p_230
-.word 0x17fffff1
+.word 0x17fffff0
 .loc 16 95 0
 .word 0xd2800300
 bl _p_231
 .word 0x17fffff1
 
-Lme_e1:
+Lme_e9:
 .text
-ut_226:
+ut_234:
 add x0, x0, 16
 b System_Span_1_T_BYTE__ctor_System_Pinnable_1_T_BYTE_intptr_int
 .text
@@ -27053,9 +27942,9 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_e2:
+Lme_ea:
 .text
-ut_227:
+ut_235:
 add x0, x0, 16
 b System_Span_1_T_BYTE_get_Length
 .text
@@ -27073,9 +27962,9 @@ System_Span_1_T_BYTE_get_Length:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_e3:
+Lme_eb:
 .text
-ut_228:
+ut_236:
 add x0, x0, 16
 b System_Span_1_T_BYTE_get_Item_int
 .text
@@ -27101,12 +27990,12 @@ System_Span_1_T_BYTE_get_Item_int:
 .word 0xf90017a0
 .word 0xf9001fa0
 .word 0xf94013a0
-bl _p_335
+bl _p_353
 .word 0xaa0003e1
 .word 0xf9401fa0
 .word 0xf9001ba0
 .word 0xf94013a0
-bl _p_336
+bl _p_354
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xd2800021
@@ -27125,14 +28014,14 @@ bl _p_336
 .word 0xf9400720
 .word 0xf90023a0
 .word 0xf94013a0
-bl _p_337
+bl _p_355
 .word 0xaa0003e2
 .word 0xf9401fa0
 .word 0xf94023a1
 .word 0x8b010000
 .word 0xf9001ba0
 .word 0xf94013a0
-bl _p_336
+bl _p_354
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xd2800021
@@ -27147,13 +28036,13 @@ bl _p_336
 .loc 16 160 0
 bl _p_52
 .word 0x17ffffcf
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
-Lme_e4:
+Lme_ec:
 .text
-ut_229:
+ut_237:
 add x0, x0, 16
 b System_Span_1_T_BYTE_Fill_T_BYTE
 .text
@@ -27161,73 +28050,274 @@ b System_Span_1_T_BYTE_Fill_T_BYTE
 	.no_dead_strip System_Span_1_T_BYTE_Fill_T_BYTE
 System_Span_1_T_BYTE_Fill_T_BYTE:
 .loc 16 220 0 prologue_end
-.word 0xa9ba7bfd
+.word 0xa9b87bfd
 .word 0x910003fd
-.word 0xa90167b8
-.word 0xf90013ba
-.word 0xf90017af
+.word 0xa90163b7
+.word 0xa9026bb9
+.word 0xf9001baf
 .word 0xaa0003f9
 .word 0xaa0103fa
 .word 0xb9801338
 .loc 16 222 0
 .word 0xaa1803e0
-.word 0x340004a0
+.word 0x34001b60
 .loc 16 225 0
-.word 0xf94017a0
-bl _p_338
+.word 0xf9401ba0
+bl _p_356
+.word 0xd2800020
+.word 0xd2800021
+.word 0x6b01001f
+.word 0x54000461
 .loc 16 227 0
-.word 0xf94017a0
-bl _p_339
+.word 0xf9401ba0
+bl _p_357
 .word 0x53001f5a
 .loc 16 228 0
 .word 0xf9400320
 .word 0xb50000e0
 .loc 16 230 0
-.word 0xf9400720
-.word 0xf9001ba0
+.word 0xf9400737
+.word 0xaa1703e0
 .word 0xaa1a03e1
 .word 0xaa1803e2
-bl _p_340
+bl _p_237
 .loc 16 231 0
-.word 0x14000018
+.word 0x140000ca
 .loc 16 234 0
 .word 0xf9400320
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54000320
+.word 0x54001960
 .word 0x91004000
 .word 0xf90027a0
 .word 0xf9400720
 .word 0xf9002ba0
-.word 0xf94017a0
-bl _p_341
+.word 0xf9401ba0
+bl _p_358
 .word 0xaa0003e2
 .word 0xf94027a0
 .word 0xf9402ba1
 .word 0x8b010000
 .word 0xf90023a0
-.word 0xf94017a0
-bl _p_339
+.word 0xf9401ba0
+bl _p_357
 .word 0xaa0003e1
 .word 0xf94023a0
 .word 0xaa1a03e1
 .word 0xaa1803e2
-bl _p_340
+bl _p_237
 .loc 16 237 0
-.word 0x14000001
+.word 0x140000b3
+.loc 16 240 0
+.word 0xf9401ba0
+bl _p_359
+.word 0xaa1903f7
+.word 0xf9400320
+.word 0xb5000140
+.word 0xf94006f9
+.word 0xaa1903e0
+.word 0xf90023a0
+.word 0xf9401ba0
+bl _p_360
+.word 0xaa0003e1
+.word 0xf94023a0
+.word 0xaa0003f9
+.word 0x1400000f
+.word 0xf94002e0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x540014c0
+.word 0x91004000
+.word 0xf90023a0
+.word 0xf94006e0
+.word 0xf90027a0
+.word 0xf9401ba0
+bl _p_358
+.word 0xaa0003e2
+.word 0xf94023a0
+.word 0xf94027a1
+.word 0x8b010019
+.word 0xaa1903f7
+.loc 16 245 0
+.word 0xd2800019
+.word 0x14000056
+.loc 16 248 0
+.word 0xf9401ba0
+bl _p_361
+.word 0xd2800020
+.word 0x93407c00
+.word 0x9b007f20
+.word 0x8b0002e0
+.word 0x3900001a
+.loc 16 249 0
+.word 0x11000720
+.word 0xf9003ba0
+.word 0xf9401ba0
+bl _p_361
+.word 0xaa0003e1
+.word 0xf9403ba0
+.word 0xd2800021
+.word 0x93407c21
+.word 0x9b017c00
+.word 0x8b0002e0
+.word 0x3900001a
+.loc 16 250 0
+.word 0x11000b20
+.word 0xf90037a0
+.word 0xf9401ba0
+bl _p_361
+.word 0xaa0003e1
+.word 0xf94037a0
+.word 0xd2800021
+.word 0x93407c21
+.word 0x9b017c00
+.word 0x8b0002e0
+.word 0x3900001a
+.loc 16 251 0
+.word 0x11000f20
+.word 0xf90033a0
+.word 0xf9401ba0
+bl _p_361
+.word 0xaa0003e1
+.word 0xf94033a0
+.word 0xd2800021
+.word 0x93407c21
+.word 0x9b017c00
+.word 0x8b0002e0
+.word 0x3900001a
+.loc 16 252 0
+.word 0x11001320
+.word 0xf9002fa0
+.word 0xf9401ba0
+bl _p_361
+.word 0xaa0003e1
+.word 0xf9402fa0
+.word 0xd2800021
+.word 0x93407c21
+.word 0x9b017c00
+.word 0x8b0002e0
+.word 0x3900001a
+.loc 16 253 0
+.word 0x11001720
+.word 0xf9002ba0
+.word 0xf9401ba0
+bl _p_361
+.word 0xaa0003e1
+.word 0xf9402ba0
+.word 0xd2800021
+.word 0x93407c21
+.word 0x9b017c00
+.word 0x8b0002e0
+.word 0x3900001a
+.loc 16 254 0
+.word 0x11001b20
+.word 0xf90027a0
+.word 0xf9401ba0
+bl _p_361
+.word 0xaa0003e1
+.word 0xf94027a0
+.word 0xd2800021
+.word 0x93407c21
+.word 0x9b017c00
+.word 0x8b0002e0
+.word 0x3900001a
+.loc 16 255 0
+.word 0x11001f20
+.word 0xf90023a0
+.word 0xf9401ba0
+bl _p_361
+.word 0xaa0003e1
+.word 0xf94023a0
+.word 0xd2800021
+.word 0x93407c21
+.word 0x9b017c00
+.word 0x8b0002e0
+.word 0x3900001a
+.loc 16 246 0
+.word 0x11002339
+.word 0x928000fe
+.word 0xf2bffffe
+.word 0xa1e0300
+.word 0x6b00033f
+.word 0x54fff4eb
+.loc 16 257 0
+.word 0x9280007e
+.word 0xf2bffffe
+.word 0xa1e0300
+.word 0x6b00033f
+.word 0x5400066a
+.loc 16 259 0
+.word 0xf9401ba0
+bl _p_361
+.word 0xd2800020
+.word 0x93407c00
+.word 0x9b007f20
+.word 0x8b0002e0
+.word 0x3900001a
+.loc 16 260 0
+.word 0x11000720
+.word 0xf9002ba0
+.word 0xf9401ba0
+bl _p_361
+.word 0xaa0003e1
+.word 0xf9402ba0
+.word 0xd2800021
+.word 0x93407c21
+.word 0x9b017c00
+.word 0x8b0002e0
+.word 0x3900001a
+.loc 16 261 0
+.word 0x11000b20
+.word 0xf90027a0
+.word 0xf9401ba0
+bl _p_361
+.word 0xaa0003e1
+.word 0xf94027a0
+.word 0xd2800021
+.word 0x93407c21
+.word 0x9b017c00
+.word 0x8b0002e0
+.word 0x3900001a
+.loc 16 262 0
+.word 0x11000f20
+.word 0xf90023a0
+.word 0xf9401ba0
+bl _p_361
+.word 0xaa0003e1
+.word 0xf94023a0
+.word 0xd2800021
+.word 0x93407c21
+.word 0x9b017c00
+.word 0x8b0002e0
+.word 0x3900001a
+.loc 16 263 0
+.word 0x11001339
+.word 0x14000009
+.loc 16 267 0
+.word 0xf9401ba0
+bl _p_361
+.word 0xd2800020
+.word 0x93407c00
+.word 0x9b007f20
+.word 0x8b0002e0
+.word 0x3900001a
+.loc 16 265 0
+.word 0x11000739
+.word 0x6b18033f
+.word 0x54fffeeb
 .loc 16 270 0
-.word 0xa94167b8
-.word 0xf94013ba
+.word 0xa94163b7
+.word 0xa9426bb9
 .word 0x910003bf
-.word 0xa8c67bfd
+.word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
-Lme_e5:
+Lme_ed:
 .text
-ut_230:
+ut_238:
 add x0, x0, 16
 b System_Span_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
 .text
@@ -27241,12 +28331,12 @@ System_Span_1_T_BYTE_CopyTo_System_Span_1_T_BYTE:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf9401fa0
-bl _p_342
+bl _p_362
 .word 0xf90023a0
 .word 0xf9400ba0
 .word 0x3940001e
 .word 0xf9401fa0
-bl _p_343
+bl _p_363
 .word 0xaa0003e2
 .word 0xf94023af
 .word 0xf9400ba0
@@ -27266,13 +28356,13 @@ bl _p_343
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 16 285 0
-bl _p_242
+bl _p_244
 .loc 16 286 0
 .word 0x17fffffc
 
-Lme_e6:
+Lme_ee:
 .text
-ut_231:
+ut_239:
 add x0, x0, 16
 b System_Span_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
 .text
@@ -27305,7 +28395,7 @@ System_Span_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE:
 .word 0x1400004b
 .loc 16 308 0
 .word 0xf94023a0
-bl _p_344
+bl _p_364
 .word 0xaa1a03f7
 .word 0xf9400340
 .word 0xb5000140
@@ -27313,7 +28403,7 @@ bl _p_344
 .word 0xaa1a03e0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_345
+bl _p_365
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xaa0003fa
@@ -27327,7 +28417,7 @@ bl _p_345
 .word 0xf94006e0
 .word 0xf9002fa0
 .word 0xf94023a0
-bl _p_346
+bl _p_366
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
@@ -27337,7 +28427,7 @@ bl _p_346
 .word 0xf9401fa0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_344
+bl _p_364
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xaa0003fa
@@ -27347,7 +28437,7 @@ bl _p_344
 .word 0xaa1603e0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_345
+bl _p_365
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xaa0003fa
@@ -27361,17 +28451,17 @@ bl _p_345
 .word 0xf9400740
 .word 0xf9002fa0
 .word 0xf94023a0
-bl _p_346
+bl _p_366
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
 .word 0x8b01001a
 .word 0xf94023a0
 .loc 16 310 0
-bl _p_347
+bl _p_367
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_348
+bl _p_368
 .word 0xaa0003e4
 .word 0xf9402baf
 .word 0xaa1a03e0
@@ -27387,13 +28477,13 @@ bl _p_348
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
-Lme_e7:
+Lme_ef:
 .text
-ut_232:
+ut_240:
 add x0, x0, 16
 b System_Span_1_T_BYTE_Equals_object
 .text
@@ -27406,10 +28496,10 @@ System_Span_1_T_BYTE_Equals_object:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28435e0
-bl _p_248
+.word 0xd28531a0
+bl _p_250
 .word 0xaa0003e1
-.word 0xd2802120
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -27417,9 +28507,9 @@ bl _p_28
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_e8:
+Lme_f0:
 .text
-ut_233:
+ut_241:
 add x0, x0, 16
 b System_Span_1_T_BYTE_GetHashCode
 .text
@@ -27431,10 +28521,10 @@ System_Span_1_T_BYTE_GetHashCode:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd2844900
-bl _p_248
+.word 0xd28544c0
+bl _p_250
 .word 0xaa0003e1
-.word 0xd2802120
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -27442,9 +28532,9 @@ bl _p_28
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_e9:
+Lme_f1:
 .text
-ut_234:
+ut_242:
 add x0, x0, 16
 b System_Span_1_T_BYTE_op_Implicit_T_BYTE__
 .text
@@ -27501,10 +28591,10 @@ ldr x3, [x16, #16]
 .word 0x910143a0
 .word 0xf9004ba0
 .word 0xf94037a0
-bl _p_349
+bl _p_369
 .word 0xf9004fa0
 .word 0xf94037a0
-bl _p_350
+bl _p_370
 .word 0xaa0003e2
 .word 0xf9404ba0
 .word 0xf9404faf
@@ -27540,9 +28630,9 @@ ldr x3, [x16, #16]
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_ea:
+Lme_f2:
 .text
-ut_235:
+ut_243:
 add x0, x0, 16
 b System_Span_1_T_BYTE_op_Implicit_System_Span_1_T_BYTE
 .text
@@ -27571,10 +28661,10 @@ System_Span_1_T_BYTE_op_Implicit_System_Span_1_T_BYTE:
 .word 0x9100e3a0
 .word 0xf90033a0
 .word 0xf9402ba0
-bl _p_351
+bl _p_371
 .word 0xf90043a0
 .word 0xf9402ba0
-bl _p_352
+bl _p_372
 .word 0xaa0003e4
 .word 0xf94033a0
 .word 0xf94037a1
@@ -27612,9 +28702,9 @@ ldr x3, [x16, #16]
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_eb:
+Lme_f3:
 .text
-ut_236:
+ut_244:
 add x0, x0, 16
 b System_Span_1_T_BYTE_Slice_int
 .text
@@ -27622,72 +28712,82 @@ b System_Span_1_T_BYTE_Slice_int
 	.no_dead_strip System_Span_1_T_BYTE_Slice_int
 System_Span_1_T_BYTE_Slice_int:
 .loc 16 385 0 prologue_end
-.word 0xa9b57bfd
+.word 0xa9b67bfd
 .word 0x910003fd
-.word 0xa90167b8
-.word 0xf90013a8
-.word 0xf90033af
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001ba8
+.word 0xf9003baf
 .word 0xaa0003f9
-.word 0xf90017a1
+.word 0xf9001fa1
 .word 0xb9801321
-.word 0xb9802ba0
+.word 0xb9803ba0
 .word 0x6b01001f
-.word 0x54000948
+.word 0x54000a88
 .loc 16 388 0
 .word 0xf9400720
-.word 0xf90053a0
-.word 0xf94033a0
-bl _p_353
-.word 0xaa0003e1
-.word 0xf94053a0
-.word 0xf9004ba0
-.word 0xb9802ba0
-.word 0x93407c00
-.word 0xf9004fa0
-.word 0xf94033a0
-bl _p_354
-.word 0xaa0003e2
-.word 0xf9404ba0
-.word 0xf9404fa1
-.word 0xd2800022
-.word 0x93407c42
-.word 0x9b027c21
-.word 0x8b010000
 .word 0xf90043a0
+.word 0xf9403ba0
+bl _p_373
+.word 0xaa0003e1
+.word 0xf94043a0
 .word 0xaa0003f8
+.word 0xb9803bb7
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x54000101
+.word 0xf9403ba0
+bl _p_374
+.word 0xd2800020
+.word 0x1b007ef6
+.word 0x2a1603e0
+.word 0x8b000318
+.word 0x1400000b
+.word 0x93407ee0
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_374
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xd2800021
+.word 0x93407c21
+.word 0x9b017c17
+.word 0x8b170318
+.word 0xaa1803f7
 .loc 16 389 0
 .word 0xb9801320
-.word 0xb9802ba1
-.word 0x4b010018
+.word 0xb9803ba1
+.word 0x4b010017
 .loc 16 390 0
 .word 0xf9400320
-.word 0xf9003fa0
-.word 0xd2800000
-.word 0xf90027a0
-.word 0xf9002ba0
-.word 0xf9002fa0
-.word 0x910123a0
-.word 0xf9003ba0
-.word 0xf94033a0
-bl _p_355
 .word 0xf90047a0
-.word 0xf94033a0
-bl _p_356
-.word 0xaa0003e4
+.word 0xd2800000
+.word 0xf9002fa0
+.word 0xf90033a0
+.word 0xf90037a0
+.word 0x910163a0
+.word 0xf90043a0
 .word 0xf9403ba0
-.word 0xf9403fa1
-.word 0xf94043a2
-.word 0xf94047af
-.word 0xaa1803e3
+bl _p_375
+.word 0xf9004ba0
+.word 0xf9403ba0
+bl _p_376
+.word 0xaa0003e4
+.word 0xf94043a0
+.word 0xf94047a1
+.word 0xf9404baf
+.word 0xaa1803e2
+.word 0xaa1703e3
 .word 0xd63f0080
-.word 0xf94027a0
-.word 0xf9001ba0
-.word 0xf9402ba0
-.word 0xf9001fa0
 .word 0xf9402fa0
 .word 0xf90023a0
-.word 0xf94013a0
-.word 0xf9401ba1
+.word 0xf94033a0
+.word 0xf90027a0
+.word 0xf94037a0
+.word 0xf9002ba0
+.word 0xf9401ba0
+.word 0xf94023a1
 .word 0xf9000001
 .word 0xd349fc02
 .word 0xd29ffffe
@@ -27701,23 +28801,24 @@ ldr x3, [x16, #16]
 .word 0xd280003e
 .word 0x3900005e
 .word 0x91002000
-.word 0xf9401fa1
+.word 0xf94027a1
 .word 0xf9000001
 .word 0x91002000
-.word 0xf94023a1
+.word 0xf9402ba1
 .word 0xf9000001
-.word 0xa94167b8
+.word 0xa9415fb6
+.word 0xa94267b8
 .word 0x910003bf
-.word 0xa8cb7bfd
+.word 0xa8ca7bfd
 .word 0xd65f03c0
 .loc 16 386 0
 .word 0xd2800300
 bl _p_231
-.word 0x17ffffb5
+.word 0x17ffffab
 
-Lme_ec:
+Lme_f4:
 .text
-ut_237:
+ut_245:
 add x0, x0, 16
 b System_Span_1_T_BYTE_Slice_int_int
 .text
@@ -27725,72 +28826,83 @@ b System_Span_1_T_BYTE_Slice_int_int
 	.no_dead_strip System_Span_1_T_BYTE_Slice_int_int
 System_Span_1_T_BYTE_Slice_int_int:
 .loc 16 404 0 prologue_end
-.word 0xa9b57bfd
+.word 0xa9b67bfd
 .word 0x910003fd
-.word 0xa90167b8
-.word 0xf90013a8
-.word 0xf90033af
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001ba8
+.word 0xf9003baf
 .word 0xaa0003f8
 .word 0xaa0103f9
-.word 0xf90017a2
+.word 0xf9001fa2
 .word 0xb9801300
 .word 0x6b00033f
-.word 0x54000968
+.word 0x54000ac8
 .word 0xb9801300
 .word 0x4b190001
-.word 0xb9802ba0
+.word 0xb9803ba0
 .word 0x6b01001f
-.word 0x540008c8
+.word 0x54000a28
 .loc 16 407 0
 .word 0xf9400700
-.word 0xf90053a0
-.word 0xf94033a0
-bl _p_357
-.word 0xaa0003e1
-.word 0xf94053a0
-.word 0xf9004ba0
-.word 0x93407f20
-.word 0xf9004fa0
-.word 0xf94033a0
-bl _p_358
-.word 0xaa0003e2
-.word 0xf9404ba0
-.word 0xf9404fa1
-.word 0xd2800022
-.word 0x93407c42
-.word 0x9b027c21
-.word 0x8b010000
 .word 0xf90043a0
-.word 0xaa0003f9
+.word 0xf9403ba0
+bl _p_377
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xaa0003f7
+.word 0xaa1903f6
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x54000101
+.word 0xf9403ba0
+bl _p_378
+.word 0xd2800020
+.word 0x1b007ed9
+.word 0x2a1903e0
+.word 0x8b0002f9
+.word 0x1400000b
+.word 0x93407ec0
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_378
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xd2800021
+.word 0x93407c21
+.word 0x9b017c19
+.word 0x8b1902f9
+.word 0xaa1903f7
 .loc 16 408 0
 .word 0xf9400300
-.word 0xf9003fa0
-.word 0xd2800000
-.word 0xf90027a0
-.word 0xf9002ba0
-.word 0xf9002fa0
-.word 0x910123a0
-.word 0xf9003ba0
-.word 0xf94033a0
-bl _p_359
 .word 0xf90047a0
-.word 0xf94033a0
-bl _p_360
-.word 0xaa0003e4
+.word 0xd2800000
+.word 0xf9002fa0
+.word 0xf90033a0
+.word 0xf90037a0
+.word 0x910163a0
+.word 0xf90043a0
 .word 0xf9403ba0
-.word 0xf9403fa1
-.word 0xf94043a2
-.word 0xf94047af
-.word 0xb9802ba3
+bl _p_379
+.word 0xf9004ba0
+.word 0xf9403ba0
+bl _p_380
+.word 0xaa0003e4
+.word 0xf94043a0
+.word 0xf94047a1
+.word 0xf9404baf
+.word 0xaa1903e2
+.word 0xb9803ba3
 .word 0xd63f0080
-.word 0xf94027a0
-.word 0xf9001ba0
-.word 0xf9402ba0
-.word 0xf9001fa0
 .word 0xf9402fa0
 .word 0xf90023a0
-.word 0xf94013a0
-.word 0xf9401ba1
+.word 0xf94033a0
+.word 0xf90027a0
+.word 0xf94037a0
+.word 0xf9002ba0
+.word 0xf9401ba0
+.word 0xf94023a1
 .word 0xf9000001
 .word 0xd349fc02
 .word 0xd29ffffe
@@ -27804,23 +28916,24 @@ ldr x3, [x16, #16]
 .word 0xd280003e
 .word 0x3900005e
 .word 0x91002000
-.word 0xf9401fa1
+.word 0xf94027a1
 .word 0xf9000001
 .word 0x91002000
-.word 0xf94023a1
+.word 0xf9402ba1
 .word 0xf9000001
-.word 0xa94167b8
+.word 0xa9415fb6
+.word 0xa94267b8
 .word 0x910003bf
-.word 0xa8cb7bfd
+.word 0xa8ca7bfd
 .word 0xd65f03c0
 .loc 16 405 0
 .word 0xd2800300
 bl _p_231
-.word 0x17ffffb9
+.word 0x17ffffae
 
-Lme_ed:
+Lme_f5:
 .text
-ut_238:
+ut_246:
 add x0, x0, 16
 b System_Span_1_T_BYTE_DangerousGetPinnableReference
 .text
@@ -27840,7 +28953,7 @@ System_Span_1_T_BYTE_DangerousGetPinnableReference:
 .word 0xf90013a0
 .word 0xf9001ba0
 .word 0xf9400fa0
-bl _p_361
+bl _p_381
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0x1400000f
@@ -27854,7 +28967,7 @@ bl _p_361
 .word 0xf9400740
 .word 0xf9001fa0
 .word 0xf9400fa0
-bl _p_362
+bl _p_382
 .word 0xaa0003e2
 .word 0xf9401ba0
 .word 0xf9401fa1
@@ -27863,13 +28976,13 @@ bl _p_362
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
-Lme_ee:
+Lme_f6:
 .text
-ut_239:
+ut_247:
 add x0, x0, 16
 b System_Span_1_T_BYTE_get_Pinnable
 .text
@@ -27887,9 +29000,9 @@ System_Span_1_T_BYTE_get_Pinnable:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_ef:
+Lme_f7:
 .text
-ut_240:
+ut_248:
 add x0, x0, 16
 b System_Span_1_T_BYTE_get_ByteOffset
 .text
@@ -27907,7 +29020,7 @@ System_Span_1_T_BYTE_get_ByteOffset:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_f0:
+Lme_f8:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_ArrayPool_1_T_BYTE_get_Shared
@@ -27918,15 +29031,15 @@ System_Buffers_ArrayPool_1_T_BYTE_get_Shared:
 .word 0xf9000bba
 .word 0xf9000faf
 .word 0xf9400fa0
-bl _p_363
+bl _p_383
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf9400fa0
-bl _p_364
+bl _p_384
 .word 0xf90013a0
 .word 0xf9400fa0
-bl _p_365
+bl _p_385
 .word 0xaa0003e1
 .word 0xf94013a0
 .word 0x9100001e
@@ -27934,10 +29047,10 @@ bl _p_365
 .word 0xaa0003fa
 .word 0xb5000120
 .word 0xf9400fa0
-bl _p_363
+bl _p_383
 .word 0xf90013a0
 .word 0xf9400fa0
-bl _p_366
+bl _p_386
 .word 0xf94013af
 .word 0xd63f0000
 .word 0xaa0003fa
@@ -27947,7 +29060,7 @@ bl _p_366
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_f1:
+Lme_f9:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_ArrayPool_1_T_BYTE_EnsureSharedCreated
@@ -27957,25 +29070,25 @@ System_Buffers_ArrayPool_1_T_BYTE_EnsureSharedCreated:
 .word 0x910003fd
 .word 0xf9000baf
 .word 0xf9400ba0
-bl _p_367
+bl _p_387
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf9400ba0
-bl _p_368
+bl _p_388
 .word 0xf90017a0
 .word 0xf9400ba0
-bl _p_367
+bl _p_387
 .word 0xf9001fa0
 .word 0xf9400ba0
-bl _p_369
+bl _p_389
 .word 0xf9401faf
 .word 0xd63f0000
 .word 0xf90013a0
 .word 0xd2800000
 .word 0xf9001ba0
 .word 0xf9400ba0
-bl _p_370
+bl _p_390
 .word 0xaa0003e3
 .word 0xf94013a0
 .word 0xf94017a1
@@ -28000,18 +29113,18 @@ ldr x2, [x16, #16]
 .word 0x3900003e
 .loc 2 53 0
 .word 0xf9400ba0
-bl _p_367
+bl _p_387
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf9400ba0
-bl _p_368
+bl _p_388
 .word 0xf9400000
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_f2:
+Lme_fa:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_ArrayPool_1_T_BYTE_Create
@@ -28021,12 +29134,12 @@ System_Buffers_ArrayPool_1_T_BYTE_Create:
 .word 0x910003fd
 .word 0xf9000baf
 .word 0xf9400ba0
-bl _p_371
+bl _p_391
 .word 0xd2800301
 bl _p_12
 .word 0xf90017a0
 .word 0xf9400ba0
-bl _p_372
+bl _p_392
 .word 0xaa0003e1
 .word 0xf94017a0
 .word 0xf90013a0
@@ -28036,7 +29149,7 @@ bl _p_372
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_f3:
+Lme_fb:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_ArrayPool_1_T_BYTE__ctor
@@ -28048,7 +29161,7 @@ System_Buffers_ArrayPool_1_T_BYTE__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_f6:
+Lme_fe:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_ArrayPool_1_T_BYTE__cctor
@@ -28060,9 +29173,9 @@ System_Buffers_ArrayPool_1_T_BYTE__cctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_f7:
+Lme_ff:
 .text
-ut_248:
+ut_256:
 add x0, x0, 16
 b System_Span_1_T_INT__ctor_T_INT__
 .text
@@ -28076,19 +29189,20 @@ System_Span_1_T_INT__ctor_T_INT__:
 .word 0xf90013af
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xb400059a
+.word 0xb40005ba
 .loc 16 39 0
-.word 0x1400000d
+.word 0x1400000e
 .word 0xf9400340
 .word 0xf9400c00
 .word 0xf9001ba0
 .word 0xf94013a0
-bl _p_373
+bl _p_393
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xeb01001f
 .word 0x9a9f17e0
-.word 0x6b1f001f
+.word 0xd2800001
+.word 0x6b01001f
 .word 0x9a9f17e0
 .word 0x350003a0
 .loc 16 42 0
@@ -28096,7 +29210,7 @@ bl _p_373
 .word 0xb9001320
 .loc 16 43 0
 .word 0xf94013a0
-bl _p_374
+bl _p_394
 .word 0xf900033a
 .word 0xd349ff20
 .word 0xd29ffffe
@@ -28111,12 +29225,12 @@ ldr x1, [x16, #16]
 .word 0x3900001e
 .loc 16 44 0
 .word 0xf94013a0
-bl _p_375
+bl _p_395
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf94013a0
-bl _p_376
+bl _p_396
 .word 0xf9400800
 .word 0xf9000720
 .loc 16 45 0
@@ -28130,11 +29244,11 @@ bl _p_224
 .loc 16 38 0
 .word 0xd2800060
 bl _p_225
-.word 0x17ffffd3
+.word 0x17ffffd2
 
-Lme_f8:
+Lme_100:
 .text
-ut_249:
+ut_257:
 add x0, x0, 16
 b System_Span_1_T_INT__ctor_void__int
 .text
@@ -28149,19 +29263,20 @@ System_Span_1_T_INT__ctor_void__int:
 .word 0xf9000fa1
 .word 0xf90013a2
 .word 0xf94017a0
-bl _p_377
+bl _p_397
 .word 0xf94017a0
-bl _p_378
+bl _p_398
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf94017a0
-bl _p_379
+bl _p_399
 .word 0x39400000
-.word 0x350001a0
+.word 0x350001c0
 .loc 16 94 0
+.word 0xd2800001
 .word 0xb98023a0
-.word 0x6b1f001f
+.word 0x6b01001f
 .word 0x540001cb
 .loc 16 97 0
 .word 0xb98023a1
@@ -28178,17 +29293,17 @@ bl _p_379
 .word 0xd65f03c0
 .loc 16 93 0
 .word 0xf94017a0
-bl _p_380
+bl _p_400
 bl _p_230
-.word 0x17fffff1
+.word 0x17fffff0
 .loc 16 95 0
 .word 0xd2800300
 bl _p_231
 .word 0x17fffff1
 
-Lme_f9:
+Lme_101:
 .text
-ut_250:
+ut_258:
 add x0, x0, 16
 b System_Span_1_T_INT__ctor_System_Pinnable_1_T_INT_intptr_int
 .text
@@ -28229,9 +29344,9 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_fa:
+Lme_102:
 .text
-ut_251:
+ut_259:
 add x0, x0, 16
 b System_Span_1_T_INT_get_Length
 .text
@@ -28249,9 +29364,9 @@ System_Span_1_T_INT_get_Length:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_fb:
+Lme_103:
 .text
-ut_252:
+ut_260:
 add x0, x0, 16
 b System_Span_1_T_INT_get_Item_int
 .text
@@ -28277,12 +29392,12 @@ System_Span_1_T_INT_get_Item_int:
 .word 0xf90017a0
 .word 0xf9001fa0
 .word 0xf94013a0
-bl _p_381
+bl _p_401
 .word 0xaa0003e1
 .word 0xf9401fa0
 .word 0xf9001ba0
 .word 0xf94013a0
-bl _p_382
+bl _p_402
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xd2800081
@@ -28301,14 +29416,14 @@ bl _p_382
 .word 0xf9400720
 .word 0xf90023a0
 .word 0xf94013a0
-bl _p_383
+bl _p_403
 .word 0xaa0003e2
 .word 0xf9401fa0
 .word 0xf94023a1
 .word 0x8b010000
 .word 0xf9001ba0
 .word 0xf94013a0
-bl _p_382
+bl _p_402
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xd2800081
@@ -28323,13 +29438,13 @@ bl _p_382
 .loc 16 160 0
 bl _p_52
 .word 0x17ffffcf
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
-Lme_fc:
+Lme_104:
 .text
-ut_253:
+ut_261:
 add x0, x0, 16
 b System_Span_1_T_INT_Fill_T_INT
 .text
@@ -28339,228 +29454,290 @@ System_Span_1_T_INT_Fill_T_INT:
 .loc 16 220 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
-.word 0xa90163b7
-.word 0xa9026bb9
+.word 0xa90167b8
+.word 0xf90013ba
 .word 0xf9001baf
-.word 0xaa0003f9
-.word 0xaa0103fa
-.word 0xb9801338
+.word 0xaa0003fa
+.word 0xf90017a1
+.word 0xb9801359
 .loc 16 222 0
-.word 0xaa1803e0
-.word 0x340016a0
+.word 0xaa1903e0
+.word 0x34001da0
 .loc 16 225 0
 .word 0xf9401ba0
-bl _p_384
-.loc 16 240 0
-.word 0xf9401ba0
-bl _p_385
-.word 0xaa1903f7
-.word 0xf9400320
-.word 0xb5000140
-.word 0xf94006f9
-.word 0xaa1903e0
+bl _p_404
+.word 0xd2800080
+.word 0xd2800021
+.word 0x6b01001f
+.word 0x54000501
+.loc 16 227 0
+.word 0x9100a3a0
 .word 0xf90023a0
 .word 0xf9401ba0
-bl _p_386
+bl _p_405
 .word 0xaa0003e1
 .word 0xf94023a0
-.word 0xaa0003f9
-.word 0x1400000f
-.word 0xf94002e0
+.word 0x39400000
+.word 0x53001c18
+.loc 16 228 0
+.word 0xf9400340
+.word 0xb50000e0
+.loc 16 230 0
+.word 0xf9400740
+.word 0xf9001fa0
+.word 0xaa1803e1
+.word 0xaa1903e2
+bl _p_237
+.loc 16 231 0
+.word 0x140000d7
+.loc 16 234 0
+.word 0xf9400340
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x540014c0
+.word 0x54001b00
+.word 0x91004000
+.word 0xf90027a0
+.word 0xf9400740
+.word 0xf9002ba0
+.word 0xf9401ba0
+bl _p_406
+.word 0xaa0003e2
+.word 0xf94027a0
+.word 0xf9402ba1
+.word 0x8b010000
+.word 0xf90023a0
+.word 0xf9401ba0
+bl _p_405
+.word 0xaa0003e1
+.word 0xf94023a0
+.word 0xaa1803e1
+.word 0xaa1903e2
+bl _p_237
+.loc 16 237 0
+.word 0x140000c0
+.loc 16 240 0
+.word 0xf9401ba0
+bl _p_407
+.word 0xaa1a03f8
+.word 0xf9400340
+.word 0xb5000140
+.word 0xf940071a
+.word 0xaa1a03e0
+.word 0xf90023a0
+.word 0xf9401ba0
+bl _p_408
+.word 0xaa0003e1
+.word 0xf94023a0
+.word 0xaa0003fa
+.word 0x1400000f
+.word 0xf9400300
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54001660
 .word 0x91004000
 .word 0xf90023a0
-.word 0xf94006e0
+.word 0xf9400700
 .word 0xf90027a0
 .word 0xf9401ba0
-bl _p_387
+bl _p_406
 .word 0xaa0003e2
 .word 0xf94023a0
 .word 0xf94027a1
-.word 0x8b010019
-.word 0xaa1903f7
+.word 0x8b01001a
+.word 0xaa1a03f8
 .loc 16 245 0
-.word 0xd2800019
-.word 0x14000056
+.word 0xd280001a
+.word 0x1400005e
 .loc 16 248 0
 .word 0xf9401ba0
-bl _p_388
+bl _p_409
 .word 0xd2800080
 .word 0x93407c00
-.word 0x9b007f20
-.word 0x8b0002e0
-.word 0xb900001a
+.word 0x9b007f40
+.word 0x8b000300
+.word 0xb9802ba1
+.word 0xb9000001
 .loc 16 249 0
-.word 0x11000720
+.word 0x11000740
 .word 0xf9003ba0
 .word 0xf9401ba0
-bl _p_388
+bl _p_409
 .word 0xaa0003e1
 .word 0xf9403ba0
 .word 0xd2800081
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0xb900001a
+.word 0x8b000300
+.word 0xb9802ba1
+.word 0xb9000001
 .loc 16 250 0
-.word 0x11000b20
+.word 0x11000b40
 .word 0xf90037a0
 .word 0xf9401ba0
-bl _p_388
+bl _p_409
 .word 0xaa0003e1
 .word 0xf94037a0
 .word 0xd2800081
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0xb900001a
+.word 0x8b000300
+.word 0xb9802ba1
+.word 0xb9000001
 .loc 16 251 0
-.word 0x11000f20
+.word 0x11000f40
 .word 0xf90033a0
 .word 0xf9401ba0
-bl _p_388
+bl _p_409
 .word 0xaa0003e1
 .word 0xf94033a0
 .word 0xd2800081
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0xb900001a
+.word 0x8b000300
+.word 0xb9802ba1
+.word 0xb9000001
 .loc 16 252 0
-.word 0x11001320
+.word 0x11001340
 .word 0xf9002fa0
 .word 0xf9401ba0
-bl _p_388
+bl _p_409
 .word 0xaa0003e1
 .word 0xf9402fa0
 .word 0xd2800081
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0xb900001a
+.word 0x8b000300
+.word 0xb9802ba1
+.word 0xb9000001
 .loc 16 253 0
-.word 0x11001720
+.word 0x11001740
 .word 0xf9002ba0
 .word 0xf9401ba0
-bl _p_388
+bl _p_409
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xd2800081
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0xb900001a
+.word 0x8b000300
+.word 0xb9802ba1
+.word 0xb9000001
 .loc 16 254 0
-.word 0x11001b20
+.word 0x11001b40
 .word 0xf90027a0
 .word 0xf9401ba0
-bl _p_388
+bl _p_409
 .word 0xaa0003e1
 .word 0xf94027a0
 .word 0xd2800081
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0xb900001a
+.word 0x8b000300
+.word 0xb9802ba1
+.word 0xb9000001
 .loc 16 255 0
-.word 0x11001f20
+.word 0x11001f40
 .word 0xf90023a0
 .word 0xf9401ba0
-bl _p_388
+bl _p_409
 .word 0xaa0003e1
 .word 0xf94023a0
 .word 0xd2800081
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0xb900001a
+.word 0x8b000300
+.word 0xb9802ba1
+.word 0xb9000001
 .loc 16 246 0
-.word 0x11002339
+.word 0x1100235a
 .word 0x928000fe
 .word 0xf2bffffe
-.word 0xa1e0300
-.word 0x6b00033f
-.word 0x54fff4eb
+.word 0xa1e0320
+.word 0x6b00035f
+.word 0x54fff3eb
 .loc 16 257 0
 .word 0x9280007e
 .word 0xf2bffffe
-.word 0xa1e0300
-.word 0x6b00033f
-.word 0x5400066a
+.word 0xa1e0320
+.word 0x6b00035f
+.word 0x5400070a
 .loc 16 259 0
 .word 0xf9401ba0
-bl _p_388
+bl _p_409
 .word 0xd2800080
 .word 0x93407c00
-.word 0x9b007f20
-.word 0x8b0002e0
-.word 0xb900001a
+.word 0x9b007f40
+.word 0x8b000300
+.word 0xb9802ba1
+.word 0xb9000001
 .loc 16 260 0
-.word 0x11000720
+.word 0x11000740
 .word 0xf9002ba0
 .word 0xf9401ba0
-bl _p_388
+bl _p_409
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xd2800081
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0xb900001a
+.word 0x8b000300
+.word 0xb9802ba1
+.word 0xb9000001
 .loc 16 261 0
-.word 0x11000b20
+.word 0x11000b40
 .word 0xf90027a0
 .word 0xf9401ba0
-bl _p_388
+bl _p_409
 .word 0xaa0003e1
 .word 0xf94027a0
 .word 0xd2800081
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0xb900001a
+.word 0x8b000300
+.word 0xb9802ba1
+.word 0xb9000001
 .loc 16 262 0
-.word 0x11000f20
+.word 0x11000f40
 .word 0xf90023a0
 .word 0xf9401ba0
-bl _p_388
+bl _p_409
 .word 0xaa0003e1
 .word 0xf94023a0
 .word 0xd2800081
 .word 0x93407c21
 .word 0x9b017c00
-.word 0x8b0002e0
-.word 0xb900001a
+.word 0x8b000300
+.word 0xb9802ba1
+.word 0xb9000001
 .loc 16 263 0
-.word 0x11001339
-.word 0x14000009
+.word 0x1100135a
+.word 0x1400000a
 .loc 16 267 0
 .word 0xf9401ba0
-bl _p_388
+bl _p_409
 .word 0xd2800080
 .word 0x93407c00
-.word 0x9b007f20
-.word 0x8b0002e0
-.word 0xb900001a
+.word 0x9b007f40
+.word 0x8b000300
+.word 0xb9802ba1
+.word 0xb9000001
 .loc 16 265 0
-.word 0x11000739
-.word 0x6b18033f
-.word 0x54fffeeb
+.word 0x1100075a
+.word 0x6b19035f
+.word 0x54fffecb
 .loc 16 270 0
-.word 0xa94163b7
-.word 0xa9426bb9
+.word 0xa94167b8
+.word 0xf94013ba
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
-Lme_fd:
+Lme_105:
 .text
-ut_254:
+ut_262:
 add x0, x0, 16
 b System_Span_1_T_INT_CopyTo_System_Span_1_T_INT
 .text
@@ -28574,12 +29751,12 @@ System_Span_1_T_INT_CopyTo_System_Span_1_T_INT:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf9401fa0
-bl _p_389
+bl _p_410
 .word 0xf90023a0
 .word 0xf9400ba0
 .word 0x3940001e
 .word 0xf9401fa0
-bl _p_390
+bl _p_411
 .word 0xaa0003e2
 .word 0xf94023af
 .word 0xf9400ba0
@@ -28599,13 +29776,13 @@ bl _p_390
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 16 285 0
-bl _p_242
+bl _p_244
 .loc 16 286 0
 .word 0x17fffffc
 
-Lme_fe:
+Lme_106:
 .text
-ut_255:
+ut_263:
 add x0, x0, 16
 b System_Span_1_T_INT_TryCopyTo_System_Span_1_T_INT
 .text
@@ -28638,7 +29815,7 @@ System_Span_1_T_INT_TryCopyTo_System_Span_1_T_INT:
 .word 0x1400004b
 .loc 16 308 0
 .word 0xf94023a0
-bl _p_391
+bl _p_412
 .word 0xaa1a03f7
 .word 0xf9400340
 .word 0xb5000140
@@ -28646,7 +29823,7 @@ bl _p_391
 .word 0xaa1a03e0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_392
+bl _p_413
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xaa0003fa
@@ -28660,7 +29837,7 @@ bl _p_392
 .word 0xf94006e0
 .word 0xf9002fa0
 .word 0xf94023a0
-bl _p_393
+bl _p_414
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
@@ -28670,7 +29847,7 @@ bl _p_393
 .word 0xf9401fa0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_391
+bl _p_412
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xaa0003fa
@@ -28680,7 +29857,7 @@ bl _p_391
 .word 0xaa1603e0
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_392
+bl _p_413
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xaa0003fa
@@ -28694,17 +29871,17 @@ bl _p_392
 .word 0xf9400740
 .word 0xf9002fa0
 .word 0xf94023a0
-bl _p_393
+bl _p_414
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
 .word 0x8b01001a
 .word 0xf94023a0
 .loc 16 310 0
-bl _p_394
+bl _p_415
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_395
+bl _p_416
 .word 0xaa0003e4
 .word 0xf9402baf
 .word 0xaa1a03e0
@@ -28720,13 +29897,13 @@ bl _p_395
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
-Lme_ff:
+Lme_107:
 .text
-ut_256:
+ut_264:
 add x0, x0, 16
 b System_Span_1_T_INT_Equals_object
 .text
@@ -28739,10 +29916,10 @@ System_Span_1_T_INT_Equals_object:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28435e0
-bl _p_248
+.word 0xd28531a0
+bl _p_250
 .word 0xaa0003e1
-.word 0xd2802120
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -28750,9 +29927,9 @@ bl _p_28
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_100:
+Lme_108:
 .text
-ut_257:
+ut_265:
 add x0, x0, 16
 b System_Span_1_T_INT_GetHashCode
 .text
@@ -28764,10 +29941,10 @@ System_Span_1_T_INT_GetHashCode:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd2844900
-bl _p_248
+.word 0xd28544c0
+bl _p_250
 .word 0xaa0003e1
-.word 0xd2802120
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -28775,9 +29952,9 @@ bl _p_28
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_101:
+Lme_109:
 .text
-ut_258:
+ut_266:
 add x0, x0, 16
 b System_Span_1_T_INT_op_Implicit_T_INT__
 .text
@@ -28834,10 +30011,10 @@ ldr x3, [x16, #16]
 .word 0x910143a0
 .word 0xf9004ba0
 .word 0xf94037a0
-bl _p_396
+bl _p_417
 .word 0xf9004fa0
 .word 0xf94037a0
-bl _p_397
+bl _p_418
 .word 0xaa0003e2
 .word 0xf9404ba0
 .word 0xf9404faf
@@ -28873,9 +30050,9 @@ ldr x3, [x16, #16]
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_102:
+Lme_10a:
 .text
-ut_259:
+ut_267:
 add x0, x0, 16
 b System_Span_1_T_INT_op_Implicit_System_Span_1_T_INT
 .text
@@ -28904,10 +30081,10 @@ System_Span_1_T_INT_op_Implicit_System_Span_1_T_INT:
 .word 0x9100e3a0
 .word 0xf90033a0
 .word 0xf9402ba0
-bl _p_398
+bl _p_419
 .word 0xf90043a0
 .word 0xf9402ba0
-bl _p_399
+bl _p_420
 .word 0xaa0003e4
 .word 0xf94033a0
 .word 0xf94037a1
@@ -28945,9 +30122,9 @@ ldr x3, [x16, #16]
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_103:
+Lme_10b:
 .text
-ut_260:
+ut_268:
 add x0, x0, 16
 b System_Span_1_T_INT_Slice_int
 .text
@@ -28955,72 +30132,82 @@ b System_Span_1_T_INT_Slice_int
 	.no_dead_strip System_Span_1_T_INT_Slice_int
 System_Span_1_T_INT_Slice_int:
 .loc 16 385 0 prologue_end
-.word 0xa9b57bfd
+.word 0xa9b67bfd
 .word 0x910003fd
-.word 0xa90167b8
-.word 0xf90013a8
-.word 0xf90033af
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001ba8
+.word 0xf9003baf
 .word 0xaa0003f9
-.word 0xf90017a1
+.word 0xf9001fa1
 .word 0xb9801321
-.word 0xb9802ba0
+.word 0xb9803ba0
 .word 0x6b01001f
-.word 0x54000948
+.word 0x54000a88
 .loc 16 388 0
 .word 0xf9400720
-.word 0xf90053a0
-.word 0xf94033a0
-bl _p_400
-.word 0xaa0003e1
-.word 0xf94053a0
-.word 0xf9004ba0
-.word 0xb9802ba0
-.word 0x93407c00
-.word 0xf9004fa0
-.word 0xf94033a0
-bl _p_401
-.word 0xaa0003e2
-.word 0xf9404ba0
-.word 0xf9404fa1
-.word 0xd2800082
-.word 0x93407c42
-.word 0x9b027c21
-.word 0x8b010000
 .word 0xf90043a0
+.word 0xf9403ba0
+bl _p_421
+.word 0xaa0003e1
+.word 0xf94043a0
 .word 0xaa0003f8
+.word 0xb9803bb7
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x54000101
+.word 0xf9403ba0
+bl _p_422
+.word 0xd2800080
+.word 0x1b007ef6
+.word 0x2a1603e0
+.word 0x8b000318
+.word 0x1400000b
+.word 0x93407ee0
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_422
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xd2800081
+.word 0x93407c21
+.word 0x9b017c17
+.word 0x8b170318
+.word 0xaa1803f7
 .loc 16 389 0
 .word 0xb9801320
-.word 0xb9802ba1
-.word 0x4b010018
+.word 0xb9803ba1
+.word 0x4b010017
 .loc 16 390 0
 .word 0xf9400320
-.word 0xf9003fa0
-.word 0xd2800000
-.word 0xf90027a0
-.word 0xf9002ba0
-.word 0xf9002fa0
-.word 0x910123a0
-.word 0xf9003ba0
-.word 0xf94033a0
-bl _p_402
 .word 0xf90047a0
-.word 0xf94033a0
-bl _p_403
-.word 0xaa0003e4
+.word 0xd2800000
+.word 0xf9002fa0
+.word 0xf90033a0
+.word 0xf90037a0
+.word 0x910163a0
+.word 0xf90043a0
 .word 0xf9403ba0
-.word 0xf9403fa1
-.word 0xf94043a2
-.word 0xf94047af
-.word 0xaa1803e3
+bl _p_423
+.word 0xf9004ba0
+.word 0xf9403ba0
+bl _p_424
+.word 0xaa0003e4
+.word 0xf94043a0
+.word 0xf94047a1
+.word 0xf9404baf
+.word 0xaa1803e2
+.word 0xaa1703e3
 .word 0xd63f0080
-.word 0xf94027a0
-.word 0xf9001ba0
-.word 0xf9402ba0
-.word 0xf9001fa0
 .word 0xf9402fa0
 .word 0xf90023a0
-.word 0xf94013a0
-.word 0xf9401ba1
+.word 0xf94033a0
+.word 0xf90027a0
+.word 0xf94037a0
+.word 0xf9002ba0
+.word 0xf9401ba0
+.word 0xf94023a1
 .word 0xf9000001
 .word 0xd349fc02
 .word 0xd29ffffe
@@ -29034,23 +30221,24 @@ ldr x3, [x16, #16]
 .word 0xd280003e
 .word 0x3900005e
 .word 0x91002000
-.word 0xf9401fa1
+.word 0xf94027a1
 .word 0xf9000001
 .word 0x91002000
-.word 0xf94023a1
+.word 0xf9402ba1
 .word 0xf9000001
-.word 0xa94167b8
+.word 0xa9415fb6
+.word 0xa94267b8
 .word 0x910003bf
-.word 0xa8cb7bfd
+.word 0xa8ca7bfd
 .word 0xd65f03c0
 .loc 16 386 0
 .word 0xd2800300
 bl _p_231
-.word 0x17ffffb5
+.word 0x17ffffab
 
-Lme_104:
+Lme_10c:
 .text
-ut_261:
+ut_269:
 add x0, x0, 16
 b System_Span_1_T_INT_Slice_int_int
 .text
@@ -29058,72 +30246,83 @@ b System_Span_1_T_INT_Slice_int_int
 	.no_dead_strip System_Span_1_T_INT_Slice_int_int
 System_Span_1_T_INT_Slice_int_int:
 .loc 16 404 0 prologue_end
-.word 0xa9b57bfd
+.word 0xa9b67bfd
 .word 0x910003fd
-.word 0xa90167b8
-.word 0xf90013a8
-.word 0xf90033af
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001ba8
+.word 0xf9003baf
 .word 0xaa0003f8
 .word 0xaa0103f9
-.word 0xf90017a2
+.word 0xf9001fa2
 .word 0xb9801300
 .word 0x6b00033f
-.word 0x54000968
+.word 0x54000ac8
 .word 0xb9801300
 .word 0x4b190001
-.word 0xb9802ba0
+.word 0xb9803ba0
 .word 0x6b01001f
-.word 0x540008c8
+.word 0x54000a28
 .loc 16 407 0
 .word 0xf9400700
-.word 0xf90053a0
-.word 0xf94033a0
-bl _p_404
-.word 0xaa0003e1
-.word 0xf94053a0
-.word 0xf9004ba0
-.word 0x93407f20
-.word 0xf9004fa0
-.word 0xf94033a0
-bl _p_405
-.word 0xaa0003e2
-.word 0xf9404ba0
-.word 0xf9404fa1
-.word 0xd2800082
-.word 0x93407c42
-.word 0x9b027c21
-.word 0x8b010000
 .word 0xf90043a0
-.word 0xaa0003f9
+.word 0xf9403ba0
+bl _p_425
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xaa0003f7
+.word 0xaa1903f6
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x54000101
+.word 0xf9403ba0
+bl _p_426
+.word 0xd2800080
+.word 0x1b007ed9
+.word 0x2a1903e0
+.word 0x8b0002f9
+.word 0x1400000b
+.word 0x93407ec0
+.word 0xf90043a0
+.word 0xf9403ba0
+bl _p_426
+.word 0xaa0003e1
+.word 0xf94043a0
+.word 0xd2800081
+.word 0x93407c21
+.word 0x9b017c19
+.word 0x8b1902f9
+.word 0xaa1903f7
 .loc 16 408 0
 .word 0xf9400300
-.word 0xf9003fa0
-.word 0xd2800000
-.word 0xf90027a0
-.word 0xf9002ba0
-.word 0xf9002fa0
-.word 0x910123a0
-.word 0xf9003ba0
-.word 0xf94033a0
-bl _p_406
 .word 0xf90047a0
-.word 0xf94033a0
-bl _p_407
-.word 0xaa0003e4
+.word 0xd2800000
+.word 0xf9002fa0
+.word 0xf90033a0
+.word 0xf90037a0
+.word 0x910163a0
+.word 0xf90043a0
 .word 0xf9403ba0
-.word 0xf9403fa1
-.word 0xf94043a2
-.word 0xf94047af
-.word 0xb9802ba3
+bl _p_427
+.word 0xf9004ba0
+.word 0xf9403ba0
+bl _p_428
+.word 0xaa0003e4
+.word 0xf94043a0
+.word 0xf94047a1
+.word 0xf9404baf
+.word 0xaa1903e2
+.word 0xb9803ba3
 .word 0xd63f0080
-.word 0xf94027a0
-.word 0xf9001ba0
-.word 0xf9402ba0
-.word 0xf9001fa0
 .word 0xf9402fa0
 .word 0xf90023a0
-.word 0xf94013a0
-.word 0xf9401ba1
+.word 0xf94033a0
+.word 0xf90027a0
+.word 0xf94037a0
+.word 0xf9002ba0
+.word 0xf9401ba0
+.word 0xf94023a1
 .word 0xf9000001
 .word 0xd349fc02
 .word 0xd29ffffe
@@ -29137,23 +30336,24 @@ ldr x3, [x16, #16]
 .word 0xd280003e
 .word 0x3900005e
 .word 0x91002000
-.word 0xf9401fa1
+.word 0xf94027a1
 .word 0xf9000001
 .word 0x91002000
-.word 0xf94023a1
+.word 0xf9402ba1
 .word 0xf9000001
-.word 0xa94167b8
+.word 0xa9415fb6
+.word 0xa94267b8
 .word 0x910003bf
-.word 0xa8cb7bfd
+.word 0xa8ca7bfd
 .word 0xd65f03c0
 .loc 16 405 0
 .word 0xd2800300
 bl _p_231
-.word 0x17ffffb9
+.word 0x17ffffae
 
-Lme_105:
+Lme_10d:
 .text
-ut_262:
+ut_270:
 add x0, x0, 16
 b System_Span_1_T_INT_DangerousGetPinnableReference
 .text
@@ -29173,7 +30373,7 @@ System_Span_1_T_INT_DangerousGetPinnableReference:
 .word 0xf90013a0
 .word 0xf9001ba0
 .word 0xf9400fa0
-bl _p_408
+bl _p_429
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0x1400000f
@@ -29187,7 +30387,7 @@ bl _p_408
 .word 0xf9400740
 .word 0xf9001fa0
 .word 0xf9400fa0
-bl _p_409
+bl _p_430
 .word 0xaa0003e2
 .word 0xf9401ba0
 .word 0xf9401fa1
@@ -29196,13 +30396,13 @@ bl _p_409
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
-Lme_106:
+Lme_10e:
 .text
-ut_263:
+ut_271:
 add x0, x0, 16
 b System_Span_1_T_INT_get_Pinnable
 .text
@@ -29220,9 +30420,9 @@ System_Span_1_T_INT_get_Pinnable:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_107:
+Lme_10f:
 .text
-ut_264:
+ut_272:
 add x0, x0, 16
 b System_Span_1_T_INT_get_ByteOffset
 .text
@@ -29240,9 +30440,9 @@ System_Span_1_T_INT_get_ByteOffset:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_108:
+Lme_110:
 .text
-ut_265:
+ut_273:
 add x0, x0, 16
 b wrapper_unknown_System_Numerics_DoubleUlong_StructureToPtr_object_intptr_bool
 .text
@@ -29262,9 +30462,9 @@ wrapper_unknown_System_Numerics_DoubleUlong_StructureToPtr_object_intptr_bool:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_109:
+Lme_111:
 .text
-ut_266:
+ut_274:
 add x0, x0, 16
 b wrapper_unknown_System_Numerics_DoubleUlong_PtrToStructure_intptr_object
 .text
@@ -29284,9 +30484,9 @@ wrapper_unknown_System_Numerics_DoubleUlong_PtrToStructure_intptr_object:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_10a:
+Lme_112:
 .text
-ut_267:
+ut_275:
 add x0, x0, 16
 b wrapper_unknown_System_Globalization_FormatProvider_Number_NumberBuffer_StructureToPtr_object_intptr_bool
 .text
@@ -29319,9 +30519,9 @@ wrapper_unknown_System_Globalization_FormatProvider_Number_NumberBuffer_Structur
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_10b:
+Lme_113:
 .text
-ut_268:
+ut_276:
 add x0, x0, 16
 b wrapper_unknown_System_Globalization_FormatProvider_Number_NumberBuffer_PtrToStructure_intptr_object
 .text
@@ -29365,12 +30565,12 @@ wrapper_unknown_System_Globalization_FormatProvider_Number_NumberBuffer_PtrToStr
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_10c:
+Lme_114:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_Unsafe_Add_T_CHAR_T_CHAR__int
 System_Runtime_CompilerServices_Unsafe_Add_T_CHAR_T_CHAR__int:
-.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/mcs/class/corlib/System.Runtime.CompilerServices/Unsafe.cs"
+.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/corlib/System.Runtime.CompilerServices/Unsafe.cs"
 .loc 18 35 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -29387,7 +30587,7 @@ System_Runtime_CompilerServices_Unsafe_Add_T_CHAR_T_CHAR__int:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_10d:
+Lme_115:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_CHAR_T_CHAR__intptr
@@ -29405,7 +30605,7 @@ System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_CHAR_T_CHAR__intptr:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_10e:
+Lme_116:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_Unsafe_AsRef_T_CHAR_void_
@@ -29420,7 +30620,7 @@ System_Runtime_CompilerServices_Unsafe_AsRef_T_CHAR_void_:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_10f:
+Lme_117:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_Unsafe_Add_T_BYTE_T_BYTE__int
@@ -29441,7 +30641,7 @@ System_Runtime_CompilerServices_Unsafe_Add_T_BYTE_T_BYTE__int:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_110:
+Lme_118:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_BYTE_T_BYTE__intptr
@@ -29459,7 +30659,7 @@ System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_BYTE_T_BYTE__intptr:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_111:
+Lme_119:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_Unsafe_AsRef_T_BYTE_void_
@@ -29474,57 +30674,57 @@ System_Runtime_CompilerServices_Unsafe_AsRef_T_BYTE_void_:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_112:
+Lme_11a:
 .text
 	.align 4
 	.no_dead_strip System_EmptyArray_1_T_BYTE__cctor
 System_EmptyArray_1_T_BYTE__cctor:
-.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/mcs/class/corlib/System/EmptyArray.cs"
+.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/corlib/System/EmptyArray.cs"
 .loc 19 33 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000baf
 .word 0xf9400ba0
-bl _p_410
+bl _p_431
 .word 0xd2800001
 bl _p_24
 .word 0xf90013a0
 .word 0xf9400ba0
-bl _p_411
+bl _p_432
 .word 0xf94013a1
 .word 0xf9000001
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_113:
+Lme_11b:
 .text
 	.align 4
 	.no_dead_strip System_Array_Empty_T_BYTE
 System_Array_Empty_T_BYTE:
-.file 20 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
-.loc 20 648 0 prologue_end
+.file 20 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.loc 20 647 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000baf
 .word 0xf9400ba0
-bl _p_412
+bl _p_433
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf9400ba0
-bl _p_413
+bl _p_434
 .word 0xf9400000
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_114:
+Lme_11c:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_InteropServices_MemoryMarshal_GetReference_T_CHAR_System_ReadOnlySpan_1_T_CHAR
 System_Runtime_InteropServices_MemoryMarshal_GetReference_T_CHAR_System_ReadOnlySpan_1_T_CHAR:
-.file 21 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Runtime/InteropServices/MemoryMarshal.cs"
+.file 21 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Runtime/InteropServices/MemoryMarshal.cs"
 .loc 21 50 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -29533,7 +30733,7 @@ System_Runtime_InteropServices_MemoryMarshal_GetReference_T_CHAR_System_ReadOnly
 .word 0xf9400ba0
 .word 0xf9001ba0
 .word 0xf9400fa0
-bl _p_414
+bl _p_435
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xf9400000
@@ -29542,14 +30742,14 @@ bl _p_414
 .word 0xf9400ba0
 .word 0xf9001fa0
 .word 0xf9400fa0
-bl _p_414
+bl _p_435
 .word 0xaa0003e1
 .word 0xf9401fa0
 .word 0xf9400400
 .word 0xf90013a0
 .word 0xf9001ba0
 .word 0xf9400fa0
-bl _p_415
+bl _p_436
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0x1400001b
@@ -29557,7 +30757,7 @@ bl _p_415
 .word 0xf9400ba0
 .word 0xf90027a0
 .word 0xf9400fa0
-bl _p_414
+bl _p_435
 .word 0xaa0003e1
 .word 0xf94027a0
 .word 0xf9400000
@@ -29569,13 +30769,13 @@ bl _p_414
 .word 0xf9400ba0
 .word 0xf90023a0
 .word 0xf9400fa0
-bl _p_414
+bl _p_435
 .word 0xaa0003e1
 .word 0xf94023a0
 .word 0xf9400400
 .word 0xf9001fa0
 .word 0xf9400fa0
-bl _p_416
+bl _p_437
 .word 0xaa0003e2
 .word 0xf9401ba0
 .word 0xf9401fa1
@@ -29583,11 +30783,11 @@ bl _p_416
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2802140
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_32
 
-Lme_115:
+Lme_11d:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_Unsafe_Add_T_INT_T_INT__int
@@ -29608,7 +30808,7 @@ System_Runtime_CompilerServices_Unsafe_Add_T_INT_T_INT__int:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_116:
+Lme_11e:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_INT_T_INT__intptr
@@ -29626,7 +30826,7 @@ System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_INT_T_INT__intptr:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_117:
+Lme_11f:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_Unsafe_AsRef_T_INT_void_
@@ -29641,12 +30841,12 @@ System_Runtime_CompilerServices_Unsafe_AsRef_T_INT_void_:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_118:
+Lme_120:
 .text
 	.align 4
 	.no_dead_strip System_SpanHelpers_CopyTo_T_CHAR_T_CHAR__int_T_CHAR__int
 System_SpanHelpers_CopyTo_T_CHAR_T_CHAR__int_T_CHAR__int:
-.file 22 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.1.0.15/src/Xamarin.iOS/external/corefx/src/System.Memory/src/System/SpanHelpers.cs"
+.file 22 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Memory/src/System/SpanHelpers.cs"
 .loc 22 29 0 prologue_end
 .word 0xa9b07bfd
 .word 0x910003fd
@@ -29660,80 +30860,96 @@ System_SpanHelpers_CopyTo_T_CHAR_T_CHAR__int_T_CHAR__int:
 .word 0xaa0203f9
 .word 0xaa0303fa
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xd2800040
 .word 0x93407c00
 .word 0x9b007f40
 .word 0x8b000320
-.word 0xf90033a0
+.word 0xf9002fa0
 .word 0xf94027a0
-bl _p_418
+bl _p_439
 .word 0xaa0003e1
-.word 0xf94033a0
+.word 0xf9402fa0
 .word 0xcb190016
 .loc 22 30 0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xd2800040
 .word 0x93407c00
 .word 0x9b007f00
 .word 0x8b0002e0
-.word 0xf9002fa0
+.word 0xf9002ba0
 .word 0xf94027a0
-bl _p_418
+bl _p_439
 .word 0xaa0003e1
-.word 0xf9402fa0
+.word 0xf9402ba0
 .word 0xcb170018
 .loc 22 32 0
 .word 0xf94027a0
-bl _p_418
+bl _p_439
 .word 0xcb1902f5
 .loc 22 34 0
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x540002e0
 .word 0xaa1503e0
-bl _p_419
+bl _p_440
 .word 0xf9002ba0
 .word 0xaa1603e0
-bl _p_419
+bl _p_440
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xeb01001f
 .word 0x54000183
 .word 0xaa1503e0
-bl _p_419
+bl _p_440
 .word 0xf9002ba0
 .word 0xaa1803e0
-bl _p_419
+bl _p_440
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xcb0103e1
 .word 0xeb01001f
+.word 0x9a9f97f4
+.word 0x1400000e
+.word 0xd2800034
+.word 0x1400000c
+.word 0x93407ea0
+.word 0x93407ec1
+.word 0x6b01001f
+.word 0x540000e3
+.word 0x93407ea0
+.word 0x93407f01
+.word 0x4b0103e1
+.word 0x6b01001f
 .word 0x9a9f97f4
 .word 0x14000002
 .word 0xd2800034
 .loc 22 38 0
 .word 0x350006b4
 .word 0xf94027a0
-bl _p_420
+bl _p_441
 .word 0xf94027a0
-bl _p_421
+bl _p_442
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf94027a0
-bl _p_422
+bl _p_443
 .word 0x39400000
 .word 0x35000540
 .loc 22 40 0
 .word 0xf94027a0
-bl _p_423
+bl _p_444
 .word 0xaa1703fa
 .loc 22 41 0
 .word 0xf94027a0
-bl _p_423
+bl _p_444
 .word 0xaa1903f8
 .loc 22 42 0
 .word 0xaa1603e0
-bl _p_419
+bl _p_440
 .word 0xaa0003f9
 .loc 22 43 0
 .word 0xd2800017
@@ -29766,24 +30982,34 @@ ldr x1, [x16, #1064]
 .word 0x9b017ee1
 .word 0x8b010301
 .word 0xaa1403e2
-bl _p_424
+bl _p_445
 .loc 22 52 0
 .word 0x2a1403e0
 .word 0x8b0002f7
 .loc 22 45 0
 .word 0xeb1902ff
 .word 0x54fffc83
-.word 0x1400016a
+.word 0x14000174
 .loc 22 57 0
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x54000180
 .word 0xaa1503e0
-bl _p_419
+bl _p_440
 .word 0xf9002ba0
 .word 0xaa1803e0
-bl _p_419
+bl _p_440
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xcb0103e1
 .word 0xeb01001f
+.word 0x9a9f97f4
+.word 0x14000006
+.word 0x93407ea0
+.word 0x93407f01
+.word 0x4b0103e1
+.word 0x6b01001f
 .word 0x9a9f97f4
 .loc 22 61 0
 .word 0x35000094
@@ -29803,14 +31029,14 @@ bl _p_419
 .word 0x140000d1
 .loc 22 67 0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xd2800040
 .word 0x93407c00
 .word 0x9b007f00
 .word 0x8b0002e0
 .word 0xf9007fa0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e1
 .word 0xf9407fa0
 .word 0xd2800041
@@ -29823,7 +31049,7 @@ bl _p_417
 .word 0xb160300
 .word 0xf9007ba0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e1
 .word 0xf9407ba0
 .word 0xd2800041
@@ -29834,7 +31060,7 @@ bl _p_417
 .word 0xb160300
 .word 0xf90077a0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e2
 .word 0xf94073a0
 .word 0xf94077a1
@@ -29849,7 +31075,7 @@ bl _p_417
 .word 0xb000300
 .word 0xf9006fa0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e1
 .word 0xf9406fa0
 .word 0xd2800041
@@ -29861,7 +31087,7 @@ bl _p_417
 .word 0xb000300
 .word 0xf9006ba0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e2
 .word 0xf94067a0
 .word 0xf9406ba1
@@ -29877,7 +31103,7 @@ bl _p_417
 .word 0xb000300
 .word 0xf90063a0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e1
 .word 0xf94063a0
 .word 0xd2800041
@@ -29890,7 +31116,7 @@ bl _p_417
 .word 0xb000300
 .word 0xf9005fa0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e2
 .word 0xf9405ba0
 .word 0xf9405fa1
@@ -29905,7 +31131,7 @@ bl _p_417
 .word 0xb000300
 .word 0xf90057a0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e1
 .word 0xf94057a0
 .word 0xd2800041
@@ -29917,7 +31143,7 @@ bl _p_417
 .word 0xb000300
 .word 0xf90053a0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e2
 .word 0xf9404fa0
 .word 0xf94053a1
@@ -29933,7 +31159,7 @@ bl _p_417
 .word 0xb000300
 .word 0xf9004ba0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e1
 .word 0xf9404ba0
 .word 0xd2800041
@@ -29946,7 +31172,7 @@ bl _p_417
 .word 0xb000300
 .word 0xf90047a0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e2
 .word 0xf94043a0
 .word 0xf94047a1
@@ -29962,7 +31188,7 @@ bl _p_417
 .word 0xb000300
 .word 0xf9003fa0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e1
 .word 0xf9403fa0
 .word 0xd2800041
@@ -29975,7 +31201,7 @@ bl _p_417
 .word 0xb000300
 .word 0xf9003ba0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e2
 .word 0xf94037a0
 .word 0xf9403ba1
@@ -29991,7 +31217,7 @@ bl _p_417
 .word 0xb000300
 .word 0xf90033a0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e1
 .word 0xf94033a0
 .word 0xd2800041
@@ -30004,7 +31230,7 @@ bl _p_417
 .word 0xb000300
 .word 0xf9002fa0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
@@ -30032,14 +31258,14 @@ bl _p_417
 .word 0x54000eea
 .loc 22 79 0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xd2800040
 .word 0x93407c00
 .word 0x9b007f00
 .word 0x8b0002e0
 .word 0xf9004fa0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e1
 .word 0xf9404fa0
 .word 0xd2800041
@@ -30052,7 +31278,7 @@ bl _p_417
 .word 0xb160300
 .word 0xf9004ba0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e1
 .word 0xf9404ba0
 .word 0xd2800041
@@ -30063,7 +31289,7 @@ bl _p_417
 .word 0xb160300
 .word 0xf90047a0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e2
 .word 0xf94043a0
 .word 0xf94047a1
@@ -30078,7 +31304,7 @@ bl _p_417
 .word 0xb000300
 .word 0xf9003fa0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e1
 .word 0xf9403fa0
 .word 0xd2800041
@@ -30090,7 +31316,7 @@ bl _p_417
 .word 0xb000300
 .word 0xf9003ba0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e2
 .word 0xf94037a0
 .word 0xf9403ba1
@@ -30106,7 +31332,7 @@ bl _p_417
 .word 0xb000300
 .word 0xf90033a0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e1
 .word 0xf94033a0
 .word 0xd2800041
@@ -30119,7 +31345,7 @@ bl _p_417
 .word 0xb000300
 .word 0xf9002fa0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
@@ -30137,14 +31363,14 @@ bl _p_417
 .word 0x14000014
 .loc 22 88 0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xd2800040
 .word 0x93407c00
 .word 0x9b007f00
 .word 0x8b0002e0
 .word 0xf9002ba0
 .word 0xf94027a0
-bl _p_417
+bl _p_438
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xd2800041
@@ -30168,7 +31394,7 @@ bl _p_417
 .word 0xa8d07bfd
 .word 0xd65f03c0
 
-Lme_119:
+Lme_121:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_DefaultArrayPool_1_T_CHAR__ctor
@@ -30182,7 +31408,7 @@ System_Buffers_DefaultArrayPool_1_T_CHAR__ctor:
 .word 0xf90013a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_425
+bl _p_446
 .word 0xaa0003e3
 .word 0xf94013a0
 .word 0xd2800001
@@ -30194,7 +31420,7 @@ bl _p_425
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_11a:
+Lme_122:
 .text
 	.align 4
 	.no_dead_strip System_SpanHelpers_CopyTo_T_BYTE_T_BYTE__int_T_BYTE__int
@@ -30212,80 +31438,96 @@ System_SpanHelpers_CopyTo_T_BYTE_T_BYTE__int_T_BYTE__int:
 .word 0xaa0203f9
 .word 0xaa0303fa
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xd2800020
 .word 0x93407c00
 .word 0x9b007f40
 .word 0x8b000320
-.word 0xf90033a0
+.word 0xf9002fa0
 .word 0xf94027a0
-bl _p_427
+bl _p_448
 .word 0xaa0003e1
-.word 0xf94033a0
+.word 0xf9402fa0
 .word 0xcb190016
 .loc 22 30 0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xd2800020
 .word 0x93407c00
 .word 0x9b007f00
 .word 0x8b0002e0
-.word 0xf9002fa0
+.word 0xf9002ba0
 .word 0xf94027a0
-bl _p_427
+bl _p_448
 .word 0xaa0003e1
-.word 0xf9402fa0
+.word 0xf9402ba0
 .word 0xcb170018
 .loc 22 32 0
 .word 0xf94027a0
-bl _p_427
+bl _p_448
 .word 0xcb1902f5
 .loc 22 34 0
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x540002e0
 .word 0xaa1503e0
-bl _p_419
+bl _p_440
 .word 0xf9002ba0
 .word 0xaa1603e0
-bl _p_419
+bl _p_440
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xeb01001f
 .word 0x54000183
 .word 0xaa1503e0
-bl _p_419
+bl _p_440
 .word 0xf9002ba0
 .word 0xaa1803e0
-bl _p_419
+bl _p_440
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xcb0103e1
 .word 0xeb01001f
+.word 0x9a9f97f4
+.word 0x1400000e
+.word 0xd2800034
+.word 0x1400000c
+.word 0x93407ea0
+.word 0x93407ec1
+.word 0x6b01001f
+.word 0x540000e3
+.word 0x93407ea0
+.word 0x93407f01
+.word 0x4b0103e1
+.word 0x6b01001f
 .word 0x9a9f97f4
 .word 0x14000002
 .word 0xd2800034
 .loc 22 38 0
 .word 0x350006b4
 .word 0xf94027a0
-bl _p_428
+bl _p_449
 .word 0xf94027a0
-bl _p_429
+bl _p_450
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf94027a0
-bl _p_430
+bl _p_451
 .word 0x39400000
 .word 0x35000540
 .loc 22 40 0
 .word 0xf94027a0
-bl _p_431
+bl _p_452
 .word 0xaa1703fa
 .loc 22 41 0
 .word 0xf94027a0
-bl _p_431
+bl _p_452
 .word 0xaa1903f8
 .loc 22 42 0
 .word 0xaa1603e0
-bl _p_419
+bl _p_440
 .word 0xaa0003f9
 .loc 22 43 0
 .word 0xd2800017
@@ -30318,24 +31560,34 @@ ldr x1, [x16, #1064]
 .word 0x9b017ee1
 .word 0x8b010301
 .word 0xaa1403e2
-bl _p_424
+bl _p_445
 .loc 22 52 0
 .word 0x2a1403e0
 .word 0x8b0002f7
 .loc 22 45 0
 .word 0xeb1902ff
 .word 0x54fffc83
-.word 0x1400016a
+.word 0x14000174
 .loc 22 57 0
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x54000180
 .word 0xaa1503e0
-bl _p_419
+bl _p_440
 .word 0xf9002ba0
 .word 0xaa1803e0
-bl _p_419
+bl _p_440
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xcb0103e1
 .word 0xeb01001f
+.word 0x9a9f97f4
+.word 0x14000006
+.word 0x93407ea0
+.word 0x93407f01
+.word 0x4b0103e1
+.word 0x6b01001f
 .word 0x9a9f97f4
 .loc 22 61 0
 .word 0x35000094
@@ -30355,14 +31607,14 @@ bl _p_419
 .word 0x140000d1
 .loc 22 67 0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xd2800020
 .word 0x93407c00
 .word 0x9b007f00
 .word 0x8b0002e0
 .word 0xf9007fa0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e1
 .word 0xf9407fa0
 .word 0xd2800021
@@ -30375,7 +31627,7 @@ bl _p_426
 .word 0xb160300
 .word 0xf9007ba0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e1
 .word 0xf9407ba0
 .word 0xd2800021
@@ -30386,7 +31638,7 @@ bl _p_426
 .word 0xb160300
 .word 0xf90077a0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e2
 .word 0xf94073a0
 .word 0xf94077a1
@@ -30401,7 +31653,7 @@ bl _p_426
 .word 0xb000300
 .word 0xf9006fa0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e1
 .word 0xf9406fa0
 .word 0xd2800021
@@ -30413,7 +31665,7 @@ bl _p_426
 .word 0xb000300
 .word 0xf9006ba0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e2
 .word 0xf94067a0
 .word 0xf9406ba1
@@ -30429,7 +31681,7 @@ bl _p_426
 .word 0xb000300
 .word 0xf90063a0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e1
 .word 0xf94063a0
 .word 0xd2800021
@@ -30442,7 +31694,7 @@ bl _p_426
 .word 0xb000300
 .word 0xf9005fa0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e2
 .word 0xf9405ba0
 .word 0xf9405fa1
@@ -30457,7 +31709,7 @@ bl _p_426
 .word 0xb000300
 .word 0xf90057a0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e1
 .word 0xf94057a0
 .word 0xd2800021
@@ -30469,7 +31721,7 @@ bl _p_426
 .word 0xb000300
 .word 0xf90053a0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e2
 .word 0xf9404fa0
 .word 0xf94053a1
@@ -30485,7 +31737,7 @@ bl _p_426
 .word 0xb000300
 .word 0xf9004ba0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e1
 .word 0xf9404ba0
 .word 0xd2800021
@@ -30498,7 +31750,7 @@ bl _p_426
 .word 0xb000300
 .word 0xf90047a0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e2
 .word 0xf94043a0
 .word 0xf94047a1
@@ -30514,7 +31766,7 @@ bl _p_426
 .word 0xb000300
 .word 0xf9003fa0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e1
 .word 0xf9403fa0
 .word 0xd2800021
@@ -30527,7 +31779,7 @@ bl _p_426
 .word 0xb000300
 .word 0xf9003ba0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e2
 .word 0xf94037a0
 .word 0xf9403ba1
@@ -30543,7 +31795,7 @@ bl _p_426
 .word 0xb000300
 .word 0xf90033a0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e1
 .word 0xf94033a0
 .word 0xd2800021
@@ -30556,7 +31808,7 @@ bl _p_426
 .word 0xb000300
 .word 0xf9002fa0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
@@ -30584,14 +31836,14 @@ bl _p_426
 .word 0x54000eea
 .loc 22 79 0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xd2800020
 .word 0x93407c00
 .word 0x9b007f00
 .word 0x8b0002e0
 .word 0xf9004fa0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e1
 .word 0xf9404fa0
 .word 0xd2800021
@@ -30604,7 +31856,7 @@ bl _p_426
 .word 0xb160300
 .word 0xf9004ba0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e1
 .word 0xf9404ba0
 .word 0xd2800021
@@ -30615,7 +31867,7 @@ bl _p_426
 .word 0xb160300
 .word 0xf90047a0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e2
 .word 0xf94043a0
 .word 0xf94047a1
@@ -30630,7 +31882,7 @@ bl _p_426
 .word 0xb000300
 .word 0xf9003fa0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e1
 .word 0xf9403fa0
 .word 0xd2800021
@@ -30642,7 +31894,7 @@ bl _p_426
 .word 0xb000300
 .word 0xf9003ba0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e2
 .word 0xf94037a0
 .word 0xf9403ba1
@@ -30658,7 +31910,7 @@ bl _p_426
 .word 0xb000300
 .word 0xf90033a0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e1
 .word 0xf94033a0
 .word 0xd2800021
@@ -30671,7 +31923,7 @@ bl _p_426
 .word 0xb000300
 .word 0xf9002fa0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
@@ -30689,14 +31941,14 @@ bl _p_426
 .word 0x14000014
 .loc 22 88 0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xd2800020
 .word 0x93407c00
 .word 0x9b007f00
 .word 0x8b0002e0
 .word 0xf9002ba0
 .word 0xf94027a0
-bl _p_426
+bl _p_447
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xd2800021
@@ -30720,7 +31972,7 @@ bl _p_426
 .word 0xa8d07bfd
 .word 0xd65f03c0
 
-Lme_11b:
+Lme_123:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_DefaultArrayPool_1_T_BYTE__ctor
@@ -30734,7 +31986,7 @@ System_Buffers_DefaultArrayPool_1_T_BYTE__ctor:
 .word 0xf90013a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_432
+bl _p_453
 .word 0xaa0003e3
 .word 0xf94013a0
 .word 0xd2800001
@@ -30746,7 +31998,7 @@ bl _p_432
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_11c:
+Lme_124:
 .text
 	.align 4
 	.no_dead_strip System_SpanHelpers_CopyTo_T_INT_T_INT__int_T_INT__int
@@ -30764,80 +32016,96 @@ System_SpanHelpers_CopyTo_T_INT_T_INT__int_T_INT__int:
 .word 0xaa0203f9
 .word 0xaa0303fa
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xd2800080
 .word 0x93407c00
 .word 0x9b007f40
 .word 0x8b000320
-.word 0xf90033a0
+.word 0xf9002fa0
 .word 0xf94027a0
-bl _p_434
+bl _p_455
 .word 0xaa0003e1
-.word 0xf94033a0
+.word 0xf9402fa0
 .word 0xcb190016
 .loc 22 30 0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xd2800080
 .word 0x93407c00
 .word 0x9b007f00
 .word 0x8b0002e0
-.word 0xf9002fa0
+.word 0xf9002ba0
 .word 0xf94027a0
-bl _p_434
+bl _p_455
 .word 0xaa0003e1
-.word 0xf9402fa0
+.word 0xf9402ba0
 .word 0xcb170018
 .loc 22 32 0
 .word 0xf94027a0
-bl _p_434
+bl _p_455
 .word 0xcb1902f5
 .loc 22 34 0
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x540002e0
 .word 0xaa1503e0
-bl _p_419
+bl _p_440
 .word 0xf9002ba0
 .word 0xaa1603e0
-bl _p_419
+bl _p_440
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xeb01001f
 .word 0x54000183
 .word 0xaa1503e0
-bl _p_419
+bl _p_440
 .word 0xf9002ba0
 .word 0xaa1803e0
-bl _p_419
+bl _p_440
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xcb0103e1
 .word 0xeb01001f
+.word 0x9a9f97f4
+.word 0x1400000e
+.word 0xd2800034
+.word 0x1400000c
+.word 0x93407ea0
+.word 0x93407ec1
+.word 0x6b01001f
+.word 0x540000e3
+.word 0x93407ea0
+.word 0x93407f01
+.word 0x4b0103e1
+.word 0x6b01001f
 .word 0x9a9f97f4
 .word 0x14000002
 .word 0xd2800034
 .loc 22 38 0
 .word 0x350006b4
 .word 0xf94027a0
-bl _p_435
+bl _p_456
 .word 0xf94027a0
-bl _p_436
+bl _p_457
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
 .word 0xf94027a0
-bl _p_437
+bl _p_458
 .word 0x39400000
 .word 0x35000540
 .loc 22 40 0
 .word 0xf94027a0
-bl _p_438
+bl _p_459
 .word 0xaa1703fa
 .loc 22 41 0
 .word 0xf94027a0
-bl _p_438
+bl _p_459
 .word 0xaa1903f8
 .loc 22 42 0
 .word 0xaa1603e0
-bl _p_419
+bl _p_440
 .word 0xaa0003f9
 .loc 22 43 0
 .word 0xd2800017
@@ -30870,24 +32138,34 @@ ldr x1, [x16, #1064]
 .word 0x9b017ee1
 .word 0x8b010301
 .word 0xaa1403e2
-bl _p_424
+bl _p_445
 .loc 22 52 0
 .word 0x2a1403e0
 .word 0x8b0002f7
 .loc 22 45 0
 .word 0xeb1902ff
 .word 0x54fffc83
-.word 0x1400016a
+.word 0x14000174
 .loc 22 57 0
+.word 0xd2800100
+.word 0xd2800081
+.word 0x6b01001f
+.word 0x54000180
 .word 0xaa1503e0
-bl _p_419
+bl _p_440
 .word 0xf9002ba0
 .word 0xaa1803e0
-bl _p_419
+bl _p_440
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xcb0103e1
 .word 0xeb01001f
+.word 0x9a9f97f4
+.word 0x14000006
+.word 0x93407ea0
+.word 0x93407f01
+.word 0x4b0103e1
+.word 0x6b01001f
 .word 0x9a9f97f4
 .loc 22 61 0
 .word 0x35000094
@@ -30907,14 +32185,14 @@ bl _p_419
 .word 0x140000d1
 .loc 22 67 0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xd2800080
 .word 0x93407c00
 .word 0x9b007f00
 .word 0x8b0002e0
 .word 0xf9007fa0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e1
 .word 0xf9407fa0
 .word 0xd2800081
@@ -30927,7 +32205,7 @@ bl _p_433
 .word 0xb160300
 .word 0xf9007ba0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e1
 .word 0xf9407ba0
 .word 0xd2800081
@@ -30938,7 +32216,7 @@ bl _p_433
 .word 0xb160300
 .word 0xf90077a0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e2
 .word 0xf94073a0
 .word 0xf94077a1
@@ -30953,7 +32231,7 @@ bl _p_433
 .word 0xb000300
 .word 0xf9006fa0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e1
 .word 0xf9406fa0
 .word 0xd2800081
@@ -30965,7 +32243,7 @@ bl _p_433
 .word 0xb000300
 .word 0xf9006ba0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e2
 .word 0xf94067a0
 .word 0xf9406ba1
@@ -30981,7 +32259,7 @@ bl _p_433
 .word 0xb000300
 .word 0xf90063a0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e1
 .word 0xf94063a0
 .word 0xd2800081
@@ -30994,7 +32272,7 @@ bl _p_433
 .word 0xb000300
 .word 0xf9005fa0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e2
 .word 0xf9405ba0
 .word 0xf9405fa1
@@ -31009,7 +32287,7 @@ bl _p_433
 .word 0xb000300
 .word 0xf90057a0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e1
 .word 0xf94057a0
 .word 0xd2800081
@@ -31021,7 +32299,7 @@ bl _p_433
 .word 0xb000300
 .word 0xf90053a0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e2
 .word 0xf9404fa0
 .word 0xf94053a1
@@ -31037,7 +32315,7 @@ bl _p_433
 .word 0xb000300
 .word 0xf9004ba0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e1
 .word 0xf9404ba0
 .word 0xd2800081
@@ -31050,7 +32328,7 @@ bl _p_433
 .word 0xb000300
 .word 0xf90047a0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e2
 .word 0xf94043a0
 .word 0xf94047a1
@@ -31066,7 +32344,7 @@ bl _p_433
 .word 0xb000300
 .word 0xf9003fa0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e1
 .word 0xf9403fa0
 .word 0xd2800081
@@ -31079,7 +32357,7 @@ bl _p_433
 .word 0xb000300
 .word 0xf9003ba0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e2
 .word 0xf94037a0
 .word 0xf9403ba1
@@ -31095,7 +32373,7 @@ bl _p_433
 .word 0xb000300
 .word 0xf90033a0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e1
 .word 0xf94033a0
 .word 0xd2800081
@@ -31108,7 +32386,7 @@ bl _p_433
 .word 0xb000300
 .word 0xf9002fa0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
@@ -31136,14 +32414,14 @@ bl _p_433
 .word 0x54000eea
 .loc 22 79 0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xd2800080
 .word 0x93407c00
 .word 0x9b007f00
 .word 0x8b0002e0
 .word 0xf9004fa0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e1
 .word 0xf9404fa0
 .word 0xd2800081
@@ -31156,7 +32434,7 @@ bl _p_433
 .word 0xb160300
 .word 0xf9004ba0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e1
 .word 0xf9404ba0
 .word 0xd2800081
@@ -31167,7 +32445,7 @@ bl _p_433
 .word 0xb160300
 .word 0xf90047a0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e2
 .word 0xf94043a0
 .word 0xf94047a1
@@ -31182,7 +32460,7 @@ bl _p_433
 .word 0xb000300
 .word 0xf9003fa0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e1
 .word 0xf9403fa0
 .word 0xd2800081
@@ -31194,7 +32472,7 @@ bl _p_433
 .word 0xb000300
 .word 0xf9003ba0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e2
 .word 0xf94037a0
 .word 0xf9403ba1
@@ -31210,7 +32488,7 @@ bl _p_433
 .word 0xb000300
 .word 0xf90033a0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e1
 .word 0xf94033a0
 .word 0xd2800081
@@ -31223,7 +32501,7 @@ bl _p_433
 .word 0xb000300
 .word 0xf9002fa0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
@@ -31241,14 +32519,14 @@ bl _p_433
 .word 0x14000014
 .loc 22 88 0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xd2800080
 .word 0x93407c00
 .word 0x9b007f00
 .word 0x8b0002e0
 .word 0xf9002ba0
 .word 0xf94027a0
-bl _p_433
+bl _p_454
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xd2800081
@@ -31272,9 +32550,9 @@ bl _p_433
 .word 0xa8d07bfd
 .word 0xd65f03c0
 
-Lme_11d:
+Lme_125:
 .text
-ut_286:
+ut_294:
 add x0, x0, 16
 b System_ReadOnlySpan_1_T_INT__ctor_System_Pinnable_1_T_INT_intptr_int
 .text
@@ -31315,7 +32593,7 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_11e:
+Lme_126:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_Unsafe_Add_T_BYTE_T_BYTE__intptr
@@ -31335,7 +32613,7 @@ System_Runtime_CompilerServices_Unsafe_Add_T_BYTE_T_BYTE__intptr:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_11f:
+Lme_127:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_DefaultArrayPool_1_T_CHAR__ctor_int_int
@@ -31352,7 +32630,7 @@ System_Buffers_DefaultArrayPool_1_T_CHAR__ctor_int_int:
 .word 0xf90027a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_439
+bl _p_460
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
@@ -31361,20 +32639,22 @@ bl _p_1
 .word 0xf90023a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_440
+bl _p_461
 .word 0xaa0003e1
 .word 0xf94023a0
 .word 0xd63f0020
 .loc 4 24 0
-.word 0x6b1f033f
-.word 0x54000f6d
+.word 0xd2800000
+.word 0x6b00033f
+.word 0x54000f8d
 .loc 4 28 0
-.word 0x6b1f035f
+.word 0xd2800000
+.word 0x6b00035f
 .word 0x54000ded
 .loc 4 36 0
-.word 0xd280001e
-.word 0xf2a8001e
-.word 0x6b1e033f
+.word 0xd2800000
+.word 0xf2a80000
+.word 0x6b00033f
 .word 0x5400008d
 .loc 4 38 0
 .word 0xd2800019
@@ -31382,8 +32662,8 @@ bl _p_440
 .loc 4 39 0
 .word 0x14000005
 .loc 4 40 0
-.word 0xd280021e
-.word 0x6b1e033f
+.word 0xd2800200
+.word 0x6b00033f
 .word 0x5400004a
 .loc 4 42 0
 .word 0xd2800219
@@ -31393,7 +32673,7 @@ bl _p_440
 .word 0xf90023a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_441
+bl _p_462
 .word 0xaa0003e1
 .word 0xf94023a0
 .word 0xd63f0020
@@ -31403,28 +32683,28 @@ bl _p_441
 .word 0x51000720
 .word 0x53047c19
 .word 0xd2800017
-.word 0xd29ffffe
-.word 0x6b1e033f
+.word 0xd29fffe0
+.word 0x6b00033f
 .word 0x54000069
 .word 0x53107f39
 .word 0xd2800217
-.word 0xd2801ffe
-.word 0x6b1e033f
+.word 0xd2801fe0
+.word 0x6b00033f
 .word 0x54000069
 .word 0x53087f39
 .word 0x110022f7
-.word 0xd28001fe
-.word 0x6b1e033f
+.word 0xd28001e0
+.word 0x6b00033f
 .word 0x54000069
 .word 0x53047f39
 .word 0x110012f7
-.word 0xd280007e
-.word 0x6b1e033f
+.word 0xd2800060
+.word 0x6b00033f
 .word 0x54000069
 .word 0x53027f39
 .word 0x11000af7
-.word 0xd280003e
-.word 0x6b1e033f
+.word 0xd2800020
+.word 0x6b00033f
 .word 0x54000069
 .word 0x53017f39
 .word 0x110006f7
@@ -31434,7 +32714,7 @@ bl _p_441
 .word 0xf90023a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_442
+bl _p_463
 .word 0xf94023a1
 bl _p_24
 .word 0xaa0003f9
@@ -31449,13 +32729,13 @@ bl _p_24
 .word 0xf9002ba0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_443
+bl _p_464
 .word 0xd2800501
 bl _p_12
 .word 0xf90027a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_444
+bl _p_465
 .word 0xaa0003e4
 .word 0xf94027a0
 .word 0xf9402ba1
@@ -31503,7 +32783,7 @@ ldr x0, [x16, #0]
 .word 0xd28003e1
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801460
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -31515,12 +32795,12 @@ ldr x0, [x16, #0]
 .word 0xd2800021
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801460
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
 
-Lme_120:
+Lme_128:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_DefaultArrayPool_1_T_BYTE__ctor_int_int
@@ -31537,7 +32817,7 @@ System_Buffers_DefaultArrayPool_1_T_BYTE__ctor_int_int:
 .word 0xf90027a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_445
+bl _p_466
 .word 0x3980b410
 .word 0xb5000050
 bl _p_1
@@ -31546,20 +32826,22 @@ bl _p_1
 .word 0xf90023a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_446
+bl _p_467
 .word 0xaa0003e1
 .word 0xf94023a0
 .word 0xd63f0020
 .loc 4 24 0
-.word 0x6b1f033f
-.word 0x54000f6d
+.word 0xd2800000
+.word 0x6b00033f
+.word 0x54000f8d
 .loc 4 28 0
-.word 0x6b1f035f
+.word 0xd2800000
+.word 0x6b00035f
 .word 0x54000ded
 .loc 4 36 0
-.word 0xd280001e
-.word 0xf2a8001e
-.word 0x6b1e033f
+.word 0xd2800000
+.word 0xf2a80000
+.word 0x6b00033f
 .word 0x5400008d
 .loc 4 38 0
 .word 0xd2800019
@@ -31567,8 +32849,8 @@ bl _p_446
 .loc 4 39 0
 .word 0x14000005
 .loc 4 40 0
-.word 0xd280021e
-.word 0x6b1e033f
+.word 0xd2800200
+.word 0x6b00033f
 .word 0x5400004a
 .loc 4 42 0
 .word 0xd2800219
@@ -31578,7 +32860,7 @@ bl _p_446
 .word 0xf90023a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_447
+bl _p_468
 .word 0xaa0003e1
 .word 0xf94023a0
 .word 0xd63f0020
@@ -31588,28 +32870,28 @@ bl _p_447
 .word 0x51000720
 .word 0x53047c19
 .word 0xd2800017
-.word 0xd29ffffe
-.word 0x6b1e033f
+.word 0xd29fffe0
+.word 0x6b00033f
 .word 0x54000069
 .word 0x53107f39
 .word 0xd2800217
-.word 0xd2801ffe
-.word 0x6b1e033f
+.word 0xd2801fe0
+.word 0x6b00033f
 .word 0x54000069
 .word 0x53087f39
 .word 0x110022f7
-.word 0xd28001fe
-.word 0x6b1e033f
+.word 0xd28001e0
+.word 0x6b00033f
 .word 0x54000069
 .word 0x53047f39
 .word 0x110012f7
-.word 0xd280007e
-.word 0x6b1e033f
+.word 0xd2800060
+.word 0x6b00033f
 .word 0x54000069
 .word 0x53027f39
 .word 0x11000af7
-.word 0xd280003e
-.word 0x6b1e033f
+.word 0xd2800020
+.word 0x6b00033f
 .word 0x54000069
 .word 0x53017f39
 .word 0x110006f7
@@ -31619,7 +32901,7 @@ bl _p_447
 .word 0xf90023a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_448
+bl _p_469
 .word 0xf94023a1
 bl _p_24
 .word 0xaa0003f9
@@ -31634,13 +32916,13 @@ bl _p_24
 .word 0xf9002ba0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_449
+bl _p_470
 .word 0xd2800501
 bl _p_12
 .word 0xf90027a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_450
+bl _p_471
 .word 0xaa0003e4
 .word 0xf94027a0
 .word 0xf9402ba1
@@ -31688,7 +32970,7 @@ ldr x0, [x16, #0]
 .word 0xd28003e1
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801460
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
@@ -31700,12 +32982,12 @@ ldr x0, [x16, #0]
 .word 0xd2800021
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2801460
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_28
 
-Lme_121:
+Lme_129:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_DefaultArrayPool_1_Bucket_T_CHAR__ctor_int_int_int
@@ -31735,7 +33017,7 @@ bl _p_36
 .word 0xf90023a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_451
+bl _p_472
 .word 0xb98023a1
 bl _p_24
 .word 0xf94023a1
@@ -31765,7 +33047,7 @@ ldr x2, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_122:
+Lme_12a:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_DefaultArrayPool_1_T_CHAR_get_Id
@@ -31784,7 +33066,7 @@ System_Buffers_DefaultArrayPool_1_T_CHAR_get_Id:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_123:
+Lme_12b:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_DefaultArrayPool_1_Bucket_T_BYTE__ctor_int_int_int
@@ -31814,7 +33096,7 @@ bl _p_36
 .word 0xf90023a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_452
+bl _p_473
 .word 0xb98023a1
 bl _p_24
 .word 0xf94023a1
@@ -31844,7 +33126,7 @@ ldr x2, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_124:
+Lme_12c:
 .text
 	.align 4
 	.no_dead_strip System_Buffers_DefaultArrayPool_1_T_BYTE_get_Id
@@ -31863,7 +33145,7 @@ System_Buffers_DefaultArrayPool_1_T_BYTE_get_Id:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_125:
+Lme_12d:
 .text
 	.align 3
 jit_code_end:
@@ -32067,11 +33349,15 @@ bl System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR___int_int
 bl System_ReadOnlySpan_1_T_CHAR__ctor_void__int
 bl System_ReadOnlySpan_1_T_CHAR__ctor_System_Pinnable_1_T_CHAR_intptr_int
 bl System_ReadOnlySpan_1_T_CHAR_get_Length
+bl System_ReadOnlySpan_1_T_CHAR_get_IsEmpty
 bl System_ReadOnlySpan_1_T_CHAR_get_Item_int
+bl System_ReadOnlySpan_1_T_CHAR_CopyTo_System_Span_1_T_CHAR
 bl System_ReadOnlySpan_1_T_CHAR_TryCopyTo_System_Span_1_T_CHAR
 bl System_ReadOnlySpan_1_T_CHAR_Equals_object
 bl System_ReadOnlySpan_1_T_CHAR_GetHashCode
+bl System_ReadOnlySpan_1_T_CHAR_op_Implicit_T_CHAR__
 bl System_ReadOnlySpan_1_T_CHAR_Slice_int
+bl System_ReadOnlySpan_1_T_CHAR_Slice_int_int
 bl System_ReadOnlySpan_1_T_CHAR_DangerousGetPinnableReference
 bl System_ReadOnlySpan_1_T_CHAR_get_Pinnable
 bl System_ReadOnlySpan_1_T_CHAR_get_ByteOffset
@@ -32089,11 +33375,15 @@ bl System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE___int_int
 bl System_ReadOnlySpan_1_T_BYTE__ctor_void__int
 bl System_ReadOnlySpan_1_T_BYTE__ctor_System_Pinnable_1_T_BYTE_intptr_int
 bl System_ReadOnlySpan_1_T_BYTE_get_Length
+bl System_ReadOnlySpan_1_T_BYTE_get_IsEmpty
 bl System_ReadOnlySpan_1_T_BYTE_get_Item_int
+bl System_ReadOnlySpan_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
 bl System_ReadOnlySpan_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
 bl System_ReadOnlySpan_1_T_BYTE_Equals_object
 bl System_ReadOnlySpan_1_T_BYTE_GetHashCode
+bl System_ReadOnlySpan_1_T_BYTE_op_Implicit_T_BYTE__
 bl System_ReadOnlySpan_1_T_BYTE_Slice_int
+bl System_ReadOnlySpan_1_T_BYTE_Slice_int_int
 bl System_ReadOnlySpan_1_T_BYTE_DangerousGetPinnableReference
 bl System_ReadOnlySpan_1_T_BYTE_get_Pinnable
 bl System_ReadOnlySpan_1_T_BYTE_get_ByteOffset
@@ -32186,13 +33476,14 @@ unbox_trampolines:
 	.long 177,178,179,180,181,182,183,184
 	.long 185,186,187,188,189,190,191,192
 	.long 193,194,195,196,197,198,199,200
-	.long 201,211,212,213,214,215,216,217
+	.long 201,202,203,204,205,215,216,217
 	.long 218,219,220,221,222,223,224,225
 	.long 226,227,228,229,230,231,232,233
-	.long 234,235,236,237,238,239,240,248
-	.long 249,250,251,252,253,254,255,256
+	.long 234,235,236,237,238,239,240,241
+	.long 242,243,244,245,246,247,248,256
 	.long 257,258,259,260,261,262,263,264
-	.long 265,266,267,268,286
+	.long 265,266,267,268,269,270,271,272
+	.long 273,274,275,276,294
 unbox_trampolines_end:
 
 	.long 0
@@ -32304,10 +33595,10 @@ bl ut_198
 bl ut_199
 bl ut_200
 bl ut_201
-bl ut_211
-bl ut_212
-bl ut_213
-bl ut_214
+bl ut_202
+bl ut_203
+bl ut_204
+bl ut_205
 bl ut_215
 bl ut_216
 bl ut_217
@@ -32334,14 +33625,14 @@ bl ut_237
 bl ut_238
 bl ut_239
 bl ut_240
+bl ut_241
+bl ut_242
+bl ut_243
+bl ut_244
+bl ut_245
+bl ut_246
+bl ut_247
 bl ut_248
-bl ut_249
-bl ut_250
-bl ut_251
-bl ut_252
-bl ut_253
-bl ut_254
-bl ut_255
 bl ut_256
 bl ut_257
 bl ut_258
@@ -32355,7 +33646,15 @@ bl ut_265
 bl ut_266
 bl ut_267
 bl ut_268
-bl ut_286
+bl ut_269
+bl ut_270
+bl ut_271
+bl ut_272
+bl ut_273
+bl ut_274
+bl ut_275
+bl ut_276
+bl ut_294
 
 	.long 0
 .section __TEXT, __const
@@ -32415,10 +33714,9 @@ unwind_info:
 	.byte 14,153,13,68,154,12,23,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7,16,12
 	.byte 31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,22,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152
 	.byte 16,153,15,68,154,14,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,16,12,31,0,68,14,64,157,8
-	.byte 158,7,68,13,29,68,151,6,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,19,12,31,0,68,14,176
-	.byte 1,157,22,158,21,68,13,29,68,152,20,153,19,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9
-	.byte 21,12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8,32,12,31,0,68,14,128,2,157,32
-	.byte 158,31,68,13,29,68,148,30,149,29,68,150,28,151,27,68,152,26,153,25,68,154,24
+	.byte 158,7,68,13,29,68,151,6,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,24,12,31,0,68,14,160
+	.byte 1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15,32,12,31,0,68,14,128,2,157,32,158,31,68,13
+	.byte 29,68,148,30,149,29,68,150,28,151,27,68,152,26,153,25,68,154,24
 
 .text
 	.align 4
@@ -32431,7 +33729,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 5446
+.word 5605
 	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object
 plt_string_Format_System_IFormatProvider_string_object:
 _p_2:
@@ -32439,7 +33737,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 5472
+.word 5631
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_3:
@@ -32447,7 +33745,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 5493
+.word 5652
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_4:
@@ -32455,7 +33753,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 5500
+.word 5659
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_5:
@@ -32463,7 +33761,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 5507
+.word 5666
 	.no_dead_strip plt_System_Buffers_ArrayPool_1_T_REF_EnsureSharedCreated
 plt_System_Buffers_ArrayPool_1_T_REF_EnsureSharedCreated:
 _p_6:
@@ -32471,7 +33769,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 5530
+.word 5689
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_7:
@@ -32479,7 +33777,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 5563
+.word 5722
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_8:
@@ -32487,7 +33785,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
-.word 5570
+.word 5729
 	.no_dead_strip plt_System_Buffers_ArrayPool_1_T_REF_Create
 plt_System_Buffers_ArrayPool_1_T_REF_Create:
 _p_9:
@@ -32495,7 +33793,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 5577
+.word 5736
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_10:
@@ -32503,7 +33801,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 5594
+.word 5753
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_11:
@@ -32511,7 +33809,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 5639
+.word 5798
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_12:
@@ -32519,7 +33817,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
-.word 5647
+.word 5806
 	.no_dead_strip plt_System_Buffers_DefaultArrayPool_1_T_REF__ctor
 plt_System_Buffers_DefaultArrayPool_1_T_REF__ctor:
 _p_13:
@@ -32527,7 +33825,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
-.word 5655
+.word 5814
 	.no_dead_strip plt__jit_icall___emul_lmul_ovf_un
 plt__jit_icall___emul_lmul_ovf_un:
 _p_14:
@@ -32535,7 +33833,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
-.word 5673
+.word 5832
 	.no_dead_strip plt_System_Diagnostics_Tracing_EventSource_WriteEvent_int_int_int_int
 plt_System_Diagnostics_Tracing_EventSource_WriteEvent_int_int_int_int:
 _p_15:
@@ -32543,7 +33841,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
-.word 5694
+.word 5853
 	.no_dead_strip plt_System_Diagnostics_Tracing_EventSource__ctor
 plt_System_Diagnostics_Tracing_EventSource__ctor:
 _p_16:
@@ -32551,7 +33849,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1200]
 br x16
-.word 5699
+.word 5858
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_17:
@@ -32559,7 +33857,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1208]
 br x16
-.word 5704
+.word 5863
 	.no_dead_strip plt_System_Buffers_ArrayPoolEventSource__ctor
 plt_System_Buffers_ArrayPoolEventSource__ctor:
 _p_18:
@@ -32567,7 +33865,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1216]
 br x16
-.word 5736
+.word 5895
 	.no_dead_strip plt_System_Buffers_DefaultArrayPool_1_T_REF__ctor_int_int
 plt_System_Buffers_DefaultArrayPool_1_T_REF__ctor_int_int:
 _p_19:
@@ -32575,7 +33873,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1224]
 br x16
-.word 5751
+.word 5910
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_20:
@@ -32583,7 +33881,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1232]
 br x16
-.word 5795
+.word 5954
 	.no_dead_strip plt_System_Buffers_ArrayPool_1_T_REF__ctor
 plt_System_Buffers_ArrayPool_1_T_REF__ctor:
 _p_21:
@@ -32591,7 +33889,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1240]
 br x16
-.word 5803
+.word 5962
 	.no_dead_strip plt_System_Buffers_DefaultArrayPool_1_T_REF_get_Id
 plt_System_Buffers_DefaultArrayPool_1_T_REF_get_Id:
 _p_22:
@@ -32599,7 +33897,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 5822
+.word 5981
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_23:
@@ -32607,7 +33905,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 5848
+.word 6007
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_24:
@@ -32615,7 +33913,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 5858
+.word 6017
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_25:
@@ -32623,7 +33921,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 5866
+.word 6025
 	.no_dead_strip plt_System_Buffers_DefaultArrayPool_1_Bucket_T_REF__ctor_int_int_int
 plt_System_Buffers_DefaultArrayPool_1_Bucket_T_REF__ctor_int_int_int:
 _p_26:
@@ -32631,7 +33929,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 5874
+.word 6033
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_27:
@@ -32639,7 +33937,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 5893
+.word 6052
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_28:
@@ -32647,7 +33945,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 5913
+.word 6072
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_29:
@@ -32655,7 +33953,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 5959
+.word 6118
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_30:
@@ -32663,7 +33961,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 5967
+.word 6126
 	.no_dead_strip plt_System_Buffers_DefaultArrayPool_1_Bucket_T_REF_Rent
 plt_System_Buffers_DefaultArrayPool_1_Bucket_T_REF_Rent:
 _p_31:
@@ -32671,7 +33969,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 5977
+.word 6136
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_32:
@@ -32679,7 +33977,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 5996
+.word 6155
 	.no_dead_strip plt_System_Array_Clear_System_Array_int_int
 plt_System_Array_Clear_System_Array_int_int:
 _p_33:
@@ -32687,7 +33985,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 6031
+.word 6190
 	.no_dead_strip plt_System_Buffers_DefaultArrayPool_1_Bucket_T_REF_Return_T_REF__
 plt_System_Buffers_DefaultArrayPool_1_Bucket_T_REF_Return_T_REF__:
 _p_34:
@@ -32695,7 +33993,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 6036
+.word 6195
 	.no_dead_strip plt_System_Diagnostics_Debugger_get_IsAttached
 plt_System_Diagnostics_Debugger_get_IsAttached:
 _p_35:
@@ -32703,7 +34001,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 6055
+.word 6214
 	.no_dead_strip plt_System_Threading_SpinLock__ctor_bool
 plt_System_Threading_SpinLock__ctor_bool:
 _p_36:
@@ -32711,7 +34009,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 6060
+.word 6219
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_37:
@@ -32719,7 +34017,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 6096
+.word 6255
 	.no_dead_strip plt_System_Threading_SpinLock_Enter_bool_
 plt_System_Threading_SpinLock_Enter_bool_:
 _p_38:
@@ -32727,15 +34025,15 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 6108
-	.no_dead_strip plt__jit_icall_mono_thread_self_abort
-plt__jit_icall_mono_thread_self_abort:
+.word 6267
+	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
+plt__jit_icall_ves_icall_thread_finish_async_abort:
 _p_39:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 6113
+.word 6272
 	.no_dead_strip plt_System_Threading_SpinLock_Exit_bool
 plt_System_Threading_SpinLock_Exit_bool:
 _p_40:
@@ -32743,7 +34041,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 6138
+.word 6310
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_41:
@@ -32751,7 +34049,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 6161
+.word 6333
 	.no_dead_strip plt_System_Span_1_char_Slice_int_int
 plt_System_Span_1_char_Slice_int_int:
 _p_42:
@@ -32759,7 +34057,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 6171
+.word 6343
 	.no_dead_strip plt_System_Span_1_char_op_Implicit_System_Span_1_char
 plt_System_Span_1_char_op_Implicit_System_Span_1_char:
 _p_43:
@@ -32767,7 +34065,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 6182
+.word 6354
 	.no_dead_strip plt_string__ctor_System_ReadOnlySpan_1_char
 plt_string__ctor_System_ReadOnlySpan_1_char:
 _p_44:
@@ -32775,7 +34073,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 6193
+.word 6365
 	.no_dead_strip plt_System_Buffers_ArrayPool_1_char_EnsureSharedCreated
 plt_System_Buffers_ArrayPool_1_char_EnsureSharedCreated:
 _p_45:
@@ -32783,7 +34081,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 6198
+.word 6370
 	.no_dead_strip plt_System_Span_1_char_TryCopyTo_System_Span_1_char
 plt_System_Span_1_char_TryCopyTo_System_Span_1_char:
 _p_46:
@@ -32791,7 +34089,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 6220
+.word 6392
 	.no_dead_strip plt_System_Text_ValueStringBuilder_Grow_int
 plt_System_Text_ValueStringBuilder_Grow_int:
 _p_47:
@@ -32799,7 +34097,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 6231
+.word 6403
 	.no_dead_strip plt_System_Span_1_char_Slice_int
 plt_System_Span_1_char_Slice_int:
 _p_48:
@@ -32807,7 +34105,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 6233
+.word 6405
 	.no_dead_strip plt_System_Span_1_char_CopyTo_System_Span_1_char
 plt_System_Span_1_char_CopyTo_System_Span_1_char:
 _p_49:
@@ -32815,7 +34113,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 6244
+.word 6416
 	.no_dead_strip plt_System_Span_1_char_Fill_char
 plt_System_Span_1_char_Fill_char:
 _p_50:
@@ -32823,7 +34121,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 6255
+.word 6427
 	.no_dead_strip plt_System_Text_ValueStringBuilder_GrowAndAppend_char
 plt_System_Text_ValueStringBuilder_GrowAndAppend_char:
 _p_51:
@@ -32831,7 +34129,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 6266
+.word 6438
 	.no_dead_strip plt_System_ThrowHelper_ThrowIndexOutOfRangeException
 plt_System_ThrowHelper_ThrowIndexOutOfRangeException:
 _p_52:
@@ -32839,7 +34137,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 6268
+.word 6440
 	.no_dead_strip plt_System_Text_ValueStringBuilder_AppendSlow_string
 plt_System_Text_ValueStringBuilder_AppendSlow_string:
 _p_53:
@@ -32847,7 +34145,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 6273
+.word 6445
 	.no_dead_strip plt_System_MemoryExtensions_AsReadOnlySpan_string
 plt_System_MemoryExtensions_AsReadOnlySpan_string:
 _p_54:
@@ -32855,7 +34153,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 6275
+.word 6447
 	.no_dead_strip plt_System_ReadOnlySpan_1_char_TryCopyTo_System_Span_1_char
 plt_System_ReadOnlySpan_1_char_TryCopyTo_System_Span_1_char:
 _p_55:
@@ -32863,7 +34161,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 6280
+.word 6452
 	.no_dead_strip plt_System_Span_1_char_op_Implicit_char__
 plt_System_Span_1_char_op_Implicit_char__:
 _p_56:
@@ -32871,7 +34169,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 6291
+.word 6463
 	.no_dead_strip plt_System_ReadOnlySpan_1_byte__ctor_byte__
 plt_System_ReadOnlySpan_1_byte__ctor_byte__:
 _p_57:
@@ -32879,7 +34177,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 6302
+.word 6474
 	.no_dead_strip plt_System_Numerics_BigInteger__ctor_System_ReadOnlySpan_1_byte_bool_bool
 plt_System_Numerics_BigInteger__ctor_System_ReadOnlySpan_1_byte_bool_bool:
 _p_58:
@@ -32887,7 +34185,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 6313
+.word 6485
 	.no_dead_strip plt_System_ReadOnlySpan_1_byte_Slice_int
 plt_System_ReadOnlySpan_1_byte_Slice_int:
 _p_59:
@@ -32895,7 +34193,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 6315
+.word 6487
 	.no_dead_strip plt_System_Numerics_NumericsHelpers_DangerousMakeTwosComplement_uint__
 plt_System_Numerics_NumericsHelpers_DangerousMakeTwosComplement_uint__:
 _p_60:
@@ -32903,7 +34201,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 6326
+.word 6498
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_61:
@@ -32911,7 +34209,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 6328
+.word 6500
 	.no_dead_strip plt_System_Globalization_NumberFormatInfo_GetInstance_System_IFormatProvider
 plt_System_Globalization_NumberFormatInfo_GetInstance_System_IFormatProvider:
 _p_62:
@@ -32919,7 +34217,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 6333
+.word 6505
 	.no_dead_strip plt_System_Numerics_BigInteger_Parse_string_System_Globalization_NumberStyles_System_IFormatProvider
 plt_System_Numerics_BigInteger_Parse_string_System_Globalization_NumberStyles_System_IFormatProvider:
 _p_63:
@@ -32927,7 +34225,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 6338
+.word 6510
 	.no_dead_strip plt_System_Numerics_BigNumber_ParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo
 plt_System_Numerics_BigNumber_ParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo:
 _p_64:
@@ -32935,7 +34233,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 6340
+.word 6512
 	.no_dead_strip plt_System_Numerics_BigInteger_Equals_System_Numerics_BigInteger
 plt_System_Numerics_BigInteger_Equals_System_Numerics_BigInteger:
 _p_65:
@@ -32943,7 +34241,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 6342
+.word 6514
 	.no_dead_strip plt_System_Numerics_BigInteger_GetDiffLength_uint___uint___int
 plt_System_Numerics_BigInteger_GetDiffLength_uint___uint___int:
 _p_66:
@@ -32951,7 +34249,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 6344
+.word 6516
 	.no_dead_strip plt_System_Numerics_BigInteger_CompareTo_System_Numerics_BigInteger
 plt_System_Numerics_BigInteger_CompareTo_System_Numerics_BigInteger:
 _p_67:
@@ -32959,7 +34257,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 6346
+.word 6518
 	.no_dead_strip plt_System_Numerics_BigInteger_TryGetBytes_System_Numerics_BigInteger_GetBytesMode_System_Span_1_byte_bool_bool_int_
 plt_System_Numerics_BigInteger_TryGetBytes_System_Numerics_BigInteger_GetBytesMode_System_Span_1_byte_bool_bool_int_:
 _p_68:
@@ -32967,7 +34265,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 6348
+.word 6520
 	.no_dead_strip plt__jit_icall___emul_op_imul_ovf
 plt__jit_icall___emul_op_imul_ovf:
 _p_69:
@@ -32975,7 +34273,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 6350
+.word 6522
 	.no_dead_strip plt_System_Span_1_byte_op_Implicit_byte__
 plt_System_Span_1_byte_op_Implicit_byte__:
 _p_70:
@@ -32983,7 +34281,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 6371
+.word 6543
 	.no_dead_strip plt_System_Globalization_NumberFormatInfo_get_CurrentInfo
 plt_System_Globalization_NumberFormatInfo_get_CurrentInfo:
 _p_71:
@@ -32991,7 +34289,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 6382
+.word 6554
 	.no_dead_strip plt_System_Numerics_BigNumber_FormatBigInteger_System_Numerics_BigInteger_string_System_Globalization_NumberFormatInfo
 plt_System_Numerics_BigNumber_FormatBigInteger_System_Numerics_BigInteger_string_System_Globalization_NumberFormatInfo:
 _p_72:
@@ -32999,7 +34297,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 6387
+.word 6559
 	.no_dead_strip plt_System_Numerics_BigInteger_op_Implicit_long
 plt_System_Numerics_BigInteger_op_Implicit_long:
 _p_73:
@@ -33007,7 +34305,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 6389
+.word 6561
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Add_uint___uint
 plt_System_Numerics_BigIntegerCalculator_Add_uint___uint:
 _p_74:
@@ -33015,7 +34313,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 6391
+.word 6563
 	.no_dead_strip plt_System_Numerics_BigInteger__ctor_uint___bool
 plt_System_Numerics_BigInteger__ctor_uint___bool:
 _p_75:
@@ -33023,7 +34321,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 6393
+.word 6565
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Add_uint___uint__
 plt_System_Numerics_BigIntegerCalculator_Add_uint___uint__:
 _p_76:
@@ -33031,7 +34329,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 6395
+.word 6567
 	.no_dead_strip plt_System_Numerics_BigInteger_Add_uint___int_uint___int
 plt_System_Numerics_BigInteger_Add_uint___int_uint___int:
 _p_77:
@@ -33039,7 +34337,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 6397
+.word 6569
 	.no_dead_strip plt_System_Numerics_BigInteger_Subtract_uint___int_uint___int
 plt_System_Numerics_BigInteger_Subtract_uint___int_uint___int:
 _p_78:
@@ -33047,7 +34345,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 6399
+.word 6571
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Subtract_uint___uint
 plt_System_Numerics_BigIntegerCalculator_Subtract_uint___uint:
 _p_79:
@@ -33055,7 +34353,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1704]
 br x16
-.word 6401
+.word 6573
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Compare_uint___uint__
 plt_System_Numerics_BigIntegerCalculator_Compare_uint___uint__:
 _p_80:
@@ -33063,7 +34361,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1712]
 br x16
-.word 6403
+.word 6575
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Subtract_uint___uint__
 plt_System_Numerics_BigIntegerCalculator_Subtract_uint___uint__:
 _p_81:
@@ -33071,7 +34369,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1720]
 br x16
-.word 6405
+.word 6577
 	.no_dead_strip plt_System_Numerics_BigInteger__ctor_int
 plt_System_Numerics_BigInteger__ctor_int:
 _p_82:
@@ -33079,7 +34377,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 6407
+.word 6579
 	.no_dead_strip plt_System_Numerics_BigInteger__ctor_uint
 plt_System_Numerics_BigInteger__ctor_uint:
 _p_83:
@@ -33087,7 +34385,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 6409
+.word 6581
 	.no_dead_strip plt_System_Numerics_BigInteger__ctor_long
 plt_System_Numerics_BigInteger__ctor_long:
 _p_84:
@@ -33095,7 +34393,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 6411
+.word 6583
 	.no_dead_strip plt_System_Numerics_BigInteger__ctor_ulong
 plt_System_Numerics_BigInteger__ctor_ulong:
 _p_85:
@@ -33103,7 +34401,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 6413
+.word 6585
 	.no_dead_strip plt_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger
 plt_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger:
 _p_86:
@@ -33111,7 +34409,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 6415
+.word 6587
 	.no_dead_strip plt_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_0
 plt_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_0:
 _p_87:
@@ -33119,7 +34417,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 6417
+.word 6589
 	.no_dead_strip plt_System_Numerics_NumericsHelpers_CbitHighZero_uint
 plt_System_Numerics_NumericsHelpers_CbitHighZero_uint:
 _p_88:
@@ -33127,7 +34425,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 6419
+.word 6591
 	.no_dead_strip plt_System_Numerics_NumericsHelpers_GetDoubleFromParts_int_int_ulong
 plt_System_Numerics_NumericsHelpers_GetDoubleFromParts_int_int_ulong:
 _p_89:
@@ -33135,7 +34433,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 6422
+.word 6594
 	.no_dead_strip plt_System_Decimal_op_Implicit_int
 plt_System_Decimal_op_Implicit_int:
 _p_90:
@@ -33143,7 +34441,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 6424
+.word 6596
 	.no_dead_strip plt_System_Decimal__ctor_int_int_int_bool_byte
 plt_System_Decimal__ctor_int_int_int_bool_byte:
 _p_91:
@@ -33151,7 +34449,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 6429
+.word 6601
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Multiply_uint___uint
 plt_System_Numerics_BigIntegerCalculator_Multiply_uint___uint:
 _p_92:
@@ -33159,7 +34457,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 6434
+.word 6606
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Square_uint__
 plt_System_Numerics_BigIntegerCalculator_Square_uint__:
 _p_93:
@@ -33167,7 +34465,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 6436
+.word 6608
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Multiply_uint___uint__
 plt_System_Numerics_BigIntegerCalculator_Multiply_uint___uint__:
 _p_94:
@@ -33175,7 +34473,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 6438
+.word 6610
 	.no_dead_strip plt_System_Numerics_BigInteger_CompareTo_long
 plt_System_Numerics_BigInteger_CompareTo_long:
 _p_95:
@@ -33183,7 +34481,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 6440
+.word 6612
 	.no_dead_strip plt_System_Numerics_BigInteger_Equals_long
 plt_System_Numerics_BigInteger_Equals_long:
 _p_96:
@@ -33191,7 +34489,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 6442
+.word 6614
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Add_uint__int_uint__int_uint__int
 plt_System_Numerics_BigIntegerCalculator_Add_uint__int_uint__int_uint__int:
 _p_97:
@@ -33199,7 +34497,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 6444
+.word 6616
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Subtract_uint__int_uint__int_uint__int
 plt_System_Numerics_BigIntegerCalculator_Subtract_uint__int_uint__int_uint__int:
 _p_98:
@@ -33207,7 +34505,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 6446
+.word 6618
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Square_uint__int_uint__int
 plt_System_Numerics_BigIntegerCalculator_Square_uint__int_uint__int:
 _p_99:
@@ -33215,7 +34513,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 6448
+.word 6620
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_SubtractCore_uint__int_uint__int_uint__int
 plt_System_Numerics_BigIntegerCalculator_SubtractCore_uint__int_uint__int_uint__int:
 _p_100:
@@ -33223,7 +34521,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 6450
+.word 6622
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_AddSelf_uint__int_uint__int
 plt_System_Numerics_BigIntegerCalculator_AddSelf_uint__int_uint__int:
 _p_101:
@@ -33231,7 +34529,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 6452
+.word 6624
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Multiply_uint__int_uint__int_uint__int
 plt_System_Numerics_BigIntegerCalculator_Multiply_uint__int_uint__int_uint__int:
 _p_102:
@@ -33239,7 +34537,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 6454
+.word 6626
 	.no_dead_strip plt_SR_Format_string_object
 plt_SR_Format_string_object:
 _p_103:
@@ -33247,7 +34545,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 6456
+.word 6628
 	.no_dead_strip plt_System_ArgumentException__ctor_string
 plt_System_ArgumentException__ctor_string:
 _p_104:
@@ -33255,7 +34553,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 6458
+.word 6630
 	.no_dead_strip plt_System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException_
 plt_System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException_:
 _p_105:
@@ -33263,7 +34561,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 6463
+.word 6635
 	.no_dead_strip plt_System_Numerics_BigNumber_BigNumberBuffer_Create
 plt_System_Numerics_BigNumber_BigNumberBuffer_Create:
 _p_106:
@@ -33271,7 +34569,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 6465
+.word 6637
 	.no_dead_strip plt_System_Globalization_FormatProvider_TryStringToBigInteger_System_ReadOnlySpan_1_char_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_System_Text_StringBuilder_int__int__bool_
 plt_System_Globalization_FormatProvider_TryStringToBigInteger_System_ReadOnlySpan_1_char_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_System_Text_StringBuilder_int__int__bool_:
 _p_107:
@@ -33279,7 +34577,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 6467
+.word 6639
 	.no_dead_strip plt_System_Numerics_BigNumber_HexNumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger_
 plt_System_Numerics_BigNumber_HexNumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger_:
 _p_108:
@@ -33287,7 +34585,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 6470
+.word 6642
 	.no_dead_strip plt_System_Numerics_BigNumber_NumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger_
 plt_System_Numerics_BigNumber_NumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger_:
 _p_109:
@@ -33295,7 +34593,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 6472
+.word 6644
 	.no_dead_strip plt_System_Numerics_BigNumber_ParseBigInteger_System_ReadOnlySpan_1_char_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo
 plt_System_Numerics_BigNumber_ParseBigInteger_System_ReadOnlySpan_1_char_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo:
 _p_110:
@@ -33303,7 +34601,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 6474
+.word 6646
 	.no_dead_strip plt_System_Numerics_BigNumber_TryParseBigInteger_System_ReadOnlySpan_1_char_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_System_Numerics_BigInteger_
 plt_System_Numerics_BigNumber_TryParseBigInteger_System_ReadOnlySpan_1_char_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_System_Numerics_BigInteger_:
 _p_111:
@@ -33311,7 +34609,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 6476
+.word 6648
 	.no_dead_strip plt_System_Text_StringBuilder_get_Chars_int
 plt_System_Text_StringBuilder_get_Chars_int:
 _p_112:
@@ -33319,7 +34617,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 6478
+.word 6650
 	.no_dead_strip plt_System_Numerics_BigInteger__ctor_byte__
 plt_System_Numerics_BigInteger__ctor_byte__:
 _p_113:
@@ -33327,7 +34625,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 6483
+.word 6655
 	.no_dead_strip plt_System_Numerics_BigInteger_op_Implicit_int
 plt_System_Numerics_BigInteger_op_Implicit_int:
 _p_114:
@@ -33335,7 +34633,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 6485
+.word 6657
 	.no_dead_strip plt_System_Numerics_BigInteger_op_Multiply_System_Numerics_BigInteger_System_Numerics_BigInteger
 plt_System_Numerics_BigInteger_op_Multiply_System_Numerics_BigInteger_System_Numerics_BigInteger:
 _p_115:
@@ -33343,7 +34641,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 6487
+.word 6659
 	.no_dead_strip plt_System_Numerics_BigInteger_op_Addition_System_Numerics_BigInteger_System_Numerics_BigInteger
 plt_System_Numerics_BigInteger_op_Addition_System_Numerics_BigInteger_System_Numerics_BigInteger:
 _p_116:
@@ -33351,7 +34649,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 6489
+.word 6661
 	.no_dead_strip plt_System_Span_1_byte__ctor_void__int
 plt_System_Span_1_byte__ctor_void__int:
 _p_117:
@@ -33359,7 +34657,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 6491
+.word 6663
 	.no_dead_strip plt_System_Numerics_BigInteger_TryWriteOrCountBytes_System_Span_1_byte_int__bool_bool
 plt_System_Numerics_BigInteger_TryWriteOrCountBytes_System_Span_1_byte_int__bool_bool:
 _p_118:
@@ -33367,7 +34665,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 6502
+.word 6674
 	.no_dead_strip plt_System_Buffers_ArrayPool_1_byte_EnsureSharedCreated
 plt_System_Buffers_ArrayPool_1_byte_EnsureSharedCreated:
 _p_119:
@@ -33375,7 +34673,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 6504
+.word 6676
 	.no_dead_strip plt_System_Numerics_BigInteger_TryWriteBytes_System_Span_1_byte_int__bool_bool
 plt_System_Numerics_BigInteger_TryWriteBytes_System_Span_1_byte_int__bool_bool:
 _p_120:
@@ -33383,7 +34681,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 6526
+.word 6698
 	.no_dead_strip plt_System_Span_1_byte_Slice_int_int
 plt_System_Span_1_byte_Slice_int_int:
 _p_121:
@@ -33391,7 +34689,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 6528
+.word 6700
 	.no_dead_strip plt_System_Span_1_char__ctor_void__int
 plt_System_Span_1_char__ctor_void__int:
 _p_122:
@@ -33399,7 +34697,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 6539
+.word 6711
 	.no_dead_strip plt_System_Text_ValueStringBuilder__ctor_System_Span_1_char
 plt_System_Text_ValueStringBuilder__ctor_System_Span_1_char:
 _p_123:
@@ -33407,7 +34705,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 6550
+.word 6722
 	.no_dead_strip plt_System_Text_ValueStringBuilder_Insert_int_char_int
 plt_System_Text_ValueStringBuilder_Insert_int_char_int:
 _p_124:
@@ -33415,7 +34713,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 6552
+.word 6724
 	.no_dead_strip plt_System_Text_ValueStringBuilder_TryCopyTo_System_Span_1_char_int_
 plt_System_Text_ValueStringBuilder_TryCopyTo_System_Span_1_char_int_:
 _p_125:
@@ -33423,7 +34721,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 6554
+.word 6726
 	.no_dead_strip plt_System_Text_ValueStringBuilder_ToString
 plt_System_Text_ValueStringBuilder_ToString:
 _p_126:
@@ -33431,7 +34729,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 6556
+.word 6728
 	.no_dead_strip plt_string_ToReadOnlySpan_string
 plt_string_ToReadOnlySpan_string:
 _p_127:
@@ -33439,7 +34737,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 6558
+.word 6730
 	.no_dead_strip plt_System_Numerics_BigNumber_FormatBigInteger_bool_System_Numerics_BigInteger_string_System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo_System_Span_1_char_int__bool_
 plt_System_Numerics_BigNumber_FormatBigInteger_bool_System_Numerics_BigInteger_string_System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo_System_Span_1_char_int__bool_:
 _p_128:
@@ -33447,7 +34745,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 6563
+.word 6735
 	.no_dead_strip plt_System_Numerics_BigNumber_ParseFormatSpecifier_System_ReadOnlySpan_1_char_int_
 plt_System_Numerics_BigNumber_ParseFormatSpecifier_System_ReadOnlySpan_1_char_int_:
 _p_129:
@@ -33455,7 +34753,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 6565
+.word 6737
 	.no_dead_strip plt_System_Numerics_BigNumber_FormatBigIntegerToHex_bool_System_Numerics_BigInteger_char_int_System_Globalization_NumberFormatInfo_System_Span_1_char_int__bool_
 plt_System_Numerics_BigNumber_FormatBigIntegerToHex_bool_System_Numerics_BigInteger_char_int_System_Globalization_NumberFormatInfo_System_Span_1_char_int__bool_:
 _p_130:
@@ -33463,7 +34761,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 6567
+.word 6739
 	.no_dead_strip plt_string_Format_string_object
 plt_string_Format_string_object:
 _p_131:
@@ -33471,7 +34769,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 6569
+.word 6741
 	.no_dead_strip plt_int_ToString_string_System_IFormatProvider
 plt_int_ToString_string_System_IFormatProvider:
 _p_132:
@@ -33479,7 +34777,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 6574
+.word 6746
 	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
 plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_133:
@@ -33487,7 +34785,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 6579
+.word 6751
 	.no_dead_strip plt_System_FormatException__ctor_string_System_Exception
 plt_System_FormatException__ctor_string_System_Exception:
 _p_134:
@@ -33495,7 +34793,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 6609
+.word 6781
 	.no_dead_strip plt_System_Globalization_FormatProvider_FormatBigInteger_System_Text_ValueStringBuilder__int_int_bool_System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo_char___int
 plt_System_Globalization_FormatProvider_FormatBigInteger_System_Text_ValueStringBuilder__int_int_bool_System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo_char___int:
 _p_135:
@@ -33503,7 +34801,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 6614
+.word 6786
 	.no_dead_strip plt_string__ctor_char___int_int
 plt_string__ctor_char___int_int:
 _p_136:
@@ -33511,7 +34809,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 6617
+.word 6789
 	.no_dead_strip plt_System_ReadOnlySpan_1_char__ctor_char___int_int
 plt_System_ReadOnlySpan_1_char__ctor_char___int_int:
 _p_137:
@@ -33519,7 +34817,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 6622
+.word 6794
 	.no_dead_strip plt_System_Text_StringBuilder__ctor
 plt_System_Text_StringBuilder__ctor:
 _p_138:
@@ -33527,7 +34825,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 6633
+.word 6805
 	.no_dead_strip plt_System_Numerics_NumericsHelpers_CbitHighZero_ulong
 plt_System_Numerics_NumericsHelpers_CbitHighZero_ulong:
 _p_139:
@@ -33535,7 +34833,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 6638
+.word 6810
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_ParseFormatSpecifier_System_ReadOnlySpan_1_char_int_
 plt_System_Globalization_FormatProvider_Number_ParseFormatSpecifier_System_ReadOnlySpan_1_char_int_:
 _p_140:
@@ -33543,7 +34841,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 6641
+.word 6813
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_NumberToString_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__char_int_System_Globalization_NumberFormatInfo_bool
 plt_System_Globalization_FormatProvider_Number_NumberToString_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__char_int_System_Globalization_NumberFormatInfo_bool:
 _p_141:
@@ -33551,7 +34849,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 6644
+.word 6816
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_NumberToStringFormat_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo
 plt_System_Globalization_FormatProvider_Number_NumberToStringFormat_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo:
 _p_142:
@@ -33559,7 +34857,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2208]
 br x16
-.word 6647
+.word 6819
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_TryStringToNumber_System_ReadOnlySpan_1_char_System_Globalization_NumberStyles_System_Globalization_FormatProvider_Number_NumberBuffer__System_Text_StringBuilder_System_Globalization_NumberFormatInfo_bool
 plt_System_Globalization_FormatProvider_Number_TryStringToNumber_System_ReadOnlySpan_1_char_System_Globalization_NumberStyles_System_Globalization_FormatProvider_Number_NumberBuffer__System_Text_StringBuilder_System_Globalization_NumberFormatInfo_bool:
 _p_143:
@@ -33567,7 +34865,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2216]
 br x16
-.word 6650
+.word 6822
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_MatchChars_char__char_
 plt_System_Globalization_FormatProvider_Number_MatchChars_char__char_:
 _p_144:
@@ -33575,7 +34873,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2224]
 br x16
-.word 6653
+.word 6825
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_IsWhite_char
 plt_System_Globalization_FormatProvider_Number_IsWhite_char:
 _p_145:
@@ -33583,7 +34881,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2232]
 br x16
-.word 6656
+.word 6828
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_MatchChars_char__string
 plt_System_Globalization_FormatProvider_Number_MatchChars_char__string:
 _p_146:
@@ -33591,7 +34889,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2240]
 br x16
-.word 6659
+.word 6831
 	.no_dead_strip plt_System_Text_StringBuilder_Append_char
 plt_System_Text_StringBuilder_Append_char:
 _p_147:
@@ -33599,7 +34897,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2248]
 br x16
-.word 6662
+.word 6834
 	.no_dead_strip plt_System_Runtime_InteropServices_MemoryMarshal_GetReference_char_System_ReadOnlySpan_1_char
 plt_System_Runtime_InteropServices_MemoryMarshal_GetReference_char_System_ReadOnlySpan_1_char:
 _p_148:
@@ -33607,7 +34905,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2256]
 br x16
-.word 6667
+.word 6839
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_ParseNumber_char___System_Globalization_NumberStyles_System_Globalization_FormatProvider_Number_NumberBuffer__System_Text_StringBuilder_System_Globalization_NumberFormatInfo_bool
 plt_System_Globalization_FormatProvider_Number_ParseNumber_char___System_Globalization_NumberStyles_System_Globalization_FormatProvider_Number_NumberBuffer__System_Text_StringBuilder_System_Globalization_NumberFormatInfo_bool:
 _p_149:
@@ -33615,7 +34913,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2264]
 br x16
-.word 6679
+.word 6851
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_TrailingZeros_System_ReadOnlySpan_1_char_int
 plt_System_Globalization_FormatProvider_Number_TrailingZeros_System_ReadOnlySpan_1_char_int:
 _p_150:
@@ -33623,7 +34921,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2272]
 br x16
-.word 6682
+.word 6854
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_RoundNumber_System_Globalization_FormatProvider_Number_NumberBuffer__int
 plt_System_Globalization_FormatProvider_Number_RoundNumber_System_Globalization_FormatProvider_Number_NumberBuffer__int:
 _p_151:
@@ -33631,7 +34929,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2280]
 br x16
-.word 6685
+.word 6857
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_FormatCurrency_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo
 plt_System_Globalization_FormatProvider_Number_FormatCurrency_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo:
 _p_152:
@@ -33639,7 +34937,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2288]
 br x16
-.word 6688
+.word 6860
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_FormatFixed_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo_int___string_string
 plt_System_Globalization_FormatProvider_Number_FormatFixed_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo_int___string_string:
 _p_153:
@@ -33647,7 +34945,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2296]
 br x16
-.word 6691
+.word 6863
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_FormatNumber_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo
 plt_System_Globalization_FormatProvider_Number_FormatNumber_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo:
 _p_154:
@@ -33655,7 +34953,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2304]
 br x16
-.word 6694
+.word 6866
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_FormatScientific_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo_char
 plt_System_Globalization_FormatProvider_Number_FormatScientific_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo_char:
 _p_155:
@@ -33663,7 +34961,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2312]
 br x16
-.word 6697
+.word 6869
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_FormatGeneral_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo_char_bool
 plt_System_Globalization_FormatProvider_Number_FormatGeneral_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo_char_bool:
 _p_156:
@@ -33671,7 +34969,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2320]
 br x16
-.word 6700
+.word 6872
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_FormatPercent_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo
 plt_System_Globalization_FormatProvider_Number_FormatPercent_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo:
 _p_157:
@@ -33679,7 +34977,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2328]
 br x16
-.word 6703
+.word 6875
 	.no_dead_strip plt_System_Globalization_NumberFormatInfo_get_CurrencyGroupSizes
 plt_System_Globalization_NumberFormatInfo_get_CurrencyGroupSizes:
 _p_158:
@@ -33687,7 +34985,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2336]
 br x16
-.word 6706
+.word 6878
 	.no_dead_strip plt_System_Text_ValueStringBuilder_Append_char__int
 plt_System_Text_ValueStringBuilder_Append_char__int:
 _p_159:
@@ -33695,7 +34993,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2344]
 br x16
-.word 6711
+.word 6883
 	.no_dead_strip plt_System_Text_ValueStringBuilder_Append_char_int
 plt_System_Text_ValueStringBuilder_Append_char_int:
 _p_160:
@@ -33703,7 +35001,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2352]
 br x16
-.word 6713
+.word 6885
 	.no_dead_strip plt_System_Globalization_NumberFormatInfo_get_NumberGroupSizes
 plt_System_Globalization_NumberFormatInfo_get_NumberGroupSizes:
 _p_161:
@@ -33711,7 +35009,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2360]
 br x16
-.word 6715
+.word 6887
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_FormatExponent_System_Text_ValueStringBuilder__System_Globalization_NumberFormatInfo_int_char_int_bool
 plt_System_Globalization_FormatProvider_Number_FormatExponent_System_Text_ValueStringBuilder__System_Globalization_NumberFormatInfo_int_char_int_bool:
 _p_162:
@@ -33719,7 +35017,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2368]
 br x16
-.word 6720
+.word 6892
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_Int32ToDecChars_char__int__uint_int
 plt_System_Globalization_FormatProvider_Number_Int32ToDecChars_char__int__uint_int:
 _p_163:
@@ -33727,7 +35025,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2376]
 br x16
-.word 6723
+.word 6895
 	.no_dead_strip plt_System_Globalization_NumberFormatInfo_get_PercentGroupSizes
 plt_System_Globalization_NumberFormatInfo_get_PercentGroupSizes:
 _p_164:
@@ -33735,7 +35033,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2384]
 br x16
-.word 6726
+.word 6898
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_FindSection_System_ReadOnlySpan_1_char_int
 plt_System_Globalization_FormatProvider_Number_FindSection_System_ReadOnlySpan_1_char_int:
 _p_165:
@@ -33743,7 +35041,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2392]
 br x16
-.word 6731
+.word 6903
 	.no_dead_strip plt_System_Span_1_int__ctor_void__int
 plt_System_Span_1_int__ctor_void__int:
 _p_166:
@@ -33751,7 +35049,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2400]
 br x16
-.word 6734
+.word 6906
 	.no_dead_strip plt_System_Span_1_int_op_Implicit_int__
 plt_System_Span_1_int_op_Implicit_int__:
 _p_167:
@@ -33759,7 +35057,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2408]
 br x16
-.word 6745
+.word 6917
 	.no_dead_strip plt_System_Span_1_int_TryCopyTo_System_Span_1_int
 plt_System_Span_1_int_TryCopyTo_System_Span_1_int:
 _p_168:
@@ -33767,7 +35065,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2416]
 br x16
-.word 6756
+.word 6928
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_169:
@@ -33775,7 +35073,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2424]
 br x16
-.word 6785
+.word 6957
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_170:
@@ -33783,7 +35081,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2432]
 br x16
-.word 6811
+.word 6983
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_171:
@@ -33791,7 +35089,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2440]
 br x16
-.word 6819
+.word 6991
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_172:
@@ -33799,7 +35097,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2448]
 br x16
-.word 6827
+.word 6999
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_173:
@@ -33807,7 +35105,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2456]
 br x16
-.word 6836
+.word 7008
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_174:
@@ -33815,7 +35113,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 6860
+.word 7032
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_175:
@@ -33823,7 +35121,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
-.word 6912
+.word 7084
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_176:
@@ -33831,7 +35129,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 6938
+.word 7110
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_177:
@@ -33839,7 +35137,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 6946
+.word 7118
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_178:
@@ -33847,7 +35145,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 6954
+.word 7126
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_179:
@@ -33855,7 +35153,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
-.word 6963
+.word 7135
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_180:
@@ -33863,7 +35161,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2512]
 br x16
-.word 6997
+.word 7169
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_181:
@@ -33871,7 +35169,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
-.word 7039
+.word 7211
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_182:
@@ -33879,7 +35177,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
-.word 7072
+.word 7244
 	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
 plt_wrapper_alloc_object_Alloc_intptr:
 _p_183:
@@ -33887,7 +35185,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
-.word 7080
+.word 7252
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_184:
@@ -33895,7 +35193,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2544]
 br x16
-.word 7088
+.word 7260
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_185:
@@ -33903,7 +35201,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2552]
 br x16
-.word 7129
+.word 7301
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_186:
@@ -33911,7 +35209,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2560]
 br x16
-.word 7173
+.word 7345
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_187:
@@ -33919,7 +35217,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2568]
 br x16
-.word 7217
+.word 7389
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_188:
@@ -33927,7 +35225,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2576]
 br x16
-.word 7243
+.word 7415
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_189:
@@ -33935,7 +35233,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2584]
 br x16
-.word 7291
+.word 7463
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_190:
@@ -33943,7 +35241,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2592]
 br x16
-.word 7329
+.word 7501
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_191:
@@ -33951,7 +35249,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2600]
 br x16
-.word 7337
+.word 7509
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_192:
@@ -33959,7 +35257,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2608]
 br x16
-.word 7365
+.word 7537
 	.no_dead_strip plt_System_Buffers_Utilities_SelectBucketIndex_int
 plt_System_Buffers_Utilities_SelectBucketIndex_int:
 _p_193:
@@ -33967,7 +35265,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2616]
 br x16
-.word 7393
+.word 7565
 	.no_dead_strip plt__rgctx_fetch_37
 plt__rgctx_fetch_37:
 _p_194:
@@ -33975,7 +35273,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2624]
 br x16
-.word 7402
+.word 7574
 	.no_dead_strip plt_System_Buffers_Utilities_GetMaxSizeForBucket_int
 plt_System_Buffers_Utilities_GetMaxSizeForBucket_int:
 _p_195:
@@ -33983,7 +35281,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2632]
 br x16
-.word 7412
+.word 7584
 	.no_dead_strip plt__rgctx_fetch_38
 plt__rgctx_fetch_38:
 _p_196:
@@ -33991,7 +35289,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2640]
 br x16
-.word 7414
+.word 7586
 	.no_dead_strip plt__rgctx_fetch_39
 plt__rgctx_fetch_39:
 _p_197:
@@ -33999,7 +35297,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2648]
 br x16
-.word 7422
+.word 7594
 	.no_dead_strip plt__rgctx_fetch_40
 plt__rgctx_fetch_40:
 _p_198:
@@ -34007,7 +35305,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 7463
+.word 7635
 	.no_dead_strip plt__rgctx_fetch_41
 plt__rgctx_fetch_41:
 _p_199:
@@ -34015,7 +35313,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 7507
+.word 7679
 	.no_dead_strip plt__rgctx_fetch_42
 plt__rgctx_fetch_42:
 _p_200:
@@ -34023,7 +35321,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 7543
+.word 7715
 	.no_dead_strip plt__rgctx_fetch_43
 plt__rgctx_fetch_43:
 _p_201:
@@ -34031,7 +35329,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 7551
+.word 7723
 	.no_dead_strip plt__rgctx_fetch_44
 plt__rgctx_fetch_44:
 _p_202:
@@ -34039,7 +35337,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 7560
+.word 7732
 	.no_dead_strip plt__rgctx_fetch_45
 plt__rgctx_fetch_45:
 _p_203:
@@ -34047,7 +35345,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 7570
+.word 7742
 	.no_dead_strip plt_System_Diagnostics_Tracing_EventSource_IsEnabled
 plt_System_Diagnostics_Tracing_EventSource_IsEnabled:
 _p_204:
@@ -34055,7 +35353,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 7601
+.word 7773
 	.no_dead_strip plt__rgctx_fetch_46
 plt__rgctx_fetch_46:
 _p_205:
@@ -34063,7 +35361,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
-.word 7606
+.word 7778
 	.no_dead_strip plt__rgctx_fetch_47
 plt__rgctx_fetch_47:
 _p_206:
@@ -34071,7 +35369,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
-.word 7634
+.word 7806
 	.no_dead_strip plt_System_Buffers_ArrayPoolEventSource_BufferRented_int_int_int_int
 plt_System_Buffers_ArrayPoolEventSource_BufferRented_int_int_int_int:
 _p_207:
@@ -34079,7 +35377,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 7662
+.word 7834
 	.no_dead_strip plt_System_Buffers_ArrayPoolEventSource_BufferAllocated_int_int_int_int_System_Buffers_ArrayPoolEventSource_BufferAllocatedReason
 plt_System_Buffers_ArrayPoolEventSource_BufferAllocated_int_int_int_int_System_Buffers_ArrayPoolEventSource_BufferAllocatedReason:
 _p_208:
@@ -34087,7 +35385,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 7664
+.word 7836
 	.no_dead_strip plt__rgctx_fetch_48
 plt__rgctx_fetch_48:
 _p_209:
@@ -34095,7 +35393,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 7684
+.word 7856
 	.no_dead_strip plt__rgctx_fetch_49
 plt__rgctx_fetch_49:
 _p_210:
@@ -34103,7 +35401,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 7715
+.word 7887
 	.no_dead_strip plt__rgctx_fetch_50
 plt__rgctx_fetch_50:
 _p_211:
@@ -34111,7 +35409,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 7747
+.word 7919
 	.no_dead_strip plt_System_Buffers_ArrayPoolEventSource_BufferReturned_int_int_int
 plt_System_Buffers_ArrayPoolEventSource_BufferReturned_int_int_int:
 _p_212:
@@ -34119,7 +35417,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 7775
+.word 7947
 	.no_dead_strip plt__rgctx_fetch_51
 plt__rgctx_fetch_51:
 _p_213:
@@ -34127,7 +35425,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 7795
+.word 7967
 	.no_dead_strip plt__rgctx_fetch_52
 plt__rgctx_fetch_52:
 _p_214:
@@ -34135,7 +35433,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 7841
+.word 8013
 	.no_dead_strip plt__rgctx_fetch_53
 plt__rgctx_fetch_53:
 _p_215:
@@ -34143,7 +35441,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 7871
+.word 8043
 	.no_dead_strip plt__rgctx_fetch_54
 plt__rgctx_fetch_54:
 _p_216:
@@ -34151,7 +35449,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 7915
+.word 8087
 	.no_dead_strip plt__rgctx_fetch_55
 plt__rgctx_fetch_55:
 _p_217:
@@ -34159,7 +35457,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 7966
+.word 8138
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_218:
@@ -34167,7 +35465,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 7976
+.word 8148
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
 _p_219:
@@ -34175,7 +35473,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 8022
+.word 8194
 	.no_dead_strip plt__rgctx_fetch_58
 plt__rgctx_fetch_58:
 _p_220:
@@ -34183,7 +35481,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 8086
+.word 8258
 	.no_dead_strip plt__rgctx_fetch_59
 plt__rgctx_fetch_59:
 _p_221:
@@ -34191,7 +35489,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 8104
+.word 8276
 	.no_dead_strip plt__rgctx_fetch_60
 plt__rgctx_fetch_60:
 _p_222:
@@ -34199,7 +35497,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 8136
+.word 8308
 	.no_dead_strip plt__rgctx_fetch_61
 plt__rgctx_fetch_61:
 _p_223:
@@ -34207,7 +35505,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 8144
+.word 8316
 	.no_dead_strip plt_System_ThrowHelper_ThrowArrayTypeMismatchException
 plt_System_ThrowHelper_ThrowArrayTypeMismatchException:
 _p_224:
@@ -34215,7 +35513,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 8152
+.word 8324
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument:
 _p_225:
@@ -34223,7 +35521,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 8157
+.word 8329
 	.no_dead_strip plt__rgctx_fetch_62
 plt__rgctx_fetch_62:
 _p_226:
@@ -34231,7 +35529,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 8180
+.word 8352
 	.no_dead_strip plt__rgctx_fetch_63
 plt__rgctx_fetch_63:
 _p_227:
@@ -34239,7 +35537,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 8203
+.word 8375
 	.no_dead_strip plt__rgctx_fetch_64
 plt__rgctx_fetch_64:
 _p_228:
@@ -34247,7 +35545,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 8211
+.word 8383
 	.no_dead_strip plt__rgctx_fetch_65
 plt__rgctx_fetch_65:
 _p_229:
@@ -34255,7 +35553,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 8219
+.word 8391
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_InvalidTypeWithPointersNotSupported_System_Type
 plt_System_ThrowHelper_ThrowArgumentException_InvalidTypeWithPointersNotSupported_System_Type:
 _p_230:
@@ -34263,7 +35561,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 8227
+.word 8399
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument:
 _p_231:
@@ -34271,7 +35569,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 8232
+.word 8404
 	.no_dead_strip plt__rgctx_fetch_66
 plt__rgctx_fetch_66:
 _p_232:
@@ -34279,7 +35577,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 8255
+.word 8427
 	.no_dead_strip plt__rgctx_fetch_67
 plt__rgctx_fetch_67:
 _p_233:
@@ -34287,7 +35585,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 8279
+.word 8451
 	.no_dead_strip plt__rgctx_fetch_68
 plt__rgctx_fetch_68:
 _p_234:
@@ -34295,7 +35593,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 8303
+.word 8475
 	.no_dead_strip plt__rgctx_fetch_69
 plt__rgctx_fetch_69:
 _p_235:
@@ -34303,7 +35601,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 8345
+.word 8517
 	.no_dead_strip plt__rgctx_fetch_70
 plt__rgctx_fetch_70:
 _p_236:
@@ -34311,55 +35609,55 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 8369
-	.no_dead_strip plt__rgctx_fetch_71
-plt__rgctx_fetch_71:
+.word 8541
+	.no_dead_strip plt_string_memset_byte__int_int
+plt_string_memset_byte__int_int:
 _p_237:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 8377
-	.no_dead_strip plt__rgctx_fetch_72
-plt__rgctx_fetch_72:
+.word 8569
+	.no_dead_strip plt__rgctx_fetch_71
+plt__rgctx_fetch_71:
 _p_238:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 8401
-	.no_dead_strip plt__rgctx_fetch_73
-plt__rgctx_fetch_73:
+.word 8574
+	.no_dead_strip plt__rgctx_fetch_72
+plt__rgctx_fetch_72:
 _p_239:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 8425
-	.no_dead_strip plt__rgctx_fetch_74
-plt__rgctx_fetch_74:
+.word 8598
+	.no_dead_strip plt__rgctx_fetch_73
+plt__rgctx_fetch_73:
 _p_240:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 8467
-	.no_dead_strip plt__rgctx_fetch_75
-plt__rgctx_fetch_75:
+.word 8606
+	.no_dead_strip plt__rgctx_fetch_74
+plt__rgctx_fetch_74:
 _p_241:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 8475
-	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_DestinationTooShort
-plt_System_ThrowHelper_ThrowArgumentException_DestinationTooShort:
+.word 8630
+	.no_dead_strip plt__rgctx_fetch_75
+plt__rgctx_fetch_75:
 _p_242:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 8498
+.word 8672
 	.no_dead_strip plt__rgctx_fetch_76
 plt__rgctx_fetch_76:
 _p_243:
@@ -34367,47 +35665,47 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 8521
-	.no_dead_strip plt__rgctx_fetch_77
-plt__rgctx_fetch_77:
+.word 8680
+	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_DestinationTooShort
+plt_System_ThrowHelper_ThrowArgumentException_DestinationTooShort:
 _p_244:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 8529
-	.no_dead_strip plt__rgctx_fetch_78
-plt__rgctx_fetch_78:
+.word 8703
+	.no_dead_strip plt__rgctx_fetch_77
+plt__rgctx_fetch_77:
 _p_245:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 8553
-	.no_dead_strip plt__rgctx_fetch_79
-plt__rgctx_fetch_79:
+.word 8726
+	.no_dead_strip plt__rgctx_fetch_78
+plt__rgctx_fetch_78:
 _p_246:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 8577
-	.no_dead_strip plt__rgctx_fetch_80
-plt__rgctx_fetch_80:
+.word 8734
+	.no_dead_strip plt__rgctx_fetch_79
+plt__rgctx_fetch_79:
 _p_247:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 8600
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
+.word 8758
+	.no_dead_strip plt__rgctx_fetch_80
+plt__rgctx_fetch_80:
 _p_248:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 8623
+.word 8782
 	.no_dead_strip plt__rgctx_fetch_81
 plt__rgctx_fetch_81:
 _p_249:
@@ -34415,735 +35713,735 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 8670
-	.no_dead_strip plt__rgctx_fetch_82
-plt__rgctx_fetch_82:
+.word 8805
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_250:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 8678
-	.no_dead_strip plt__rgctx_fetch_83
-plt__rgctx_fetch_83:
+.word 8828
+	.no_dead_strip plt__rgctx_fetch_82
+plt__rgctx_fetch_82:
 _p_251:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 8727
-	.no_dead_strip plt__rgctx_fetch_84
-plt__rgctx_fetch_84:
+.word 8875
+	.no_dead_strip plt__rgctx_fetch_83
+plt__rgctx_fetch_83:
 _p_252:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 8735
-	.no_dead_strip plt__rgctx_fetch_85
-plt__rgctx_fetch_85:
+.word 8883
+	.no_dead_strip plt__rgctx_fetch_84
+plt__rgctx_fetch_84:
 _p_253:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 8776
-	.no_dead_strip plt__rgctx_fetch_86
-plt__rgctx_fetch_86:
+.word 8932
+	.no_dead_strip plt__rgctx_fetch_85
+plt__rgctx_fetch_85:
 _p_254:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 8799
-	.no_dead_strip plt__rgctx_fetch_87
-plt__rgctx_fetch_87:
+.word 8940
+	.no_dead_strip plt__rgctx_fetch_86
+plt__rgctx_fetch_86:
 _p_255:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 8823
-	.no_dead_strip plt__rgctx_fetch_88
-plt__rgctx_fetch_88:
+.word 8981
+	.no_dead_strip plt__rgctx_fetch_87
+plt__rgctx_fetch_87:
 _p_256:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 8831
-	.no_dead_strip plt__rgctx_fetch_89
-plt__rgctx_fetch_89:
+.word 9004
+	.no_dead_strip plt__rgctx_fetch_88
+plt__rgctx_fetch_88:
 _p_257:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 8872
-	.no_dead_strip plt__rgctx_fetch_90
-plt__rgctx_fetch_90:
+.word 9028
+	.no_dead_strip plt__rgctx_fetch_89
+plt__rgctx_fetch_89:
 _p_258:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 8895
-	.no_dead_strip plt__rgctx_fetch_91
-plt__rgctx_fetch_91:
+.word 9036
+	.no_dead_strip plt__rgctx_fetch_90
+plt__rgctx_fetch_90:
 _p_259:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 8919
-	.no_dead_strip plt__rgctx_fetch_92
-plt__rgctx_fetch_92:
+.word 9077
+	.no_dead_strip plt__rgctx_fetch_91
+plt__rgctx_fetch_91:
 _p_260:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 8927
-	.no_dead_strip plt__rgctx_fetch_93
-plt__rgctx_fetch_93:
+.word 9100
+	.no_dead_strip plt__rgctx_fetch_92
+plt__rgctx_fetch_92:
 _p_261:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 8968
-	.no_dead_strip plt__rgctx_fetch_94
-plt__rgctx_fetch_94:
+.word 9124
+	.no_dead_strip plt__rgctx_fetch_93
+plt__rgctx_fetch_93:
 _p_262:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 8992
-	.no_dead_strip plt__rgctx_fetch_95
-plt__rgctx_fetch_95:
+.word 9132
+	.no_dead_strip plt__rgctx_fetch_94
+plt__rgctx_fetch_94:
 _p_263:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 9042
-	.no_dead_strip plt__rgctx_fetch_96
-plt__rgctx_fetch_96:
+.word 9173
+	.no_dead_strip plt__rgctx_fetch_95
+plt__rgctx_fetch_95:
 _p_264:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 9074
-	.no_dead_strip plt__rgctx_fetch_97
-plt__rgctx_fetch_97:
+.word 9197
+	.no_dead_strip plt__rgctx_fetch_96
+plt__rgctx_fetch_96:
 _p_265:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 9082
-	.no_dead_strip plt__rgctx_fetch_98
-plt__rgctx_fetch_98:
+.word 9247
+	.no_dead_strip plt__rgctx_fetch_97
+plt__rgctx_fetch_97:
 _p_266:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 9108
-	.no_dead_strip plt__rgctx_fetch_99
-plt__rgctx_fetch_99:
+.word 9279
+	.no_dead_strip plt__rgctx_fetch_98
+plt__rgctx_fetch_98:
 _p_267:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 9132
-	.no_dead_strip plt__rgctx_fetch_100
-plt__rgctx_fetch_100:
+.word 9287
+	.no_dead_strip plt__rgctx_fetch_99
+plt__rgctx_fetch_99:
 _p_268:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 9140
-	.no_dead_strip plt__rgctx_fetch_101
-plt__rgctx_fetch_101:
+.word 9313
+	.no_dead_strip plt__rgctx_fetch_100
+plt__rgctx_fetch_100:
 _p_269:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 9148
-	.no_dead_strip plt__rgctx_fetch_102
-plt__rgctx_fetch_102:
+.word 9337
+	.no_dead_strip plt__rgctx_fetch_101
+plt__rgctx_fetch_101:
 _p_270:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 9171
-	.no_dead_strip plt__rgctx_fetch_103
-plt__rgctx_fetch_103:
+.word 9345
+	.no_dead_strip plt__rgctx_fetch_102
+plt__rgctx_fetch_102:
 _p_271:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 9213
-	.no_dead_strip plt__rgctx_fetch_104
-plt__rgctx_fetch_104:
+.word 9353
+	.no_dead_strip plt__rgctx_fetch_103
+plt__rgctx_fetch_103:
 _p_272:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 9236
-	.no_dead_strip plt__rgctx_fetch_105
-plt__rgctx_fetch_105:
+.word 9376
+	.no_dead_strip plt__rgctx_fetch_104
+plt__rgctx_fetch_104:
 _p_273:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 9244
-	.no_dead_strip plt__rgctx_fetch_106
-plt__rgctx_fetch_106:
+.word 9418
+	.no_dead_strip plt__rgctx_fetch_105
+plt__rgctx_fetch_105:
 _p_274:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 9252
-	.no_dead_strip plt__rgctx_fetch_107
-plt__rgctx_fetch_107:
+.word 9441
+	.no_dead_strip plt__rgctx_fetch_106
+plt__rgctx_fetch_106:
 _p_275:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 9278
-	.no_dead_strip plt__rgctx_fetch_108
-plt__rgctx_fetch_108:
+.word 9449
+	.no_dead_strip plt__rgctx_fetch_107
+plt__rgctx_fetch_107:
 _p_276:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 9302
-	.no_dead_strip plt__rgctx_fetch_109
-plt__rgctx_fetch_109:
+.word 9457
+	.no_dead_strip plt__rgctx_fetch_108
+plt__rgctx_fetch_108:
 _p_277:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 9326
-	.no_dead_strip plt__rgctx_fetch_110
-plt__rgctx_fetch_110:
+.word 9483
+	.no_dead_strip plt__rgctx_fetch_109
+plt__rgctx_fetch_109:
 _p_278:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 9376
-	.no_dead_strip plt__rgctx_fetch_111
-plt__rgctx_fetch_111:
+.word 9507
+	.no_dead_strip plt__rgctx_fetch_110
+plt__rgctx_fetch_110:
 _p_279:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 9384
-	.no_dead_strip plt__rgctx_fetch_112
-plt__rgctx_fetch_112:
+.word 9531
+	.no_dead_strip plt__rgctx_fetch_111
+plt__rgctx_fetch_111:
 _p_280:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 9392
-	.no_dead_strip plt__rgctx_fetch_113
-plt__rgctx_fetch_113:
+.word 9573
+	.no_dead_strip plt__rgctx_fetch_112
+plt__rgctx_fetch_112:
 _p_281:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 9416
-	.no_dead_strip plt__rgctx_fetch_114
-plt__rgctx_fetch_114:
+.word 9581
+	.no_dead_strip plt__rgctx_fetch_113
+plt__rgctx_fetch_113:
 _p_282:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 9440
-	.no_dead_strip plt__rgctx_fetch_115
-plt__rgctx_fetch_115:
+.word 9630
+	.no_dead_strip plt__rgctx_fetch_114
+plt__rgctx_fetch_114:
 _p_283:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 9463
-	.no_dead_strip plt__rgctx_fetch_116
-plt__rgctx_fetch_116:
+.word 9638
+	.no_dead_strip plt__rgctx_fetch_115
+plt__rgctx_fetch_115:
 _p_284:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 9504
-	.no_dead_strip plt__rgctx_fetch_117
-plt__rgctx_fetch_117:
+.word 9646
+	.no_dead_strip plt__rgctx_fetch_116
+plt__rgctx_fetch_116:
 _p_285:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 9527
-	.no_dead_strip plt__rgctx_fetch_118
-plt__rgctx_fetch_118:
+.word 9670
+	.no_dead_strip plt__rgctx_fetch_117
+plt__rgctx_fetch_117:
 _p_286:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 9551
-	.no_dead_strip plt__rgctx_fetch_119
-plt__rgctx_fetch_119:
+.word 9694
+	.no_dead_strip plt__rgctx_fetch_118
+plt__rgctx_fetch_118:
 _p_287:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 9559
-	.no_dead_strip plt__rgctx_fetch_120
-plt__rgctx_fetch_120:
+.word 9717
+	.no_dead_strip plt__rgctx_fetch_119
+plt__rgctx_fetch_119:
 _p_288:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 9600
-	.no_dead_strip plt__rgctx_fetch_121
-plt__rgctx_fetch_121:
+.word 9758
+	.no_dead_strip plt__rgctx_fetch_120
+plt__rgctx_fetch_120:
 _p_289:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 9624
-	.no_dead_strip plt__rgctx_fetch_122
-plt__rgctx_fetch_122:
+.word 9766
+	.no_dead_strip plt__rgctx_fetch_121
+plt__rgctx_fetch_121:
 _p_290:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 9666
-	.no_dead_strip plt__rgctx_fetch_123
-plt__rgctx_fetch_123:
+.word 9807
+	.no_dead_strip plt__rgctx_fetch_122
+plt__rgctx_fetch_122:
 _p_291:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 9674
-	.no_dead_strip plt__rgctx_fetch_124
-plt__rgctx_fetch_124:
+.word 9830
+	.no_dead_strip plt__rgctx_fetch_123
+plt__rgctx_fetch_123:
 _p_292:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 9682
-	.no_dead_strip plt__rgctx_fetch_125
-plt__rgctx_fetch_125:
+.word 9854
+	.no_dead_strip plt__rgctx_fetch_124
+plt__rgctx_fetch_124:
 _p_293:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 9706
-	.no_dead_strip plt__rgctx_fetch_126
-plt__rgctx_fetch_126:
+.word 9862
+	.no_dead_strip plt__rgctx_fetch_125
+plt__rgctx_fetch_125:
 _p_294:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 9747
-	.no_dead_strip plt__rgctx_fetch_127
-plt__rgctx_fetch_127:
+.word 9903
+	.no_dead_strip plt__rgctx_fetch_126
+plt__rgctx_fetch_126:
 _p_295:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 9755
-	.no_dead_strip plt__rgctx_fetch_128
-plt__rgctx_fetch_128:
+.word 9926
+	.no_dead_strip plt__rgctx_fetch_127
+plt__rgctx_fetch_127:
 _p_296:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 9763
-	.no_dead_strip plt__rgctx_fetch_129
-plt__rgctx_fetch_129:
+.word 9950
+	.no_dead_strip plt__rgctx_fetch_128
+plt__rgctx_fetch_128:
 _p_297:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 9786
-	.no_dead_strip plt__rgctx_fetch_130
-plt__rgctx_fetch_130:
+.word 9958
+	.no_dead_strip plt__rgctx_fetch_129
+plt__rgctx_fetch_129:
 _p_298:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 9835
-	.no_dead_strip plt__rgctx_fetch_131
-plt__rgctx_fetch_131:
+.word 9999
+	.no_dead_strip plt__rgctx_fetch_130
+plt__rgctx_fetch_130:
 _p_299:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 9843
-	.no_dead_strip plt__rgctx_fetch_132
-plt__rgctx_fetch_132:
+.word 10023
+	.no_dead_strip plt__rgctx_fetch_131
+plt__rgctx_fetch_131:
 _p_300:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 9892
-	.no_dead_strip plt__rgctx_fetch_133
-plt__rgctx_fetch_133:
+.word 10065
+	.no_dead_strip plt__rgctx_fetch_132
+plt__rgctx_fetch_132:
 _p_301:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 9924
-	.no_dead_strip plt__rgctx_fetch_134
-plt__rgctx_fetch_134:
+.word 10073
+	.no_dead_strip plt__rgctx_fetch_133
+plt__rgctx_fetch_133:
 _p_302:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 9932
-	.no_dead_strip plt__rgctx_fetch_135
-plt__rgctx_fetch_135:
+.word 10081
+	.no_dead_strip plt__rgctx_fetch_134
+plt__rgctx_fetch_134:
 _p_303:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 9958
-	.no_dead_strip plt__rgctx_fetch_136
-plt__rgctx_fetch_136:
+.word 10105
+	.no_dead_strip plt__rgctx_fetch_135
+plt__rgctx_fetch_135:
 _p_304:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 9982
-	.no_dead_strip plt__rgctx_fetch_137
-plt__rgctx_fetch_137:
+.word 10146
+	.no_dead_strip plt__rgctx_fetch_136
+plt__rgctx_fetch_136:
 _p_305:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 9990
-	.no_dead_strip plt__rgctx_fetch_138
-plt__rgctx_fetch_138:
+.word 10154
+	.no_dead_strip plt__rgctx_fetch_137
+plt__rgctx_fetch_137:
 _p_306:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 9998
-	.no_dead_strip plt__rgctx_fetch_139
-plt__rgctx_fetch_139:
+.word 10162
+	.no_dead_strip plt__rgctx_fetch_138
+plt__rgctx_fetch_138:
 _p_307:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 10021
-	.no_dead_strip plt__rgctx_fetch_140
-plt__rgctx_fetch_140:
+.word 10185
+	.no_dead_strip plt__rgctx_fetch_139
+plt__rgctx_fetch_139:
 _p_308:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 10063
-	.no_dead_strip plt__rgctx_fetch_141
-plt__rgctx_fetch_141:
+.word 10234
+	.no_dead_strip plt__rgctx_fetch_140
+plt__rgctx_fetch_140:
 _p_309:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 10086
-	.no_dead_strip plt__rgctx_fetch_142
-plt__rgctx_fetch_142:
+.word 10242
+	.no_dead_strip plt__rgctx_fetch_141
+plt__rgctx_fetch_141:
 _p_310:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 10094
-	.no_dead_strip plt__rgctx_fetch_143
-plt__rgctx_fetch_143:
+.word 10291
+	.no_dead_strip plt__rgctx_fetch_142
+plt__rgctx_fetch_142:
 _p_311:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 10102
-	.no_dead_strip plt__rgctx_fetch_144
-plt__rgctx_fetch_144:
+.word 10323
+	.no_dead_strip plt__rgctx_fetch_143
+plt__rgctx_fetch_143:
 _p_312:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 10128
-	.no_dead_strip plt__rgctx_fetch_145
-plt__rgctx_fetch_145:
+.word 10331
+	.no_dead_strip plt__rgctx_fetch_144
+plt__rgctx_fetch_144:
 _p_313:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 10152
-	.no_dead_strip plt__rgctx_fetch_146
-plt__rgctx_fetch_146:
+.word 10357
+	.no_dead_strip plt__rgctx_fetch_145
+plt__rgctx_fetch_145:
 _p_314:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 10176
-	.no_dead_strip plt__rgctx_fetch_147
-plt__rgctx_fetch_147:
+.word 10381
+	.no_dead_strip plt__rgctx_fetch_146
+plt__rgctx_fetch_146:
 _p_315:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 10226
-	.no_dead_strip plt__rgctx_fetch_148
-plt__rgctx_fetch_148:
+.word 10389
+	.no_dead_strip plt__rgctx_fetch_147
+plt__rgctx_fetch_147:
 _p_316:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 10234
-	.no_dead_strip plt__rgctx_fetch_149
-plt__rgctx_fetch_149:
+.word 10397
+	.no_dead_strip plt__rgctx_fetch_148
+plt__rgctx_fetch_148:
 _p_317:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 10242
-	.no_dead_strip plt__rgctx_fetch_150
-plt__rgctx_fetch_150:
+.word 10420
+	.no_dead_strip plt__rgctx_fetch_149
+plt__rgctx_fetch_149:
 _p_318:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 10266
-	.no_dead_strip plt__rgctx_fetch_151
-plt__rgctx_fetch_151:
+.word 10462
+	.no_dead_strip plt__rgctx_fetch_150
+plt__rgctx_fetch_150:
 _p_319:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 10290
-	.no_dead_strip plt__rgctx_fetch_152
-plt__rgctx_fetch_152:
+.word 10485
+	.no_dead_strip plt__rgctx_fetch_151
+plt__rgctx_fetch_151:
 _p_320:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 10313
-	.no_dead_strip plt__rgctx_fetch_153
-plt__rgctx_fetch_153:
+.word 10493
+	.no_dead_strip plt__rgctx_fetch_152
+plt__rgctx_fetch_152:
 _p_321:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 10354
-	.no_dead_strip plt__rgctx_fetch_154
-plt__rgctx_fetch_154:
+.word 10501
+	.no_dead_strip plt__rgctx_fetch_153
+plt__rgctx_fetch_153:
 _p_322:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 10377
-	.no_dead_strip plt__rgctx_fetch_155
-plt__rgctx_fetch_155:
+.word 10527
+	.no_dead_strip plt__rgctx_fetch_154
+plt__rgctx_fetch_154:
 _p_323:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 10401
-	.no_dead_strip plt__rgctx_fetch_156
-plt__rgctx_fetch_156:
+.word 10551
+	.no_dead_strip plt__rgctx_fetch_155
+plt__rgctx_fetch_155:
 _p_324:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 10409
-	.no_dead_strip plt__rgctx_fetch_157
-plt__rgctx_fetch_157:
+.word 10575
+	.no_dead_strip plt__rgctx_fetch_156
+plt__rgctx_fetch_156:
 _p_325:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 10450
-	.no_dead_strip plt__rgctx_fetch_158
-plt__rgctx_fetch_158:
+.word 10617
+	.no_dead_strip plt__rgctx_fetch_157
+plt__rgctx_fetch_157:
 _p_326:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 10474
-	.no_dead_strip plt__rgctx_fetch_159
-plt__rgctx_fetch_159:
+.word 10625
+	.no_dead_strip plt__rgctx_fetch_158
+plt__rgctx_fetch_158:
 _p_327:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 10516
-	.no_dead_strip plt__rgctx_fetch_160
-plt__rgctx_fetch_160:
+.word 10674
+	.no_dead_strip plt__rgctx_fetch_159
+plt__rgctx_fetch_159:
 _p_328:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 10534
-	.no_dead_strip plt__rgctx_fetch_161
-plt__rgctx_fetch_161:
+.word 10682
+	.no_dead_strip plt__rgctx_fetch_160
+plt__rgctx_fetch_160:
 _p_329:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 10566
-	.no_dead_strip plt__rgctx_fetch_162
-plt__rgctx_fetch_162:
+.word 10690
+	.no_dead_strip plt__rgctx_fetch_161
+plt__rgctx_fetch_161:
 _p_330:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 10574
-	.no_dead_strip plt__rgctx_fetch_163
-plt__rgctx_fetch_163:
+.word 10714
+	.no_dead_strip plt__rgctx_fetch_162
+plt__rgctx_fetch_162:
 _p_331:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 10600
-	.no_dead_strip plt__rgctx_fetch_164
-plt__rgctx_fetch_164:
+.word 10738
+	.no_dead_strip plt__rgctx_fetch_163
+plt__rgctx_fetch_163:
 _p_332:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 10623
-	.no_dead_strip plt__rgctx_fetch_165
-plt__rgctx_fetch_165:
+.word 10761
+	.no_dead_strip plt__rgctx_fetch_164
+plt__rgctx_fetch_164:
 _p_333:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 10631
-	.no_dead_strip plt__rgctx_fetch_166
-plt__rgctx_fetch_166:
+.word 10802
+	.no_dead_strip plt__rgctx_fetch_165
+plt__rgctx_fetch_165:
 _p_334:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 10639
-	.no_dead_strip plt__rgctx_fetch_167
-plt__rgctx_fetch_167:
+.word 10810
+	.no_dead_strip plt__rgctx_fetch_166
+plt__rgctx_fetch_166:
 _p_335:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 10665
-	.no_dead_strip plt__rgctx_fetch_168
-plt__rgctx_fetch_168:
+.word 10851
+	.no_dead_strip plt__rgctx_fetch_167
+plt__rgctx_fetch_167:
 _p_336:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 10689
-	.no_dead_strip plt__rgctx_fetch_169
-plt__rgctx_fetch_169:
+.word 10874
+	.no_dead_strip plt__rgctx_fetch_168
+plt__rgctx_fetch_168:
 _p_337:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 10713
-	.no_dead_strip plt__rgctx_fetch_170
-plt__rgctx_fetch_170:
+.word 10898
+	.no_dead_strip plt__rgctx_fetch_169
+plt__rgctx_fetch_169:
 _p_338:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 10755
-	.no_dead_strip plt__rgctx_fetch_171
-plt__rgctx_fetch_171:
+.word 10906
+	.no_dead_strip plt__rgctx_fetch_170
+plt__rgctx_fetch_170:
 _p_339:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 10779
-	.no_dead_strip plt_string_memset_byte__int_int
-plt_string_memset_byte__int_int:
+.word 10947
+	.no_dead_strip plt__rgctx_fetch_171
+plt__rgctx_fetch_171:
 _p_340:
 adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 10807
+.word 10970
 	.no_dead_strip plt__rgctx_fetch_172
 plt__rgctx_fetch_172:
 _p_341:
@@ -35151,7 +36449,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 10812
+.word 10994
 	.no_dead_strip plt__rgctx_fetch_173
 plt__rgctx_fetch_173:
 _p_342:
@@ -35159,7 +36457,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 10854
+.word 11002
 	.no_dead_strip plt__rgctx_fetch_174
 plt__rgctx_fetch_174:
 _p_343:
@@ -35167,7 +36465,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 10862
+.word 11043
 	.no_dead_strip plt__rgctx_fetch_175
 plt__rgctx_fetch_175:
 _p_344:
@@ -35175,7 +36473,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 10903
+.word 11067
 	.no_dead_strip plt__rgctx_fetch_176
 plt__rgctx_fetch_176:
 _p_345:
@@ -35183,7 +36481,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 10911
+.word 11109
 	.no_dead_strip plt__rgctx_fetch_177
 plt__rgctx_fetch_177:
 _p_346:
@@ -35191,7 +36489,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 10935
+.word 11127
 	.no_dead_strip plt__rgctx_fetch_178
 plt__rgctx_fetch_178:
 _p_347:
@@ -35199,7 +36497,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 10959
+.word 11159
 	.no_dead_strip plt__rgctx_fetch_179
 plt__rgctx_fetch_179:
 _p_348:
@@ -35207,7 +36505,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 10982
+.word 11167
 	.no_dead_strip plt__rgctx_fetch_180
 plt__rgctx_fetch_180:
 _p_349:
@@ -35215,7 +36513,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 11023
+.word 11193
 	.no_dead_strip plt__rgctx_fetch_181
 plt__rgctx_fetch_181:
 _p_350:
@@ -35223,7 +36521,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 11031
+.word 11216
 	.no_dead_strip plt__rgctx_fetch_182
 plt__rgctx_fetch_182:
 _p_351:
@@ -35231,7 +36529,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 11080
+.word 11224
 	.no_dead_strip plt__rgctx_fetch_183
 plt__rgctx_fetch_183:
 _p_352:
@@ -35239,7 +36537,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 11088
+.word 11232
 	.no_dead_strip plt__rgctx_fetch_184
 plt__rgctx_fetch_184:
 _p_353:
@@ -35247,7 +36545,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 11129
+.word 11258
 	.no_dead_strip plt__rgctx_fetch_185
 plt__rgctx_fetch_185:
 _p_354:
@@ -35255,7 +36553,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 11152
+.word 11282
 	.no_dead_strip plt__rgctx_fetch_186
 plt__rgctx_fetch_186:
 _p_355:
@@ -35263,7 +36561,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 11176
+.word 11306
 	.no_dead_strip plt__rgctx_fetch_187
 plt__rgctx_fetch_187:
 _p_356:
@@ -35271,7 +36569,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 11184
+.word 11348
 	.no_dead_strip plt__rgctx_fetch_188
 plt__rgctx_fetch_188:
 _p_357:
@@ -35279,7 +36577,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 11225
+.word 11372
 	.no_dead_strip plt__rgctx_fetch_189
 plt__rgctx_fetch_189:
 _p_358:
@@ -35287,7 +36585,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 11248
+.word 11400
 	.no_dead_strip plt__rgctx_fetch_190
 plt__rgctx_fetch_190:
 _p_359:
@@ -35295,7 +36593,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 11272
+.word 11424
 	.no_dead_strip plt__rgctx_fetch_191
 plt__rgctx_fetch_191:
 _p_360:
@@ -35303,7 +36601,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 11280
+.word 11432
 	.no_dead_strip plt__rgctx_fetch_192
 plt__rgctx_fetch_192:
 _p_361:
@@ -35311,7 +36609,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 11321
+.word 11456
 	.no_dead_strip plt__rgctx_fetch_193
 plt__rgctx_fetch_193:
 _p_362:
@@ -35319,7 +36617,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 11345
+.word 11498
 	.no_dead_strip plt__rgctx_fetch_194
 plt__rgctx_fetch_194:
 _p_363:
@@ -35327,7 +36625,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 11387
+.word 11506
 	.no_dead_strip plt__rgctx_fetch_195
 plt__rgctx_fetch_195:
 _p_364:
@@ -35335,7 +36633,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 11395
+.word 11547
 	.no_dead_strip plt__rgctx_fetch_196
 plt__rgctx_fetch_196:
 _p_365:
@@ -35343,7 +36641,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 11403
+.word 11555
 	.no_dead_strip plt__rgctx_fetch_197
 plt__rgctx_fetch_197:
 _p_366:
@@ -35351,7 +36649,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 11427
+.word 11579
 	.no_dead_strip plt__rgctx_fetch_198
 plt__rgctx_fetch_198:
 _p_367:
@@ -35359,7 +36657,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 11468
+.word 11603
 	.no_dead_strip plt__rgctx_fetch_199
 plt__rgctx_fetch_199:
 _p_368:
@@ -35367,7 +36665,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 11476
+.word 11626
 	.no_dead_strip plt__rgctx_fetch_200
 plt__rgctx_fetch_200:
 _p_369:
@@ -35375,7 +36673,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 11484
+.word 11667
 	.no_dead_strip plt__rgctx_fetch_201
 plt__rgctx_fetch_201:
 _p_370:
@@ -35383,7 +36681,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 11507
+.word 11675
 	.no_dead_strip plt__rgctx_fetch_202
 plt__rgctx_fetch_202:
 _p_371:
@@ -35391,7 +36689,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 11556
+.word 11724
 	.no_dead_strip plt__rgctx_fetch_203
 plt__rgctx_fetch_203:
 _p_372:
@@ -35399,7 +36697,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #4048]
 br x16
-.word 11564
+.word 11732
 	.no_dead_strip plt__rgctx_fetch_204
 plt__rgctx_fetch_204:
 _p_373:
@@ -35407,7 +36705,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 11605
+.word 11773
 	.no_dead_strip plt__rgctx_fetch_205
 plt__rgctx_fetch_205:
 _p_374:
@@ -35415,7 +36713,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 11623
+.word 11796
 	.no_dead_strip plt__rgctx_fetch_206
 plt__rgctx_fetch_206:
 _p_375:
@@ -35423,7 +36721,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 11655
+.word 11820
 	.no_dead_strip plt__rgctx_fetch_207
 plt__rgctx_fetch_207:
 _p_376:
@@ -35431,7 +36729,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 11663
+.word 11828
 	.no_dead_strip plt__rgctx_fetch_208
 plt__rgctx_fetch_208:
 _p_377:
@@ -35439,7 +36737,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 11689
+.word 11869
 	.no_dead_strip plt__rgctx_fetch_209
 plt__rgctx_fetch_209:
 _p_378:
@@ -35447,7 +36745,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 11712
+.word 11892
 	.no_dead_strip plt__rgctx_fetch_210
 plt__rgctx_fetch_210:
 _p_379:
@@ -35455,7 +36753,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 11720
+.word 11916
 	.no_dead_strip plt__rgctx_fetch_211
 plt__rgctx_fetch_211:
 _p_380:
@@ -35463,7 +36761,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 11728
+.word 11924
 	.no_dead_strip plt__rgctx_fetch_212
 plt__rgctx_fetch_212:
 _p_381:
@@ -35471,7 +36769,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 11754
+.word 11965
 	.no_dead_strip plt__rgctx_fetch_213
 plt__rgctx_fetch_213:
 _p_382:
@@ -35479,7 +36777,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 11778
+.word 11989
 	.no_dead_strip plt__rgctx_fetch_214
 plt__rgctx_fetch_214:
 _p_383:
@@ -35487,7 +36785,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 11802
+.word 12031
 	.no_dead_strip plt__rgctx_fetch_215
 plt__rgctx_fetch_215:
 _p_384:
@@ -35495,7 +36793,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 11844
+.word 12039
 	.no_dead_strip plt__rgctx_fetch_216
 plt__rgctx_fetch_216:
 _p_385:
@@ -35503,7 +36801,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 11868
+.word 12047
 	.no_dead_strip plt__rgctx_fetch_217
 plt__rgctx_fetch_217:
 _p_386:
@@ -35511,7 +36809,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 11876
+.word 12071
 	.no_dead_strip plt__rgctx_fetch_218
 plt__rgctx_fetch_218:
 _p_387:
@@ -35519,7 +36817,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 11900
+.word 12112
 	.no_dead_strip plt__rgctx_fetch_219
 plt__rgctx_fetch_219:
 _p_388:
@@ -35527,7 +36825,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 11924
+.word 12120
 	.no_dead_strip plt__rgctx_fetch_220
 plt__rgctx_fetch_220:
 _p_389:
@@ -35535,7 +36833,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #88]
 br x16
-.word 11966
+.word 12128
 	.no_dead_strip plt__rgctx_fetch_221
 plt__rgctx_fetch_221:
 _p_390:
@@ -35543,7 +36841,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #96]
 br x16
-.word 11974
+.word 12151
 	.no_dead_strip plt__rgctx_fetch_222
 plt__rgctx_fetch_222:
 _p_391:
@@ -35551,7 +36849,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #104]
 br x16
-.word 12015
+.word 12200
 	.no_dead_strip plt__rgctx_fetch_223
 plt__rgctx_fetch_223:
 _p_392:
@@ -35559,7 +36857,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #112]
 br x16
-.word 12023
+.word 12208
 	.no_dead_strip plt__rgctx_fetch_224
 plt__rgctx_fetch_224:
 _p_393:
@@ -35567,7 +36865,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #120]
 br x16
-.word 12047
+.word 12249
 	.no_dead_strip plt__rgctx_fetch_225
 plt__rgctx_fetch_225:
 _p_394:
@@ -35575,7 +36873,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #128]
 br x16
-.word 12071
+.word 12267
 	.no_dead_strip plt__rgctx_fetch_226
 plt__rgctx_fetch_226:
 _p_395:
@@ -35583,7 +36881,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #136]
 br x16
-.word 12094
+.word 12299
 	.no_dead_strip plt__rgctx_fetch_227
 plt__rgctx_fetch_227:
 _p_396:
@@ -35591,7 +36889,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #144]
 br x16
-.word 12135
+.word 12307
 	.no_dead_strip plt__rgctx_fetch_228
 plt__rgctx_fetch_228:
 _p_397:
@@ -35599,7 +36897,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #152]
 br x16
-.word 12143
+.word 12333
 	.no_dead_strip plt__rgctx_fetch_229
 plt__rgctx_fetch_229:
 _p_398:
@@ -35607,7 +36905,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #160]
 br x16
-.word 12192
+.word 12356
 	.no_dead_strip plt__rgctx_fetch_230
 plt__rgctx_fetch_230:
 _p_399:
@@ -35615,7 +36913,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
-.word 12200
+.word 12364
 	.no_dead_strip plt__rgctx_fetch_231
 plt__rgctx_fetch_231:
 _p_400:
@@ -35623,7 +36921,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
-.word 12241
+.word 12372
 	.no_dead_strip plt__rgctx_fetch_232
 plt__rgctx_fetch_232:
 _p_401:
@@ -35631,7 +36929,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
-.word 12264
+.word 12398
 	.no_dead_strip plt__rgctx_fetch_233
 plt__rgctx_fetch_233:
 _p_402:
@@ -35639,7 +36937,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 12288
+.word 12422
 	.no_dead_strip plt__rgctx_fetch_234
 plt__rgctx_fetch_234:
 _p_403:
@@ -35647,7 +36945,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 12296
+.word 12446
 	.no_dead_strip plt__rgctx_fetch_235
 plt__rgctx_fetch_235:
 _p_404:
@@ -35655,7 +36953,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 12337
+.word 12488
 	.no_dead_strip plt__rgctx_fetch_236
 plt__rgctx_fetch_236:
 _p_405:
@@ -35663,7 +36961,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
-.word 12360
+.word 12512
 	.no_dead_strip plt__rgctx_fetch_237
 plt__rgctx_fetch_237:
 _p_406:
@@ -35671,7 +36969,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 12384
+.word 12540
 	.no_dead_strip plt__rgctx_fetch_238
 plt__rgctx_fetch_238:
 _p_407:
@@ -35679,7 +36977,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
-.word 12392
+.word 12564
 	.no_dead_strip plt__rgctx_fetch_239
 plt__rgctx_fetch_239:
 _p_408:
@@ -35687,7 +36985,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 12433
+.word 12572
 	.no_dead_strip plt__rgctx_fetch_240
 plt__rgctx_fetch_240:
 _p_409:
@@ -35695,7 +36993,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
-.word 12457
+.word 12596
 	.no_dead_strip plt__rgctx_fetch_241
 plt__rgctx_fetch_241:
 _p_410:
@@ -35703,7 +37001,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 12499
+.word 12638
 	.no_dead_strip plt__rgctx_fetch_242
 plt__rgctx_fetch_242:
 _p_411:
@@ -35711,7 +37009,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
-.word 12509
+.word 12646
 	.no_dead_strip plt__rgctx_fetch_243
 plt__rgctx_fetch_243:
 _p_412:
@@ -35719,7 +37017,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 12544
+.word 12687
 	.no_dead_strip plt__rgctx_fetch_244
 plt__rgctx_fetch_244:
 _p_413:
@@ -35727,7 +37025,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
-.word 12552
+.word 12695
 	.no_dead_strip plt__rgctx_fetch_245
 plt__rgctx_fetch_245:
 _p_414:
@@ -35735,7 +37033,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 12587
+.word 12719
 	.no_dead_strip plt__rgctx_fetch_246
 plt__rgctx_fetch_246:
 _p_415:
@@ -35743,7 +37041,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
-.word 12595
+.word 12743
 	.no_dead_strip plt__rgctx_fetch_247
 plt__rgctx_fetch_247:
 _p_416:
@@ -35751,7 +37049,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 12619
+.word 12766
 	.no_dead_strip plt__rgctx_fetch_248
 plt__rgctx_fetch_248:
 _p_417:
@@ -35759,7 +37057,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 12661
+.word 12807
 	.no_dead_strip plt__rgctx_fetch_249
 plt__rgctx_fetch_249:
 _p_418:
@@ -35767,223 +37065,223 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 12685
-	.no_dead_strip plt_intptr_op_Explicit_intptr
-plt_intptr_op_Explicit_intptr:
+.word 12815
+	.no_dead_strip plt__rgctx_fetch_250
+plt__rgctx_fetch_250:
 _p_419:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 12709
-	.no_dead_strip plt__rgctx_fetch_250
-plt__rgctx_fetch_250:
+.word 12864
+	.no_dead_strip plt__rgctx_fetch_251
+plt__rgctx_fetch_251:
 _p_420:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 12714
-	.no_dead_strip plt__rgctx_fetch_251
-plt__rgctx_fetch_251:
+.word 12872
+	.no_dead_strip plt__rgctx_fetch_252
+plt__rgctx_fetch_252:
 _p_421:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 12745
-	.no_dead_strip plt__rgctx_fetch_252
-plt__rgctx_fetch_252:
+.word 12913
+	.no_dead_strip plt__rgctx_fetch_253
+plt__rgctx_fetch_253:
 _p_422:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 12753
-	.no_dead_strip plt__rgctx_fetch_253
-plt__rgctx_fetch_253:
+.word 12936
+	.no_dead_strip plt__rgctx_fetch_254
+plt__rgctx_fetch_254:
 _p_423:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 12761
-	.no_dead_strip plt_string_memcpy_byte__byte__int
-plt_string_memcpy_byte__byte__int:
+.word 12960
+	.no_dead_strip plt__rgctx_fetch_255
+plt__rgctx_fetch_255:
 _p_424:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 12789
-	.no_dead_strip plt__rgctx_fetch_254
-plt__rgctx_fetch_254:
+.word 12968
+	.no_dead_strip plt__rgctx_fetch_256
+plt__rgctx_fetch_256:
 _p_425:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 12812
-	.no_dead_strip plt__rgctx_fetch_255
-plt__rgctx_fetch_255:
+.word 13009
+	.no_dead_strip plt__rgctx_fetch_257
+plt__rgctx_fetch_257:
 _p_426:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 12853
-	.no_dead_strip plt__rgctx_fetch_256
-plt__rgctx_fetch_256:
+.word 13032
+	.no_dead_strip plt__rgctx_fetch_258
+plt__rgctx_fetch_258:
 _p_427:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 12877
-	.no_dead_strip plt__rgctx_fetch_257
-plt__rgctx_fetch_257:
+.word 13056
+	.no_dead_strip plt__rgctx_fetch_259
+plt__rgctx_fetch_259:
 _p_428:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 12901
-	.no_dead_strip plt__rgctx_fetch_258
-plt__rgctx_fetch_258:
+.word 13064
+	.no_dead_strip plt__rgctx_fetch_260
+plt__rgctx_fetch_260:
 _p_429:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 12932
-	.no_dead_strip plt__rgctx_fetch_259
-plt__rgctx_fetch_259:
+.word 13105
+	.no_dead_strip plt__rgctx_fetch_261
+plt__rgctx_fetch_261:
 _p_430:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #416]
 br x16
-.word 12940
-	.no_dead_strip plt__rgctx_fetch_260
-plt__rgctx_fetch_260:
+.word 13129
+	.no_dead_strip plt__rgctx_fetch_262
+plt__rgctx_fetch_262:
 _p_431:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #424]
 br x16
-.word 12948
-	.no_dead_strip plt__rgctx_fetch_261
-plt__rgctx_fetch_261:
+.word 13171
+	.no_dead_strip plt__rgctx_fetch_263
+plt__rgctx_fetch_263:
 _p_432:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #432]
 br x16
-.word 12994
-	.no_dead_strip plt__rgctx_fetch_262
-plt__rgctx_fetch_262:
+.word 13181
+	.no_dead_strip plt__rgctx_fetch_264
+plt__rgctx_fetch_264:
 _p_433:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #440]
 br x16
-.word 13035
-	.no_dead_strip plt__rgctx_fetch_263
-plt__rgctx_fetch_263:
+.word 13216
+	.no_dead_strip plt__rgctx_fetch_265
+plt__rgctx_fetch_265:
 _p_434:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #448]
 br x16
-.word 13059
-	.no_dead_strip plt__rgctx_fetch_264
-plt__rgctx_fetch_264:
+.word 13224
+	.no_dead_strip plt__rgctx_fetch_266
+plt__rgctx_fetch_266:
 _p_435:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #456]
 br x16
-.word 13083
-	.no_dead_strip plt__rgctx_fetch_265
-plt__rgctx_fetch_265:
+.word 13259
+	.no_dead_strip plt__rgctx_fetch_267
+plt__rgctx_fetch_267:
 _p_436:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #464]
 br x16
-.word 13114
-	.no_dead_strip plt__rgctx_fetch_266
-plt__rgctx_fetch_266:
+.word 13267
+	.no_dead_strip plt__rgctx_fetch_268
+plt__rgctx_fetch_268:
 _p_437:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #472]
 br x16
-.word 13122
-	.no_dead_strip plt__rgctx_fetch_267
-plt__rgctx_fetch_267:
+.word 13291
+	.no_dead_strip plt__rgctx_fetch_269
+plt__rgctx_fetch_269:
 _p_438:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #480]
 br x16
-.word 13130
-	.no_dead_strip plt__rgctx_fetch_268
-plt__rgctx_fetch_268:
+.word 13333
+	.no_dead_strip plt__rgctx_fetch_270
+plt__rgctx_fetch_270:
 _p_439:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #488]
 br x16
-.word 13183
-	.no_dead_strip plt__rgctx_fetch_269
-plt__rgctx_fetch_269:
+.word 13357
+	.no_dead_strip plt_intptr_op_Explicit_intptr
+plt_intptr_op_Explicit_intptr:
 _p_440:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #496]
 br x16
-.word 13191
-	.no_dead_strip plt__rgctx_fetch_270
-plt__rgctx_fetch_270:
+.word 13381
+	.no_dead_strip plt__rgctx_fetch_271
+plt__rgctx_fetch_271:
 _p_441:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #504]
 br x16
-.word 13214
-	.no_dead_strip plt__rgctx_fetch_271
-plt__rgctx_fetch_271:
+.word 13386
+	.no_dead_strip plt__rgctx_fetch_272
+plt__rgctx_fetch_272:
 _p_442:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #512]
 br x16
-.word 13244
-	.no_dead_strip plt__rgctx_fetch_272
-plt__rgctx_fetch_272:
+.word 13417
+	.no_dead_strip plt__rgctx_fetch_273
+plt__rgctx_fetch_273:
 _p_443:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #520]
 br x16
-.word 13254
-	.no_dead_strip plt__rgctx_fetch_273
-plt__rgctx_fetch_273:
+.word 13425
+	.no_dead_strip plt__rgctx_fetch_274
+plt__rgctx_fetch_274:
 _p_444:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #528]
 br x16
-.word 13262
-	.no_dead_strip plt__rgctx_fetch_274
-plt__rgctx_fetch_274:
+.word 13433
+	.no_dead_strip plt_string_memcpy_byte__byte__int
+plt_string_memcpy_byte__byte__int:
 _p_445:
 adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #536]
 br x16
-.word 13310
+.word 13461
 	.no_dead_strip plt__rgctx_fetch_275
 plt__rgctx_fetch_275:
 _p_446:
@@ -35991,7 +37289,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #544]
 br x16
-.word 13318
+.word 13484
 	.no_dead_strip plt__rgctx_fetch_276
 plt__rgctx_fetch_276:
 _p_447:
@@ -35999,7 +37297,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #552]
 br x16
-.word 13341
+.word 13525
 	.no_dead_strip plt__rgctx_fetch_277
 plt__rgctx_fetch_277:
 _p_448:
@@ -36007,7 +37305,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #560]
 br x16
-.word 13371
+.word 13549
 	.no_dead_strip plt__rgctx_fetch_278
 plt__rgctx_fetch_278:
 _p_449:
@@ -36015,7 +37313,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #568]
 br x16
-.word 13381
+.word 13573
 	.no_dead_strip plt__rgctx_fetch_279
 plt__rgctx_fetch_279:
 _p_450:
@@ -36023,7 +37321,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #576]
 br x16
-.word 13389
+.word 13604
 	.no_dead_strip plt__rgctx_fetch_280
 plt__rgctx_fetch_280:
 _p_451:
@@ -36031,7 +37329,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #584]
 br x16
-.word 13430
+.word 13612
 	.no_dead_strip plt__rgctx_fetch_281
 plt__rgctx_fetch_281:
 _p_452:
@@ -36039,11 +37337,179 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+4096
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #592]
 br x16
-.word 13460
+.word 13620
+	.no_dead_strip plt__rgctx_fetch_282
+plt__rgctx_fetch_282:
+_p_453:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #600]
+br x16
+.word 13666
+	.no_dead_strip plt__rgctx_fetch_283
+plt__rgctx_fetch_283:
+_p_454:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #608]
+br x16
+.word 13707
+	.no_dead_strip plt__rgctx_fetch_284
+plt__rgctx_fetch_284:
+_p_455:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #616]
+br x16
+.word 13731
+	.no_dead_strip plt__rgctx_fetch_285
+plt__rgctx_fetch_285:
+_p_456:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #624]
+br x16
+.word 13755
+	.no_dead_strip plt__rgctx_fetch_286
+plt__rgctx_fetch_286:
+_p_457:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #632]
+br x16
+.word 13786
+	.no_dead_strip plt__rgctx_fetch_287
+plt__rgctx_fetch_287:
+_p_458:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #640]
+br x16
+.word 13794
+	.no_dead_strip plt__rgctx_fetch_288
+plt__rgctx_fetch_288:
+_p_459:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #648]
+br x16
+.word 13802
+	.no_dead_strip plt__rgctx_fetch_289
+plt__rgctx_fetch_289:
+_p_460:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #656]
+br x16
+.word 13855
+	.no_dead_strip plt__rgctx_fetch_290
+plt__rgctx_fetch_290:
+_p_461:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #664]
+br x16
+.word 13863
+	.no_dead_strip plt__rgctx_fetch_291
+plt__rgctx_fetch_291:
+_p_462:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #672]
+br x16
+.word 13886
+	.no_dead_strip plt__rgctx_fetch_292
+plt__rgctx_fetch_292:
+_p_463:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #680]
+br x16
+.word 13916
+	.no_dead_strip plt__rgctx_fetch_293
+plt__rgctx_fetch_293:
+_p_464:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #688]
+br x16
+.word 13926
+	.no_dead_strip plt__rgctx_fetch_294
+plt__rgctx_fetch_294:
+_p_465:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #696]
+br x16
+.word 13934
+	.no_dead_strip plt__rgctx_fetch_295
+plt__rgctx_fetch_295:
+_p_466:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #704]
+br x16
+.word 13982
+	.no_dead_strip plt__rgctx_fetch_296
+plt__rgctx_fetch_296:
+_p_467:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #712]
+br x16
+.word 13990
+	.no_dead_strip plt__rgctx_fetch_297
+plt__rgctx_fetch_297:
+_p_468:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #720]
+br x16
+.word 14013
+	.no_dead_strip plt__rgctx_fetch_298
+plt__rgctx_fetch_298:
+_p_469:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #728]
+br x16
+.word 14043
+	.no_dead_strip plt__rgctx_fetch_299
+plt__rgctx_fetch_299:
+_p_470:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #736]
+br x16
+.word 14053
+	.no_dead_strip plt__rgctx_fetch_300
+plt__rgctx_fetch_300:
+_p_471:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #744]
+br x16
+.word 14061
+	.no_dead_strip plt__rgctx_fetch_301
+plt__rgctx_fetch_301:
+_p_472:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #752]
+br x16
+.word 14102
+	.no_dead_strip plt__rgctx_fetch_302
+plt__rgctx_fetch_302:
+_p_473:
+adrp x16, mono_aot_System_Numerics_got@PAGE+4096
+add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
+ldr x16, [x16, #760]
+br x16
+.word 14132
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_System_Numerics_got, 4696
+.lcomm mono_aot_System_Numerics_got, 4864
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -36074,7 +37540,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "C0B5C83F-7947-4DA7-9760-50F42D6CCA94"
+	.asciz "5D9C6619-4F81-40A9-A870-781098487D5D"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -36153,13 +37619,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 134,4696,453,294,66,387000831,0,59422
-	.long 128,8,8,8,0,25,66152,6720
-	.long 6520,5528,0,5888,6472,5688,0,4416
-	.long 432,6712,0,0,0,0,0,0
+	.long 134,4864,474,302,66,387000831,0,62488
+	.long 128,8,8,8,0,25,69352,6856
+	.long 6656,5648,0,6008,6608,5808,0,4472
+	.long 440,6848,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 59,51,121,79,43,157,197,168,51,250,220,15,27,238,47,193
+	.byte 26,115,138,153,18,102,149,173,79,40,207,192,229,27,189,248
 	.globl _mono_aot_module_System_Numerics_info
 	.align 3
 _mono_aot_module_System_Numerics_info:
@@ -44708,7 +46174,7 @@ Lfde128_start:
 LDIFF_SYM1176=Lme_82 - System_Numerics_NumericsHelpers_CbitHighZero_ulong
 	.long LDIFF_SYM1176
 	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde128_end:
 
@@ -47533,37 +48999,37 @@ Lfde171_end:
 
 LDIFF_SYM1570=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1570
-	.byte 1,105,3
+	.byte 1,106,3
 	.asciz "value"
 
 LDIFF_SYM1571=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1571
-	.byte 1,106,11
+	.byte 2,141,40,11
 	.asciz "length"
 
 LDIFF_SYM1572=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1572
-	.byte 1,104,11
+	.byte 1,105,11
 	.asciz "fill"
 
-LDIFF_SYM1573=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1573=LDIE_U1 - Ldebug_info_start
 	.long LDIFF_SYM1573
-	.byte 0,11
+	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1574=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1574=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1574
-	.byte 0,11
+	.byte 2,141,56,11
 	.asciz "r"
 
 LDIFF_SYM1575=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1575
-	.byte 1,103,11
+	.byte 1,104,11
 	.asciz "i"
 
 LDIFF_SYM1576=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1576
-	.byte 1,105,0
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -47578,7 +49044,7 @@ Lfde172_start:
 LDIFF_SYM1578=Lme_b1 - System_Span_1_T_CHAR_Fill_T_CHAR
 	.long LDIFF_SYM1578
 	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,153,12,154,11
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14,153,13,68,154,12
 	.align 3
 Lfde172_end:
 
@@ -47841,17 +49307,17 @@ LDIFF_SYM1604=LDIE_I - Ldebug_info_start
 
 LDIFF_SYM1605=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1605
-	.byte 2,141,40,11
+	.byte 2,141,56,11
 	.asciz "newOffset"
 
 LDIFF_SYM1606=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1606
-	.byte 1,104,11
+	.byte 1,103,11
 	.asciz "length"
 
 LDIFF_SYM1607=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1607
-	.byte 1,104,0
+	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -47866,7 +49332,7 @@ Lfde179_start:
 LDIFF_SYM1609=Lme_b8 - System_Span_1_T_CHAR_Slice_int
 	.long LDIFF_SYM1609
 	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,152,20,153,19
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15
 	.align 3
 Lfde179_end:
 
@@ -47895,12 +49361,12 @@ LDIFF_SYM1611=LDIE_I4 - Ldebug_info_start
 
 LDIFF_SYM1612=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1612
-	.byte 2,141,40,11
+	.byte 2,141,56,11
 	.asciz "newOffset"
 
 LDIFF_SYM1613=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1613
-	.byte 1,105,0
+	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -47915,7 +49381,7 @@ Lfde180_start:
 LDIFF_SYM1615=Lme_b9 - System_Span_1_T_CHAR_Slice_int_int
 	.long LDIFF_SYM1615
 	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,152,20,153,19
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15
 	.align 3
 Lfde180_end:
 
@@ -48155,12 +49621,12 @@ LDIFF_SYM1643=LDIE_SZARRAY - Ldebug_info_start
 
 LDIFF_SYM1644=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1644
-	.byte 2,141,32,3
+	.byte 1,105,3
 	.asciz "length"
 
 LDIFF_SYM1645=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1645
-	.byte 2,141,40,0
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -48175,7 +49641,7 @@ Lfde185_start:
 LDIFF_SYM1647=Lme_be - System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR___int_int
 	.long LDIFF_SYM1647
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,151,8,152,7,68,153,6,154,5
 	.align 3
 Lfde185_end:
 
@@ -48309,11 +49775,11 @@ Lfde188_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.ReadOnlySpan`1<T_CHAR>:get_Item"
-	.asciz "System_ReadOnlySpan_1_T_CHAR_get_Item_int"
+	.asciz "System.ReadOnlySpan`1<T_CHAR>:get_IsEmpty"
+	.asciz "System_ReadOnlySpan_1_T_CHAR_get_IsEmpty"
 
-	.byte 17,155,1
-	.quad System_ReadOnlySpan_1_T_CHAR_get_Item_int
+	.byte 17,140,1
+	.quad System_ReadOnlySpan_1_T_CHAR_get_IsEmpty
 	.quad Lme_c2
 
 	.byte 2,118,16,3
@@ -48321,34 +49787,107 @@ Lfde188_end:
 
 LDIFF_SYM1662=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1662
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1663=Lfde189_end - Lfde189_start
+	.long LDIFF_SYM1663
+Lfde189_start:
+
+	.long 0
+	.align 3
+	.quad System_ReadOnlySpan_1_T_CHAR_get_IsEmpty
+
+LDIFF_SYM1664=Lme_c2 - System_ReadOnlySpan_1_T_CHAR_get_IsEmpty
+	.long LDIFF_SYM1664
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde189_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.ReadOnlySpan`1<T_CHAR>:get_Item"
+	.asciz "System_ReadOnlySpan_1_T_CHAR_get_Item_int"
+
+	.byte 17,155,1
+	.quad System_ReadOnlySpan_1_T_CHAR_get_Item_int
+	.quad Lme_c3
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1665=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1665
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM1663=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1663
+LDIFF_SYM1666=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1666
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1664=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1664
+LDIFF_SYM1667=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1667
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1665=Lfde189_end - Lfde189_start
-	.long LDIFF_SYM1665
-Lfde189_start:
+LDIFF_SYM1668=Lfde190_end - Lfde190_start
+	.long LDIFF_SYM1668
+Lfde190_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_CHAR_get_Item_int
 
-LDIFF_SYM1666=Lme_c2 - System_ReadOnlySpan_1_T_CHAR_get_Item_int
-	.long LDIFF_SYM1666
+LDIFF_SYM1669=Lme_c3 - System_ReadOnlySpan_1_T_CHAR_get_Item_int
+	.long LDIFF_SYM1669
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde189_end:
+Lfde190_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.ReadOnlySpan`1<T_CHAR>:CopyTo"
+	.asciz "System_ReadOnlySpan_1_T_CHAR_CopyTo_System_Span_1_T_CHAR"
+
+	.byte 17,177,1
+	.quad System_ReadOnlySpan_1_T_CHAR_CopyTo_System_Span_1_T_CHAR
+	.quad Lme_c4
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1670=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1670
+	.byte 2,141,16,3
+	.asciz "destination"
+
+LDIFF_SYM1671=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1671
+	.byte 1,80,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1672=Lfde191_end - Lfde191_start
+	.long LDIFF_SYM1672
+Lfde191_start:
+
+	.long 0
+	.align 3
+	.quad System_ReadOnlySpan_1_T_CHAR_CopyTo_System_Span_1_T_CHAR
+
+LDIFF_SYM1673=Lme_c4 - System_ReadOnlySpan_1_T_CHAR_CopyTo_System_Span_1_T_CHAR
+	.long LDIFF_SYM1673
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde191_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48358,107 +49897,34 @@ Lfde189_end:
 
 	.byte 17,192,1
 	.quad System_ReadOnlySpan_1_T_CHAR_TryCopyTo_System_Span_1_T_CHAR
-	.quad Lme_c3
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1667=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1667
-	.byte 1,106,3
-	.asciz "destination"
-
-LDIFF_SYM1668=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1668
-	.byte 1,80,11
-	.asciz "length"
-
-LDIFF_SYM1669=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1669
-	.byte 1,105,11
-	.asciz "destLength"
-
-LDIFF_SYM1670=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1670
-	.byte 1,104,11
-	.asciz "src"
-
-LDIFF_SYM1671=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1671
-	.byte 1,103,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1672=Lfde190_end - Lfde190_start
-	.long LDIFF_SYM1672
-Lfde190_start:
-
-	.long 0
-	.align 3
-	.quad System_ReadOnlySpan_1_T_CHAR_TryCopyTo_System_Span_1_T_CHAR
-
-LDIFF_SYM1673=Lme_c3 - System_ReadOnlySpan_1_T_CHAR_TryCopyTo_System_Span_1_T_CHAR
-	.long LDIFF_SYM1673
-	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
-	.align 3
-Lfde190_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.ReadOnlySpan`1<T_CHAR>:Equals"
-	.asciz "System_ReadOnlySpan_1_T_CHAR_Equals_object"
-
-	.byte 17,234,1
-	.quad System_ReadOnlySpan_1_T_CHAR_Equals_object
-	.quad Lme_c4
+	.quad Lme_c5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
 LDIFF_SYM1674=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1674
-	.byte 2,141,16,3
-	.asciz "obj"
+	.byte 1,106,3
+	.asciz "destination"
 
 LDIFF_SYM1675=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1675
-	.byte 0,0
+	.byte 1,80,11
+	.asciz "length"
 
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1676=Lfde191_end - Lfde191_start
+LDIFF_SYM1676=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1676
-Lfde191_start:
+	.byte 1,105,11
+	.asciz "destLength"
 
-	.long 0
-	.align 3
-	.quad System_ReadOnlySpan_1_T_CHAR_Equals_object
-
-LDIFF_SYM1677=Lme_c4 - System_ReadOnlySpan_1_T_CHAR_Equals_object
+LDIFF_SYM1677=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1677
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde191_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.ReadOnlySpan`1<T_CHAR>:GetHashCode"
-	.asciz "System_ReadOnlySpan_1_T_CHAR_GetHashCode"
-
-	.byte 17,249,1
-	.quad System_ReadOnlySpan_1_T_CHAR_GetHashCode
-	.quad Lme_c5
-
-	.byte 2,118,16,3
-	.asciz "this"
+	.byte 1,104,11
+	.asciz "src"
 
 LDIFF_SYM1678=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1678
-	.byte 2,141,16,0
+	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -48468,14 +49934,126 @@ Lfde192_start:
 
 	.long 0
 	.align 3
+	.quad System_ReadOnlySpan_1_T_CHAR_TryCopyTo_System_Span_1_T_CHAR
+
+LDIFF_SYM1680=Lme_c5 - System_ReadOnlySpan_1_T_CHAR_TryCopyTo_System_Span_1_T_CHAR
+	.long LDIFF_SYM1680
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
+	.align 3
+Lfde192_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.ReadOnlySpan`1<T_CHAR>:Equals"
+	.asciz "System_ReadOnlySpan_1_T_CHAR_Equals_object"
+
+	.byte 17,234,1
+	.quad System_ReadOnlySpan_1_T_CHAR_Equals_object
+	.quad Lme_c6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1681=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1681
+	.byte 2,141,16,3
+	.asciz "obj"
+
+LDIFF_SYM1682=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1682
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1683=Lfde193_end - Lfde193_start
+	.long LDIFF_SYM1683
+Lfde193_start:
+
+	.long 0
+	.align 3
+	.quad System_ReadOnlySpan_1_T_CHAR_Equals_object
+
+LDIFF_SYM1684=Lme_c6 - System_ReadOnlySpan_1_T_CHAR_Equals_object
+	.long LDIFF_SYM1684
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde193_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.ReadOnlySpan`1<T_CHAR>:GetHashCode"
+	.asciz "System_ReadOnlySpan_1_T_CHAR_GetHashCode"
+
+	.byte 17,249,1
+	.quad System_ReadOnlySpan_1_T_CHAR_GetHashCode
+	.quad Lme_c7
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1685=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1685
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1686=Lfde194_end - Lfde194_start
+	.long LDIFF_SYM1686
+Lfde194_start:
+
+	.long 0
+	.align 3
 	.quad System_ReadOnlySpan_1_T_CHAR_GetHashCode
 
-LDIFF_SYM1680=Lme_c5 - System_ReadOnlySpan_1_T_CHAR_GetHashCode
-	.long LDIFF_SYM1680
+LDIFF_SYM1687=Lme_c7 - System_ReadOnlySpan_1_T_CHAR_GetHashCode
+	.long LDIFF_SYM1687
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde192_end:
+Lfde194_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.ReadOnlySpan`1<T_CHAR>:op_Implicit"
+	.asciz "System_ReadOnlySpan_1_T_CHAR_op_Implicit_T_CHAR__"
+
+	.byte 17,255,1
+	.quad System_ReadOnlySpan_1_T_CHAR_op_Implicit_T_CHAR__
+	.quad Lme_c8
+
+	.byte 2,118,16,3
+	.asciz "array"
+
+LDIFF_SYM1688=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1688
+	.byte 2,141,24,11
+	.asciz "V_0"
+
+LDIFF_SYM1689=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1689
+	.byte 3,141,240,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1690=Lfde195_end - Lfde195_start
+	.long LDIFF_SYM1690
+Lfde195_start:
+
+	.long 0
+	.align 3
+	.quad System_ReadOnlySpan_1_T_CHAR_op_Implicit_T_CHAR__
+
+LDIFF_SYM1691=Lme_c8 - System_ReadOnlySpan_1_T_CHAR_op_Implicit_T_CHAR__
+	.long LDIFF_SYM1691
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
+	.align 3
+Lfde195_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48485,46 +50063,95 @@ Lfde192_end:
 
 	.byte 17,145,2
 	.quad System_ReadOnlySpan_1_T_CHAR_Slice_int
-	.quad Lme_c6
+	.quad Lme_c9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1681=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1681
+LDIFF_SYM1692=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1692
 	.byte 1,105,3
 	.asciz "start"
 
-LDIFF_SYM1682=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1682
-	.byte 2,141,40,11
+LDIFF_SYM1693=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1693
+	.byte 2,141,56,11
 	.asciz "newOffset"
 
-LDIFF_SYM1683=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1683
-	.byte 1,104,11
+LDIFF_SYM1694=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1694
+	.byte 1,103,11
 	.asciz "length"
 
-LDIFF_SYM1684=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1684
-	.byte 1,104,0
+LDIFF_SYM1695=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1695
+	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1685=Lfde193_end - Lfde193_start
-	.long LDIFF_SYM1685
-Lfde193_start:
+LDIFF_SYM1696=Lfde196_end - Lfde196_start
+	.long LDIFF_SYM1696
+Lfde196_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_CHAR_Slice_int
 
-LDIFF_SYM1686=Lme_c6 - System_ReadOnlySpan_1_T_CHAR_Slice_int
-	.long LDIFF_SYM1686
+LDIFF_SYM1697=Lme_c9 - System_ReadOnlySpan_1_T_CHAR_Slice_int
+	.long LDIFF_SYM1697
 	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,152,20,153,19
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15
 	.align 3
-Lfde193_end:
+Lfde196_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.ReadOnlySpan`1<T_CHAR>:Slice"
+	.asciz "System_ReadOnlySpan_1_T_CHAR_Slice_int_int"
+
+	.byte 17,164,2
+	.quad System_ReadOnlySpan_1_T_CHAR_Slice_int_int
+	.quad Lme_ca
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1698=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1698
+	.byte 1,104,3
+	.asciz "start"
+
+LDIFF_SYM1699=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1699
+	.byte 1,105,3
+	.asciz "length"
+
+LDIFF_SYM1700=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1700
+	.byte 2,141,56,11
+	.asciz "newOffset"
+
+LDIFF_SYM1701=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1701
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1702=Lfde197_end - Lfde197_start
+	.long LDIFF_SYM1702
+Lfde197_start:
+
+	.long 0
+	.align 3
+	.quad System_ReadOnlySpan_1_T_CHAR_Slice_int_int
+
+LDIFF_SYM1703=Lme_ca - System_ReadOnlySpan_1_T_CHAR_Slice_int_int
+	.long LDIFF_SYM1703
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15
+	.align 3
+Lfde197_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48534,36 +50161,36 @@ Lfde193_end:
 
 	.byte 17,202,2
 	.quad System_ReadOnlySpan_1_T_CHAR_DangerousGetPinnableReference
-	.quad Lme_c7
+	.quad Lme_cb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1687=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1687
+LDIFF_SYM1704=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1704
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1688=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1688
+LDIFF_SYM1705=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1705
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1689=Lfde194_end - Lfde194_start
-	.long LDIFF_SYM1689
-Lfde194_start:
+LDIFF_SYM1706=Lfde198_end - Lfde198_start
+	.long LDIFF_SYM1706
+Lfde198_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_CHAR_DangerousGetPinnableReference
 
-LDIFF_SYM1690=Lme_c7 - System_ReadOnlySpan_1_T_CHAR_DangerousGetPinnableReference
-	.long LDIFF_SYM1690
+LDIFF_SYM1707=Lme_cb - System_ReadOnlySpan_1_T_CHAR_DangerousGetPinnableReference
+	.long LDIFF_SYM1707
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde194_end:
+Lfde198_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48573,31 +50200,31 @@ Lfde194_end:
 
 	.byte 17,136,3
 	.quad System_ReadOnlySpan_1_T_CHAR_get_Pinnable
-	.quad Lme_c8
+	.quad Lme_cc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1691=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1691
+LDIFF_SYM1708=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1708
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1692=Lfde195_end - Lfde195_start
-	.long LDIFF_SYM1692
-Lfde195_start:
+LDIFF_SYM1709=Lfde199_end - Lfde199_start
+	.long LDIFF_SYM1709
+Lfde199_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_CHAR_get_Pinnable
 
-LDIFF_SYM1693=Lme_c8 - System_ReadOnlySpan_1_T_CHAR_get_Pinnable
-	.long LDIFF_SYM1693
+LDIFF_SYM1710=Lme_cc - System_ReadOnlySpan_1_T_CHAR_get_Pinnable
+	.long LDIFF_SYM1710
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde195_end:
+Lfde199_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48607,31 +50234,31 @@ Lfde195_end:
 
 	.byte 17,137,3
 	.quad System_ReadOnlySpan_1_T_CHAR_get_ByteOffset
-	.quad Lme_c9
+	.quad Lme_cd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1694=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1694
+LDIFF_SYM1711=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1711
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1695=Lfde196_end - Lfde196_start
-	.long LDIFF_SYM1695
-Lfde196_start:
+LDIFF_SYM1712=Lfde200_end - Lfde200_start
+	.long LDIFF_SYM1712
+Lfde200_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_CHAR_get_ByteOffset
 
-LDIFF_SYM1696=Lme_c9 - System_ReadOnlySpan_1_T_CHAR_get_ByteOffset
-	.long LDIFF_SYM1696
+LDIFF_SYM1713=Lme_cd - System_ReadOnlySpan_1_T_CHAR_get_ByteOffset
+	.long LDIFF_SYM1713
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde196_end:
+Lfde200_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48641,26 +50268,26 @@ Lfde196_end:
 
 	.byte 2,45
 	.quad System_Buffers_ArrayPool_1_T_CHAR_get_Shared
-	.quad Lme_ca
+	.quad Lme_ce
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1697=Lfde197_end - Lfde197_start
-	.long LDIFF_SYM1697
-Lfde197_start:
+LDIFF_SYM1714=Lfde201_end - Lfde201_start
+	.long LDIFF_SYM1714
+Lfde201_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_ArrayPool_1_T_CHAR_get_Shared
 
-LDIFF_SYM1698=Lme_ca - System_Buffers_ArrayPool_1_T_CHAR_get_Shared
-	.long LDIFF_SYM1698
+LDIFF_SYM1715=Lme_ce - System_Buffers_ArrayPool_1_T_CHAR_get_Shared
+	.long LDIFF_SYM1715
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde197_end:
+Lfde201_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48670,26 +50297,26 @@ Lfde197_end:
 
 	.byte 2,52
 	.quad System_Buffers_ArrayPool_1_T_CHAR_EnsureSharedCreated
-	.quad Lme_cb
+	.quad Lme_cf
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1699=Lfde198_end - Lfde198_start
-	.long LDIFF_SYM1699
-Lfde198_start:
+LDIFF_SYM1716=Lfde202_end - Lfde202_start
+	.long LDIFF_SYM1716
+Lfde202_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_ArrayPool_1_T_CHAR_EnsureSharedCreated
 
-LDIFF_SYM1700=Lme_cb - System_Buffers_ArrayPool_1_T_CHAR_EnsureSharedCreated
-	.long LDIFF_SYM1700
+LDIFF_SYM1717=Lme_cf - System_Buffers_ArrayPool_1_T_CHAR_EnsureSharedCreated
+	.long LDIFF_SYM1717
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde198_end:
+Lfde202_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48699,26 +50326,26 @@ Lfde198_end:
 
 	.byte 2,62
 	.quad System_Buffers_ArrayPool_1_T_CHAR_Create
-	.quad Lme_cc
+	.quad Lme_d0
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1701=Lfde199_end - Lfde199_start
-	.long LDIFF_SYM1701
-Lfde199_start:
+LDIFF_SYM1718=Lfde203_end - Lfde203_start
+	.long LDIFF_SYM1718
+Lfde203_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_ArrayPool_1_T_CHAR_Create
 
-LDIFF_SYM1702=Lme_cc - System_Buffers_ArrayPool_1_T_CHAR_Create
-	.long LDIFF_SYM1702
+LDIFF_SYM1719=Lme_d0 - System_Buffers_ArrayPool_1_T_CHAR_Create
+	.long LDIFF_SYM1719
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde199_end:
+Lfde203_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_64:
@@ -48727,54 +50354,54 @@ LTDIE_64:
 	.asciz "System_Buffers_ArrayPool`1"
 
 	.byte 16,16
-LDIFF_SYM1703=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM1703
+LDIFF_SYM1720=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM1720
 	.byte 2,35,0,0,7
 	.asciz "System_Buffers_ArrayPool`1"
 
-LDIFF_SYM1704=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM1704
+LDIFF_SYM1721=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM1721
 LTDIE_64_POINTER:
 
 	.byte 13
-LDIFF_SYM1705=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM1705
+LDIFF_SYM1722=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM1722
 LTDIE_64_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1706=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM1706
+LDIFF_SYM1723=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM1723
 	.byte 2
 	.asciz "System.Buffers.ArrayPool`1<T_CHAR>:.ctor"
 	.asciz "System_Buffers_ArrayPool_1_T_CHAR__ctor"
 
 	.byte 0,0
 	.quad System_Buffers_ArrayPool_1_T_CHAR__ctor
-	.quad Lme_cf
+	.quad Lme_d3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1707=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1707
+LDIFF_SYM1724=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1724
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1708=Lfde200_end - Lfde200_start
-	.long LDIFF_SYM1708
-Lfde200_start:
+LDIFF_SYM1725=Lfde204_end - Lfde204_start
+	.long LDIFF_SYM1725
+Lfde204_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_ArrayPool_1_T_CHAR__ctor
 
-LDIFF_SYM1709=Lme_cf - System_Buffers_ArrayPool_1_T_CHAR__ctor
-	.long LDIFF_SYM1709
+LDIFF_SYM1726=Lme_d3 - System_Buffers_ArrayPool_1_T_CHAR__ctor
+	.long LDIFF_SYM1726
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde200_end:
+Lfde204_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48784,26 +50411,26 @@ Lfde200_end:
 
 	.byte 0,0
 	.quad System_Buffers_ArrayPool_1_T_CHAR__cctor
-	.quad Lme_d0
+	.quad Lme_d4
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1710=Lfde201_end - Lfde201_start
-	.long LDIFF_SYM1710
-Lfde201_start:
+LDIFF_SYM1727=Lfde205_end - Lfde205_start
+	.long LDIFF_SYM1727
+Lfde205_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_ArrayPool_1_T_CHAR__cctor
 
-LDIFF_SYM1711=Lme_d0 - System_Buffers_ArrayPool_1_T_CHAR__cctor
-	.long LDIFF_SYM1711
+LDIFF_SYM1728=Lme_d4 - System_Buffers_ArrayPool_1_T_CHAR__cctor
+	.long LDIFF_SYM1728
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde201_end:
+Lfde205_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_66:
@@ -48812,102 +50439,102 @@ LTDIE_66:
 	.asciz "System_Pinnable`1"
 
 	.byte 17,16
-LDIFF_SYM1712=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM1712
+LDIFF_SYM1729=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM1729
 	.byte 2,35,0,6
 	.asciz "Data"
 
-LDIFF_SYM1713=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1713
+LDIFF_SYM1730=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1730
 	.byte 2,35,16,0,7
 	.asciz "System_Pinnable`1"
 
-LDIFF_SYM1714=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM1714
+LDIFF_SYM1731=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM1731
 LTDIE_66_POINTER:
 
 	.byte 13
-LDIFF_SYM1715=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM1715
+LDIFF_SYM1732=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM1732
 LTDIE_66_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1716=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM1716
+LDIFF_SYM1733=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM1733
 LTDIE_65:
 
 	.byte 5
 	.asciz "System_ReadOnlySpan`1"
 
 	.byte 40,16
-LDIFF_SYM1717=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1717
+LDIFF_SYM1734=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1734
 	.byte 2,35,0,6
 	.asciz "_pinnable"
 
-LDIFF_SYM1718=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1718
+LDIFF_SYM1735=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1735
 	.byte 2,35,16,6
 	.asciz "_byteOffset"
 
-LDIFF_SYM1719=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1719
+LDIFF_SYM1736=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1736
 	.byte 2,35,24,6
 	.asciz "_length"
 
-LDIFF_SYM1720=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1720
+LDIFF_SYM1737=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1737
 	.byte 2,35,32,0,7
 	.asciz "System_ReadOnlySpan`1"
 
-LDIFF_SYM1721=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM1721
+LDIFF_SYM1738=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM1738
 LTDIE_65_POINTER:
 
 	.byte 13
-LDIFF_SYM1722=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM1722
+LDIFF_SYM1739=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM1739
 LTDIE_65_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1723=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM1723
+LDIFF_SYM1740=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM1740
 	.byte 2
 	.asciz "System.ReadOnlySpan`1<T_BYTE>:.ctor"
 	.asciz "System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE__"
 
 	.byte 17,37
 	.quad System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE__
-	.quad Lme_d3
+	.quad Lme_d7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1724=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1724
+LDIFF_SYM1741=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1741
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM1725=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1725
+LDIFF_SYM1742=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1742
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1726=Lfde202_end - Lfde202_start
-	.long LDIFF_SYM1726
-Lfde202_start:
+LDIFF_SYM1743=Lfde206_end - Lfde206_start
+	.long LDIFF_SYM1743
+Lfde206_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE__
 
-LDIFF_SYM1727=Lme_d3 - System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE__
-	.long LDIFF_SYM1727
+LDIFF_SYM1744=Lme_d7 - System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE__
+	.long LDIFF_SYM1744
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4,154,3
 	.align 3
-Lfde202_end:
+Lfde206_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48917,46 +50544,46 @@ Lfde202_end:
 
 	.byte 17,61
 	.quad System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE___int_int
-	.quad Lme_d4
+	.quad Lme_d8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1728=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1728
+LDIFF_SYM1745=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1745
 	.byte 1,103,3
 	.asciz "array"
 
-LDIFF_SYM1729=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1729
+LDIFF_SYM1746=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1746
 	.byte 1,104,3
 	.asciz "start"
 
-LDIFF_SYM1730=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1730
-	.byte 2,141,32,3
+LDIFF_SYM1747=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1747
+	.byte 1,105,3
 	.asciz "length"
 
-LDIFF_SYM1731=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1731
-	.byte 2,141,40,0
+LDIFF_SYM1748=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1748
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1732=Lfde203_end - Lfde203_start
-	.long LDIFF_SYM1732
-Lfde203_start:
+LDIFF_SYM1749=Lfde207_end - Lfde207_start
+	.long LDIFF_SYM1749
+Lfde207_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE___int_int
 
-LDIFF_SYM1733=Lme_d4 - System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE___int_int
-	.long LDIFF_SYM1733
+LDIFF_SYM1750=Lme_d8 - System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE___int_int
+	.long LDIFF_SYM1750
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,151,8,152,7,68,153,6,154,5
 	.align 3
-Lfde203_end:
+Lfde207_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48966,41 +50593,41 @@ Lfde203_end:
 
 	.byte 17,88
 	.quad System_ReadOnlySpan_1_T_BYTE__ctor_void__int
-	.quad Lme_d5
+	.quad Lme_d9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1734=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1734
+LDIFF_SYM1751=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1751
 	.byte 2,141,16,3
 	.asciz "pointer"
 
-LDIFF_SYM1735=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1735
+LDIFF_SYM1752=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1752
 	.byte 2,141,24,3
 	.asciz "length"
 
-LDIFF_SYM1736=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1736
+LDIFF_SYM1753=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1753
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1737=Lfde204_end - Lfde204_start
-	.long LDIFF_SYM1737
-Lfde204_start:
+LDIFF_SYM1754=Lfde208_end - Lfde208_start
+	.long LDIFF_SYM1754
+Lfde208_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_BYTE__ctor_void__int
 
-LDIFF_SYM1738=Lme_d5 - System_ReadOnlySpan_1_T_BYTE__ctor_void__int
-	.long LDIFF_SYM1738
+LDIFF_SYM1755=Lme_d9 - System_ReadOnlySpan_1_T_BYTE__ctor_void__int
+	.long LDIFF_SYM1755
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde204_end:
+Lfde208_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49010,46 +50637,46 @@ Lfde204_end:
 
 	.byte 17,124
 	.quad System_ReadOnlySpan_1_T_BYTE__ctor_System_Pinnable_1_T_BYTE_intptr_int
-	.quad Lme_d6
+	.quad Lme_da
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1739=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1739
+LDIFF_SYM1756=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1756
 	.byte 1,103,3
 	.asciz "pinnable"
 
-LDIFF_SYM1740=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1740
+LDIFF_SYM1757=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1757
 	.byte 2,141,24,3
 	.asciz "byteOffset"
 
-LDIFF_SYM1741=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1741
+LDIFF_SYM1758=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1758
 	.byte 2,141,32,3
 	.asciz "length"
 
-LDIFF_SYM1742=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1742
+LDIFF_SYM1759=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1759
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1743=Lfde205_end - Lfde205_start
-	.long LDIFF_SYM1743
-Lfde205_start:
+LDIFF_SYM1760=Lfde209_end - Lfde209_start
+	.long LDIFF_SYM1760
+Lfde209_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_BYTE__ctor_System_Pinnable_1_T_BYTE_intptr_int
 
-LDIFF_SYM1744=Lme_d6 - System_ReadOnlySpan_1_T_BYTE__ctor_System_Pinnable_1_T_BYTE_intptr_int
-	.long LDIFF_SYM1744
+LDIFF_SYM1761=Lme_da - System_ReadOnlySpan_1_T_BYTE__ctor_System_Pinnable_1_T_BYTE_intptr_int
+	.long LDIFF_SYM1761
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6
 	.align 3
-Lfde205_end:
+Lfde209_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49059,31 +50686,65 @@ Lfde205_end:
 
 	.byte 17,135,1
 	.quad System_ReadOnlySpan_1_T_BYTE_get_Length
-	.quad Lme_d7
+	.quad Lme_db
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1745=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1745
+LDIFF_SYM1762=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1762
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1746=Lfde206_end - Lfde206_start
-	.long LDIFF_SYM1746
-Lfde206_start:
+LDIFF_SYM1763=Lfde210_end - Lfde210_start
+	.long LDIFF_SYM1763
+Lfde210_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_BYTE_get_Length
 
-LDIFF_SYM1747=Lme_d7 - System_ReadOnlySpan_1_T_BYTE_get_Length
-	.long LDIFF_SYM1747
+LDIFF_SYM1764=Lme_db - System_ReadOnlySpan_1_T_BYTE_get_Length
+	.long LDIFF_SYM1764
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde206_end:
+Lfde210_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.ReadOnlySpan`1<T_BYTE>:get_IsEmpty"
+	.asciz "System_ReadOnlySpan_1_T_BYTE_get_IsEmpty"
+
+	.byte 17,140,1
+	.quad System_ReadOnlySpan_1_T_BYTE_get_IsEmpty
+	.quad Lme_dc
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1765=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1765
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1766=Lfde211_end - Lfde211_start
+	.long LDIFF_SYM1766
+Lfde211_start:
+
+	.long 0
+	.align 3
+	.quad System_ReadOnlySpan_1_T_BYTE_get_IsEmpty
+
+LDIFF_SYM1767=Lme_dc - System_ReadOnlySpan_1_T_BYTE_get_IsEmpty
+	.long LDIFF_SYM1767
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde211_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49093,41 +50754,80 @@ Lfde206_end:
 
 	.byte 17,155,1
 	.quad System_ReadOnlySpan_1_T_BYTE_get_Item_int
-	.quad Lme_d8
+	.quad Lme_dd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1748=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1748
+LDIFF_SYM1768=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1768
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM1749=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1749
+LDIFF_SYM1769=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1769
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1750=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1750
+LDIFF_SYM1770=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1770
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1751=Lfde207_end - Lfde207_start
-	.long LDIFF_SYM1751
-Lfde207_start:
+LDIFF_SYM1771=Lfde212_end - Lfde212_start
+	.long LDIFF_SYM1771
+Lfde212_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_BYTE_get_Item_int
 
-LDIFF_SYM1752=Lme_d8 - System_ReadOnlySpan_1_T_BYTE_get_Item_int
-	.long LDIFF_SYM1752
+LDIFF_SYM1772=Lme_dd - System_ReadOnlySpan_1_T_BYTE_get_Item_int
+	.long LDIFF_SYM1772
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde207_end:
+Lfde212_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.ReadOnlySpan`1<T_BYTE>:CopyTo"
+	.asciz "System_ReadOnlySpan_1_T_BYTE_CopyTo_System_Span_1_T_BYTE"
+
+	.byte 17,177,1
+	.quad System_ReadOnlySpan_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
+	.quad Lme_de
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1773=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1773
+	.byte 2,141,16,3
+	.asciz "destination"
+
+LDIFF_SYM1774=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1774
+	.byte 1,80,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1775=Lfde213_end - Lfde213_start
+	.long LDIFF_SYM1775
+Lfde213_start:
+
+	.long 0
+	.align 3
+	.quad System_ReadOnlySpan_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
+
+LDIFF_SYM1776=Lme_de - System_ReadOnlySpan_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
+	.long LDIFF_SYM1776
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde213_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49137,51 +50837,51 @@ Lfde207_end:
 
 	.byte 17,192,1
 	.quad System_ReadOnlySpan_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
-	.quad Lme_d9
+	.quad Lme_df
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1753=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1753
+LDIFF_SYM1777=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1777
 	.byte 1,106,3
 	.asciz "destination"
 
-LDIFF_SYM1754=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1754
+LDIFF_SYM1778=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1778
 	.byte 1,80,11
 	.asciz "length"
 
-LDIFF_SYM1755=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1755
+LDIFF_SYM1779=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1779
 	.byte 1,105,11
 	.asciz "destLength"
 
-LDIFF_SYM1756=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1756
+LDIFF_SYM1780=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1780
 	.byte 1,104,11
 	.asciz "src"
 
-LDIFF_SYM1757=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1757
+LDIFF_SYM1781=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1781
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1758=Lfde208_end - Lfde208_start
-	.long LDIFF_SYM1758
-Lfde208_start:
+LDIFF_SYM1782=Lfde214_end - Lfde214_start
+	.long LDIFF_SYM1782
+Lfde214_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
 
-LDIFF_SYM1759=Lme_d9 - System_ReadOnlySpan_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
-	.long LDIFF_SYM1759
+LDIFF_SYM1783=Lme_df - System_ReadOnlySpan_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
+	.long LDIFF_SYM1783
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
-Lfde208_end:
+Lfde214_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49191,36 +50891,36 @@ Lfde208_end:
 
 	.byte 17,234,1
 	.quad System_ReadOnlySpan_1_T_BYTE_Equals_object
-	.quad Lme_da
+	.quad Lme_e0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1760=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1760
+LDIFF_SYM1784=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1784
 	.byte 2,141,16,3
 	.asciz "obj"
 
-LDIFF_SYM1761=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1761
+LDIFF_SYM1785=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1785
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1762=Lfde209_end - Lfde209_start
-	.long LDIFF_SYM1762
-Lfde209_start:
+LDIFF_SYM1786=Lfde215_end - Lfde215_start
+	.long LDIFF_SYM1786
+Lfde215_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_BYTE_Equals_object
 
-LDIFF_SYM1763=Lme_da - System_ReadOnlySpan_1_T_BYTE_Equals_object
-	.long LDIFF_SYM1763
+LDIFF_SYM1787=Lme_e0 - System_ReadOnlySpan_1_T_BYTE_Equals_object
+	.long LDIFF_SYM1787
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde209_end:
+Lfde215_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49230,31 +50930,70 @@ Lfde209_end:
 
 	.byte 17,249,1
 	.quad System_ReadOnlySpan_1_T_BYTE_GetHashCode
-	.quad Lme_db
+	.quad Lme_e1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1764=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1764
+LDIFF_SYM1788=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1788
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1765=Lfde210_end - Lfde210_start
-	.long LDIFF_SYM1765
-Lfde210_start:
+LDIFF_SYM1789=Lfde216_end - Lfde216_start
+	.long LDIFF_SYM1789
+Lfde216_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_BYTE_GetHashCode
 
-LDIFF_SYM1766=Lme_db - System_ReadOnlySpan_1_T_BYTE_GetHashCode
-	.long LDIFF_SYM1766
+LDIFF_SYM1790=Lme_e1 - System_ReadOnlySpan_1_T_BYTE_GetHashCode
+	.long LDIFF_SYM1790
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde210_end:
+Lfde216_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.ReadOnlySpan`1<T_BYTE>:op_Implicit"
+	.asciz "System_ReadOnlySpan_1_T_BYTE_op_Implicit_T_BYTE__"
+
+	.byte 17,255,1
+	.quad System_ReadOnlySpan_1_T_BYTE_op_Implicit_T_BYTE__
+	.quad Lme_e2
+
+	.byte 2,118,16,3
+	.asciz "array"
+
+LDIFF_SYM1791=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1791
+	.byte 2,141,24,11
+	.asciz "V_0"
+
+LDIFF_SYM1792=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1792
+	.byte 3,141,240,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1793=Lfde217_end - Lfde217_start
+	.long LDIFF_SYM1793
+Lfde217_start:
+
+	.long 0
+	.align 3
+	.quad System_ReadOnlySpan_1_T_BYTE_op_Implicit_T_BYTE__
+
+LDIFF_SYM1794=Lme_e2 - System_ReadOnlySpan_1_T_BYTE_op_Implicit_T_BYTE__
+	.long LDIFF_SYM1794
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
+	.align 3
+Lfde217_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49264,46 +51003,95 @@ Lfde210_end:
 
 	.byte 17,145,2
 	.quad System_ReadOnlySpan_1_T_BYTE_Slice_int
-	.quad Lme_dc
+	.quad Lme_e3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1767=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1767
+LDIFF_SYM1795=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1795
 	.byte 1,105,3
 	.asciz "start"
 
-LDIFF_SYM1768=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1768
-	.byte 2,141,40,11
+LDIFF_SYM1796=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1796
+	.byte 2,141,56,11
 	.asciz "newOffset"
 
-LDIFF_SYM1769=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1769
-	.byte 1,104,11
+LDIFF_SYM1797=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1797
+	.byte 1,103,11
 	.asciz "length"
 
-LDIFF_SYM1770=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1770
-	.byte 1,104,0
+LDIFF_SYM1798=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1798
+	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1771=Lfde211_end - Lfde211_start
-	.long LDIFF_SYM1771
-Lfde211_start:
+LDIFF_SYM1799=Lfde218_end - Lfde218_start
+	.long LDIFF_SYM1799
+Lfde218_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_BYTE_Slice_int
 
-LDIFF_SYM1772=Lme_dc - System_ReadOnlySpan_1_T_BYTE_Slice_int
-	.long LDIFF_SYM1772
+LDIFF_SYM1800=Lme_e3 - System_ReadOnlySpan_1_T_BYTE_Slice_int
+	.long LDIFF_SYM1800
 	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,152,20,153,19
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15
 	.align 3
-Lfde211_end:
+Lfde218_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.ReadOnlySpan`1<T_BYTE>:Slice"
+	.asciz "System_ReadOnlySpan_1_T_BYTE_Slice_int_int"
+
+	.byte 17,164,2
+	.quad System_ReadOnlySpan_1_T_BYTE_Slice_int_int
+	.quad Lme_e4
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1801=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1801
+	.byte 1,104,3
+	.asciz "start"
+
+LDIFF_SYM1802=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1802
+	.byte 1,105,3
+	.asciz "length"
+
+LDIFF_SYM1803=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1803
+	.byte 2,141,56,11
+	.asciz "newOffset"
+
+LDIFF_SYM1804=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1804
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1805=Lfde219_end - Lfde219_start
+	.long LDIFF_SYM1805
+Lfde219_start:
+
+	.long 0
+	.align 3
+	.quad System_ReadOnlySpan_1_T_BYTE_Slice_int_int
+
+LDIFF_SYM1806=Lme_e4 - System_ReadOnlySpan_1_T_BYTE_Slice_int_int
+	.long LDIFF_SYM1806
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15
+	.align 3
+Lfde219_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49313,36 +51101,36 @@ Lfde211_end:
 
 	.byte 17,202,2
 	.quad System_ReadOnlySpan_1_T_BYTE_DangerousGetPinnableReference
-	.quad Lme_dd
+	.quad Lme_e5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1773=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1773
+LDIFF_SYM1807=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1807
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1774=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1774
+LDIFF_SYM1808=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1808
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1775=Lfde212_end - Lfde212_start
-	.long LDIFF_SYM1775
-Lfde212_start:
+LDIFF_SYM1809=Lfde220_end - Lfde220_start
+	.long LDIFF_SYM1809
+Lfde220_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_BYTE_DangerousGetPinnableReference
 
-LDIFF_SYM1776=Lme_dd - System_ReadOnlySpan_1_T_BYTE_DangerousGetPinnableReference
-	.long LDIFF_SYM1776
+LDIFF_SYM1810=Lme_e5 - System_ReadOnlySpan_1_T_BYTE_DangerousGetPinnableReference
+	.long LDIFF_SYM1810
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde212_end:
+Lfde220_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49352,277 +51140,7 @@ Lfde212_end:
 
 	.byte 17,136,3
 	.quad System_ReadOnlySpan_1_T_BYTE_get_Pinnable
-	.quad Lme_de
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1777=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1777
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1778=Lfde213_end - Lfde213_start
-	.long LDIFF_SYM1778
-Lfde213_start:
-
-	.long 0
-	.align 3
-	.quad System_ReadOnlySpan_1_T_BYTE_get_Pinnable
-
-LDIFF_SYM1779=Lme_de - System_ReadOnlySpan_1_T_BYTE_get_Pinnable
-	.long LDIFF_SYM1779
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde213_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.ReadOnlySpan`1<T_BYTE>:get_ByteOffset"
-	.asciz "System_ReadOnlySpan_1_T_BYTE_get_ByteOffset"
-
-	.byte 17,137,3
-	.quad System_ReadOnlySpan_1_T_BYTE_get_ByteOffset
-	.quad Lme_df
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1780=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1780
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1781=Lfde214_end - Lfde214_start
-	.long LDIFF_SYM1781
-Lfde214_start:
-
-	.long 0
-	.align 3
-	.quad System_ReadOnlySpan_1_T_BYTE_get_ByteOffset
-
-LDIFF_SYM1782=Lme_df - System_ReadOnlySpan_1_T_BYTE_get_ByteOffset
-	.long LDIFF_SYM1782
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde214_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_68:
-
-	.byte 5
-	.asciz "System_Pinnable`1"
-
-	.byte 17,16
-LDIFF_SYM1783=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM1783
-	.byte 2,35,0,6
-	.asciz "Data"
-
-LDIFF_SYM1784=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1784
-	.byte 2,35,16,0,7
-	.asciz "System_Pinnable`1"
-
-LDIFF_SYM1785=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM1785
-LTDIE_68_POINTER:
-
-	.byte 13
-LDIFF_SYM1786=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM1786
-LTDIE_68_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1787=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM1787
-LTDIE_67:
-
-	.byte 5
-	.asciz "System_Span`1"
-
-	.byte 40,16
-LDIFF_SYM1788=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1788
-	.byte 2,35,0,6
-	.asciz "_pinnable"
-
-LDIFF_SYM1789=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1789
-	.byte 2,35,16,6
-	.asciz "_byteOffset"
-
-LDIFF_SYM1790=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1790
-	.byte 2,35,24,6
-	.asciz "_length"
-
-LDIFF_SYM1791=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1791
-	.byte 2,35,32,0,7
-	.asciz "System_Span`1"
-
-LDIFF_SYM1792=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM1792
-LTDIE_67_POINTER:
-
-	.byte 13
-LDIFF_SYM1793=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM1793
-LTDIE_67_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1794=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM1794
-	.byte 2
-	.asciz "System.Span`1<T_BYTE>:.ctor"
-	.asciz "System_Span_1_T_BYTE__ctor_T_BYTE__"
-
-	.byte 16,37
-	.quad System_Span_1_T_BYTE__ctor_T_BYTE__
-	.quad Lme_e0
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1795=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1795
-	.byte 1,105,3
-	.asciz "array"
-
-LDIFF_SYM1796=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1796
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1797=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1797
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1798=Lfde215_end - Lfde215_start
-	.long LDIFF_SYM1798
-Lfde215_start:
-
-	.long 0
-	.align 3
-	.quad System_Span_1_T_BYTE__ctor_T_BYTE__
-
-LDIFF_SYM1799=Lme_e0 - System_Span_1_T_BYTE__ctor_T_BYTE__
-	.long LDIFF_SYM1799
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
-	.align 3
-Lfde215_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Span`1<T_BYTE>:.ctor"
-	.asciz "System_Span_1_T_BYTE__ctor_void__int"
-
-	.byte 16,92
-	.quad System_Span_1_T_BYTE__ctor_void__int
-	.quad Lme_e1
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1800=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1800
-	.byte 2,141,16,3
-	.asciz "pointer"
-
-LDIFF_SYM1801=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1801
-	.byte 2,141,24,3
-	.asciz "length"
-
-LDIFF_SYM1802=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1802
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1803=Lfde216_end - Lfde216_start
-	.long LDIFF_SYM1803
-Lfde216_start:
-
-	.long 0
-	.align 3
-	.quad System_Span_1_T_BYTE__ctor_void__int
-
-LDIFF_SYM1804=Lme_e1 - System_Span_1_T_BYTE__ctor_void__int
-	.long LDIFF_SYM1804
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde216_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Span`1<T_BYTE>:.ctor"
-	.asciz "System_Span_1_T_BYTE__ctor_System_Pinnable_1_T_BYTE_intptr_int"
-
-	.byte 16,128,1
-	.quad System_Span_1_T_BYTE__ctor_System_Pinnable_1_T_BYTE_intptr_int
-	.quad Lme_e2
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1805=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1805
-	.byte 1,103,3
-	.asciz "pinnable"
-
-LDIFF_SYM1806=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1806
-	.byte 2,141,24,3
-	.asciz "byteOffset"
-
-LDIFF_SYM1807=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1807
-	.byte 2,141,32,3
-	.asciz "length"
-
-LDIFF_SYM1808=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1808
-	.byte 2,141,40,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1809=Lfde217_end - Lfde217_start
-	.long LDIFF_SYM1809
-Lfde217_start:
-
-	.long 0
-	.align 3
-	.quad System_Span_1_T_BYTE__ctor_System_Pinnable_1_T_BYTE_intptr_int
-
-LDIFF_SYM1810=Lme_e2 - System_Span_1_T_BYTE__ctor_System_Pinnable_1_T_BYTE_intptr_int
-	.long LDIFF_SYM1810
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6
-	.align 3
-Lfde217_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Span`1<T_BYTE>:get_Length"
-	.asciz "System_Span_1_T_BYTE_get_Length"
-
-	.byte 16,139,1
-	.quad System_Span_1_T_BYTE_get_Length
-	.quad Lme_e3
+	.quad Lme_e6
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -49633,20 +51151,290 @@ LDIFF_SYM1811=LDIE_I - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1812=Lfde218_end - Lfde218_start
+LDIFF_SYM1812=Lfde221_end - Lfde221_start
 	.long LDIFF_SYM1812
-Lfde218_start:
+Lfde221_start:
+
+	.long 0
+	.align 3
+	.quad System_ReadOnlySpan_1_T_BYTE_get_Pinnable
+
+LDIFF_SYM1813=Lme_e6 - System_ReadOnlySpan_1_T_BYTE_get_Pinnable
+	.long LDIFF_SYM1813
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde221_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.ReadOnlySpan`1<T_BYTE>:get_ByteOffset"
+	.asciz "System_ReadOnlySpan_1_T_BYTE_get_ByteOffset"
+
+	.byte 17,137,3
+	.quad System_ReadOnlySpan_1_T_BYTE_get_ByteOffset
+	.quad Lme_e7
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1814=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1814
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1815=Lfde222_end - Lfde222_start
+	.long LDIFF_SYM1815
+Lfde222_start:
+
+	.long 0
+	.align 3
+	.quad System_ReadOnlySpan_1_T_BYTE_get_ByteOffset
+
+LDIFF_SYM1816=Lme_e7 - System_ReadOnlySpan_1_T_BYTE_get_ByteOffset
+	.long LDIFF_SYM1816
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde222_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_68:
+
+	.byte 5
+	.asciz "System_Pinnable`1"
+
+	.byte 17,16
+LDIFF_SYM1817=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM1817
+	.byte 2,35,0,6
+	.asciz "Data"
+
+LDIFF_SYM1818=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1818
+	.byte 2,35,16,0,7
+	.asciz "System_Pinnable`1"
+
+LDIFF_SYM1819=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM1819
+LTDIE_68_POINTER:
+
+	.byte 13
+LDIFF_SYM1820=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM1820
+LTDIE_68_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1821=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM1821
+LTDIE_67:
+
+	.byte 5
+	.asciz "System_Span`1"
+
+	.byte 40,16
+LDIFF_SYM1822=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1822
+	.byte 2,35,0,6
+	.asciz "_pinnable"
+
+LDIFF_SYM1823=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1823
+	.byte 2,35,16,6
+	.asciz "_byteOffset"
+
+LDIFF_SYM1824=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1824
+	.byte 2,35,24,6
+	.asciz "_length"
+
+LDIFF_SYM1825=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1825
+	.byte 2,35,32,0,7
+	.asciz "System_Span`1"
+
+LDIFF_SYM1826=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM1826
+LTDIE_67_POINTER:
+
+	.byte 13
+LDIFF_SYM1827=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM1827
+LTDIE_67_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1828=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM1828
+	.byte 2
+	.asciz "System.Span`1<T_BYTE>:.ctor"
+	.asciz "System_Span_1_T_BYTE__ctor_T_BYTE__"
+
+	.byte 16,37
+	.quad System_Span_1_T_BYTE__ctor_T_BYTE__
+	.quad Lme_e8
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1829=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1829
+	.byte 1,105,3
+	.asciz "array"
+
+LDIFF_SYM1830=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1830
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1831=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1831
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1832=Lfde223_end - Lfde223_start
+	.long LDIFF_SYM1832
+Lfde223_start:
+
+	.long 0
+	.align 3
+	.quad System_Span_1_T_BYTE__ctor_T_BYTE__
+
+LDIFF_SYM1833=Lme_e8 - System_Span_1_T_BYTE__ctor_T_BYTE__
+	.long LDIFF_SYM1833
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
+	.align 3
+Lfde223_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Span`1<T_BYTE>:.ctor"
+	.asciz "System_Span_1_T_BYTE__ctor_void__int"
+
+	.byte 16,92
+	.quad System_Span_1_T_BYTE__ctor_void__int
+	.quad Lme_e9
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1834=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1834
+	.byte 2,141,16,3
+	.asciz "pointer"
+
+LDIFF_SYM1835=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1835
+	.byte 2,141,24,3
+	.asciz "length"
+
+LDIFF_SYM1836=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1836
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1837=Lfde224_end - Lfde224_start
+	.long LDIFF_SYM1837
+Lfde224_start:
+
+	.long 0
+	.align 3
+	.quad System_Span_1_T_BYTE__ctor_void__int
+
+LDIFF_SYM1838=Lme_e9 - System_Span_1_T_BYTE__ctor_void__int
+	.long LDIFF_SYM1838
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde224_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Span`1<T_BYTE>:.ctor"
+	.asciz "System_Span_1_T_BYTE__ctor_System_Pinnable_1_T_BYTE_intptr_int"
+
+	.byte 16,128,1
+	.quad System_Span_1_T_BYTE__ctor_System_Pinnable_1_T_BYTE_intptr_int
+	.quad Lme_ea
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1839=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1839
+	.byte 1,103,3
+	.asciz "pinnable"
+
+LDIFF_SYM1840=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1840
+	.byte 2,141,24,3
+	.asciz "byteOffset"
+
+LDIFF_SYM1841=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1841
+	.byte 2,141,32,3
+	.asciz "length"
+
+LDIFF_SYM1842=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1842
+	.byte 2,141,40,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1843=Lfde225_end - Lfde225_start
+	.long LDIFF_SYM1843
+Lfde225_start:
+
+	.long 0
+	.align 3
+	.quad System_Span_1_T_BYTE__ctor_System_Pinnable_1_T_BYTE_intptr_int
+
+LDIFF_SYM1844=Lme_ea - System_Span_1_T_BYTE__ctor_System_Pinnable_1_T_BYTE_intptr_int
+	.long LDIFF_SYM1844
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6
+	.align 3
+Lfde225_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Span`1<T_BYTE>:get_Length"
+	.asciz "System_Span_1_T_BYTE_get_Length"
+
+	.byte 16,139,1
+	.quad System_Span_1_T_BYTE_get_Length
+	.quad Lme_eb
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1845=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1845
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1846=Lfde226_end - Lfde226_start
+	.long LDIFF_SYM1846
+Lfde226_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_BYTE_get_Length
 
-LDIFF_SYM1813=Lme_e3 - System_Span_1_T_BYTE_get_Length
-	.long LDIFF_SYM1813
+LDIFF_SYM1847=Lme_eb - System_Span_1_T_BYTE_get_Length
+	.long LDIFF_SYM1847
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde218_end:
+Lfde226_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49656,41 +51444,41 @@ Lfde218_end:
 
 	.byte 16,159,1
 	.quad System_Span_1_T_BYTE_get_Item_int
-	.quad Lme_e4
+	.quad Lme_ec
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1814=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1814
+LDIFF_SYM1848=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1848
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM1815=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1815
+LDIFF_SYM1849=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1849
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1816=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1816
+LDIFF_SYM1850=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1850
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1817=Lfde219_end - Lfde219_start
-	.long LDIFF_SYM1817
-Lfde219_start:
+LDIFF_SYM1851=Lfde227_end - Lfde227_start
+	.long LDIFF_SYM1851
+Lfde227_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_BYTE_get_Item_int
 
-LDIFF_SYM1818=Lme_e4 - System_Span_1_T_BYTE_get_Item_int
-	.long LDIFF_SYM1818
+LDIFF_SYM1852=Lme_ec - System_Span_1_T_BYTE_get_Item_int
+	.long LDIFF_SYM1852
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde219_end:
+Lfde227_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49700,61 +51488,61 @@ Lfde219_end:
 
 	.byte 16,220,1
 	.quad System_Span_1_T_BYTE_Fill_T_BYTE
-	.quad Lme_e5
+	.quad Lme_ed
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1819=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1819
+LDIFF_SYM1853=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1853
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1820=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1820
+LDIFF_SYM1854=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1854
 	.byte 1,106,11
 	.asciz "length"
 
-LDIFF_SYM1821=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1821
+LDIFF_SYM1855=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1855
 	.byte 1,104,11
 	.asciz "fill"
 
-LDIFF_SYM1822=LDIE_U1 - Ldebug_info_start
-	.long LDIFF_SYM1822
+LDIFF_SYM1856=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM1856
 	.byte 1,106,11
 	.asciz "V_2"
 
-LDIFF_SYM1823=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1823
-	.byte 2,141,48,11
+LDIFF_SYM1857=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1857
+	.byte 1,103,11
 	.asciz "r"
 
-LDIFF_SYM1824=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1824
-	.byte 0,11
+LDIFF_SYM1858=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1858
+	.byte 1,103,11
 	.asciz "i"
 
-LDIFF_SYM1825=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1825
-	.byte 0,0
+LDIFF_SYM1859=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1859
+	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1826=Lfde220_end - Lfde220_start
-	.long LDIFF_SYM1826
-Lfde220_start:
+LDIFF_SYM1860=Lfde228_end - Lfde228_start
+	.long LDIFF_SYM1860
+Lfde228_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_BYTE_Fill_T_BYTE
 
-LDIFF_SYM1827=Lme_e5 - System_Span_1_T_BYTE_Fill_T_BYTE
-	.long LDIFF_SYM1827
+LDIFF_SYM1861=Lme_ed - System_Span_1_T_BYTE_Fill_T_BYTE
+	.long LDIFF_SYM1861
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,153,12,154,11
 	.align 3
-Lfde220_end:
+Lfde228_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49764,36 +51552,36 @@ Lfde220_end:
 
 	.byte 16,156,2
 	.quad System_Span_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
-	.quad Lme_e6
+	.quad Lme_ee
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1828=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1828
+LDIFF_SYM1862=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1862
 	.byte 2,141,16,3
 	.asciz "destination"
 
-LDIFF_SYM1829=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1829
+LDIFF_SYM1863=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1863
 	.byte 1,80,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1830=Lfde221_end - Lfde221_start
-	.long LDIFF_SYM1830
-Lfde221_start:
+LDIFF_SYM1864=Lfde229_end - Lfde229_start
+	.long LDIFF_SYM1864
+Lfde229_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
 
-LDIFF_SYM1831=Lme_e6 - System_Span_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
-	.long LDIFF_SYM1831
+LDIFF_SYM1865=Lme_ee - System_Span_1_T_BYTE_CopyTo_System_Span_1_T_BYTE
+	.long LDIFF_SYM1865
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde221_end:
+Lfde229_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49803,51 +51591,51 @@ Lfde221_end:
 
 	.byte 16,171,2
 	.quad System_Span_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
-	.quad Lme_e7
+	.quad Lme_ef
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1832=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1832
+LDIFF_SYM1866=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1866
 	.byte 1,106,3
 	.asciz "destination"
 
-LDIFF_SYM1833=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1833
+LDIFF_SYM1867=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1867
 	.byte 1,80,11
 	.asciz "length"
 
-LDIFF_SYM1834=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1834
+LDIFF_SYM1868=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1868
 	.byte 1,105,11
 	.asciz "destLength"
 
-LDIFF_SYM1835=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1835
+LDIFF_SYM1869=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1869
 	.byte 1,104,11
 	.asciz "src"
 
-LDIFF_SYM1836=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1836
+LDIFF_SYM1870=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1870
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1837=Lfde222_end - Lfde222_start
-	.long LDIFF_SYM1837
-Lfde222_start:
+LDIFF_SYM1871=Lfde230_end - Lfde230_start
+	.long LDIFF_SYM1871
+Lfde230_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
 
-LDIFF_SYM1838=Lme_e7 - System_Span_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
-	.long LDIFF_SYM1838
+LDIFF_SYM1872=Lme_ef - System_Span_1_T_BYTE_TryCopyTo_System_Span_1_T_BYTE
+	.long LDIFF_SYM1872
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
-Lfde222_end:
+Lfde230_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49857,36 +51645,36 @@ Lfde222_end:
 
 	.byte 16,213,2
 	.quad System_Span_1_T_BYTE_Equals_object
-	.quad Lme_e8
+	.quad Lme_f0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1839=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1839
+LDIFF_SYM1873=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1873
 	.byte 2,141,16,3
 	.asciz "obj"
 
-LDIFF_SYM1840=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1840
+LDIFF_SYM1874=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1874
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1841=Lfde223_end - Lfde223_start
-	.long LDIFF_SYM1841
-Lfde223_start:
+LDIFF_SYM1875=Lfde231_end - Lfde231_start
+	.long LDIFF_SYM1875
+Lfde231_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_BYTE_Equals_object
 
-LDIFF_SYM1842=Lme_e8 - System_Span_1_T_BYTE_Equals_object
-	.long LDIFF_SYM1842
+LDIFF_SYM1876=Lme_f0 - System_Span_1_T_BYTE_Equals_object
+	.long LDIFF_SYM1876
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde223_end:
+Lfde231_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49896,31 +51684,31 @@ Lfde223_end:
 
 	.byte 16,228,2
 	.quad System_Span_1_T_BYTE_GetHashCode
-	.quad Lme_e9
+	.quad Lme_f1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1843=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1843
+LDIFF_SYM1877=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1877
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1844=Lfde224_end - Lfde224_start
-	.long LDIFF_SYM1844
-Lfde224_start:
+LDIFF_SYM1878=Lfde232_end - Lfde232_start
+	.long LDIFF_SYM1878
+Lfde232_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_BYTE_GetHashCode
 
-LDIFF_SYM1845=Lme_e9 - System_Span_1_T_BYTE_GetHashCode
-	.long LDIFF_SYM1845
+LDIFF_SYM1879=Lme_f1 - System_Span_1_T_BYTE_GetHashCode
+	.long LDIFF_SYM1879
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde224_end:
+Lfde232_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49930,36 +51718,36 @@ Lfde224_end:
 
 	.byte 16,234,2
 	.quad System_Span_1_T_BYTE_op_Implicit_T_BYTE__
-	.quad Lme_ea
+	.quad Lme_f2
 
 	.byte 2,118,16,3
 	.asciz "array"
 
-LDIFF_SYM1846=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1846
+LDIFF_SYM1880=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1880
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1847=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1847
+LDIFF_SYM1881=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1881
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1848=Lfde225_end - Lfde225_start
-	.long LDIFF_SYM1848
-Lfde225_start:
+LDIFF_SYM1882=Lfde233_end - Lfde233_start
+	.long LDIFF_SYM1882
+Lfde233_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_BYTE_op_Implicit_T_BYTE__
 
-LDIFF_SYM1849=Lme_ea - System_Span_1_T_BYTE_op_Implicit_T_BYTE__
-	.long LDIFF_SYM1849
+LDIFF_SYM1883=Lme_f2 - System_Span_1_T_BYTE_op_Implicit_T_BYTE__
+	.long LDIFF_SYM1883
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
-Lfde225_end:
+Lfde233_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49969,31 +51757,31 @@ Lfde225_end:
 
 	.byte 16,245,2
 	.quad System_Span_1_T_BYTE_op_Implicit_System_Span_1_T_BYTE
-	.quad Lme_eb
+	.quad Lme_f3
 
 	.byte 2,118,16,3
 	.asciz "span"
 
-LDIFF_SYM1850=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1850
+LDIFF_SYM1884=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1884
 	.byte 1,80,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1851=Lfde226_end - Lfde226_start
-	.long LDIFF_SYM1851
-Lfde226_start:
+LDIFF_SYM1885=Lfde234_end - Lfde234_start
+	.long LDIFF_SYM1885
+Lfde234_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_BYTE_op_Implicit_System_Span_1_T_BYTE
 
-LDIFF_SYM1852=Lme_eb - System_Span_1_T_BYTE_op_Implicit_System_Span_1_T_BYTE
-	.long LDIFF_SYM1852
+LDIFF_SYM1886=Lme_f3 - System_Span_1_T_BYTE_op_Implicit_System_Span_1_T_BYTE
+	.long LDIFF_SYM1886
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
-Lfde226_end:
+Lfde234_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50003,46 +51791,46 @@ Lfde226_end:
 
 	.byte 16,129,3
 	.quad System_Span_1_T_BYTE_Slice_int
-	.quad Lme_ec
+	.quad Lme_f4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1853=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1853
+LDIFF_SYM1887=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1887
 	.byte 1,105,3
 	.asciz "start"
 
-LDIFF_SYM1854=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1854
-	.byte 2,141,40,11
+LDIFF_SYM1888=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1888
+	.byte 2,141,56,11
 	.asciz "newOffset"
 
-LDIFF_SYM1855=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1855
-	.byte 1,104,11
+LDIFF_SYM1889=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1889
+	.byte 1,103,11
 	.asciz "length"
 
-LDIFF_SYM1856=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1856
-	.byte 1,104,0
+LDIFF_SYM1890=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1890
+	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1857=Lfde227_end - Lfde227_start
-	.long LDIFF_SYM1857
-Lfde227_start:
+LDIFF_SYM1891=Lfde235_end - Lfde235_start
+	.long LDIFF_SYM1891
+Lfde235_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_BYTE_Slice_int
 
-LDIFF_SYM1858=Lme_ec - System_Span_1_T_BYTE_Slice_int
-	.long LDIFF_SYM1858
+LDIFF_SYM1892=Lme_f4 - System_Span_1_T_BYTE_Slice_int
+	.long LDIFF_SYM1892
 	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,152,20,153,19
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15
 	.align 3
-Lfde227_end:
+Lfde235_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50052,46 +51840,46 @@ Lfde227_end:
 
 	.byte 16,148,3
 	.quad System_Span_1_T_BYTE_Slice_int_int
-	.quad Lme_ed
+	.quad Lme_f5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1859=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1859
+LDIFF_SYM1893=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1893
 	.byte 1,104,3
 	.asciz "start"
 
-LDIFF_SYM1860=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1860
+LDIFF_SYM1894=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1894
 	.byte 1,105,3
 	.asciz "length"
 
-LDIFF_SYM1861=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1861
-	.byte 2,141,40,11
+LDIFF_SYM1895=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1895
+	.byte 2,141,56,11
 	.asciz "newOffset"
 
-LDIFF_SYM1862=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1862
-	.byte 1,105,0
+LDIFF_SYM1896=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1896
+	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1863=Lfde228_end - Lfde228_start
-	.long LDIFF_SYM1863
-Lfde228_start:
+LDIFF_SYM1897=Lfde236_end - Lfde236_start
+	.long LDIFF_SYM1897
+Lfde236_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_BYTE_Slice_int_int
 
-LDIFF_SYM1864=Lme_ed - System_Span_1_T_BYTE_Slice_int_int
-	.long LDIFF_SYM1864
+LDIFF_SYM1898=Lme_f5 - System_Span_1_T_BYTE_Slice_int_int
+	.long LDIFF_SYM1898
 	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,152,20,153,19
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15
 	.align 3
-Lfde228_end:
+Lfde236_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50101,36 +51889,36 @@ Lfde228_end:
 
 	.byte 16,186,3
 	.quad System_Span_1_T_BYTE_DangerousGetPinnableReference
-	.quad Lme_ee
+	.quad Lme_f6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1865=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1865
+LDIFF_SYM1899=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1899
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1866=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1866
+LDIFF_SYM1900=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1900
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1867=Lfde229_end - Lfde229_start
-	.long LDIFF_SYM1867
-Lfde229_start:
+LDIFF_SYM1901=Lfde237_end - Lfde237_start
+	.long LDIFF_SYM1901
+Lfde237_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_BYTE_DangerousGetPinnableReference
 
-LDIFF_SYM1868=Lme_ee - System_Span_1_T_BYTE_DangerousGetPinnableReference
-	.long LDIFF_SYM1868
+LDIFF_SYM1902=Lme_f6 - System_Span_1_T_BYTE_DangerousGetPinnableReference
+	.long LDIFF_SYM1902
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde229_end:
+Lfde237_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50140,31 +51928,31 @@ Lfde229_end:
 
 	.byte 16,235,3
 	.quad System_Span_1_T_BYTE_get_Pinnable
-	.quad Lme_ef
+	.quad Lme_f7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1869=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1869
+LDIFF_SYM1903=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1903
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1870=Lfde230_end - Lfde230_start
-	.long LDIFF_SYM1870
-Lfde230_start:
+LDIFF_SYM1904=Lfde238_end - Lfde238_start
+	.long LDIFF_SYM1904
+Lfde238_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_BYTE_get_Pinnable
 
-LDIFF_SYM1871=Lme_ef - System_Span_1_T_BYTE_get_Pinnable
-	.long LDIFF_SYM1871
+LDIFF_SYM1905=Lme_f7 - System_Span_1_T_BYTE_get_Pinnable
+	.long LDIFF_SYM1905
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde230_end:
+Lfde238_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50174,31 +51962,31 @@ Lfde230_end:
 
 	.byte 16,236,3
 	.quad System_Span_1_T_BYTE_get_ByteOffset
-	.quad Lme_f0
+	.quad Lme_f8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1872=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1872
+LDIFF_SYM1906=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1906
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1873=Lfde231_end - Lfde231_start
-	.long LDIFF_SYM1873
-Lfde231_start:
+LDIFF_SYM1907=Lfde239_end - Lfde239_start
+	.long LDIFF_SYM1907
+Lfde239_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_BYTE_get_ByteOffset
 
-LDIFF_SYM1874=Lme_f0 - System_Span_1_T_BYTE_get_ByteOffset
-	.long LDIFF_SYM1874
+LDIFF_SYM1908=Lme_f8 - System_Span_1_T_BYTE_get_ByteOffset
+	.long LDIFF_SYM1908
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde231_end:
+Lfde239_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50208,26 +51996,26 @@ Lfde231_end:
 
 	.byte 2,45
 	.quad System_Buffers_ArrayPool_1_T_BYTE_get_Shared
-	.quad Lme_f1
+	.quad Lme_f9
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1875=Lfde232_end - Lfde232_start
-	.long LDIFF_SYM1875
-Lfde232_start:
+LDIFF_SYM1909=Lfde240_end - Lfde240_start
+	.long LDIFF_SYM1909
+Lfde240_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_ArrayPool_1_T_BYTE_get_Shared
 
-LDIFF_SYM1876=Lme_f1 - System_Buffers_ArrayPool_1_T_BYTE_get_Shared
-	.long LDIFF_SYM1876
+LDIFF_SYM1910=Lme_f9 - System_Buffers_ArrayPool_1_T_BYTE_get_Shared
+	.long LDIFF_SYM1910
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde232_end:
+Lfde240_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50237,26 +52025,26 @@ Lfde232_end:
 
 	.byte 2,52
 	.quad System_Buffers_ArrayPool_1_T_BYTE_EnsureSharedCreated
-	.quad Lme_f2
+	.quad Lme_fa
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1877=Lfde233_end - Lfde233_start
-	.long LDIFF_SYM1877
-Lfde233_start:
+LDIFF_SYM1911=Lfde241_end - Lfde241_start
+	.long LDIFF_SYM1911
+Lfde241_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_ArrayPool_1_T_BYTE_EnsureSharedCreated
 
-LDIFF_SYM1878=Lme_f2 - System_Buffers_ArrayPool_1_T_BYTE_EnsureSharedCreated
-	.long LDIFF_SYM1878
+LDIFF_SYM1912=Lme_fa - System_Buffers_ArrayPool_1_T_BYTE_EnsureSharedCreated
+	.long LDIFF_SYM1912
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde233_end:
+Lfde241_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50266,26 +52054,26 @@ Lfde233_end:
 
 	.byte 2,62
 	.quad System_Buffers_ArrayPool_1_T_BYTE_Create
-	.quad Lme_f3
+	.quad Lme_fb
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1879=Lfde234_end - Lfde234_start
-	.long LDIFF_SYM1879
-Lfde234_start:
+LDIFF_SYM1913=Lfde242_end - Lfde242_start
+	.long LDIFF_SYM1913
+Lfde242_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_ArrayPool_1_T_BYTE_Create
 
-LDIFF_SYM1880=Lme_f3 - System_Buffers_ArrayPool_1_T_BYTE_Create
-	.long LDIFF_SYM1880
+LDIFF_SYM1914=Lme_fb - System_Buffers_ArrayPool_1_T_BYTE_Create
+	.long LDIFF_SYM1914
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde234_end:
+Lfde242_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_69:
@@ -50294,54 +52082,54 @@ LTDIE_69:
 	.asciz "System_Buffers_ArrayPool`1"
 
 	.byte 16,16
-LDIFF_SYM1881=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM1881
+LDIFF_SYM1915=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM1915
 	.byte 2,35,0,0,7
 	.asciz "System_Buffers_ArrayPool`1"
 
-LDIFF_SYM1882=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM1882
+LDIFF_SYM1916=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM1916
 LTDIE_69_POINTER:
 
 	.byte 13
-LDIFF_SYM1883=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM1883
+LDIFF_SYM1917=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM1917
 LTDIE_69_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1884=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM1884
+LDIFF_SYM1918=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM1918
 	.byte 2
 	.asciz "System.Buffers.ArrayPool`1<T_BYTE>:.ctor"
 	.asciz "System_Buffers_ArrayPool_1_T_BYTE__ctor"
 
 	.byte 0,0
 	.quad System_Buffers_ArrayPool_1_T_BYTE__ctor
-	.quad Lme_f6
+	.quad Lme_fe
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1885=LTDIE_69_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1885
+LDIFF_SYM1919=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1919
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1886=Lfde235_end - Lfde235_start
-	.long LDIFF_SYM1886
-Lfde235_start:
+LDIFF_SYM1920=Lfde243_end - Lfde243_start
+	.long LDIFF_SYM1920
+Lfde243_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_ArrayPool_1_T_BYTE__ctor
 
-LDIFF_SYM1887=Lme_f6 - System_Buffers_ArrayPool_1_T_BYTE__ctor
-	.long LDIFF_SYM1887
+LDIFF_SYM1921=Lme_fe - System_Buffers_ArrayPool_1_T_BYTE__ctor
+	.long LDIFF_SYM1921
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde235_end:
+Lfde243_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50351,26 +52139,26 @@ Lfde235_end:
 
 	.byte 0,0
 	.quad System_Buffers_ArrayPool_1_T_BYTE__cctor
-	.quad Lme_f7
+	.quad Lme_ff
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1888=Lfde236_end - Lfde236_start
-	.long LDIFF_SYM1888
-Lfde236_start:
+LDIFF_SYM1922=Lfde244_end - Lfde244_start
+	.long LDIFF_SYM1922
+Lfde244_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_ArrayPool_1_T_BYTE__cctor
 
-LDIFF_SYM1889=Lme_f7 - System_Buffers_ArrayPool_1_T_BYTE__cctor
-	.long LDIFF_SYM1889
+LDIFF_SYM1923=Lme_ff - System_Buffers_ArrayPool_1_T_BYTE__cctor
+	.long LDIFF_SYM1923
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde236_end:
+Lfde244_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_71:
@@ -50379,107 +52167,107 @@ LTDIE_71:
 	.asciz "System_Pinnable`1"
 
 	.byte 20,16
-LDIFF_SYM1890=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM1890
+LDIFF_SYM1924=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM1924
 	.byte 2,35,0,6
 	.asciz "Data"
 
-LDIFF_SYM1891=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1891
+LDIFF_SYM1925=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1925
 	.byte 2,35,16,0,7
 	.asciz "System_Pinnable`1"
 
-LDIFF_SYM1892=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM1892
+LDIFF_SYM1926=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM1926
 LTDIE_71_POINTER:
 
 	.byte 13
-LDIFF_SYM1893=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM1893
+LDIFF_SYM1927=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM1927
 LTDIE_71_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1894=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM1894
+LDIFF_SYM1928=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM1928
 LTDIE_70:
 
 	.byte 5
 	.asciz "System_Span`1"
 
 	.byte 40,16
-LDIFF_SYM1895=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1895
+LDIFF_SYM1929=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1929
 	.byte 2,35,0,6
 	.asciz "_pinnable"
 
-LDIFF_SYM1896=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1896
+LDIFF_SYM1930=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1930
 	.byte 2,35,16,6
 	.asciz "_byteOffset"
 
-LDIFF_SYM1897=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1897
+LDIFF_SYM1931=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1931
 	.byte 2,35,24,6
 	.asciz "_length"
 
-LDIFF_SYM1898=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1898
+LDIFF_SYM1932=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1932
 	.byte 2,35,32,0,7
 	.asciz "System_Span`1"
 
-LDIFF_SYM1899=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM1899
+LDIFF_SYM1933=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM1933
 LTDIE_70_POINTER:
 
 	.byte 13
-LDIFF_SYM1900=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM1900
+LDIFF_SYM1934=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM1934
 LTDIE_70_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1901=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM1901
+LDIFF_SYM1935=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM1935
 	.byte 2
 	.asciz "System.Span`1<T_INT>:.ctor"
 	.asciz "System_Span_1_T_INT__ctor_T_INT__"
 
 	.byte 16,37
 	.quad System_Span_1_T_INT__ctor_T_INT__
-	.quad Lme_f8
+	.quad Lme_100
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1902=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1902
+LDIFF_SYM1936=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1936
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM1903=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1903
+LDIFF_SYM1937=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1937
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1904=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1904
+LDIFF_SYM1938=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1938
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1905=Lfde237_end - Lfde237_start
-	.long LDIFF_SYM1905
-Lfde237_start:
+LDIFF_SYM1939=Lfde245_end - Lfde245_start
+	.long LDIFF_SYM1939
+Lfde245_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_INT__ctor_T_INT__
 
-LDIFF_SYM1906=Lme_f8 - System_Span_1_T_INT__ctor_T_INT__
-	.long LDIFF_SYM1906
+LDIFF_SYM1940=Lme_100 - System_Span_1_T_INT__ctor_T_INT__
+	.long LDIFF_SYM1940
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde237_end:
+Lfde245_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50489,41 +52277,41 @@ Lfde237_end:
 
 	.byte 16,92
 	.quad System_Span_1_T_INT__ctor_void__int
-	.quad Lme_f9
+	.quad Lme_101
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1907=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1907
+LDIFF_SYM1941=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1941
 	.byte 2,141,16,3
 	.asciz "pointer"
 
-LDIFF_SYM1908=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1908
+LDIFF_SYM1942=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1942
 	.byte 2,141,24,3
 	.asciz "length"
 
-LDIFF_SYM1909=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1909
+LDIFF_SYM1943=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1943
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1910=Lfde238_end - Lfde238_start
-	.long LDIFF_SYM1910
-Lfde238_start:
+LDIFF_SYM1944=Lfde246_end - Lfde246_start
+	.long LDIFF_SYM1944
+Lfde246_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_INT__ctor_void__int
 
-LDIFF_SYM1911=Lme_f9 - System_Span_1_T_INT__ctor_void__int
-	.long LDIFF_SYM1911
+LDIFF_SYM1945=Lme_101 - System_Span_1_T_INT__ctor_void__int
+	.long LDIFF_SYM1945
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde238_end:
+Lfde246_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50533,46 +52321,46 @@ Lfde238_end:
 
 	.byte 16,128,1
 	.quad System_Span_1_T_INT__ctor_System_Pinnable_1_T_INT_intptr_int
-	.quad Lme_fa
+	.quad Lme_102
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1912=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1912
+LDIFF_SYM1946=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1946
 	.byte 1,103,3
 	.asciz "pinnable"
 
-LDIFF_SYM1913=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1913
+LDIFF_SYM1947=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1947
 	.byte 2,141,24,3
 	.asciz "byteOffset"
 
-LDIFF_SYM1914=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1914
+LDIFF_SYM1948=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1948
 	.byte 2,141,32,3
 	.asciz "length"
 
-LDIFF_SYM1915=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1915
+LDIFF_SYM1949=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1949
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1916=Lfde239_end - Lfde239_start
-	.long LDIFF_SYM1916
-Lfde239_start:
+LDIFF_SYM1950=Lfde247_end - Lfde247_start
+	.long LDIFF_SYM1950
+Lfde247_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_INT__ctor_System_Pinnable_1_T_INT_intptr_int
 
-LDIFF_SYM1917=Lme_fa - System_Span_1_T_INT__ctor_System_Pinnable_1_T_INT_intptr_int
-	.long LDIFF_SYM1917
+LDIFF_SYM1951=Lme_102 - System_Span_1_T_INT__ctor_System_Pinnable_1_T_INT_intptr_int
+	.long LDIFF_SYM1951
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6
 	.align 3
-Lfde239_end:
+Lfde247_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50582,31 +52370,31 @@ Lfde239_end:
 
 	.byte 16,139,1
 	.quad System_Span_1_T_INT_get_Length
-	.quad Lme_fb
+	.quad Lme_103
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1918=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1918
+LDIFF_SYM1952=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1952
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1919=Lfde240_end - Lfde240_start
-	.long LDIFF_SYM1919
-Lfde240_start:
+LDIFF_SYM1953=Lfde248_end - Lfde248_start
+	.long LDIFF_SYM1953
+Lfde248_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_INT_get_Length
 
-LDIFF_SYM1920=Lme_fb - System_Span_1_T_INT_get_Length
-	.long LDIFF_SYM1920
+LDIFF_SYM1954=Lme_103 - System_Span_1_T_INT_get_Length
+	.long LDIFF_SYM1954
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde240_end:
+Lfde248_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50616,41 +52404,41 @@ Lfde240_end:
 
 	.byte 16,159,1
 	.quad System_Span_1_T_INT_get_Item_int
-	.quad Lme_fc
+	.quad Lme_104
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1921=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1921
+LDIFF_SYM1955=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1955
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM1922=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1922
+LDIFF_SYM1956=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1956
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1923=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1923
+LDIFF_SYM1957=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1957
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1924=Lfde241_end - Lfde241_start
-	.long LDIFF_SYM1924
-Lfde241_start:
+LDIFF_SYM1958=Lfde249_end - Lfde249_start
+	.long LDIFF_SYM1958
+Lfde249_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_INT_get_Item_int
 
-LDIFF_SYM1925=Lme_fc - System_Span_1_T_INT_get_Item_int
-	.long LDIFF_SYM1925
+LDIFF_SYM1959=Lme_104 - System_Span_1_T_INT_get_Item_int
+	.long LDIFF_SYM1959
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde241_end:
+Lfde249_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50660,61 +52448,61 @@ Lfde241_end:
 
 	.byte 16,220,1
 	.quad System_Span_1_T_INT_Fill_T_INT
-	.quad Lme_fd
+	.quad Lme_105
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1926=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1926
-	.byte 1,105,3
+LDIFF_SYM1960=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1960
+	.byte 1,106,3
 	.asciz "value"
 
-LDIFF_SYM1927=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1927
-	.byte 1,106,11
+LDIFF_SYM1961=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1961
+	.byte 2,141,40,11
 	.asciz "length"
 
-LDIFF_SYM1928=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1928
-	.byte 1,104,11
+LDIFF_SYM1962=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1962
+	.byte 1,105,11
 	.asciz "fill"
 
-LDIFF_SYM1929=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1929
-	.byte 0,11
+LDIFF_SYM1963=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM1963
+	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1930=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1930
-	.byte 0,11
+LDIFF_SYM1964=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1964
+	.byte 2,141,56,11
 	.asciz "r"
 
-LDIFF_SYM1931=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1931
-	.byte 1,103,11
+LDIFF_SYM1965=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1965
+	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM1932=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1932
-	.byte 1,105,0
+LDIFF_SYM1966=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1966
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1933=Lfde242_end - Lfde242_start
-	.long LDIFF_SYM1933
-Lfde242_start:
+LDIFF_SYM1967=Lfde250_end - Lfde250_start
+	.long LDIFF_SYM1967
+Lfde250_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_INT_Fill_T_INT
 
-LDIFF_SYM1934=Lme_fd - System_Span_1_T_INT_Fill_T_INT
-	.long LDIFF_SYM1934
+LDIFF_SYM1968=Lme_105 - System_Span_1_T_INT_Fill_T_INT
+	.long LDIFF_SYM1968
 	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,153,12,154,11
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14,153,13,68,154,12
 	.align 3
-Lfde242_end:
+Lfde250_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50724,36 +52512,36 @@ Lfde242_end:
 
 	.byte 16,156,2
 	.quad System_Span_1_T_INT_CopyTo_System_Span_1_T_INT
-	.quad Lme_fe
+	.quad Lme_106
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1935=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1935
+LDIFF_SYM1969=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1969
 	.byte 2,141,16,3
 	.asciz "destination"
 
-LDIFF_SYM1936=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1936
+LDIFF_SYM1970=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1970
 	.byte 1,80,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1937=Lfde243_end - Lfde243_start
-	.long LDIFF_SYM1937
-Lfde243_start:
+LDIFF_SYM1971=Lfde251_end - Lfde251_start
+	.long LDIFF_SYM1971
+Lfde251_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_INT_CopyTo_System_Span_1_T_INT
 
-LDIFF_SYM1938=Lme_fe - System_Span_1_T_INT_CopyTo_System_Span_1_T_INT
-	.long LDIFF_SYM1938
+LDIFF_SYM1972=Lme_106 - System_Span_1_T_INT_CopyTo_System_Span_1_T_INT
+	.long LDIFF_SYM1972
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde243_end:
+Lfde251_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50763,51 +52551,51 @@ Lfde243_end:
 
 	.byte 16,171,2
 	.quad System_Span_1_T_INT_TryCopyTo_System_Span_1_T_INT
-	.quad Lme_ff
+	.quad Lme_107
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1939=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1939
+LDIFF_SYM1973=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1973
 	.byte 1,106,3
 	.asciz "destination"
 
-LDIFF_SYM1940=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1940
+LDIFF_SYM1974=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1974
 	.byte 1,80,11
 	.asciz "length"
 
-LDIFF_SYM1941=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1941
+LDIFF_SYM1975=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1975
 	.byte 1,105,11
 	.asciz "destLength"
 
-LDIFF_SYM1942=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1942
+LDIFF_SYM1976=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1976
 	.byte 1,104,11
 	.asciz "src"
 
-LDIFF_SYM1943=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1943
+LDIFF_SYM1977=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1977
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1944=Lfde244_end - Lfde244_start
-	.long LDIFF_SYM1944
-Lfde244_start:
+LDIFF_SYM1978=Lfde252_end - Lfde252_start
+	.long LDIFF_SYM1978
+Lfde252_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_INT_TryCopyTo_System_Span_1_T_INT
 
-LDIFF_SYM1945=Lme_ff - System_Span_1_T_INT_TryCopyTo_System_Span_1_T_INT
-	.long LDIFF_SYM1945
+LDIFF_SYM1979=Lme_107 - System_Span_1_T_INT_TryCopyTo_System_Span_1_T_INT
+	.long LDIFF_SYM1979
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
-Lfde244_end:
+Lfde252_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50817,36 +52605,36 @@ Lfde244_end:
 
 	.byte 16,213,2
 	.quad System_Span_1_T_INT_Equals_object
-	.quad Lme_100
+	.quad Lme_108
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1946=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1946
+LDIFF_SYM1980=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1980
 	.byte 2,141,16,3
 	.asciz "obj"
 
-LDIFF_SYM1947=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1947
+LDIFF_SYM1981=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1981
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1948=Lfde245_end - Lfde245_start
-	.long LDIFF_SYM1948
-Lfde245_start:
+LDIFF_SYM1982=Lfde253_end - Lfde253_start
+	.long LDIFF_SYM1982
+Lfde253_start:
 
 	.long 0
 	.align 3
 	.quad System_Span_1_T_INT_Equals_object
 
-LDIFF_SYM1949=Lme_100 - System_Span_1_T_INT_Equals_object
-	.long LDIFF_SYM1949
+LDIFF_SYM1983=Lme_108 - System_Span_1_T_INT_Equals_object
+	.long LDIFF_SYM1983
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde245_end:
+Lfde253_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50856,336 +52644,14 @@ Lfde245_end:
 
 	.byte 16,228,2
 	.quad System_Span_1_T_INT_GetHashCode
-	.quad Lme_101
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1950=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1950
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1951=Lfde246_end - Lfde246_start
-	.long LDIFF_SYM1951
-Lfde246_start:
-
-	.long 0
-	.align 3
-	.quad System_Span_1_T_INT_GetHashCode
-
-LDIFF_SYM1952=Lme_101 - System_Span_1_T_INT_GetHashCode
-	.long LDIFF_SYM1952
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde246_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Span`1<T_INT>:op_Implicit"
-	.asciz "System_Span_1_T_INT_op_Implicit_T_INT__"
-
-	.byte 16,234,2
-	.quad System_Span_1_T_INT_op_Implicit_T_INT__
-	.quad Lme_102
-
-	.byte 2,118,16,3
-	.asciz "array"
-
-LDIFF_SYM1953=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1953
-	.byte 2,141,24,11
-	.asciz "V_0"
-
-LDIFF_SYM1954=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1954
-	.byte 3,141,240,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1955=Lfde247_end - Lfde247_start
-	.long LDIFF_SYM1955
-Lfde247_start:
-
-	.long 0
-	.align 3
-	.quad System_Span_1_T_INT_op_Implicit_T_INT__
-
-LDIFF_SYM1956=Lme_102 - System_Span_1_T_INT_op_Implicit_T_INT__
-	.long LDIFF_SYM1956
-	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
-	.align 3
-Lfde247_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Span`1<T_INT>:op_Implicit"
-	.asciz "System_Span_1_T_INT_op_Implicit_System_Span_1_T_INT"
-
-	.byte 16,245,2
-	.quad System_Span_1_T_INT_op_Implicit_System_Span_1_T_INT
-	.quad Lme_103
-
-	.byte 2,118,16,3
-	.asciz "span"
-
-LDIFF_SYM1957=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1957
-	.byte 1,80,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1958=Lfde248_end - Lfde248_start
-	.long LDIFF_SYM1958
-Lfde248_start:
-
-	.long 0
-	.align 3
-	.quad System_Span_1_T_INT_op_Implicit_System_Span_1_T_INT
-
-LDIFF_SYM1959=Lme_103 - System_Span_1_T_INT_op_Implicit_System_Span_1_T_INT
-	.long LDIFF_SYM1959
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
-	.align 3
-Lfde248_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Span`1<T_INT>:Slice"
-	.asciz "System_Span_1_T_INT_Slice_int"
-
-	.byte 16,129,3
-	.quad System_Span_1_T_INT_Slice_int
-	.quad Lme_104
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1960=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1960
-	.byte 1,105,3
-	.asciz "start"
-
-LDIFF_SYM1961=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1961
-	.byte 2,141,40,11
-	.asciz "newOffset"
-
-LDIFF_SYM1962=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1962
-	.byte 1,104,11
-	.asciz "length"
-
-LDIFF_SYM1963=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1963
-	.byte 1,104,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1964=Lfde249_end - Lfde249_start
-	.long LDIFF_SYM1964
-Lfde249_start:
-
-	.long 0
-	.align 3
-	.quad System_Span_1_T_INT_Slice_int
-
-LDIFF_SYM1965=Lme_104 - System_Span_1_T_INT_Slice_int
-	.long LDIFF_SYM1965
-	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,152,20,153,19
-	.align 3
-Lfde249_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Span`1<T_INT>:Slice"
-	.asciz "System_Span_1_T_INT_Slice_int_int"
-
-	.byte 16,148,3
-	.quad System_Span_1_T_INT_Slice_int_int
-	.quad Lme_105
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1966=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1966
-	.byte 1,104,3
-	.asciz "start"
-
-LDIFF_SYM1967=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1967
-	.byte 1,105,3
-	.asciz "length"
-
-LDIFF_SYM1968=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1968
-	.byte 2,141,40,11
-	.asciz "newOffset"
-
-LDIFF_SYM1969=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1969
-	.byte 1,105,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1970=Lfde250_end - Lfde250_start
-	.long LDIFF_SYM1970
-Lfde250_start:
-
-	.long 0
-	.align 3
-	.quad System_Span_1_T_INT_Slice_int_int
-
-LDIFF_SYM1971=Lme_105 - System_Span_1_T_INT_Slice_int_int
-	.long LDIFF_SYM1971
-	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,152,20,153,19
-	.align 3
-Lfde250_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Span`1<T_INT>:DangerousGetPinnableReference"
-	.asciz "System_Span_1_T_INT_DangerousGetPinnableReference"
-
-	.byte 16,186,3
-	.quad System_Span_1_T_INT_DangerousGetPinnableReference
-	.quad Lme_106
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1972=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1972
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1973=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1973
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1974=Lfde251_end - Lfde251_start
-	.long LDIFF_SYM1974
-Lfde251_start:
-
-	.long 0
-	.align 3
-	.quad System_Span_1_T_INT_DangerousGetPinnableReference
-
-LDIFF_SYM1975=Lme_106 - System_Span_1_T_INT_DangerousGetPinnableReference
-	.long LDIFF_SYM1975
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
-	.align 3
-Lfde251_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Span`1<T_INT>:get_Pinnable"
-	.asciz "System_Span_1_T_INT_get_Pinnable"
-
-	.byte 16,235,3
-	.quad System_Span_1_T_INT_get_Pinnable
-	.quad Lme_107
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1976=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1976
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1977=Lfde252_end - Lfde252_start
-	.long LDIFF_SYM1977
-Lfde252_start:
-
-	.long 0
-	.align 3
-	.quad System_Span_1_T_INT_get_Pinnable
-
-LDIFF_SYM1978=Lme_107 - System_Span_1_T_INT_get_Pinnable
-	.long LDIFF_SYM1978
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde252_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Span`1<T_INT>:get_ByteOffset"
-	.asciz "System_Span_1_T_INT_get_ByteOffset"
-
-	.byte 16,236,3
-	.quad System_Span_1_T_INT_get_ByteOffset
-	.quad Lme_108
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1979=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1979
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1980=Lfde253_end - Lfde253_start
-	.long LDIFF_SYM1980
-Lfde253_start:
-
-	.long 0
-	.align 3
-	.quad System_Span_1_T_INT_get_ByteOffset
-
-LDIFF_SYM1981=Lme_108 - System_Span_1_T_INT_get_ByteOffset
-	.long LDIFF_SYM1981
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde253_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_unknown)_System.Numerics.DoubleUlong:StructureToPtr"
-	.asciz "wrapper_unknown_System_Numerics_DoubleUlong_StructureToPtr_object_intptr_bool"
-
-	.byte 0,0
-	.quad wrapper_unknown_System_Numerics_DoubleUlong_StructureToPtr_object_intptr_bool
 	.quad Lme_109
 
 	.byte 2,118,16,3
-	.asciz "param0"
+	.asciz "this"
 
-LDIFF_SYM1982=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1982
-	.byte 2,141,16,3
-	.asciz "param1"
-
-LDIFF_SYM1983=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1983
-	.byte 2,141,24,3
-	.asciz "param2"
-
-LDIFF_SYM1984=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1984=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1984
-	.byte 0,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -51195,36 +52661,36 @@ Lfde254_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_unknown_System_Numerics_DoubleUlong_StructureToPtr_object_intptr_bool
+	.quad System_Span_1_T_INT_GetHashCode
 
-LDIFF_SYM1986=Lme_109 - wrapper_unknown_System_Numerics_DoubleUlong_StructureToPtr_object_intptr_bool
+LDIFF_SYM1986=Lme_109 - System_Span_1_T_INT_GetHashCode
 	.long LDIFF_SYM1986
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde254_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "(wrapper_unknown)_System.Numerics.DoubleUlong:PtrToStructure"
-	.asciz "wrapper_unknown_System_Numerics_DoubleUlong_PtrToStructure_intptr_object"
+	.asciz "System.Span`1<T_INT>:op_Implicit"
+	.asciz "System_Span_1_T_INT_op_Implicit_T_INT__"
 
-	.byte 0,0
-	.quad wrapper_unknown_System_Numerics_DoubleUlong_PtrToStructure_intptr_object
+	.byte 16,234,2
+	.quad System_Span_1_T_INT_op_Implicit_T_INT__
 	.quad Lme_10a
 
 	.byte 2,118,16,3
-	.asciz "param0"
+	.asciz "array"
 
-LDIFF_SYM1987=LDIE_I - Ldebug_info_start
+LDIFF_SYM1987=LDIE_SZARRAY - Ldebug_info_start
 	.long LDIFF_SYM1987
-	.byte 2,141,16,3
-	.asciz "param1"
+	.byte 2,141,24,11
+	.asciz "V_0"
 
-LDIFF_SYM1988=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM1988=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1988
-	.byte 2,141,24,0
+	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -51234,14 +52700,336 @@ Lfde255_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_unknown_System_Numerics_DoubleUlong_PtrToStructure_intptr_object
+	.quad System_Span_1_T_INT_op_Implicit_T_INT__
 
-LDIFF_SYM1990=Lme_10a - wrapper_unknown_System_Numerics_DoubleUlong_PtrToStructure_intptr_object
+LDIFF_SYM1990=Lme_10a - System_Span_1_T_INT_op_Implicit_T_INT__
 	.long LDIFF_SYM1990
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
+	.align 3
+Lfde255_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Span`1<T_INT>:op_Implicit"
+	.asciz "System_Span_1_T_INT_op_Implicit_System_Span_1_T_INT"
+
+	.byte 16,245,2
+	.quad System_Span_1_T_INT_op_Implicit_System_Span_1_T_INT
+	.quad Lme_10b
+
+	.byte 2,118,16,3
+	.asciz "span"
+
+LDIFF_SYM1991=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1991
+	.byte 1,80,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1992=Lfde256_end - Lfde256_start
+	.long LDIFF_SYM1992
+Lfde256_start:
+
+	.long 0
+	.align 3
+	.quad System_Span_1_T_INT_op_Implicit_System_Span_1_T_INT
+
+LDIFF_SYM1993=Lme_10b - System_Span_1_T_INT_op_Implicit_System_Span_1_T_INT
+	.long LDIFF_SYM1993
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
+	.align 3
+Lfde256_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Span`1<T_INT>:Slice"
+	.asciz "System_Span_1_T_INT_Slice_int"
+
+	.byte 16,129,3
+	.quad System_Span_1_T_INT_Slice_int
+	.quad Lme_10c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1994=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1994
+	.byte 1,105,3
+	.asciz "start"
+
+LDIFF_SYM1995=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1995
+	.byte 2,141,56,11
+	.asciz "newOffset"
+
+LDIFF_SYM1996=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1996
+	.byte 1,103,11
+	.asciz "length"
+
+LDIFF_SYM1997=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1997
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1998=Lfde257_end - Lfde257_start
+	.long LDIFF_SYM1998
+Lfde257_start:
+
+	.long 0
+	.align 3
+	.quad System_Span_1_T_INT_Slice_int
+
+LDIFF_SYM1999=Lme_10c - System_Span_1_T_INT_Slice_int
+	.long LDIFF_SYM1999
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15
+	.align 3
+Lfde257_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Span`1<T_INT>:Slice"
+	.asciz "System_Span_1_T_INT_Slice_int_int"
+
+	.byte 16,148,3
+	.quad System_Span_1_T_INT_Slice_int_int
+	.quad Lme_10d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2000=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2000
+	.byte 1,104,3
+	.asciz "start"
+
+LDIFF_SYM2001=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2001
+	.byte 1,105,3
+	.asciz "length"
+
+LDIFF_SYM2002=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2002
+	.byte 2,141,56,11
+	.asciz "newOffset"
+
+LDIFF_SYM2003=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2003
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2004=Lfde258_end - Lfde258_start
+	.long LDIFF_SYM2004
+Lfde258_start:
+
+	.long 0
+	.align 3
+	.quad System_Span_1_T_INT_Slice_int_int
+
+LDIFF_SYM2005=Lme_10d - System_Span_1_T_INT_Slice_int_int
+	.long LDIFF_SYM2005
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15
+	.align 3
+Lfde258_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Span`1<T_INT>:DangerousGetPinnableReference"
+	.asciz "System_Span_1_T_INT_DangerousGetPinnableReference"
+
+	.byte 16,186,3
+	.quad System_Span_1_T_INT_DangerousGetPinnableReference
+	.quad Lme_10e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2006=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2006
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM2007=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2007
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2008=Lfde259_end - Lfde259_start
+	.long LDIFF_SYM2008
+Lfde259_start:
+
+	.long 0
+	.align 3
+	.quad System_Span_1_T_INT_DangerousGetPinnableReference
+
+LDIFF_SYM2009=Lme_10e - System_Span_1_T_INT_DangerousGetPinnableReference
+	.long LDIFF_SYM2009
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.align 3
+Lfde259_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Span`1<T_INT>:get_Pinnable"
+	.asciz "System_Span_1_T_INT_get_Pinnable"
+
+	.byte 16,235,3
+	.quad System_Span_1_T_INT_get_Pinnable
+	.quad Lme_10f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2010=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2010
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2011=Lfde260_end - Lfde260_start
+	.long LDIFF_SYM2011
+Lfde260_start:
+
+	.long 0
+	.align 3
+	.quad System_Span_1_T_INT_get_Pinnable
+
+LDIFF_SYM2012=Lme_10f - System_Span_1_T_INT_get_Pinnable
+	.long LDIFF_SYM2012
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde255_end:
+Lfde260_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Span`1<T_INT>:get_ByteOffset"
+	.asciz "System_Span_1_T_INT_get_ByteOffset"
+
+	.byte 16,236,3
+	.quad System_Span_1_T_INT_get_ByteOffset
+	.quad Lme_110
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2013=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2013
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2014=Lfde261_end - Lfde261_start
+	.long LDIFF_SYM2014
+Lfde261_start:
+
+	.long 0
+	.align 3
+	.quad System_Span_1_T_INT_get_ByteOffset
+
+LDIFF_SYM2015=Lme_110 - System_Span_1_T_INT_get_ByteOffset
+	.long LDIFF_SYM2015
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde261_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_unknown)_System.Numerics.DoubleUlong:StructureToPtr"
+	.asciz "wrapper_unknown_System_Numerics_DoubleUlong_StructureToPtr_object_intptr_bool"
+
+	.byte 0,0
+	.quad wrapper_unknown_System_Numerics_DoubleUlong_StructureToPtr_object_intptr_bool
+	.quad Lme_111
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM2016=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2016
+	.byte 2,141,16,3
+	.asciz "param1"
+
+LDIFF_SYM2017=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2017
+	.byte 2,141,24,3
+	.asciz "param2"
+
+LDIFF_SYM2018=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2018
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2019=Lfde262_end - Lfde262_start
+	.long LDIFF_SYM2019
+Lfde262_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_unknown_System_Numerics_DoubleUlong_StructureToPtr_object_intptr_bool
+
+LDIFF_SYM2020=Lme_111 - wrapper_unknown_System_Numerics_DoubleUlong_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM2020
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde262_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_unknown)_System.Numerics.DoubleUlong:PtrToStructure"
+	.asciz "wrapper_unknown_System_Numerics_DoubleUlong_PtrToStructure_intptr_object"
+
+	.byte 0,0
+	.quad wrapper_unknown_System_Numerics_DoubleUlong_PtrToStructure_intptr_object
+	.quad Lme_112
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM2021=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2021
+	.byte 2,141,16,3
+	.asciz "param1"
+
+LDIFF_SYM2022=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2022
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2023=Lfde263_end - Lfde263_start
+	.long LDIFF_SYM2023
+Lfde263_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_unknown_System_Numerics_DoubleUlong_PtrToStructure_intptr_object
+
+LDIFF_SYM2024=Lme_112 - wrapper_unknown_System_Numerics_DoubleUlong_PtrToStructure_intptr_object
+	.long LDIFF_SYM2024
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde263_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51251,66 +53039,66 @@ Lfde255_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_System_Globalization_FormatProvider_Number_NumberBuffer_StructureToPtr_object_intptr_bool
-	.quad Lme_10b
+	.quad Lme_113
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM1991=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1991
+LDIFF_SYM2025=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2025
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM1992=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1992
+LDIFF_SYM2026=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2026
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM1993=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1993
+LDIFF_SYM2027=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2027
 	.byte 0,11
 	.asciz "V_0"
 
-LDIFF_SYM1994=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1994
+LDIFF_SYM2028=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2028
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM1995=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1995
+LDIFF_SYM2029=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2029
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM1996=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1996
+LDIFF_SYM2030=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2030
 	.byte 0,11
 	.asciz "V_3"
 
-LDIFF_SYM1997=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1997
+LDIFF_SYM2031=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2031
 	.byte 0,11
 	.asciz "V_4"
 
-LDIFF_SYM1998=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1998
+LDIFF_SYM2032=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2032
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1999=Lfde256_end - Lfde256_start
-	.long LDIFF_SYM1999
-Lfde256_start:
+LDIFF_SYM2033=Lfde264_end - Lfde264_start
+	.long LDIFF_SYM2033
+Lfde264_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_System_Globalization_FormatProvider_Number_NumberBuffer_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM2000=Lme_10b - wrapper_unknown_System_Globalization_FormatProvider_Number_NumberBuffer_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM2000
+LDIFF_SYM2034=Lme_113 - wrapper_unknown_System_Globalization_FormatProvider_Number_NumberBuffer_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM2034
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde256_end:
+Lfde264_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51320,56 +53108,56 @@ Lfde256_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_System_Globalization_FormatProvider_Number_NumberBuffer_PtrToStructure_intptr_object
-	.quad Lme_10c
+	.quad Lme_114
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2001=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2001
+LDIFF_SYM2035=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2035
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2002=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2002
+LDIFF_SYM2036=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2036
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2003=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2003
+LDIFF_SYM2037=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2037
 	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM2004=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2004
+LDIFF_SYM2038=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2038
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2005=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2005
+LDIFF_SYM2039=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2039
 	.byte 1,105,11
 	.asciz "V_3"
 
-LDIFF_SYM2006=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2006
+LDIFF_SYM2040=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2040
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2007=Lfde257_end - Lfde257_start
-	.long LDIFF_SYM2007
-Lfde257_start:
+LDIFF_SYM2041=Lfde265_end - Lfde265_start
+	.long LDIFF_SYM2041
+Lfde265_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_System_Globalization_FormatProvider_Number_NumberBuffer_PtrToStructure_intptr_object
 
-LDIFF_SYM2008=Lme_10c - wrapper_unknown_System_Globalization_FormatProvider_Number_NumberBuffer_PtrToStructure_intptr_object
-	.long LDIFF_SYM2008
+LDIFF_SYM2042=Lme_114 - wrapper_unknown_System_Globalization_FormatProvider_Number_NumberBuffer_PtrToStructure_intptr_object
+	.long LDIFF_SYM2042
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3,68,154,2
 	.align 3
-Lfde257_end:
+Lfde265_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51379,36 +53167,36 @@ Lfde257_end:
 
 	.byte 18,35
 	.quad System_Runtime_CompilerServices_Unsafe_Add_T_CHAR_T_CHAR__int
-	.quad Lme_10d
+	.quad Lme_115
 
 	.byte 2,118,16,3
 	.asciz "source"
 
-LDIFF_SYM2009=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2009
+LDIFF_SYM2043=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2043
 	.byte 2,141,16,3
 	.asciz "elementOffset"
 
-LDIFF_SYM2010=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2010
+LDIFF_SYM2044=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2044
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2011=Lfde258_end - Lfde258_start
-	.long LDIFF_SYM2011
-Lfde258_start:
+LDIFF_SYM2045=Lfde266_end - Lfde266_start
+	.long LDIFF_SYM2045
+Lfde266_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_Unsafe_Add_T_CHAR_T_CHAR__int
 
-LDIFF_SYM2012=Lme_10d - System_Runtime_CompilerServices_Unsafe_Add_T_CHAR_T_CHAR__int
-	.long LDIFF_SYM2012
+LDIFF_SYM2046=Lme_115 - System_Runtime_CompilerServices_Unsafe_Add_T_CHAR_T_CHAR__int
+	.long LDIFF_SYM2046
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde258_end:
+Lfde266_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51418,36 +53206,36 @@ Lfde258_end:
 
 	.byte 18,50
 	.quad System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_CHAR_T_CHAR__intptr
-	.quad Lme_10e
+	.quad Lme_116
 
 	.byte 2,118,16,3
 	.asciz "source"
 
-LDIFF_SYM2013=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2013
+LDIFF_SYM2047=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2047
 	.byte 2,141,16,3
 	.asciz "byteOffset"
 
-LDIFF_SYM2014=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2014
+LDIFF_SYM2048=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2048
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2015=Lfde259_end - Lfde259_start
-	.long LDIFF_SYM2015
-Lfde259_start:
+LDIFF_SYM2049=Lfde267_end - Lfde267_start
+	.long LDIFF_SYM2049
+Lfde267_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_CHAR_T_CHAR__intptr
 
-LDIFF_SYM2016=Lme_10e - System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_CHAR_T_CHAR__intptr
-	.long LDIFF_SYM2016
+LDIFF_SYM2050=Lme_116 - System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_CHAR_T_CHAR__intptr
+	.long LDIFF_SYM2050
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde259_end:
+Lfde267_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51457,31 +53245,31 @@ Lfde259_end:
 
 	.byte 18,70
 	.quad System_Runtime_CompilerServices_Unsafe_AsRef_T_CHAR_void_
-	.quad Lme_10f
+	.quad Lme_117
 
 	.byte 2,118,16,3
 	.asciz "source"
 
-LDIFF_SYM2017=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2017
+LDIFF_SYM2051=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2051
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2018=Lfde260_end - Lfde260_start
-	.long LDIFF_SYM2018
-Lfde260_start:
+LDIFF_SYM2052=Lfde268_end - Lfde268_start
+	.long LDIFF_SYM2052
+Lfde268_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_Unsafe_AsRef_T_CHAR_void_
 
-LDIFF_SYM2019=Lme_10f - System_Runtime_CompilerServices_Unsafe_AsRef_T_CHAR_void_
-	.long LDIFF_SYM2019
+LDIFF_SYM2053=Lme_117 - System_Runtime_CompilerServices_Unsafe_AsRef_T_CHAR_void_
+	.long LDIFF_SYM2053
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde260_end:
+Lfde268_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51491,36 +53279,36 @@ Lfde260_end:
 
 	.byte 18,35
 	.quad System_Runtime_CompilerServices_Unsafe_Add_T_BYTE_T_BYTE__int
-	.quad Lme_110
+	.quad Lme_118
 
 	.byte 2,118,16,3
 	.asciz "source"
 
-LDIFF_SYM2020=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2020
+LDIFF_SYM2054=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2054
 	.byte 2,141,16,3
 	.asciz "elementOffset"
 
-LDIFF_SYM2021=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2021
+LDIFF_SYM2055=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2055
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2022=Lfde261_end - Lfde261_start
-	.long LDIFF_SYM2022
-Lfde261_start:
+LDIFF_SYM2056=Lfde269_end - Lfde269_start
+	.long LDIFF_SYM2056
+Lfde269_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_Unsafe_Add_T_BYTE_T_BYTE__int
 
-LDIFF_SYM2023=Lme_110 - System_Runtime_CompilerServices_Unsafe_Add_T_BYTE_T_BYTE__int
-	.long LDIFF_SYM2023
+LDIFF_SYM2057=Lme_118 - System_Runtime_CompilerServices_Unsafe_Add_T_BYTE_T_BYTE__int
+	.long LDIFF_SYM2057
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde261_end:
+Lfde269_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51530,36 +53318,36 @@ Lfde261_end:
 
 	.byte 18,50
 	.quad System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_BYTE_T_BYTE__intptr
-	.quad Lme_111
+	.quad Lme_119
 
 	.byte 2,118,16,3
 	.asciz "source"
 
-LDIFF_SYM2024=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2024
+LDIFF_SYM2058=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2058
 	.byte 2,141,16,3
 	.asciz "byteOffset"
 
-LDIFF_SYM2025=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2025
+LDIFF_SYM2059=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2059
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2026=Lfde262_end - Lfde262_start
-	.long LDIFF_SYM2026
-Lfde262_start:
+LDIFF_SYM2060=Lfde270_end - Lfde270_start
+	.long LDIFF_SYM2060
+Lfde270_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_BYTE_T_BYTE__intptr
 
-LDIFF_SYM2027=Lme_111 - System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_BYTE_T_BYTE__intptr
-	.long LDIFF_SYM2027
+LDIFF_SYM2061=Lme_119 - System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_BYTE_T_BYTE__intptr
+	.long LDIFF_SYM2061
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde262_end:
+Lfde270_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51569,31 +53357,31 @@ Lfde262_end:
 
 	.byte 18,70
 	.quad System_Runtime_CompilerServices_Unsafe_AsRef_T_BYTE_void_
-	.quad Lme_112
+	.quad Lme_11a
 
 	.byte 2,118,16,3
 	.asciz "source"
 
-LDIFF_SYM2028=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2028
+LDIFF_SYM2062=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2062
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2029=Lfde263_end - Lfde263_start
-	.long LDIFF_SYM2029
-Lfde263_start:
+LDIFF_SYM2063=Lfde271_end - Lfde271_start
+	.long LDIFF_SYM2063
+Lfde271_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_Unsafe_AsRef_T_BYTE_void_
 
-LDIFF_SYM2030=Lme_112 - System_Runtime_CompilerServices_Unsafe_AsRef_T_BYTE_void_
-	.long LDIFF_SYM2030
+LDIFF_SYM2064=Lme_11a - System_Runtime_CompilerServices_Unsafe_AsRef_T_BYTE_void_
+	.long LDIFF_SYM2064
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde263_end:
+Lfde271_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51603,26 +53391,26 @@ Lfde263_end:
 
 	.byte 19,33
 	.quad System_EmptyArray_1_T_BYTE__cctor
-	.quad Lme_113
+	.quad Lme_11b
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2031=Lfde264_end - Lfde264_start
-	.long LDIFF_SYM2031
-Lfde264_start:
+LDIFF_SYM2065=Lfde272_end - Lfde272_start
+	.long LDIFF_SYM2065
+Lfde272_start:
 
 	.long 0
 	.align 3
 	.quad System_EmptyArray_1_T_BYTE__cctor
 
-LDIFF_SYM2032=Lme_113 - System_EmptyArray_1_T_BYTE__cctor
-	.long LDIFF_SYM2032
+LDIFF_SYM2066=Lme_11b - System_EmptyArray_1_T_BYTE__cctor
+	.long LDIFF_SYM2066
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde264_end:
+Lfde272_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51630,28 +53418,28 @@ Lfde264_end:
 	.asciz "System.Array:Empty<T_BYTE>"
 	.asciz "System_Array_Empty_T_BYTE"
 
-	.byte 20,136,5
+	.byte 20,135,5
 	.quad System_Array_Empty_T_BYTE
-	.quad Lme_114
+	.quad Lme_11c
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2033=Lfde265_end - Lfde265_start
-	.long LDIFF_SYM2033
-Lfde265_start:
+LDIFF_SYM2067=Lfde273_end - Lfde273_start
+	.long LDIFF_SYM2067
+Lfde273_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_Empty_T_BYTE
 
-LDIFF_SYM2034=Lme_114 - System_Array_Empty_T_BYTE
-	.long LDIFF_SYM2034
+LDIFF_SYM2068=Lme_11c - System_Array_Empty_T_BYTE
+	.long LDIFF_SYM2068
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde265_end:
+Lfde273_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51661,36 +53449,36 @@ Lfde265_end:
 
 	.byte 21,50
 	.quad System_Runtime_InteropServices_MemoryMarshal_GetReference_T_CHAR_System_ReadOnlySpan_1_T_CHAR
-	.quad Lme_115
+	.quad Lme_11d
 
 	.byte 2,118,16,3
 	.asciz "span"
 
-LDIFF_SYM2035=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2035
+LDIFF_SYM2069=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2069
 	.byte 1,80,11
 	.asciz "V_0"
 
-LDIFF_SYM2036=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2036
+LDIFF_SYM2070=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2070
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2037=Lfde266_end - Lfde266_start
-	.long LDIFF_SYM2037
-Lfde266_start:
+LDIFF_SYM2071=Lfde274_end - Lfde274_start
+	.long LDIFF_SYM2071
+Lfde274_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_InteropServices_MemoryMarshal_GetReference_T_CHAR_System_ReadOnlySpan_1_T_CHAR
 
-LDIFF_SYM2038=Lme_115 - System_Runtime_InteropServices_MemoryMarshal_GetReference_T_CHAR_System_ReadOnlySpan_1_T_CHAR
-	.long LDIFF_SYM2038
+LDIFF_SYM2072=Lme_11d - System_Runtime_InteropServices_MemoryMarshal_GetReference_T_CHAR_System_ReadOnlySpan_1_T_CHAR
+	.long LDIFF_SYM2072
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde266_end:
+Lfde274_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51700,36 +53488,36 @@ Lfde266_end:
 
 	.byte 18,35
 	.quad System_Runtime_CompilerServices_Unsafe_Add_T_INT_T_INT__int
-	.quad Lme_116
+	.quad Lme_11e
 
 	.byte 2,118,16,3
 	.asciz "source"
 
-LDIFF_SYM2039=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2039
+LDIFF_SYM2073=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2073
 	.byte 2,141,16,3
 	.asciz "elementOffset"
 
-LDIFF_SYM2040=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2040
+LDIFF_SYM2074=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2074
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2041=Lfde267_end - Lfde267_start
-	.long LDIFF_SYM2041
-Lfde267_start:
+LDIFF_SYM2075=Lfde275_end - Lfde275_start
+	.long LDIFF_SYM2075
+Lfde275_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_Unsafe_Add_T_INT_T_INT__int
 
-LDIFF_SYM2042=Lme_116 - System_Runtime_CompilerServices_Unsafe_Add_T_INT_T_INT__int
-	.long LDIFF_SYM2042
+LDIFF_SYM2076=Lme_11e - System_Runtime_CompilerServices_Unsafe_Add_T_INT_T_INT__int
+	.long LDIFF_SYM2076
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde267_end:
+Lfde275_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51739,36 +53527,36 @@ Lfde267_end:
 
 	.byte 18,50
 	.quad System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_INT_T_INT__intptr
-	.quad Lme_117
+	.quad Lme_11f
 
 	.byte 2,118,16,3
 	.asciz "source"
 
-LDIFF_SYM2043=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2043
+LDIFF_SYM2077=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2077
 	.byte 2,141,16,3
 	.asciz "byteOffset"
 
-LDIFF_SYM2044=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2044
+LDIFF_SYM2078=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2078
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2045=Lfde268_end - Lfde268_start
-	.long LDIFF_SYM2045
-Lfde268_start:
+LDIFF_SYM2079=Lfde276_end - Lfde276_start
+	.long LDIFF_SYM2079
+Lfde276_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_INT_T_INT__intptr
 
-LDIFF_SYM2046=Lme_117 - System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_INT_T_INT__intptr
-	.long LDIFF_SYM2046
+LDIFF_SYM2080=Lme_11f - System_Runtime_CompilerServices_Unsafe_AddByteOffset_T_INT_T_INT__intptr
+	.long LDIFF_SYM2080
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde268_end:
+Lfde276_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51778,31 +53566,31 @@ Lfde268_end:
 
 	.byte 18,70
 	.quad System_Runtime_CompilerServices_Unsafe_AsRef_T_INT_void_
-	.quad Lme_118
+	.quad Lme_120
 
 	.byte 2,118,16,3
 	.asciz "source"
 
-LDIFF_SYM2047=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2047
+LDIFF_SYM2081=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2081
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2048=Lfde269_end - Lfde269_start
-	.long LDIFF_SYM2048
-Lfde269_start:
+LDIFF_SYM2082=Lfde277_end - Lfde277_start
+	.long LDIFF_SYM2082
+Lfde277_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_Unsafe_AsRef_T_INT_void_
 
-LDIFF_SYM2049=Lme_118 - System_Runtime_CompilerServices_Unsafe_AsRef_T_INT_void_
-	.long LDIFF_SYM2049
+LDIFF_SYM2083=Lme_120 - System_Runtime_CompilerServices_Unsafe_AsRef_T_INT_void_
+	.long LDIFF_SYM2083
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde269_end:
+Lfde277_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51812,101 +53600,101 @@ Lfde269_end:
 
 	.byte 22,29
 	.quad System_SpanHelpers_CopyTo_T_CHAR_T_CHAR__int_T_CHAR__int
-	.quad Lme_119
+	.quad Lme_121
 
 	.byte 2,118,16,3
 	.asciz "dst"
 
-LDIFF_SYM2050=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2050
+LDIFF_SYM2084=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2084
 	.byte 1,103,3
 	.asciz "dstLength"
 
-LDIFF_SYM2051=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2051
+LDIFF_SYM2085=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2085
 	.byte 1,104,3
 	.asciz "src"
 
-LDIFF_SYM2052=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2052
+LDIFF_SYM2086=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2086
 	.byte 1,105,3
 	.asciz "srcLength"
 
-LDIFF_SYM2053=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2053
+LDIFF_SYM2087=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2087
 	.byte 1,106,11
 	.asciz "srcByteCount"
 
-LDIFF_SYM2054=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2054
+LDIFF_SYM2088=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2088
 	.byte 1,102,11
 	.asciz "dstByteCount"
 
-LDIFF_SYM2055=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2055
+LDIFF_SYM2089=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2089
 	.byte 1,104,11
 	.asciz "diff"
 
-LDIFF_SYM2056=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2056
+LDIFF_SYM2090=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2090
 	.byte 1,101,11
 	.asciz "dstBytes"
 
-LDIFF_SYM2057=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2057
+LDIFF_SYM2091=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2091
 	.byte 1,106,11
 	.asciz "srcBytes"
 
-LDIFF_SYM2058=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2058
+LDIFF_SYM2092=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2092
 	.byte 1,104,11
 	.asciz "byteCount"
 
-LDIFF_SYM2059=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM2059
+LDIFF_SYM2093=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM2093
 	.byte 1,105,11
 	.asciz "index"
 
-LDIFF_SYM2060=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM2060
+LDIFF_SYM2094=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM2094
 	.byte 1,103,11
 	.asciz "blockSize"
 
-LDIFF_SYM2061=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2061
+LDIFF_SYM2095=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2095
 	.byte 1,102,11
 	.asciz "direction"
 
-LDIFF_SYM2062=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2062
+LDIFF_SYM2096=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2096
 	.byte 1,102,11
 	.asciz "runCount"
 
-LDIFF_SYM2063=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2063
+LDIFF_SYM2097=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2097
 	.byte 1,104,11
 	.asciz "loopCount"
 
-LDIFF_SYM2064=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2064
+LDIFF_SYM2098=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2098
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2065=Lfde270_end - Lfde270_start
-	.long LDIFF_SYM2065
-Lfde270_start:
+LDIFF_SYM2099=Lfde278_end - Lfde278_start
+	.long LDIFF_SYM2099
+Lfde278_start:
 
 	.long 0
 	.align 3
 	.quad System_SpanHelpers_CopyTo_T_CHAR_T_CHAR__int_T_CHAR__int
 
-LDIFF_SYM2066=Lme_119 - System_SpanHelpers_CopyTo_T_CHAR_T_CHAR__int_T_CHAR__int
-	.long LDIFF_SYM2066
+LDIFF_SYM2100=Lme_121 - System_SpanHelpers_CopyTo_T_CHAR_T_CHAR__int_T_CHAR__int
+	.long LDIFF_SYM2100
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,148,30,149,29,68,150,28,151,27,68,152,26,153,25,68,154,24
 	.align 3
-Lfde270_end:
+Lfde278_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_73:
@@ -51915,82 +53703,82 @@ LTDIE_73:
 	.asciz "System_Buffers_ArrayPool`1"
 
 	.byte 16,16
-LDIFF_SYM2067=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM2067
+LDIFF_SYM2101=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM2101
 	.byte 2,35,0,0,7
 	.asciz "System_Buffers_ArrayPool`1"
 
-LDIFF_SYM2068=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM2068
+LDIFF_SYM2102=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM2102
 LTDIE_73_POINTER:
 
 	.byte 13
-LDIFF_SYM2069=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM2069
+LDIFF_SYM2103=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM2103
 LTDIE_73_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2070=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM2070
+LDIFF_SYM2104=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM2104
 LTDIE_72:
 
 	.byte 5
 	.asciz "System_Buffers_DefaultArrayPool`1"
 
 	.byte 24,16
-LDIFF_SYM2071=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM2071
+LDIFF_SYM2105=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM2105
 	.byte 2,35,0,6
 	.asciz "_buckets"
 
-LDIFF_SYM2072=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2072
+LDIFF_SYM2106=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2106
 	.byte 2,35,16,0,7
 	.asciz "System_Buffers_DefaultArrayPool`1"
 
-LDIFF_SYM2073=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM2073
+LDIFF_SYM2107=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM2107
 LTDIE_72_POINTER:
 
 	.byte 13
-LDIFF_SYM2074=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM2074
+LDIFF_SYM2108=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM2108
 LTDIE_72_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2075=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM2075
+LDIFF_SYM2109=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM2109
 	.byte 2
 	.asciz "System.Buffers.DefaultArrayPool`1<T_CHAR>:.ctor"
 	.asciz "System_Buffers_DefaultArrayPool_1_T_CHAR__ctor"
 
 	.byte 4,18
 	.quad System_Buffers_DefaultArrayPool_1_T_CHAR__ctor
-	.quad Lme_11a
+	.quad Lme_122
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2076=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2076
+LDIFF_SYM2110=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2110
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2077=Lfde271_end - Lfde271_start
-	.long LDIFF_SYM2077
-Lfde271_start:
+LDIFF_SYM2111=Lfde279_end - Lfde279_start
+	.long LDIFF_SYM2111
+Lfde279_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_DefaultArrayPool_1_T_CHAR__ctor
 
-LDIFF_SYM2078=Lme_11a - System_Buffers_DefaultArrayPool_1_T_CHAR__ctor
-	.long LDIFF_SYM2078
+LDIFF_SYM2112=Lme_122 - System_Buffers_DefaultArrayPool_1_T_CHAR__ctor
+	.long LDIFF_SYM2112
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde271_end:
+Lfde279_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -52000,101 +53788,101 @@ Lfde271_end:
 
 	.byte 22,29
 	.quad System_SpanHelpers_CopyTo_T_BYTE_T_BYTE__int_T_BYTE__int
-	.quad Lme_11b
+	.quad Lme_123
 
 	.byte 2,118,16,3
 	.asciz "dst"
 
-LDIFF_SYM2079=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2079
+LDIFF_SYM2113=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2113
 	.byte 1,103,3
 	.asciz "dstLength"
 
-LDIFF_SYM2080=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2080
+LDIFF_SYM2114=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2114
 	.byte 1,104,3
 	.asciz "src"
 
-LDIFF_SYM2081=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2081
+LDIFF_SYM2115=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2115
 	.byte 1,105,3
 	.asciz "srcLength"
 
-LDIFF_SYM2082=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2082
+LDIFF_SYM2116=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2116
 	.byte 1,106,11
 	.asciz "srcByteCount"
 
-LDIFF_SYM2083=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2083
+LDIFF_SYM2117=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2117
 	.byte 1,102,11
 	.asciz "dstByteCount"
 
-LDIFF_SYM2084=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2084
+LDIFF_SYM2118=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2118
 	.byte 1,104,11
 	.asciz "diff"
 
-LDIFF_SYM2085=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2085
+LDIFF_SYM2119=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2119
 	.byte 1,101,11
 	.asciz "dstBytes"
 
-LDIFF_SYM2086=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2086
+LDIFF_SYM2120=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2120
 	.byte 1,106,11
 	.asciz "srcBytes"
 
-LDIFF_SYM2087=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2087
+LDIFF_SYM2121=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2121
 	.byte 1,104,11
 	.asciz "byteCount"
 
-LDIFF_SYM2088=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM2088
+LDIFF_SYM2122=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM2122
 	.byte 1,105,11
 	.asciz "index"
 
-LDIFF_SYM2089=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM2089
+LDIFF_SYM2123=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM2123
 	.byte 1,103,11
 	.asciz "blockSize"
 
-LDIFF_SYM2090=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2090
+LDIFF_SYM2124=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2124
 	.byte 1,102,11
 	.asciz "direction"
 
-LDIFF_SYM2091=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2091
+LDIFF_SYM2125=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2125
 	.byte 1,102,11
 	.asciz "runCount"
 
-LDIFF_SYM2092=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2092
+LDIFF_SYM2126=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2126
 	.byte 1,104,11
 	.asciz "loopCount"
 
-LDIFF_SYM2093=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2093
+LDIFF_SYM2127=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2127
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2094=Lfde272_end - Lfde272_start
-	.long LDIFF_SYM2094
-Lfde272_start:
+LDIFF_SYM2128=Lfde280_end - Lfde280_start
+	.long LDIFF_SYM2128
+Lfde280_start:
 
 	.long 0
 	.align 3
 	.quad System_SpanHelpers_CopyTo_T_BYTE_T_BYTE__int_T_BYTE__int
 
-LDIFF_SYM2095=Lme_11b - System_SpanHelpers_CopyTo_T_BYTE_T_BYTE__int_T_BYTE__int
-	.long LDIFF_SYM2095
+LDIFF_SYM2129=Lme_123 - System_SpanHelpers_CopyTo_T_BYTE_T_BYTE__int_T_BYTE__int
+	.long LDIFF_SYM2129
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,148,30,149,29,68,150,28,151,27,68,152,26,153,25,68,154,24
 	.align 3
-Lfde272_end:
+Lfde280_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_75:
@@ -52103,82 +53891,82 @@ LTDIE_75:
 	.asciz "System_Buffers_ArrayPool`1"
 
 	.byte 16,16
-LDIFF_SYM2096=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM2096
+LDIFF_SYM2130=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM2130
 	.byte 2,35,0,0,7
 	.asciz "System_Buffers_ArrayPool`1"
 
-LDIFF_SYM2097=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM2097
+LDIFF_SYM2131=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM2131
 LTDIE_75_POINTER:
 
 	.byte 13
-LDIFF_SYM2098=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM2098
+LDIFF_SYM2132=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM2132
 LTDIE_75_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2099=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM2099
+LDIFF_SYM2133=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM2133
 LTDIE_74:
 
 	.byte 5
 	.asciz "System_Buffers_DefaultArrayPool`1"
 
 	.byte 24,16
-LDIFF_SYM2100=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM2100
+LDIFF_SYM2134=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM2134
 	.byte 2,35,0,6
 	.asciz "_buckets"
 
-LDIFF_SYM2101=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2101
+LDIFF_SYM2135=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2135
 	.byte 2,35,16,0,7
 	.asciz "System_Buffers_DefaultArrayPool`1"
 
-LDIFF_SYM2102=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM2102
+LDIFF_SYM2136=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM2136
 LTDIE_74_POINTER:
 
 	.byte 13
-LDIFF_SYM2103=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM2103
+LDIFF_SYM2137=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM2137
 LTDIE_74_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2104=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM2104
+LDIFF_SYM2138=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM2138
 	.byte 2
 	.asciz "System.Buffers.DefaultArrayPool`1<T_BYTE>:.ctor"
 	.asciz "System_Buffers_DefaultArrayPool_1_T_BYTE__ctor"
 
 	.byte 4,18
 	.quad System_Buffers_DefaultArrayPool_1_T_BYTE__ctor
-	.quad Lme_11c
+	.quad Lme_124
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2105=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2105
+LDIFF_SYM2139=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2139
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2106=Lfde273_end - Lfde273_start
-	.long LDIFF_SYM2106
-Lfde273_start:
+LDIFF_SYM2140=Lfde281_end - Lfde281_start
+	.long LDIFF_SYM2140
+Lfde281_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_DefaultArrayPool_1_T_BYTE__ctor
 
-LDIFF_SYM2107=Lme_11c - System_Buffers_DefaultArrayPool_1_T_BYTE__ctor
-	.long LDIFF_SYM2107
+LDIFF_SYM2141=Lme_124 - System_Buffers_DefaultArrayPool_1_T_BYTE__ctor
+	.long LDIFF_SYM2141
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde273_end:
+Lfde281_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -52188,101 +53976,101 @@ Lfde273_end:
 
 	.byte 22,29
 	.quad System_SpanHelpers_CopyTo_T_INT_T_INT__int_T_INT__int
-	.quad Lme_11d
+	.quad Lme_125
 
 	.byte 2,118,16,3
 	.asciz "dst"
 
-LDIFF_SYM2108=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2108
+LDIFF_SYM2142=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2142
 	.byte 1,103,3
 	.asciz "dstLength"
 
-LDIFF_SYM2109=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2109
+LDIFF_SYM2143=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2143
 	.byte 1,104,3
 	.asciz "src"
 
-LDIFF_SYM2110=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2110
+LDIFF_SYM2144=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2144
 	.byte 1,105,3
 	.asciz "srcLength"
 
-LDIFF_SYM2111=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2111
+LDIFF_SYM2145=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2145
 	.byte 1,106,11
 	.asciz "srcByteCount"
 
-LDIFF_SYM2112=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2112
+LDIFF_SYM2146=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2146
 	.byte 1,102,11
 	.asciz "dstByteCount"
 
-LDIFF_SYM2113=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2113
+LDIFF_SYM2147=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2147
 	.byte 1,104,11
 	.asciz "diff"
 
-LDIFF_SYM2114=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2114
+LDIFF_SYM2148=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2148
 	.byte 1,101,11
 	.asciz "dstBytes"
 
-LDIFF_SYM2115=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2115
+LDIFF_SYM2149=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2149
 	.byte 1,106,11
 	.asciz "srcBytes"
 
-LDIFF_SYM2116=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2116
+LDIFF_SYM2150=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2150
 	.byte 1,104,11
 	.asciz "byteCount"
 
-LDIFF_SYM2117=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM2117
+LDIFF_SYM2151=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM2151
 	.byte 1,105,11
 	.asciz "index"
 
-LDIFF_SYM2118=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM2118
+LDIFF_SYM2152=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM2152
 	.byte 1,103,11
 	.asciz "blockSize"
 
-LDIFF_SYM2119=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2119
+LDIFF_SYM2153=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2153
 	.byte 1,102,11
 	.asciz "direction"
 
-LDIFF_SYM2120=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2120
+LDIFF_SYM2154=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2154
 	.byte 1,102,11
 	.asciz "runCount"
 
-LDIFF_SYM2121=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2121
+LDIFF_SYM2155=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2155
 	.byte 1,104,11
 	.asciz "loopCount"
 
-LDIFF_SYM2122=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2122
+LDIFF_SYM2156=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2156
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2123=Lfde274_end - Lfde274_start
-	.long LDIFF_SYM2123
-Lfde274_start:
+LDIFF_SYM2157=Lfde282_end - Lfde282_start
+	.long LDIFF_SYM2157
+Lfde282_start:
 
 	.long 0
 	.align 3
 	.quad System_SpanHelpers_CopyTo_T_INT_T_INT__int_T_INT__int
 
-LDIFF_SYM2124=Lme_11d - System_SpanHelpers_CopyTo_T_INT_T_INT__int_T_INT__int
-	.long LDIFF_SYM2124
+LDIFF_SYM2158=Lme_125 - System_SpanHelpers_CopyTo_T_INT_T_INT__int_T_INT__int
+	.long LDIFF_SYM2158
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,148,30,149,29,68,150,28,151,27,68,152,26,153,25,68,154,24
 	.align 3
-Lfde274_end:
+Lfde282_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_77:
@@ -52291,112 +54079,112 @@ LTDIE_77:
 	.asciz "System_Pinnable`1"
 
 	.byte 20,16
-LDIFF_SYM2125=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM2125
+LDIFF_SYM2159=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM2159
 	.byte 2,35,0,6
 	.asciz "Data"
 
-LDIFF_SYM2126=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2126
+LDIFF_SYM2160=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2160
 	.byte 2,35,16,0,7
 	.asciz "System_Pinnable`1"
 
-LDIFF_SYM2127=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM2127
+LDIFF_SYM2161=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM2161
 LTDIE_77_POINTER:
 
 	.byte 13
-LDIFF_SYM2128=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM2128
+LDIFF_SYM2162=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM2162
 LTDIE_77_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2129=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM2129
+LDIFF_SYM2163=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM2163
 LTDIE_76:
 
 	.byte 5
 	.asciz "System_ReadOnlySpan`1"
 
 	.byte 40,16
-LDIFF_SYM2130=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM2130
+LDIFF_SYM2164=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM2164
 	.byte 2,35,0,6
 	.asciz "_pinnable"
 
-LDIFF_SYM2131=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2131
+LDIFF_SYM2165=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2165
 	.byte 2,35,16,6
 	.asciz "_byteOffset"
 
-LDIFF_SYM2132=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2132
+LDIFF_SYM2166=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2166
 	.byte 2,35,24,6
 	.asciz "_length"
 
-LDIFF_SYM2133=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2133
+LDIFF_SYM2167=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2167
 	.byte 2,35,32,0,7
 	.asciz "System_ReadOnlySpan`1"
 
-LDIFF_SYM2134=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2134
+LDIFF_SYM2168=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2168
 LTDIE_76_POINTER:
 
 	.byte 13
-LDIFF_SYM2135=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2135
+LDIFF_SYM2169=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2169
 LTDIE_76_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2136=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2136
+LDIFF_SYM2170=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2170
 	.byte 2
 	.asciz "System.ReadOnlySpan`1<T_INT>:.ctor"
 	.asciz "System_ReadOnlySpan_1_T_INT__ctor_System_Pinnable_1_T_INT_intptr_int"
 
 	.byte 17,124
 	.quad System_ReadOnlySpan_1_T_INT__ctor_System_Pinnable_1_T_INT_intptr_int
-	.quad Lme_11e
+	.quad Lme_126
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2137=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2137
+LDIFF_SYM2171=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2171
 	.byte 1,103,3
 	.asciz "pinnable"
 
-LDIFF_SYM2138=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2138
+LDIFF_SYM2172=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2172
 	.byte 2,141,24,3
 	.asciz "byteOffset"
 
-LDIFF_SYM2139=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2139
+LDIFF_SYM2173=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2173
 	.byte 2,141,32,3
 	.asciz "length"
 
-LDIFF_SYM2140=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2140
+LDIFF_SYM2174=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2174
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2141=Lfde275_end - Lfde275_start
-	.long LDIFF_SYM2141
-Lfde275_start:
+LDIFF_SYM2175=Lfde283_end - Lfde283_start
+	.long LDIFF_SYM2175
+Lfde283_start:
 
 	.long 0
 	.align 3
 	.quad System_ReadOnlySpan_1_T_INT__ctor_System_Pinnable_1_T_INT_intptr_int
 
-LDIFF_SYM2142=Lme_11e - System_ReadOnlySpan_1_T_INT__ctor_System_Pinnable_1_T_INT_intptr_int
-	.long LDIFF_SYM2142
+LDIFF_SYM2176=Lme_126 - System_ReadOnlySpan_1_T_INT__ctor_System_Pinnable_1_T_INT_intptr_int
+	.long LDIFF_SYM2176
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6
 	.align 3
-Lfde275_end:
+Lfde283_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -52406,36 +54194,36 @@ Lfde275_end:
 
 	.byte 18,40
 	.quad System_Runtime_CompilerServices_Unsafe_Add_T_BYTE_T_BYTE__intptr
-	.quad Lme_11f
+	.quad Lme_127
 
 	.byte 2,118,16,3
 	.asciz "source"
 
-LDIFF_SYM2143=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2143
+LDIFF_SYM2177=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2177
 	.byte 2,141,16,3
 	.asciz "elementOffset"
 
-LDIFF_SYM2144=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2144
+LDIFF_SYM2178=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2178
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2145=Lfde276_end - Lfde276_start
-	.long LDIFF_SYM2145
-Lfde276_start:
+LDIFF_SYM2179=Lfde284_end - Lfde284_start
+	.long LDIFF_SYM2179
+Lfde284_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_Unsafe_Add_T_BYTE_T_BYTE__intptr
 
-LDIFF_SYM2146=Lme_11f - System_Runtime_CompilerServices_Unsafe_Add_T_BYTE_T_BYTE__intptr
-	.long LDIFF_SYM2146
+LDIFF_SYM2180=Lme_127 - System_Runtime_CompilerServices_Unsafe_Add_T_BYTE_T_BYTE__intptr
+	.long LDIFF_SYM2180
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde276_end:
+Lfde284_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -52445,56 +54233,56 @@ Lfde276_end:
 
 	.byte 4,22
 	.quad System_Buffers_DefaultArrayPool_1_T_CHAR__ctor_int_int
-	.quad Lme_120
+	.quad Lme_128
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2147=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2147
+LDIFF_SYM2181=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2181
 	.byte 2,141,48,3
 	.asciz "maxArrayLength"
 
-LDIFF_SYM2148=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2148
+LDIFF_SYM2182=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2182
 	.byte 1,105,3
 	.asciz "maxArraysPerBucket"
 
-LDIFF_SYM2149=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2149
+LDIFF_SYM2183=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2183
 	.byte 1,106,11
 	.asciz "poolId"
 
-LDIFF_SYM2150=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2150
+LDIFF_SYM2184=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2184
 	.byte 1,104,11
 	.asciz "buckets"
 
-LDIFF_SYM2151=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2151
+LDIFF_SYM2185=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2185
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM2152=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2152
+LDIFF_SYM2186=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2186
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2153=Lfde277_end - Lfde277_start
-	.long LDIFF_SYM2153
-Lfde277_start:
+LDIFF_SYM2187=Lfde285_end - Lfde285_start
+	.long LDIFF_SYM2187
+Lfde285_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_DefaultArrayPool_1_T_CHAR__ctor_int_int
 
-LDIFF_SYM2154=Lme_120 - System_Buffers_DefaultArrayPool_1_T_CHAR__ctor_int_int
-	.long LDIFF_SYM2154
+LDIFF_SYM2188=Lme_128 - System_Buffers_DefaultArrayPool_1_T_CHAR__ctor_int_int
+	.long LDIFF_SYM2188
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7
 	.align 3
-Lfde277_end:
+Lfde285_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -52504,56 +54292,56 @@ Lfde277_end:
 
 	.byte 4,22
 	.quad System_Buffers_DefaultArrayPool_1_T_BYTE__ctor_int_int
-	.quad Lme_121
+	.quad Lme_129
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2155=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2155
+LDIFF_SYM2189=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2189
 	.byte 2,141,48,3
 	.asciz "maxArrayLength"
 
-LDIFF_SYM2156=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2156
+LDIFF_SYM2190=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2190
 	.byte 1,105,3
 	.asciz "maxArraysPerBucket"
 
-LDIFF_SYM2157=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2157
+LDIFF_SYM2191=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2191
 	.byte 1,106,11
 	.asciz "poolId"
 
-LDIFF_SYM2158=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2158
+LDIFF_SYM2192=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2192
 	.byte 1,104,11
 	.asciz "buckets"
 
-LDIFF_SYM2159=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2159
+LDIFF_SYM2193=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2193
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM2160=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2160
+LDIFF_SYM2194=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2194
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2161=Lfde278_end - Lfde278_start
-	.long LDIFF_SYM2161
-Lfde278_start:
+LDIFF_SYM2195=Lfde286_end - Lfde286_start
+	.long LDIFF_SYM2195
+Lfde286_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_DefaultArrayPool_1_T_BYTE__ctor_int_int
 
-LDIFF_SYM2162=Lme_121 - System_Buffers_DefaultArrayPool_1_T_BYTE__ctor_int_int
-	.long LDIFF_SYM2162
+LDIFF_SYM2196=Lme_129 - System_Buffers_DefaultArrayPool_1_T_BYTE__ctor_int_int
+	.long LDIFF_SYM2196
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7
 	.align 3
-Lfde278_end:
+Lfde286_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_78:
@@ -52562,94 +54350,94 @@ LTDIE_78:
 	.asciz "_Bucket"
 
 	.byte 40,16
-LDIFF_SYM2163=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM2163
+LDIFF_SYM2197=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM2197
 	.byte 2,35,0,6
 	.asciz "_bufferLength"
 
-LDIFF_SYM2164=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2164
+LDIFF_SYM2198=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2198
 	.byte 2,35,24,6
 	.asciz "_buffers"
 
-LDIFF_SYM2165=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2165
+LDIFF_SYM2199=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2199
 	.byte 2,35,16,6
 	.asciz "_poolId"
 
-LDIFF_SYM2166=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2166
+LDIFF_SYM2200=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2200
 	.byte 2,35,28,6
 	.asciz "_lock"
 
-LDIFF_SYM2167=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2167
+LDIFF_SYM2201=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2201
 	.byte 2,35,32,6
 	.asciz "_index"
 
-LDIFF_SYM2168=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2168
+LDIFF_SYM2202=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2202
 	.byte 2,35,36,0,7
 	.asciz "_Bucket"
 
-LDIFF_SYM2169=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM2169
+LDIFF_SYM2203=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM2203
 LTDIE_78_POINTER:
 
 	.byte 13
-LDIFF_SYM2170=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM2170
+LDIFF_SYM2204=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM2204
 LTDIE_78_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2171=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM2171
+LDIFF_SYM2205=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM2205
 	.byte 2
 	.asciz "System.Buffers.DefaultArrayPool`1/Bucket<T_CHAR>:.ctor"
 	.asciz "System_Buffers_DefaultArrayPool_1_Bucket_T_CHAR__ctor_int_int_int"
 
 	.byte 5,25
 	.quad System_Buffers_DefaultArrayPool_1_Bucket_T_CHAR__ctor_int_int_int
-	.quad Lme_122
+	.quad Lme_12a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2172=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2172
+LDIFF_SYM2206=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2206
 	.byte 2,141,16,3
 	.asciz "bufferLength"
 
-LDIFF_SYM2173=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2173
+LDIFF_SYM2207=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2207
 	.byte 2,141,24,3
 	.asciz "numberOfBuffers"
 
-LDIFF_SYM2174=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2174
+LDIFF_SYM2208=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2208
 	.byte 2,141,32,3
 	.asciz "poolId"
 
-LDIFF_SYM2175=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2175
+LDIFF_SYM2209=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2209
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2176=Lfde279_end - Lfde279_start
-	.long LDIFF_SYM2176
-Lfde279_start:
+LDIFF_SYM2210=Lfde287_end - Lfde287_start
+	.long LDIFF_SYM2210
+Lfde287_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_DefaultArrayPool_1_Bucket_T_CHAR__ctor_int_int_int
 
-LDIFF_SYM2177=Lme_122 - System_Buffers_DefaultArrayPool_1_Bucket_T_CHAR__ctor_int_int_int
-	.long LDIFF_SYM2177
+LDIFF_SYM2211=Lme_12a - System_Buffers_DefaultArrayPool_1_Bucket_T_CHAR__ctor_int_int_int
+	.long LDIFF_SYM2211
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde279_end:
+Lfde287_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -52659,31 +54447,31 @@ Lfde279_end:
 
 	.byte 4,57
 	.quad System_Buffers_DefaultArrayPool_1_T_CHAR_get_Id
-	.quad Lme_123
+	.quad Lme_12b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2178=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2178
+LDIFF_SYM2212=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2212
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2179=Lfde280_end - Lfde280_start
-	.long LDIFF_SYM2179
-Lfde280_start:
+LDIFF_SYM2213=Lfde288_end - Lfde288_start
+	.long LDIFF_SYM2213
+Lfde288_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_DefaultArrayPool_1_T_CHAR_get_Id
 
-LDIFF_SYM2180=Lme_123 - System_Buffers_DefaultArrayPool_1_T_CHAR_get_Id
-	.long LDIFF_SYM2180
+LDIFF_SYM2214=Lme_12b - System_Buffers_DefaultArrayPool_1_T_CHAR_get_Id
+	.long LDIFF_SYM2214
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde280_end:
+Lfde288_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_79:
@@ -52692,94 +54480,94 @@ LTDIE_79:
 	.asciz "_Bucket"
 
 	.byte 40,16
-LDIFF_SYM2181=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM2181
+LDIFF_SYM2215=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM2215
 	.byte 2,35,0,6
 	.asciz "_bufferLength"
 
-LDIFF_SYM2182=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2182
+LDIFF_SYM2216=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2216
 	.byte 2,35,24,6
 	.asciz "_buffers"
 
-LDIFF_SYM2183=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2183
+LDIFF_SYM2217=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2217
 	.byte 2,35,16,6
 	.asciz "_poolId"
 
-LDIFF_SYM2184=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2184
+LDIFF_SYM2218=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2218
 	.byte 2,35,28,6
 	.asciz "_lock"
 
-LDIFF_SYM2185=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2185
+LDIFF_SYM2219=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2219
 	.byte 2,35,32,6
 	.asciz "_index"
 
-LDIFF_SYM2186=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2186
+LDIFF_SYM2220=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2220
 	.byte 2,35,36,0,7
 	.asciz "_Bucket"
 
-LDIFF_SYM2187=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM2187
+LDIFF_SYM2221=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM2221
 LTDIE_79_POINTER:
 
 	.byte 13
-LDIFF_SYM2188=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM2188
+LDIFF_SYM2222=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM2222
 LTDIE_79_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2189=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM2189
+LDIFF_SYM2223=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM2223
 	.byte 2
 	.asciz "System.Buffers.DefaultArrayPool`1/Bucket<T_BYTE>:.ctor"
 	.asciz "System_Buffers_DefaultArrayPool_1_Bucket_T_BYTE__ctor_int_int_int"
 
 	.byte 5,25
 	.quad System_Buffers_DefaultArrayPool_1_Bucket_T_BYTE__ctor_int_int_int
-	.quad Lme_124
+	.quad Lme_12c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2190=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2190
+LDIFF_SYM2224=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2224
 	.byte 2,141,16,3
 	.asciz "bufferLength"
 
-LDIFF_SYM2191=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2191
+LDIFF_SYM2225=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2225
 	.byte 2,141,24,3
 	.asciz "numberOfBuffers"
 
-LDIFF_SYM2192=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2192
+LDIFF_SYM2226=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2226
 	.byte 2,141,32,3
 	.asciz "poolId"
 
-LDIFF_SYM2193=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2193
+LDIFF_SYM2227=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2227
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2194=Lfde281_end - Lfde281_start
-	.long LDIFF_SYM2194
-Lfde281_start:
+LDIFF_SYM2228=Lfde289_end - Lfde289_start
+	.long LDIFF_SYM2228
+Lfde289_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_DefaultArrayPool_1_Bucket_T_BYTE__ctor_int_int_int
 
-LDIFF_SYM2195=Lme_124 - System_Buffers_DefaultArrayPool_1_Bucket_T_BYTE__ctor_int_int_int
-	.long LDIFF_SYM2195
+LDIFF_SYM2229=Lme_12c - System_Buffers_DefaultArrayPool_1_Bucket_T_BYTE__ctor_int_int_int
+	.long LDIFF_SYM2229
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde281_end:
+Lfde289_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -52789,31 +54577,31 @@ Lfde281_end:
 
 	.byte 4,57
 	.quad System_Buffers_DefaultArrayPool_1_T_BYTE_get_Id
-	.quad Lme_125
+	.quad Lme_12d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2196=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2196
+LDIFF_SYM2230=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2230
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2197=Lfde282_end - Lfde282_start
-	.long LDIFF_SYM2197
-Lfde282_start:
+LDIFF_SYM2231=Lfde290_end - Lfde290_start
+	.long LDIFF_SYM2231
+Lfde290_start:
 
 	.long 0
 	.align 3
 	.quad System_Buffers_DefaultArrayPool_1_T_BYTE_get_Id
 
-LDIFF_SYM2198=Lme_125 - System_Buffers_DefaultArrayPool_1_T_BYTE_get_Id
-	.long LDIFF_SYM2198
+LDIFF_SYM2232=Lme_12d - System_Buffers_DefaultArrayPool_1_T_BYTE_get_Id
+	.long LDIFF_SYM2232
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde282_end:
+Lfde290_end:
 
 .section __DWARF, __debug_info,regular,debug
 

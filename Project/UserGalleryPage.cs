@@ -70,13 +70,13 @@ namespace Project
                 stream.CopyTo(memStream);
                 byte[] imageData = memStream.ToArray();
                 //IF THIS DOESN'T WORK, TRY SWAPPING TO THE IMAGESTREAM VERSION
-                //Stream imageStream = new MemoryStream(imageData);
+                Stream imageStream = new MemoryStream(imageData);
                 Image image = new Image
                 {
                     //Source = Xamarin.Forms.ImageSource.FromStream(() => stream)
-                    Source = Xamarin.Forms.ImageSource.FromStream(() => memStream),
-                    BackgroundColor = Color.White
-                    //Source = Xamarin.Forms.ImageSource.FromStream(() => imageStream)
+                    //Source = Xamarin.Forms.ImageSource.FromStream(() => memStream),
+                    BackgroundColor = Color.White,
+                    Source = Xamarin.Forms.ImageSource.FromStream(() => imageStream)
                 };
                 imagesToUpload.Add(image, imageData);
                 //Image image = new Image

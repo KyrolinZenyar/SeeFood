@@ -63,11 +63,11 @@ namespace Project
             camera.GestureRecognizers.Add(takePhoto);
         }
 
-        public static void TakePhoto(Stream stream)
+        public static void TakePhoto(byte[] stream)
         {
             Dictionary<Image, byte[]> imagesToUpload = new Dictionary<Image, byte[]>();
-            MemoryStream memStream = new MemoryStream();
-            stream.CopyTo(memStream);
+            MemoryStream memStream = new MemoryStream(stream);
+            //stream.CopyTo(memStream);
             byte[] imageData = memStream.ToArray();
             //IF THIS DOESN'T WORK, TRY SWAPPING TO THE IMAGESTREAM VERSION
             //Stream imageStream = new MemoryStream(imageData);

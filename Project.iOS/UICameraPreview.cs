@@ -45,6 +45,10 @@ namespace Project.iOS
 			}
 		}
 
+        public void screencap() {
+
+        }
+
 		void Initialize ()
 		{
 			CaptureSession = new AVCaptureSession ();

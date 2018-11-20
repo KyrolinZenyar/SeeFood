@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
         "type": "package",
         "dependencies": {
@@ -345,6 +354,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -357,6 +367,35 @@
     }
   },
   "libraries": {
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
     "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
       "sha512": "UiWrWginObSSfmhKMTnRthhAWuH9yPhqP5ZCCCI9tTWl+XS/+sqcDjd84vP+dr1ve2h/AVZo9NgCbE1Xgktw2g==",
       "type": "package",
@@ -780,11 +819,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.Android/Project.Droid.csproj",
+      "projectUniqueName": "/Users/loganfrank/Desktop/softwareEngineering/temp2/Project.Android/Project.Droid.csproj",
       "projectName": "Project.Droid",
-      "projectPath": "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.Android/Project.Droid.csproj",
+      "projectPath": "/Users/loganfrank/Desktop/softwareEngineering/temp2/Project.Android/Project.Droid.csproj",
       "packagesPath": "/Users/loganfrank/.nuget/packages/",
-      "outputPath": "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.Android/obj",
+      "outputPath": "/Users/loganfrank/Desktop/softwareEngineering/temp2/Project.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/loganfrank/.config/NuGet/NuGet.Config"
@@ -798,8 +837,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project/Project.csproj": {
-              "projectPath": "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project/Project.csproj"
+            "/Users/loganfrank/Desktop/softwareEngineering/temp2/Project/Project.csproj": {
+              "projectPath": "/Users/loganfrank/Desktop/softwareEngineering/temp2/Project/Project.csproj"
             }
           }
         }

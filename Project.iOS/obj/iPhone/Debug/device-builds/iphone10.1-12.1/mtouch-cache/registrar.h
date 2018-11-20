@@ -35,6 +35,7 @@
 @class Foundation_NSAsyncDispatcher;
 @class __MonoMac_NSAsyncActionDispatcher;
 @class __MonoMac_NSAsyncSynchronizationContextDispatcher;
+@class NSURLSessionDataDelegate;
 @class Xamarin_Forms_Platform_iOS_FormsApplicationDelegate;
 @class AppDelegate;
 @class Xamarin_Forms_Platform_iOS_VisualElementRenderer_1;
@@ -67,6 +68,8 @@
 @class UIKit_UIWebView__UIWebViewDelegate;
 @class __NSObject_Disposer;
 @class __XamarinObjectObserver;
+@class System_Net_Http_NSUrlSessionHandler_WrappedNSInputStream;
+@class System_Net_Http_NSUrlSessionHandler_NSUrlSessionHandlerDelegate;
 @class Xamarin_Forms_Platform_iOS_iOS7ButtonContainer;
 @class Xamarin_Forms_Platform_iOS_GlobalCloseContextGestureRecognizer;
 @class Xamarin_Forms_Platform_iOS_ModalWrapper;
@@ -192,6 +195,11 @@
 @end
 
 @interface UIWebViewDelegate : NSObject<UIWebViewDelegate> {
+}
+	-(id) init;
+@end
+
+@interface NSURLSessionDataDelegate : NSObject<NSURLSessionDataDelegate, NSURLSessionTaskDelegate, NSURLSessionDelegate> {
 }
 	-(id) init;
 @end
