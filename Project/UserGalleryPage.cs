@@ -4,6 +4,8 @@ using System.Diagnostics;
 using System.IO;
 using System.Net.Http;
 using Xamarin.Forms;
+using Newtonsoft.Json;
+using Project.DataStructures;
 
 namespace Project
 {
@@ -51,8 +53,9 @@ namespace Project
         }
 
         private void Classify(object sender, EventArgs e) {
-            ClassificationPage page = new ClassificationPage();
-            //More setup
+            ClassificationPage page = new ClassificationPage(serverResponses);
+            //page.serverResponses = serverResponses;
+            //page.Setup();
             App.SwitchTo(page);
         }
 
@@ -71,11 +74,12 @@ namespace Project
                 byte[] imageData = memStream.ToArray();
                 //IF THIS DOESN'T WORK, TRY SWAPPING TO THE IMAGESTREAM VERSION
                 Stream imageStream = new MemoryStream(imageData);
+                imageStream.Position = 0;
                 Image image = new Image
                 {
                     //Source = Xamarin.Forms.ImageSource.FromStream(() => stream)
                     //Source = Xamarin.Forms.ImageSource.FromStream(() => memStream),
-                    BackgroundColor = Color.White,
+                    //BackgroundColor = Color.White,
                     Source = Xamarin.Forms.ImageSource.FromStream(() => imageStream)
                 };
                 imagesToUpload.Add(image, imageData);
@@ -102,7 +106,7 @@ namespace Project
             }
         }
 
-        public static Dictionary<Image, string> serverResponses = new Dictionary<Image, string>();
+        public static Dictionary<Image, AWSClassification> serverResponses = new Dictionary<Image, AWSClassification>();
 
         //Send Images To AWS
         public static async void ClassifyImage(Dictionary<Image, byte[]> imagesToUpload)
@@ -130,8 +134,12 @@ namespace Project
 
                     string responseString = response.Content.ReadAsStringAsync().Result;
 
+                    AWSClassification responseClassification = JsonConvert.DeserializeObject<AWSClassification>(responseString);
+
+                    Console.WriteLine(responseClassification.Filename);
+
                     //Put string of server response into dictionary associated with image.
-                    serverResponses.Add(uploadData.Key, responseString);
+                    serverResponses.Add(uploadData.Key, responseClassification);
 
                     Debug.WriteLine(responseString);
                 }

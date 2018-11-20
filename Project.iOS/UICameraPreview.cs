@@ -14,6 +14,8 @@ namespace Project.iOS
 
 		public event EventHandler<EventArgs> Tapped;
 
+
+
 		public AVCaptureSession CaptureSession { get; private set; }
 
 		public bool IsPreviewing { get; set; }

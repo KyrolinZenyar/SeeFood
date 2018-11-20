@@ -1,15 +1,14 @@
 ﻿<Properties StartupConfiguration="{A87AD617-A01E-43E0-BF49-D67D1B431CE0}|Default">
   <MonoDevelop.Ide.ItemProperties.Project.Droid PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Project.iOS/CameraPreviewRenderer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Project/DataStructures/Classification.cs">
     <Files>
-      <File FileName="Project/AppPage.cs" Line="18" Column="1" />
       <File FileName="Project/GalleryPage.cs" Line="19" Column="13" />
-      <File FileName="Project/CameraPage.cs" Line="70" Column="15" />
-      <File FileName="Project/UserGalleryPage.cs" Line="91" Column="95" />
-      <File FileName="Project/PreviousSubmissionsPage.cs" Line="16" Column="1" />
-      <File FileName="Project.iOS/CameraPreviewRenderer.cs" Line="59" Column="15" />
-      <File FileName="Project.iOS/UICameraPreview.cs" Line="71" Column="31" />
-      <File FileName="Project.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="Project/PreviousSubmissionsPage.cs" Line="73" Column="17" />
+      <File FileName="Project/AppPage.cs" Line="18" Column="15" />
+      <File FileName="Project/ClassificationPage.cs" Line="30" Column="30" />
+      <File FileName="Project/CameraPage.cs" Line="150" Column="15" />
+      <File FileName="Project/UserGalleryPage.cs" Line="58" Column="15" />
+      <File FileName="Project/DataStructures/Classification.cs" Line="8" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />

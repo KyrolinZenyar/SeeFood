@@ -1,9 +1,11 @@
 ﻿using System;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Net.Http;
 using Xamarin.Forms;
+using Project.DataStructures;
 
 namespace Project
 {
@@ -38,7 +40,7 @@ namespace Project
         };
 
         //public static Dictionary<Image, byte[]> imagesToUpload = new Dictionary<Image, byte[]>();
-        public static Dictionary<Image, string> serverResponses = new Dictionary<Image, string>();
+        public static Dictionary<Image, AWSClassification> serverResponses = new Dictionary<Image, AWSClassification>();
 
 
         public CameraPage()
@@ -123,8 +125,10 @@ namespace Project
 
                     string responseString = response.Content.ReadAsStringAsync().Result;
 
+                    AWSClassification responseClassification = JsonConvert.DeserializeObject<AWSClassification>(responseString);
+
                     //Put string of server response into dictionary associated with image.
-                    serverResponses.Add(uploadData.Key, responseString);
+                    serverResponses.Add(uploadData.Key, responseClassification);
 
                     Debug.WriteLine(responseString);
                 }
@@ -142,8 +146,9 @@ namespace Project
         private void ClassifyThese(object sender, EventArgs e) {
             
             imageCount = 0;
-            ClassificationPage page = new ClassificationPage();
-            //Other setup stuff
+            ClassificationPage page = new ClassificationPage(serverResponses);
+            //page.serverResponses = serverResponses;
+            page.Setup();
             App.SwitchTo(page);
         }
 

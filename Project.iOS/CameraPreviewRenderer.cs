@@ -18,6 +18,8 @@ namespace Project.iOS
 	{
 		public UICameraPreview uiCameraPreview;
 
+
+
 		protected override void OnElementChanged (ElementChangedEventArgs<CameraPreview> e)
 		{
 			base.OnElementChanged (e);
@@ -49,14 +51,12 @@ namespace Project.iOS
 
 		public async void OnCameraPreviewTapped (object sender, EventArgs e)
 		{
-            var output = new AVCaptureStillImageOutput
+            AVCaptureStillImageOutput output = new AVCaptureStillImageOutput
             {
                 OutputSettings = new NSDictionary()
             };
-
-            //uiCameraPreview.CaptureSession.StopRunning();
-            uiCameraPreview.CaptureSession.AddOutput(output);
             //uiCameraPreview.CaptureSession.StartRunning();
+            uiCameraPreview.CaptureSession.AddOutput(output);
 
             var videoConnection = output.ConnectionFromMediaType(AVMediaType.Video);
             var sampleBuffer = await output.CaptureStillImageTaskAsync(videoConnection);
