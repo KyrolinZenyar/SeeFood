@@ -4,7 +4,7 @@ using Android.Content;
 using Xamarin.Forms;
 using Project.Droid;
 
-[assembly: Dependency(typeof(PicturePickerImplementation))]e
+[assembly: Dependency(typeof(PicturePickerImplementation))]
 
 namespace Project.Droid
 {

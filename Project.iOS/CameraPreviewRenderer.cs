@@ -1,5 +1,4 @@
 ﻿using System;
-using SkiaSharp;
 using Project;
 using Project.iOS;
 using Xamarin.Forms;

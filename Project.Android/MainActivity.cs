@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-
 using Android.App;
 using Android.Content;
 using Android.Content.PM;
@@ -24,6 +23,9 @@ namespace Project.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
         }
+
+        public static MainActivity Instance { get; private set; }
+        
 
 
         // Field, property, and method for Picture Picker

@@ -713,31 +713,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/loganfrank/.nuget/packages/": {}
+    "C:\\Users\\CJdog89\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/Project.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\CJdog89\\Documents\\School\\SeeFood\\Project.iOS\\Project.iOS.csproj",
       "projectName": "Project.iOS",
-      "projectPath": "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/Project.iOS.csproj",
-      "packagesPath": "/Users/loganfrank/.nuget/packages/",
-      "outputPath": "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj",
+      "projectPath": "C:\\Users\\CJdog89\\Documents\\School\\SeeFood\\Project.iOS\\Project.iOS.csproj",
+      "packagesPath": "C:\\Users\\CJdog89\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CJdog89\\Documents\\School\\SeeFood\\Project.iOS\\obj\\",
       "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/loganfrank/.config/NuGet/NuGet.Config"
+        "C:\\Users\\CJdog89\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project/Project.csproj": {
-              "projectPath": "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project/Project.csproj"
+            "C:\\Users\\CJdog89\\Documents\\School\\SeeFood\\Project\\Project.csproj": {
+              "projectPath": "C:\\Users\\CJdog89\\Documents\\School\\SeeFood\\Project\\Project.csproj"
             }
           }
         }
@@ -748,7 +751,7 @@
         "dependencies": {
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "3.3.0.967583"
+            "version": "[3.3.0.967583, )"
           }
         }
       }
