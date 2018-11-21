@@ -14,6 +14,8 @@ namespace Project.iOS
 
 		public event EventHandler<EventArgs> Tapped;
 
+
+
 		public AVCaptureSession CaptureSession { get; private set; }
 
 		public bool IsPreviewing { get; set; }
@@ -44,6 +46,10 @@ namespace Project.iOS
 				eventHandler (this, new EventArgs ());
 			}
 		}
+
+        public void screencap() {
+
+        }
 
 		void Initialize ()
 		{
