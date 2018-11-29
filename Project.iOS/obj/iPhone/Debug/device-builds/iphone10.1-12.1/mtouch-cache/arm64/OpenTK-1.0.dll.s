@@ -2885,7 +2885,7 @@ bl _p_20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 
@@ -3320,7 +3320,7 @@ OpenTK_ContextHandle_CompareTo_OpenTK_ContextHandle:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802320
+.word 0xd2802340
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2801960
@@ -6302,7 +6302,7 @@ bl _p_71
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 
@@ -7822,7 +7822,7 @@ ldr x1, [x16, #2144]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2801540
@@ -9177,7 +9177,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2801540
@@ -10235,7 +10235,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2801540
@@ -11293,7 +11293,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2801540
@@ -12531,7 +12531,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2801540
@@ -12782,7 +12782,7 @@ ldr x0, [x16, #0]
 .word 0xd28285a1
 bl _p_20
 .word 0xaa0003e1
-.word 0xd28022a0
+.word 0xd28022c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -12866,7 +12866,7 @@ ldr x0, [x16, #0]
 .word 0xd2829741
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -13076,7 +13076,7 @@ ldr x0, [x16, #0]
 .word 0xd282a741
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -13143,7 +13143,7 @@ ldr x0, [x16, #0]
 .word 0xd282b921
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -13286,7 +13286,7 @@ bl _p_185
 .word 0xd63f0200
 .word 0x14000005
 .loc 21 378 0
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13343,7 +13343,7 @@ ldr x0, [x16, #3752]
 .loc 21 388 0
 .word 0x14000005
 .loc 21 390 0
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13394,7 +13394,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Focused:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13511,7 +13511,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Exists:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13700,7 +13700,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Bounds:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf90013a0
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13721,7 +13721,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Bounds_System
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf90013a2
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13738,7 +13738,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Location:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf90013a0
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13757,7 +13757,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Location_Syst
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13871,7 +13871,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_X:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13889,7 +13889,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_X_int:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13906,7 +13906,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Y:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13924,7 +13924,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Y_int:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13941,7 +13941,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Width:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13959,7 +13959,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Width_int:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13976,7 +13976,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Height:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13994,7 +13994,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Height_int:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -14011,7 +14011,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_ClientRectang
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf90013a0
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -14032,7 +14032,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_ClientRectang
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf90013a2
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -14049,7 +14049,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_ClientSize:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf90013a0
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -14068,7 +14068,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_ClientSize_Sy
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -14543,7 +14543,7 @@ bl _p_20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -14676,7 +14676,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 
@@ -14846,7 +14846,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_ProcessEvents:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -16184,7 +16184,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_Move_System_E
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -16202,7 +16202,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_Move_Syste
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -16276,7 +16276,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -16349,7 +16349,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -16366,7 +16366,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_Closing_Syste
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -16384,7 +16384,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_Closing_Sy
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -16458,7 +16458,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -16531,7 +16531,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -16604,7 +16604,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -16677,7 +16677,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -16750,7 +16750,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -16823,7 +16823,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -16896,7 +16896,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -16969,7 +16969,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -16986,7 +16986,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_FocusedChange
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -17004,7 +17004,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_FocusedCha
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -17022,7 +17022,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_WindowBorderC
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -17040,7 +17040,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_WindowBord
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -17114,7 +17114,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -17187,7 +17187,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -17204,7 +17204,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_KeyPress_Syst
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -17222,7 +17222,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_KeyPress_S
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -17296,7 +17296,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -17369,7 +17369,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -17442,7 +17442,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -17515,7 +17515,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -17588,7 +17588,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -17661,7 +17661,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -17734,7 +17734,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -17807,7 +17807,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2802060
@@ -26486,7 +26486,7 @@ ldr x0, [x16, #4080]
 .word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802320
+.word 0xd2802340
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2801960
@@ -27360,7 +27360,7 @@ bl _p_272
 .word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802320
+.word 0xd2802340
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2801960
@@ -27520,7 +27520,7 @@ ldr x15, [x16, #4064]
 .word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802320
+.word 0xd2802340
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2801960
@@ -27684,7 +27684,7 @@ bl _p_238
 .word 0xb4fffee0
 .word 0xaa1a03e0
 bl _p_22
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -29201,7 +29201,7 @@ ldr x1, [x16, #16]
 .word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802320
+.word 0xd2802340
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2801960
@@ -32834,7 +32834,7 @@ _mono_aot_file_info:
 	.long 1000,10832,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 68,13,109,31,140,164,10,175,5,116,120,188,63,202,250,198
+	.byte 240,206,164,153,230,125,53,220,206,69,160,53,9,46,160,139
 	.globl _mono_aot_module_OpenTK_1_0_info
 	.align 3
 _mono_aot_module_OpenTK_1_0_info:

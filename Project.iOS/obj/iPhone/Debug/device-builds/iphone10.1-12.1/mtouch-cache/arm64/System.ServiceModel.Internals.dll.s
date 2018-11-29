@@ -773,7 +773,7 @@ bl _p_32
 .word 0xd2802060
 .word 0xaa1103e1
 bl _p_33
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_33
 .word 0xd2801540
@@ -5197,7 +5197,7 @@ System_Runtime_Interop_SafeEventLogWriteHandle_RegisterEventSource_string_string
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -5214,7 +5214,7 @@ System_Runtime_Interop_SafeEventLogWriteHandle_ReleaseHandle:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -5234,7 +5234,7 @@ System_Runtime_Interop_UnsafeNativeMethods_EventRegister_System_Guid__System_Run
 .word 0xf9000fa1
 .word 0xf90013a2
 .word 0xf90017a3
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -5251,7 +5251,7 @@ System_Runtime_Interop_UnsafeNativeMethods_EventUnregister_long:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -5269,7 +5269,7 @@ System_Runtime_Interop_UnsafeNativeMethods_EventEnabled_long_System_Runtime_Diag
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -5289,7 +5289,7 @@ System_Runtime_Interop_UnsafeNativeMethods_EventWrite_long_System_Runtime_Diagno
 .word 0xf9000fa1
 .word 0xf90013a2
 .word 0xf90017a3
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -5307,7 +5307,7 @@ System_Runtime_Interop_UnsafeNativeMethods_EventActivityIdControl_int_System_Gui
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -5332,7 +5332,7 @@ System_Runtime_Interop_UnsafeNativeMethods_ReportEvent_System_Runtime_InteropSer
 .word 0xf9001fa4
 .word 0xf90023a5
 .word 0xf90027a6
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -5462,7 +5462,7 @@ ldr x2, [x16, #16]
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000400
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -5497,7 +5497,7 @@ bl _p_75
 bl _mono_create_corlib_exception_1
 bl _p_69
 .word 0x17ffffe9
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_33
 .word 0xd2801540
@@ -5563,7 +5563,7 @@ bl _p_77
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_33
 
@@ -5613,7 +5613,7 @@ System_Runtime_Diagnostics_DiagnosticsEventProvider_Deregister:
 .loc 12 137 0
 .word 0xf9400ba0
 .word 0xf9400c00
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -5747,7 +5747,7 @@ bl _p_78
 .loc 12 211 0
 .word 0xf9400ba0
 .word 0xf9400c00
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -5914,7 +5914,7 @@ ldr x1, [x16, #816]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x54000440
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -5936,7 +5936,7 @@ bl _p_69
 .loc 12 678 0
 .word 0xf9401fa0
 .word 0xf9400c00
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -5957,7 +5957,7 @@ bl _p_79
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_33
 
@@ -5981,14 +5981,14 @@ System_Runtime_Diagnostics_DiagnosticsEventProvider_WriteEvent_System_Runtime_Di
 .word 0xeb1f001f
 .word 0x10000011
 .word 0x540001e0
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
 .loc 12 716 0
 .word 0xf9400ba0
 .word 0xf9400c00
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -5997,7 +5997,7 @@ bl _p_69
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_33
 
@@ -6010,7 +6010,7 @@ System_Runtime_Diagnostics_DiagnosticsEventProvider_SetActivityId_System_Guid_:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -7002,7 +7002,7 @@ bl _p_101
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_33
 .word 0xd2801540
@@ -8832,7 +8832,7 @@ bl _p_119
 .word 0xf9401fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9408430
+.word 0xf9407430
 .word 0xd63f0200
 .loc 16 368 0
 .word 0xf9401ba1
@@ -9417,7 +9417,7 @@ bl _p_139
 .word 0xf94083a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9408430
+.word 0xf9407430
 .word 0xd63f0200
 .loc 16 487 0
 .word 0xf9407fa1
@@ -10449,7 +10449,7 @@ bl _p_175
 .word 0xf9401ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9408430
+.word 0xf9407430
 .word 0xd63f0200
 .loc 16 734 0
 .word 0xf94017a1
@@ -11135,7 +11135,7 @@ bl _p_175
 .word 0xf9401ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9408430
+.word 0xf9407430
 .word 0xd63f0200
 .loc 16 832 0
 .word 0xf94017a1
@@ -11498,7 +11498,7 @@ ldr x15, [x16, #400]
 .word 0xf94017a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9408430
+.word 0xf9407430
 .word 0xd63f0200
 .loc 16 872 0
 .word 0xf94013a1
@@ -13112,7 +13112,7 @@ bl _p_202
 .loc 19 134 0
 bl _p_203
 .word 0x3940001e
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -13547,7 +13547,7 @@ ldr x0, [x16, #1656]
 .word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_33
-.word 0xd2802320
+.word 0xd2802340
 .word 0xaa1103e1
 bl _p_33
 .word 0xd2801960
@@ -13854,7 +13854,7 @@ System_Runtime_Diagnostics_EventLogger_UnsafeWriteEventLog_System_Diagnostics_Tr
 .word 0xf9002fa0
 .word 0xf9400ba0
 .word 0xf9400c00
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -13890,7 +13890,7 @@ bl _p_218
 .word 0x93407c00
 .word 0xf9401ba0
 .word 0xb9801800
-.word 0xd2802200
+.word 0xd2802220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_69
@@ -14642,7 +14642,7 @@ System_Array_InternalArray__Insert_T_REF_int_T_REF:
 .word 0xd2888920
 bl _p_229
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_69
@@ -14663,7 +14663,7 @@ System_Array_InternalArray__RemoveAt_int:
 .word 0xd2888920
 bl _p_229
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_69
@@ -14757,7 +14757,7 @@ bl _p_230
 .word 0xd28890a0
 bl _p_229
 .word 0xaa0003e1
-.word 0xd28023c0
+.word 0xd28023e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_69
@@ -15071,7 +15071,7 @@ System_Array_InternalArray__ICollection_Clear:
 .word 0xd2888320
 bl _p_229
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_69
@@ -15093,7 +15093,7 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 .word 0xd2888920
 bl _p_229
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_69
@@ -15115,7 +15115,7 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 .word 0xd2888920
 bl _p_229
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_69
@@ -15189,7 +15189,7 @@ bl _p_238
 .word 0xd28890a0
 bl _p_229
 .word 0xaa0003e1
-.word 0xd28023c0
+.word 0xd28023e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_69
@@ -18941,7 +18941,7 @@ _mono_aot_file_info:
 	.long 368,3288,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 230,205,81,129,26,183,197,22,52,150,232,35,215,47,194,77
+	.byte 156,41,102,3,136,43,255,221,81,87,107,142,225,98,218,115
 	.globl _mono_aot_module_System_ServiceModel_Internals_info
 	.align 3
 _mono_aot_module_System_ServiceModel_Internals_info:

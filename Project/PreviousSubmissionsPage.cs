@@ -135,33 +135,6 @@ namespace Project
                 GetImages();
 
 
-                //Iterate through all images passed in (should only be one at a time)
-                //foreach (KeyValuePair<Image, byte[]> uploadData in imagesToUpload)
-                //{
-                //    //Get byte array of image
-                //    var byteArrayToUpload = uploadData.Value;
-
-                //    //Set up HTTP client and data to upload (byte array) THIS MAY NOT WORK
-                //    HttpClient serverClient = new HttpClient();
-                //    MultipartFormDataContent uploadDataContent = new MultipartFormDataContent();
-                //    ByteArrayContent byteArrayContent = new ByteArrayContent(byteArrayToUpload);
-                //    string fileName = "SeeFoodUpload" + DateTime.Now.ToString("yyyy-mm-dd-HH-mm-ss") + ".png";
-                //    uploadDataContent.Add(byteArrayContent, "file", fileName);
-
-                //    //Get server response
-                //    var response = await serverClient.PostAsync(AWSServer, uploadDataContent);
-
-                //    string responseString = response.Content.ReadAsStringAsync().Result;
-
-                //    //Deserialize Json response as classification object
-                //    //Classification responseClassification = JsonConvert.DeserializeObject<Classification>(responseString);
-
-                //    //Put string of server response into dictionary associated with image.
-                //    serverResponses.Add(uploadData.Key, responseClassification);
-
-                //    Debug.WriteLine(responseClassification);
-                //}
-                //imagesToUpload.Clear();
             }
             catch (Exception ex)
             {
