@@ -45,38 +45,51 @@ namespace Project
 
         private  async void GetImages()
         {
+            var counter = 0;
             var AWSServer = "http://seefood-dev2.us-east-2.elasticbeanstalk.com/get-image?file=";
 
-            var testClassification = previousClassifications.FirstOrDefault();
-            try
-            {
-                HttpClient serverClient = new HttpClient();
-                Console.WriteLine(testClassification.Filename);
-                var imageFileRequest = AWSServer + testClassification.Filename;
-                var response = await serverClient.GetAsync(imageFileRequest);
-
-                byte[] responseByteArray = response.Content.ReadAsByteArrayAsync().Result;
-
-                //string result = null;
-                //result = response.Content.ReadAsStringAsync().Result.Replace(""", string.Empty);
-
-                //byte[] image = JsonConvert.DeserializeObject<byte[]>(responseString);
-                //var bytes = Convert.FromBase64String(image);
-
-                Stream imageStream = new MemoryStream(responseByteArray);
-                Image imageFromServer = new Image
+            for (int i = 0; i < previousClassifications.Count(); i++){
+                var testClassification = previousClassifications.ElementAt(i);
+                try
                 {
-                    Source = ImageSource.FromStream(() => imageStream)
-                };
+                    HttpClient serverClient = new HttpClient();
+                    Console.WriteLine(testClassification.Filename);
+                    var imageFileRequest = AWSServer + testClassification.Filename;
+                    var response = await serverClient.GetAsync(imageFileRequest);
 
-                previousImages.Add(imageFromServer, testClassification);
-                imageGrid.Children.Add(imageFromServer, 0, 0);
+                    byte[] responseByteArray = response.Content.ReadAsByteArrayAsync().Result;
 
+                    //string result = null;
+                    //result = response.Content.ReadAsStringAsync().Result.Replace(""", string.Empty);
+
+                    //byte[] image = JsonConvert.DeserializeObject<byte[]>(responseString);
+                    //var bytes = Convert.FromBase64String(image);
+
+                    Stream imageStream = new MemoryStream(responseByteArray);
+                    Image imageFromServer = new Image
+                    {
+                        Source = ImageSource.FromStream(() => imageStream)
+                    };
+
+                    previousImages.Add(imageFromServer, testClassification);
+                    imageGrid.Children.Add(imageFromServer, counter % 4, counter / 4);
+                    counter++;
+                    if (counter % 4 == 0)
+                    {
+                        imageGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(160) });
+                    }
+                    //images.Add(imageFromServer);
+                    //imageGrid.Children.Add(imageFromServer, 0, 0);
+
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine("Exception occurred: " + ex.ToString());
+                }
             }
-            catch (Exception ex)
-            {
-                Debug.WriteLine("Exception occurred: " + ex.ToString());
-            }
+
+            previousClassifications.Clear();
+
         }
 
 
@@ -118,8 +131,8 @@ namespace Project
 
                     previousClassifications.Add(newClassification);
 
-                    GetImages();
                 }
+                GetImages();
 
 
                 //Iterate through all images passed in (should only be one at a time)

@@ -56,6 +56,7 @@ namespace Project
             ClassificationPage page = new ClassificationPage(serverResponses);
             //page.serverResponses = serverResponses;
             //page.Setup();
+            counter = 0;
             App.SwitchTo(page);
         }
 

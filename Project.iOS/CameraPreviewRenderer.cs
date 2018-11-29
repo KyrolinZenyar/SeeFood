@@ -17,7 +17,7 @@ namespace Project.iOS
 	public class CameraPreviewRenderer : ViewRenderer<CameraPreview, UICameraPreview>
 	{
 		public UICameraPreview uiCameraPreview;
-
+        public Boolean ready = true;
 
 
 		protected override void OnElementChanged (ElementChangedEventArgs<CameraPreview> e)
@@ -51,22 +51,28 @@ namespace Project.iOS
 
 		public async void OnCameraPreviewTapped (object sender, EventArgs e)
 		{
-            AVCaptureStillImageOutput output = new AVCaptureStillImageOutput
+            if (ready)
             {
-                OutputSettings = new NSDictionary()
-            };
-            //uiCameraPreview.CaptureSession.StartRunning();
-            uiCameraPreview.CaptureSession.AddOutput(output);
+                ready = false;
+                AVCaptureStillImageOutput output = new AVCaptureStillImageOutput
+                {
+                    OutputSettings = new NSDictionary()
+                };
+                //uiCameraPreview.CaptureSession.StartRunning();
+                uiCameraPreview.CaptureSession.AddOutput(output);
 
-            var videoConnection = output.ConnectionFromMediaType(AVMediaType.Video);
-            var sampleBuffer = await output.CaptureStillImageTaskAsync(videoConnection);
+                var videoConnection = output.ConnectionFromMediaType(AVMediaType.Video);
+                var sampleBuffer = await output.CaptureStillImageTaskAsync(videoConnection);
 
-            var jpegImageAsNSData = AVCaptureStillImageOutput.JpegStillToNSData(sampleBuffer);
-            var jpegAsByteArray = jpegImageAsNSData.ToArray();
+                var jpegImageAsNSData = AVCaptureStillImageOutput.JpegStillToNSData(sampleBuffer);
+                var jpegAsByteArray = jpegImageAsNSData.ToArray();
 
-            CameraPage.TakePhoto(jpegAsByteArray);
+                uiCameraPreview.CaptureSession.RemoveOutput(output);
 
 
+                CameraPage.TakePhoto(jpegAsByteArray);
+                ready = true;
+            }
             //uiCameraPreview.CaptureSession.StopRunning();
             //var stuff = uiCameraPreview.Capture();
             //uiCameraPreview.CaptureSession.

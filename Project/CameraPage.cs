@@ -76,7 +76,8 @@ namespace Project
             Image imageToSend = new Image
             {
                 //Source = Xamarin.Forms.ImageSource.FromStream(() => stream)
-                Source = Xamarin.Forms.ImageSource.FromStream(() => memStream)
+                Source = Xamarin.Forms.ImageSource.FromStream(() => memStream),
+
                 //Source = Xamarin.Forms.ImageSource.FromStream(() => imageStream)
             };
             imagesToUpload.Add(imageToSend, imageData);
@@ -144,12 +145,14 @@ namespace Project
         }
 
         private void ClassifyThese(object sender, EventArgs e) {
-            
-            imageCount = 0;
-            ClassificationPage page = new ClassificationPage(serverResponses);
-            //page.serverResponses = serverResponses;
-            page.Setup();
-            App.SwitchTo(page);
+            if(imageCount > 0){
+                imageCount = 0;
+                classifyButton.Text = "Classify " + imageCount + " Photos";
+                ClassificationPage page = new ClassificationPage(serverResponses);
+                //page.serverResponses = serverResponses;
+                page.Setup();
+                App.SwitchTo(page);
+            }
         }
 
     }

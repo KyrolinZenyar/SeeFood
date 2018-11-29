@@ -787,11 +787,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/loganfrank/Desktop/softwareEngineering/temp2/Project.iOS/Project.iOS.csproj",
+      "projectUniqueName": "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/Project.iOS.csproj",
       "projectName": "Project.iOS",
-      "projectPath": "/Users/loganfrank/Desktop/softwareEngineering/temp2/Project.iOS/Project.iOS.csproj",
+      "projectPath": "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/Project.iOS.csproj",
       "packagesPath": "/Users/loganfrank/.nuget/packages/",
-      "outputPath": "/Users/loganfrank/Desktop/softwareEngineering/temp2/Project.iOS/obj",
+      "outputPath": "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/loganfrank/.config/NuGet/NuGet.Config"
@@ -805,8 +805,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/loganfrank/Desktop/softwareEngineering/temp2/Project/Project.csproj": {
-              "projectPath": "/Users/loganfrank/Desktop/softwareEngineering/temp2/Project/Project.csproj"
+            "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project/Project.csproj": {
+              "projectPath": "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project/Project.csproj"
             }
           }
         }

@@ -1,6 +1,6 @@
-/Users/loganfrank/Desktop/softwareEngineering/temp2/Project.iOS/bin/iPhoneSimulator/Debug/Project.iOS.exe
+/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/bin/iPhoneSimulator/Debug/Project.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/lib/mono/Xamarin.iOS/mscorlib.dll
-/Users/loganfrank/Desktop/softwareEngineering/temp2/Project/bin/Debug/netstandard2.0/Project.dll
+/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project/bin/Debug/netstandard2.0/Project.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/lib/mono/Xamarin.iOS/Facades/netstandard.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/lib/mono/Xamarin.iOS/System.Core.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/lib/mono/Xamarin.iOS/System.dll
