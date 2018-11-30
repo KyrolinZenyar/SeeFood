@@ -817,7 +817,7 @@
         "dependencies": {
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "3.3.0.967583"
+            "version": "[3.3.0.967583, )"
           }
         }
       }

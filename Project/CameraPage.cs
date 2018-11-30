@@ -145,7 +145,7 @@ namespace Project
         }
 
         private void ClassifyThese(object sender, EventArgs e) {
-            if(imageCount > 0){
+            if(serverResponses.Count > 0){
                 imageCount = 0;
                 classifyButton.Text = "Classify " + imageCount + " Photos";
                 ClassificationPage page = new ClassificationPage(serverResponses);

@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/969357ac02b Wed Oct 31 18:22:58 EDT 2018)"
+	.asciz "Mono AOT Compiler 5.14.0 (explicit/000780ca82c Tue Nov 20 23:30:52 EST 2018)"
 	.asciz "Project.iOS.exe"
 	.asciz ""
 
@@ -350,7 +350,7 @@ Lme_3:
 	.no_dead_strip Project_iOS_CameraPreviewRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview
 Project_iOS_CameraPreviewRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview:
 .file 3 "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/CameraPreviewRenderer.cs"
-.loc 3 24 0 prologue_end
+.loc 3 25 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xa9015fb6
@@ -380,7 +380,7 @@ ldr x16, [x16, #248]
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 25 0
+.loc 3 26 0
 .word 0xf9401fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -394,7 +394,7 @@ bl _p_8
 .word 0xf940a231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 27 0
+.loc 3 28 0
 .word 0xf9401fb1
 .word 0xf940b231
 .word 0xb4000051
@@ -419,7 +419,7 @@ bl _p_9
 .word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 28 0
+.loc 3 29 0
 .word 0xf9401fb1
 .word 0xf9411231
 .word 0xb4000051
@@ -470,7 +470,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 29 0
+.loc 3 30 0
 .word 0xf9401fb1
 .word 0xf941d231
 .word 0xb4000051
@@ -484,12 +484,12 @@ bl _p_14
 .word 0xf941f631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 30 0
+.loc 3 31 0
 .word 0xf9401fb1
 .word 0xf9420631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 31 0
+.loc 3 32 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -519,7 +519,7 @@ bl _p_15
 .word 0xf9427a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 33 0
+.loc 3 34 0
 .word 0xf9401fb1
 .word 0xf9428a31
 .word 0xb4000051
@@ -583,12 +583,12 @@ bl _p_16
 .word 0xf9436231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 34 0
+.loc 3 35 0
 .word 0xf9401fb1
 .word 0xf9437231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 35 0
+.loc 3 36 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -618,7 +618,7 @@ bl _p_10
 .word 0xf943e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 37 0
+.loc 3 38 0
 .word 0xf9401fb1
 .word 0xf943f631
 .word 0xb4000051
@@ -682,12 +682,12 @@ bl _p_17
 .word 0xf944ce31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 38 0
+.loc 3 39 0
 .word 0xf9401fb1
 .word 0xf944de31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 39 0
+.loc 3 40 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -716,233 +716,6 @@ bl _p_18
 Lme_4:
 .text
 	.align 4
-	.no_dead_strip Project_iOS_CameraPreviewRenderer_Capture
-Project_iOS_CameraPreviewRenderer_Capture:
-.loc 3 41 0 prologue_end
-.word 0xa9b67bfd
-.word 0x910003fd
-.word 0xa90167b8
-.word 0xf90013ba
-.word 0xf90017a0
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #296]
-.word 0xf9001bb0
-.word 0xf9400a11
-.word 0xf9001fb1
-.word 0xd280001a
-.word 0xf90027bf
-.word 0xd2800019
-.word 0xd2800018
-.word 0xf9401bb1
-.word 0xf9404a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 42 0
-.word 0xf9401bb1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_19
-.word 0xf90047a0
-.word 0xf9401bb1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94047a1
-.word 0xaa0103e0
-.word 0x3940003e
-bl _p_20
-.word 0xf90043a0
-.word 0xf9401bb1
-.word 0xf940b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xf9003fa0
-.word 0xaa0003fa
-.loc 3 45 0
-.word 0xf9401bb1
-.word 0xf940d231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403fa1
-.word 0xaa0103e0
-.word 0xaa0103e0
-.word 0x3940003e
-bl _p_21
-.word 0xf9003ba0
-.word 0xf9401bb1
-.word 0xf940fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba0
-.word 0xf90027a0
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9412231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 46 0
-.word 0xf9401bb1
-.word 0xf9413231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027a1
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf940ec30
-.word 0xd63f0200
-.word 0xf9004ba0
-.word 0xf9401bb1
-.word 0xf9415a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9416a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9404ba1
-.word 0xeb1f003f
-.word 0x10000011
-.word 0x54000e4b
-.word 0xaa0103e0
-.word 0xd29ffffe
-.word 0xf2bffffe
-.word 0xeb1e003f
-.word 0x10000011
-.word 0x54000d8c
-.word 0xeb1f003f
-.word 0x10000011
-.word 0x54000d2b
-.word 0xaa0103e0
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #304]
-bl _p_22
-.word 0xaa0003f9
-.loc 3 47 0
-.word 0xf9401bb1
-.word 0xf941c631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027a1
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf940f030
-.word 0xd63f0200
-.word 0xf9003ba0
-.word 0xf9401bb1
-.word 0xf941ee31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9003fa0
-.word 0xd2800000
-.word 0xf94027a1
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf940ec30
-.word 0xd63f0200
-.word 0xf90047a0
-.word 0xf9401bb1
-.word 0xf9422231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9423231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94047a0
-bl _p_23
-.word 0x93407c00
-.word 0xf90043a0
-.word 0xf9401bb1
-.word 0xf9425231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba0
-.word 0xf9403fa1
-.word 0xf94043a3
-.word 0xd2800002
-bl _p_24
-.word 0xf9401bb1
-.word 0xf9427631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 48 0
-.word 0xf9401bb1
-.word 0xf9428631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa0003f8
-.word 0xf9002bbf
-.word 0x94000005
-.word 0xf9402ba0
-.word 0xb4000040
-bl _p_25
-.word 0x14000014
-.word 0xf90037be
-.word 0xf94027a0
-.word 0xb40001e0
-.word 0xf94027a1
-.word 0xaa0103e0
-.word 0xf9400021
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x15, [x16, #312]
-.word 0x928004f0
-.word 0xf2bffff0
-.word 0xf8706830
-.word 0xd63f0200
-.word 0xf9401bb1
-.word 0xf942ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94037be
-.word 0xd61f03c0
-.loc 3 50 0
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9431231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0xf9401bb1
-.word 0xf9432a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94167b8
-.word 0xf94013ba
-.word 0x910003bf
-.word 0xa8ca7bfd
-.word 0xd65f03c0
-.word 0xd2802340
-.word 0xaa1103e1
-bl _p_18
-
-Lme_5:
-.text
-	.align 4
 	.no_dead_strip Project_iOS_CameraPreviewRenderer_OnCameraPreviewTapped_object_System_EventArgs
 Project_iOS_CameraPreviewRenderer_OnCameraPreviewTapped_object_System_EventArgs:
 .word 0xa9b47bfd
@@ -953,7 +726,7 @@ Project_iOS_CameraPreviewRenderer_OnCameraPreviewTapped_object_System_EventArgs:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #296]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -971,12 +744,12 @@ ldr x16, [x16, #320]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #328]
+ldr x0, [x16, #304]
 .word 0xd2801101
 .word 0xd2801101
 bl _p_3
 .word 0xf9005fa0
-bl _p_26
+bl _p_19
 .word 0xf94017b1
 .word 0xf9408631
 .word 0xb4000051
@@ -1032,7 +805,7 @@ ldr x2, [x16, #16]
 .word 0xf9005ba0
 .word 0x910183a0
 .word 0xaa0003e8
-bl _p_27
+bl _p_20
 .word 0xf94017b1
 .word 0xf9415a31
 .word 0xb4000051
@@ -1128,8 +901,8 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x15, [x16, #336]
-bl _p_28
+ldr x15, [x16, #312]
+bl _p_21
 .word 0xf94017b1
 .word 0xf942ca31
 .word 0xb4000051
@@ -1142,12 +915,12 @@ bl _p_28
 .word 0xa8cc7bfd
 .word 0xd65f03c0
 
-Lme_6:
+Lme_5:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_CameraPreviewRenderer_Dispose_bool
 Project_iOS_CameraPreviewRenderer_Dispose_bool:
-.loc 3 84 0 prologue_end
+.loc 3 66 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -1157,7 +930,7 @@ Project_iOS_CameraPreviewRenderer_Dispose_bool:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #344]
+ldr x16, [x16, #320]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -1174,7 +947,7 @@ ldr x16, [x16, #344]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 85 0
+.loc 3 67 0
 .word 0xf94017b1
 .word 0xf9407231
 .word 0xb4000051
@@ -1188,7 +961,7 @@ ldr x16, [x16, #344]
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 86 0
+.loc 3 68 0
 .word 0xf94017b1
 .word 0xf940a631
 .word 0xb4000051
@@ -1204,7 +977,7 @@ bl _p_9
 .word 0xf9402ba1
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_29
+bl _p_22
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf940ea31
@@ -1213,12 +986,12 @@ bl _p_29
 .word 0xf94027a1
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_30
+bl _p_23
 .word 0xf94017b1
 .word 0xf9410a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 87 0
+.loc 3 69 0
 .word 0xf94017b1
 .word 0xf9411a31
 .word 0xb4000051
@@ -1234,17 +1007,17 @@ bl _p_9
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_30
+bl _p_23
 .word 0xf94017b1
 .word 0xf9415a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 88 0
+.loc 3 70 0
 .word 0xf94017b1
 .word 0xf9416a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 89 0
+.loc 3 71 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -1257,12 +1030,12 @@ bl _p_30
 .word 0xaa1a03e0
 .word 0xaa1903e0
 .word 0xaa1a03e1
-bl _p_31
+bl _p_24
 .word 0xf94017b1
 .word 0xf941ae31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 90 0
+.loc 3 72 0
 .word 0xf94017b1
 .word 0xf941be31
 .word 0xb4000051
@@ -1277,12 +1050,12 @@ bl _p_31
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_7:
+Lme_6:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_CameraPreviewRenderer__ctor
 Project_iOS_CameraPreviewRenderer__ctor:
-.loc 3 20 0 prologue_end
+.loc 3 21 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -1290,7 +1063,7 @@ Project_iOS_CameraPreviewRenderer__ctor:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #328]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1312,7 +1085,7 @@ ldr x16, [x16, #352]
 .word 0x3903635e
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_32
+bl _p_25
 .word 0xf9400fb1
 .word 0xf9408231
 .word 0xb4000051
@@ -1326,11 +1099,123 @@ bl _p_32
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_8:
+Lme_7:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_UICameraPreview_add_Tapped_System_EventHandler_1_System_EventArgs
 Project_iOS_UICameraPreview_add_Tapped_System_EventHandler_1_System_EventArgs:
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xa9036bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Project_iOS_got@PAGE+0
+add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
+ldr x16, [x16, #336]
+.word 0xf90023b0
+.word 0xf9400a11
+.word 0xf90027b1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xf94023b1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9401f20
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1803f7
+.word 0xaa1803e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1a03e1
+bl _p_26
+.word 0xaa0003f5
+.word 0xf94023b1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000175
+.word 0xf94002a0
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400c00
+
+adrp x16, mono_aot_Project_iOS_got@PAGE+0
+add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
+ldr x1, [x16, #344]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540006c1
+.word 0xaa1503e0
+.word 0xaa1503f6
+.word 0xaa1903e0
+.word 0xeb1f033f
+.word 0x10000011
+.word 0x540005a0
+.word 0x9100e320
+.word 0xaa1503e1
+.word 0xaa1703e1
+
+adrp x16, mono_aot_Project_iOS_got@PAGE+0
+add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
+ldr x1, [x16, #352]
+.word 0xc85f7c10
+.word 0xeb17021f
+.word 0x54000061
+.word 0xc811fc15
+.word 0x35ffff91
+.word 0xd5033bbf
+.word 0xaa1003e1
+.word 0xf90033a1
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_Project_iOS_got@PAGE+0
+add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
+.word 0xf94023b1
+.word 0xf9413e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xaa0003f8
+.word 0xaa0003e1
+.word 0xaa1703e1
+.word 0xeb17001f
+.word 0x54fff841
+.word 0xf94023b1
+.word 0xf9416631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xa9436bb9
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+.word 0xd2802260
+.word 0xaa1103e1
+bl _p_18
+.word 0xd2802060
+.word 0xaa1103e1
+bl _p_18
+
+Lme_8:
+.text
+	.align 4
+	.no_dead_strip Project_iOS_UICameraPreview_remove_Tapped_System_EventHandler_1_System_EventArgs
+Project_iOS_UICameraPreview_remove_Tapped_System_EventHandler_1_System_EventArgs:
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xa9015bb5
@@ -1361,7 +1246,7 @@ ldr x16, [x16, #360]
 .word 0xaa1a03e0
 .word 0xaa1803e0
 .word 0xaa1a03e1
-bl _p_33
+bl _p_27
 .word 0xaa0003f5
 .word 0xf94023b1
 .word 0xf9408a31
@@ -1375,7 +1260,7 @@ bl _p_33
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x1, [x16, #368]
+ldr x1, [x16, #344]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540006c1
@@ -1391,7 +1276,7 @@ ldr x1, [x16, #368]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x1, [x16, #376]
+ldr x1, [x16, #352]
 .word 0xc85f7c10
 .word 0xeb17021f
 .word 0x54000061
@@ -1441,118 +1326,6 @@ bl _p_18
 Lme_9:
 .text
 	.align 4
-	.no_dead_strip Project_iOS_UICameraPreview_remove_Tapped_System_EventHandler_1_System_EventArgs
-Project_iOS_UICameraPreview_remove_Tapped_System_EventHandler_1_System_EventArgs:
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xa9015bb5
-.word 0xa90263b7
-.word 0xa9036bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #384]
-.word 0xf90023b0
-.word 0xf9400a11
-.word 0xf90027b1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xf94023b1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9401f20
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1803f7
-.word 0xaa1803e0
-.word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0xaa1a03e1
-bl _p_34
-.word 0xaa0003f5
-.word 0xf94023b1
-.word 0xf9408a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xb4000175
-.word 0xf94002a0
-.word 0xf9400000
-.word 0xf9400800
-.word 0xf9400c00
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x1, [x16, #368]
-.word 0xeb01001f
-.word 0x10000011
-.word 0x540006c1
-.word 0xaa1503e0
-.word 0xaa1503f6
-.word 0xaa1903e0
-.word 0xeb1f033f
-.word 0x10000011
-.word 0x540005a0
-.word 0x9100e320
-.word 0xaa1503e1
-.word 0xaa1703e1
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x1, [x16, #376]
-.word 0xc85f7c10
-.word 0xeb17021f
-.word 0x54000061
-.word 0xc811fc15
-.word 0x35ffff91
-.word 0xd5033bbf
-.word 0xaa1003e1
-.word 0xf90033a1
-.word 0xd349fc00
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0000
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x1, [x16, #16]
-.word 0x8b010000
-.word 0xd280003e
-.word 0x3900001e
-.word 0xf94023b1
-.word 0xf9413e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0xaa0003f8
-.word 0xaa0003e1
-.word 0xaa1703e1
-.word 0xeb17001f
-.word 0x54fff841
-.word 0xf94023b1
-.word 0xf9416631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa9415bb5
-.word 0xa94263b7
-.word 0xa9436bb9
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-.word 0xd2802260
-.word 0xaa1103e1
-bl _p_18
-.word 0xd2802060
-.word 0xaa1103e1
-bl _p_18
-
-Lme_a:
-.text
-	.align 4
 	.no_dead_strip Project_iOS_UICameraPreview_get_CaptureSession
 Project_iOS_UICameraPreview_get_CaptureSession:
 .file 4 "/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/UICameraPreview.cs"
@@ -1563,7 +1336,7 @@ Project_iOS_UICameraPreview_get_CaptureSession:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #368]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1589,7 +1362,7 @@ ldr x16, [x16, #392]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_b:
+Lme_a:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_UICameraPreview_set_CaptureSession_AVFoundation_AVCaptureSession
@@ -1602,7 +1375,7 @@ Project_iOS_UICameraPreview_set_CaptureSession_AVFoundation_AVCaptureSession:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #400]
+ldr x16, [x16, #376]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -1641,7 +1414,7 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_c:
+Lme_b:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_UICameraPreview_get_IsPreviewing
@@ -1653,7 +1426,7 @@ Project_iOS_UICameraPreview_get_IsPreviewing:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #408]
+ldr x16, [x16, #384]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1679,7 +1452,7 @@ ldr x16, [x16, #408]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_d:
+Lme_c:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_UICameraPreview_set_IsPreviewing_bool
@@ -1692,7 +1465,7 @@ Project_iOS_UICameraPreview_set_IsPreviewing_bool:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #416]
+ldr x16, [x16, #392]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -1719,7 +1492,7 @@ ldr x16, [x16, #416]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_e:
+Lme_d:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_UICameraPreview__ctor_Project_CameraOptions
@@ -1733,7 +1506,7 @@ Project_iOS_UICameraPreview__ctor_Project_CameraOptions:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #424]
+ldr x16, [x16, #400]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -1751,7 +1524,7 @@ ldr x16, [x16, #424]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_35
+bl _p_28
 .word 0xf94013b1
 .word 0xf9407631
 .word 0xb4000051
@@ -1778,7 +1551,7 @@ bl _p_35
 .word 0xd2800000
 .word 0xaa1903e0
 .word 0xd2800001
-bl _p_36
+bl _p_29
 .word 0xf94013b1
 .word 0xf940d631
 .word 0xb4000051
@@ -1790,7 +1563,7 @@ bl _p_36
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_37
+bl _p_30
 .word 0xf94013b1
 .word 0xf9410231
 .word 0xb4000051
@@ -1809,7 +1582,7 @@ bl _p_37
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_f:
+Lme_e:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_UICameraPreview_Draw_CoreGraphics_CGRect
@@ -1826,7 +1599,7 @@ Project_iOS_UICameraPreview_Draw_CoreGraphics_CGRect:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #408]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -1864,7 +1637,7 @@ ldr x16, [x16, #432]
 .word 0xfd404fa1
 .word 0xfd4053a2
 .word 0xfd4057a3
-bl _p_38
+bl _p_31
 .word 0xf9402fb1
 .word 0xf940ce31
 .word 0xb4000051
@@ -1913,7 +1686,7 @@ bl _p_38
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_10:
+Lme_f:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_UICameraPreview_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
@@ -1928,7 +1701,7 @@ Project_iOS_UICameraPreview_TouchesBegan_Foundation_NSSet_UIKit_UIEvent:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #440]
+ldr x16, [x16, #416]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -1953,7 +1726,7 @@ ldr x16, [x16, #440]
 .word 0xf9400fa1
 .word 0xf94013a2
 .word 0xaa1803e0
-bl _p_39
+bl _p_32
 .word 0xf94017b1
 .word 0xf9409231
 .word 0xb4000051
@@ -1966,7 +1739,7 @@ bl _p_39
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0xf9400301
-.word 0xf942a030
+.word 0xf9429830
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf940c631
@@ -1986,7 +1759,7 @@ bl _p_39
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_11:
+Lme_10:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_UICameraPreview_OnTapped
@@ -2000,7 +1773,7 @@ Project_iOS_UICameraPreview_OnTapped:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #448]
+ldr x16, [x16, #424]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -2053,12 +1826,12 @@ ldr x16, [x16, #448]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #456]
+ldr x0, [x16, #432]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_3
 .word 0xf90023a0
-bl _p_40
+bl _p_33
 .word 0xf94017b1
 .word 0xf9410631
 .word 0xb4000051
@@ -2096,7 +1869,7 @@ bl _p_40
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_12:
+Lme_11:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_UICameraPreview_screencap
@@ -2108,7 +1881,7 @@ Project_iOS_UICameraPreview_screencap:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #464]
+ldr x16, [x16, #440]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2137,7 +1910,7 @@ ldr x16, [x16, #464]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_13:
+Lme_12:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_UICameraPreview_Initialize
@@ -2153,7 +1926,7 @@ Project_iOS_UICameraPreview_Initialize:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #448]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -2170,12 +1943,12 @@ ldr x16, [x16, #472]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #480]
+ldr x0, [x16, #456]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_3
 .word 0xf9007fa0
-bl _p_41
+bl _p_34
 .word 0xf9402bb1
 .word 0xf9408a31
 .word 0xb4000051
@@ -2196,17 +1969,17 @@ bl _p_41
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #488]
+ldr x0, [x16, #464]
 bl _p_12
 .word 0xf9007ba0
-bl _p_42
+bl _p_35
 .word 0xf9402bb1
 .word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407ba1
 .word 0xaa1a03e0
-bl _p_43
+bl _p_36
 .word 0xf9402bb1
 .word 0xf940fa31
 .word 0xb4000051
@@ -2219,7 +1992,7 @@ bl _p_43
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_29
+bl _p_22
 .word 0xf90077a0
 .word 0xf9402bb1
 .word 0xf9412e31
@@ -2228,11 +2001,11 @@ bl _p_29
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #496]
+ldr x0, [x16, #472]
 bl _p_12
 .word 0xf94077a1
 .word 0xf90073a0
-bl _p_44
+bl _p_37
 .word 0xf9402bb1
 .word 0xf9415a31
 .word 0xb4000051
@@ -2248,7 +2021,7 @@ bl _p_44
 .word 0xf9004ba0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf941fc30
+.word 0xf941f830
 .word 0xd63f0200
 .word 0xf9404bbe
 .word 0xfd0003c0
@@ -2282,7 +2055,7 @@ bl _p_44
 .word 0xaa1303e0
 .word 0xd2800021
 .word 0x3940027e
-bl _p_45
+bl _p_38
 .word 0xf9402bb1
 .word 0xf9422231
 .word 0xb4000051
@@ -2306,21 +2079,21 @@ ldr x2, [x16, #16]
 .word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_46
+bl _p_39
 .word 0xf90063a0
 .word 0xf9402bb1
 .word 0xf9427e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94063a0
-bl _p_47
+bl _p_40
 .word 0xf9005fa0
 .word 0xf9402bb1
 .word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa0
-bl _p_48
+bl _p_41
 .word 0xf9005ba0
 .word 0xf9402bb1
 .word 0xf942b631
@@ -2365,7 +2138,7 @@ bl _p_48
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #504]
+ldr x0, [x16, #480]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_3
@@ -2389,17 +2162,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #512]
+ldr x0, [x16, #488]
 .word 0xf9001420
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #520]
+ldr x0, [x16, #496]
 .word 0xf9002020
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #528]
+ldr x0, [x16, #504]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -2409,9 +2182,9 @@ ldr x0, [x16, #528]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x15, [x16, #536]
+ldr x15, [x16, #512]
 .word 0xaa1803e0
-bl _p_49
+bl _p_42
 .word 0xf9005fa0
 .word 0xf9402bb1
 .word 0xf9440231
@@ -2455,12 +2228,12 @@ bl _p_49
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #544]
+ldr x0, [x16, #520]
 bl _p_12
 .word 0xf9406ba2
 .word 0xf90067a0
 .word 0xaa1703e1
-bl _p_50
+bl _p_43
 .word 0xf9402bb1
 .word 0xf944b231
 .word 0xb4000051
@@ -2474,7 +2247,7 @@ bl _p_50
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_29
+bl _p_22
 .word 0xf90063a0
 .word 0xf9402bb1
 .word 0xf944ea31
@@ -2484,7 +2257,7 @@ bl _p_29
 .word 0xaa1603e1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940f050
+.word 0xf940ec50
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9451231
@@ -2498,7 +2271,7 @@ bl _p_29
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf941b430
+.word 0xf941b030
 .word 0xd63f0200
 .word 0xf9005fa0
 .word 0xf9402bb1
@@ -2510,7 +2283,7 @@ bl _p_29
 .word 0xf9401b41
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9414c50
+.word 0xf9414450
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9457631
@@ -2523,7 +2296,7 @@ bl _p_29
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_29
+bl _p_22
 .word 0xf9005ba0
 .word 0xf9402bb1
 .word 0xf945a631
@@ -2547,7 +2320,7 @@ bl _p_29
 .word 0xd2800020
 .word 0xaa1a03e0
 .word 0xd2800021
-bl _p_36
+bl _p_29
 .word 0xf9402bb1
 .word 0xf945fe31
 .word 0xb4000051
@@ -2579,7 +2352,7 @@ bl _p_18
 .word 0xaa1103e1
 bl _p_18
 
-Lme_14:
+Lme_13:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_PicturePickerImplementation_GetImageStreamAsync
@@ -2595,7 +2368,7 @@ Project_iOS_PicturePickerImplementation_GetImageStreamAsync:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #552]
+ldr x16, [x16, #528]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -2623,10 +2396,10 @@ ldr x16, [x16, #552]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #560]
+ldr x0, [x16, #536]
 bl _p_12
 .word 0xf9006ba0
-bl _p_51
+bl _p_44
 .word 0xf94023b1
 .word 0xf940a631
 .word 0xb4000051
@@ -2654,7 +2427,7 @@ bl _p_51
 .word 0xf90063a0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_52
+bl _p_45
 .word 0xf9005fa0
 .word 0xf94023b1
 .word 0xf9411a31
@@ -2699,7 +2472,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #568]
+ldr x0, [x16, #544]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_3
@@ -2724,17 +2497,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #576]
+ldr x0, [x16, #552]
 .word 0xf9001420
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #584]
+ldr x0, [x16, #560]
 .word 0xf9002020
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #592]
+ldr x0, [x16, #568]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -2743,7 +2516,7 @@ ldr x0, [x16, #592]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_53
+bl _p_46
 .word 0xf94023b1
 .word 0xf9425e31
 .word 0xb4000051
@@ -2763,7 +2536,7 @@ bl _p_53
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #600]
+ldr x0, [x16, #576]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_3
@@ -2788,17 +2561,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #608]
+ldr x0, [x16, #584]
 .word 0xf9001420
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #616]
+ldr x0, [x16, #592]
 .word 0xf9002020
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #624]
+ldr x0, [x16, #600]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -2807,7 +2580,7 @@ ldr x0, [x16, #624]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_54
+bl _p_47
 .word 0xf94023b1
 .word 0xf9434631
 .word 0xb4000051
@@ -2817,7 +2590,7 @@ bl _p_54
 .word 0xf9435631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_55
+bl _p_48
 .word 0xf9004fa0
 .word 0xf94023b1
 .word 0xf9436e31
@@ -2826,7 +2599,7 @@ bl _p_55
 .word 0xf9404fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9412430
+.word 0xf9412030
 .word 0xd63f0200
 .word 0xf9004ba0
 .word 0xf94023b1
@@ -2845,7 +2618,7 @@ bl _p_55
 .word 0xaa0103e0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf942ac30
+.word 0xf942a030
 .word 0xd63f0200
 .word 0xf90043a0
 .word 0xf94023b1
@@ -2883,12 +2656,12 @@ bl _p_55
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #632]
+ldr x0, [x16, #608]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_3
 .word 0xf9003ba0
-bl _p_56
+bl _p_49
 .word 0xf94023b1
 .word 0xf9447631
 .word 0xb4000051
@@ -2916,7 +2689,7 @@ ldr x2, [x16, #16]
 .word 0xf9400b41
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_57
+bl _p_50
 .word 0xf90037a0
 .word 0xf94023b1
 .word 0xf944e231
@@ -2949,7 +2722,7 @@ bl _p_18
 .word 0xaa1103e1
 bl _p_18
 
-Lme_15:
+Lme_14:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_PicturePickerImplementation_OnImagePickerFinishedPickingMedia_object_UIKit_UIImagePickerMediaPickedEventArgs
@@ -2967,7 +2740,7 @@ Project_iOS_PicturePickerImplementation_OnImagePickerFinishedPickingMedia_object
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #640]
+ldr x16, [x16, #616]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -2995,7 +2768,7 @@ ldr x16, [x16, #640]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_58
+bl _p_51
 .word 0xf9003ba0
 .word 0xf9402fb1
 .word 0xf940ae31
@@ -3011,7 +2784,7 @@ bl _p_58
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_59
+bl _p_52
 .word 0xf9003ba0
 .word 0xf9402fb1
 .word 0xf940ee31
@@ -3047,7 +2820,7 @@ bl _p_59
 .word 0xaa1803e0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_60
+bl _p_53
 .word 0xfd0047a0
 .word 0xf9402fb1
 .word 0xf9417231
@@ -3056,7 +2829,7 @@ bl _p_60
 .word 0xfd4047a0
 .word 0xaa1803e0
 .word 0x3940031e
-bl _p_61
+bl _p_54
 .word 0xf90043a0
 .word 0xf9402fb1
 .word 0xf9419631
@@ -3090,7 +2863,7 @@ bl _p_61
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_62
+bl _p_55
 .word 0xf9402fb1
 .word 0xf9421231
 .word 0xb4000051
@@ -3105,7 +2878,7 @@ bl _p_62
 .word 0xaa1503e1
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_63
+bl _p_56
 .word 0xf9402fb1
 .word 0xf9424a31
 .word 0xb4000051
@@ -3128,7 +2901,7 @@ bl _p_63
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_62
+bl _p_55
 .word 0xf9402fb1
 .word 0xf9429a31
 .word 0xb4000051
@@ -3144,7 +2917,7 @@ bl _p_62
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0x3940005e
-bl _p_63
+bl _p_56
 .word 0xf9402fb1
 .word 0xf942d631
 .word 0xb4000051
@@ -3192,7 +2965,7 @@ bl _p_63
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_16:
+Lme_15:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_PicturePickerImplementation_OnImagePickerCancelled_object_System_EventArgs
@@ -3207,7 +2980,7 @@ Project_iOS_PicturePickerImplementation_OnImagePickerCancelled_object_System_Eve
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #648]
+ldr x16, [x16, #624]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -3230,7 +3003,7 @@ ldr x16, [x16, #648]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_62
+bl _p_55
 .word 0xf94017b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -3246,7 +3019,7 @@ bl _p_62
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0x3940005e
-bl _p_63
+bl _p_56
 .word 0xf94017b1
 .word 0xf940c631
 .word 0xb4000051
@@ -3282,7 +3055,7 @@ bl _p_63
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_17:
+Lme_16:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_PicturePickerImplementation_UnregisterEventHandlers
@@ -3295,7 +3068,7 @@ Project_iOS_PicturePickerImplementation_UnregisterEventHandlers:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #656]
+ldr x16, [x16, #632]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3326,7 +3099,7 @@ ldr x16, [x16, #656]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #568]
+ldr x0, [x16, #544]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_3
@@ -3351,17 +3124,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #576]
+ldr x0, [x16, #552]
 .word 0xf9001420
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #584]
+ldr x0, [x16, #560]
 .word 0xf9002020
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #592]
+ldr x0, [x16, #568]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -3370,7 +3143,7 @@ ldr x0, [x16, #592]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_64
+bl _p_57
 .word 0xf9400fb1
 .word 0xf9413e31
 .word 0xb4000051
@@ -3390,7 +3163,7 @@ bl _p_64
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #600]
+ldr x0, [x16, #576]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_3
@@ -3415,17 +3188,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #608]
+ldr x0, [x16, #584]
 .word 0xf9001420
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #616]
+ldr x0, [x16, #592]
 .word 0xf9002020
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #624]
+ldr x0, [x16, #600]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -3434,7 +3207,7 @@ ldr x0, [x16, #624]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_65
+bl _p_58
 .word 0xf9400fb1
 .word 0xf9422631
 .word 0xb4000051
@@ -3459,7 +3232,7 @@ bl _p_18
 .word 0xaa1103e1
 bl _p_18
 
-Lme_18:
+Lme_17:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_PicturePickerImplementation__ctor
@@ -3470,7 +3243,39 @@ Project_iOS_PicturePickerImplementation__ctor:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #664]
+ldr x16, [x16, #640]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_18:
+.text
+	.align 4
+	.no_dead_strip Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3__ctor
+Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_Project_iOS_got@PAGE+0
+add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
+ldr x16, [x16, #648]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3494,40 +3299,8 @@ ldr x16, [x16, #664]
 Lme_19:
 .text
 	.align 4
-	.no_dead_strip Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4__ctor
-Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4__ctor:
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #672]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fb1
-.word 0xf9404631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_1a:
-.text
-	.align 4
-	.no_dead_strip Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_MoveNext
-Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_MoveNext:
+	.no_dead_strip Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_MoveNext
+Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_MoveNext:
 .loc 3 0 0 prologue_end
 .word 0xa9ae7bfd
 .word 0x910003fd
@@ -3538,7 +3311,7 @@ Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_MoveNext:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #680]
+ldr x16, [x16, #656]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -3558,8 +3331,8 @@ ldr x16, [x16, #680]
 .word 0xaa1a03e0
 .word 0x3400005a
 .word 0x14000002
-.word 0x140000fd
-.loc 3 53 0
+.word 0x14000108
+.loc 3 45 0
 .word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
@@ -3568,7 +3341,7 @@ ldr x16, [x16, #680]
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 54 0
+.loc 3 46 0
 .word 0xf94023b1
 .word 0xf940a231
 .word 0xb4000051
@@ -3579,8 +3352,8 @@ ldr x16, [x16, #680]
 .word 0x53001c00
 .word 0xaa0003f9
 .word 0xaa1903e0
-.word 0x340036c0
-.loc 3 55 0
+.word 0x340034e0
+.loc 3 47 0
 .word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
@@ -3589,7 +3362,7 @@ ldr x16, [x16, #680]
 .word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 56 0
+.loc 3 48 0
 .word 0xf94023b1
 .word 0xf940ee31
 .word 0xb4000051
@@ -3598,7 +3371,7 @@ ldr x16, [x16, #680]
 .word 0xf9402000
 .word 0xd2800001
 .word 0x3903601f
-.loc 3 57 0
+.loc 3 49 0
 .word 0xf94023b1
 .word 0xf9410e31
 .word 0xb4000051
@@ -3608,10 +3381,10 @@ ldr x16, [x16, #680]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #688]
+ldr x0, [x16, #664]
 bl _p_12
 .word 0xf9008fa0
-bl _p_66
+bl _p_59
 .word 0xf94023b1
 .word 0xf9413e31
 .word 0xb4000051
@@ -3625,10 +3398,10 @@ bl _p_66
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #672]
 bl _p_12
 .word 0xf90087a0
-bl _p_67
+bl _p_60
 .word 0xf94023b1
 .word 0xf9417e31
 .word 0xb4000051
@@ -3658,7 +3431,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 62 0
+.loc 3 53 0
 .word 0xf94023b1
 .word 0xf941ee31
 .word 0xb4000051
@@ -3668,7 +3441,7 @@ ldr x2, [x16, #16]
 .word 0xf9406801
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_29
+bl _p_22
 .word 0xf9007ba0
 .word 0xf94023b1
 .word 0xf9421a31
@@ -3679,15 +3452,27 @@ bl _p_29
 .word 0xf9402401
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940ec50
+.word 0xf940e850
 .word 0xd63f0200
 .word 0xf94023b1
 .word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 64 0
+.loc 3 54 0
 .word 0xf94023b1
 .word 0xf9425631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd28008c0
+.word 0xd28008c0
+bl _p_61
+.word 0xf94023b1
+.word 0xf9427231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 55 0
+.word 0xf94023b1
+.word 0xf9428231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
@@ -3695,10 +3480,10 @@ bl _p_29
 .word 0xf9401fa0
 .word 0xf9402400
 .word 0xf90077a0
-bl _p_46
+bl _p_39
 .word 0xf90073a0
 .word 0xf94023b1
-.word 0xf9428231
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a1
@@ -3709,7 +3494,7 @@ bl _p_46
 .word 0xd63f0200
 .word 0xf9006ba0
 .word 0xf94023b1
-.word 0xf942ae31
+.word 0xf942da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406ba0
@@ -3727,9 +3512,9 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 65 0
+.loc 3 56 0
 .word 0xf94023b1
-.word 0xf942f631
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
@@ -3742,7 +3527,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0200
 .word 0xf90067a0
 .word 0xf94023b1
-.word 0xf9432a31
+.word 0xf9435631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94067a1
@@ -3750,11 +3535,11 @@ ldr x2, [x16, #16]
 .word 0xf90047a0
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_68
+bl _p_62
 .word 0xf94047be
 .word 0xf90003c0
 .word 0xf94023b1
-.word 0xf9435a31
+.word 0xf9438631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9101a3a0
@@ -3765,12 +3550,12 @@ bl _p_68
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x15, [x16, #704]
-bl _p_69
+ldr x15, [x16, #680]
+bl _p_63
 .word 0x53001c00
 .word 0xf90063a0
 .word 0xf94023b1
-.word 0xf9439631
+.word 0xf943c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94063a0
@@ -3783,7 +3568,7 @@ bl _p_69
 .word 0xd280001a
 .word 0xb900801f
 .word 0xf94023b1
-.word 0xf943ca31
+.word 0xf943f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
@@ -3812,26 +3597,26 @@ ldr x2, [x16, #16]
 .word 0xf9401fa0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x540022e0
+.word 0x54001fa0
 .word 0x91004000
 .word 0x9101c3a1
 .word 0x9101e3a2
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x15, [x16, #712]
-bl _p_70
+ldr x15, [x16, #688]
+bl _p_64
 .word 0xf94023b1
-.word 0xf9445e31
+.word 0xf9448a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000101
+.word 0x140000e7
 .word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023b1
-.word 0xf9448231
+.word 0xf944ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
@@ -3846,7 +3631,7 @@ bl _p_70
 .word 0xf9401fa0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54001ec0
+.word 0x54001b80
 .word 0x9101e000
 .word 0xf900001f
 .word 0xf9401fa0
@@ -3864,20 +3649,20 @@ bl _p_70
 .word 0xf2bffffe
 .word 0xb900801e
 .word 0xf9401fa0
-.word 0xf9007ba0
+.word 0xf90077a0
 .word 0x9101c3a0
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x15, [x16, #704]
-bl _p_71
-.word 0xf90077a0
+ldr x15, [x16, #680]
+bl _p_65
+.word 0xf90073a0
 .word 0xf94023b1
-.word 0xf9452631
+.word 0xf9455231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94077a0
-.word 0xf9407ba1
+.word 0xf94073a0
+.word 0xf94077a1
 .word 0xf9003820
 .word 0x9101c021
 .word 0xd349fc21
@@ -3910,23 +3695,23 @@ ldr x2, [x16, #16]
 .word 0xf9401fa0
 .word 0xd2800001
 .word 0xf900381f
-.loc 3 67 0
+.loc 3 58 0
 .word 0xf94023b1
-.word 0xf945b631
+.word 0xf945e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
-.word 0xf90073a0
+.word 0xf9006fa0
 .word 0xf9401fa0
 .word 0xf9402c00
-bl _p_72
-.word 0xf9006fa0
+bl _p_66
+.word 0xf9006ba0
 .word 0xf94023b1
-.word 0xf945de31
+.word 0xf9460a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9406fa0
-.word 0xf94073a1
+.word 0xf9406ba0
+.word 0xf9406fa1
 .word 0xf9003020
 .word 0x91018021
 .word 0xd349fc21
@@ -3940,25 +3725,25 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 68 0
+.loc 3 59 0
 .word 0xf94023b1
-.word 0xf9462631
+.word 0xf9465231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
-.word 0xf9006ba0
+.word 0xf90067a0
 .word 0xf9401fa0
 .word 0xf9403001
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_73
-.word 0xf90067a0
+bl _p_67
+.word 0xf90063a0
 .word 0xf94023b1
-.word 0xf9465631
+.word 0xf9468231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94067a0
-.word 0xf9406ba1
+.word 0xf94063a0
+.word 0xf94067a1
 .word 0xf9003420
 .word 0x9101a021
 .word 0xd349fc21
@@ -3972,48 +3757,21 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 70 0
-.word 0xf94023b1
-.word 0xf9469e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fa0
-.word 0xf9402000
-.word 0xf9406801
-.word 0xaa0103e0
-.word 0x3940003e
-bl _p_29
-.word 0xf90063a0
+.loc 3 60 0
 .word 0xf94023b1
 .word 0xf946ca31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94063a2
-.word 0xf9401fa0
-.word 0xf9402401
-.word 0xaa0203e0
-.word 0xf9400042
-.word 0xf940e850
-.word 0xd63f0200
-.word 0xf94023b1
-.word 0xf946f631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 73 0
-.word 0xf94023b1
-.word 0xf9470631
-.word 0xb4000051
-.word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf9403400
-bl _p_74
+bl _p_68
 .word 0xf94023b1
-.word 0xf9472231
+.word 0xf946e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 74 0
+.loc 3 61 0
 .word 0xf94023b1
-.word 0xf9473231
+.word 0xf946f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
@@ -4021,9 +3779,9 @@ bl _p_74
 .word 0xd2800021
 .word 0xd280003e
 .word 0x3903601e
-.loc 3 75 0
+.loc 3 62 0
 .word 0xf94023b1
-.word 0xf9475631
+.word 0xf9471a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
@@ -4057,25 +3815,25 @@ bl _p_74
 .word 0x54000620
 .word 0x91004000
 .word 0xf94043a1
-bl _p_75
+bl _p_69
 .word 0xf94023b1
-.word 0xf947e631
+.word 0xf947aa31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_76
+bl _p_70
 .word 0xf9005ba0
 .word 0xf9405ba0
 .word 0xb4000060
 .word 0xf9405ba0
-bl _p_77
+bl _p_71
 .word 0x14000019
-.loc 3 81 0
+.loc 3 63 0
 .word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023b1
-.word 0xf9482231
+.word 0xf947e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
@@ -4089,13 +3847,13 @@ bl _p_77
 .word 0x10000011
 .word 0x54000220
 .word 0x91004000
-bl _p_78
+bl _p_72
 .word 0xf94023b1
-.word 0xf9486231
+.word 0xf9482631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023b1
-.word 0xf9487231
+.word 0xf9483631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9415fb6
@@ -4108,11 +3866,11 @@ bl _p_78
 .word 0xaa1103e1
 bl _p_18
 
-Lme_1b:
+Lme_1a:
 .text
 	.align 4
-	.no_dead_strip Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+	.no_dead_strip Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4120,7 +3878,7 @@ Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_SetStateMachine_Sys
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #696]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4136,7 +3894,7 @@ ldr x16, [x16, #720]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_1c:
+Lme_1b:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_UICameraPreview__c__DisplayClass18_0__ctor
@@ -4147,7 +3905,7 @@ Project_iOS_UICameraPreview__c__DisplayClass18_0__ctor:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #704]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4168,7 +3926,7 @@ ldr x16, [x16, #728]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_1d:
+Lme_1c:
 .text
 	.align 4
 	.no_dead_strip Project_iOS_UICameraPreview__c__DisplayClass18_0__Initializeb__0_AVFoundation_AVCaptureDevice
@@ -4181,7 +3939,7 @@ Project_iOS_UICameraPreview__c__DisplayClass18_0__Initializeb__0_AVFoundation_AV
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #712]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4220,9 +3978,9 @@ ldr x16, [x16, #736]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_1e:
+Lme_1d:
 .text
-ut_32:
+ut_31:
 add x0, x0, 16
 b System_Nullable_1_bool__ctor_bool
 ut_end:
@@ -4230,13 +3988,13 @@ ut_end:
 _unbox_trampoline_p:
 
 	.long 0
-LDIFF_SYM3=ut_end - ut_32
+LDIFF_SYM3=ut_end - ut_31
 	.long LDIFF_SYM3
 .text
 	.align 4
 	.no_dead_strip System_Nullable_1_bool__ctor_bool
 System_Nullable_1_bool__ctor_bool:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
 .loc 6 94 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -4246,7 +4004,7 @@ System_Nullable_1_bool__ctor_bool:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #720]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4288,9 +4046,9 @@ ldr x16, [x16, #744]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_20:
+Lme_1f:
 .text
-ut_33:
+ut_32:
 add x0, x0, 16
 b System_Nullable_1_bool_get_HasValue
 .text
@@ -4304,7 +4062,7 @@ System_Nullable_1_bool_get_HasValue:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #728]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4330,9 +4088,9 @@ ldr x16, [x16, #752]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_21:
+Lme_20:
 .text
-ut_34:
+ut_33:
 add x0, x0, 16
 b System_Nullable_1_bool_get_Value
 .text
@@ -4347,7 +4105,7 @@ System_Nullable_1_bool_get_Value:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #736]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4373,14 +4131,14 @@ ldr x16, [x16, #760]
 .word 0xd63f0220
 .word 0xd2876580
 .word 0xd2876580
-bl _p_79
+bl _p_73
 .word 0xaa0003e1
 .word 0xd2802080
 .word 0xf2a04000
 .word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_77
+bl _p_71
 .loc 6 107 0
 .word 0xf9400fb1
 .word 0xf940aa31
@@ -4397,9 +4155,9 @@ bl _p_77
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_22:
+Lme_21:
 .text
-ut_35:
+ut_34:
 add x0, x0, 16
 b System_Nullable_1_bool_Equals_object
 .text
@@ -4416,7 +4174,7 @@ System_Nullable_1_bool_Equals_object:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #744]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -4461,7 +4219,7 @@ ldr x16, [x16, #768]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x1, [x16, #776]
+ldr x1, [x16, #752]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800017
@@ -4485,21 +4243,21 @@ ldr x1, [x16, #776]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x15, [x16, #784]
+ldr x15, [x16, #760]
 .word 0x910123a0
 .word 0xf9002ba0
 .word 0xaa1a03e0
-bl _p_80
+bl _p_74
 .word 0xf9402bbe
 .word 0xf90003c0
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x15, [x16, #784]
+ldr x15, [x16, #760]
 .word 0xaa1903e0
 .word 0x910123a1
 .word 0xf94027a1
-bl _p_81
+bl _p_75
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -4517,9 +4275,9 @@ bl _p_81
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_23:
+Lme_22:
 .text
-ut_36:
+ut_35:
 add x0, x0, 16
 b System_Nullable_1_bool_Equals_System_Nullable_1_bool
 .text
@@ -4535,7 +4293,7 @@ System_Nullable_1_bool_Equals_System_Nullable_1_bool:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #768]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -4594,7 +4352,7 @@ ldr x16, [x16, #792]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #776]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_3
@@ -4602,7 +4360,7 @@ bl _p_3
 .word 0xf94027a0
 .word 0xf9402ba2
 .word 0x39004022
-bl _p_82
+bl _p_76
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
@@ -4619,9 +4377,9 @@ bl _p_82
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_24:
+Lme_23:
 .text
-ut_37:
+ut_36:
 add x0, x0, 16
 b System_Nullable_1_bool_GetHashCode
 .text
@@ -4636,7 +4394,7 @@ System_Nullable_1_bool_GetHashCode:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #784]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4671,7 +4429,7 @@ ldr x16, [x16, #808]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_83
+bl _p_77
 .word 0x93407c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -4688,9 +4446,9 @@ bl _p_83
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_25:
+Lme_24:
 .text
-ut_38:
+ut_37:
 add x0, x0, 16
 b System_Nullable_1_bool_GetValueOrDefault
 .text
@@ -4704,7 +4462,7 @@ System_Nullable_1_bool_GetValueOrDefault:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #792]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4730,9 +4488,9 @@ ldr x16, [x16, #816]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_26:
+Lme_25:
 .text
-ut_39:
+ut_38:
 add x0, x0, 16
 b System_Nullable_1_bool_GetValueOrDefault_bool
 .text
@@ -4748,7 +4506,7 @@ System_Nullable_1_bool_GetValueOrDefault_bool:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #800]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4780,9 +4538,9 @@ ldr x16, [x16, #824]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_27:
+Lme_26:
 .text
-ut_40:
+ut_39:
 add x0, x0, 16
 b System_Nullable_1_bool_ToString
 .text
@@ -4797,7 +4555,7 @@ System_Nullable_1_bool_ToString:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #808]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4824,7 +4582,7 @@ ldr x16, [x16, #832]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_84
+bl _p_78
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9409631
@@ -4840,7 +4598,7 @@ bl _p_84
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #840]
+ldr x0, [x16, #816]
 .word 0xf9400000
 .word 0xf9400fb1
 .word 0xf940ce31
@@ -4851,9 +4609,9 @@ ldr x0, [x16, #840]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_28:
+Lme_27:
 .text
-ut_41:
+ut_40:
 add x0, x0, 16
 b System_Nullable_1_bool_Box_System_Nullable_1_bool
 .text
@@ -4867,7 +4625,7 @@ System_Nullable_1_bool_Box_System_Nullable_1_bool:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #824]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4905,7 +4663,7 @@ ldr x16, [x16, #848]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #776]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_3
@@ -4919,9 +4677,9 @@ bl _p_3
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_29:
+Lme_28:
 .text
-ut_42:
+ut_41:
 add x0, x0, 16
 b System_Nullable_1_bool_Unbox_object
 .text
@@ -4936,7 +4694,7 @@ System_Nullable_1_bool_Unbox_object:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #832]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -4996,7 +4754,7 @@ ldr x16, [x16, #856]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x1, [x16, #776]
+ldr x1, [x16, #752]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540004a1
@@ -5010,8 +4768,8 @@ ldr x1, [x16, #776]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x15, [x16, #784]
-bl _p_85
+ldr x15, [x16, #760]
+bl _p_79
 .word 0x910143a0
 .word 0x910103a0
 .word 0x398143a0
@@ -5041,9 +4799,9 @@ bl _p_85
 .word 0xaa1103e1
 bl _p_18
 
-Lme_2a:
+Lme_29:
 .text
-ut_43:
+ut_42:
 add x0, x0, 16
 b System_Nullable_1_bool_UnboxExact_object
 .text
@@ -5058,7 +4816,7 @@ System_Nullable_1_bool_UnboxExact_object:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #840]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -5119,8 +4877,8 @@ ldr x16, [x16, #864]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x1, [x16, #872]
-bl _p_86
+ldr x1, [x16, #848]
+bl _p_80
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf94017b1
@@ -5139,7 +4897,7 @@ bl _p_86
 .word 0xd2802060
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
-bl _p_77
+bl _p_71
 .loc 6 197 0
 .word 0xf94017b1
 .word 0xf9415e31
@@ -5156,7 +4914,7 @@ bl _p_77
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x1, [x16, #776]
+ldr x1, [x16, #752]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540004a1
@@ -5170,8 +4928,8 @@ ldr x1, [x16, #776]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x15, [x16, #784]
-bl _p_85
+ldr x15, [x16, #760]
+bl _p_79
 .word 0x910143a0
 .word 0x910103a0
 .word 0x398143a0
@@ -5201,7 +4959,7 @@ bl _p_85
 .word 0xaa1103e1
 bl _p_18
 
-Lme_2b:
+Lme_2a:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
@@ -5218,7 +4976,7 @@ wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualE
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #856]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5234,17 +4992,158 @@ ldr x16, [x16, #880]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_87
+bl _p_81
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_77
+bl _p_71
+.word 0xf9403ba0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9101a300
+.word 0xf9403700
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xb50004c0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91008300
+.word 0xf9401300
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xb4000220
+.word 0xaa1303e0
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9100e300
+.word 0xf9401f00
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91004300
+.word 0xf9400b03
+.word 0xaa1303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xd63f0060
+.word 0x14000034
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9100e300
+.word 0xf9401f00
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91004300
+.word 0xf9400b02
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000026
+.word 0xaa1503e0
+.word 0xb9801aa0
+.word 0xaa0003f6
+.word 0xd2800017
+.word 0xaa1503e0
+.word 0xaa1703e0
+.word 0x93407ee0
+.word 0xb9801aa1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x540004c9
+.word 0xd37df000
+.word 0x8b0002a0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f4
+.word 0xaa1403e3
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa0303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xf90043a3
+.word 0xf9400c70
+.word 0xd63f0200
+.word 0xf94043a0
+.word 0xf9402bb1
+.word 0xf941be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0x110006e0
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xaa1603e1
+.word 0x6b16001f
+.word 0x54fffc0b
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801fa0
+.word 0xaa1103e1
+bl _p_18
+
+Lme_2b:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview
+wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xaa0203fa
+
+adrp x16, mono_aot_Project_iOS_got@PAGE+0
+add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
+ldr x16, [x16, #872]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Project_iOS_got@PAGE+0
+add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
+ldr x0, [x16, #864]
+.word 0xb9400000
+.word 0x34000140
+bl _p_81
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_71
 .word 0xf9403ba0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -5345,150 +5244,9 @@ bl _p_18
 Lme_2c:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview
-wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f8
-.word 0xaa0103f9
-.word 0xaa0203fa
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #896]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
-.word 0xb9400000
-.word 0x34000140
-bl _p_87
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_77
-.word 0xf9403ba0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9101a300
-.word 0xf9403700
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xb50004c0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x91008300
-.word 0xf9401300
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xb4000220
-.word 0xaa1303e0
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9100e300
-.word 0xf9401f00
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x91004300
-.word 0xf9400b03
-.word 0xaa1303e0
-.word 0xaa1903e1
-.word 0xaa1a03e2
-.word 0xd63f0060
-.word 0x14000034
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9100e300
-.word 0xf9401f00
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x91004300
-.word 0xf9400b02
-.word 0xaa1903e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000026
-.word 0xaa1503e0
-.word 0xb9801aa0
-.word 0xaa0003f6
-.word 0xd2800017
-.word 0xaa1503e0
-.word 0xaa1703e0
-.word 0x93407ee0
-.word 0xb9801aa1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x540004c9
-.word 0xd37df000
-.word 0x8b0002a0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f4
-.word 0xaa1403e3
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa0303e0
-.word 0xaa1903e1
-.word 0xaa1a03e2
-.word 0xf90043a3
-.word 0xf9400c70
-.word 0xd63f0200
-.word 0xf94043a0
-.word 0xf9402bb1
-.word 0xf941be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0x110006e0
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0xaa1603e1
-.word 0x6b16001f
-.word 0x54fffc0b
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801fa0
-.word 0xaa1103e1
-bl _p_18
-
-Lme_2d:
-.text
-	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 7 70 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -5498,7 +5256,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #880]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5529,12 +5287,12 @@ ldr x16, [x16, #904]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_88
+bl _p_82
 .word 0x3980b410
 .word 0xb5000050
-bl _p_89
+bl _p_83
 .word 0xf9402ba0
-bl _p_90
+bl _p_84
 .word 0xf9400000
 .word 0x14000033
 .loc 7 73 0
@@ -5550,11 +5308,11 @@ bl _p_90
 .word 0x910103a0
 .word 0xf90033a0
 .word 0xf9402ba0
-bl _p_91
+bl _p_85
 .word 0xaa0003ef
 .word 0xf94033a0
 .word 0xaa1a03e1
-bl _p_92
+bl _p_86
 .word 0x910103a0
 .word 0x9100c3a0
 .word 0xf94023a0
@@ -5566,7 +5324,7 @@ bl _p_92
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_91
+bl _p_85
 .word 0xd2800401
 .word 0xd2800401
 bl _p_3
@@ -5598,7 +5356,7 @@ ldr x4, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_36:
+Lme_35:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_Count
@@ -5610,7 +5368,7 @@ System_Array_InternalArray__ICollection_get_Count:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #888]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5642,7 +5400,7 @@ ldr x16, [x16, #912]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_37:
+Lme_36:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_IsReadOnly
@@ -5654,7 +5412,7 @@ System_Array_InternalArray__ICollection_get_IsReadOnly:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #896]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5680,7 +5438,7 @@ ldr x16, [x16, #920]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_38:
+Lme_37:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Clear
@@ -5692,7 +5450,7 @@ System_Array_InternalArray__ICollection_Clear:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #904]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5710,14 +5468,14 @@ ldr x16, [x16, #928]
 .word 0xd63f0220
 .word 0xd2888320
 .word 0xd2888320
-bl _p_79
+bl _p_73
 .word 0xaa0003e1
 .word 0xd2802240
 .word 0xf2a04000
 .word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_77
+bl _p_71
 .word 0xf9400fb1
 .word 0xf9408a31
 .word 0xb4000051
@@ -5726,7 +5484,7 @@ bl _p_77
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_39:
+Lme_38:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Add_T_REF_T_REF
@@ -5740,7 +5498,7 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #912]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5758,14 +5516,14 @@ ldr x16, [x16, #936]
 .word 0xd63f0220
 .word 0xd2888920
 .word 0xd2888920
-bl _p_79
+bl _p_73
 .word 0xaa0003e1
 .word 0xd2802240
 .word 0xf2a04000
 .word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_77
+bl _p_71
 .word 0xf94013b1
 .word 0xf9409231
 .word 0xb4000051
@@ -5774,7 +5532,7 @@ bl _p_77
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_3a:
+Lme_39:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
@@ -5788,7 +5546,7 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #920]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5806,14 +5564,14 @@ ldr x16, [x16, #944]
 .word 0xd63f0220
 .word 0xd2888920
 .word 0xd2888920
-bl _p_79
+bl _p_73
 .word 0xaa0003e1
 .word 0xd2802240
 .word 0xf2a04000
 .word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_77
+bl _p_71
 .word 0xf94013b1
 .word 0xf9409231
 .word 0xb4000051
@@ -5822,7 +5580,7 @@ bl _p_77
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_3b:
+Lme_3a:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
@@ -5838,7 +5596,7 @@ System_Array_InternalArray__ICollection_Contains_T_REF_T_REF:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #928]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -5876,8 +5634,8 @@ ldr x16, [x16, #952]
 .word 0xd63f0220
 .word 0xd28890a0
 .word 0xd28890a0
-bl _p_79
-bl _p_93
+bl _p_73
+bl _p_87
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf940d231
@@ -5889,7 +5647,7 @@ bl _p_93
 .word 0xd28023e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_77
+bl _p_71
 .loc 7 96 0
 .word 0xf9401bb1
 .word 0xf940fe31
@@ -5920,7 +5678,7 @@ bl _p_77
 .word 0xaa1803e0
 .word 0x910143a0
 .word 0xf94027a0
-bl _p_94
+bl _p_88
 .word 0x93407f00
 .word 0xd37df000
 .word 0x8b000340
@@ -6018,7 +5776,7 @@ bl _p_94
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_3c:
+Lme_3b:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
@@ -6035,7 +5793,7 @@ System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #936]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -6080,7 +5838,7 @@ ldr x16, [x16, #960]
 .word 0xf9403ba4
 .word 0xf9402ba0
 .word 0xaa1503e1
-bl _p_95
+bl _p_89
 .loc 7 119 0
 .word 0xf9401fb1
 .word 0xf940ee31
@@ -6096,7 +5854,7 @@ bl _p_95
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_3d:
+Lme_3c:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
@@ -6112,7 +5870,7 @@ wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_P
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #944]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6129,17 +5887,17 @@ ldr x16, [x16, #968]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_87
+bl _p_81
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_77
+bl _p_71
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -6240,7 +5998,7 @@ bl _p_77
 .word 0xaa1103e1
 bl _p_18
 
-Lme_3e:
+Lme_3d:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
@@ -6256,7 +6014,7 @@ wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Plat
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #952]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6272,17 +6030,17 @@ ldr x16, [x16, #976]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_87
+bl _p_81
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_77
+bl _p_71
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -6374,7 +6132,7 @@ bl _p_77
 .word 0xaa1103e1
 bl _p_18
 
-Lme_3f:
+Lme_3e:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
@@ -6391,7 +6149,7 @@ wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #960]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6408,17 +6166,17 @@ ldr x16, [x16, #984]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_87
+bl _p_81
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_77
+bl _p_71
 .word 0xf9403fa0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -6524,7 +6282,7 @@ bl _p_77
 .word 0xaa1103e1
 bl _p_18
 
-Lme_40:
+Lme_3f:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_object_TEventArgs_object_System_EventArgs
@@ -6541,7 +6299,7 @@ wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_objec
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #968]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6557,17 +6315,17 @@ ldr x16, [x16, #992]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_87
+bl _p_81
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_77
+bl _p_71
 .word 0xf9403ba0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -6665,7 +6423,7 @@ bl _p_77
 .word 0xaa1103e1
 bl _p_18
 
-Lme_41:
+Lme_40:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_AVFoundation_AVCaptureDevice_bool_invoke_TResult_T_AVFoundation_AVCaptureDevice
@@ -6681,7 +6439,7 @@ wrapper_delegate_invoke_System_Func_2_AVFoundation_AVCaptureDevice_bool_invoke_T
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #976]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6698,17 +6456,17 @@ ldr x16, [x16, #1000]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_87
+bl _p_81
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_77
+bl _p_71
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -6809,7 +6567,7 @@ bl _p_77
 .word 0xaa1103e1
 bl _p_18
 
-Lme_46:
+Lme_45:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIImagePickerMediaPickedEventArgs
@@ -6826,7 +6584,7 @@ wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEven
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #984]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6842,17 +6600,17 @@ ldr x16, [x16, #1008]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_87
+bl _p_81
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_77
+bl _p_71
 .word 0xf9403ba0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -6950,7 +6708,7 @@ bl _p_77
 .word 0xaa1103e1
 bl _p_18
 
-Lme_47:
+Lme_46:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
@@ -6965,7 +6723,7 @@ wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #992]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6982,17 +6740,17 @@ ldr x16, [x16, #1016]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_87
+bl _p_81
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_77
+bl _p_71
 .word 0xf94037a0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -7084,12 +6842,428 @@ bl _p_77
 .word 0xaa1103e1
 bl _p_18
 
-Lme_48:
+Lme_47:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_IO_Stream_invoke_TResult_T_object
 wrapper_delegate_invoke_System_Func_2_object_System_IO_Stream_invoke_TResult_T_object:
 .word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Project_iOS_got@PAGE+0
+add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
+ldr x16, [x16, #1000]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Project_iOS_got@PAGE+0
+add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
+ldr x0, [x16, #864]
+.word 0xb9400000
+.word 0x34000140
+bl _p_81
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_71
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000036
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801fa0
+.word 0xaa1103e1
+bl _p_18
+
+Lme_48:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_IO_Stream_invoke_void_T_System_Threading_Tasks_Task_1_System_IO_Stream
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_IO_Stream_invoke_void_T_System_Threading_Tasks_Task_1_System_IO_Stream:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Project_iOS_got@PAGE+0
+add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
+ldr x16, [x16, #1008]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Project_iOS_got@PAGE+0
+add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
+ldr x0, [x16, #864]
+.word 0xb9400000
+.word 0x34000140
+bl _p_81
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_71
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000030
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000024
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf9003ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf9403ba0
+.word 0xf9402bb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffc4b
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd2801fa0
+.word 0xaa1103e1
+bl _p_18
+
+Lme_49:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_IO_Stream_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_IO_Stream_invoke_TResult_T_System_IAsyncResult:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Project_iOS_got@PAGE+0
+add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
+ldr x16, [x16, #1016]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Project_iOS_got@PAGE+0
+add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
+ldr x0, [x16, #864]
+.word 0xb9400000
+.word 0x34000140
+bl _p_81
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_71
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000036
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801fa0
+.word 0xaa1103e1
+bl _p_18
+
+Lme_4a:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult:
+.word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90153b3
 .word 0xa9025bb5
@@ -7109,147 +7283,6 @@ ldr x16, [x16, #1024]
 .word 0xd2800016
 .word 0xd2800015
 .word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
-.word 0xb9400000
-.word 0x34000140
-bl _p_87
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_77
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000036
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801fa0
-.word 0xaa1103e1
-bl _p_18
-
-Lme_49:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_IO_Stream_invoke_void_T_System_Threading_Tasks_Task_1_System_IO_Stream
-wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_IO_Stream_invoke_void_T_System_Threading_Tasks_Task_1_System_IO_Stream:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1032]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
 .word 0xf9402bb1
 .word 0xf9405a31
 .word 0xb4000051
@@ -7257,17 +7290,17 @@ ldr x16, [x16, #1032]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_87
+bl _p_81
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_77
+bl _p_71
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -7354,287 +7387,12 @@ bl _p_77
 .word 0xa9446bb9
 .word 0x910003bf
 .word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801fa0
-.word 0xaa1103e1
-bl _p_18
-
-Lme_4a:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_IO_Stream_invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_IO_Stream_invoke_TResult_T_System_IAsyncResult:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1040]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
-.word 0xb9400000
-.word 0x34000140
-bl _p_87
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_77
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000036
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
 .word 0xd65f03c0
 .word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_18
 
 Lme_4b:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1048]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
-.word 0xb9400000
-.word 0x34000140
-bl _p_87
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_77
-.word 0xf94037a0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000030
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x14000024
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000489
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf9003ba2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf9403ba0
-.word 0xf9402bb1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffc4b
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801fa0
-.word 0xaa1103e1
-bl _p_18
-
-Lme_4c:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
@@ -7651,7 +7409,7 @@ wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncR
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1032]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -7668,17 +7426,17 @@ ldr x16, [x16, #1056]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_87
+bl _p_81
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_77
+bl _p_71
 .word 0xf9403fa0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -7781,7 +7539,7 @@ bl _p_77
 .word 0xaa1103e1
 bl _p_18
 
-Lme_4d:
+Lme_4c:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_CoreMedia_CMSampleBuffer_invoke_TResult
@@ -7796,7 +7554,7 @@ wrapper_delegate_invoke_System_Func_1_CoreMedia_CMSampleBuffer_invoke_TResult:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1040]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -7813,17 +7571,17 @@ ldr x16, [x16, #1064]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_87
+bl _p_81
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_77
+bl _p_71
 .word 0xf94037a0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -7915,7 +7673,7 @@ bl _p_77
 .word 0xaa1103e1
 bl _p_18
 
-Lme_4e:
+Lme_4d:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_CoreMedia_CMSampleBuffer_invoke_TResult_T_object
@@ -7931,7 +7689,7 @@ wrapper_delegate_invoke_System_Func_2_object_CoreMedia_CMSampleBuffer_invoke_TRe
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1048]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -7948,17 +7706,17 @@ ldr x16, [x16, #1072]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_87
+bl _p_81
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_77
+bl _p_71
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -8056,7 +7814,7 @@ bl _p_77
 .word 0xaa1103e1
 bl _p_18
 
-Lme_4f:
+Lme_4e:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CoreMedia_CMSampleBuffer_invoke_void_T_System_Threading_Tasks_Task_1_CoreMedia_CMSampleBuffer
@@ -8072,7 +7830,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CoreMedia_
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1056]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -8088,17 +7846,17 @@ ldr x16, [x16, #1080]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_87
+bl _p_81
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_77
+bl _p_71
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -8190,7 +7948,7 @@ bl _p_77
 .word 0xaa1103e1
 bl _p_18
 
-Lme_50:
+Lme_4f:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CoreMedia_CMSampleBuffer_invoke_TResult_T_System_IAsyncResult
@@ -8206,7 +7964,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CoreMedia_CMSampleBuff
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1064]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -8223,17 +7981,17 @@ ldr x16, [x16, #1088]
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_87
+bl _p_81
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_77
+bl _p_71
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -8331,16 +8089,16 @@ bl _p_77
 .word 0xaa1103e1
 bl _p_18
 
-Lme_51:
+Lme_50:
 .text
-ut_82:
+ut_81:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
 System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
 .loc 8 161 0 prologue_end
 .word 0xa9b17bfd
 .word 0x910003fd
@@ -8355,7 +8113,7 @@ System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TA
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1072]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -8382,7 +8140,7 @@ ldr x16, [x16, #1096]
 .word 0xaa1803e0
 .word 0x91002300
 .word 0xf90067a0
-bl _p_96
+bl _p_90
 .word 0x53001c00
 .word 0xf90063a0
 .word 0xf94033b1
@@ -8401,7 +8159,7 @@ bl _p_96
 .word 0xaa1603e0
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_97
+bl _p_91
 .word 0xf90063a0
 .word 0xf94033b1
 .word 0xf940fa31
@@ -8415,7 +8173,7 @@ bl _p_97
 .word 0x910223a2
 .word 0xaa1503e0
 .word 0xaa1403e1
-bl _p_98
+bl _p_92
 .word 0xf90063a0
 .word 0xf94033b1
 .word 0xf9413231
@@ -8441,7 +8199,7 @@ bl _p_98
 .word 0xf9417a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_96
+bl _p_90
 .word 0x53001c00
 .word 0xf90063a0
 .word 0xf94033b1
@@ -8462,7 +8220,7 @@ bl _p_96
 .word 0xd2800000
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_97
+bl _p_91
 .word 0xf90077a0
 .word 0xf94033b1
 .word 0xf941e231
@@ -8471,7 +8229,7 @@ bl _p_97
 .word 0xf94077a1
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_99
+bl _p_93
 .word 0x93407c00
 .word 0xf90063a0
 .word 0xf94033b1
@@ -8481,7 +8239,7 @@ bl _p_99
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x0, [x16, #1104]
+ldr x0, [x16, #1080]
 .word 0xf9006ba0
 .word 0xf9402fa0
 .word 0xf9400000
@@ -8504,7 +8262,7 @@ ldr x0, [x16, #1104]
 .word 0xd63f0220
 .word 0xf9406ba0
 .word 0xf9406fa1
-bl _p_100
+bl _p_94
 .word 0xf90067a0
 .word 0xf94033b1
 .word 0xf9428631
@@ -8515,7 +8273,7 @@ bl _p_100
 .word 0xd2800000
 .word 0xd2800000
 .word 0xd2800003
-bl _p_101
+bl _p_95
 .loc 8 174 0
 .word 0xf94037b1
 .word 0xf9400231
@@ -8532,7 +8290,7 @@ bl _p_101
 .word 0xf94047a2
 .word 0xd2800003
 .word 0xd2800003
-bl _p_102
+bl _p_96
 .loc 8 177 0
 .word 0xf94037b1
 .word 0xf9400231
@@ -8545,10 +8303,10 @@ bl _p_102
 .word 0xf9402bb3
 .word 0xaa1703fa
 .word 0xf94043a0
-bl _p_103
+bl _p_97
 .word 0xaa0003f9
 .word 0xf94043a0
-bl _p_104
+bl _p_98
 .word 0xd280005e
 .word 0xeb1e001f
 .word 0x540000a0
@@ -8561,7 +8319,7 @@ bl _p_104
 .word 0xf9400260
 .word 0xf9003fa0
 .word 0xf94043a0
-bl _p_105
+bl _p_99
 .word 0xd2800301
 .word 0xd2800301
 bl _p_3
@@ -8605,18 +8363,18 @@ ldr x3, [x16, #16]
 .word 0xf94063a0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_106
+bl _p_100
 .loc 8 182 0
 .word 0xf94033b1
 .word 0xf9440231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_76
+bl _p_70
 .word 0xf9005ba0
 .word 0xf9405ba0
 .word 0xb4000060
 .word 0xf9405ba0
-bl _p_77
+bl _p_71
 .word 0x14000001
 .loc 8 183 0
 .word 0xf94037b1
@@ -8640,9 +8398,9 @@ bl _p_77
 .word 0xa8cf7bfd
 .word 0xd65f03c0
 
-Lme_52:
+Lme_51:
 .text
-ut_83:
+ut_82:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 .text
@@ -8659,7 +8417,7 @@ System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1088]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8715,7 +8473,7 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_53:
+Lme_52:
 .text
 	.align 3
 jit_code_end:
@@ -8730,7 +8488,6 @@ bl Project_iOS_Application__ctor
 bl Project_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 bl Project_iOS_AppDelegate__ctor
 bl Project_iOS_CameraPreviewRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview
-bl Project_iOS_CameraPreviewRenderer_Capture
 bl Project_iOS_CameraPreviewRenderer_OnCameraPreviewTapped_object_System_EventArgs
 bl Project_iOS_CameraPreviewRenderer_Dispose_bool
 bl Project_iOS_CameraPreviewRenderer__ctor
@@ -8751,9 +8508,9 @@ bl Project_iOS_PicturePickerImplementation_OnImagePickerFinishedPickingMedia_obj
 bl Project_iOS_PicturePickerImplementation_OnImagePickerCancelled_object_System_EventArgs
 bl Project_iOS_PicturePickerImplementation_UnregisterEventHandlers
 bl Project_iOS_PicturePickerImplementation__ctor
-bl Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4__ctor
-bl Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_MoveNext
-bl Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3__ctor
+bl Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_MoveNext
+bl Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 bl Project_iOS_UICameraPreview__c__DisplayClass18_0__ctor
 bl Project_iOS_UICameraPreview__c__DisplayClass18_0__Initializeb__0_AVFoundation_AVCaptureDevice
 bl method_addresses
@@ -8815,14 +8572,15 @@ method_addresses_end:
 	.align 3
 unbox_trampolines:
 
-	.long 32,33,34,35,36,37,38,39
-	.long 40,41,42,43,82,83
+	.long 31,32,33,34,35,36,37,38
+	.long 39,40,41,42,81,82
 unbox_trampolines_end:
 
 	.long 0
 .text
 	.align 3
 unbox_trampoline_addresses:
+bl ut_31
 bl ut_32
 bl ut_33
 bl ut_34
@@ -8834,9 +8592,8 @@ bl ut_39
 bl ut_40
 bl ut_41
 bl ut_42
-bl ut_43
+bl ut_81
 bl ut_82
-bl ut_83
 
 	.long 0
 .section __TEXT, __const
@@ -8844,24 +8601,23 @@ bl ut_83
 unwind_info:
 
 	.byte 0,13,12,31,0,68,14,48,157,6,158,5,68,13,29,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10
-	.byte 152,9,26,12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,68,154,8,22,12,31
-	.byte 0,68,14,160,1,157,20,158,19,68,13,29,68,152,18,153,17,68,154,16,14,12,31,0,68,14,192,1,157,24,158,23
-	.byte 68,13,29,21,12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8,16,12,31,0,68,14,48
-	.byte 157,6,158,5,68,13,29,68,154,4,28,12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10
-	.byte 152,9,68,153,8,154,7,13,12,31,0,68,14,64,157,8,158,7,68,13,29,16,12,31,0,68,14,64,157,8,158,7
-	.byte 68,13,29,68,153,6,17,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,154,20,16,12,31,0,68,14,64,157
-	.byte 8,158,7,68,13,29,68,152,6,21,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6,34
-	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27,68,151,26,152,25,68,153,24
-	.byte 154,23,29,12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,149,26,150,25,68,151,24,152,23,68,153,22,154,21
-	.byte 34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153
-	.byte 10,154,9,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,27,12,31,0,68,14,160,2,157,36,158,35
-	.byte 68,13,29,68,150,34,151,33,68,152,32,153,31,68,154,30,13,12,31,0,68,14,80,157,10,158,9,68,13,29,23,12
-	.byte 31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9,16,12,31,0,68,14,96,157,12,158
-	.byte 11,68,13,29,68,154,10,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12,21,12,31,0,68,14,112,157
-	.byte 14,158,13,68,13,29,68,152,12,153,11,68,154,10,22,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14
-	.byte 150,13,68,152,12,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151
-	.byte 10,152,9,68,153,8,154,7,34,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,150
-	.byte 25,68,151,24,152,23,68,153,22,154,21
+	.byte 152,9,26,12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,68,154,8,14,12,31
+	.byte 0,68,14,192,1,157,24,158,23,68,13,29,21,12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68
+	.byte 154,8,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,28,12,31,0,68,14,112,157,14,158,13,68,13
+	.byte 29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7,13,12,31,0,68,14,64,157,8,158,7,68,13,29,16,12
+	.byte 31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,17,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,154
+	.byte 20,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,21,12,31,0,68,14,80,157,10,158,9,68,13,29
+	.byte 68,152,8,153,7,68,154,6,34,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150
+	.byte 27,68,151,26,152,25,68,153,24,154,23,29,12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,149,26,150,25,68
+	.byte 151,24,152,23,68,153,22,154,21,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14
+	.byte 150,13,68,151,12,152,11,68,153,10,154,9,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,27,12,31
+	.byte 0,68,14,160,2,157,36,158,35,68,13,29,68,150,34,151,33,68,152,32,153,31,68,154,30,13,12,31,0,68,14,80
+	.byte 157,10,158,9,68,13,29,23,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9,16
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,154
+	.byte 12,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10,22,12,31,0,68,14,128,1,157
+	.byte 16,158,15,68,13,29,68,149,14,150,13,68,152,12,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14
+	.byte 148,13,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7,34,12,31,0,68,14,240,1,157,30,158,29,68,13,29
+	.byte 68,147,28,148,27,68,149,26,150,25,68,151,24,152,23,68,153,22,154,21
 
 .text
 	.align 4
@@ -8872,853 +8628,805 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1104]
 br x16
-.word 1798
+.word 1780
 	.no_dead_strip plt_Xamarin_Forms_Forms_Init
 plt_Xamarin_Forms_Forms_Init:
 _p_2:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1112]
 br x16
-.word 1803
+.word 1785
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_3:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1120]
 br x16
-.word 1808
+.word 1790
 	.no_dead_strip plt_Project_App__ctor
 plt_Project_App__ctor:
 _p_4:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1128]
 br x16
-.word 1816
+.word 1798
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_5:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1136]
 br x16
-.word 1821
+.word 1803
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 _p_6:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1144]
 br x16
-.word 1826
+.word 1808
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
 _p_7:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1152]
 br x16
-.word 1831
+.word 1813
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview:
 _p_8:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1160]
 br x16
-.word 1836
+.word 1818
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview_get_Control
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview_get_Control:
 _p_9:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1168]
 br x16
-.word 1847
+.word 1829
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview_get_NewElement
 plt_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview_get_NewElement:
 _p_10:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1176]
 br x16
-.word 1858
+.word 1840
 	.no_dead_strip plt_Project_CameraPreview_get_Camera
 plt_Project_CameraPreview_get_Camera:
 _p_11:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1184]
 br x16
-.word 1869
+.word 1851
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_12:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1192]
 br x16
-.word 1874
+.word 1856
 	.no_dead_strip plt_Project_iOS_UICameraPreview__ctor_Project_CameraOptions
 plt_Project_iOS_UICameraPreview__ctor_Project_CameraOptions:
 _p_13:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1200]
 br x16
-.word 1906
+.word 1888
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview_SetNativeControl_Project_iOS_UICameraPreview
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview_SetNativeControl_Project_iOS_UICameraPreview:
 _p_14:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1208]
 br x16
-.word 1911
+.word 1893
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview_get_OldElement
 plt_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview_get_OldElement:
 _p_15:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1216]
 br x16
-.word 1922
+.word 1904
 	.no_dead_strip plt_Project_iOS_UICameraPreview_remove_Tapped_System_EventHandler_1_System_EventArgs
 plt_Project_iOS_UICameraPreview_remove_Tapped_System_EventHandler_1_System_EventArgs:
 _p_16:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1224]
 br x16
-.word 1933
+.word 1915
 	.no_dead_strip plt_Project_iOS_UICameraPreview_add_Tapped_System_EventHandler_1_System_EventArgs
 plt_Project_iOS_UICameraPreview_add_Tapped_System_EventHandler_1_System_EventArgs:
 _p_17:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1232]
 br x16
-.word 1938
+.word 1920
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_18:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
+ldr x16, [x16, #1240]
+br x16
+.word 1925
+	.no_dead_strip plt_Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3__ctor
+plt_Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3__ctor:
+_p_19:
+adrp x16, mono_aot_Project_iOS_got@PAGE+0
+add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
+ldr x16, [x16, #1248]
+br x16
+.word 1960
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
+_p_20:
+adrp x16, mono_aot_Project_iOS_got@PAGE+0
+add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
+ldr x16, [x16, #1256]
+br x16
+.word 1965
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_:
+_p_21:
+adrp x16, mono_aot_Project_iOS_got@PAGE+0
+add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 1943
-	.no_dead_strip plt_UIKit_UIScreen_get_MainScreen
-plt_UIKit_UIScreen_get_MainScreen:
-_p_19:
+.word 1968
+	.no_dead_strip plt_Project_iOS_UICameraPreview_get_CaptureSession
+plt_Project_iOS_UICameraPreview_get_CaptureSession:
+_p_22:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 1978
-	.no_dead_strip plt_UIKit_UIScreen_Capture
-plt_UIKit_UIScreen_Capture:
-_p_20:
+.word 1980
+	.no_dead_strip plt_Foundation_NSObject_Dispose
+plt_Foundation_NSObject_Dispose:
+_p_23:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 1983
-	.no_dead_strip plt_UIKit_UIImage_AsPNG
-plt_UIKit_UIImage_AsPNG:
-_p_21:
+.word 1985
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview_Dispose_bool
+plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview_Dispose_bool:
+_p_24:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 1988
-	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
-plt_wrapper_alloc_object_AllocVector_intptr_intptr:
-_p_22:
+.word 1990
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview__ctor
+plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview__ctor:
+_p_25:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 1993
-	.no_dead_strip plt_System_Convert_ToInt32_ulong
-plt_System_Convert_ToInt32_ulong:
-_p_23:
+.word 2001
+	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
+plt_System_Delegate_Combine_System_Delegate_System_Delegate:
+_p_26:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 2001
-	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int
-plt_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int:
-_p_24:
+.word 2012
+	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
+plt_System_Delegate_Remove_System_Delegate_System_Delegate:
+_p_27:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 2004
-	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
-plt__jit_icall_ves_icall_thread_finish_async_abort:
-_p_25:
+.word 2015
+	.no_dead_strip plt_UIKit_UIView__ctor
+plt_UIKit_UIView__ctor:
+_p_28:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 2007
-	.no_dead_strip plt_Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4__ctor
-plt_Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4__ctor:
-_p_26:
+.word 2018
+	.no_dead_strip plt_Project_iOS_UICameraPreview_set_IsPreviewing_bool
+plt_Project_iOS_UICameraPreview_set_IsPreviewing_bool:
+_p_29:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 2045
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
-_p_27:
+.word 2023
+	.no_dead_strip plt_Project_iOS_UICameraPreview_Initialize
+plt_Project_iOS_UICameraPreview_Initialize:
+_p_30:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 2050
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_:
-_p_28:
+.word 2028
+	.no_dead_strip plt_UIKit_UIView_Draw_CoreGraphics_CGRect
+plt_UIKit_UIView_Draw_CoreGraphics_CGRect:
+_p_31:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 2053
-	.no_dead_strip plt_Project_iOS_UICameraPreview_get_CaptureSession
-plt_Project_iOS_UICameraPreview_get_CaptureSession:
-_p_29:
+.word 2033
+	.no_dead_strip plt_UIKit_UIResponder_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
+plt_UIKit_UIResponder_TouchesBegan_Foundation_NSSet_UIKit_UIEvent:
+_p_32:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 2065
-	.no_dead_strip plt_Foundation_NSObject_Dispose
-plt_Foundation_NSObject_Dispose:
-_p_30:
+.word 2038
+	.no_dead_strip plt_System_EventArgs__ctor
+plt_System_EventArgs__ctor:
+_p_33:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 2070
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview_Dispose_bool
-plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview_Dispose_bool:
-_p_31:
+.word 2043
+	.no_dead_strip plt_Project_iOS_UICameraPreview__c__DisplayClass18_0__ctor
+plt_Project_iOS_UICameraPreview__c__DisplayClass18_0__ctor:
+_p_34:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 2075
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview__ctor
-plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Project_CameraPreview_Project_iOS_UICameraPreview__ctor:
-_p_32:
+.word 2046
+	.no_dead_strip plt_AVFoundation_AVCaptureSession__ctor
+plt_AVFoundation_AVCaptureSession__ctor:
+_p_35:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 2086
-	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
-plt_System_Delegate_Combine_System_Delegate_System_Delegate:
-_p_33:
+.word 2051
+	.no_dead_strip plt_Project_iOS_UICameraPreview_set_CaptureSession_AVFoundation_AVCaptureSession
+plt_Project_iOS_UICameraPreview_set_CaptureSession_AVFoundation_AVCaptureSession:
+_p_36:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 2097
-	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
-plt_System_Delegate_Remove_System_Delegate_System_Delegate:
-_p_34:
+.word 2056
+	.no_dead_strip plt_AVFoundation_AVCaptureVideoPreviewLayer__ctor_AVFoundation_AVCaptureSession
+plt_AVFoundation_AVCaptureVideoPreviewLayer__ctor_AVFoundation_AVCaptureSession:
+_p_37:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 2100
-	.no_dead_strip plt_UIKit_UIView__ctor
-plt_UIKit_UIView__ctor:
-_p_35:
+.word 2061
+	.no_dead_strip plt_AVFoundation_AVCaptureVideoPreviewLayer_set_VideoGravity_AVFoundation_AVLayerVideoGravity
+plt_AVFoundation_AVCaptureVideoPreviewLayer_set_VideoGravity_AVFoundation_AVLayerVideoGravity:
+_p_38:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 2103
-	.no_dead_strip plt_Project_iOS_UICameraPreview_set_IsPreviewing_bool
-plt_Project_iOS_UICameraPreview_set_IsPreviewing_bool:
-_p_36:
+.word 2066
+	.no_dead_strip plt_AVFoundation_AVMediaType_get_Video
+plt_AVFoundation_AVMediaType_get_Video:
+_p_39:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 2108
-	.no_dead_strip plt_Project_iOS_UICameraPreview_Initialize
-plt_Project_iOS_UICameraPreview_Initialize:
-_p_37:
+.word 2071
+	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
+plt_Foundation_NSString_op_Implicit_Foundation_NSString:
+_p_40:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 2113
-	.no_dead_strip plt_UIKit_UIView_Draw_CoreGraphics_CGRect
-plt_UIKit_UIView_Draw_CoreGraphics_CGRect:
-_p_38:
+.word 2076
+	.no_dead_strip plt_AVFoundation_AVCaptureDevice_DevicesWithMediaType_string
+plt_AVFoundation_AVCaptureDevice_DevicesWithMediaType_string:
+_p_41:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 2118
-	.no_dead_strip plt_UIKit_UIResponder_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
-plt_UIKit_UIResponder_TouchesBegan_Foundation_NSSet_UIKit_UIEvent:
-_p_39:
+.word 2081
+	.no_dead_strip plt_System_Linq_Enumerable_FirstOrDefault_AVFoundation_AVCaptureDevice_System_Collections_Generic_IEnumerable_1_AVFoundation_AVCaptureDevice_System_Func_2_AVFoundation_AVCaptureDevice_bool
+plt_System_Linq_Enumerable_FirstOrDefault_AVFoundation_AVCaptureDevice_System_Collections_Generic_IEnumerable_1_AVFoundation_AVCaptureDevice_System_Func_2_AVFoundation_AVCaptureDevice_bool:
+_p_42:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 2123
-	.no_dead_strip plt_System_EventArgs__ctor
-plt_System_EventArgs__ctor:
-_p_40:
+.word 2086
+	.no_dead_strip plt_AVFoundation_AVCaptureDeviceInput__ctor_AVFoundation_AVCaptureDevice_Foundation_NSError_
+plt_AVFoundation_AVCaptureDeviceInput__ctor_AVFoundation_AVCaptureDevice_Foundation_NSError_:
+_p_43:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 2128
-	.no_dead_strip plt_Project_iOS_UICameraPreview__c__DisplayClass18_0__ctor
-plt_Project_iOS_UICameraPreview__c__DisplayClass18_0__ctor:
-_p_41:
+.word 2098
+	.no_dead_strip plt_UIKit_UIImagePickerController__ctor
+plt_UIKit_UIImagePickerController__ctor:
+_p_44:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 2131
-	.no_dead_strip plt_AVFoundation_AVCaptureSession__ctor
-plt_AVFoundation_AVCaptureSession__ctor:
-_p_42:
+.word 2103
+	.no_dead_strip plt_UIKit_UIImagePickerController_AvailableMediaTypes_UIKit_UIImagePickerControllerSourceType
+plt_UIKit_UIImagePickerController_AvailableMediaTypes_UIKit_UIImagePickerControllerSourceType:
+_p_45:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 2136
-	.no_dead_strip plt_Project_iOS_UICameraPreview_set_CaptureSession_AVFoundation_AVCaptureSession
-plt_Project_iOS_UICameraPreview_set_CaptureSession_AVFoundation_AVCaptureSession:
-_p_43:
+.word 2108
+	.no_dead_strip plt_UIKit_UIImagePickerController_add_FinishedPickingMedia_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs
+plt_UIKit_UIImagePickerController_add_FinishedPickingMedia_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs:
+_p_46:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 2141
-	.no_dead_strip plt_AVFoundation_AVCaptureVideoPreviewLayer__ctor_AVFoundation_AVCaptureSession
-plt_AVFoundation_AVCaptureVideoPreviewLayer__ctor_AVFoundation_AVCaptureSession:
-_p_44:
+.word 2113
+	.no_dead_strip plt_UIKit_UIImagePickerController_add_Canceled_System_EventHandler
+plt_UIKit_UIImagePickerController_add_Canceled_System_EventHandler:
+_p_47:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 2146
-	.no_dead_strip plt_AVFoundation_AVCaptureVideoPreviewLayer_set_VideoGravity_AVFoundation_AVLayerVideoGravity
-plt_AVFoundation_AVCaptureVideoPreviewLayer_set_VideoGravity_AVFoundation_AVLayerVideoGravity:
-_p_45:
+.word 2118
+	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
+plt_UIKit_UIApplication_get_SharedApplication:
+_p_48:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 2151
-	.no_dead_strip plt_AVFoundation_AVMediaType_get_Video
-plt_AVFoundation_AVMediaType_get_Video:
-_p_46:
+.word 2123
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_IO_Stream__ctor
+plt_System_Threading_Tasks_TaskCompletionSource_1_System_IO_Stream__ctor:
+_p_49:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 2156
-	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
-plt_Foundation_NSString_op_Implicit_Foundation_NSString:
-_p_47:
+.word 2128
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_IO_Stream_get_Task
+plt_System_Threading_Tasks_TaskCompletionSource_1_System_IO_Stream_get_Task:
+_p_50:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 2161
-	.no_dead_strip plt_AVFoundation_AVCaptureDevice_DevicesWithMediaType_string
-plt_AVFoundation_AVCaptureDevice_DevicesWithMediaType_string:
-_p_48:
+.word 2139
+	.no_dead_strip plt_UIKit_UIImagePickerMediaPickedEventArgs_get_EditedImage
+plt_UIKit_UIImagePickerMediaPickedEventArgs_get_EditedImage:
+_p_51:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 2166
-	.no_dead_strip plt_System_Linq_Enumerable_FirstOrDefault_AVFoundation_AVCaptureDevice_System_Collections_Generic_IEnumerable_1_AVFoundation_AVCaptureDevice_System_Func_2_AVFoundation_AVCaptureDevice_bool
-plt_System_Linq_Enumerable_FirstOrDefault_AVFoundation_AVCaptureDevice_System_Collections_Generic_IEnumerable_1_AVFoundation_AVCaptureDevice_System_Func_2_AVFoundation_AVCaptureDevice_bool:
-_p_49:
+.word 2150
+	.no_dead_strip plt_UIKit_UIImagePickerMediaPickedEventArgs_get_OriginalImage
+plt_UIKit_UIImagePickerMediaPickedEventArgs_get_OriginalImage:
+_p_52:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 2171
-	.no_dead_strip plt_AVFoundation_AVCaptureDeviceInput__ctor_AVFoundation_AVCaptureDevice_Foundation_NSError_
-plt_AVFoundation_AVCaptureDeviceInput__ctor_AVFoundation_AVCaptureDevice_Foundation_NSError_:
-_p_50:
+.word 2155
+	.no_dead_strip plt_System_nfloat_op_Implicit_int
+plt_System_nfloat_op_Implicit_int:
+_p_53:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 2183
-	.no_dead_strip plt_UIKit_UIImagePickerController__ctor
-plt_UIKit_UIImagePickerController__ctor:
-_p_51:
+.word 2160
+	.no_dead_strip plt_UIKit_UIImage_AsJPEG_System_nfloat
+plt_UIKit_UIImage_AsJPEG_System_nfloat:
+_p_54:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 2188
-	.no_dead_strip plt_UIKit_UIImagePickerController_AvailableMediaTypes_UIKit_UIImagePickerControllerSourceType
-plt_UIKit_UIImagePickerController_AvailableMediaTypes_UIKit_UIImagePickerControllerSourceType:
-_p_52:
+.word 2165
+	.no_dead_strip plt_Project_iOS_PicturePickerImplementation_UnregisterEventHandlers
+plt_Project_iOS_PicturePickerImplementation_UnregisterEventHandlers:
+_p_55:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 2193
-	.no_dead_strip plt_UIKit_UIImagePickerController_add_FinishedPickingMedia_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs
-plt_UIKit_UIImagePickerController_add_FinishedPickingMedia_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs:
-_p_53:
+.word 2170
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_IO_Stream_SetResult_System_IO_Stream
+plt_System_Threading_Tasks_TaskCompletionSource_1_System_IO_Stream_SetResult_System_IO_Stream:
+_p_56:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 2198
-	.no_dead_strip plt_UIKit_UIImagePickerController_add_Canceled_System_EventHandler
-plt_UIKit_UIImagePickerController_add_Canceled_System_EventHandler:
-_p_54:
+.word 2175
+	.no_dead_strip plt_UIKit_UIImagePickerController_remove_FinishedPickingMedia_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs
+plt_UIKit_UIImagePickerController_remove_FinishedPickingMedia_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs:
+_p_57:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 2203
-	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
-plt_UIKit_UIApplication_get_SharedApplication:
-_p_55:
+.word 2186
+	.no_dead_strip plt_UIKit_UIImagePickerController_remove_Canceled_System_EventHandler
+plt_UIKit_UIImagePickerController_remove_Canceled_System_EventHandler:
+_p_58:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 2208
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_IO_Stream__ctor
-plt_System_Threading_Tasks_TaskCompletionSource_1_System_IO_Stream__ctor:
-_p_56:
+.word 2191
+	.no_dead_strip plt_AVFoundation_AVCaptureStillImageOutput__ctor
+plt_AVFoundation_AVCaptureStillImageOutput__ctor:
+_p_59:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 2213
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_IO_Stream_get_Task
-plt_System_Threading_Tasks_TaskCompletionSource_1_System_IO_Stream_get_Task:
-_p_57:
+.word 2196
+	.no_dead_strip plt_Foundation_NSDictionary__ctor
+plt_Foundation_NSDictionary__ctor:
+_p_60:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 2224
-	.no_dead_strip plt_UIKit_UIImagePickerMediaPickedEventArgs_get_EditedImage
-plt_UIKit_UIImagePickerMediaPickedEventArgs_get_EditedImage:
-_p_58:
+.word 2201
+	.no_dead_strip plt_System_Threading_Thread_Sleep_int
+plt_System_Threading_Thread_Sleep_int:
+_p_61:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 2235
-	.no_dead_strip plt_UIKit_UIImagePickerMediaPickedEventArgs_get_OriginalImage
-plt_UIKit_UIImagePickerMediaPickedEventArgs_get_OriginalImage:
-_p_59:
+.word 2206
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_CoreMedia_CMSampleBuffer_GetAwaiter
+plt_System_Threading_Tasks_Task_1_CoreMedia_CMSampleBuffer_GetAwaiter:
+_p_62:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 2240
-	.no_dead_strip plt_System_nfloat_op_Implicit_int
-plt_System_nfloat_op_Implicit_int:
-_p_60:
+.word 2209
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_CoreMedia_CMSampleBuffer_get_IsCompleted
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_CoreMedia_CMSampleBuffer_get_IsCompleted:
+_p_63:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 2245
-	.no_dead_strip plt_UIKit_UIImage_AsJPEG_System_nfloat
-plt_UIKit_UIImage_AsJPEG_System_nfloat:
-_p_61:
+.word 2220
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_CoreMedia_CMSampleBuffer_Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_System_Runtime_CompilerServices_TaskAwaiter_1_CoreMedia_CMSampleBuffer__Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_CoreMedia_CMSampleBuffer_Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_System_Runtime_CompilerServices_TaskAwaiter_1_CoreMedia_CMSampleBuffer__Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_:
+_p_64:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 2250
-	.no_dead_strip plt_Project_iOS_PicturePickerImplementation_UnregisterEventHandlers
-plt_Project_iOS_PicturePickerImplementation_UnregisterEventHandlers:
-_p_62:
+.word 2231
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_CoreMedia_CMSampleBuffer_GetResult
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_CoreMedia_CMSampleBuffer_GetResult:
+_p_65:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 2255
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_IO_Stream_SetResult_System_IO_Stream
-plt_System_Threading_Tasks_TaskCompletionSource_1_System_IO_Stream_SetResult_System_IO_Stream:
-_p_63:
+.word 2243
+	.no_dead_strip plt_AVFoundation_AVCaptureStillImageOutput_JpegStillToNSData_CoreMedia_CMSampleBuffer
+plt_AVFoundation_AVCaptureStillImageOutput_JpegStillToNSData_CoreMedia_CMSampleBuffer:
+_p_66:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 2260
-	.no_dead_strip plt_UIKit_UIImagePickerController_remove_FinishedPickingMedia_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs
-plt_UIKit_UIImagePickerController_remove_FinishedPickingMedia_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs:
-_p_64:
+.word 2254
+	.no_dead_strip plt_Foundation_NSData_ToArray
+plt_Foundation_NSData_ToArray:
+_p_67:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 2271
-	.no_dead_strip plt_UIKit_UIImagePickerController_remove_Canceled_System_EventHandler
-plt_UIKit_UIImagePickerController_remove_Canceled_System_EventHandler:
-_p_65:
+.word 2259
+	.no_dead_strip plt_Project_CameraPage_TakePhoto_byte__
+plt_Project_CameraPage_TakePhoto_byte__:
+_p_68:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 2276
-	.no_dead_strip plt_AVFoundation_AVCaptureStillImageOutput__ctor
-plt_AVFoundation_AVCaptureStillImageOutput__ctor:
-_p_66:
+.word 2264
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
+_p_69:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 2281
-	.no_dead_strip plt_Foundation_NSDictionary__ctor
-plt_Foundation_NSDictionary__ctor:
-_p_67:
+.word 2269
+	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
+plt__jit_icall_mono_thread_get_undeniable_exception:
+_p_70:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 2286
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_CoreMedia_CMSampleBuffer_GetAwaiter
-plt_System_Threading_Tasks_Task_1_CoreMedia_CMSampleBuffer_GetAwaiter:
-_p_68:
+.word 2272
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
+_p_71:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 2291
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_CoreMedia_CMSampleBuffer_get_IsCompleted
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_CoreMedia_CMSampleBuffer_get_IsCompleted:
-_p_69:
+.word 2311
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
+_p_72:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 2302
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_CoreMedia_CMSampleBuffer_Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_System_Runtime_CompilerServices_TaskAwaiter_1_CoreMedia_CMSampleBuffer__Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_CoreMedia_CMSampleBuffer_Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_System_Runtime_CompilerServices_TaskAwaiter_1_CoreMedia_CMSampleBuffer__Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_:
-_p_70:
+.word 2339
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
+_p_73:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 2313
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_CoreMedia_CMSampleBuffer_GetResult
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_CoreMedia_CMSampleBuffer_GetResult:
-_p_71:
+.word 2342
+	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
+plt_System_Nullable_1_bool_Unbox_object:
+_p_74:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 2325
-	.no_dead_strip plt_AVFoundation_AVCaptureStillImageOutput_JpegStillToNSData_CoreMedia_CMSampleBuffer
-plt_AVFoundation_AVCaptureStillImageOutput_JpegStillToNSData_CoreMedia_CMSampleBuffer:
-_p_72:
+.word 2371
+	.no_dead_strip plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool
+plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool:
+_p_75:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 2336
-	.no_dead_strip plt_Foundation_NSData_ToArray
-plt_Foundation_NSData_ToArray:
-_p_73:
+.word 2390
+	.no_dead_strip plt_bool_Equals_object
+plt_bool_Equals_object:
+_p_76:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1704]
 br x16
-.word 2341
-	.no_dead_strip plt_Project_CameraPage_TakePhoto_byte__
-plt_Project_CameraPage_TakePhoto_byte__:
-_p_74:
+.word 2409
+	.no_dead_strip plt_bool_GetHashCode
+plt_bool_GetHashCode:
+_p_77:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1712]
 br x16
-.word 2346
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
-_p_75:
+.word 2412
+	.no_dead_strip plt_bool_ToString
+plt_bool_ToString:
+_p_78:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1720]
 br x16
-.word 2351
-	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
-plt__jit_icall_mono_thread_get_undeniable_exception:
-_p_76:
+.word 2415
+	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
+plt_System_Nullable_1_bool__ctor_bool:
+_p_79:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 2354
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
-_p_77:
+.word 2418
+	.no_dead_strip plt_System_Type_op_Inequality_System_Type_System_Type
+plt_System_Type_op_Inequality_System_Type_System_Type:
+_p_80:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 2393
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
-_p_78:
+.word 2437
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_81:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 2421
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
-_p_79:
+.word 2440
+	.no_dead_strip plt__rgctx_fetch_0
+plt__rgctx_fetch_0:
+_p_82:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 2424
-	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
-plt_System_Nullable_1_bool_Unbox_object:
-_p_80:
+.word 2503
+	.no_dead_strip plt__jit_icall_mono_generic_class_init
+plt__jit_icall_mono_generic_class_init:
+_p_83:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 2453
-	.no_dead_strip plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool
-plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool:
-_p_81:
+.word 2511
+	.no_dead_strip plt__rgctx_fetch_1
+plt__rgctx_fetch_1:
+_p_84:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 2472
-	.no_dead_strip plt_bool_Equals_object
-plt_bool_Equals_object:
-_p_82:
+.word 2537
+	.no_dead_strip plt__rgctx_fetch_2
+plt__rgctx_fetch_2:
+_p_85:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 2491
-	.no_dead_strip plt_bool_GetHashCode
-plt_bool_GetHashCode:
-_p_83:
+.word 2553
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
+_p_86:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 2494
-	.no_dead_strip plt_bool_ToString
-plt_bool_ToString:
-_p_84:
+.word 2561
+	.no_dead_strip plt_Locale_GetText_string
+plt_Locale_GetText_string:
+_p_87:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 2497
-	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
-plt_System_Nullable_1_bool__ctor_bool:
-_p_85:
+.word 2580
+	.no_dead_strip plt__rgctx_fetch_3
+plt__rgctx_fetch_3:
+_p_88:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 2500
-	.no_dead_strip plt_System_Type_op_Inequality_System_Type_System_Type
-plt_System_Type_op_Inequality_System_Type_System_Type:
-_p_86:
+.word 2599
+	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
+plt_System_Array_Copy_System_Array_int_System_Array_int_int:
+_p_89:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 2519
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_87:
+.word 2621
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
+plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
+_p_90:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 2522
-	.no_dead_strip plt__rgctx_fetch_0
-plt__rgctx_fetch_0:
-_p_88:
+.word 2624
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
+_p_91:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 2585
-	.no_dead_strip plt__jit_icall_mono_generic_class_init
-plt__jit_icall_mono_generic_class_init:
-_p_89:
+.word 2627
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
+_p_92:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 2593
-	.no_dead_strip plt__rgctx_fetch_1
-plt__rgctx_fetch_1:
-_p_90:
+.word 2630
+	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
+plt_System_Threading_Tasks_Task_get_Id:
+_p_93:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 2619
-	.no_dead_strip plt__rgctx_fetch_2
-plt__rgctx_fetch_2:
-_p_91:
+.word 2633
+	.no_dead_strip plt_string_Concat_string_string
+plt_string_Concat_string_string:
+_p_94:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 2635
-	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
-_p_92:
+.word 2636
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
+plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
+_p_95:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 2643
-	.no_dead_strip plt_Locale_GetText_string
-plt_Locale_GetText_string:
-_p_93:
+.word 2639
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
+_p_96:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 2662
-	.no_dead_strip plt__rgctx_fetch_3
-plt__rgctx_fetch_3:
-_p_94:
+.word 2642
+	.no_dead_strip plt__rgctx_fetch_4
+plt__rgctx_fetch_4:
+_p_97:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 2681
-	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
-plt_System_Array_Copy_System_Array_int_System_Array_int_int:
-_p_95:
+.word 2666
+	.no_dead_strip plt__rgctx_fetch_5
+plt__rgctx_fetch_5:
+_p_98:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 2703
-	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
-plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
-_p_96:
+.word 2678
+	.no_dead_strip plt__rgctx_fetch_6
+plt__rgctx_fetch_6:
+_p_99:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 2706
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
-_p_97:
+.word 2690
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
+_p_100:
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 2709
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
-_p_98:
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1904]
-br x16
-.word 2712
-	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
-plt_System_Threading_Tasks_Task_get_Id:
-_p_99:
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1912]
-br x16
-.word 2715
-	.no_dead_strip plt_string_Concat_string_string
-plt_string_Concat_string_string:
-_p_100:
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1920]
-br x16
-.word 2718
-	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
-plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
-_p_101:
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1928]
-br x16
-.word 2721
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
-_p_102:
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1936]
-br x16
-.word 2724
-	.no_dead_strip plt__rgctx_fetch_4
-plt__rgctx_fetch_4:
-_p_103:
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1944]
-br x16
-.word 2748
-	.no_dead_strip plt__rgctx_fetch_5
-plt__rgctx_fetch_5:
-_p_104:
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1952]
-br x16
-.word 2760
-	.no_dead_strip plt__rgctx_fetch_6
-plt__rgctx_fetch_6:
-_p_105:
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1960]
-br x16
-.word 2772
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
-_p_106:
-adrp x16, mono_aot_Project_iOS_got@PAGE+0
-add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
-ldr x16, [x16, #1968]
-br x16
-.word 2780
+.word 2698
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Project_iOS_got, 1976
+.lcomm mono_aot_Project_iOS_got, 1904
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -9749,7 +9457,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "75681101-D889-4596-AAFE-52D15FD7D28A"
+	.asciz "5DF2FBE2-B781-4B56-85EE-EF3584574633"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -9828,13 +9536,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 140,1976,107,84,70,387000831,0,15242
-	.long 128,8,8,8,0,25,17816,2568
-	.long 2056,1560,0,1848,2024,1648,0,1136
-	.long 144,2560,0,0,0,0,0,0
+	.long 137,1904,101,83,70,387000831,0,14823
+	.long 128,8,8,8,0,25,17384,2552
+	.long 2040,1552,0,1840,2008,1640,0,1128
+	.long 136,2544,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 17,209,203,104,154,75,221,159,204,219,2,11,187,45,27,140
+	.byte 141,203,250,203,78,77,251,234,205,52,70,224,101,227,21,168
 	.globl _mono_aot_module_Project_iOS_info
 	.align 3
 _mono_aot_module_Project_iOS_info:
@@ -16639,7 +16347,7 @@ LDIFF_SYM1158=LTDIE_181 - Ldebug_info_start
 	.asciz "Project.iOS.CameraPreviewRenderer:OnElementChanged"
 	.asciz "Project_iOS_CameraPreviewRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview"
 
-	.byte 3,24
+	.byte 3,25
 	.quad Project_iOS_CameraPreviewRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview
 	.quad Lme_4
 
@@ -16688,39 +16396,39 @@ LDIFF_SYM1165=Lme_4 - Project_iOS_CameraPreviewRenderer_OnElementChanged_Xamarin
 Lfde4_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_183:
+LTDIE_185:
 
 	.byte 5
-	.asciz "UIKit_UIImage"
+	.asciz "AVFoundation_AVCaptureOutput"
 
 	.byte 40,16
 LDIFF_SYM1166=LTDIE_5 - Ldebug_info_start
 	.long LDIFF_SYM1166
 	.byte 2,35,0,0,7
-	.asciz "UIKit_UIImage"
+	.asciz "AVFoundation_AVCaptureOutput"
 
-LDIFF_SYM1167=LTDIE_183 - Ldebug_info_start
+LDIFF_SYM1167=LTDIE_185 - Ldebug_info_start
 	.long LDIFF_SYM1167
-LTDIE_183_POINTER:
+LTDIE_185_POINTER:
 
 	.byte 13
-LDIFF_SYM1168=LTDIE_183 - Ldebug_info_start
+LDIFF_SYM1168=LTDIE_185 - Ldebug_info_start
 	.long LDIFF_SYM1168
-LTDIE_183_REFERENCE:
+LTDIE_185_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1169=LTDIE_183 - Ldebug_info_start
+LDIFF_SYM1169=LTDIE_185 - Ldebug_info_start
 	.long LDIFF_SYM1169
 LTDIE_184:
 
 	.byte 5
-	.asciz "Foundation_NSData"
+	.asciz "AVFoundation_AVCaptureStillImageOutput"
 
 	.byte 40,16
-LDIFF_SYM1170=LTDIE_5 - Ldebug_info_start
+LDIFF_SYM1170=LTDIE_185 - Ldebug_info_start
 	.long LDIFF_SYM1170
 	.byte 2,35,0,0,7
-	.asciz "Foundation_NSData"
+	.asciz "AVFoundation_AVCaptureStillImageOutput"
 
 LDIFF_SYM1171=LTDIE_184 - Ldebug_info_start
 	.long LDIFF_SYM1171
@@ -16734,295 +16442,219 @@ LTDIE_184_REFERENCE:
 	.byte 14
 LDIFF_SYM1173=LTDIE_184 - Ldebug_info_start
 	.long LDIFF_SYM1173
-	.byte 2
-	.asciz "Project.iOS.CameraPreviewRenderer:Capture"
-	.asciz "Project_iOS_CameraPreviewRenderer_Capture"
-
-	.byte 3,41
-	.quad Project_iOS_CameraPreviewRenderer_Capture
-	.quad Lme_5
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1174=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1174
-	.byte 2,141,40,11
-	.asciz "capture"
-
-LDIFF_SYM1175=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1175
-	.byte 1,106,11
-	.asciz "data"
-
-LDIFF_SYM1176=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1176
-	.byte 3,141,200,0,11
-	.asciz "bytes"
-
-LDIFF_SYM1177=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1177
-	.byte 1,105,11
-	.asciz "V_3"
-
-LDIFF_SYM1178=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1178
-	.byte 1,104,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1179=Lfde5_end - Lfde5_start
-	.long LDIFF_SYM1179
-Lfde5_start:
-
-	.long 0
-	.align 3
-	.quad Project_iOS_CameraPreviewRenderer_Capture
-
-LDIFF_SYM1180=Lme_5 - Project_iOS_CameraPreviewRenderer_Capture
-	.long LDIFF_SYM1180
-	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,152,18,153,17,68,154,16
-	.align 3
-Lfde5_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_187:
-
-	.byte 5
-	.asciz "AVFoundation_AVCaptureOutput"
-
-	.byte 40,16
-LDIFF_SYM1181=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1181
-	.byte 2,35,0,0,7
-	.asciz "AVFoundation_AVCaptureOutput"
-
-LDIFF_SYM1182=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM1182
-LTDIE_187_POINTER:
-
-	.byte 13
-LDIFF_SYM1183=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM1183
-LTDIE_187_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1184=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM1184
 LTDIE_186:
 
 	.byte 5
-	.asciz "AVFoundation_AVCaptureStillImageOutput"
+	.asciz "AVFoundation_AVCaptureConnection"
 
 	.byte 40,16
-LDIFF_SYM1185=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM1185
+LDIFF_SYM1174=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1174
 	.byte 2,35,0,0,7
-	.asciz "AVFoundation_AVCaptureStillImageOutput"
+	.asciz "AVFoundation_AVCaptureConnection"
 
-LDIFF_SYM1186=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1186
+LDIFF_SYM1175=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1175
 LTDIE_186_POINTER:
 
 	.byte 13
-LDIFF_SYM1187=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1187
+LDIFF_SYM1176=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1176
 LTDIE_186_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1188=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1188
-LTDIE_188:
-
-	.byte 5
-	.asciz "AVFoundation_AVCaptureConnection"
-
-	.byte 40,16
-LDIFF_SYM1189=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1189
-	.byte 2,35,0,0,7
-	.asciz "AVFoundation_AVCaptureConnection"
-
-LDIFF_SYM1190=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1190
-LTDIE_188_POINTER:
-
-	.byte 13
-LDIFF_SYM1191=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1191
-LTDIE_188_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1192=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1192
-LTDIE_189:
+LDIFF_SYM1177=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1177
+LTDIE_187:
 
 	.byte 5
 	.asciz "CoreMedia_CMSampleBuffer"
 
 	.byte 32,16
-LDIFF_SYM1193=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1193
+LDIFF_SYM1178=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1178
 	.byte 2,35,0,6
 	.asciz "handle"
 
-LDIFF_SYM1194=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1194
+LDIFF_SYM1179=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1179
 	.byte 2,35,16,6
 	.asciz "invalidate"
 
-LDIFF_SYM1195=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1195
+LDIFF_SYM1180=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1180
 	.byte 2,35,24,0,7
 	.asciz "CoreMedia_CMSampleBuffer"
 
-LDIFF_SYM1196=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1196
-LTDIE_189_POINTER:
+LDIFF_SYM1181=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1181
+LTDIE_187_POINTER:
 
 	.byte 13
-LDIFF_SYM1197=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1197
-LTDIE_189_REFERENCE:
+LDIFF_SYM1182=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1182
+LTDIE_187_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1198=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1198
-LTDIE_185:
+LDIFF_SYM1183=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1183
+LTDIE_188:
 
 	.byte 5
-	.asciz "_<OnCameraPreviewTapped>d__4"
+	.asciz "Foundation_NSData"
+
+	.byte 40,16
+LDIFF_SYM1184=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1184
+	.byte 2,35,0,0,7
+	.asciz "Foundation_NSData"
+
+LDIFF_SYM1185=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1185
+LTDIE_188_POINTER:
+
+	.byte 13
+LDIFF_SYM1186=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1186
+LTDIE_188_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1187=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1187
+LTDIE_183:
+
+	.byte 5
+	.asciz "_<OnCameraPreviewTapped>d__3"
 
 	.byte 136,1,16
-LDIFF_SYM1199=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1199
+LDIFF_SYM1188=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1188
 	.byte 2,35,0,6
 	.asciz "<>1__state"
 
-LDIFF_SYM1200=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1200
+LDIFF_SYM1189=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1189
 	.byte 3,35,128,1,6
 	.asciz "<>t__builder"
 
-LDIFF_SYM1201=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1201
+LDIFF_SYM1190=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1190
 	.byte 2,35,16,6
 	.asciz "sender"
 
-LDIFF_SYM1202=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1202
+LDIFF_SYM1191=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1191
 	.byte 2,35,48,6
 	.asciz "e"
 
-LDIFF_SYM1203=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1203
+LDIFF_SYM1192=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1192
 	.byte 2,35,56,6
 	.asciz "<>4__this"
 
-LDIFF_SYM1204=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1204
+LDIFF_SYM1193=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1193
 	.byte 2,35,64,6
 	.asciz "<output>5__1"
 
-LDIFF_SYM1205=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1205
+LDIFF_SYM1194=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1194
 	.byte 2,35,72,6
 	.asciz "<videoConnection>5__2"
 
-LDIFF_SYM1206=LTDIE_188_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1206
+LDIFF_SYM1195=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1195
 	.byte 2,35,80,6
 	.asciz "<sampleBuffer>5__3"
 
-LDIFF_SYM1207=LTDIE_189_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1207
+LDIFF_SYM1196=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1196
 	.byte 2,35,88,6
 	.asciz "<jpegImageAsNSData>5__4"
 
-LDIFF_SYM1208=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1208
+LDIFF_SYM1197=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1197
 	.byte 2,35,96,6
 	.asciz "<jpegAsByteArray>5__5"
 
-LDIFF_SYM1209=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1209
+LDIFF_SYM1198=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1198
 	.byte 2,35,104,6
 	.asciz "<>s__6"
 
-LDIFF_SYM1210=LTDIE_189_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1210
+LDIFF_SYM1199=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1199
 	.byte 2,35,112,6
 	.asciz "<>u__1"
 
-LDIFF_SYM1211=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1211
+LDIFF_SYM1200=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1200
 	.byte 2,35,120,0,7
-	.asciz "_<OnCameraPreviewTapped>d__4"
+	.asciz "_<OnCameraPreviewTapped>d__3"
 
-LDIFF_SYM1212=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1212
-LTDIE_185_POINTER:
+LDIFF_SYM1201=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1201
+LTDIE_183_POINTER:
 
 	.byte 13
-LDIFF_SYM1213=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1213
-LTDIE_185_REFERENCE:
+LDIFF_SYM1202=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1202
+LTDIE_183_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1214=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1214
+LDIFF_SYM1203=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1203
 	.byte 2
 	.asciz "Project.iOS.CameraPreviewRenderer:OnCameraPreviewTapped"
 	.asciz "Project_iOS_CameraPreviewRenderer_OnCameraPreviewTapped_object_System_EventArgs"
 
 	.byte 0,0
 	.quad Project_iOS_CameraPreviewRenderer_OnCameraPreviewTapped_object_System_EventArgs
-	.quad Lme_6
+	.quad Lme_5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1215=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1215
+LDIFF_SYM1204=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1204
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM1216=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1216
+LDIFF_SYM1205=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1205
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1217=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1217
+LDIFF_SYM1206=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1206
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1218=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1218
+LDIFF_SYM1207=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1207
 	.byte 3,141,160,1,11
 	.asciz "V_1"
 
-LDIFF_SYM1219=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1219
+LDIFF_SYM1208=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1208
 	.byte 3,141,128,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1220=Lfde6_end - Lfde6_start
-	.long LDIFF_SYM1220
-Lfde6_start:
+LDIFF_SYM1209=Lfde5_end - Lfde5_start
+	.long LDIFF_SYM1209
+Lfde5_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_CameraPreviewRenderer_OnCameraPreviewTapped_object_System_EventArgs
 
-LDIFF_SYM1221=Lme_6 - Project_iOS_CameraPreviewRenderer_OnCameraPreviewTapped_object_System_EventArgs
-	.long LDIFF_SYM1221
+LDIFF_SYM1210=Lme_5 - Project_iOS_CameraPreviewRenderer_OnCameraPreviewTapped_object_System_EventArgs
+	.long LDIFF_SYM1210
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29
 	.align 3
-Lfde6_end:
+Lfde5_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -17030,43 +16662,43 @@ Lfde6_end:
 	.asciz "Project.iOS.CameraPreviewRenderer:Dispose"
 	.asciz "Project_iOS_CameraPreviewRenderer_Dispose_bool"
 
-	.byte 3,84
+	.byte 3,66
 	.quad Project_iOS_CameraPreviewRenderer_Dispose_bool
-	.quad Lme_7
+	.quad Lme_6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1222=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1222
+LDIFF_SYM1211=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1211
 	.byte 1,105,3
 	.asciz "disposing"
 
-LDIFF_SYM1223=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1223
+LDIFF_SYM1212=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1212
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1224=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1224
+LDIFF_SYM1213=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1213
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1225=Lfde7_end - Lfde7_start
-	.long LDIFF_SYM1225
-Lfde7_start:
+LDIFF_SYM1214=Lfde6_end - Lfde6_start
+	.long LDIFF_SYM1214
+Lfde6_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_CameraPreviewRenderer_Dispose_bool
 
-LDIFF_SYM1226=Lme_7 - Project_iOS_CameraPreviewRenderer_Dispose_bool
-	.long LDIFF_SYM1226
+LDIFF_SYM1215=Lme_6 - Project_iOS_CameraPreviewRenderer_Dispose_bool
+	.long LDIFF_SYM1215
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
-Lfde7_end:
+Lfde6_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -17074,33 +16706,33 @@ Lfde7_end:
 	.asciz "Project.iOS.CameraPreviewRenderer:.ctor"
 	.asciz "Project_iOS_CameraPreviewRenderer__ctor"
 
-	.byte 3,20
+	.byte 3,21
 	.quad Project_iOS_CameraPreviewRenderer__ctor
-	.quad Lme_8
+	.quad Lme_7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1227=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1227
+LDIFF_SYM1216=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1216
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1228=Lfde8_end - Lfde8_start
-	.long LDIFF_SYM1228
-Lfde8_start:
+LDIFF_SYM1217=Lfde7_end - Lfde7_start
+	.long LDIFF_SYM1217
+Lfde7_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_CameraPreviewRenderer__ctor
 
-LDIFF_SYM1229=Lme_8 - Project_iOS_CameraPreviewRenderer__ctor
-	.long LDIFF_SYM1229
+LDIFF_SYM1218=Lme_7 - Project_iOS_CameraPreviewRenderer__ctor
+	.long LDIFF_SYM1218
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde8_end:
+Lfde7_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -17110,51 +16742,51 @@ Lfde8_end:
 
 	.byte 0,0
 	.quad Project_iOS_UICameraPreview_add_Tapped_System_EventHandler_1_System_EventArgs
-	.quad Lme_9
+	.quad Lme_8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1230=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1230
+LDIFF_SYM1219=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1219
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1231=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1231
+LDIFF_SYM1220=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1220
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1232=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1232
+LDIFF_SYM1221=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1221
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1233=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1233
+LDIFF_SYM1222=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1222
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1234=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1234
+LDIFF_SYM1223=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1223
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1235=Lfde9_end - Lfde9_start
-	.long LDIFF_SYM1235
-Lfde9_start:
+LDIFF_SYM1224=Lfde8_end - Lfde8_start
+	.long LDIFF_SYM1224
+Lfde8_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_UICameraPreview_add_Tapped_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM1236=Lme_9 - Project_iOS_UICameraPreview_add_Tapped_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM1236
+LDIFF_SYM1225=Lme_8 - Project_iOS_UICameraPreview_add_Tapped_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM1225
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
 	.align 3
-Lfde9_end:
+Lfde8_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -17164,51 +16796,51 @@ Lfde9_end:
 
 	.byte 0,0
 	.quad Project_iOS_UICameraPreview_remove_Tapped_System_EventHandler_1_System_EventArgs
-	.quad Lme_a
+	.quad Lme_9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1237=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1237
+LDIFF_SYM1226=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1226
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1238=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1238
+LDIFF_SYM1227=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1227
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1239=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1239
+LDIFF_SYM1228=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1228
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1240=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1240
+LDIFF_SYM1229=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1229
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1241=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1241
+LDIFF_SYM1230=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1230
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1242=Lfde10_end - Lfde10_start
-	.long LDIFF_SYM1242
-Lfde10_start:
+LDIFF_SYM1231=Lfde9_end - Lfde9_start
+	.long LDIFF_SYM1231
+Lfde9_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_UICameraPreview_remove_Tapped_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM1243=Lme_a - Project_iOS_UICameraPreview_remove_Tapped_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM1243
+LDIFF_SYM1232=Lme_9 - Project_iOS_UICameraPreview_remove_Tapped_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM1232
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
 	.align 3
-Lfde10_end:
+Lfde9_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -17218,31 +16850,31 @@ Lfde10_end:
 
 	.byte 4,19
 	.quad Project_iOS_UICameraPreview_get_CaptureSession
-	.quad Lme_b
+	.quad Lme_a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1244=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1244
+LDIFF_SYM1233=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1233
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1245=Lfde11_end - Lfde11_start
-	.long LDIFF_SYM1245
-Lfde11_start:
+LDIFF_SYM1234=Lfde10_end - Lfde10_start
+	.long LDIFF_SYM1234
+Lfde10_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_UICameraPreview_get_CaptureSession
 
-LDIFF_SYM1246=Lme_b - Project_iOS_UICameraPreview_get_CaptureSession
-	.long LDIFF_SYM1246
+LDIFF_SYM1235=Lme_a - Project_iOS_UICameraPreview_get_CaptureSession
+	.long LDIFF_SYM1235
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde11_end:
+Lfde10_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -17252,36 +16884,36 @@ Lfde11_end:
 
 	.byte 4,19
 	.quad Project_iOS_UICameraPreview_set_CaptureSession_AVFoundation_AVCaptureSession
-	.quad Lme_c
+	.quad Lme_b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1247=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1247
+LDIFF_SYM1236=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1236
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1248=LTDIE_180_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1248
+LDIFF_SYM1237=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1237
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1249=Lfde12_end - Lfde12_start
-	.long LDIFF_SYM1249
-Lfde12_start:
+LDIFF_SYM1238=Lfde11_end - Lfde11_start
+	.long LDIFF_SYM1238
+Lfde11_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_UICameraPreview_set_CaptureSession_AVFoundation_AVCaptureSession
 
-LDIFF_SYM1250=Lme_c - Project_iOS_UICameraPreview_set_CaptureSession_AVFoundation_AVCaptureSession
-	.long LDIFF_SYM1250
+LDIFF_SYM1239=Lme_b - Project_iOS_UICameraPreview_set_CaptureSession_AVFoundation_AVCaptureSession
+	.long LDIFF_SYM1239
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde12_end:
+Lfde11_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -17291,31 +16923,31 @@ Lfde12_end:
 
 	.byte 4,21
 	.quad Project_iOS_UICameraPreview_get_IsPreviewing
-	.quad Lme_d
+	.quad Lme_c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1251=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1251
+LDIFF_SYM1240=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1240
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1252=Lfde13_end - Lfde13_start
-	.long LDIFF_SYM1252
-Lfde13_start:
+LDIFF_SYM1241=Lfde12_end - Lfde12_start
+	.long LDIFF_SYM1241
+Lfde12_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_UICameraPreview_get_IsPreviewing
 
-LDIFF_SYM1253=Lme_d - Project_iOS_UICameraPreview_get_IsPreviewing
-	.long LDIFF_SYM1253
+LDIFF_SYM1242=Lme_c - Project_iOS_UICameraPreview_get_IsPreviewing
+	.long LDIFF_SYM1242
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde13_end:
+Lfde12_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -17325,36 +16957,36 @@ Lfde13_end:
 
 	.byte 4,21
 	.quad Project_iOS_UICameraPreview_set_IsPreviewing_bool
-	.quad Lme_e
+	.quad Lme_d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1254=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1254
+LDIFF_SYM1243=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1243
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1255=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1255
+LDIFF_SYM1244=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1244
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1256=Lfde14_end - Lfde14_start
-	.long LDIFF_SYM1256
-Lfde14_start:
+LDIFF_SYM1245=Lfde13_end - Lfde13_start
+	.long LDIFF_SYM1245
+Lfde13_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_UICameraPreview_set_IsPreviewing_bool
 
-LDIFF_SYM1257=Lme_e - Project_iOS_UICameraPreview_set_IsPreviewing_bool
-	.long LDIFF_SYM1257
+LDIFF_SYM1246=Lme_d - Project_iOS_UICameraPreview_set_IsPreviewing_bool
+	.long LDIFF_SYM1246
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde14_end:
+Lfde13_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -17364,36 +16996,36 @@ Lfde14_end:
 
 	.byte 4,23
 	.quad Project_iOS_UICameraPreview__ctor_Project_CameraOptions
-	.quad Lme_f
+	.quad Lme_e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1258=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1258
+LDIFF_SYM1247=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1247
 	.byte 1,105,3
 	.asciz "options"
 
-LDIFF_SYM1259=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1259
+LDIFF_SYM1248=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1248
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1260=Lfde15_end - Lfde15_start
-	.long LDIFF_SYM1260
-Lfde15_start:
+LDIFF_SYM1249=Lfde14_end - Lfde14_start
+	.long LDIFF_SYM1249
+Lfde14_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_UICameraPreview__ctor_Project_CameraOptions
 
-LDIFF_SYM1261=Lme_f - Project_iOS_UICameraPreview__ctor_Project_CameraOptions
-	.long LDIFF_SYM1261
+LDIFF_SYM1250=Lme_e - Project_iOS_UICameraPreview__ctor_Project_CameraOptions
+	.long LDIFF_SYM1250
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde15_end:
+Lfde14_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -17403,125 +17035,125 @@ Lfde15_end:
 
 	.byte 4,31
 	.quad Project_iOS_UICameraPreview_Draw_CoreGraphics_CGRect
-	.quad Lme_10
+	.quad Lme_f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1262=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1262
+LDIFF_SYM1251=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1251
 	.byte 1,106,3
 	.asciz "rect"
 
-LDIFF_SYM1263=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1263
+LDIFF_SYM1252=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1252
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1264=Lfde16_end - Lfde16_start
-	.long LDIFF_SYM1264
-Lfde16_start:
+LDIFF_SYM1253=Lfde15_end - Lfde15_start
+	.long LDIFF_SYM1253
+Lfde15_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_UICameraPreview_Draw_CoreGraphics_CGRect
 
-LDIFF_SYM1265=Lme_10 - Project_iOS_UICameraPreview_Draw_CoreGraphics_CGRect
-	.long LDIFF_SYM1265
+LDIFF_SYM1254=Lme_f - Project_iOS_UICameraPreview_Draw_CoreGraphics_CGRect
+	.long LDIFF_SYM1254
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,154,20
 	.align 3
-Lfde16_end:
+Lfde15_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_189:
+
+	.byte 5
+	.asciz "Foundation_NSSet"
+
+	.byte 40,16
+LDIFF_SYM1255=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1255
+	.byte 2,35,0,0,7
+	.asciz "Foundation_NSSet"
+
+LDIFF_SYM1256=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1256
+LTDIE_189_POINTER:
+
+	.byte 13
+LDIFF_SYM1257=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1257
+LTDIE_189_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1258=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1258
 LTDIE_190:
 
 	.byte 5
-	.asciz "Foundation_NSSet"
+	.asciz "UIKit_UIEvent"
 
 	.byte 40,16
-LDIFF_SYM1266=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1266
+LDIFF_SYM1259=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1259
 	.byte 2,35,0,0,7
-	.asciz "Foundation_NSSet"
+	.asciz "UIKit_UIEvent"
 
-LDIFF_SYM1267=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1267
+LDIFF_SYM1260=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1260
 LTDIE_190_POINTER:
 
 	.byte 13
-LDIFF_SYM1268=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1268
+LDIFF_SYM1261=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1261
 LTDIE_190_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1269=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1269
-LTDIE_191:
-
-	.byte 5
-	.asciz "UIKit_UIEvent"
-
-	.byte 40,16
-LDIFF_SYM1270=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1270
-	.byte 2,35,0,0,7
-	.asciz "UIKit_UIEvent"
-
-LDIFF_SYM1271=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1271
-LTDIE_191_POINTER:
-
-	.byte 13
-LDIFF_SYM1272=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1272
-LTDIE_191_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1273=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1273
+LDIFF_SYM1262=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1262
 	.byte 2
 	.asciz "Project.iOS.UICameraPreview:TouchesBegan"
 	.asciz "Project_iOS_UICameraPreview_TouchesBegan_Foundation_NSSet_UIKit_UIEvent"
 
 	.byte 4,37
 	.quad Project_iOS_UICameraPreview_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
-	.quad Lme_11
+	.quad Lme_10
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1274=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1274
+LDIFF_SYM1263=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1263
 	.byte 1,104,3
 	.asciz "touches"
 
-LDIFF_SYM1275=LTDIE_190_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1275
+LDIFF_SYM1264=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1264
 	.byte 2,141,24,3
 	.asciz "evt"
 
-LDIFF_SYM1276=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1276
+LDIFF_SYM1265=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1265
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1277=Lfde17_end - Lfde17_start
-	.long LDIFF_SYM1277
-Lfde17_start:
+LDIFF_SYM1266=Lfde16_end - Lfde16_start
+	.long LDIFF_SYM1266
+Lfde16_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_UICameraPreview_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
 
-LDIFF_SYM1278=Lme_11 - Project_iOS_UICameraPreview_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
-	.long LDIFF_SYM1278
+LDIFF_SYM1267=Lme_10 - Project_iOS_UICameraPreview_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
+	.long LDIFF_SYM1267
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
 	.align 3
-Lfde17_end:
+Lfde16_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -17531,41 +17163,41 @@ Lfde17_end:
 
 	.byte 4,43
 	.quad Project_iOS_UICameraPreview_OnTapped
-	.quad Lme_12
+	.quad Lme_11
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1279=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1279
+LDIFF_SYM1268=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1268
 	.byte 1,106,11
 	.asciz "eventHandler"
 
-LDIFF_SYM1280=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1280
+LDIFF_SYM1269=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1269
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1281=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1281
+LDIFF_SYM1270=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1270
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1282=Lfde18_end - Lfde18_start
-	.long LDIFF_SYM1282
-Lfde18_start:
+LDIFF_SYM1271=Lfde17_end - Lfde17_start
+	.long LDIFF_SYM1271
+Lfde17_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_UICameraPreview_OnTapped
 
-LDIFF_SYM1283=Lme_12 - Project_iOS_UICameraPreview_OnTapped
-	.long LDIFF_SYM1283
+LDIFF_SYM1272=Lme_11 - Project_iOS_UICameraPreview_OnTapped
+	.long LDIFF_SYM1272
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
-Lfde18_end:
+Lfde17_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -17575,41 +17207,41 @@ Lfde18_end:
 
 	.byte 4,50
 	.quad Project_iOS_UICameraPreview_screencap
-	.quad Lme_13
+	.quad Lme_12
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1284=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1284
+LDIFF_SYM1273=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1273
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1285=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM1285
-Lfde19_start:
+LDIFF_SYM1274=Lfde18_end - Lfde18_start
+	.long LDIFF_SYM1274
+Lfde18_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_UICameraPreview_screencap
 
-LDIFF_SYM1286=Lme_13 - Project_iOS_UICameraPreview_screencap
-	.long LDIFF_SYM1286
+LDIFF_SYM1275=Lme_12 - Project_iOS_UICameraPreview_screencap
+	.long LDIFF_SYM1275
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde19_end:
+Lfde18_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_193:
+LTDIE_192:
 
 	.byte 8
 	.asciz "AVFoundation_AVCaptureDevicePosition"
 
 	.byte 8
-LDIFF_SYM1287=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM1287
+LDIFF_SYM1276=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1276
 	.byte 9
 	.asciz "Unspecified"
 
@@ -17622,774 +17254,797 @@ LDIFF_SYM1287=LDIE_I8 - Ldebug_info_start
 	.byte 2,0,7
 	.asciz "AVFoundation_AVCaptureDevicePosition"
 
-LDIFF_SYM1288=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1288
-LTDIE_193_POINTER:
+LDIFF_SYM1277=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1277
+LTDIE_192_POINTER:
 
 	.byte 13
-LDIFF_SYM1289=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1289
-LTDIE_193_REFERENCE:
+LDIFF_SYM1278=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1278
+LTDIE_192_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1290=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1290
-LTDIE_192:
+LDIFF_SYM1279=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1279
+LTDIE_191:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass18_0"
 
 	.byte 24,16
-LDIFF_SYM1291=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1291
+LDIFF_SYM1280=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1280
 	.byte 2,35,0,6
 	.asciz "cameraPosition"
 
-LDIFF_SYM1292=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1292
+LDIFF_SYM1281=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1281
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass18_0"
 
-LDIFF_SYM1293=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1293
-LTDIE_192_POINTER:
+LDIFF_SYM1282=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1282
+LTDIE_191_POINTER:
 
 	.byte 13
-LDIFF_SYM1294=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1294
-LTDIE_192_REFERENCE:
+LDIFF_SYM1283=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1283
+LTDIE_191_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1295=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1295
+LDIFF_SYM1284=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1284
+LTDIE_193:
+
+	.byte 5
+	.asciz "AVFoundation_AVCaptureDevice"
+
+	.byte 40,16
+LDIFF_SYM1285=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1285
+	.byte 2,35,0,0,7
+	.asciz "AVFoundation_AVCaptureDevice"
+
+LDIFF_SYM1286=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1286
+LTDIE_193_POINTER:
+
+	.byte 13
+LDIFF_SYM1287=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1287
+LTDIE_193_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1288=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1288
 LTDIE_194:
 
 	.byte 5
-	.asciz "AVFoundation_AVCaptureDevice"
+	.asciz "Foundation_NSError"
 
 	.byte 40,16
-LDIFF_SYM1296=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1296
+LDIFF_SYM1289=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1289
 	.byte 2,35,0,0,7
-	.asciz "AVFoundation_AVCaptureDevice"
+	.asciz "Foundation_NSError"
 
-LDIFF_SYM1297=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1297
+LDIFF_SYM1290=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1290
 LTDIE_194_POINTER:
 
 	.byte 13
-LDIFF_SYM1298=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1298
+LDIFF_SYM1291=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1291
 LTDIE_194_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1299=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1299
-LTDIE_195:
-
-	.byte 5
-	.asciz "Foundation_NSError"
-
-	.byte 40,16
-LDIFF_SYM1300=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1300
-	.byte 2,35,0,0,7
-	.asciz "Foundation_NSError"
-
-LDIFF_SYM1301=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1301
-LTDIE_195_POINTER:
-
-	.byte 13
-LDIFF_SYM1302=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1302
-LTDIE_195_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1303=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1303
-LTDIE_197:
-
-	.byte 5
-	.asciz "AVFoundation_AVCaptureInput"
-
-	.byte 40,16
-LDIFF_SYM1304=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1304
-	.byte 2,35,0,0,7
-	.asciz "AVFoundation_AVCaptureInput"
-
-LDIFF_SYM1305=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1305
-LTDIE_197_POINTER:
-
-	.byte 13
-LDIFF_SYM1306=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1306
-LTDIE_197_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1307=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1307
+LDIFF_SYM1292=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1292
 LTDIE_196:
 
 	.byte 5
-	.asciz "AVFoundation_AVCaptureDeviceInput"
+	.asciz "AVFoundation_AVCaptureInput"
 
 	.byte 40,16
-LDIFF_SYM1308=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1308
+LDIFF_SYM1293=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1293
 	.byte 2,35,0,0,7
-	.asciz "AVFoundation_AVCaptureDeviceInput"
+	.asciz "AVFoundation_AVCaptureInput"
 
-LDIFF_SYM1309=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1309
+LDIFF_SYM1294=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1294
 LTDIE_196_POINTER:
 
 	.byte 13
-LDIFF_SYM1310=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1310
+LDIFF_SYM1295=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1295
 LTDIE_196_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1311=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1311
+LDIFF_SYM1296=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1296
+LTDIE_195:
+
+	.byte 5
+	.asciz "AVFoundation_AVCaptureDeviceInput"
+
+	.byte 40,16
+LDIFF_SYM1297=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1297
+	.byte 2,35,0,0,7
+	.asciz "AVFoundation_AVCaptureDeviceInput"
+
+LDIFF_SYM1298=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1298
+LTDIE_195_POINTER:
+
+	.byte 13
+LDIFF_SYM1299=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1299
+LTDIE_195_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1300=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1300
 	.byte 2
 	.asciz "Project.iOS.UICameraPreview:Initialize"
 	.asciz "Project_iOS_UICameraPreview_Initialize"
 
 	.byte 4,0
 	.quad Project_iOS_UICameraPreview_Initialize
-	.quad Lme_14
+	.quad Lme_13
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1312=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1312
+LDIFF_SYM1301=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1301
 	.byte 1,106,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM1313=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1313
+LDIFF_SYM1302=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1302
 	.byte 1,105,11
 	.asciz "videoDevices"
 
-LDIFF_SYM1314=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1314
+LDIFF_SYM1303=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1303
 	.byte 1,104,11
 	.asciz "device"
 
-LDIFF_SYM1315=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1315
+LDIFF_SYM1304=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1304
 	.byte 1,103,11
 	.asciz "error"
 
-LDIFF_SYM1316=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1316
+LDIFF_SYM1305=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1305
 	.byte 3,141,136,1,11
 	.asciz "input"
 
-LDIFF_SYM1317=LTDIE_196_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1317
+LDIFF_SYM1306=LTDIE_195_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1306
 	.byte 1,102,11
 	.asciz "V_5"
 
-LDIFF_SYM1318=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1318
+LDIFF_SYM1307=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1307
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1319=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM1319
-Lfde20_start:
+LDIFF_SYM1308=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM1308
+Lfde19_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_UICameraPreview_Initialize
 
-LDIFF_SYM1320=Lme_14 - Project_iOS_UICameraPreview_Initialize
-	.long LDIFF_SYM1320
+LDIFF_SYM1309=Lme_13 - Project_iOS_UICameraPreview_Initialize
+	.long LDIFF_SYM1309
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27,68,151,26,152,25,68,153,24
 	.byte 154,23
 	.align 3
-Lfde20_end:
+Lfde19_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_203:
+LTDIE_202:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM1321=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM1321
+LDIFF_SYM1310=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM1310
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1322=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1322
+LDIFF_SYM1311=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1311
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1323=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1323
-LTDIE_203_POINTER:
+LDIFF_SYM1312=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1312
+LTDIE_202_POINTER:
 
 	.byte 13
-LDIFF_SYM1324=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1324
-LTDIE_203_REFERENCE:
+LDIFF_SYM1313=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1313
+LTDIE_202_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1325=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1325
-LTDIE_204:
+LDIFF_SYM1314=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1314
+LTDIE_203:
 
 	.byte 5
 	.asciz "System_AsyncCallback"
 
 	.byte 112,16
-LDIFF_SYM1326=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1326
+LDIFF_SYM1315=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1315
 	.byte 2,35,0,0,7
 	.asciz "System_AsyncCallback"
 
-LDIFF_SYM1327=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1327
-LTDIE_204_POINTER:
+LDIFF_SYM1316=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1316
+LTDIE_203_POINTER:
 
 	.byte 13
-LDIFF_SYM1328=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1328
-LTDIE_204_REFERENCE:
+LDIFF_SYM1317=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1317
+LTDIE_203_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1329=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1329
-LTDIE_202:
+LDIFF_SYM1318=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1318
+LTDIE_201:
 
 	.byte 5
 	.asciz "_ReadWriteTask"
 
 	.byte 128,1,16
-LDIFF_SYM1330=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1330
+LDIFF_SYM1319=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1319
 	.byte 2,35,0,6
 	.asciz "_isRead"
 
-LDIFF_SYM1331=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1331
+LDIFF_SYM1320=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1320
 	.byte 2,35,112,6
 	.asciz "_stream"
 
-LDIFF_SYM1332=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1332
+LDIFF_SYM1321=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1321
 	.byte 2,35,80,6
 	.asciz "_buffer"
 
-LDIFF_SYM1333=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1333
+LDIFF_SYM1322=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1322
 	.byte 2,35,88,6
 	.asciz "_offset"
 
-LDIFF_SYM1334=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1334
+LDIFF_SYM1323=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1323
 	.byte 2,35,116,6
 	.asciz "_count"
 
-LDIFF_SYM1335=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1335
+LDIFF_SYM1324=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1324
 	.byte 2,35,120,6
 	.asciz "_callback"
 
-LDIFF_SYM1336=LTDIE_204_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1336
+LDIFF_SYM1325=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1325
 	.byte 2,35,96,6
 	.asciz "_context"
 
-LDIFF_SYM1337=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1337
+LDIFF_SYM1326=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1326
 	.byte 2,35,104,0,7
 	.asciz "_ReadWriteTask"
 
-LDIFF_SYM1338=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1338
-LTDIE_202_POINTER:
+LDIFF_SYM1327=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1327
+LTDIE_201_POINTER:
 
 	.byte 13
-LDIFF_SYM1339=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1339
-LTDIE_202_REFERENCE:
+LDIFF_SYM1328=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1328
+LTDIE_201_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1340=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1340
-LTDIE_207:
+LDIFF_SYM1329=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1329
+LTDIE_206:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM1341=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM1341
+LDIFF_SYM1330=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM1330
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1342=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1342
+LDIFF_SYM1331=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1331
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1343=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1343
-LTDIE_207_POINTER:
+LDIFF_SYM1332=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1332
+LTDIE_206_POINTER:
 
 	.byte 13
-LDIFF_SYM1344=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1344
-LTDIE_207_REFERENCE:
+LDIFF_SYM1333=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1333
+LTDIE_206_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1345=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1345
-LTDIE_206:
+LDIFF_SYM1334=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1334
+LTDIE_205:
 
 	.byte 5
 	.asciz "_TaskNode"
 
 	.byte 96,16
-LDIFF_SYM1346=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1346
+LDIFF_SYM1335=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1335
 	.byte 2,35,0,6
 	.asciz "Prev"
 
-LDIFF_SYM1347=LTDIE_206_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1347
+LDIFF_SYM1336=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1336
 	.byte 2,35,80,6
 	.asciz "Next"
 
-LDIFF_SYM1348=LTDIE_206_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1348
+LDIFF_SYM1337=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1337
 	.byte 2,35,88,0,7
 	.asciz "_TaskNode"
 
-LDIFF_SYM1349=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM1349
-LTDIE_206_POINTER:
+LDIFF_SYM1338=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1338
+LTDIE_205_POINTER:
 
 	.byte 13
-LDIFF_SYM1350=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM1350
-LTDIE_206_REFERENCE:
+LDIFF_SYM1339=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1339
+LTDIE_205_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1351=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM1351
-LTDIE_205:
+LDIFF_SYM1340=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1340
+LTDIE_204:
 
 	.byte 5
 	.asciz "System_Threading_SemaphoreSlim"
 
 	.byte 64,16
-LDIFF_SYM1352=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1352
+LDIFF_SYM1341=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1341
 	.byte 2,35,0,6
 	.asciz "m_currentCount"
 
-LDIFF_SYM1353=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1353
+LDIFF_SYM1342=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1342
 	.byte 2,35,48,6
 	.asciz "m_maxCount"
 
-LDIFF_SYM1354=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1354
+LDIFF_SYM1343=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1343
 	.byte 2,35,52,6
 	.asciz "m_waitCount"
 
-LDIFF_SYM1355=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1355
+LDIFF_SYM1344=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1344
 	.byte 2,35,56,6
 	.asciz "m_lockObj"
 
-LDIFF_SYM1356=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1356
+LDIFF_SYM1345=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1345
 	.byte 2,35,16,6
 	.asciz "m_waitHandle"
 
-LDIFF_SYM1357=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1357
+LDIFF_SYM1346=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1346
 	.byte 2,35,24,6
 	.asciz "m_asyncHead"
 
-LDIFF_SYM1358=LTDIE_206_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1358
+LDIFF_SYM1347=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1347
 	.byte 2,35,32,6
 	.asciz "m_asyncTail"
 
-LDIFF_SYM1359=LTDIE_206_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1359
+LDIFF_SYM1348=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1348
 	.byte 2,35,40,0,7
 	.asciz "System_Threading_SemaphoreSlim"
 
-LDIFF_SYM1360=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1360
-LTDIE_205_POINTER:
+LDIFF_SYM1349=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1349
+LTDIE_204_POINTER:
 
 	.byte 13
-LDIFF_SYM1361=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1361
-LTDIE_205_REFERENCE:
+LDIFF_SYM1350=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1350
+LTDIE_204_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1362=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1362
-LTDIE_201:
+LDIFF_SYM1351=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1351
+LTDIE_200:
 
 	.byte 5
 	.asciz "System_IO_Stream"
 
 	.byte 40,16
-LDIFF_SYM1363=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM1363
+LDIFF_SYM1352=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM1352
 	.byte 2,35,0,6
 	.asciz "_activeReadWriteTask"
 
-LDIFF_SYM1364=LTDIE_202_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1364
+LDIFF_SYM1353=LTDIE_201_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1353
 	.byte 2,35,24,6
 	.asciz "_asyncActiveSemaphore"
 
-LDIFF_SYM1365=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1365
+LDIFF_SYM1354=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1354
 	.byte 2,35,32,0,7
 	.asciz "System_IO_Stream"
 
-LDIFF_SYM1366=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM1366
-LTDIE_201_POINTER:
+LDIFF_SYM1355=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1355
+LTDIE_200_POINTER:
 
 	.byte 13
-LDIFF_SYM1367=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM1367
-LTDIE_201_REFERENCE:
+LDIFF_SYM1356=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1356
+LTDIE_200_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1368=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM1368
-LTDIE_200:
+LDIFF_SYM1357=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1357
+LTDIE_199:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM1369=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM1369
+LDIFF_SYM1358=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM1358
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1370=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1370
+LDIFF_SYM1359=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1359
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1371=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1371
-LTDIE_200_POINTER:
+LDIFF_SYM1360=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1360
+LTDIE_199_POINTER:
 
 	.byte 13
-LDIFF_SYM1372=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1372
-LTDIE_200_REFERENCE:
+LDIFF_SYM1361=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1361
+LTDIE_199_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1373=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1373
-LTDIE_199:
+LDIFF_SYM1362=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1362
+LTDIE_198:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
 
 	.byte 24,16
-LDIFF_SYM1374=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1374
+LDIFF_SYM1363=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1363
 	.byte 2,35,0,6
 	.asciz "_task"
 
-LDIFF_SYM1375=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1375
+LDIFF_SYM1364=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1364
 	.byte 2,35,16,0,7
 	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
 
-LDIFF_SYM1376=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1376
-LTDIE_199_POINTER:
+LDIFF_SYM1365=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1365
+LTDIE_198_POINTER:
 
 	.byte 13
-LDIFF_SYM1377=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1377
-LTDIE_199_REFERENCE:
+LDIFF_SYM1366=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1366
+LTDIE_198_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1378=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1378
-LTDIE_210:
-
-	.byte 5
-	.asciz "UIKit_UIViewController"
-
-	.byte 56,16
-LDIFF_SYM1379=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1379
-	.byte 2,35,0,6
-	.asciz "__mt_PreferredFocusedView_var"
-
-LDIFF_SYM1380=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1380
-	.byte 2,35,40,6
-	.asciz "__mt_WeakTransitioningDelegate_var"
-
-LDIFF_SYM1381=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1381
-	.byte 2,35,48,0,7
-	.asciz "UIKit_UIViewController"
-
-LDIFF_SYM1382=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM1382
-LTDIE_210_POINTER:
-
-	.byte 13
-LDIFF_SYM1383=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM1383
-LTDIE_210_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1384=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM1384
+LDIFF_SYM1367=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1367
 LTDIE_209:
 
 	.byte 5
-	.asciz "UIKit_UINavigationController"
+	.asciz "UIKit_UIViewController"
 
 	.byte 56,16
-LDIFF_SYM1385=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM1385
-	.byte 2,35,0,0,7
-	.asciz "UIKit_UINavigationController"
+LDIFF_SYM1368=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1368
+	.byte 2,35,0,6
+	.asciz "__mt_PreferredFocusedView_var"
 
-LDIFF_SYM1386=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1386
+LDIFF_SYM1369=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1369
+	.byte 2,35,40,6
+	.asciz "__mt_WeakTransitioningDelegate_var"
+
+LDIFF_SYM1370=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1370
+	.byte 2,35,48,0,7
+	.asciz "UIKit_UIViewController"
+
+LDIFF_SYM1371=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM1371
 LTDIE_209_POINTER:
 
 	.byte 13
-LDIFF_SYM1387=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1387
+LDIFF_SYM1372=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM1372
 LTDIE_209_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1388=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1388
+LDIFF_SYM1373=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM1373
 LTDIE_208:
+
+	.byte 5
+	.asciz "UIKit_UINavigationController"
+
+	.byte 56,16
+LDIFF_SYM1374=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM1374
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UINavigationController"
+
+LDIFF_SYM1375=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1375
+LTDIE_208_POINTER:
+
+	.byte 13
+LDIFF_SYM1376=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1376
+LTDIE_208_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1377=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1377
+LTDIE_207:
 
 	.byte 5
 	.asciz "UIKit_UIImagePickerController"
 
 	.byte 64,16
-LDIFF_SYM1389=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1389
+LDIFF_SYM1378=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1378
 	.byte 2,35,0,6
 	.asciz "__mt_Delegate_var"
 
-LDIFF_SYM1390=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1390
+LDIFF_SYM1379=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1379
 	.byte 2,35,56,0,7
 	.asciz "UIKit_UIImagePickerController"
 
-LDIFF_SYM1391=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM1391
-LTDIE_208_POINTER:
+LDIFF_SYM1380=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1380
+LTDIE_207_POINTER:
 
 	.byte 13
-LDIFF_SYM1392=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM1392
-LTDIE_208_REFERENCE:
+LDIFF_SYM1381=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1381
+LTDIE_207_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1393=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM1393
-LTDIE_198:
+LDIFF_SYM1382=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1382
+LTDIE_197:
 
 	.byte 5
 	.asciz "Project_iOS_PicturePickerImplementation"
 
 	.byte 32,16
-LDIFF_SYM1394=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1394
+LDIFF_SYM1383=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1383
 	.byte 2,35,0,6
 	.asciz "taskCompletionSource"
 
-LDIFF_SYM1395=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1395
+LDIFF_SYM1384=LTDIE_198_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1384
 	.byte 2,35,16,6
 	.asciz "imagePicker"
 
-LDIFF_SYM1396=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1396
+LDIFF_SYM1385=LTDIE_207_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1385
 	.byte 2,35,24,0,7
 	.asciz "Project_iOS_PicturePickerImplementation"
 
-LDIFF_SYM1397=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1397
-LTDIE_198_POINTER:
+LDIFF_SYM1386=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1386
+LTDIE_197_POINTER:
 
 	.byte 13
-LDIFF_SYM1398=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1398
-LTDIE_198_REFERENCE:
+LDIFF_SYM1387=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1387
+LTDIE_197_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1399=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1399
+LDIFF_SYM1388=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1388
 	.byte 2
 	.asciz "Project.iOS.PicturePickerImplementation:GetImageStreamAsync"
 	.asciz "Project_iOS_PicturePickerImplementation_GetImageStreamAsync"
 
 	.byte 5,26
 	.quad Project_iOS_PicturePickerImplementation_GetImageStreamAsync
-	.quad Lme_15
+	.quad Lme_14
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1400=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1400
+LDIFF_SYM1389=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1389
 	.byte 1,106,11
 	.asciz "window"
 
-LDIFF_SYM1401=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1401
+LDIFF_SYM1390=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1390
 	.byte 1,105,11
 	.asciz "viewController"
 
-LDIFF_SYM1402=LTDIE_210_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1402
+LDIFF_SYM1391=LTDIE_209_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1391
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1403=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1403
+LDIFF_SYM1392=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1392
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1404=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM1404
-Lfde21_start:
+LDIFF_SYM1393=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM1393
+Lfde20_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_PicturePickerImplementation_GetImageStreamAsync
 
-LDIFF_SYM1405=Lme_15 - Project_iOS_PicturePickerImplementation_GetImageStreamAsync
-	.long LDIFF_SYM1405
+LDIFF_SYM1394=Lme_14 - Project_iOS_PicturePickerImplementation_GetImageStreamAsync
+	.long LDIFF_SYM1394
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,149,26,150,25,68,151,24,152,23,68,153,22,154,21
 	.align 3
-Lfde21_end:
+Lfde20_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_211:
+LTDIE_210:
 
 	.byte 5
 	.asciz "UIKit_UIImagePickerMediaPickedEventArgs"
 
 	.byte 24,16
-LDIFF_SYM1406=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1406
+LDIFF_SYM1395=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1395
 	.byte 2,35,0,6
 	.asciz "<Info>k__BackingField"
 
-LDIFF_SYM1407=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1407
+LDIFF_SYM1396=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1396
 	.byte 2,35,16,0,7
 	.asciz "UIKit_UIImagePickerMediaPickedEventArgs"
 
-LDIFF_SYM1408=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM1408
+LDIFF_SYM1397=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM1397
+LTDIE_210_POINTER:
+
+	.byte 13
+LDIFF_SYM1398=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM1398
+LTDIE_210_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1399=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM1399
+LTDIE_211:
+
+	.byte 5
+	.asciz "UIKit_UIImage"
+
+	.byte 40,16
+LDIFF_SYM1400=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1400
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIImage"
+
+LDIFF_SYM1401=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM1401
 LTDIE_211_POINTER:
 
 	.byte 13
-LDIFF_SYM1409=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM1409
+LDIFF_SYM1402=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM1402
 LTDIE_211_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1410=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM1410
+LDIFF_SYM1403=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM1403
 	.byte 2
 	.asciz "Project.iOS.PicturePickerImplementation:OnImagePickerFinishedPickingMedia"
 	.asciz "Project_iOS_PicturePickerImplementation_OnImagePickerFinishedPickingMedia_object_UIKit_UIImagePickerMediaPickedEventArgs"
 
 	.byte 5,49
 	.quad Project_iOS_PicturePickerImplementation_OnImagePickerFinishedPickingMedia_object_UIKit_UIImagePickerMediaPickedEventArgs
-	.quad Lme_16
+	.quad Lme_15
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1411=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1411
+LDIFF_SYM1404=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1404
 	.byte 1,105,3
 	.asciz "sender"
 
-LDIFF_SYM1412=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1412
+LDIFF_SYM1405=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1405
 	.byte 3,141,208,0,3
 	.asciz "args"
 
-LDIFF_SYM1413=LTDIE_211_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1413
+LDIFF_SYM1406=LTDIE_210_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1406
 	.byte 1,106,11
 	.asciz "image"
 
-LDIFF_SYM1414=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1414
+LDIFF_SYM1407=LTDIE_211_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1407
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1415=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1415
+LDIFF_SYM1408=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1408
 	.byte 1,103,11
 	.asciz "data"
 
-LDIFF_SYM1416=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1416
+LDIFF_SYM1409=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1409
 	.byte 1,102,11
 	.asciz "stream"
 
-LDIFF_SYM1417=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1417
+LDIFF_SYM1410=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1410
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1418=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM1418
-Lfde22_start:
+LDIFF_SYM1411=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM1411
+Lfde21_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_PicturePickerImplementation_OnImagePickerFinishedPickingMedia_object_UIKit_UIImagePickerMediaPickedEventArgs
 
-LDIFF_SYM1419=Lme_16 - Project_iOS_PicturePickerImplementation_OnImagePickerFinishedPickingMedia_object_UIKit_UIImagePickerMediaPickedEventArgs
-	.long LDIFF_SYM1419
+LDIFF_SYM1412=Lme_15 - Project_iOS_PicturePickerImplementation_OnImagePickerFinishedPickingMedia_object_UIKit_UIImagePickerMediaPickedEventArgs
+	.long LDIFF_SYM1412
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde22_end:
+Lfde21_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18399,41 +18054,41 @@ Lfde22_end:
 
 	.byte 5,72
 	.quad Project_iOS_PicturePickerImplementation_OnImagePickerCancelled_object_System_EventArgs
-	.quad Lme_17
+	.quad Lme_16
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1420=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1420
+LDIFF_SYM1413=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1413
 	.byte 1,106,3
 	.asciz "sender"
 
-LDIFF_SYM1421=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1421
+LDIFF_SYM1414=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1414
 	.byte 2,141,24,3
 	.asciz "args"
 
-LDIFF_SYM1422=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1422
+LDIFF_SYM1415=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1415
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1423=Lfde23_end - Lfde23_start
-	.long LDIFF_SYM1423
-Lfde23_start:
+LDIFF_SYM1416=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM1416
+Lfde22_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_PicturePickerImplementation_OnImagePickerCancelled_object_System_EventArgs
 
-LDIFF_SYM1424=Lme_17 - Project_iOS_PicturePickerImplementation_OnImagePickerCancelled_object_System_EventArgs
-	.long LDIFF_SYM1424
+LDIFF_SYM1417=Lme_16 - Project_iOS_PicturePickerImplementation_OnImagePickerCancelled_object_System_EventArgs
+	.long LDIFF_SYM1417
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde23_end:
+Lfde22_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18443,31 +18098,31 @@ Lfde23_end:
 
 	.byte 5,79
 	.quad Project_iOS_PicturePickerImplementation_UnregisterEventHandlers
-	.quad Lme_18
+	.quad Lme_17
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1425=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1425
+LDIFF_SYM1418=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1418
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1426=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM1426
-Lfde24_start:
+LDIFF_SYM1419=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM1419
+Lfde23_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_PicturePickerImplementation_UnregisterEventHandlers
 
-LDIFF_SYM1427=Lme_18 - Project_iOS_PicturePickerImplementation_UnregisterEventHandlers
-	.long LDIFF_SYM1427
+LDIFF_SYM1420=Lme_17 - Project_iOS_PicturePickerImplementation_UnregisterEventHandlers
+	.long LDIFF_SYM1420
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde24_end:
+Lfde23_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18477,27 +18132,61 @@ Lfde24_end:
 
 	.byte 0,0
 	.quad Project_iOS_PicturePickerImplementation__ctor
-	.quad Lme_19
+	.quad Lme_18
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1428=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1428
+LDIFF_SYM1421=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1421
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1429=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM1429
-Lfde25_start:
+LDIFF_SYM1422=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM1422
+Lfde24_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_PicturePickerImplementation__ctor
 
-LDIFF_SYM1430=Lme_19 - Project_iOS_PicturePickerImplementation__ctor
-	.long LDIFF_SYM1430
+LDIFF_SYM1423=Lme_18 - Project_iOS_PicturePickerImplementation__ctor
+	.long LDIFF_SYM1423
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde24_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Project.iOS.CameraPreviewRenderer/<OnCameraPreviewTapped>d__3:.ctor"
+	.asciz "Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3__ctor"
+
+	.byte 0,0
+	.quad Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3__ctor
+	.quad Lme_19
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1424=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1424
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1425=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM1425
+Lfde25_start:
+
+	.long 0
+	.align 3
+	.quad Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3__ctor
+
+LDIFF_SYM1426=Lme_19 - Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3__ctor
+	.long LDIFF_SYM1426
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -18506,95 +18195,61 @@ Lfde25_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Project.iOS.CameraPreviewRenderer/<OnCameraPreviewTapped>d__4:.ctor"
-	.asciz "Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4__ctor"
+	.asciz "Project.iOS.CameraPreviewRenderer/<OnCameraPreviewTapped>d__3:MoveNext"
+	.asciz "Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_MoveNext"
 
-	.byte 0,0
-	.quad Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4__ctor
+	.byte 3,0
+	.quad Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_MoveNext
 	.quad Lme_1a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1431=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1431
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1432=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM1432
-Lfde26_start:
-
-	.long 0
-	.align 3
-	.quad Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4__ctor
-
-LDIFF_SYM1433=Lme_1a - Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4__ctor
-	.long LDIFF_SYM1433
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde26_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Project.iOS.CameraPreviewRenderer/<OnCameraPreviewTapped>d__4:MoveNext"
-	.asciz "Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_MoveNext"
-
-	.byte 3,0
-	.quad Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_MoveNext
-	.quad Lme_1b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1434=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1434
+LDIFF_SYM1427=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1427
 	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM1435=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1435
+LDIFF_SYM1428=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1428
 	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM1436=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1436
+LDIFF_SYM1429=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1429
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM1437=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1437
+LDIFF_SYM1430=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1430
 	.byte 3,141,240,0,11
 	.asciz "V_3"
 
-LDIFF_SYM1438=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1438
+LDIFF_SYM1431=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1431
 	.byte 3,141,248,0,11
 	.asciz "V_4"
 
-LDIFF_SYM1439=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1439
+LDIFF_SYM1432=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1432
 	.byte 3,141,128,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1440=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM1440
-Lfde27_start:
+LDIFF_SYM1433=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM1433
+Lfde26_start:
 
 	.long 0
 	.align 3
-	.quad Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_MoveNext
+	.quad Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_MoveNext
 
-LDIFF_SYM1441=Lme_1b - Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_MoveNext
-	.long LDIFF_SYM1441
+LDIFF_SYM1434=Lme_1a - Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_MoveNext
+	.long LDIFF_SYM1434
 	.long 0
 	.byte 12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,150,34,151,33,68,152,32,153,31,68,154,30
 	.align 3
-Lfde27_end:
+Lfde26_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_212:
@@ -18605,54 +18260,54 @@ LTDIE_212:
 	.byte 16,7
 	.asciz "System_Runtime_CompilerServices_IAsyncStateMachine"
 
-LDIFF_SYM1442=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM1442
+LDIFF_SYM1435=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM1435
 LTDIE_212_POINTER:
 
 	.byte 13
-LDIFF_SYM1443=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM1443
+LDIFF_SYM1436=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM1436
 LTDIE_212_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1444=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM1444
+LDIFF_SYM1437=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM1437
 	.byte 2
-	.asciz "Project.iOS.CameraPreviewRenderer/<OnCameraPreviewTapped>d__4:SetStateMachine"
-	.asciz "Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+	.asciz "Project.iOS.CameraPreviewRenderer/<OnCameraPreviewTapped>d__3:SetStateMachine"
+	.asciz "Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
 
 	.byte 0,0
-	.quad Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.quad Lme_1c
+	.quad Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad Lme_1b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1445=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1445
+LDIFF_SYM1438=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1438
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1446=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1446
+LDIFF_SYM1439=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1439
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1447=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM1447
-Lfde28_start:
+LDIFF_SYM1440=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM1440
+Lfde27_start:
 
 	.long 0
 	.align 3
-	.quad Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM1448=Lme_1c - Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1448
+LDIFF_SYM1441=Lme_1b - Project_iOS_CameraPreviewRenderer__OnCameraPreviewTappedd__3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1441
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde28_end:
+Lfde27_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18662,31 +18317,31 @@ Lfde28_end:
 
 	.byte 0,0
 	.quad Project_iOS_UICameraPreview__c__DisplayClass18_0__ctor
-	.quad Lme_1d
+	.quad Lme_1c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1449=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1449
+LDIFF_SYM1442=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1442
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1450=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM1450
-Lfde29_start:
+LDIFF_SYM1443=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM1443
+Lfde28_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_UICameraPreview__c__DisplayClass18_0__ctor
 
-LDIFF_SYM1451=Lme_1d - Project_iOS_UICameraPreview__c__DisplayClass18_0__ctor
-	.long LDIFF_SYM1451
+LDIFF_SYM1444=Lme_1c - Project_iOS_UICameraPreview__c__DisplayClass18_0__ctor
+	.long LDIFF_SYM1444
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde29_end:
+Lfde28_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18696,36 +18351,36 @@ Lfde29_end:
 
 	.byte 4,64
 	.quad Project_iOS_UICameraPreview__c__DisplayClass18_0__Initializeb__0_AVFoundation_AVCaptureDevice
-	.quad Lme_1e
+	.quad Lme_1d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1452=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1452
+LDIFF_SYM1445=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1445
 	.byte 2,141,16,3
 	.asciz "d"
 
-LDIFF_SYM1453=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1453
+LDIFF_SYM1446=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1446
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1454=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM1454
-Lfde30_start:
+LDIFF_SYM1447=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM1447
+Lfde29_start:
 
 	.long 0
 	.align 3
 	.quad Project_iOS_UICameraPreview__c__DisplayClass18_0__Initializeb__0_AVFoundation_AVCaptureDevice
 
-LDIFF_SYM1455=Lme_1e - Project_iOS_UICameraPreview__c__DisplayClass18_0__Initializeb__0_AVFoundation_AVCaptureDevice
-	.long LDIFF_SYM1455
+LDIFF_SYM1448=Lme_1d - Project_iOS_UICameraPreview__c__DisplayClass18_0__Initializeb__0_AVFoundation_AVCaptureDevice
+	.long LDIFF_SYM1448
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde30_end:
+Lfde29_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_213:
@@ -18734,69 +18389,69 @@ LTDIE_213:
 	.asciz "System_Nullable`1"
 
 	.byte 18,16
-LDIFF_SYM1456=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1456
+LDIFF_SYM1449=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1449
 	.byte 2,35,0,6
 	.asciz "value"
 
-LDIFF_SYM1457=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1457
+LDIFF_SYM1450=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1450
 	.byte 2,35,16,6
 	.asciz "has_value"
 
-LDIFF_SYM1458=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1458
+LDIFF_SYM1451=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1451
 	.byte 2,35,17,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM1459=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM1459
+LDIFF_SYM1452=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM1452
 LTDIE_213_POINTER:
 
 	.byte 13
-LDIFF_SYM1460=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM1460
+LDIFF_SYM1453=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM1453
 LTDIE_213_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1461=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM1461
+LDIFF_SYM1454=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM1454
 	.byte 2
 	.asciz "System.Nullable`1<bool>:.ctor"
 	.asciz "System_Nullable_1_bool__ctor_bool"
 
 	.byte 6,94
 	.quad System_Nullable_1_bool__ctor_bool
-	.quad Lme_20
+	.quad Lme_1f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1462=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1462
+LDIFF_SYM1455=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1455
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1463=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1463
+LDIFF_SYM1456=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1456
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1464=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM1464
-Lfde31_start:
+LDIFF_SYM1457=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM1457
+Lfde30_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool__ctor_bool
 
-LDIFF_SYM1465=Lme_20 - System_Nullable_1_bool__ctor_bool
-	.long LDIFF_SYM1465
+LDIFF_SYM1458=Lme_1f - System_Nullable_1_bool__ctor_bool
+	.long LDIFF_SYM1458
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde31_end:
+Lfde30_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18806,31 +18461,31 @@ Lfde31_end:
 
 	.byte 6,99
 	.quad System_Nullable_1_bool_get_HasValue
-	.quad Lme_21
+	.quad Lme_20
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1466=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1466
+LDIFF_SYM1459=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1459
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1467=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM1467
-Lfde32_start:
+LDIFF_SYM1460=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM1460
+Lfde31_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_get_HasValue
 
-LDIFF_SYM1468=Lme_21 - System_Nullable_1_bool_get_HasValue
-	.long LDIFF_SYM1468
+LDIFF_SYM1461=Lme_20 - System_Nullable_1_bool_get_HasValue
+	.long LDIFF_SYM1461
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde32_end:
+Lfde31_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18840,31 +18495,31 @@ Lfde32_end:
 
 	.byte 6,104
 	.quad System_Nullable_1_bool_get_Value
-	.quad Lme_22
+	.quad Lme_21
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1469=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1469
+LDIFF_SYM1462=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1462
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1470=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM1470
-Lfde33_start:
+LDIFF_SYM1463=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM1463
+Lfde32_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_get_Value
 
-LDIFF_SYM1471=Lme_22 - System_Nullable_1_bool_get_Value
-	.long LDIFF_SYM1471
+LDIFF_SYM1464=Lme_21 - System_Nullable_1_bool_get_Value
+	.long LDIFF_SYM1464
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde33_end:
+Lfde32_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18874,36 +18529,36 @@ Lfde33_end:
 
 	.byte 6,113
 	.quad System_Nullable_1_bool_Equals_object
-	.quad Lme_23
+	.quad Lme_22
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1472=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1472
+LDIFF_SYM1465=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1465
 	.byte 1,105,3
 	.asciz "other"
 
-LDIFF_SYM1473=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1473
+LDIFF_SYM1466=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1466
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1474=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM1474
-Lfde34_start:
+LDIFF_SYM1467=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM1467
+Lfde33_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_Equals_object
 
-LDIFF_SYM1475=Lme_23 - System_Nullable_1_bool_Equals_object
-	.long LDIFF_SYM1475
+LDIFF_SYM1468=Lme_22 - System_Nullable_1_bool_Equals_object
+	.long LDIFF_SYM1468
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde34_end:
+Lfde33_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18913,36 +18568,36 @@ Lfde34_end:
 
 	.byte 6,123
 	.quad System_Nullable_1_bool_Equals_System_Nullable_1_bool
-	.quad Lme_24
+	.quad Lme_23
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1476=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1476
+LDIFF_SYM1469=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1469
 	.byte 1,106,3
 	.asciz "other"
 
-LDIFF_SYM1477=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1477
+LDIFF_SYM1470=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1470
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1478=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM1478
-Lfde35_start:
+LDIFF_SYM1471=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM1471
+Lfde34_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_Equals_System_Nullable_1_bool
 
-LDIFF_SYM1479=Lme_24 - System_Nullable_1_bool_Equals_System_Nullable_1_bool
-	.long LDIFF_SYM1479
+LDIFF_SYM1472=Lme_23 - System_Nullable_1_bool_Equals_System_Nullable_1_bool
+	.long LDIFF_SYM1472
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde35_end:
+Lfde34_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18952,31 +18607,31 @@ Lfde35_end:
 
 	.byte 6,134,1
 	.quad System_Nullable_1_bool_GetHashCode
-	.quad Lme_25
+	.quad Lme_24
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1480=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1480
+LDIFF_SYM1473=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1473
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1481=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM1481
-Lfde36_start:
+LDIFF_SYM1474=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM1474
+Lfde35_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_GetHashCode
 
-LDIFF_SYM1482=Lme_25 - System_Nullable_1_bool_GetHashCode
-	.long LDIFF_SYM1482
+LDIFF_SYM1475=Lme_24 - System_Nullable_1_bool_GetHashCode
+	.long LDIFF_SYM1475
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde36_end:
+Lfde35_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18986,31 +18641,31 @@ Lfde36_end:
 
 	.byte 6,142,1
 	.quad System_Nullable_1_bool_GetValueOrDefault
-	.quad Lme_26
+	.quad Lme_25
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1483=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1483
+LDIFF_SYM1476=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1476
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1484=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM1484
-Lfde37_start:
+LDIFF_SYM1477=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM1477
+Lfde36_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_GetValueOrDefault
 
-LDIFF_SYM1485=Lme_26 - System_Nullable_1_bool_GetValueOrDefault
-	.long LDIFF_SYM1485
+LDIFF_SYM1478=Lme_25 - System_Nullable_1_bool_GetValueOrDefault
+	.long LDIFF_SYM1478
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde37_end:
+Lfde36_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19020,36 +18675,36 @@ Lfde37_end:
 
 	.byte 6,147,1
 	.quad System_Nullable_1_bool_GetValueOrDefault_bool
-	.quad Lme_27
+	.quad Lme_26
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1486=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1486
+LDIFF_SYM1479=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1479
 	.byte 1,105,3
 	.asciz "defaultValue"
 
-LDIFF_SYM1487=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1487
+LDIFF_SYM1480=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1480
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1488=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM1488
-Lfde38_start:
+LDIFF_SYM1481=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM1481
+Lfde37_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_GetValueOrDefault_bool
 
-LDIFF_SYM1489=Lme_27 - System_Nullable_1_bool_GetValueOrDefault_bool
-	.long LDIFF_SYM1489
+LDIFF_SYM1482=Lme_26 - System_Nullable_1_bool_GetValueOrDefault_bool
+	.long LDIFF_SYM1482
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde38_end:
+Lfde37_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19059,31 +18714,31 @@ Lfde38_end:
 
 	.byte 6,152,1
 	.quad System_Nullable_1_bool_ToString
-	.quad Lme_28
+	.quad Lme_27
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1490=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1490
+LDIFF_SYM1483=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1483
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1491=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM1491
-Lfde39_start:
+LDIFF_SYM1484=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM1484
+Lfde38_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_ToString
 
-LDIFF_SYM1492=Lme_28 - System_Nullable_1_bool_ToString
-	.long LDIFF_SYM1492
+LDIFF_SYM1485=Lme_27 - System_Nullable_1_bool_ToString
+	.long LDIFF_SYM1485
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde39_end:
+Lfde38_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19093,31 +18748,31 @@ Lfde39_end:
 
 	.byte 6,177,1
 	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
-	.quad Lme_29
+	.quad Lme_28
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1493=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1493
+LDIFF_SYM1486=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1486
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1494=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM1494
-Lfde40_start:
+LDIFF_SYM1487=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM1487
+Lfde39_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
 
-LDIFF_SYM1495=Lme_29 - System_Nullable_1_bool_Box_System_Nullable_1_bool
-	.long LDIFF_SYM1495
+LDIFF_SYM1488=Lme_28 - System_Nullable_1_bool_Box_System_Nullable_1_bool
+	.long LDIFF_SYM1488
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde40_end:
+Lfde39_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19127,36 +18782,36 @@ Lfde40_end:
 
 	.byte 6,185,1
 	.quad System_Nullable_1_bool_Unbox_object
-	.quad Lme_2a
+	.quad Lme_29
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1496=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1496
+LDIFF_SYM1489=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1489
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1497=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1497
+LDIFF_SYM1490=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1490
 	.byte 3,141,216,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1498=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM1498
-Lfde41_start:
+LDIFF_SYM1491=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM1491
+Lfde40_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_Unbox_object
 
-LDIFF_SYM1499=Lme_2a - System_Nullable_1_bool_Unbox_object
-	.long LDIFF_SYM1499
+LDIFF_SYM1492=Lme_29 - System_Nullable_1_bool_Unbox_object
+	.long LDIFF_SYM1492
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde41_end:
+Lfde40_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19166,36 +18821,36 @@ Lfde41_end:
 
 	.byte 6,192,1
 	.quad System_Nullable_1_bool_UnboxExact_object
-	.quad Lme_2b
+	.quad Lme_2a
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1500=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1500
+LDIFF_SYM1493=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1493
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1501=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1501
+LDIFF_SYM1494=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1494
 	.byte 3,141,216,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1502=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM1502
-Lfde42_start:
+LDIFF_SYM1495=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM1495
+Lfde41_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_UnboxExact_object
 
-LDIFF_SYM1503=Lme_2b - System_Nullable_1_bool_UnboxExact_object
-	.long LDIFF_SYM1503
+LDIFF_SYM1496=Lme_2a - System_Nullable_1_bool_UnboxExact_object
+	.long LDIFF_SYM1496
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
-Lfde42_end:
+Lfde41_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_214:
@@ -19204,169 +18859,169 @@ LTDIE_214:
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM1504=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1504
+LDIFF_SYM1497=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1497
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1505=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM1505
+LDIFF_SYM1498=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM1498
 LTDIE_214_POINTER:
 
 	.byte 13
-LDIFF_SYM1506=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM1506
+LDIFF_SYM1499=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM1499
 LTDIE_214_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1507=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM1507
+LDIFF_SYM1500=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM1500
 LTDIE_216:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_ElementChangedEventArgs`1"
 
 	.byte 32,16
-LDIFF_SYM1508=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1508
+LDIFF_SYM1501=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1501
 	.byte 2,35,0,6
 	.asciz "<NewElement>k__BackingField"
 
-LDIFF_SYM1509=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1509
+LDIFF_SYM1502=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1502
 	.byte 2,35,16,6
 	.asciz "<OldElement>k__BackingField"
 
-LDIFF_SYM1510=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1510
+LDIFF_SYM1503=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1503
 	.byte 2,35,24,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_ElementChangedEventArgs`1"
 
-LDIFF_SYM1511=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM1511
+LDIFF_SYM1504=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1504
 LTDIE_216_POINTER:
 
 	.byte 13
-LDIFF_SYM1512=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM1512
+LDIFF_SYM1505=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1505
 LTDIE_216_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1513=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM1513
+LDIFF_SYM1506=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1506
 LTDIE_215:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
 	.byte 32,16
-LDIFF_SYM1514=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM1514
+LDIFF_SYM1507=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1507
 	.byte 2,35,0,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
-LDIFF_SYM1515=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM1515
+LDIFF_SYM1508=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1508
 LTDIE_215_POINTER:
 
 	.byte 13
-LDIFF_SYM1516=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM1516
+LDIFF_SYM1509=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1509
 LTDIE_215_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1517=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM1517
+LDIFF_SYM1510=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1510
 LTDIE_217:
 
 	.byte 5
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM1518=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1518
+LDIFF_SYM1511=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1511
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM1519=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM1519
+LDIFF_SYM1512=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM1512
 LTDIE_217_POINTER:
 
 	.byte 13
-LDIFF_SYM1520=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM1520
+LDIFF_SYM1513=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM1513
 LTDIE_217_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1521=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM1521
+LDIFF_SYM1514=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM1514
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<Xamarin.Forms.Platform.iOS.VisualElementChangedEventArgs>:invoke_void_object_TEventArgs"
 	.asciz "wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.quad Lme_2c
+	.quad Lme_2b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1522=LTDIE_214_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1522
+LDIFF_SYM1515=LTDIE_214_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1515
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1523=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1523
+LDIFF_SYM1516=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1516
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1524=LTDIE_215_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1524
+LDIFF_SYM1517=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1517
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1525=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1525
+LDIFF_SYM1518=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1518
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1526=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1526
+LDIFF_SYM1519=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1519
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1527=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1527
+LDIFF_SYM1520=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1520
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1528=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1528
+LDIFF_SYM1521=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1521
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1529=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1529
+LDIFF_SYM1522=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1522
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1530=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM1530
-Lfde43_start:
+LDIFF_SYM1523=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM1523
+Lfde42_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
 
-LDIFF_SYM1531=Lme_2c - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.long LDIFF_SYM1531
+LDIFF_SYM1524=Lme_2b - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+	.long LDIFF_SYM1524
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde43_end:
+Lfde42_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19376,67 +19031,67 @@ Lfde43_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview
-	.quad Lme_2d
+	.quad Lme_2c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1532=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1532
+LDIFF_SYM1525=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1525
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1533=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1533
+LDIFF_SYM1526=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1526
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1534=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1534
+LDIFF_SYM1527=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1527
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1535=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1535
+LDIFF_SYM1528=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1528
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1536=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1536
+LDIFF_SYM1529=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1529
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1537=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1537
+LDIFF_SYM1530=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1530
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1538=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1538
+LDIFF_SYM1531=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1531
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1539=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1539
+LDIFF_SYM1532=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1532
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1540=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM1540
-Lfde44_start:
+LDIFF_SYM1533=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM1533
+Lfde43_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview
 
-LDIFF_SYM1541=Lme_2d - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview
-	.long LDIFF_SYM1541
+LDIFF_SYM1534=Lme_2c - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Project_CameraPreview
+	.long LDIFF_SYM1534
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde44_end:
+Lfde43_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19446,31 +19101,31 @@ Lfde44_end:
 
 	.byte 7,70
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.quad Lme_36
+	.quad Lme_35
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1542=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1542
+LDIFF_SYM1535=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1535
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1543=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM1543
-Lfde45_start:
+LDIFF_SYM1536=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM1536
+Lfde44_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 
-LDIFF_SYM1544=Lme_36 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.long LDIFF_SYM1544
+LDIFF_SYM1537=Lme_35 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+	.long LDIFF_SYM1537
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
-Lfde45_end:
+Lfde44_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19480,31 +19135,31 @@ Lfde45_end:
 
 	.byte 7,60
 	.quad System_Array_InternalArray__ICollection_get_Count
-	.quad Lme_37
+	.quad Lme_36
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1545=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1545
+LDIFF_SYM1538=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1538
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1546=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM1546
-Lfde46_start:
+LDIFF_SYM1539=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM1539
+Lfde45_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_Count
 
-LDIFF_SYM1547=Lme_37 - System_Array_InternalArray__ICollection_get_Count
-	.long LDIFF_SYM1547
+LDIFF_SYM1540=Lme_36 - System_Array_InternalArray__ICollection_get_Count
+	.long LDIFF_SYM1540
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde46_end:
+Lfde45_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19514,31 +19169,31 @@ Lfde46_end:
 
 	.byte 7,65
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
-	.quad Lme_38
+	.quad Lme_37
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1548=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1548
+LDIFF_SYM1541=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1541
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1549=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM1549
-Lfde47_start:
+LDIFF_SYM1542=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM1542
+Lfde46_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
 
-LDIFF_SYM1550=Lme_38 - System_Array_InternalArray__ICollection_get_IsReadOnly
-	.long LDIFF_SYM1550
+LDIFF_SYM1543=Lme_37 - System_Array_InternalArray__ICollection_get_IsReadOnly
+	.long LDIFF_SYM1543
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde47_end:
+Lfde46_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19548,31 +19203,31 @@ Lfde47_end:
 
 	.byte 7,78
 	.quad System_Array_InternalArray__ICollection_Clear
-	.quad Lme_39
+	.quad Lme_38
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1551=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1551
+LDIFF_SYM1544=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1544
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1552=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM1552
-Lfde48_start:
+LDIFF_SYM1545=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM1545
+Lfde47_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Clear
 
-LDIFF_SYM1553=Lme_39 - System_Array_InternalArray__ICollection_Clear
-	.long LDIFF_SYM1553
+LDIFF_SYM1546=Lme_38 - System_Array_InternalArray__ICollection_Clear
+	.long LDIFF_SYM1546
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde48_end:
+Lfde47_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19582,36 +19237,36 @@ Lfde48_end:
 
 	.byte 7,83
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.quad Lme_3a
+	.quad Lme_39
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1554=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1554
+LDIFF_SYM1547=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1547
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1555=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1555
+LDIFF_SYM1548=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1548
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1556=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM1556
-Lfde49_start:
+LDIFF_SYM1549=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM1549
+Lfde48_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 
-LDIFF_SYM1557=Lme_3a - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.long LDIFF_SYM1557
+LDIFF_SYM1550=Lme_39 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.long LDIFF_SYM1550
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde49_end:
+Lfde48_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19621,36 +19276,36 @@ Lfde49_end:
 
 	.byte 7,88
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.quad Lme_3b
+	.quad Lme_3a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1558=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1558
+LDIFF_SYM1551=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1551
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1559=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1559
+LDIFF_SYM1552=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1552
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1560=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM1560
-Lfde50_start:
+LDIFF_SYM1553=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM1553
+Lfde49_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 
-LDIFF_SYM1561=Lme_3b - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.long LDIFF_SYM1561
+LDIFF_SYM1554=Lme_3a - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.long LDIFF_SYM1554
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde50_end:
+Lfde49_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19660,51 +19315,51 @@ Lfde50_end:
 
 	.byte 7,93
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.quad Lme_3c
+	.quad Lme_3b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1562=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1562
+LDIFF_SYM1555=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1555
 	.byte 1,106,3
 	.asciz "item"
 
-LDIFF_SYM1563=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1563
+LDIFF_SYM1556=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1556
 	.byte 2,141,40,11
 	.asciz "length"
 
-LDIFF_SYM1564=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1564
+LDIFF_SYM1557=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1557
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM1565=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1565
+LDIFF_SYM1558=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1558
 	.byte 1,104,11
 	.asciz "value"
 
-LDIFF_SYM1566=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1566
+LDIFF_SYM1559=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1559
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1567=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM1567
-Lfde51_start:
+LDIFF_SYM1560=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM1560
+Lfde50_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 
-LDIFF_SYM1568=Lme_3c - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.long LDIFF_SYM1568
+LDIFF_SYM1561=Lme_3b - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+	.long LDIFF_SYM1561
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
-Lfde51_end:
+Lfde50_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19714,41 +19369,41 @@ Lfde51_end:
 
 	.byte 7,118
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.quad Lme_3d
+	.quad Lme_3c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1569=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1569
+LDIFF_SYM1562=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1562
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM1570=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1570
+LDIFF_SYM1563=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1563
 	.byte 2,141,40,3
 	.asciz "arrayIndex"
 
-LDIFF_SYM1571=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1571
+LDIFF_SYM1564=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1564
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1572=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM1572
-Lfde52_start:
+LDIFF_SYM1565=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM1565
+Lfde51_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 
-LDIFF_SYM1573=Lme_3d - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.long LDIFF_SYM1573
+LDIFF_SYM1566=Lme_3c - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+	.long LDIFF_SYM1566
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,152,12
 	.align 3
-Lfde52_end:
+Lfde51_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_218:
@@ -19757,90 +19412,90 @@ LTDIE_218:
 	.asciz "System_Predicate`1"
 
 	.byte 112,16
-LDIFF_SYM1574=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1574
+LDIFF_SYM1567=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1567
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM1575=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM1575
+LDIFF_SYM1568=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM1568
 LTDIE_218_POINTER:
 
 	.byte 13
-LDIFF_SYM1576=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM1576
+LDIFF_SYM1569=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM1569
 LTDIE_218_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1577=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM1577
+LDIFF_SYM1570=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM1570
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<System.EventHandler`1<Xamarin.Forms.Platform.iOS.VisualElementChangedEventArgs>>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.quad Lme_3e
+	.quad Lme_3d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1578=LTDIE_218_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1578
+LDIFF_SYM1571=LTDIE_218_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1571
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1579=LTDIE_214_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1579
+LDIFF_SYM1572=LTDIE_214_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1572
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1580=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1580
+LDIFF_SYM1573=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1573
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1581=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1581
+LDIFF_SYM1574=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1574
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1582=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1582
+LDIFF_SYM1575=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1575
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1583=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1583
+LDIFF_SYM1576=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1576
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1584=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1584
+LDIFF_SYM1577=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1577
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1585=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1585
+LDIFF_SYM1578=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1578
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1586=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM1586
-Lfde53_start:
+LDIFF_SYM1579=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM1579
+Lfde52_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
 
-LDIFF_SYM1587=Lme_3e - wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.long LDIFF_SYM1587
+LDIFF_SYM1580=Lme_3d - wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+	.long LDIFF_SYM1580
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde53_end:
+Lfde52_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_219:
@@ -19849,85 +19504,85 @@ LTDIE_219:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1588=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1588
+LDIFF_SYM1581=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1581
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1589=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM1589
+LDIFF_SYM1582=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1582
 LTDIE_219_POINTER:
 
 	.byte 13
-LDIFF_SYM1590=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM1590
+LDIFF_SYM1583=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1583
 LTDIE_219_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1591=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM1591
+LDIFF_SYM1584=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1584
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.EventHandler`1<Xamarin.Forms.Platform.iOS.VisualElementChangedEventArgs>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.quad Lme_3f
+	.quad Lme_3e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1592=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1592
+LDIFF_SYM1585=LTDIE_219_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1585
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1593=LTDIE_214_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1593
+LDIFF_SYM1586=LTDIE_214_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1586
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1594=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1594
+LDIFF_SYM1587=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1587
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1595=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1595
+LDIFF_SYM1588=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1588
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1596=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1596
+LDIFF_SYM1589=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1589
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1597=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1597
+LDIFF_SYM1590=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1590
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1598=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1598
+LDIFF_SYM1591=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1591
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1599=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM1599
-Lfde54_start:
+LDIFF_SYM1592=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM1592
+Lfde53_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
 
-LDIFF_SYM1600=Lme_3f - wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.long LDIFF_SYM1600
+LDIFF_SYM1593=Lme_3e - wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+	.long LDIFF_SYM1593
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde54_end:
+Lfde53_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_220:
@@ -19936,95 +19591,95 @@ LTDIE_220:
 	.asciz "System_Comparison`1"
 
 	.byte 112,16
-LDIFF_SYM1601=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1601
+LDIFF_SYM1594=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1594
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM1602=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM1602
+LDIFF_SYM1595=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM1595
 LTDIE_220_POINTER:
 
 	.byte 13
-LDIFF_SYM1603=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM1603
+LDIFF_SYM1596=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM1596
 LTDIE_220_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1604=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM1604
+LDIFF_SYM1597=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM1597
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<System.EventHandler`1<Xamarin.Forms.Platform.iOS.VisualElementChangedEventArgs>>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.quad Lme_40
+	.quad Lme_3f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1605=LTDIE_220_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1605
+LDIFF_SYM1598=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1598
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1606=LTDIE_214_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1606
+LDIFF_SYM1599=LTDIE_214_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1599
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1607=LTDIE_214_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1607
+LDIFF_SYM1600=LTDIE_214_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1600
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1608=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1608
+LDIFF_SYM1601=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1601
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1609=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1609
+LDIFF_SYM1602=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1602
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1610=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1610
+LDIFF_SYM1603=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1603
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1611=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1611
+LDIFF_SYM1604=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1604
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1612=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1612
+LDIFF_SYM1605=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1605
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM1613=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1613
+LDIFF_SYM1606=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1606
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1614=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM1614
-Lfde55_start:
+LDIFF_SYM1607=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM1607
+Lfde54_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
 
-LDIFF_SYM1615=Lme_40 - wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.long LDIFF_SYM1615
+LDIFF_SYM1608=Lme_3f - wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+	.long LDIFF_SYM1608
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde55_end:
+Lfde54_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -20034,67 +19689,67 @@ Lfde55_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_object_TEventArgs_object_System_EventArgs
-	.quad Lme_41
+	.quad Lme_40
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1616=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1616
+LDIFF_SYM1609=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1609
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1617=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1617
+LDIFF_SYM1610=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1610
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1618=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1618
+LDIFF_SYM1611=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1611
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1619=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1619
+LDIFF_SYM1612=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1612
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1620=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1620
+LDIFF_SYM1613=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1613
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1621=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1621
+LDIFF_SYM1614=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1614
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1622=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1622
+LDIFF_SYM1615=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1615
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1623=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1623
+LDIFF_SYM1616=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1616
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1624=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM1624
-Lfde56_start:
+LDIFF_SYM1617=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM1617
+Lfde55_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_object_TEventArgs_object_System_EventArgs
 
-LDIFF_SYM1625=Lme_41 - wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_object_TEventArgs_object_System_EventArgs
-	.long LDIFF_SYM1625
+LDIFF_SYM1618=Lme_40 - wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_object_TEventArgs_object_System_EventArgs
+	.long LDIFF_SYM1618
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde56_end:
+Lfde55_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_221:
@@ -20103,90 +19758,90 @@ LTDIE_221:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1626=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1626
+LDIFF_SYM1619=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1619
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1627=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM1627
+LDIFF_SYM1620=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM1620
 LTDIE_221_POINTER:
 
 	.byte 13
-LDIFF_SYM1628=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM1628
+LDIFF_SYM1621=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM1621
 LTDIE_221_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1629=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM1629
+LDIFF_SYM1622=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM1622
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<AVFoundation.AVCaptureDevice,_bool>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_AVFoundation_AVCaptureDevice_bool_invoke_TResult_T_AVFoundation_AVCaptureDevice"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_AVFoundation_AVCaptureDevice_bool_invoke_TResult_T_AVFoundation_AVCaptureDevice
-	.quad Lme_46
+	.quad Lme_45
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1630=LTDIE_221_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1630
+LDIFF_SYM1623=LTDIE_221_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1623
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1631=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1631
+LDIFF_SYM1624=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1624
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1632=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1632
+LDIFF_SYM1625=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1625
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1633=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1633
+LDIFF_SYM1626=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1626
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1634=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1634
+LDIFF_SYM1627=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1627
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1635=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1635
+LDIFF_SYM1628=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1628
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1636=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1636
+LDIFF_SYM1629=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1629
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1637=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1637
+LDIFF_SYM1630=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1630
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1638=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM1638
-Lfde57_start:
+LDIFF_SYM1631=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM1631
+Lfde56_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_AVFoundation_AVCaptureDevice_bool_invoke_TResult_T_AVFoundation_AVCaptureDevice
 
-LDIFF_SYM1639=Lme_46 - wrapper_delegate_invoke_System_Func_2_AVFoundation_AVCaptureDevice_bool_invoke_TResult_T_AVFoundation_AVCaptureDevice
-	.long LDIFF_SYM1639
+LDIFF_SYM1632=Lme_45 - wrapper_delegate_invoke_System_Func_2_AVFoundation_AVCaptureDevice_bool_invoke_TResult_T_AVFoundation_AVCaptureDevice
+	.long LDIFF_SYM1632
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde57_end:
+Lfde56_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_222:
@@ -20195,90 +19850,90 @@ LTDIE_222:
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM1640=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1640
+LDIFF_SYM1633=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1633
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1641=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1641
+LDIFF_SYM1634=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM1634
 LTDIE_222_POINTER:
 
 	.byte 13
-LDIFF_SYM1642=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1642
+LDIFF_SYM1635=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM1635
 LTDIE_222_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1643=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1643
+LDIFF_SYM1636=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM1636
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<UIKit.UIImagePickerMediaPickedEventArgs>:invoke_void_object_TEventArgs"
 	.asciz "wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIImagePickerMediaPickedEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIImagePickerMediaPickedEventArgs
-	.quad Lme_47
+	.quad Lme_46
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1644=LTDIE_222_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1644
+LDIFF_SYM1637=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1637
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1645=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1645
+LDIFF_SYM1638=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1638
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1646=LTDIE_211_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1646
+LDIFF_SYM1639=LTDIE_210_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1639
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1647=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1647
+LDIFF_SYM1640=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1640
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1648=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1648
+LDIFF_SYM1641=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1641
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1649=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1649
+LDIFF_SYM1642=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1642
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1650=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1650
+LDIFF_SYM1643=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1643
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1651=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1651
+LDIFF_SYM1644=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1644
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1652=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM1652
-Lfde58_start:
+LDIFF_SYM1645=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM1645
+Lfde57_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIImagePickerMediaPickedEventArgs
 
-LDIFF_SYM1653=Lme_47 - wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIImagePickerMediaPickedEventArgs
-	.long LDIFF_SYM1653
+LDIFF_SYM1646=Lme_46 - wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIImagePickerMediaPickedEventArgs
+	.long LDIFF_SYM1646
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde58_end:
+Lfde57_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_223:
@@ -20287,85 +19942,85 @@ LTDIE_223:
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1654=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1654
+LDIFF_SYM1647=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1647
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1655=LTDIE_223 - Ldebug_info_start
-	.long LDIFF_SYM1655
+LDIFF_SYM1648=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM1648
 LTDIE_223_POINTER:
 
 	.byte 13
-LDIFF_SYM1656=LTDIE_223 - Ldebug_info_start
-	.long LDIFF_SYM1656
+LDIFF_SYM1649=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM1649
 LTDIE_223_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1657=LTDIE_223 - Ldebug_info_start
-	.long LDIFF_SYM1657
+LDIFF_SYM1650=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM1650
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.IO.Stream>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
-	.quad Lme_48
+	.quad Lme_47
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1658=LTDIE_223_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1658
+LDIFF_SYM1651=LTDIE_223_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1651
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1659=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1659
+LDIFF_SYM1652=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1652
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1660=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1660
+LDIFF_SYM1653=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1653
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1661=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1661
+LDIFF_SYM1654=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1654
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1662=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1662
+LDIFF_SYM1655=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1655
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1663=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1663
+LDIFF_SYM1656=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1656
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM1664=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1664
+LDIFF_SYM1657=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1657
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1665=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM1665
-Lfde59_start:
+LDIFF_SYM1658=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM1658
+Lfde58_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
 
-LDIFF_SYM1666=Lme_48 - wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
-	.long LDIFF_SYM1666
+LDIFF_SYM1659=Lme_47 - wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
+	.long LDIFF_SYM1659
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde59_end:
+Lfde58_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_224:
@@ -20374,90 +20029,90 @@ LTDIE_224:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1667=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1667
+LDIFF_SYM1660=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1660
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1668=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM1668
+LDIFF_SYM1661=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM1661
 LTDIE_224_POINTER:
 
 	.byte 13
-LDIFF_SYM1669=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM1669
+LDIFF_SYM1662=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM1662
 LTDIE_224_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1670=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM1670
+LDIFF_SYM1663=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM1663
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.IO.Stream>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_IO_Stream_invoke_TResult_T_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_IO_Stream_invoke_TResult_T_object
-	.quad Lme_49
+	.quad Lme_48
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1671=LTDIE_224_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1671
+LDIFF_SYM1664=LTDIE_224_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1664
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1672=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1672
+LDIFF_SYM1665=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1665
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1673=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1673
+LDIFF_SYM1666=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1666
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1674=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1674
+LDIFF_SYM1667=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1667
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1675=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1675
+LDIFF_SYM1668=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1668
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1676=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1676
+LDIFF_SYM1669=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1669
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1677=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1677
+LDIFF_SYM1670=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1670
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1678=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1678
+LDIFF_SYM1671=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1671
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1679=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM1679
-Lfde60_start:
+LDIFF_SYM1672=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM1672
+Lfde59_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_IO_Stream_invoke_TResult_T_object
 
-LDIFF_SYM1680=Lme_49 - wrapper_delegate_invoke_System_Func_2_object_System_IO_Stream_invoke_TResult_T_object
-	.long LDIFF_SYM1680
+LDIFF_SYM1673=Lme_48 - wrapper_delegate_invoke_System_Func_2_object_System_IO_Stream_invoke_TResult_T_object
+	.long LDIFF_SYM1673
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde60_end:
+Lfde59_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_225:
@@ -20466,85 +20121,85 @@ LTDIE_225:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1681=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1681
+LDIFF_SYM1674=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1674
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1682=LTDIE_225 - Ldebug_info_start
-	.long LDIFF_SYM1682
+LDIFF_SYM1675=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM1675
 LTDIE_225_POINTER:
 
 	.byte 13
-LDIFF_SYM1683=LTDIE_225 - Ldebug_info_start
-	.long LDIFF_SYM1683
+LDIFF_SYM1676=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM1676
 LTDIE_225_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1684=LTDIE_225 - Ldebug_info_start
-	.long LDIFF_SYM1684
+LDIFF_SYM1677=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM1677
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.IO.Stream>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_IO_Stream_invoke_void_T_System_Threading_Tasks_Task_1_System_IO_Stream"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_IO_Stream_invoke_void_T_System_Threading_Tasks_Task_1_System_IO_Stream
-	.quad Lme_4a
+	.quad Lme_49
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1685=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1685
+LDIFF_SYM1678=LTDIE_225_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1678
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1686=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1686
+LDIFF_SYM1679=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1679
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1687=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1687
+LDIFF_SYM1680=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1680
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1688=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1688
+LDIFF_SYM1681=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1681
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1689=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1689
+LDIFF_SYM1682=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1682
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1690=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1690
+LDIFF_SYM1683=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1683
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1691=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1691
+LDIFF_SYM1684=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1684
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1692=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM1692
-Lfde61_start:
+LDIFF_SYM1685=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM1685
+Lfde60_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_IO_Stream_invoke_void_T_System_Threading_Tasks_Task_1_System_IO_Stream
 
-LDIFF_SYM1693=Lme_4a - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_IO_Stream_invoke_void_T_System_Threading_Tasks_Task_1_System_IO_Stream
-	.long LDIFF_SYM1693
+LDIFF_SYM1686=Lme_49 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_IO_Stream_invoke_void_T_System_Threading_Tasks_Task_1_System_IO_Stream
+	.long LDIFF_SYM1686
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde61_end:
+Lfde60_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_226:
@@ -20553,23 +20208,23 @@ LTDIE_226:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1694=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1694
+LDIFF_SYM1687=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1687
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1695=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1695
+LDIFF_SYM1688=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM1688
 LTDIE_226_POINTER:
 
 	.byte 13
-LDIFF_SYM1696=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1696
+LDIFF_SYM1689=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM1689
 LTDIE_226_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1697=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1697
+LDIFF_SYM1690=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM1690
 LTDIE_227:
 
 	.byte 17
@@ -20578,85 +20233,85 @@ LTDIE_227:
 	.byte 16,7
 	.asciz "System_IAsyncResult"
 
-LDIFF_SYM1698=LTDIE_227 - Ldebug_info_start
-	.long LDIFF_SYM1698
+LDIFF_SYM1691=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM1691
 LTDIE_227_POINTER:
 
 	.byte 13
-LDIFF_SYM1699=LTDIE_227 - Ldebug_info_start
-	.long LDIFF_SYM1699
+LDIFF_SYM1692=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM1692
 LTDIE_227_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1700=LTDIE_227 - Ldebug_info_start
-	.long LDIFF_SYM1700
+LDIFF_SYM1693=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM1693
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.IO.Stream>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_IO_Stream_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_IO_Stream_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_4b
+	.quad Lme_4a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1701=LTDIE_226_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1701
+LDIFF_SYM1694=LTDIE_226_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1694
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1702=LTDIE_227_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1702
+LDIFF_SYM1695=LTDIE_227_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1695
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1703=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1703
+LDIFF_SYM1696=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1696
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1704=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1704
+LDIFF_SYM1697=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1697
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1705=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1705
+LDIFF_SYM1698=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1698
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1706=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1706
+LDIFF_SYM1699=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1699
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1707=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1707
+LDIFF_SYM1700=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1700
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1708=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1708
+LDIFF_SYM1701=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1701
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1709=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM1709
-Lfde62_start:
+LDIFF_SYM1702=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM1702
+Lfde61_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_IO_Stream_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM1710=Lme_4b - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_IO_Stream_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1710
+LDIFF_SYM1703=Lme_4a - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_IO_Stream_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1703
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde62_end:
+Lfde61_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_228:
@@ -20665,85 +20320,85 @@ LTDIE_228:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1711=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1711
+LDIFF_SYM1704=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1704
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1712=LTDIE_228 - Ldebug_info_start
-	.long LDIFF_SYM1712
+LDIFF_SYM1705=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1705
 LTDIE_228_POINTER:
 
 	.byte 13
-LDIFF_SYM1713=LTDIE_228 - Ldebug_info_start
-	.long LDIFF_SYM1713
+LDIFF_SYM1706=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1706
 LTDIE_228_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1714=LTDIE_228 - Ldebug_info_start
-	.long LDIFF_SYM1714
+LDIFF_SYM1707=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1707
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.IAsyncResult>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.quad Lme_4c
+	.quad Lme_4b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1715=LTDIE_228_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1715
+LDIFF_SYM1708=LTDIE_228_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1708
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1716=LTDIE_227_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1716
+LDIFF_SYM1709=LTDIE_227_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1709
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1717=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1717
+LDIFF_SYM1710=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1710
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1718=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1718
+LDIFF_SYM1711=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1711
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1719=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1719
+LDIFF_SYM1712=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1712
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1720=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1720
+LDIFF_SYM1713=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1713
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1721=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1721
+LDIFF_SYM1714=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1714
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1722=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM1722
-Lfde63_start:
+LDIFF_SYM1715=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM1715
+Lfde62_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
 
-LDIFF_SYM1723=Lme_4c - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.long LDIFF_SYM1723
+LDIFF_SYM1716=Lme_4b - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+	.long LDIFF_SYM1716
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde63_end:
+Lfde62_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_229:
@@ -20752,95 +20407,95 @@ LTDIE_229:
 	.asciz "System_Func`3"
 
 	.byte 112,16
-LDIFF_SYM1724=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1724
+LDIFF_SYM1717=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1717
 	.byte 2,35,0,0,7
 	.asciz "System_Func`3"
 
-LDIFF_SYM1725=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM1725
+LDIFF_SYM1718=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM1718
 LTDIE_229_POINTER:
 
 	.byte 13
-LDIFF_SYM1726=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM1726
+LDIFF_SYM1719=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM1719
 LTDIE_229_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1727=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM1727
+LDIFF_SYM1720=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM1720
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`3<System.AsyncCallback,_object,_System.IAsyncResult>:invoke_TResult_T1_T2"
 	.asciz "wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-	.quad Lme_4d
+	.quad Lme_4c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1728=LTDIE_229_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1728
+LDIFF_SYM1721=LTDIE_229_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1721
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1729=LTDIE_204_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1729
+LDIFF_SYM1722=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1722
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1730=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1730
+LDIFF_SYM1723=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1723
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1731=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1731
+LDIFF_SYM1724=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1724
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1732=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1732
+LDIFF_SYM1725=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1725
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1733=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1733
+LDIFF_SYM1726=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1726
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1734=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1734
+LDIFF_SYM1727=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1727
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1735=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1735
+LDIFF_SYM1728=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1728
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM1736=LTDIE_227_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1736
+LDIFF_SYM1729=LTDIE_227_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1729
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1737=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM1737
-Lfde64_start:
+LDIFF_SYM1730=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM1730
+Lfde63_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
 
-LDIFF_SYM1738=Lme_4d - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-	.long LDIFF_SYM1738
+LDIFF_SYM1731=Lme_4c - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+	.long LDIFF_SYM1731
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde64_end:
+Lfde63_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_230:
@@ -20849,85 +20504,85 @@ LTDIE_230:
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1739=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1739
+LDIFF_SYM1732=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1732
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1740=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM1740
+LDIFF_SYM1733=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM1733
 LTDIE_230_POINTER:
 
 	.byte 13
-LDIFF_SYM1741=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM1741
+LDIFF_SYM1734=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM1734
 LTDIE_230_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1742=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM1742
+LDIFF_SYM1735=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM1735
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<CoreMedia.CMSampleBuffer>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_CoreMedia_CMSampleBuffer_invoke_TResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_CoreMedia_CMSampleBuffer_invoke_TResult
-	.quad Lme_4e
+	.quad Lme_4d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1743=LTDIE_230_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1743
+LDIFF_SYM1736=LTDIE_230_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1736
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1744=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1744
+LDIFF_SYM1737=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1737
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1745=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1745
+LDIFF_SYM1738=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1738
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1746=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1746
+LDIFF_SYM1739=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1739
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1747=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1747
+LDIFF_SYM1740=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1740
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1748=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1748
+LDIFF_SYM1741=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1741
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM1749=LTDIE_189_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1749
+LDIFF_SYM1742=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1742
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1750=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM1750
-Lfde65_start:
+LDIFF_SYM1743=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM1743
+Lfde64_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_CoreMedia_CMSampleBuffer_invoke_TResult
 
-LDIFF_SYM1751=Lme_4e - wrapper_delegate_invoke_System_Func_1_CoreMedia_CMSampleBuffer_invoke_TResult
-	.long LDIFF_SYM1751
+LDIFF_SYM1744=Lme_4d - wrapper_delegate_invoke_System_Func_1_CoreMedia_CMSampleBuffer_invoke_TResult
+	.long LDIFF_SYM1744
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde65_end:
+Lfde64_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_231:
@@ -20936,90 +20591,90 @@ LTDIE_231:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1752=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1752
+LDIFF_SYM1745=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1745
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1753=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM1753
+LDIFF_SYM1746=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1746
 LTDIE_231_POINTER:
 
 	.byte 13
-LDIFF_SYM1754=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM1754
+LDIFF_SYM1747=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1747
 LTDIE_231_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1755=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM1755
+LDIFF_SYM1748=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1748
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_CoreMedia.CMSampleBuffer>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_object_CoreMedia_CMSampleBuffer_invoke_TResult_T_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_object_CoreMedia_CMSampleBuffer_invoke_TResult_T_object
-	.quad Lme_4f
+	.quad Lme_4e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1756=LTDIE_231_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1756
+LDIFF_SYM1749=LTDIE_231_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1749
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1757=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1757
+LDIFF_SYM1750=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1750
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1758=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1758
+LDIFF_SYM1751=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1751
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1759=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1759
+LDIFF_SYM1752=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1752
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1760=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1760
+LDIFF_SYM1753=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1753
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1761=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1761
+LDIFF_SYM1754=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1754
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1762=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1762
+LDIFF_SYM1755=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1755
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1763=LTDIE_189_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1763
+LDIFF_SYM1756=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1756
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1764=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM1764
-Lfde66_start:
+LDIFF_SYM1757=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM1757
+Lfde65_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_object_CoreMedia_CMSampleBuffer_invoke_TResult_T_object
 
-LDIFF_SYM1765=Lme_4f - wrapper_delegate_invoke_System_Func_2_object_CoreMedia_CMSampleBuffer_invoke_TResult_T_object
-	.long LDIFF_SYM1765
+LDIFF_SYM1758=Lme_4e - wrapper_delegate_invoke_System_Func_2_object_CoreMedia_CMSampleBuffer_invoke_TResult_T_object
+	.long LDIFF_SYM1758
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde66_end:
+Lfde65_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_232:
@@ -21028,113 +20683,113 @@ LTDIE_232:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1766=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1766
+LDIFF_SYM1759=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1759
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1767=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM1767
+LDIFF_SYM1760=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1760
 LTDIE_232_POINTER:
 
 	.byte 13
-LDIFF_SYM1768=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM1768
+LDIFF_SYM1761=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1761
 LTDIE_232_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1769=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM1769
+LDIFF_SYM1762=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1762
 LTDIE_233:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM1770=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM1770
+LDIFF_SYM1763=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM1763
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1771=LTDIE_189_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1771
+LDIFF_SYM1764=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1764
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1772=LTDIE_233 - Ldebug_info_start
-	.long LDIFF_SYM1772
+LDIFF_SYM1765=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1765
 LTDIE_233_POINTER:
 
 	.byte 13
-LDIFF_SYM1773=LTDIE_233 - Ldebug_info_start
-	.long LDIFF_SYM1773
+LDIFF_SYM1766=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1766
 LTDIE_233_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1774=LTDIE_233 - Ldebug_info_start
-	.long LDIFF_SYM1774
+LDIFF_SYM1767=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1767
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<CoreMedia.CMSampleBuffer>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CoreMedia_CMSampleBuffer_invoke_void_T_System_Threading_Tasks_Task_1_CoreMedia_CMSampleBuffer"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CoreMedia_CMSampleBuffer_invoke_void_T_System_Threading_Tasks_Task_1_CoreMedia_CMSampleBuffer
-	.quad Lme_50
+	.quad Lme_4f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1775=LTDIE_232_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1775
+LDIFF_SYM1768=LTDIE_232_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1768
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1776=LTDIE_233_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1776
+LDIFF_SYM1769=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1769
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1777=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1777
+LDIFF_SYM1770=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1770
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1778=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1778
+LDIFF_SYM1771=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1771
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1779=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1779
+LDIFF_SYM1772=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1772
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1780=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1780
+LDIFF_SYM1773=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1773
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1781=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1781
+LDIFF_SYM1774=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1774
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1782=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM1782
-Lfde67_start:
+LDIFF_SYM1775=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM1775
+Lfde66_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CoreMedia_CMSampleBuffer_invoke_void_T_System_Threading_Tasks_Task_1_CoreMedia_CMSampleBuffer
 
-LDIFF_SYM1783=Lme_50 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CoreMedia_CMSampleBuffer_invoke_void_T_System_Threading_Tasks_Task_1_CoreMedia_CMSampleBuffer
-	.long LDIFF_SYM1783
+LDIFF_SYM1776=Lme_4f - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CoreMedia_CMSampleBuffer_invoke_void_T_System_Threading_Tasks_Task_1_CoreMedia_CMSampleBuffer
+	.long LDIFF_SYM1776
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde67_end:
+Lfde66_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_234:
@@ -21143,90 +20798,90 @@ LTDIE_234:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1784=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1784
+LDIFF_SYM1777=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1777
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1785=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM1785
+LDIFF_SYM1778=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1778
 LTDIE_234_POINTER:
 
 	.byte 13
-LDIFF_SYM1786=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM1786
+LDIFF_SYM1779=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1779
 LTDIE_234_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1787=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM1787
+LDIFF_SYM1780=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1780
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_CoreMedia.CMSampleBuffer>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CoreMedia_CMSampleBuffer_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CoreMedia_CMSampleBuffer_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_51
+	.quad Lme_50
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1788=LTDIE_234_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1788
+LDIFF_SYM1781=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1781
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1789=LTDIE_227_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1789
+LDIFF_SYM1782=LTDIE_227_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1782
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1790=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1790
+LDIFF_SYM1783=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1783
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1791=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1791
+LDIFF_SYM1784=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1784
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1792=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1792
+LDIFF_SYM1785=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1785
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1793=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1793
+LDIFF_SYM1786=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1786
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1794=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1794
+LDIFF_SYM1787=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1787
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1795=LTDIE_189_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1795
+LDIFF_SYM1788=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1788
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1796=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM1796
-Lfde68_start:
+LDIFF_SYM1789=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM1789
+Lfde67_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CoreMedia_CMSampleBuffer_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM1797=Lme_51 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CoreMedia_CMSampleBuffer_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1797
+LDIFF_SYM1790=Lme_50 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CoreMedia_CMSampleBuffer_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1790
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde68_end:
+Lfde67_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_235:
@@ -21235,146 +20890,146 @@ LTDIE_235:
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
 
 	.byte 48,16
-LDIFF_SYM1798=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1798
+LDIFF_SYM1791=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1791
 	.byte 2,35,0,6
 	.asciz "m_synchronizationContext"
 
-LDIFF_SYM1799=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1799
+LDIFF_SYM1792=LTDIE_44_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1792
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM1800=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1800
+LDIFF_SYM1793=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1793
 	.byte 2,35,8,6
 	.asciz "m_task"
 
-LDIFF_SYM1801=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1801
+LDIFF_SYM1794=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1794
 	.byte 2,35,24,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
 
-LDIFF_SYM1802=LTDIE_235 - Ldebug_info_start
-	.long LDIFF_SYM1802
+LDIFF_SYM1795=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM1795
 LTDIE_235_POINTER:
 
 	.byte 13
-LDIFF_SYM1803=LTDIE_235 - Ldebug_info_start
-	.long LDIFF_SYM1803
+LDIFF_SYM1796=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM1796
 LTDIE_235_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1804=LTDIE_235 - Ldebug_info_start
-	.long LDIFF_SYM1804
+LDIFF_SYM1797=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM1797
 LTDIE_236:
 
 	.byte 5
 	.asciz "_MoveNextRunner"
 
 	.byte 32,16
-LDIFF_SYM1805=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1805
+LDIFF_SYM1798=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1798
 	.byte 2,35,0,6
 	.asciz "m_context"
 
-LDIFF_SYM1806=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1806
+LDIFF_SYM1799=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1799
 	.byte 2,35,16,6
 	.asciz "m_stateMachine"
 
-LDIFF_SYM1807=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1807
+LDIFF_SYM1800=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1800
 	.byte 2,35,24,0,7
 	.asciz "_MoveNextRunner"
 
-LDIFF_SYM1808=LTDIE_236 - Ldebug_info_start
-	.long LDIFF_SYM1808
+LDIFF_SYM1801=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM1801
 LTDIE_236_POINTER:
 
 	.byte 13
-LDIFF_SYM1809=LTDIE_236 - Ldebug_info_start
-	.long LDIFF_SYM1809
+LDIFF_SYM1802=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM1802
 LTDIE_236_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1810=LTDIE_236 - Ldebug_info_start
-	.long LDIFF_SYM1810
+LDIFF_SYM1803=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM1803
 LTDIE_237:
 
 	.byte 5
 	.asciz "System_Action"
 
 	.byte 112,16
-LDIFF_SYM1811=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1811
+LDIFF_SYM1804=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1804
 	.byte 2,35,0,0,7
 	.asciz "System_Action"
 
-LDIFF_SYM1812=LTDIE_237 - Ldebug_info_start
-	.long LDIFF_SYM1812
+LDIFF_SYM1805=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1805
 LTDIE_237_POINTER:
 
 	.byte 13
-LDIFF_SYM1813=LTDIE_237 - Ldebug_info_start
-	.long LDIFF_SYM1813
+LDIFF_SYM1806=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1806
 LTDIE_237_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1814=LTDIE_237 - Ldebug_info_start
-	.long LDIFF_SYM1814
+LDIFF_SYM1807=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1807
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncVoidMethodBuilder:AwaitUnsafeOnCompleted<TAwaiter_INST,_TStateMachine_REF>"
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_"
 
 	.byte 8,161,1
 	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
-	.quad Lme_52
+	.quad Lme_51
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1815=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1815
+LDIFF_SYM1808=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1808
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM1816=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1816
+LDIFF_SYM1809=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1809
 	.byte 3,141,208,0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1817=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1817
+LDIFF_SYM1810=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1810
 	.byte 3,141,216,0,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM1818=LTDIE_236_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1818
+LDIFF_SYM1811=LTDIE_236_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1811
 	.byte 3,141,136,1,11
 	.asciz "continuation"
 
-LDIFF_SYM1819=LTDIE_237_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1819
+LDIFF_SYM1812=LTDIE_237_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1812
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1820=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM1820
-Lfde69_start:
+LDIFF_SYM1813=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM1813
+Lfde68_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
 
-LDIFF_SYM1821=Lme_52 - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
-	.long LDIFF_SYM1821
+LDIFF_SYM1814=Lme_51 - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
+	.long LDIFF_SYM1814
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,150,25,68,151,24,152,23,68,153,22
 	.byte 154,21
 	.align 3
-Lfde69_end:
+Lfde68_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_238:
@@ -21383,69 +21038,69 @@ LTDIE_238:
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM1822=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1822
+LDIFF_SYM1815=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1815
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM1823=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1823
+LDIFF_SYM1816=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1816
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM1824=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1824
+LDIFF_SYM1817=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1817
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM1825=LTDIE_238 - Ldebug_info_start
-	.long LDIFF_SYM1825
+LDIFF_SYM1818=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM1818
 LTDIE_238_POINTER:
 
 	.byte 13
-LDIFF_SYM1826=LTDIE_238 - Ldebug_info_start
-	.long LDIFF_SYM1826
+LDIFF_SYM1819=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM1819
 LTDIE_238_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1827=LTDIE_238 - Ldebug_info_start
-	.long LDIFF_SYM1827
+LDIFF_SYM1820=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM1820
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
 
 	.byte 7,217,1
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.quad Lme_53
+	.quad Lme_52
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1828=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1828
+LDIFF_SYM1821=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1821
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM1829=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1829
+LDIFF_SYM1822=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1822
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1830=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM1830
-Lfde70_start:
+LDIFF_SYM1823=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM1823
+Lfde69_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 
-LDIFF_SYM1831=Lme_53 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM1831
+LDIFF_SYM1824=Lme_52 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM1824
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde70_end:
+Lfde69_end:
 
 .section __DWARF, __debug_info,regular,debug
 

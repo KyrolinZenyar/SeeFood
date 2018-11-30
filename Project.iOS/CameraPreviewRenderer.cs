@@ -5,6 +5,7 @@ using Project.iOS;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 using System.Runtime.InteropServices;
+using CoreImage;
 
 using AVFoundation;
 
@@ -38,16 +39,7 @@ namespace Project.iOS
             }
 		}
 
-        public byte[] Capture() {
-            var capture = UIScreen.MainScreen.Capture();
-            //var cappy = uiCameraPreview.previewLayer.
 
-            using( NSData data = capture.AsPNG()) {
-                var bytes = new byte[data.Length];
-                Marshal.Copy(data.Bytes, bytes, 0, Convert.ToInt32(data.Length));
-                return bytes;
-            }
-        }
 
 		public async void OnCameraPreviewTapped (object sender, EventArgs e)
 		{
@@ -58,26 +50,16 @@ namespace Project.iOS
                 {
                     OutputSettings = new NSDictionary()
                 };
-                //uiCameraPreview.CaptureSession.StartRunning();
                 uiCameraPreview.CaptureSession.AddOutput(output);
-
+                System.Threading.Thread.Sleep(70);
                 var videoConnection = output.ConnectionFromMediaType(AVMediaType.Video);
                 var sampleBuffer = await output.CaptureStillImageTaskAsync(videoConnection);
 
                 var jpegImageAsNSData = AVCaptureStillImageOutput.JpegStillToNSData(sampleBuffer);
                 var jpegAsByteArray = jpegImageAsNSData.ToArray();
-
-                uiCameraPreview.CaptureSession.RemoveOutput(output);
-
-
                 CameraPage.TakePhoto(jpegAsByteArray);
                 ready = true;
             }
-            //uiCameraPreview.CaptureSession.StopRunning();
-            //var stuff = uiCameraPreview.Capture();
-            //uiCameraPreview.CaptureSession.
-            //var stuff = Capture();
-            //CameraPage.TakePhoto(stuff);
 		}
 
 		protected override void Dispose (bool disposing)

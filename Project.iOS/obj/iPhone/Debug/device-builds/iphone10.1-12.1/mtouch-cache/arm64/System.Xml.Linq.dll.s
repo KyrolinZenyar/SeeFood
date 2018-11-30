@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/969357ac02b Wed Oct 31 18:22:58 EDT 2018)"
+	.asciz "Mono AOT Compiler 5.14.0 (explicit/000780ca82c Tue Nov 20 23:30:52 EST 2018)"
 	.asciz "System.Xml.Linq.dll"
 	.asciz ""
 
@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip MS_Internal_Xml_Linq_ComponentModel_XTypeDescriptionProvider_1_T_REF_GetTypeDescriptor_System_Type_object
 MS_Internal_Xml_Linq_ComponentModel_XTypeDescriptionProvider_1_T_REF_GetTypeDescriptor_System_Type_object:
-.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/referencesource/System.Xml.Linq/System/Xml/Linq/XComponentModel.cs"
+.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/mcs/class/referencesource/System.Xml.Linq/System/Xml/Linq/XComponentModel.cs"
 .loc 1 19 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -2100,7 +2100,7 @@ Lme_2d:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XName__ctor_System_Xml_Linq_XNamespace_string
 System_Xml_Linq_XName__ctor_System_Xml_Linq_XNamespace_string:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/referencesource/System.Xml.Linq/System/Xml/Linq/XLinq.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/mcs/class/referencesource/System.Xml.Linq/System/Xml/Linq/XLinq.cs"
 .loc 2 47 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -24371,7 +24371,7 @@ Lme_17c:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 3 70 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -28431,7 +28431,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "31BF118F-78E8-4AF4-94F0-AF836711C0C0"
+	.asciz "D29C0110-DAAB-4A2D-A004-F0B9ADDA7BF7"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -28516,7 +28516,7 @@ _mono_aot_file_info:
 	.long 560,4664,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 52,165,214,11,40,37,245,23,45,31,17,185,107,207,178,175
+	.byte 248,160,128,105,121,39,216,20,226,236,93,252,174,60,164,72
 	.globl _mono_aot_module_System_Xml_Linq_info
 	.align 3
 _mono_aot_module_System_Xml_Linq_info:

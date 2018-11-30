@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/969357ac02b Wed Oct 31 18:22:58 EDT 2018)"
+	.asciz "Mono AOT Compiler 5.14.0 (explicit/000780ca82c Tue Nov 20 23:30:52 EST 2018)"
 	.asciz "OpenTK-1.0.dll"
 	.asciz ""
 
@@ -13338,7 +13338,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400001
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf943d450
+.word 0xf943cc50
 .word 0xd63f0200
 .loc 21 388 0
 .word 0x14000005
@@ -13462,7 +13462,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400001
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf943c850
+.word 0xf943c050
 .word 0xd63f0200
 .loc 21 416 0
 .word 0xf9400bb9
@@ -13619,7 +13619,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400001
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf943b850
+.word 0xf943b050
 .word 0xd63f0200
 .loc 21 466 0
 .word 0xa94167b8
@@ -13826,7 +13826,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400001
 .word 0xaa1a03e0
 .word 0xf9400342
-.word 0xf943a450
+.word 0xf9439c50
 .word 0xd63f0200
 .loc 21 506 0
 .word 0xf9400bba
@@ -14111,7 +14111,7 @@ bl _p_190
 .loc 21 552 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf941b430
+.word 0xf941b030
 .word 0xd63f0200
 .word 0xaa0003f9
 .word 0xb4000179
@@ -14204,13 +14204,13 @@ bl _p_193
 .word 0xaa0003e1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9415850
+.word 0xf9415050
 .word 0xd63f0200
 .loc 21 557 0
 .word 0xaa1a03e0
 .word 0xaa1903e1
 .word 0xf9400342
-.word 0xf9439c50
+.word 0xf9439450
 .word 0xd63f0200
 .loc 21 559 0
 .word 0xaa1a03e0
@@ -14463,7 +14463,7 @@ ldr x2, [x16, #16]
 .loc 21 589 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf941b430
+.word 0xf941b030
 .word 0xd63f0200
 .word 0xf90057a0
 
@@ -14599,7 +14599,7 @@ ldr x15, [x16, #1976]
 .loc 21 602 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9438830
+.word 0xf9438030
 .word 0xd63f0200
 .loc 21 604 0
 .word 0xf9401b40
@@ -14700,7 +14700,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400ba0
 .word 0xf9400ba2
 .word 0xf9400042
-.word 0xf9439050
+.word 0xf9438850
 .word 0xd63f0200
 .loc 21 622 0
 .word 0x910003bf
@@ -14781,7 +14781,7 @@ bl _p_202
 .loc 21 642 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9439830
+.word 0xf9439030
 .word 0xd63f0200
 .loc 21 644 0
 .word 0xaa1903e0
@@ -14801,7 +14801,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400001
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9438c50
+.word 0xf9438450
 .word 0xd63f0200
 .loc 21 648 0
 .word 0xf9400bb9
@@ -14919,7 +14919,7 @@ bl _p_204
 .word 0xf90023a0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf941fc30
+.word 0xf941f830
 .word 0xd63f0200
 .word 0xf94023be
 .word 0xfd0003c0
@@ -14960,12 +14960,12 @@ bl _p_205
 .loc 21 681 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9439830
+.word 0xf9439030
 .word 0xd63f0200
 .loc 21 682 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf943a030
+.word 0xf9439830
 .word 0xd63f0200
 .loc 21 684 0
 .word 0xf9400bba
@@ -14993,7 +14993,7 @@ bl _p_200
 .word 0xf90013a0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf943c430
+.word 0xf943bc30
 .word 0xd63f0200
 .word 0xaa0003e1
 .word 0xf94013a2
@@ -15156,7 +15156,7 @@ ldr x2, [x16, #16]
 .loc 21 724 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf943a030
+.word 0xf9439830
 .word 0xd63f0200
 .loc 21 725 0
 
@@ -15166,7 +15166,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400001
 .word 0xaa1a03e0
 .word 0xf9400342
-.word 0xf9437850
+.word 0xf9437050
 .word 0xd63f0200
 .loc 21 726 0
 .word 0xaa1a03e0
@@ -15255,7 +15255,7 @@ ldr x2, [x16, #16]
 .loc 21 747 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf943a030
+.word 0xf9439830
 .word 0xd63f0200
 .loc 21 748 0
 
@@ -15265,7 +15265,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400001
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9437850
+.word 0xf9437050
 .word 0xd63f0200
 .loc 21 749 0
 .word 0xaa1903e0
@@ -15363,7 +15363,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400001
 .word 0xaa1a03e0
 .word 0xf9400342
-.word 0xf9437450
+.word 0xf9436c50
 .word 0xd63f0200
 .loc 21 768 0
 .word 0xf9400bba
@@ -15587,7 +15587,7 @@ bl _p_214
 .loc 21 822 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf941e030
+.word 0xf941dc30
 .word 0xd63f0200
 .word 0x1e624010
 .word 0x1e22c200
@@ -15846,7 +15846,7 @@ ldr x1, [x16, #3872]
 .word 0x54000561
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf941b430
+.word 0xf941b030
 .word 0xd63f0200
 .word 0xeb00031f
 .word 0x540002e1
@@ -15876,12 +15876,12 @@ ldr x1, [x16, #3880]
 .loc 21 856 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9439830
+.word 0xf9439030
 .word 0xd63f0200
 .loc 21 857 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf943a030
+.word 0xf9439830
 .word 0xd63f0200
 .loc 21 860 0
 .word 0xaa1903e0
@@ -15969,7 +15969,7 @@ bl _p_226
 .word 0xf9403741
 .word 0xaa1a03e0
 .word 0xf9400342
-.word 0xf9437050
+.word 0xf9436850
 .word 0xd63f0200
 .loc 21 879 0
 .word 0x91036340
@@ -16047,7 +16047,7 @@ bl _p_226
 .word 0xf9403b41
 .word 0xaa1a03e0
 .word 0xf9400342
-.word 0xf9436c50
+.word 0xf9436450
 .word 0xd63f0200
 .loc 21 889 0
 .word 0x91038340
@@ -16102,7 +16102,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnUnload_System_EventArgs:
 .loc 21 902 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9439830
+.word 0xf9439030
 .word 0xd63f0200
 .loc 21 903 0
 .word 0xb40000d8
@@ -18937,7 +18937,7 @@ b System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_Op
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_System_Array
 System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_System_Array:
-.file 24 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 24 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 24 217 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -19241,7 +19241,7 @@ b System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakRefe
 	.align 4
 	.no_dead_strip System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_OpenTK_ContextHandle_System_WeakReference
 System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_OpenTK_ContextHandle_System_WeakReference:
-.file 25 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/KeyValuePair.cs"
+.file 25 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/KeyValuePair.cs"
 .loc 25 61 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -19356,7 +19356,7 @@ Lme_214:
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
 System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference:
-.file 26 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/Dictionary.cs"
+.file 26 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/Dictionary.cs"
 .loc 26 1066 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -20980,7 +20980,7 @@ b System_Nullable_1_intptr__ctor_intptr
 	.align 4
 	.no_dead_strip System_Nullable_1_intptr__ctor_intptr
 System_Nullable_1_intptr__ctor_intptr:
-.file 27 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
+.file 27 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
 .loc 27 94 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -27532,7 +27532,7 @@ Lme_2a2:
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_RuntimeHelpers_IsReferenceOrContainsReferences_OpenTK_ContextHandle
 System_Runtime_CompilerServices_RuntimeHelpers_IsReferenceOrContainsReferences_OpenTK_ContextHandle:
-.file 28 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/corlib/System.Runtime.CompilerServices/RuntimeHelpers.cs"
+.file 28 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/mcs/class/corlib/System.Runtime.CompilerServices/RuntimeHelpers.cs"
 .loc 28 191 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -27930,7 +27930,7 @@ Lme_2ad:
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_get_Default
 System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_get_Default:
-.file 29 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
+.file 29 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
 .loc 29 32 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -32828,13 +32828,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 540,6608,286,710,66,387000831,0,60978
-	.long 128,8,8,8,0,25,71824,10840
+	.long 540,6608,286,710,66,387000831,0,60970
+	.long 128,8,8,8,0,25,71816,10840
 	.long 10472,7696,0,9136,10328,8416,0,6000
 	.long 1000,10832,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 91,53,120,79,142,123,12,36,37,42,84,125,232,254,10,221
+	.byte 57,193,245,142,205,207,230,191,136,200,213,122,223,32,211,38
 	.globl _mono_aot_module_OpenTK_1_0_info
 	.align 3
 _mono_aot_module_OpenTK_1_0_info:

@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/969357ac02b Wed Oct 31 18:22:58 EDT 2018)"
+	.asciz "Mono AOT Compiler 5.14.0 (explicit/000780ca82c Tue Nov 20 23:30:52 EST 2018)"
 	.asciz "System.Numerics.dll"
 	.asciz ""
 
@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip SR_Format_string_object
 SR_Format_string_object:
-.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/build/common/SR.cs"
+.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/mcs/build/common/SR.cs"
 .loc 1 36 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -151,7 +151,7 @@ Lme_0:
 	.align 4
 	.no_dead_strip System_Buffers_ArrayPool_1_T_REF_get_Shared
 System_Buffers_ArrayPool_1_T_REF_get_Shared:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/ArrayPool.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/ArrayPool.cs"
 .loc 2 45 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -294,7 +294,7 @@ Lme_7:
 	.align 4
 	.no_dead_strip System_Buffers_ArrayPoolEventSource_BufferRented_int_int_int_int
 System_Buffers_ArrayPoolEventSource_BufferRented_int_int_int_int:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/ArrayPoolEventSource.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/ArrayPoolEventSource.cs"
 .loc 3 36 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -553,7 +553,7 @@ Lme_c:
 	.align 4
 	.no_dead_strip System_Buffers_DefaultArrayPool_1_T_REF__ctor
 System_Buffers_DefaultArrayPool_1_T_REF__ctor:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/DefaultArrayPool.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/DefaultArrayPool.cs"
 .loc 4 18 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -1051,7 +1051,7 @@ Lme_11:
 	.align 4
 	.no_dead_strip System_Buffers_DefaultArrayPool_1_Bucket_T_REF__ctor_int_int_int
 System_Buffers_DefaultArrayPool_1_Bucket_T_REF__ctor_int_int_int:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/DefaultArrayPoolBucket.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/DefaultArrayPoolBucket.cs"
 .loc 5 27 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -1367,7 +1367,7 @@ Lme_15:
 	.align 4
 	.no_dead_strip System_Buffers_Utilities_SelectBucketIndex_int
 System_Buffers_Utilities_SelectBucketIndex_int:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/Utilities.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/System.Buffers/src/System/Buffers/Utilities.cs"
 .loc 6 21 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -1449,7 +1449,7 @@ LDIFF_SYM3=ut_end - ut_24
 	.align 4
 	.no_dead_strip System_Text_ValueStringBuilder__ctor_System_Span_1_char
 System_Text_ValueStringBuilder__ctor_System_Span_1_char:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/Common/src/System/Text/ValueStringBuilder.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/Common/src/System/Text/ValueStringBuilder.cs"
 .loc 7 19 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -2821,7 +2821,7 @@ b System_Numerics_BigInteger__ctor_int
 	.align 4
 	.no_dead_strip System_Numerics_BigInteger__ctor_int
 System_Numerics_BigInteger__ctor_int:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigInteger.cs"
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigInteger.cs"
 .loc 8 38 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -10141,7 +10141,7 @@ Lme_6e:
 	.align 4
 	.no_dead_strip System_Numerics_BigIntegerCalculator_Add_uint___uint
 System_Numerics_BigIntegerCalculator_Add_uint___uint:
-.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.AddSub.cs"
+.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.AddSub.cs"
 .loc 9 21 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -10848,7 +10848,7 @@ Lme_76:
 	.align 4
 	.no_dead_strip System_Numerics_BigIntegerCalculator_Divide_uint___uint
 System_Numerics_BigIntegerCalculator_Divide_uint___uint:
-.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.DivRem.cs"
+.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.DivRem.cs"
 .loc 10 44 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -11669,7 +11669,7 @@ Lme_80:
 	.align 4
 	.no_dead_strip System_Numerics_BigIntegerCalculator_Square_uint__
 System_Numerics_BigIntegerCalculator_Square_uint__:
-.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.SquMul.cs"
+.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.SquMul.cs"
 .loc 11 19 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -12856,7 +12856,7 @@ Lme_87:
 	.align 4
 	.no_dead_strip System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException_
 System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException_:
-.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigNumber.cs"
+.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigNumber.cs"
 .loc 12 308 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -15918,7 +15918,7 @@ Lme_92:
 	.align 4
 	.no_dead_strip System_Numerics_NumericsHelpers_GetDoubleParts_double_int__int__ulong__bool_
 System_Numerics_NumericsHelpers_GetDoubleParts_double_int__int__ulong__bool_:
-.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/NumericsHelpers.cs"
+.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/NumericsHelpers.cs"
 .loc 13 26 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -16409,7 +16409,7 @@ Lme_9b:
 	.align 4
 	.no_dead_strip System_Globalization_FormatProvider_FormatBigInteger_System_Text_ValueStringBuilder__int_int_bool_System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo_char___int
 System_Globalization_FormatProvider_FormatBigInteger_System_Text_ValueStringBuilder__int_int_bool_System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo_char___int:
-.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Globalization/FormatProvider.BigInteger.cs"
+.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Globalization/FormatProvider.BigInteger.cs"
 .loc 14 16 0 prologue_end
 .word 0xa9b57bfd
 .word 0x910003fd
@@ -16592,7 +16592,7 @@ Lme_9d:
 	.align 4
 	.no_dead_strip System_Globalization_FormatProvider_Number_IsWhite_char
 System_Globalization_FormatProvider_Number_IsWhite_char:
-.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/Common/src/System/Globalization/FormatProvider.Number.cs"
+.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/Common/src/System/Globalization/FormatProvider.Number.cs"
 .loc 15 297 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -25339,7 +25339,7 @@ b System_Globalization_FormatProvider_Number_NumberBuffer_get_digits
 	.align 4
 	.no_dead_strip System_Globalization_FormatProvider_Number_NumberBuffer_get_digits
 System_Globalization_FormatProvider_Number_NumberBuffer_get_digits:
-.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Globalization/FormatProvider.NumberBuffer.cs"
+.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Globalization/FormatProvider.NumberBuffer.cs"
 .loc 16 25 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -26679,7 +26679,7 @@ b System_Span_1_T_CHAR__ctor_T_CHAR__
 	.align 4
 	.no_dead_strip System_Span_1_T_CHAR__ctor_T_CHAR__
 System_Span_1_T_CHAR__ctor_T_CHAR__:
-.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Memory/src/System/Span.cs"
+.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/System.Memory/src/System/Span.cs"
 .loc 17 37 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -27947,7 +27947,7 @@ b System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR__
 	.align 4
 	.no_dead_strip System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR__
 System_ReadOnlySpan_1_T_CHAR__ctor_T_CHAR__:
-.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Memory/src/System/ReadOnlySpan.cs"
+.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/System.Memory/src/System/ReadOnlySpan.cs"
 .loc 18 37 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -33149,7 +33149,7 @@ Lme_131:
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_Unsafe_Add_T_CHAR_T_CHAR__int
 System_Runtime_CompilerServices_Unsafe_Add_T_CHAR_T_CHAR__int:
-.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/corlib/System.Runtime.CompilerServices/Unsafe.cs"
+.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/mcs/class/corlib/System.Runtime.CompilerServices/Unsafe.cs"
 .loc 19 35 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -33258,7 +33258,7 @@ Lme_137:
 	.align 4
 	.no_dead_strip System_EmptyArray_1_T_BYTE__cctor
 System_EmptyArray_1_T_BYTE__cctor:
-.file 20 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/corlib/System/EmptyArray.cs"
+.file 20 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/mcs/class/corlib/System/EmptyArray.cs"
 .loc 20 33 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -33281,7 +33281,7 @@ Lme_138:
 	.align 4
 	.no_dead_strip System_Array_Empty_T_BYTE
 System_Array_Empty_T_BYTE:
-.file 21 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 21 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 21 647 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -33303,7 +33303,7 @@ Lme_139:
 	.align 4
 	.no_dead_strip System_Runtime_InteropServices_MemoryMarshal_GetReference_T_CHAR_System_ReadOnlySpan_1_T_CHAR
 System_Runtime_InteropServices_MemoryMarshal_GetReference_T_CHAR_System_ReadOnlySpan_1_T_CHAR:
-.file 22 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Runtime/InteropServices/MemoryMarshal.cs"
+.file 22 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Runtime/InteropServices/MemoryMarshal.cs"
 .loc 22 50 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -33425,7 +33425,7 @@ Lme_13d:
 	.align 4
 	.no_dead_strip System_SpanHelpers_CopyTo_T_CHAR_T_CHAR__int_T_CHAR__int
 System_SpanHelpers_CopyTo_T_CHAR_T_CHAR__int_T_CHAR__int:
-.file 23 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/external/corefx/src/System.Memory/src/System/SpanHelpers.cs"
+.file 23 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.11/src/Xamarin.iOS/external/corefx/src/System.Memory/src/System/SpanHelpers.cs"
 .loc 23 29 0 prologue_end
 .word 0xa9b07bfd
 .word 0x910003fd
@@ -40319,7 +40319,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "5D9C6619-4F81-40A9-A870-781098487D5D"
+	.asciz "D2BCDF89-6ED4-4E9F-968C-CD0428B71124"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -40404,7 +40404,7 @@ _mono_aot_file_info:
 	.long 472,6968,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 10,137,223,157,211,169,215,15,142,240,32,210,187,1,240,232
+	.byte 96,237,137,162,254,214,153,116,148,180,199,157,138,23,149,159
 	.globl _mono_aot_module_System_Numerics_info
 	.align 3
 _mono_aot_module_System_Numerics_info:
