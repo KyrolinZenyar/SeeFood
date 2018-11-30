@@ -23,13 +23,11 @@ namespace Project
 
         Button nextImage = new Button
         {
-            Text = ">>",
-            TextColor = Color.Blue
+            Text = ">>"
         };
         Button prevImage = new Button
         {
-            Text = "<<",
-            TextColor = Color.Blue
+            Text = "<<"
         };
 
 

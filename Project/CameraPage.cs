@@ -22,7 +22,6 @@ namespace Project
         };
         static int imageCount = 0;
 
-
         Button previousSubmissionsButton = new Button
         {
             Text = "Prev"
@@ -67,6 +66,7 @@ namespace Project
 
         public static void TakePhoto(byte[] stream)
         {
+            //ready = false;
             Dictionary<Image, byte[]> imagesToUpload = new Dictionary<Image, byte[]>();
             MemoryStream memStream = new MemoryStream(stream);
             //stream.CopyTo(memStream);

@@ -53,11 +53,15 @@ namespace Project
         }
 
         private void Classify(object sender, EventArgs e) {
-            ClassificationPage page = new ClassificationPage(serverResponses);
-            //page.serverResponses = serverResponses;
-            //page.Setup();
-            counter = 0;
-            App.SwitchTo(page);
+            if (serverResponses.Count > 0)
+            {
+                ClassificationPage page = new ClassificationPage(serverResponses);
+                //page.serverResponses = serverResponses;
+                //page.Setup();
+                counter = 0;
+                page.Setup();
+                App.SwitchTo(page);
+            }
         }
 
         private void GoBack(object sender, EventArgs e)

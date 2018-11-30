@@ -11,7 +11,7 @@ namespace Project
 
         public PageContainer()
         {
-            currentPage = new CameraPage();
+            currentPage = new InstructionPage();
             Content = currentPage;
         }
 

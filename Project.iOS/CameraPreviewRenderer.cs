@@ -58,6 +58,7 @@ namespace Project.iOS
                 var jpegImageAsNSData = AVCaptureStillImageOutput.JpegStillToNSData(sampleBuffer);
                 var jpegAsByteArray = jpegImageAsNSData.ToArray();
                 CameraPage.TakePhoto(jpegAsByteArray);
+                uiCameraPreview.CaptureSession.RemoveOutput(output);
                 ready = true;
             }
 		}

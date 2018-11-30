@@ -920,7 +920,7 @@ Lme_5:
 	.align 4
 	.no_dead_strip Project_iOS_CameraPreviewRenderer_Dispose_bool
 Project_iOS_CameraPreviewRenderer_Dispose_bool:
-.loc 3 66 0 prologue_end
+.loc 3 67 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -947,7 +947,7 @@ ldr x16, [x16, #320]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 67 0
+.loc 3 68 0
 .word 0xf94017b1
 .word 0xf9407231
 .word 0xb4000051
@@ -961,7 +961,7 @@ ldr x16, [x16, #320]
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 68 0
+.loc 3 69 0
 .word 0xf94017b1
 .word 0xf940a631
 .word 0xb4000051
@@ -991,7 +991,7 @@ bl _p_23
 .word 0xf9410a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 69 0
+.loc 3 70 0
 .word 0xf94017b1
 .word 0xf9411a31
 .word 0xb4000051
@@ -1012,12 +1012,12 @@ bl _p_23
 .word 0xf9415a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 70 0
+.loc 3 71 0
 .word 0xf94017b1
 .word 0xf9416a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 71 0
+.loc 3 72 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -1035,7 +1035,7 @@ bl _p_24
 .word 0xf941ae31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 72 0
+.loc 3 73 0
 .word 0xf94017b1
 .word 0xf941be31
 .word 0xb4000051
@@ -2257,7 +2257,7 @@ bl _p_22
 .word 0xaa1603e1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940ec50
+.word 0xf940f050
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9451231
@@ -3352,7 +3352,7 @@ ldr x16, [x16, #656]
 .word 0x53001c00
 .word 0xaa0003f9
 .word 0xaa1903e0
-.word 0x340034e0
+.word 0x34003820
 .loc 3 47 0
 .word 0xf94027b1
 .word 0xf9400231
@@ -3452,7 +3452,7 @@ bl _p_22
 .word 0xf9402401
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940e850
+.word 0xf940ec50
 .word 0xd63f0200
 .word 0xf94023b1
 .word 0xf9424631
@@ -3597,7 +3597,7 @@ ldr x2, [x16, #16]
 .word 0xf9401fa0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54001fa0
+.word 0x540022e0
 .word 0x91004000
 .word 0x9101c3a1
 .word 0x9101e3a2
@@ -3610,7 +3610,7 @@ bl _p_64
 .word 0xf9448a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x140000e7
+.word 0x14000101
 .word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
@@ -3631,7 +3631,7 @@ bl _p_64
 .word 0xf9401fa0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54001b80
+.word 0x54001ec0
 .word 0x9101e000
 .word 0xf900001f
 .word 0xf9401fa0
@@ -3649,20 +3649,20 @@ bl _p_64
 .word 0xf2bffffe
 .word 0xb900801e
 .word 0xf9401fa0
-.word 0xf90077a0
+.word 0xf9007ba0
 .word 0x9101c3a0
 
 adrp x16, mono_aot_Project_iOS_got@PAGE+0
 add x16, x16, mono_aot_Project_iOS_got@PAGEOFF
 ldr x15, [x16, #680]
 bl _p_65
-.word 0xf90073a0
+.word 0xf90077a0
 .word 0xf94023b1
 .word 0xf9455231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94073a0
-.word 0xf94077a1
+.word 0xf94077a0
+.word 0xf9407ba1
 .word 0xf9003820
 .word 0x9101c021
 .word 0xd349fc21
@@ -3701,17 +3701,17 @@ ldr x2, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
-.word 0xf9006fa0
+.word 0xf90073a0
 .word 0xf9401fa0
 .word 0xf9402c00
 bl _p_66
-.word 0xf9006ba0
+.word 0xf9006fa0
 .word 0xf94023b1
 .word 0xf9460a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9406ba0
-.word 0xf9406fa1
+.word 0xf9406fa0
+.word 0xf94073a1
 .word 0xf9003020
 .word 0x91018021
 .word 0xd349fc21
@@ -3731,19 +3731,19 @@ ldr x2, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
-.word 0xf90067a0
+.word 0xf9006ba0
 .word 0xf9401fa0
 .word 0xf9403001
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_67
-.word 0xf90063a0
+.word 0xf90067a0
 .word 0xf94023b1
 .word 0xf9468231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94063a0
-.word 0xf94067a1
+.word 0xf94067a0
+.word 0xf9406ba1
 .word 0xf9003420
 .word 0x9101a021
 .word 0xd349fc21
@@ -3776,12 +3776,39 @@ bl _p_68
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf9402000
+.word 0xf9406801
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_22
+.word 0xf90063a0
+.word 0xf94023b1
+.word 0xf9472231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94063a2
+.word 0xf9401fa0
+.word 0xf9402401
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940e850
+.word 0xd63f0200
+.word 0xf94023b1
+.word 0xf9474e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 62 0
+.word 0xf94023b1
+.word 0xf9475e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fa0
+.word 0xf9402000
 .word 0xd2800021
 .word 0xd280003e
 .word 0x3903601e
-.loc 3 62 0
+.loc 3 63 0
 .word 0xf94023b1
-.word 0xf9471a31
+.word 0xf9478231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
@@ -3817,7 +3844,7 @@ bl _p_68
 .word 0xf94043a1
 bl _p_69
 .word 0xf94023b1
-.word 0xf947aa31
+.word 0xf9481231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_70
@@ -3827,13 +3854,13 @@ bl _p_70
 .word 0xf9405ba0
 bl _p_71
 .word 0x14000019
-.loc 3 63 0
+.loc 3 64 0
 .word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023b1
-.word 0xf947e631
+.word 0xf9484e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
@@ -3849,11 +3876,11 @@ bl _p_71
 .word 0x91004000
 bl _p_72
 .word 0xf94023b1
-.word 0xf9482631
+.word 0xf9488e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023b1
-.word 0xf9483631
+.word 0xf9489e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9415fb6
@@ -9457,7 +9484,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "5DF2FBE2-B781-4B56-85EE-EF3584574633"
+	.asciz "29A97A34-7BB1-4CB2-99A3-4BD205C7A8CB"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -9536,13 +9563,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 137,1904,101,83,70,387000831,0,14823
-	.long 128,8,8,8,0,25,17384,2552
+	.long 137,1904,101,83,70,387000831,0,14866
+	.long 128,8,8,8,0,25,17424,2552
 	.long 2040,1552,0,1840,2008,1640,0,1128
 	.long 136,2544,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 141,203,250,203,78,77,251,234,205,52,70,224,101,227,21,168
+	.byte 175,47,40,109,22,3,46,204,164,204,218,184,232,84,29,153
 	.globl _mono_aot_module_Project_iOS_info
 	.align 3
 _mono_aot_module_Project_iOS_info:
@@ -16662,7 +16689,7 @@ Lfde5_end:
 	.asciz "Project.iOS.CameraPreviewRenderer:Dispose"
 	.asciz "Project_iOS_CameraPreviewRenderer_Dispose_bool"
 
-	.byte 3,66
+	.byte 3,67
 	.quad Project_iOS_CameraPreviewRenderer_Dispose_bool
 	.quad Lme_6
 
