@@ -32,6 +32,7 @@ namespace Project
             TextColor = Color.Blue
         };
 
+
         Grid testing = new Grid();
 
         Label confy = new Label {
@@ -129,7 +130,8 @@ namespace Project
                 Stream imageStream = new MemoryStream(responseByteArray);
                 Image imageFromServer = new Image
                 {
-                    Source = ImageSource.FromStream(() => imageStream)
+                    Source = ImageSource.FromStream(() => imageStream),
+                    //Opacity = 0.8
                 };
                 testing.Children.Add(imageFromServer, 0, 0);
                 SetColumnSpan(imageFromServer, 2);

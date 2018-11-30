@@ -14,11 +14,23 @@ namespace Project
     {
         public static Dictionary<Image, AWSClassification> previousImages = new Dictionary<Image, AWSClassification>();
         public static List<AWSClassification> previousClassifications = new List<AWSClassification>();
+        Dictionary<Image, int> imageToSpot = new Dictionary<Image, int>();
+
+
+        BoxView greenBox = new BoxView
+        {
+            HorizontalOptions = LayoutOptions.FillAndExpand,
+            VerticalOptions = LayoutOptions.FillAndExpand,
+            Color = Color.Green,
+            Opacity = 1
+        };
 
         Button goBack = new Button
         {
             Text = "Go back"
         };
+
+        TapGestureRecognizer selectImage = new TapGestureRecognizer();
 
         //List<ImageWithConfidence> images = new List<ImageWithConfidence>();
 
@@ -28,6 +40,7 @@ namespace Project
             GetListOfFilesOnServer();
 
             goBack.Pressed += GoBack;
+            selectImage.Tapped += SelectImage;
         }
 
         private void AddOptions()
@@ -38,17 +51,19 @@ namespace Project
             Children.Add(options, 0, 1);
         }
 
-        private void GoBack(object sender, EventArgs e) {
+        private void GoBack(object sender, EventArgs e)
+        {
             App.GoBack();
         }
 
 
-        private  async void GetImages()
+        private async void GetImages()
         {
             var counter = 0;
             var AWSServer = "http://seefood-dev2.us-east-2.elasticbeanstalk.com/get-image?file=";
 
-            for (int i = 0; i < previousClassifications.Count(); i++){
+            for (int i = 0; i < previousClassifications.Count(); i++)
+            {
                 var testClassification = previousClassifications.ElementAt(i);
                 try
                 {
@@ -66,13 +81,43 @@ namespace Project
                     //var bytes = Convert.FromBase64String(image);
 
                     Stream imageStream = new MemoryStream(responseByteArray);
+
+                    //check if food or not food
+                    //add overlay
+                    if (testClassification.Classification == 0)
+                    {
+                        imageGrid.Children.Add(new BoxView
+                        {
+                            HorizontalOptions = LayoutOptions.FillAndExpand,
+                            VerticalOptions = LayoutOptions.FillAndExpand,
+                            Color = Color.Green,
+                            Opacity = 1
+                        }, counter % 4, counter / 4);
+                    }
+                    else if (testClassification.Classification == 1)
+                    {
+                        imageGrid.Children.Add(new BoxView
+                        {
+                            HorizontalOptions = LayoutOptions.FillAndExpand,
+                            VerticalOptions = LayoutOptions.FillAndExpand,
+                            Color = Color.Red,
+                            Opacity = 1
+                        }, counter % 4, counter / 4);
+                    }
+
                     Image imageFromServer = new Image
                     {
-                        Source = ImageSource.FromStream(() => imageStream)
+                        Source = ImageSource.FromStream(() => imageStream),
+                        Opacity = 0.9
                     };
+
+                    imageToSpot.Add(imageFromServer, counter);
+                    imageFromServer.GestureRecognizers.Add(selectImage);
 
                     previousImages.Add(imageFromServer, testClassification);
                     imageGrid.Children.Add(imageFromServer, counter % 4, counter / 4);
+
+
                     counter++;
                     if (counter % 4 == 0)
                     {
@@ -80,6 +125,7 @@ namespace Project
                     }
                     //images.Add(imageFromServer);
                     //imageGrid.Children.Add(imageFromServer, 0, 0);
+
 
                 }
                 catch (Exception ex)
@@ -92,6 +138,14 @@ namespace Project
 
         }
 
+        //THE BELOW GETS THE INT OF THE SPOT IN THE ARRAY FOR TAPPING IMG
+        private void SelectImage(object sender, EventArgs e) {
+            var imageSender = (Image)sender;
+            int arraySpot = imageToSpot[imageSender];
+            Console.WriteLine(arraySpot);
+        }
+        /// YAAAAAAAAAAAAA
+        /// 
 
 
         //Get the list of files previously uploaded to the server.

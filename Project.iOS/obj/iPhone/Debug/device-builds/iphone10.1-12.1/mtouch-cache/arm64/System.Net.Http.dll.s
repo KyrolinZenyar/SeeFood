@@ -87639,7 +87639,7 @@ _mono_aot_file_info:
 	.long 1672,22312,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 5,151,244,96,247,125,143,94,174,3,25,20,61,96,157,51
+	.byte 232,117,73,208,32,200,160,100,88,47,106,126,8,226,36,18
 	.globl _mono_aot_module_System_Net_Http_info
 	.align 3
 _mono_aot_module_System_Net_Http_info:
