@@ -3,6 +3,7 @@ using Xamarin.Forms;
 
 namespace Project
 {
+    //abstract class for user gallery page and previous submissions page which introduces a scrollable grid in the content area of the app page
     public abstract class GalleryPage : AppPage
     {
         ScrollView scroll = new ScrollView();

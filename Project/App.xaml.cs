@@ -5,6 +5,7 @@ using Xamarin.Forms.Xaml;
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Project
 {
+    //Main entry point to the application, partly controls switching between different pages
     public partial class App : Application
     {
         private static PageContainer pc = new PageContainer();

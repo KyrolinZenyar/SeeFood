@@ -4,6 +4,7 @@ using Xamarin.Forms;
 
 namespace Project
 {
+    //Data structure for managing which page is being viewed and switching between pages
     public class PageContainer : ContentPage
     {
         private Stack<AppPage> pages = new Stack<AppPage>();

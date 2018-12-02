@@ -108,9 +108,9 @@
 /Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhoneSimulator/Debug/Project.iOS.csproj.CopyComplete
 /Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhoneSimulator/Debug/Project.iOS.exe
 /Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhoneSimulator/Debug/Project.iOS.pdb
-/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.1/ibtool/_BundleResourceWithLogicalName.items
-/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.1/actool/_PartialAppManifest.items
-/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.1/actool/_BundleResourceWithLogicalName.items
-/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.1/coremlc/_PartialAppManifest.items
-/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.1/coremlc/_BundleResourceWithLogicalName.items
-/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.1/optimized/
+/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/actool/_PartialAppManifest.items
+/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/actool/_BundleResourceWithLogicalName.items
+/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/coremlc/_PartialAppManifest.items
+/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/

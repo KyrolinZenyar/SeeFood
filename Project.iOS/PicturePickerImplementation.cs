@@ -1,15 +1,9 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-using System.Collections.Generic;
-
 using Foundation;
 using UIKit;
-
-using Photos;
-
 using Xamarin.Forms;
-
 using Project.iOS;
 
 [assembly: Dependency(typeof(PicturePickerImplementation))]
@@ -17,6 +11,8 @@ using Project.iOS;
 
 namespace Project.iOS
 {
+    //used to implement the picture picker in iOS
+    //code used from xamarin forms website: https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/dependency-service/photo-picker
     public class PicturePickerImplementation : IPicturePicker
     {
         TaskCompletionSource<Stream> taskCompletionSource;

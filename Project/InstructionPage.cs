@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 namespace Project
 {
+    //provides instructions on how to use the application upon opening the application
     public class InstructionPage : AppPage
     {
         Button okayButton = new Button

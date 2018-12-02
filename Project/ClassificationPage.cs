@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace Project
 {
+    //This page is used to view results of an image after it has been passed through AWS for classification
     public class ClassificationPage : AppPage
     {
         public Dictionary<Image, AWSClassification> serverResponses;
@@ -30,7 +31,6 @@ namespace Project
             Text = "<<"
         };
 
-
         Grid testing = new Grid();
 
         Label confy = new Label {
@@ -43,6 +43,8 @@ namespace Project
             HorizontalOptions = LayoutOptions.Center,
             VerticalOptions = LayoutOptions.Center
         };
+
+        bool fromPrev;
 
         public ClassificationPage(Dictionary<Image, AWSClassification> fromAWS)
         {
@@ -62,14 +64,23 @@ namespace Project
             prevImage.Pressed += PrevImage;
         }
 
+        //helper for when going to classification page from camera page or user gallery page
         public async void Setup()
         {
+            fromPrev = false;
             counter = 0;
             await GetImage();
-
-
         }
 
+        //helper for when going to classification page from previous user submissions page
+        public async void Setup(int arraySpot)
+        {
+            fromPrev = true;
+            counter = arraySpot;
+            await GetImage();
+        }
+
+        //get images from aws server to display on page, also setups up any other necessary buttons or graphics
         private async Task GetImage()
         {
             if (serverResponses.Count > 0)
@@ -93,10 +104,8 @@ namespace Project
                     nextImage.Opacity = 100;
                 }
             }
-
             var filename = currentResponse.Filename;
             fp.Text = filename;
-
             if (currentResponse.Classification == 0)
             {
                 confy.Text = "yah";
@@ -105,7 +114,6 @@ namespace Project
             {
                 confy.Text = "nah";
             }
-            //confy.Text = serverResponses.FirstOrDefault().Value.Classification + " " + serverResponses.FirstOrDefault().Value.Confidence;
             confidenceBar.Progress = currentResponse.Confidence / 100.0;
             confyPercent.Text = Math.Round(currentResponse.Confidence, 2).ToString() + "%"; 
             options.Children.Add(confy, 0, 0);
@@ -114,26 +122,19 @@ namespace Project
             options.Children.Add(confyPercent, 1, 0);
             SetColumnSpan(confyPercent, 2);
             var AWSServer = "http://seefood-dev2.us-east-2.elasticbeanstalk.com/get-image?file=";
-
             try
             {
                 HttpClient serverClient = new HttpClient();
-                //Console.WriteLine(testClassification.Value.Filename);
                 var imageFileRequest = AWSServer + currentResponse.Filename;
                 var response = await serverClient.GetAsync(imageFileRequest);
-
                 byte[] responseByteArray = response.Content.ReadAsByteArrayAsync().Result;
-
-
                 Stream imageStream = new MemoryStream(responseByteArray);
                 Image imageFromServer = new Image
                 {
                     Source = ImageSource.FromStream(() => imageStream),
-                    //Opacity = 0.8
                 };
                 testing.Children.Add(imageFromServer, 0, 0);
                 SetColumnSpan(imageFromServer, 2);
-
                 testing.Children.Add(nextImage, 1, 1);
                 testing.Children.Add(prevImage, 0, 1);
             }
@@ -143,13 +144,18 @@ namespace Project
             }
         }
 
-
+        //handler for going back to a previous page from classification page
         private void GoBack(object sender, EventArgs e)
         {
-            serverResponses.Clear();
+            if(!fromPrev)
+            {
+                serverResponses.Clear();
+            }
+            fromPrev = false;
             App.GoBack();
         }
-        
+
+        //handler for when user wants to view next image in the classification list of images
         private async void NextImage(object sender, EventArgs e) {
             counter++;
             testing.Children.Clear();
@@ -158,6 +164,7 @@ namespace Project
             await GetImage();
         }
 
+        //handler for when user wants to view previous image in the classification list of images
         private async void PrevImage(object sender, EventArgs e) {
             counter--;
             testing.Children.Clear();
@@ -166,10 +173,10 @@ namespace Project
             await GetImage();
         }
 
+        //helper for setting up page with buttons in the options grid
         private void AddOptions()
         {
             options.Children.Add(goBack, 3, 0);
-
             Children.Add(options, 0, 1);
         }
     }

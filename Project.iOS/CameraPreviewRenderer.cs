@@ -4,8 +4,6 @@ using Project;
 using Project.iOS;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
-using System.Runtime.InteropServices;
-using CoreImage;
 
 using AVFoundation;
 
@@ -15,11 +13,12 @@ using Foundation;
 [assembly: ExportRenderer (typeof(CameraPreview), typeof(CameraPreviewRenderer))]
 namespace Project.iOS
 {
-	public class CameraPreviewRenderer : ViewRenderer<CameraPreview, UICameraPreview>
+    //creates a camera preview that is displayed on the camera page
+    //code used from xamarin forms github: https://github.com/xamarin/xamarin-forms-samples/blob/master/CustomRenderers/View/iOS/CameraPreviewRenderer.cs
+    public class CameraPreviewRenderer : ViewRenderer<CameraPreview, UICameraPreview>
 	{
 		public UICameraPreview uiCameraPreview;
-        public Boolean ready = true;
-
+        public bool ready = true;
 
 		protected override void OnElementChanged (ElementChangedEventArgs<CameraPreview> e)
 		{
@@ -38,9 +37,8 @@ namespace Project.iOS
                 uiCameraPreview.Tapped += OnCameraPreviewTapped;
             }
 		}
-
-
-
+        
+        //handles when the preview is tapped (to take a picture for classification)
 		public async void OnCameraPreviewTapped (object sender, EventArgs e)
 		{
             if (ready)
@@ -57,6 +55,7 @@ namespace Project.iOS
 
                 var jpegImageAsNSData = AVCaptureStillImageOutput.JpegStillToNSData(sampleBuffer);
                 var jpegAsByteArray = jpegImageAsNSData.ToArray();
+                //send to camera page to send image to aws
                 CameraPage.TakePhoto(jpegAsByteArray);
                 uiCameraPreview.CaptureSession.RemoveOutput(output);
                 ready = true;

@@ -2,7 +2,10 @@
 
 namespace Project
 {
-	public class CameraPreview : View
+
+    //Used for creating the camera preview on the CameraPage
+    //Code used from Xamarin Forms github: https://github.com/xamarin/xamarin-forms-samples/blob/master/CustomRenderers/View/CustomRenderer/CameraPreview.cs
+    public class CameraPreview : View
 	{
 		public static readonly BindableProperty CameraProperty = BindableProperty.Create (
 			propertyName: "Camera",

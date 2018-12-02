@@ -10,20 +10,12 @@ using Xamarin.Forms;
 
 namespace Project
 {
+    //page shows the user all previous submissions that have been made by any other user using our application
     public class PreviousSubmissionsPage : GalleryPage
     {
         public static Dictionary<Image, AWSClassification> previousImages = new Dictionary<Image, AWSClassification>();
         public static List<AWSClassification> previousClassifications = new List<AWSClassification>();
         Dictionary<Image, int> imageToSpot = new Dictionary<Image, int>();
-
-
-        BoxView greenBox = new BoxView
-        {
-            HorizontalOptions = LayoutOptions.FillAndExpand,
-            VerticalOptions = LayoutOptions.FillAndExpand,
-            Color = Color.Green,
-            Opacity = 1
-        };
 
         Button goBack = new Button
         {
@@ -31,9 +23,7 @@ namespace Project
         };
 
         TapGestureRecognizer selectImage = new TapGestureRecognizer();
-
-        //List<ImageWithConfidence> images = new List<ImageWithConfidence>();
-
+        
         public PreviousSubmissionsPage()
         {
             AddOptions();
@@ -43,6 +33,7 @@ namespace Project
             selectImage.Tapped += SelectImage;
         }
 
+        //helper for setting up options bar
         private void AddOptions()
         {
             options.Children.Add(goBack, 0, 0);
@@ -51,12 +42,14 @@ namespace Project
             Children.Add(options, 0, 1);
         }
 
+        //handler for going back to previous page
         private void GoBack(object sender, EventArgs e)
         {
+            previousClassifications.Clear();
             App.GoBack();
         }
 
-
+        //retrieves all previous submissions from the aws server and presents them on the grid
         private async void GetImages()
         {
             var counter = 0;
@@ -74,16 +67,8 @@ namespace Project
 
                     byte[] responseByteArray = response.Content.ReadAsByteArrayAsync().Result;
 
-                    //string result = null;
-                    //result = response.Content.ReadAsStringAsync().Result.Replace(""", string.Empty);
-
-                    //byte[] image = JsonConvert.DeserializeObject<byte[]>(responseString);
-                    //var bytes = Convert.FromBase64String(image);
-
                     Stream imageStream = new MemoryStream(responseByteArray);
 
-                    //check if food or not food
-                    //add overlay
                     if (testClassification.Classification == 0)
                     {
                         imageGrid.Children.Add(new BoxView
@@ -104,11 +89,10 @@ namespace Project
                             Opacity = 1
                         }, counter % 4, counter / 4);
                     }
-
                     Image imageFromServer = new Image
                     {
                         Source = ImageSource.FromStream(() => imageStream),
-                        Opacity = 0.9
+                        Opacity = 0.85
                     };
 
                     imageToSpot.Add(imageFromServer, counter);
@@ -117,36 +101,28 @@ namespace Project
                     previousImages.Add(imageFromServer, testClassification);
                     imageGrid.Children.Add(imageFromServer, counter % 4, counter / 4);
 
-
                     counter++;
                     if (counter % 4 == 0)
                     {
                         imageGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(160) });
                     }
-                    //images.Add(imageFromServer);
-                    //imageGrid.Children.Add(imageFromServer, 0, 0);
-
-
                 }
                 catch (Exception ex)
                 {
                     Debug.WriteLine("Exception occurred: " + ex.ToString());
                 }
             }
-
             previousClassifications.Clear();
-
         }
 
-        //THE BELOW GETS THE INT OF THE SPOT IN THE ARRAY FOR TAPPING IMG
+        //helper for when a user taps an image to view in more detail on the classification page
         private void SelectImage(object sender, EventArgs e) {
             var imageSender = (Image)sender;
             int arraySpot = imageToSpot[imageSender];
-            Console.WriteLine(arraySpot);
+            ClassificationPage page = new ClassificationPage(previousImages);
+            page.Setup(arraySpot);
+            App.SwitchTo(page);
         }
-        /// YAAAAAAAAAAAAA
-        /// 
-
 
         //Get the list of files previously uploaded to the server.
         private async void GetListOfFilesOnServer()
@@ -157,13 +133,9 @@ namespace Project
             {
                 HttpClient serverClient = new HttpClient();
                 var response = await serverClient.GetAsync(AWSServer);
-
                 string responseString = response.Content.ReadAsStringAsync().Result;
-
                 ImagesFromAWS imagesFromAWS = JsonConvert.DeserializeObject<ImagesFromAWS>(responseString);
-
                 Debug.WriteLine(imagesFromAWS);
-
                 foreach (Item pathItem in imagesFromAWS.photos)
                 {
                     string imageFilePath = pathItem.File;
@@ -187,13 +159,10 @@ namespace Project
 
                 }
                 GetImages();
-
-
             }
             catch (Exception ex)
             {
                 Debug.WriteLine("Exception occurred: " + ex.ToString());
-
                 return;
             }
         }

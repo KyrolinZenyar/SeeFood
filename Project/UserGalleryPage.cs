@@ -9,6 +9,7 @@ using Project.DataStructures;
 
 namespace Project
 {
+    //page for allowing a user to select an image from their phone gallery to submit for classification
     public class UserGalleryPage : GalleryPage
     {
         Button pickPictureButton = new Button
@@ -32,7 +33,6 @@ namespace Project
         List<Image> images = new List<Image>();
         int counter = 0;
 
-
         public UserGalleryPage()
         {
             AddOptions();
@@ -42,6 +42,7 @@ namespace Project
             pickPictureButton.Pressed += SelectImage;
         }
 
+        //helper for adding buttons to options bar
         private void AddOptions()
         {
             options.Children.Add(pickPictureButton, 0, 0);
@@ -56,8 +57,6 @@ namespace Project
             if (serverResponses.Count > 0)
             {
                 ClassificationPage page = new ClassificationPage(serverResponses);
-                //page.serverResponses = serverResponses;
-                //page.Setup();
                 counter = 0;
                 page.Setup();
                 App.SwitchTo(page);
@@ -77,22 +76,13 @@ namespace Project
                 MemoryStream memStream = new MemoryStream();
                 stream.CopyTo(memStream);
                 byte[] imageData = memStream.ToArray();
-                //IF THIS DOESN'T WORK, TRY SWAPPING TO THE IMAGESTREAM VERSION
                 Stream imageStream = new MemoryStream(imageData);
                 imageStream.Position = 0;
                 Image image = new Image
                 {
-                    //Source = Xamarin.Forms.ImageSource.FromStream(() => stream)
-                    //Source = Xamarin.Forms.ImageSource.FromStream(() => memStream),
-                    //BackgroundColor = Color.White,
-                    Source = Xamarin.Forms.ImageSource.FromStream(() => imageStream)
+                    Source = ImageSource.FromStream(() => imageStream)
                 };
                 imagesToUpload.Add(image, imageData);
-                //Image image = new Image
-                //{
-                //    Source = ImageSource.FromStream(() => stream),
-                //    BackgroundColor = Color.White,
-                //};
 
                 imageGrid.Children.Add(image, counter % 4, counter / 4);
                 counter++;
@@ -101,8 +91,6 @@ namespace Project
                 }
                 images.Add(image);
 
-                //classifyButton.Text = "Classify " + imageCount + " Photos";
-                //Classify image as each photo is taken
                 ClassifyImage(imagesToUpload);
             }
             else
@@ -131,7 +119,7 @@ namespace Project
                     HttpClient serverClient = new HttpClient();
                     MultipartFormDataContent uploadDataContent = new MultipartFormDataContent();
                     ByteArrayContent byteArrayContent = new ByteArrayContent(byteArrayToUpload);
-                    string fileName = "SeeFoodUpload" + DateTime.Now.ToString("yyyy-mm-dd-HH-mm-ss") + ".png";
+                    string fileName = "SeeFoodUpload" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png";
                     uploadDataContent.Add(byteArrayContent, "file", fileName);
 
                     //Get server response
@@ -153,10 +141,8 @@ namespace Project
             catch (Exception ex)
             {
                 Debug.WriteLine("Exception occurred: " + ex.ToString());
-
                 return;
             }
-
         }
     }
 }

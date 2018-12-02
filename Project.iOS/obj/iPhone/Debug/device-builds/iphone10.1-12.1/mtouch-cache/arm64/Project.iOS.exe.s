@@ -9569,7 +9569,7 @@ _mono_aot_file_info:
 	.long 136,2544,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 175,47,40,109,22,3,46,204,164,204,218,184,232,84,29,153
+	.byte 182,158,50,127,65,83,141,226,240,124,166,159,41,204,174,178
 	.globl _mono_aot_module_Project_iOS_info
 	.align 3
 _mono_aot_module_Project_iOS_info:
