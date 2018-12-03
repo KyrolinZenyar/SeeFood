@@ -7,15 +7,13 @@ using UIKit;
 
 namespace Project.iOS
 {
-	public class UICameraPreview : UIView
+    //used for handling certains interactions with the camera preview
+    //code given from xamarin forms github: https://github.com/xamarin/xamarin-forms-samples/blob/master/CustomRenderers/View/iOS/UICameraPreview.cs
+    public class UICameraPreview : UIView
 	{
 		AVCaptureVideoPreviewLayer previewLayer;
 		CameraOptions cameraOptions;
-
 		public event EventHandler<EventArgs> Tapped;
-
-
-
 		public AVCaptureSession CaptureSession { get; private set; }
 
 		public bool IsPreviewing { get; set; }
@@ -46,10 +44,6 @@ namespace Project.iOS
 				eventHandler (this, new EventArgs ());
 			}
 		}
-
-        public void screencap() {
-
-        }
 
 		void Initialize ()
 		{

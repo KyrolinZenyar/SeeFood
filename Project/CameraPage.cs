@@ -9,6 +9,7 @@ using Project.DataStructures;
 
 namespace Project
 {
+    //Used as the page for taking photos and sending them for classification
     public class CameraPage : AppPage
     {
         Button userGalleryButton = new Button
@@ -20,8 +21,8 @@ namespace Project
         {
             Text = "Classify 0 Images"
         };
-        static int imageCount = 0;
 
+        static int imageCount = 0;
 
         Button previousSubmissionsButton = new Button
         {
@@ -39,20 +40,18 @@ namespace Project
             NumberOfTapsRequired = 1
         };
 
-        //public static Dictionary<Image, byte[]> imagesToUpload = new Dictionary<Image, byte[]>();
         public static Dictionary<Image, AWSClassification> serverResponses = new Dictionary<Image, AWSClassification>();
-
 
         public CameraPage()
         {
             AddOptions();
-
 
             userGalleryButton.Pressed += GoToGallery;
             previousSubmissionsButton.Pressed += GoToPrevious;
             classifyButton.Pressed += ClassifyThese;
         }
 
+        //helper for setting up the page with options and user interaction mechanisms
         private void AddOptions() {
             options.Children.Add(userGalleryButton, 0, 0);
             options.Children.Add(classifyButton, 1, 0);
@@ -65,37 +64,32 @@ namespace Project
             camera.GestureRecognizers.Add(takePhoto);
         }
 
+        //helper for when a user taps the camera preview to take a picture
         public static void TakePhoto(byte[] stream)
         {
             Dictionary<Image, byte[]> imagesToUpload = new Dictionary<Image, byte[]>();
             MemoryStream memStream = new MemoryStream(stream);
-            //stream.CopyTo(memStream);
             byte[] imageData = memStream.ToArray();
-            //IF THIS DOESN'T WORK, TRY SWAPPING TO THE IMAGESTREAM VERSION
-            //Stream imageStream = new MemoryStream(imageData);
             Image imageToSend = new Image
             {
-                //Source = Xamarin.Forms.ImageSource.FromStream(() => stream)
                 Source = Xamarin.Forms.ImageSource.FromStream(() => memStream)
-                //Source = Xamarin.Forms.ImageSource.FromStream(() => imageStream)
             };
             imagesToUpload.Add(imageToSend, imageData);
             imageCount++;
             classifyButton.Text = "Classify " + imageCount + " Photos";
-            //Classify image as each photo is taken
             ClassifyImage(imagesToUpload);
             
         }
 
+        //handler for going to a page to select photos from gallery to classify
         private void GoToGallery(object sender, EventArgs e) {
             UserGalleryPage page = new UserGalleryPage();
-            //Other setup stuff
             App.SwitchTo(page);
         }
 
+        //handler for going to a page to view all previous user submissions
         private void GoToPrevious(object sender, EventArgs e) {
             PreviousSubmissionsPage page = new PreviousSubmissionsPage();
-            //Other setup stuff
             App.SwitchTo(page);
         }
 
@@ -117,7 +111,7 @@ namespace Project
                     HttpClient serverClient = new HttpClient();
                     MultipartFormDataContent uploadDataContent = new MultipartFormDataContent();
                     ByteArrayContent byteArrayContent = new ByteArrayContent(byteArrayToUpload);
-                    string fileName = "SeeFoodUpload" + DateTime.Now.ToString("yyyy-mm-dd-HH-mm-ss") + ".png";
+                    string fileName = "SeeFoodUpload" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png";
                     uploadDataContent.Add(byteArrayContent, "file", fileName);
 
                     //Get server response
@@ -140,17 +134,16 @@ namespace Project
 
                 return;
             }
-
         }
 
         private void ClassifyThese(object sender, EventArgs e) {
-            
-            imageCount = 0;
-            ClassificationPage page = new ClassificationPage(serverResponses);
-            //page.serverResponses = serverResponses;
-            page.Setup();
-            App.SwitchTo(page);
+            if(serverResponses.Count > 0){
+                imageCount = 0;
+                classifyButton.Text = "Classify " + imageCount + " Photos";
+                ClassificationPage page = new ClassificationPage(serverResponses);
+                page.Setup();
+                App.SwitchTo(page);
+            }
         }
-
     }
 }

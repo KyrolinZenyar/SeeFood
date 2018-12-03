@@ -4,6 +4,7 @@ using Xamarin.Forms;
 
 namespace Project
 {
+    //Data structure for managing which page is being viewed and switching between pages
     public class PageContainer : ContentPage
     {
         private Stack<AppPage> pages = new Stack<AppPage>();
@@ -11,7 +12,7 @@ namespace Project
 
         public PageContainer()
         {
-            currentPage = new CameraPage();
+            currentPage = new InstructionPage();
             Content = currentPage;
         }
 
@@ -25,6 +26,10 @@ namespace Project
         public void GoBack()
         {
             currentPage = pages.Pop();
+            if(currentPage is PreviousSubmissionsPage)
+            {
+                currentPage = new PreviousSubmissionsPage();
+            }
             Content = currentPage;
         }
     }

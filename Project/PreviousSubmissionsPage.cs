@@ -10,26 +10,30 @@ using Xamarin.Forms;
 
 namespace Project
 {
+    //page shows the user all previous submissions that have been made by any other user using our application
     public class PreviousSubmissionsPage : GalleryPage
     {
         public static Dictionary<Image, AWSClassification> previousImages = new Dictionary<Image, AWSClassification>();
         public static List<AWSClassification> previousClassifications = new List<AWSClassification>();
+        Dictionary<Image, int> imageToSpot = new Dictionary<Image, int>();
 
         Button goBack = new Button
         {
             Text = "Go back"
         };
 
-        //List<ImageWithConfidence> images = new List<ImageWithConfidence>();
-
+        TapGestureRecognizer selectImage = new TapGestureRecognizer();
+        
         public PreviousSubmissionsPage()
         {
             AddOptions();
             GetListOfFilesOnServer();
 
             goBack.Pressed += GoBack;
+            selectImage.Tapped += SelectImage;
         }
 
+        //helper for setting up options bar
         private void AddOptions()
         {
             options.Children.Add(goBack, 0, 0);
@@ -38,48 +42,91 @@ namespace Project
             Children.Add(options, 0, 1);
         }
 
-        private void GoBack(object sender, EventArgs e) {
+        //handler for going back to previous page
+        private void GoBack(object sender, EventArgs e)
+        {
+            previousClassifications.Clear();
             App.GoBack();
         }
 
-
-        private  async void GetImages()
+        //retrieves all previous submissions from the aws server and presents them on the grid
+        private async void GetImages()
         {
+            if(previousImages.Count > 0 || previousImages != null)
+            {
+                previousImages.Clear();
+            }
+            var counter = 0;
             var AWSServer = "http://seefood-dev2.us-east-2.elasticbeanstalk.com/get-image?file=";
 
-            var testClassification = previousClassifications.FirstOrDefault();
-            try
+            for (int i = 0; i < previousClassifications.Count(); i++)
             {
-                HttpClient serverClient = new HttpClient();
-                Console.WriteLine(testClassification.Filename);
-                var imageFileRequest = AWSServer + testClassification.Filename;
-                var response = await serverClient.GetAsync(imageFileRequest);
-
-                byte[] responseByteArray = response.Content.ReadAsByteArrayAsync().Result;
-
-                //string result = null;
-                //result = response.Content.ReadAsStringAsync().Result.Replace(""", string.Empty);
-
-                //byte[] image = JsonConvert.DeserializeObject<byte[]>(responseString);
-                //var bytes = Convert.FromBase64String(image);
-
-                Stream imageStream = new MemoryStream(responseByteArray);
-                Image imageFromServer = new Image
+                var testClassification = previousClassifications.ElementAt(i);
+                try
                 {
-                    Source = ImageSource.FromStream(() => imageStream)
-                };
+                    HttpClient serverClient = new HttpClient();
+                    Console.WriteLine(testClassification.Filename);
+                    var imageFileRequest = AWSServer + testClassification.Filename;
+                    var response = await serverClient.GetAsync(imageFileRequest);
 
-                previousImages.Add(imageFromServer, testClassification);
-                imageGrid.Children.Add(imageFromServer, 0, 0);
+                    byte[] responseByteArray = response.Content.ReadAsByteArrayAsync().Result;
 
+                    Stream imageStream = new MemoryStream(responseByteArray);
+
+                    if (testClassification.Classification == 0)
+                    {
+                        imageGrid.Children.Add(new BoxView
+                        {
+                            HorizontalOptions = LayoutOptions.FillAndExpand,
+                            VerticalOptions = LayoutOptions.FillAndExpand,
+                            Color = Color.Green,
+                            Opacity = 1
+                        }, counter % 4, counter / 4);
+                    }
+                    else if (testClassification.Classification == 1)
+                    {
+                        imageGrid.Children.Add(new BoxView
+                        {
+                            HorizontalOptions = LayoutOptions.FillAndExpand,
+                            VerticalOptions = LayoutOptions.FillAndExpand,
+                            Color = Color.Red,
+                            Opacity = 1
+                        }, counter % 4, counter / 4);
+                    }
+                    Image imageFromServer = new Image
+                    {
+                        Source = ImageSource.FromStream(() => imageStream),
+                        Opacity = 0.85
+                    };
+
+                    imageToSpot.Add(imageFromServer, counter);
+                    imageFromServer.GestureRecognizers.Add(selectImage);
+
+                    previousImages.Add(imageFromServer, testClassification);
+                    imageGrid.Children.Add(imageFromServer, counter % 4, counter / 4);
+
+                    counter++;
+                    if (counter % 4 == 0)
+                    {
+                        imageGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(160) });
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine("Exception occurred: " + ex.ToString());
+                }
             }
-            catch (Exception ex)
-            {
-                Debug.WriteLine("Exception occurred: " + ex.ToString());
-            }
+            previousClassifications.Clear();
         }
 
-
+        //helper for when a user taps an image to view in more detail on the classification page
+        private void SelectImage(object sender, EventArgs e) {
+            var imageSender = (Image)sender;
+            int arraySpot = imageToSpot[imageSender];
+            ClassificationPage page = new ClassificationPage(previousImages);
+            page.Setup(arraySpot);
+            App.SwitchTo(page);
+        }
 
         //Get the list of files previously uploaded to the server.
         private async void GetListOfFilesOnServer()
@@ -90,13 +137,9 @@ namespace Project
             {
                 HttpClient serverClient = new HttpClient();
                 var response = await serverClient.GetAsync(AWSServer);
-
                 string responseString = response.Content.ReadAsStringAsync().Result;
-
                 ImagesFromAWS imagesFromAWS = JsonConvert.DeserializeObject<ImagesFromAWS>(responseString);
-
                 Debug.WriteLine(imagesFromAWS);
-
                 foreach (Item pathItem in imagesFromAWS.photos)
                 {
                     string imageFilePath = pathItem.File;
@@ -118,42 +161,12 @@ namespace Project
 
                     previousClassifications.Add(newClassification);
 
-                    GetImages();
                 }
-
-
-                //Iterate through all images passed in (should only be one at a time)
-                //foreach (KeyValuePair<Image, byte[]> uploadData in imagesToUpload)
-                //{
-                //    //Get byte array of image
-                //    var byteArrayToUpload = uploadData.Value;
-
-                //    //Set up HTTP client and data to upload (byte array) THIS MAY NOT WORK
-                //    HttpClient serverClient = new HttpClient();
-                //    MultipartFormDataContent uploadDataContent = new MultipartFormDataContent();
-                //    ByteArrayContent byteArrayContent = new ByteArrayContent(byteArrayToUpload);
-                //    string fileName = "SeeFoodUpload" + DateTime.Now.ToString("yyyy-mm-dd-HH-mm-ss") + ".png";
-                //    uploadDataContent.Add(byteArrayContent, "file", fileName);
-
-                //    //Get server response
-                //    var response = await serverClient.PostAsync(AWSServer, uploadDataContent);
-
-                //    string responseString = response.Content.ReadAsStringAsync().Result;
-
-                //    //Deserialize Json response as classification object
-                //    //Classification responseClassification = JsonConvert.DeserializeObject<Classification>(responseString);
-
-                //    //Put string of server response into dictionary associated with image.
-                //    serverResponses.Add(uploadData.Key, responseClassification);
-
-                //    Debug.WriteLine(responseClassification);
-                //}
-                //imagesToUpload.Clear();
+                GetImages();
             }
             catch (Exception ex)
             {
                 Debug.WriteLine("Exception occurred: " + ex.ToString());
-
                 return;
             }
         }

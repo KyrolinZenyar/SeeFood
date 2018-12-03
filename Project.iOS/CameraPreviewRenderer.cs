@@ -4,7 +4,6 @@ using Project;
 using Project.iOS;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
-using System.Runtime.InteropServices;
 
 using AVFoundation;
 
@@ -14,11 +13,12 @@ using Foundation;
 [assembly: ExportRenderer (typeof(CameraPreview), typeof(CameraPreviewRenderer))]
 namespace Project.iOS
 {
-	public class CameraPreviewRenderer : ViewRenderer<CameraPreview, UICameraPreview>
+    //creates a camera preview that is displayed on the camera page
+    //code used from xamarin forms github: https://github.com/xamarin/xamarin-forms-samples/blob/master/CustomRenderers/View/iOS/CameraPreviewRenderer.cs
+    public class CameraPreviewRenderer : ViewRenderer<CameraPreview, UICameraPreview>
 	{
 		public UICameraPreview uiCameraPreview;
-
-
+        public bool ready = true;
 
 		protected override void OnElementChanged (ElementChangedEventArgs<CameraPreview> e)
 		{
@@ -37,41 +37,29 @@ namespace Project.iOS
                 uiCameraPreview.Tapped += OnCameraPreviewTapped;
             }
 		}
-
-        public byte[] Capture() {
-            var capture = UIScreen.MainScreen.Capture();
-            //var cappy = uiCameraPreview.previewLayer.
-
-            using( NSData data = capture.AsPNG()) {
-                var bytes = new byte[data.Length];
-                Marshal.Copy(data.Bytes, bytes, 0, Convert.ToInt32(data.Length));
-                return bytes;
-            }
-        }
-
+        
+        //handles when the preview is tapped (to take a picture for classification)
 		public async void OnCameraPreviewTapped (object sender, EventArgs e)
 		{
-            AVCaptureStillImageOutput output = new AVCaptureStillImageOutput
+            if (ready)
             {
-                OutputSettings = new NSDictionary()
-            };
-            //uiCameraPreview.CaptureSession.StartRunning();
-            uiCameraPreview.CaptureSession.AddOutput(output);
+                ready = false;
+                AVCaptureStillImageOutput output = new AVCaptureStillImageOutput
+                {
+                    OutputSettings = new NSDictionary()
+                };
+                uiCameraPreview.CaptureSession.AddOutput(output);
+                System.Threading.Thread.Sleep(70);
+                var videoConnection = output.ConnectionFromMediaType(AVMediaType.Video);
+                var sampleBuffer = await output.CaptureStillImageTaskAsync(videoConnection);
 
-            var videoConnection = output.ConnectionFromMediaType(AVMediaType.Video);
-            var sampleBuffer = await output.CaptureStillImageTaskAsync(videoConnection);
-
-            var jpegImageAsNSData = AVCaptureStillImageOutput.JpegStillToNSData(sampleBuffer);
-            var jpegAsByteArray = jpegImageAsNSData.ToArray();
-
-            CameraPage.TakePhoto(jpegAsByteArray);
-
-
-            //uiCameraPreview.CaptureSession.StopRunning();
-            //var stuff = uiCameraPreview.Capture();
-            //uiCameraPreview.CaptureSession.
-            //var stuff = Capture();
-            //CameraPage.TakePhoto(stuff);
+                var jpegImageAsNSData = AVCaptureStillImageOutput.JpegStillToNSData(sampleBuffer);
+                var jpegAsByteArray = jpegImageAsNSData.ToArray();
+                //send to camera page to send image to aws
+                CameraPage.TakePhoto(jpegAsByteArray);
+                uiCameraPreview.CaptureSession.RemoveOutput(output);
+                ready = true;
+            }
 		}
 
 		protected override void Dispose (bool disposing)

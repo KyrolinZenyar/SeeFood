@@ -170,3 +170,4 @@
 /Users/loganfrank/Desktop/softwareEngineering/temp2/Project.iOS/obj/iPhone/Debug/XamlC.stamp
 /Users/loganfrank/Desktop/softwareEngineering/temp2/Project.iOS/obj/iPhone/Debug/Project.iOS.csproj.CopyComplete
 /Users/loganfrank/Desktop/softwareEngineering/temp2/Project.iOS/bin/iPhone/Debug/Newtonsoft.Json.dll
+/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project.iOS/bin/iPhone/Debug/Newtonsoft.Json.dll
