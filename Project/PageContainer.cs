@@ -26,6 +26,10 @@ namespace Project
         public void GoBack()
         {
             currentPage = pages.Pop();
+            if(currentPage is PreviousSubmissionsPage)
+            {
+                currentPage = new PreviousSubmissionsPage();
+            }
             Content = currentPage;
         }
     }

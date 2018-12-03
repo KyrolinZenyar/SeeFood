@@ -52,6 +52,10 @@ namespace Project
         //retrieves all previous submissions from the aws server and presents them on the grid
         private async void GetImages()
         {
+            if(previousImages.Count > 0 || previousImages != null)
+            {
+                previousImages.Clear();
+            }
             var counter = 0;
             var AWSServer = "http://seefood-dev2.us-east-2.elasticbeanstalk.com/get-image?file=";
 
