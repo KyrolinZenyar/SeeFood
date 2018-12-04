@@ -1,23 +1,19 @@
 ﻿<Properties StartupConfiguration="{A87AD617-A01E-43E0-BF49-D67D1B431CE0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Project/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Project/PageContainer.cs">
     <Files>
-      <File FileName="Project/PreviousSubmissionsPage.cs" Line="96" Column="38" />
-      <File FileName="Project/ClassificationPage.cs" Line="155" Column="1" />
+      <File FileName="Project/PreviousSubmissionsPage.cs" Line="48" Column="20" />
+      <File FileName="Project/ClassificationPage.cs" Line="150" Column="1" />
       <File FileName="Project.iOS/Main.cs" Line="17" Column="1" />
       <File FileName="Project/App.xaml.cs" Line="37" Column="1" />
-      <File FileName="Project/PageContainer.cs" Line="30" Column="1" />
+      <File FileName="Project/PageContainer.cs" Line="28" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Project.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E4ABF58B-F7BF-412A-ADBB-C978230401F2" />
+  <MonoDevelop.Ide.ItemProperties.Project.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.a5b9bf6224977629aa5389faf0b34110b1a7f121" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Project.Droid PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project/PreviousSubmissionsPage.cs" relfile="Project/PreviousSubmissionsPage.cs" line="64" column="1" />
-      <Breakpoint file="/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project/PreviousSubmissionsPage.cs" relfile="Project/PreviousSubmissionsPage.cs" line="29" column="1" />
-      <Breakpoint file="/Users/loganfrank/Desktop/softwareEngineering/SeeFood/Project/ClassificationPage.cs" relfile="Project/ClassificationPage.cs" line="150" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
