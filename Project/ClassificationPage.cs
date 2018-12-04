@@ -108,11 +108,11 @@ namespace Project
             fp.Text = filename;
             if (currentResponse.Classification == 0)
             {
-                confy.Text = "yah";
+                confy.Text = "Food :)";
             }
             else
             {
-                confy.Text = "nah";
+                confy.Text = "Not food :(";
             }
             confidenceBar.Progress = currentResponse.Confidence / 100.0;
             confyPercent.Text = Math.Round(currentResponse.Confidence, 2).ToString() + "%"; 
